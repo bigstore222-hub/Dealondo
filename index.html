@@ -82,6 +82,10 @@
   .tags{display:flex;gap:6px;flex-wrap:wrap}
   .tag2{font-size:11px;color:var(--sub);border:1px solid var(--line);
         padding:2px 7px;border-radius:5px}
+  .code{background:#132a1b;border:1px solid #2e6b3f;border-radius:8px;
+        padding:8px 10px;font-size:12px;color:#8ee0a1}
+  .code b{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:14px;
+          color:#c6ffd6;letter-spacing:.5px}
   .foot{display:flex;align-items:center;gap:8px;margin-top:auto;padding-top:4px}
   .src{font-size:11px;color:var(--sub)}
   a.go{margin-left:auto;background:var(--accent);color:#fff;text-decoration:none;
@@ -178,7 +182,6 @@ function render(){
   if(!list.length){board.innerHTML='<div class="empty">표시할 딜이 없습니다.</div>';return;}
   board.innerHTML=list.map(d=>{
     const c=d.currency||'USD', t=[];
-    if(d.coupon_stackable)t.push('쿠폰 중복');
     if(d.off_season)t.push('역시즌');
     if(d.free_gift)t.push('사은품');
     if(d.price_alltime_low!=null&&d.price_current!=null&&d.price_current<=d.price_alltime_low)t.push('역대 최저가');
@@ -213,6 +216,7 @@ function render(){
         ${d.discount_pct?`<span class="off">${Math.round(d.discount_pct)}% OFF</span>`:''}
       </div>
       ${krwBlock}
+      ${d.coupon_code?`<div class="code">🎟 결제 시 코드 <b>${String(d.coupon_code).split('·')[0].trim()}</b>${String(d.coupon_code).includes('·')?'<br><span style="opacity:.8">'+String(d.coupon_code).split('·').slice(1).join('·').trim()+'</span>':''}</div>`:''}
       ${t.length?`<div class="tags">${t.map(x=>`<span class="tag2">${x}</span>`).join('')}</div>`:''}
       <div class="foot">
         <span class="src">${d.category||''}</span>
