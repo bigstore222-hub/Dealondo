@@ -3,11 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>핫딜 레이더 — 해외직구 딜 큐레이션</title>
-<meta name="description" content="해외 리테일러 123곳을 상시 감시해 실제로 살 만한 해외직구 딜만 선별합니다. 관세·부가세를 포함한 실질 가격으로 국내 최저가와 비교합니다.">
-<meta property="og:title" content="핫딜 레이더 — 해외직구 딜 큐레이션">
-<meta property="og:description" content="4년간 13,145건의 딜을 선별해 온 기준을 자동화했습니다.">
+<title>딜온도 Dealondo — 해외직구 딜 큐레이션</title>
+<meta name="description" content="해외 리테일러 123곳을 상시 감시하는 핫딜 레이더. 관세·부가세를 포함한 실질 원화가로 국내 최저가와 비교해, 진짜 살 만한 해외직구 딜만 선별합니다.">
+<meta property="og:title" content="딜온도 Dealondo — 해외직구 딜 큐레이션">
+<meta property="og:description" content="딜의 온도를 잽니다. 4년간 13,145건을 선별해 온 기준을 자동화했습니다.">
 <meta property="og:type" content="website">
+<meta property="og:locale" content="ko_KR">
 <style>
   :root{
     --bg:#0f1115; --card:#1a1d24; --line:#2a2f3a; --txt:#e7eaf0; --sub:#9aa4b2;
@@ -18,13 +19,15 @@
        font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",sans-serif}
   .wrap{max-width:1200px;margin:0 auto;padding:0 20px}
 
-  header{border-bottom:1px solid var(--line);padding:28px 0}
-  .brand{font-size:24px;font-weight:700;margin:0}
-  .tag{color:var(--sub);font-size:14px;margin:6px 0 0}
+  header{border-bottom:1px solid var(--line);padding:30px 0}
+  .brand{font-size:27px;font-weight:800;margin:0;letter-spacing:-.5px}
+  .brand span{color:var(--accent)}
+  .tag{color:var(--sub);font-size:14px;margin:8px 0 0}
 
   .intro{padding:32px 0;border-bottom:1px solid var(--line)}
   .intro h2{font-size:17px;margin:0 0 12px;font-weight:600}
-  .intro p{color:var(--sub);font-size:14px;margin:0 0 10px;max-width:760px}
+  .intro p{color:var(--sub);font-size:14px;margin:0 0 10px;max-width:780px}
+  .intro strong{color:var(--txt)}
   .stats{display:flex;gap:28px;flex-wrap:wrap;margin-top:20px}
   .stat b{display:block;font-size:22px;color:var(--txt)}
   .stat span{font-size:12px;color:var(--sub)}
@@ -35,6 +38,12 @@
             border-radius:10px;padding:14px}
   .crit h3{font-size:14px;margin:0 0 6px;font-weight:600}
   .crit p{font-size:13px;color:var(--sub);margin:0}
+
+  .temp{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+  .temp div{background:var(--card);border:1px solid var(--line);border-radius:10px;
+            padding:10px 14px;font-size:13px;color:var(--sub)}
+  .temp b{display:inline-block;padding:2px 8px;border-radius:5px;font-size:11px;
+          margin-right:6px;color:#111}
 
   .barhead{display:flex;align-items:center;gap:12px;padding:26px 0 14px;flex-wrap:wrap}
   .barhead h2{font-size:18px;margin:0}
@@ -49,6 +58,11 @@
   .card{background:var(--card);border:1px solid var(--line);border-radius:14px;
         padding:16px;display:flex;flex-direction:column;gap:9px}
   .card:hover{border-color:var(--accent)}
+  .thumb{width:100%;aspect-ratio:4/3;background:#fff;border-radius:10px;
+         overflow:hidden;display:flex;align-items:center;justify-content:center}
+  .thumb img{width:100%;height:100%;object-fit:contain;display:block}
+  .thumb.none{background:var(--bg);border:1px dashed var(--line);
+              color:var(--sub);font-size:12px;aspect-ratio:4/1}
   .row{display:flex;align-items:center;gap:8px}
   .badge{font-size:11px;font-weight:700;padding:3px 9px;border-radius:6px}
   .FLASH{background:var(--flash);color:#fff}
@@ -62,6 +76,9 @@
   .now{font-size:19px;font-weight:800}
   .was{color:var(--sub);text-decoration:line-through;font-size:13px}
   .off{color:var(--flash);font-weight:700;font-size:13px}
+  .krw{font-size:12px;color:var(--sub);border-top:1px dashed var(--line);padding-top:8px}
+  .krw b{color:var(--txt)}
+  .save{color:#4ade80;font-weight:700}
   .tags{display:flex;gap:6px;flex-wrap:wrap}
   .tag2{font-size:11px;color:var(--sub);border:1px solid var(--line);
         padding:2px 7px;border-radius:5px}
@@ -73,7 +90,7 @@
          background:var(--card);border:1px solid var(--line);border-radius:14px}
 
   footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--sub);font-size:13px}
-  footer p{margin:0 0 8px;max-width:760px}
+  footer p{margin:0 0 8px;max-width:780px}
   .disc{background:var(--card);border:1px solid var(--line);border-radius:10px;
         padding:14px;margin-bottom:16px}
 </style>
@@ -81,21 +98,28 @@
 <body>
 
 <header><div class="wrap">
-  <h1 class="brand">핫딜 레이더</h1>
-  <p class="tag">해외직구 딜 큐레이션 · Hotdeal Radar</p>
+  <h1 class="brand">딜<span>온도</span></h1>
+  <p class="tag">Dealondo · 해외직구 딜 큐레이션</p>
 </div></header>
 
 <section class="intro"><div class="wrap">
-  <h2>무엇을 하는 사이트인가</h2>
+  <h2>딜의 온도를 잽니다</h2>
   <p>
-    해외 리테일러 123곳의 세일 정보를 상시 수집해, <strong>실제로 살 만한 딜만</strong> 선별해 공유합니다.
-    단순히 할인 상품을 모아 나열하지 않습니다. 2022년 7월부터 4년간 직접 딜을 선별해 온 기준을
-    데이터로 정리해 자동화했습니다.
+    할인율만 크다고 좋은 딜이 아닙니다. <strong>딜온도</strong>는 해외 리테일러 123곳을 상시 감시하는
+    핫딜 레이더로, 수집한 딜마다 온도를 매겨 <strong>진짜 살 만한 것만</strong> 골라냅니다.
+    2022년 7월부터 4년간 직접 딜을 선별해 온 기준을 데이터로 정리해 자동화했습니다.
   </p>
   <p>
     특히 <strong>관세·부가세를 포함한 실질 원화가</strong>를 계산해 국내 최저가와 비교합니다.
     해외 표시가격이 싸 보여도 세금을 더하면 국내에서 사는 게 나은 경우가 많은데, 그런 딜은 걸러냅니다.
+    면세한도(미국발 200달러)를 넘겨 전액 과세되면 오히려 손해가 되는 구간까지 계산에 반영합니다.
   </p>
+
+  <div class="temp">
+    <div><b class="FLASH">FLASH</b>지금 아니면 사라지는 딜</div>
+    <div><b class="HOT">HOT</b>놓치기 아까운 딜</div>
+    <div><b class="STEADY">STEADY</b>여유 있게 볼 만한 딜</div>
+  </div>
 
   <div class="stats">
     <div class="stat"><b>13,145</b><span>4년간 선별 발행한 딜</span></div>
@@ -107,13 +131,13 @@
     <div><h3>할인 깊이</h3><p>표기 정가가 아닌 평시가 대비 실제 할인율을 계산합니다.</p></div>
     <div><h3>가격 이력</h3><p>역대 최저가인지 자체 축적한 가격 기록으로 판정합니다.</p></div>
     <div><h3>실질가 비교</h3><p>관부가세·배송비를 더한 원화가로 국내 최저가와 비교합니다.</p></div>
-    <div><h3>긴급도</h3><p>수명이 짧은 딜은 FLASH로 분류해 우선 알립니다.</p></div>
+    <div><h3>딜 온도</h3><p>수명이 짧은 딜일수록 높은 온도로 분류해 먼저 알립니다.</p></div>
   </div>
 </div></section>
 
 <div class="wrap">
   <div class="barhead">
-    <h2>최근 선별된 딜</h2>
+    <h2>오늘의 딜</h2>
     <span class="meta" id="meta">불러오는 중…</span>
     <div class="filters" id="filters">
       <button data-f="ALL" class="active">전체</button>
@@ -128,13 +152,13 @@
 <footer><div class="wrap">
   <div class="disc">
     <strong>제휴 관련 안내</strong><br>
-    이 사이트의 일부 링크는 제휴 링크이며, 이를 통해 구매가 발생할 경우 사이트 운영자가
+    딜온도의 일부 링크는 제휴 링크이며, 이를 통해 구매가 발생할 경우 운영자가
     일정 수수료를 받을 수 있습니다. 수수료 지급 여부는 딜 선별 기준에 영향을 주지 않습니다.
     딜은 위에 명시한 기준에 따라서만 선별됩니다.
   </div>
   <p>표시된 가격과 재고는 수집 시점 기준이며, 실제와 다를 수 있습니다. 구매 전 판매처에서 반드시 확인하세요.</p>
   <p>관부가세 계산은 참고용 추정치입니다. 실제 부과액은 품목분류·환율·통관 방식에 따라 달라집니다.</p>
-  <p style="margin-top:14px">© Hotdeal Radar</p>
+  <p style="margin-top:14px">© 딜온도 Dealondo</p>
 </div></footer>
 
 <script>
@@ -147,6 +171,7 @@ function fmt(v,cur){
   return cur==='KRW' ? Number(v).toLocaleString()+'원'
                      : '$'+Number(v).toLocaleString(undefined,{maximumFractionDigits:2});
 }
+function won(v){return v==null?null:Math.round(v).toLocaleString()+'원';}
 
 function render(){
   const list=deals.filter(d=>filter==='ALL'||d.urgency===filter);
@@ -158,11 +183,27 @@ function render(){
     if(d.free_gift)t.push('사은품');
     if(d.price_alltime_low!=null&&d.price_current!=null&&d.price_current<=d.price_alltime_low)t.push('역대 최저가');
     if(d.expires_at)t.push('마감 '+String(d.expires_at).slice(0,16).replace('T',' '));
+
+    let krwBlock='';
+    if(d.krw_effective){
+      let cmp='';
+      if(d.kr_lowest_price){
+        const save=Math.round((1-d.krw_effective/d.kr_lowest_price)*100);
+        cmp=` · 국내 ${won(d.kr_lowest_price)} <span class="save">${save}% 절약</span>`;
+      }
+      krwBlock=`<div class="krw">관부가세 포함 <b>${won(d.krw_effective)}</b>${cmp}</div>`;
+    }
+
+    const thumb = d.image
+      ? `<div class="thumb"><img src="${d.image}" alt="${(d.title||'').replace(/"/g,'')}" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.className='thumb none';this.parentNode.textContent='이미지 없음'"></div>`
+      : `<div class="thumb none">이미지 없음</div>`;
+
     return `<div class="card">
+      ${thumb}
       <div class="row">
         <span class="badge ${d.urgency}">${d.urgency}</span>
         <span class="src">${d.source}</span>
-        <span class="score">점수 <b>${d.score}</b></span>
+        <span class="score">온도 <b>${d.score}</b></span>
       </div>
       ${d.brand?`<div class="brand2">${d.brand}</div>`:''}
       <div class="title">${d.title}</div>
@@ -171,6 +212,7 @@ function render(){
         ${d.price_list?`<span class="was">${fmt(d.price_list,c)}</span>`:''}
         ${d.discount_pct?`<span class="off">${Math.round(d.discount_pct)}% OFF</span>`:''}
       </div>
+      ${krwBlock}
       ${t.length?`<div class="tags">${t.map(x=>`<span class="tag2">${x}</span>`).join('')}</div>`:''}
       <div class="foot">
         <span class="src">${d.category||''}</span>
