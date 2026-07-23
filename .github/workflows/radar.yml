@@ -39,11 +39,13 @@ jobs:
           restore-keys: |
             dealondo-db-
 
+      # CI에서는 렌더링(Playwright)을 쓰지 않으므로 브라우저를 설치하지 않는다.
+      # → 설치 4~5분 절약 + 렌더 멈춤/불안정 원천 제거. 정적 소스(노드스트롬랙·
+      #   자포스·6pm·DoA·제휴피드)만으로도 프리미엄 딜은 충분히 잡힌다.
       - name: 의존성 설치
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          python -m playwright install --with-deps chromium
 
       - name: 한 사이클 수집
         env:
@@ -53,10 +55,11 @@ jobs:
           RADAR_WEB_JSON: ${{ github.workspace }}/deals.json
           # Actions 러너는 디스크가 넉넉하다
           RADAR_MIN_FREE_MB: '500'
-          # 티어당 수집 시간 상한(초). 한 실행이 타임아웃 전에 반드시 끝나게.
-          # 티어 주기 로직 덕에 대부분 실행은 T1(+가끔 T2)만 돌아 훨씬 빨리 끝난다.
-          RADAR_FETCH_BUDGET_SEC: '240'
-          RADAR_SITE_BUDGET_SEC: '40'
+          RADAR_DISABLE_RENDER: '1'      # CI는 정적 수집만 (렌더 사이트는 로컬에서)
+          # 티어당 수집 시간 상한(초). 렌더를 끈 정적 수집이라 훨씬 빨라, 첫 전량
+          # 스윕도 타임아웃 안에 끝난다. 이후엔 티어 주기 로직으로 대부분 T1/T2만.
+          RADAR_FETCH_BUDGET_SEC: '180'
+          RADAR_SITE_BUDGET_SEC: '25'
           PYTHONUTF8: '1'
           # 시크릿 (Settings > Secrets and variables > Actions 에 등록)
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

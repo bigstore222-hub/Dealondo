@@ -90,6 +90,11 @@ def available() -> bool:
     global _available
     if _available is not None:
         return _available
+    # CI(GitHub Actions)처럼 렌더링을 끄고 정적 수집만 하고 싶을 때.
+    # 렌더 사이트(Amazon/eBay/Woot/Yoox 등)는 건너뛰지만 실행이 빠르고 안정적이다.
+    if os.environ.get("RADAR_DISABLE_RENDER"):
+        _available = False
+        return _available
     try:
         from playwright.sync_api import sync_playwright
         with sync_playwright() as p:
