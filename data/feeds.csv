@@ -1,0 +1,12 @@
+name,retailer,url,format,category
+# 승인받은 제휴 상품피드를 여기에 한 줄씩 추가하세요.
+# - name: 표시용 이름 (예: Macys-Rakuten)
+# - retailer: 딜보드에 뜰 소스명 (예: macys.com)
+# - url: 제휴 네트워크에서 받은 상품피드 URL (CSV/TSV/XML)
+# - format: auto / csv / tsv / xml  (보통 auto면 됩니다)
+# - category: 기본 카테고리 (premium_fashion/sports_outdoor/electronics/kids/etc, 비우면 자동추론)
+#
+# 예시(승인 후 실제 URL로 교체):
+# Macys-Rakuten,macys.com,https://feeds.rakutenmarketing.com/.../macys_sale.csv,auto,premium_fashion
+# TheOutnet-Impact,theoutnet.com,https://products.impact.com/.../outnet.xml,xml,premium_fashion
+# Columbia-CJ,columbia.com,https://datatransfer.cj.com/.../columbia.csv,csv,sports_outdoor

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>딜온도 — 딜보드</title>
+<style>
+  :root{
+    --bg:#0f1115; --card:#1a1d24; --line:#2a2f3a; --txt:#e7eaf0; --sub:#9aa4b2;
+    --flash:#ff4d4f; --hot:#ff9800; --steady:#ffd54a; --accent:#5b8cff;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);
+       font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",sans-serif}
+  header{padding:20px 24px;border-bottom:1px solid var(--line);
+         display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  h1{font-size:20px;margin:0;font-weight:700}
+  .meta{color:var(--sub);font-size:13px}
+  .toolbar{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+  .toolbar button{background:var(--card);color:var(--txt);border:1px solid var(--line);
+    padding:7px 13px;border-radius:20px;cursor:pointer;font-size:13px}
+  .toolbar button.active{background:var(--accent);border-color:var(--accent);color:#fff}
+  main{padding:20px 24px;display:grid;gap:14px;
+       grid-template-columns:repeat(auto-fill,minmax(320px,1fr));max-width:1400px;margin:0 auto}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;
+        padding:16px;display:flex;flex-direction:column;gap:10px;transition:.15s}
+  .card:hover{border-color:var(--accent);transform:translateY(-2px)}
+  .row{display:flex;align-items:center;gap:8px}
+  .badge{font-size:11px;font-weight:700;padding:3px 9px;border-radius:6px;color:#111}
+  .FLASH{background:var(--flash);color:#fff}
+  .HOT{background:var(--hot);color:#111}
+  .STEADY{background:var(--steady);color:#111}
+  .score{margin-left:auto;font-size:13px;color:var(--sub)}
+  .score b{color:var(--txt);font-size:16px}
+  .title{font-size:15px;font-weight:600;line-height:1.35}
+  .brandrow{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+  .brand{font-size:15px;color:var(--txt);font-weight:800;letter-spacing:.2px}
+  .btier{font-size:10px;font-weight:800;padding:2px 7px;border-radius:5px}
+  .btier.premium{background:linear-gradient(135deg,#b8860b,#ffd77a);color:#3a2a00}
+  .btier.known{background:#20304a;color:#8fb6ff;border:1px solid #33507f}
+  .btier.unknown{background:#2a2a2a;color:#999}
+  .price{display:flex;align-items:baseline;gap:8px}
+  .now{font-size:20px;font-weight:800}
+  .was{color:var(--sub);text-decoration:line-through;font-size:13px}
+  .off{color:var(--flash);font-weight:700;font-size:13px}
+  .promo{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;
+    background:#132b1e;color:#57e08a;border:1px solid #2c6b45;border-radius:7px;padding:5px 10px}
+  .promo code{font-family:ui-monospace,Menlo,monospace;background:#0b1a12;color:#8affc0;
+    padding:1px 6px;border-radius:4px;letter-spacing:.5px}
+  .tags{display:flex;gap:6px;flex-wrap:wrap}
+  .tag{font-size:11px;color:var(--sub);border:1px solid var(--line);
+       padding:2px 7px;border-radius:5px}
+  .foot{display:flex;align-items:center;gap:8px;margin-top:2px}
+  .src{font-size:11px;color:var(--sub)}
+  a.go{margin-left:auto;background:var(--accent);color:#fff;text-decoration:none;
+       font-size:12px;font-weight:700;padding:7px 14px;border-radius:8px}
+  .bd{font-size:11px;color:var(--sub);display:flex;gap:6px;flex-wrap:wrap;
+      border-top:1px dashed var(--line);padding-top:8px}
+  .empty{grid-column:1/-1;text-align:center;color:var(--sub);padding:60px}
+</style>
+</head>
+<body>
+<header>
+  <h1>🌡️ 딜온도</h1>
+  <span class="meta" id="meta">불러오는 중…</span>
+  <div class="toolbar" id="filters">
+    <button data-f="ALL" class="active">전체</button>
+    <button data-f="FLASH">🔴 FLASH</button>
+    <button data-f="HOT">🟠 HOT</button>
+    <button data-f="STEADY">🟡 STEADY</button>
+    <button data-f="PREMIUM">⭐ 프리미엄</button>
+  </div>
+</header>
+<main id="board"><div class="empty">deals.json 로딩 중…</div></main>
+
+<script>
+const board=document.getElementById('board');
+const meta=document.getElementById('meta');
+let deals=[], filter='ALL';
+
+function fmtPrice(v){return v==null?'—':'$'+Number(v).toLocaleString(undefined,{maximumFractionDigits:2});}
+
+function render(){
+  const list=deals.filter(d=>filter==='ALL'||(filter==='PREMIUM'?d.brand_tier==='premium':d.urgency===filter));
+  if(!list.length){board.innerHTML='<div class="empty">표시할 딜이 없습니다.</div>';return;}
+  board.innerHTML=list.map(d=>{
+    const tags=[];
+    if(d.coupon_stackable)tags.push('🎟️ 쿠폰중복');
+    if(d.off_season)tags.push('❄️ 역시즌');
+    if(d.free_gift)tags.push('🎁 사은품');
+    if(d.price_alltime_low!=null && d.price_current!=null && d.price_current<=d.price_alltime_low)tags.push('📉 역대최저');
+    const b=d.score_breakdown||{};
+    return `<div class="card">
+      <div class="row">
+        <span class="badge ${d.urgency}">${d.urgency}</span>
+        <span class="src">${d.source} · ${d.source_tier}</span>
+        <span class="score">점수 <b>${d.score}</b>/100</span>
+      </div>
+      <div class="brandrow">
+        <span class="brand">${d.brand||'브랜드 미상'}</span>
+        ${d.brand_tier?`<span class="btier ${d.brand_tier}">${({premium:'⭐ 프리미엄',known:'✓ 유명',unknown:'· 무명'})[d.brand_tier]||''}</span>`:''}
+      </div>
+      <div class="title">${d.title}</div>
+      <div class="price">
+        <span class="now">${fmtPrice(d.price_current)}</span>
+        ${d.price_list?`<span class="was">${fmtPrice(d.price_list)}</span>`:''}
+        ${d.discount_pct?`<span class="off">${d.discount_pct}% OFF</span>`:''}
+      </div>
+      ${d.coupon_code?`<div class="promo">🎟️ 결제창 코드 <code>${d.coupon_code}</code> 입력가 ${fmtPrice(d.price_current)}</div>`:''}
+      ${tags.length?`<div class="tags">${tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>`:''}
+      <div class="foot">
+        <span class="src">${d.category||''}</span>
+        <a class="go" href="${d.url}" target="_blank" rel="noopener">딜 보기 →</a>
+      </div>
+      <div class="bd">
+        <span>할인 ${b.discount_depth??0}</span><span>이력 ${b.price_history??0}</span>
+        <span>카테고리 ${b.category??0}</span><span>브랜드 ${b.brand??0}</span><span>보너스 ${b.bonus??0}</span>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+document.getElementById('filters').addEventListener('click',e=>{
+  if(e.target.tagName!=='BUTTON')return;
+  document.querySelectorAll('#filters button').forEach(b=>b.classList.remove('active'));
+  e.target.classList.add('active');filter=e.target.dataset.f;render();
+});
+
+fetch('deals.json').then(r=>r.json()).then(data=>{
+  deals=data.deals||[];
+  const t=new Date(data.generated_at);
+  meta.textContent=`발행 ${data.count}건 · 갱신 ${t.toLocaleString('ko-KR')}`;
+  render();
+}).catch(e=>{
+  board.innerHTML='<div class="empty">deals.json을 불러오지 못했습니다.<br>먼저 <code>python run.py --sample</code>를 실행하세요.<br><small>'+e+'</small></div>';
+});
+</script>
+</body>
+</html>

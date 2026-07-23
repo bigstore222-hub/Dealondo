@@ -1,0 +1,90 @@
+name: Dealondo Radar
+
+# PC를 켜두지 않아도 GitHub 서버가 주기적으로 스크래퍼를 돌린다.
+# 결과(deals.json)를 리포에 커밋 → GitHub Pages 딜보드가 자동 갱신되고,
+# 텔레그램 알림도 서버에서 발송된다.
+on:
+  schedule:
+    - cron: '*/20 * * * *'   # 20분마다 (GitHub 부하에 따라 다소 지연될 수 있음)
+  workflow_dispatch: {}        # Actions 탭에서 수동 실행 버튼
+
+# 이전 실행이 안 끝났으면 겹치지 않게 한 번에 하나만.
+concurrency:
+  group: dealondo-radar
+  cancel-in-progress: false
+
+permissions:
+  contents: write              # deals.json 커밋/푸시 권한
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: 체크아웃
+        uses: actions/checkout@v4
+
+      - name: 파이썬 준비
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # DB(가격이력·중복방지)를 실행 간에 유지한다.
+      # 리포에 커밋하면 바이너리가 계속 쌓이므로, 대신 Actions 캐시를 굴린다.
+      - name: DB 캐시 복원
+        uses: actions/cache/restore@v4
+        with:
+          path: data/radar.db
+          key: dealondo-db-${{ github.run_id }}
+          restore-keys: |
+            dealondo-db-
+
+      - name: 의존성 설치
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: 한 사이클 수집
+        env:
+          # DB는 리포 안 data/ 에 두고 캐시로 유지
+          RADAR_DB: ${{ github.workspace }}/data/radar.db
+          # 딜보드 JSON은 리포 루트로 → GitHub Pages가 서빙
+          RADAR_WEB_JSON: ${{ github.workspace }}/deals.json
+          # Actions 러너는 디스크가 넉넉하다
+          RADAR_MIN_FREE_MB: '500'
+          RADAR_FETCH_BUDGET_SEC: '1000'
+          PYTHONUTF8: '1'
+          # 시크릿 (Settings > Secrets and variables > Actions 에 등록)
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          # 이메일 뉴스레터 수집(선택) — 설정 시에만 동작
+          RADAR_IMAP_USER: ${{ secrets.RADAR_IMAP_USER }}
+          RADAR_IMAP_PASS: ${{ secrets.RADAR_IMAP_PASS }}
+        run: |
+          mkdir -p data
+          cd scraper
+          python scheduler.py --once
+
+      - name: DB 캐시 저장
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/radar.db
+          key: dealondo-db-${{ github.run_id }}
+
+      - name: 딜보드 커밋 & 푸시
+        run: |
+          # 최신 UI를 루트로 동기화(딜보드 화면)
+          cp -f web/index.html index.html || true
+          git config user.name "dealondo-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add deals.json index.html
+          if git diff --staged --quiet; then
+            echo "변경 없음 — 커밋 생략"
+          else
+            git commit -m "딜보드 갱신 $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi

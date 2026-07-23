@@ -1,0 +1,15 @@
+# 파이썬 캐시
+__pycache__/
+*.pyc
+
+# 로컬 실행 로그 (윈도우 배치가 남기는 것)
+실행결과*.txt
+재점검결과*.txt
+
+# 로컬 DB (Actions에서는 캐시로 관리, 커밋하지 않음)
+*.db
+*.db-journal
+
+# OS 부산물
+.DS_Store
+Thumbs.db

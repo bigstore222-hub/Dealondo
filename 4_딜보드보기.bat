@@ -1,0 +1,14 @@
+@echo off
+title Hotdeal Radar - Board
+cd /d "%~dp0web"
+set PYTHONIOENCODING=utf-8
+set PYTHONUTF8=1
+echo.
+echo ============================================
+echo   µôº¸µå¸¦ ºê¶ó¿ìÀú·Î ¿±´Ï´Ù
+echo   ÀÌ Ã¢À» ´ÝÀ¸¸é µôº¸µåµµ ´ÝÈü´Ï´Ù
+echo ============================================
+echo.
+start "" http://localhost:8000
+python -m http.server 8000
+pause
