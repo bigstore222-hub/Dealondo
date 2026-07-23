@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-23T14:51:11.084012+00:00",
-  "count": 111,
+  "generated_at": "2026-07-23T16:11:48.884330+00:00",
+  "count": 115,
   "deals": [
     {
       "source": "nordstromrack.com",
@@ -47,7 +47,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-23T14:36:31.377335+00:00"
+      "detected_at": "2026-07-23T16:11:21.801281+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -72,7 +72,7 @@
       "ships_to_kr": true,
       "forwarding_ok": true,
       "krw_effective": 29555,
-      "kr_lowest_price": null,
+      "kr_lowest_price": 108240.0,
       "stock_status": "in_stock",
       "is_refurbished": false,
       "expires_at": null,
@@ -94,7 +94,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-23T14:36:31.377420+00:00"
+      "detected_at": "2026-07-23T16:11:21.801333+00:00"
     },
     {
       "source": "zappos.com",
@@ -141,7 +141,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-23T14:36:32.629474+00:00"
+      "detected_at": "2026-07-23T16:11:23.029761+00:00"
     },
     {
       "source": "zappos.com",
@@ -658,7 +658,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-23T14:36:31.377344+00:00"
+      "detected_at": "2026-07-23T16:11:21.801284+00:00"
     },
     {
       "source": "zappos.com",
@@ -705,7 +705,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-23T14:36:32.629452+00:00"
+      "detected_at": "2026-07-23T16:11:23.029719+00:00"
     },
     {
       "source": "6pm.com",
@@ -940,7 +940,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-23T14:36:31.377448+00:00"
+      "detected_at": "2026-07-23T16:11:21.801360+00:00"
     },
     {
       "source": "zappos.com",
@@ -987,7 +987,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-23T14:36:32.629497+00:00"
+      "detected_at": "2026-07-23T16:11:23.029773+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -1034,7 +1034,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-23T14:36:33.999414+00:00"
+      "detected_at": "2026-07-23T16:11:28.506979+00:00"
     },
     {
       "source": "6pm.com",
@@ -1178,6 +1178,147 @@
       "detected_at": "2026-07-23T07:32:33.228874+00:00"
     },
     {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10048700",
+      "title": "Ari Velvet Top",
+      "brand": "AllSaints",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/81CkbMuLk0L._AC_SR255,340_.jpg",
+      "price_current": 32.25,
+      "price_list": 129.0,
+      "price_baseline": 129.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 47681,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.zappos.com/product/10048700",
+      "discount_pct": 75.0,
+      "score": 71,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-07-23T16:11:23.029875+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/9975474",
+      "title": "Eleanor Sandal",
+      "brand": "Tory Burch",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/71zPhc-qMkL._AC_SR255,340_.jpg",
+      "price_current": 90.0,
+      "price_list": 300.0,
+      "price_baseline": 300.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": 4.0,
+      "review_count": 64,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 133064,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.zappos.com/product/9975474",
+      "discount_pct": 70.0,
+      "score": 71,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-07-23T16:11:23.029984+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10000881",
+      "title": "Bazely Metallic Boot",
+      "brand": "AllSaints",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/71bdFd+1vnL._AC_SR255,340_.jpg",
+      "price_current": 104.7,
+      "price_list": 349.0,
+      "price_baseline": 349.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 154798,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.zappos.com/product/10000881",
+      "discount_pct": 70.0,
+      "score": 71,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-07-23T16:11:23.030066+00:00"
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/burberry-51mm-cat-eye-sunglasses/7778073",
@@ -1223,53 +1364,6 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-23T14:36:31.377498+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10048700",
-      "title": "Ari Velvet Top",
-      "brand": "AllSaints",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/81CkbMuLk0L._AC_SR255,340_.jpg",
-      "price_current": 32.25,
-      "price_list": 129.0,
-      "price_baseline": 129.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 47681,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.zappos.com/product/10048700",
-      "discount_pct": 75.0,
-      "score": 71,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-07-23T14:36:32.629643+00:00"
     },
     {
       "source": "zappos.com",
@@ -1737,7 +1831,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:31.377278+00:00"
+      "detected_at": "2026-07-23T16:11:21.801234+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1784,7 +1878,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:31.377377+00:00"
+      "detected_at": "2026-07-23T16:11:21.801303+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -1831,7 +1925,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:33.999406+00:00"
+      "detected_at": "2026-07-23T16:11:28.506972+00:00"
     },
     {
       "source": "6pm.com",
@@ -1925,7 +2019,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:33.999383+00:00"
+      "detected_at": "2026-07-23T16:11:28.506951+00:00"
     },
     {
       "source": "ashford.com",
@@ -2071,53 +2165,6 @@
     {
       "source": "nordstromrack.com",
       "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/free-people-freya-plaid-bow-midi-dress/8630478",
-      "title": "Freya Plaid Bow Midi Dress",
-      "brand": "Free People",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/8f1343d8-33f6-4c83-8448-4c4bbb2b8e96.jpeg?h=368&w=240&dpr=2",
-      "price_current": 47.98,
-      "price_list": 168.0,
-      "price_baseline": 168.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 70938,
-      "kr_lowest_price": 186300.0,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/free-people-freya-plaid-bow-midi-dress/8630478",
-      "discount_pct": 71.4,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:31.377349+00:00"
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/marc-fisher-ltd-brinleys-two-strap-sandal-women/8133129",
       "title": "Brinleys Two-Strap Sandal",
       "brand": "Marc Fisher Ltd",
@@ -2160,7 +2207,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:31.377489+00:00"
+      "detected_at": "2026-07-23T16:11:21.801395+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2207,7 +2254,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:31.377494+00:00"
+      "detected_at": "2026-07-23T16:11:21.801399+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2254,7 +2301,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:31.377512+00:00"
+      "detected_at": "2026-07-23T16:11:21.801411+00:00"
     },
     {
       "source": "zappos.com",
@@ -2301,7 +2348,54 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:32.629625+00:00"
+      "detected_at": "2026-07-23T16:11:23.029886+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/free-people-freya-plaid-bow-midi-dress/8630478",
+      "title": "Freya Plaid Bow Midi Dress",
+      "brand": "Free People",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/8f1343d8-33f6-4c83-8448-4c4bbb2b8e96.jpeg?h=368&w=240&dpr=2",
+      "price_current": 47.98,
+      "price_list": 168.0,
+      "price_baseline": 168.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 70938,
+      "kr_lowest_price": 186300.0,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/free-people-freya-plaid-bow-midi-dress/8630478",
+      "discount_pct": 71.4,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-23T14:36:31.377349+00:00"
     },
     {
       "source": "zappos.com",
@@ -2676,7 +2770,54 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:31.377457+00:00"
+      "detected_at": "2026-07-23T16:11:21.801368+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/nike-pacific-low-top-sneaker-men/8284544",
+      "title": "Pacific Low Top Sneaker",
+      "brand": "Nike",
+      "category": "sports_outdoor",
+      "image": "https://n.nordstrommedia.com/it/d8b069f8-2420-4fd3-bb24-9ce7e635110b.jpeg?h=368&w=240&dpr=2",
+      "price_current": 28.78,
+      "price_list": 80.0,
+      "price_baseline": 80.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 42551,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/nike-pacific-low-top-sneaker-men/8284544",
+      "discount_pct": 64.0,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-23T16:11:21.801376+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -2723,7 +2864,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:33.999460+00:00"
+      "detected_at": "2026-07-23T16:11:28.507042+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -2770,7 +2911,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:33.999572+00:00"
+      "detected_at": "2026-07-23T16:11:28.507131+00:00"
     },
     {
       "source": "ssense.com",
@@ -3008,53 +3149,6 @@
       "detected_at": "2026-07-23T07:31:01.927517+00:00"
     },
     {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10024217",
-      "title": "Minnie Mouse Boots(Toddler/Little Kid)",
-      "brand": "Josmo",
-      "category": "electronics",
-      "image": "https://m.media-amazon.com/images/I/61KLck7DVxL._AC_SR255,340_.jpg",
-      "price_current": 11.98,
-      "price_list": 39.95,
-      "price_baseline": 39.95,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 17712,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.zappos.com/product/10024217",
-      "discount_pct": 70.0,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:32.631015+00:00"
-    },
-    {
       "source": "dealsofamerica",
       "source_tier": "T2",
       "url": "https://www.dealsofamerica.com/korky-ultra-standard-2inch-universal-toilet-flapper-100bp/798660.htm",
@@ -3099,7 +3193,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:33.999421+00:00"
+      "detected_at": "2026-07-23T16:11:28.506985+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -3146,7 +3240,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:33.999444+00:00"
+      "detected_at": "2026-07-23T16:11:28.507028+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -3193,7 +3287,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:33.999450+00:00"
+      "detected_at": "2026-07-23T16:11:28.507033+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -3240,7 +3334,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:33.999455+00:00"
+      "detected_at": "2026-07-23T16:11:28.507038+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -3287,7 +3381,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:33.999472+00:00"
+      "detected_at": "2026-07-23T16:11:28.507051+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -3334,7 +3428,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:33.999543+00:00"
+      "detected_at": "2026-07-23T16:11:28.507108+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -3381,7 +3475,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:33.999725+00:00"
+      "detected_at": "2026-07-23T16:11:28.507244+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -3428,7 +3522,54 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:33.999770+00:00"
+      "detected_at": "2026-07-23T16:11:28.507280+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10024217",
+      "title": "Minnie Mouse Boots(Toddler/Little Kid)",
+      "brand": "Josmo",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/61KLck7DVxL._AC_SR255,340_.jpg",
+      "price_current": 11.98,
+      "price_list": 39.95,
+      "price_baseline": 39.95,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 17712,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.zappos.com/product/10024217",
+      "discount_pct": 70.0,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-23T14:36:32.631015+00:00"
     },
     {
       "source": "ebay.com",
@@ -4089,6 +4230,53 @@
     {
       "source": "nordstromrack.com",
       "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/ettika-square-case-leather-strap-watch/8627678",
+      "title": "Square Case Leather Strap Watch",
+      "brand": "Ettika",
+      "category": "watch_misc",
+      "image": "https://n.nordstrommedia.com/it/f689de44-1e1f-47cb-973a-92d58c3b0ef7.jpeg?h=368&w=240&dpr=2",
+      "price_current": 19.99,
+      "price_list": 175.0,
+      "price_baseline": 175.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 29555,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "unknown",
+      "buy_url": "https://www.nordstromrack.com/s/ettika-square-case-leather-strap-watch/8627678",
+      "discount_pct": 88.6,
+      "score": 57,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 10,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-23T16:11:21.801256+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/adornia-set-of-2-assorted-crystal-halo-stud-earrings/8923073",
       "title": "Set of 2 Assorted Crystal Halo Stud Earrings",
       "brand": "Adornia",
@@ -4131,7 +4319,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:31.377302+00:00"
+      "detected_at": "2026-07-23T16:11:21.801263+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -4178,7 +4366,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:31.377386+00:00"
+      "detected_at": "2026-07-23T16:11:21.801311+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -4225,7 +4413,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:31.377391+00:00"
+      "detected_at": "2026-07-23T16:11:21.801314+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -4272,7 +4460,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:31.377444+00:00"
+      "detected_at": "2026-07-23T16:11:21.801356+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -4319,7 +4507,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:31.377508+00:00"
+      "detected_at": "2026-07-23T16:11:21.801407+00:00"
     },
     {
       "source": "ashford.com",
@@ -5212,7 +5400,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-23T14:36:34.000253+00:00"
+      "detected_at": "2026-07-23T16:11:28.507666+00:00"
     }
   ]
 }
