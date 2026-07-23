@@ -71,6 +71,9 @@
     <button data-f="PREMIUM">⭐ 프리미엄</button>
   </div>
 </header>
+<div style="padding:6px 24px;font-size:11px;color:var(--sub);max-width:1400px;margin:0 auto">
+  일부 링크는 제휴 링크로, 회원님의 구매 시 딜온도가 소정의 수수료를 받을 수 있습니다(구매가는 동일).
+</div>
 <main id="board"><div class="empty">deals.json 로딩 중…</div></main>
 
 <script>
@@ -110,7 +113,7 @@ function render(){
       ${tags.length?`<div class="tags">${tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>`:''}
       <div class="foot">
         <span class="src">${d.category||''}</span>
-        <a class="go" href="${d.url}" target="_blank" rel="noopener">딜 보기 →</a>
+        <a class="go" href="${d.buy_url||d.url}" target="_blank" rel="noopener sponsored">딜 보기 →</a>
       </div>
       <div class="bd">
         <span>할인 ${b.discount_depth??0}</span><span>이력 ${b.price_history??0}</span>

@@ -68,6 +68,10 @@ CREATE TABLE IF NOT EXISTS promo_codes (
     seen_at    TEXT,
     PRIMARY KEY (retailer, code)
 );
+CREATE TABLE IF NOT EXISTS tier_runs (
+    tier       TEXT PRIMARY KEY,         -- T1/T2/T3/T4
+    last_run   REAL                      -- epoch seconds
+);
 """
 
 # 코드 유효기간을 모를 때 며칠까지 살아있다고 볼 것인가.
@@ -114,6 +118,26 @@ def connect(path: str = DB_PATH) -> sqlite3.Connection:
 
 def _now() -> str:
     return datetime.now(timezone.utc).isoformat()
+
+
+# ---------------------------------------------------------------------------
+# 티어별 마지막 실행 시각 (GitHub Actions처럼 매번 새로 뜨는 환경에서
+# "지금 이 티어를 돌 차례인가"를 판단하기 위해 DB에 남긴다. DB는 캐시로 유지된다.)
+# ---------------------------------------------------------------------------
+def get_tier_last_run(con: sqlite3.Connection) -> dict:
+    try:
+        rows = con.execute("SELECT tier, last_run FROM tier_runs").fetchall()
+        return {t: (r or 0.0) for t, r in rows}
+    except sqlite3.Error:
+        return {}
+
+
+def set_tier_last_run(con: sqlite3.Connection, tier: str, ts: float) -> None:
+    con.execute(
+        "INSERT INTO tier_runs(tier, last_run) VALUES(?,?) "
+        "ON CONFLICT(tier) DO UPDATE SET last_run=excluded.last_run",
+        (tier, ts))
+    con.commit()
 
 
 # ---------------------------------------------------------------------------

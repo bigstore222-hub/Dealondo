@@ -99,7 +99,8 @@ def format_deal(d) -> str:
     if tags:
         lines.append(" · ".join(tags))
 
-    lines.append(f'\n<a href="{_esc(d.url)}">딜 보러가기 →</a>')
+    link = getattr(d, "buy_url", "") or d.url
+    lines.append(f'\n<a href="{_esc(link)}">딜 보러가기 →</a>')
     return "\n".join(lines)
 
 
@@ -166,7 +167,8 @@ def notify_deals(deals: list, digest_threshold: int = 5) -> int:
             code = f" 🎟{_esc(d.coupon_code)}" if getattr(d, "coupon_code", "") else ""
             # 브랜드를 앞세운 라벨을 링크로. 한눈에 브랜드·가치가 보인다.
             label = brand_label(d, with_rest=True, maxlen=42)
-            body.append(f'{icon} <a href="{_esc(d.url)}">{label}</a>  '
+            link = getattr(d, "buy_url", "") or d.url
+            body.append(f'{icon} <a href="{_esc(link)}">{label}</a>  '
                         f'{pct} · {d.score}점{code}')
         if send(head + "\n".join(body), disable_preview=True):
             sent += 1

@@ -1,0 +1,16 @@
+# 줄바꿈(EOL) 정책 — GitHub Desktop의 LF/CRLF 경고를 없애고,
+# 리눅스(GitHub Actions)에서 스크립트가 깨지지 않게 한다.
+
+# 코드·설정 파일은 LF로 통일 (Actions는 리눅스라 LF여야 안전)
+*.py    text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.md    text eol=lf
+*.csv   text eol=lf
+*.json  text eol=lf
+*.html  text eol=lf
+*.txt   text eol=lf
+
+# 윈도우 배치파일은 CP949 인코딩 + CRLF 그대로 보존해야 한다.
+# 바이너리로 취급해 Git이 줄바꿈/인코딩을 절대 건드리지 않게 한다.
+*.bat   -text

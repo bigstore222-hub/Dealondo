@@ -1,0 +1,19 @@
+domain,network,template
+# 머천트별 제휴 딥링크를 여기 등록하면, 그 도메인 딜은 자동으로 커미션 링크로 나갑니다.
+# - domain: 딜의 도메인 (예: mytheresa.com, nordstromrack.com)
+# - network: 참고용 메모 (CJ/Rakuten/Impact)
+# - template: {url} 자리에 상품URL이 URL인코딩되어 들어갑니다. {url_raw}는 인코딩 안 함.
+#
+# 승인 전에는 비워 두세요. 이 경우 스마트링크(RADAR_SKIMLINKS_ID) 폴백을 쓰거나,
+# 둘 다 없으면 원본 링크가 나갑니다(수익 0이지만 정상 동작).
+#
+# ── 네트워크별 템플릿 형식 (승인 후 본인 ID/머천트ID로 교체) ──
+#
+# CJ Affiliate (Mytheresa 등) — 자동 딥링크 도메인은 anrdoezrs.net/dpbolvw.net 등:
+#   mytheresa.com,CJ,https://www.anrdoezrs.net/links/<PUBLISHER_ID>/type/dlg/sid/dealondo/{url}
+#
+# Rakuten Advertising (LinkSynergy, 메이시스 등):
+#   macys.com,Rakuten,https://click.linksynergy.com/deeplink?id=<YOUR_ID>&mid=<MERCHANT_ID>&murl={url}
+#
+# Impact (The Outnet 등) — 제휴사별 트래킹 도메인이 발급됩니다:
+#   theoutnet.com,Impact,https://<your-subdomain>.pxf.io/c/<ACCOUNT>/<CAMPAIGN>/<ITEM>?u={url}

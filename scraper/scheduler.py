@@ -133,6 +133,16 @@ def run_tier(tier: str, con) -> tuple[list, list]:
     raw = pricing.enrich(raw)
 
     scored = fe.process(raw)
+
+    # 제휴 추적 링크로 변환(수익화). 원본 url은 중복제거에 쓰이므로 보존하고,
+    # 표시·발송용 buy_url 만 채운다. 제휴 설정이 없으면 원본과 동일하다.
+    try:
+        import affiliate
+        for d in scored:
+            d.buy_url = affiliate.wrap(d.url, d.source)
+    except Exception as e:
+        print(f"[제휴] 링크 변환 오류: {type(e).__name__}: {e}")
+
     publishable = [d for d in scored if fe.should_publish(d)]
     fresh = store.filter_new(con, publishable)
 
@@ -223,6 +233,8 @@ def main() -> None:
     # --force-send 는 "발행 슬롯 무시하고 즉시 발송"(수동 테스트 전용).
     # 둘을 분리하지 않으면, 자동 실행이 슬롯을 무시해 아무 때나 알림이 쏟아진다.
     force_send = "--force-send" in sys.argv
+    # --all 은 주기 무시하고 모든 티어를 강제로 돈다(첫 실행/수동 전량 점검용).
+    force_all = "--all" in sys.argv
     only_tier = None
     if "--tier" in sys.argv:
         # 쉼표로 여러 티어 지정 가능: --tier T1,T2
@@ -244,7 +256,18 @@ def main() -> None:
 
     tiers = ([t.strip() for t in only_tier.split(",") if t.strip()]
              if only_tier else ["T1", "T2", "T3", "T4"])
+    # 티어별 마지막 실행 시각을 DB에서 불러온다(GitHub Actions처럼 매번 새로 뜨는
+    # 환경에서 '지금 돌 차례인 티어'만 골라 돌기 위해). 상주 모드에선 첫 사이클에만 영향.
     last_run = {t: 0.0 for t in tiers}
+    last_run.update({t: v for t, v in store.get_tier_last_run(con).items() if t in tiers})
+    if once and not only_tier and not force_all:
+        due_now_list = [t for t in tiers
+                        if time.time() - last_run.get(t, 0.0) >= TIER_MINUTES.get(t, 360) * 60]
+        skipped = [t for t in tiers if t not in due_now_list]
+        if skipped:
+            print(f"[스케줄] 이번엔 {due_now_list or '없음'} 만 수집 "
+                  f"(주기 안 된 티어 건너뜀: {', '.join(skipped)})")
+        tiers = due_now_list
     pending: list = []
     board: dict = {}
 
@@ -282,8 +305,18 @@ def main() -> None:
             except Exception as e:
                 print(f"[{t}] 사이클 오류: {type(e).__name__}: {e}")
             last_run[t] = time.time()
+            try:
+                store.set_tier_last_run(con, t, last_run[t])   # 다음 실행이 주기를 안다
+            except Exception:
+                pass
 
         if once:
+            # 이번에 아무 티어도 안 돌았어도(주기 미도래) 딜보드는 병합·갱신해 둔다.
+            if not tiers:
+                try:
+                    write_board([])
+                except Exception:
+                    pass
             print(f"\n{store.stats(con)}")
             print("--once 완료")
             return

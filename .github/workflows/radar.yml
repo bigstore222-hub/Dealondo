@@ -19,7 +19,7 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
     steps:
       - name: 체크아웃
         uses: actions/checkout@v4
@@ -53,7 +53,10 @@ jobs:
           RADAR_WEB_JSON: ${{ github.workspace }}/deals.json
           # Actions 러너는 디스크가 넉넉하다
           RADAR_MIN_FREE_MB: '500'
-          RADAR_FETCH_BUDGET_SEC: '1000'
+          # 티어당 수집 시간 상한(초). 한 실행이 타임아웃 전에 반드시 끝나게.
+          # 티어 주기 로직 덕에 대부분 실행은 T1(+가끔 T2)만 돌아 훨씬 빨리 끝난다.
+          RADAR_FETCH_BUDGET_SEC: '240'
+          RADAR_SITE_BUDGET_SEC: '40'
           PYTHONUTF8: '1'
           # 시크릿 (Settings > Secrets and variables > Actions 에 등록)
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

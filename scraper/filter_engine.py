@@ -62,6 +62,7 @@ class Deal:
 
     # 파이프라인이 채우는 필드
     brand_tier: str = ""               # premium / known / unknown (스코어링이 채움)
+    buy_url: str = ""                  # 제휴 추적이 붙은 구매 링크 (원본 url은 보존)
     discount_pct: Optional[float] = None
     score: int = 0
     score_breakdown: dict = field(default_factory=dict)
