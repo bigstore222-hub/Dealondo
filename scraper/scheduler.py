@@ -155,6 +155,15 @@ def dispatch(fresh: list, con, pending: list, force: bool = False) -> list:
     FLASH는 즉시, 나머지는 슬롯에 맞춰 발송. 남은 건 pending 으로 돌려준다.
     force=True 면 슬롯을 무시하고 즉시 발송한다(수동 테스트 실행용).
     """
+    # 알림도 변형·도배를 정리해서 보낸다(한 번에 Adornia 10건 쏟지 않도록).
+    try:
+        import curate
+        from dataclasses import asdict
+        keep = {d["url"] for d in curate.curate([asdict(x) for x in fresh])}
+        fresh = [x for x in fresh if x.url in keep]
+    except Exception as e:
+        print(f"[큐레이션] 알림 정리 오류: {type(e).__name__}: {e}")
+
     flash = [d for d in fresh if d.urgency == "FLASH"]
     rest = [d for d in fresh if d.urgency != "FLASH"]
 
@@ -218,7 +227,15 @@ def write_board(all_deals: list) -> None:
     except (FileNotFoundError, json.JSONDecodeError):
         pass
 
-    deals = sorted(merged.values(), key=lambda d: d.get("score", 0), reverse=True)
+    # 색상/사이즈 변형 묶기 + 브랜드 도배 상한 (Adornia ×10 같은 문제 정리)
+    try:
+        import curate
+        curated = curate.curate(list(merged.values()))
+    except Exception as e:
+        print(f"[큐레이션] 오류: {type(e).__name__}: {e}")
+        curated = list(merged.values())
+
+    deals = sorted(curated, key=lambda d: d.get("score", 0), reverse=True)
     payload = {"generated_at": now.isoformat(), "count": len(deals), "deals": deals}
     os.makedirs(os.path.dirname(WEB_JSON), exist_ok=True)
     tmp = WEB_JSON + ".tmp"

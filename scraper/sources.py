@@ -138,6 +138,10 @@ DOA_PAGES = [
     "/cell-phone-deals.php", "/laptop-deals.php", "/digital-camera-deals.php",
     "/kitchen-deals.php", "/home-and-garden-deals.php", "/toys-deals.php",
     "/video-games-deals.php", "/furniture-deals.php",
+    # 다변화: 도서·미디어·전자 변형으로 카테고리 폭만 넓힌다.
+    # (best-buy·kohls 같은 백화점 페이지는 하우스브랜드 잡전자를 끌어와 제외)
+    "/books-and-ebooks-deals.php", "/movies-tv-show-deals.php",
+    "/lcd-tv-deals.php", "/desktop-deals.php",
 ]
 
 # 페이지 자체가 카테고리를 알려준다 → 제목 추론보다 정확하게 태깅해
@@ -154,6 +158,10 @@ DOA_PAGE_CATEGORY = {
     "/kitchen-deals.php": "etc",
     "/home-and-garden-deals.php": "etc",
     "/furniture-deals.php": "etc",
+    "/books-and-ebooks-deals.php": "etc",
+    "/movies-tv-show-deals.php": "etc",
+    "/lcd-tv-deals.php": "electronics",
+    "/desktop-deals.php": "electronics",
 }
 
 _DOA_TITLE = re.compile(
@@ -194,11 +202,15 @@ def _parse_doa_listing(html: str, category: str = "") -> list[dict]:
     return rows
 
 
-def fetch_dealsofamerica(limit: int = 200, enrich_top: int = 12) -> list[Deal]:
+def fetch_dealsofamerica(limit: int = 600, enrich_top: int = 12,
+                         per_page: int = 45) -> list[Deal]:
     """
     DoA 카테고리 목록들을 순회해 딜을 모은다(정가 포함).
     상위 enrich_top개는 상세페이지까지 열어 결제창 프로모션 코드를 확보한다
     (아마존 셀러 코드가 여기 있다). 나머지는 목록 정보만으로 충분하다.
+
+    per_page: 한 카테고리에서 가져올 상한. 한 페이지가 전체 상한을 잡아먹어
+    뒤쪽 카테고리가 통째로 누락되는 걸 막아 다양성을 확보한다(실측 문제 수정).
     """
     import promocode as _pc
     seen: set[str] = set()
@@ -209,11 +221,15 @@ def fetch_dealsofamerica(limit: int = 200, enrich_top: int = 12) -> list[Deal]:
         except Exception as e:
             print(f"[dealsofamerica] {page} 실패: {getattr(e,'code',type(e).__name__)}")
             continue
+        got = 0
         for r in _parse_doa_listing(html, DOA_PAGE_CATEGORY.get(page, "")):
             if r["url"] in seen:
                 continue
             seen.add(r["url"])
             rows.append(r)
+            got += 1
+            if got >= per_page:
+                break
         if len(rows) >= limit:
             break
 
