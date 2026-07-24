@@ -63,6 +63,15 @@
 <header>
   <h1>🌡️ 딜온도</h1>
   <span class="meta" id="meta">불러오는 중…</span>
+  <div class="toolbar" id="cats">
+    <button data-c="ALL" class="active">📂 전체</button>
+    <button data-c="kids">👶 육아·키즈</button>
+    <button data-c="fashion">👕 의류·잡화</button>
+    <button data-c="shoes">👟 신발</button>
+    <button data-c="elec">💻 전자·IT</button>
+    <button data-c="sports">🏕 스포츠·아웃도어</button>
+    <button data-c="home">🏠 홈·주방</button>
+  </div>
   <div class="toolbar" id="filters">
     <button data-f="ALL" class="active">전체</button>
     <button data-f="FLASH">🔴 FLASH</button>
@@ -79,12 +88,30 @@
 <script>
 const board=document.getElementById('board');
 const meta=document.getElementById('meta');
-let deals=[], filter='ALL';
+let deals=[], filter='ALL', cat='ALL';
 
 function fmtPrice(v){return v==null?'—':'$'+Number(v).toLocaleString(undefined,{maximumFractionDigits:2});}
 
+// 딜을 해외직구 분류(육아·키즈 / 의류·잡화 / 신발 / 전자·IT / 스포츠·아웃도어)로 매핑.
+// 신발은 제목 키워드로 감지해 카테고리보다 우선(운동화 포함 신발은 신발 탭으로).
+const SHOE_RE=/\b(shoe|sneaker|trainer|boot|bootie|loafer|heel|sandal|slipper|pump|flat|mule|clog|oxford|moccasin|espadrille|wedge|slide|footwear|cleat)\b/i;
+const HOME_RE=/\b(kitchen|cookware|dinnerware|bakeware|cutlery|knife|knives|pan|pot|skillet|blender|mixer|toaster|kettle|coffee maker|air fryer|vacuum|cookset|bedding|sheet set|comforter|duvet|towel|pillow|mattress|furniture|sofa|couch|chair|desk|dresser|shelf|cabinet|decor|rug|lamp|storage)\b/i;
+const CAT_LABEL={kids:'👶 육아·키즈',fashion:'👕 의류·잡화',shoes:'👟 신발',elec:'💻 전자·IT',sports:'🏕 스포츠·아웃도어',home:'🏠 홈·주방',etc:'기타'};
+function dispCat(d){
+  const c=d.category||'', t=d.title||'';
+  if(c==='kids') return 'kids';
+  if(c==='electronics') return 'elec';
+  if(SHOE_RE.test(t)) return 'shoes';
+  if(c==='sports_outdoor') return 'sports';
+  if(c==='premium_fashion'||c==='watch_misc') return 'fashion';
+  if(c==='home'||HOME_RE.test(t)) return 'home';
+  return 'etc';
+}
+
 function render(){
-  const list=deals.filter(d=>filter==='ALL'||(filter==='PREMIUM'?d.brand_tier==='premium':d.urgency===filter));
+  const list=deals.filter(d=>
+    (filter==='ALL'||(filter==='PREMIUM'?d.brand_tier==='premium':d.urgency===filter))
+    && (cat==='ALL'||dispCat(d)===cat));
   if(!list.length){board.innerHTML='<div class="empty">표시할 딜이 없습니다.</div>';return;}
   board.innerHTML=list.map(d=>{
     const tags=[];
@@ -112,7 +139,7 @@ function render(){
       ${d.coupon_code?`<div class="promo">🎟️ 결제창 코드 <code>${d.coupon_code}</code> 입력가 ${fmtPrice(d.price_current)}</div>`:''}
       ${tags.length?`<div class="tags">${tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>`:''}
       <div class="foot">
-        <span class="src">${d.category||''}</span>
+        <span class="src">${CAT_LABEL[dispCat(d)]||''}</span>
         <a class="go" href="${d.buy_url||d.url}" target="_blank" rel="noopener sponsored">딜 보기 →</a>
       </div>
       <div class="bd">
@@ -128,10 +155,21 @@ document.getElementById('filters').addEventListener('click',e=>{
   document.querySelectorAll('#filters button').forEach(b=>b.classList.remove('active'));
   e.target.classList.add('active');filter=e.target.dataset.f;render();
 });
+document.getElementById('cats').addEventListener('click',e=>{
+  if(e.target.tagName!=='BUTTON')return;
+  document.querySelectorAll('#cats button').forEach(b=>b.classList.remove('active'));
+  e.target.classList.add('active');cat=e.target.dataset.c;render();
+});
 
 fetch('deals.json').then(r=>r.json()).then(data=>{
   deals=data.deals||[];
   const t=new Date(data.generated_at);
+  // 분류별 개수를 탭 라벨 옆에 표시
+  const counts={};deals.forEach(d=>{const c=dispCat(d);counts[c]=(counts[c]||0)+1;});
+  document.querySelectorAll('#cats button').forEach(b=>{
+    const c=b.dataset.c; if(c==='ALL'){b.textContent='📂 전체 '+deals.length;return;}
+    const base=b.textContent.replace(/\s+\d+$/,''); b.textContent=base+' '+(counts[c]||0);
+  });
   meta.textContent=`발행 ${data.count}건 · 갱신 ${t.toLocaleString('ko-KR')}`;
   render();
 }).catch(e=>{
