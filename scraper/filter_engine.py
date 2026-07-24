@@ -14,6 +14,11 @@ import re
 
 import brands
 
+# 유명 브랜드 의류·잡화의 최소 할인 문턱(사용자 방침: 80%+에만 의존하지 말고 60%대도 편입).
+# 프리미엄(명품)은 더 귀하므로 50%부터, 대중 유명 브랜드는 60%부터.
+KNOWN_MIN_DISCOUNT = float(os.environ.get("RADAR_KNOWN_MIN_DISCOUNT", "60"))
+PREMIUM_MIN_DISCOUNT = float(os.environ.get("RADAR_PREMIUM_MIN_DISCOUNT", "50"))
+
 
 # ---------------------------------------------------------------------------
 # 데이터 모델 — 스펙 "구현 시 데이터 요구사항" 체크리스트와 1:1 대응
@@ -132,22 +137,24 @@ def hard_filter(deal: Deal) -> tuple[bool, str]:
     if deal.code_kind in ("welcome", "personal"):
         return False, f"H6: {'신규가입' if deal.code_kind == 'welcome' else '개인'} 전용 (공유 불가)"
 
-    # H7: 브랜드 가치 게이트 (의류·잡화·시계 한정).
+    # H7: 의류·잡화·시계 = "유명 브랜드 + 충분한 할인"만.
     #
-    # 해외직구 패션·잡화는 "싸고 할인율만 높은" 물건이 좋은 딜이 아니다.
-    # 무명 브랜드는 90% 할인이어도 살 이유가 없다 — 브랜드 가치가 먼저다.
-    # 전자제품(electronics)·기타(etc)는 활용도로 사는 것이라 이 게이트를 적용하지 않는다.
-    # 단, 무명 브랜드라도 초고할인(기본 85%+)이면 예외적으로 통과시킨다.
-    #
-    # 추가 예외: 아마존식 '결제창 코드 딜'(공개 코드)은 브랜드 게이트에서 뺀다.
-    # 이런 딜의 가치는 브랜드가 아니라 '지금 이 코드로 추가 할인이 실제로 적용된다'는
-    # 행동가능성에 있다. 사용자 요청으로 무명이어도 통과시킨다.
-    if deal.category in brands.BRAND_GATED_CATEGORIES and not has_public_code(deal):
-        if brands.tier(deal.brand) == "unknown":
+    # 사용자 방침(고도화): 패션·잡화는 유명 브랜드 위주로 구성한다.
+    #   - 무명 브랜드는 할인율이 아무리 높아도 제외(예전 85% 예외 폐지 → Adornia류 배제).
+    #   - 유명 브랜드는 할인 문턱을 60%까지 낮춰 폭넓게 담는다(프리미엄은 50%).
+    #     → "흔치 않은 80%+"에만 의존하지 않고 60%대 유명 브랜드 딜을 적극 편입.
+    # 전자제품(electronics)·기타(etc)는 이 게이트를 적용하지 않는다(브랜드 무관).
+    # 공개 결제창 코드가 붙은 유명 브랜드 딜은 할인 문턱을 면제(코드가 값이므로).
+    if deal.category in brands.BRAND_GATED_CATEGORIES:
+        t = brands.tier(deal.brand)
+        if t == "unknown":
+            return False, f"H7: 무명 브랜드({deal.brand or '미상'}) — 의류·잡화는 유명 브랜드만"
+        floor = PREMIUM_MIN_DISCOUNT if t == "premium" else KNOWN_MIN_DISCOUNT
+        if not has_public_code(deal):
             pct = deal.discount_pct if deal.discount_pct is not None else compute_discount_pct(deal)
-            if not (pct and pct >= brands.UNKNOWN_BRAND_MIN_DISCOUNT):
-                return False, (f"H7: 무명 브랜드({deal.brand or '미상'}) — "
-                               f"할인 {pct or 0:.0f}% < {brands.UNKNOWN_BRAND_MIN_DISCOUNT:.0f}%")
+            if not (pct and pct >= floor):
+                return False, (f"H7: {deal.brand} 할인 {pct or 0:.0f}% < {floor:.0f}% "
+                               f"(유명 브랜드 최소 할인)")
 
     return True, ""
 
@@ -168,6 +175,7 @@ CATEGORY_SCORES = {
     "electronics": 15,
     "kids": 15,
     "watch_misc": 10,
+    "home": 8,               # 주방·홈·가구 (해외직구 인기 분야, 브랜드 무관)
     "etc": 5,
 }
 

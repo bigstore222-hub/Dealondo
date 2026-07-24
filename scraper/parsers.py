@@ -206,7 +206,9 @@ def zappos(html: str, site) -> list[dict]:
         rows.append(row)
         # 세일 페이지는 얕은 할인부터 노출되므로, 상한을 넉넉히 둬
         # 뒤쪽의 깊은 할인(80%+) 상품까지 후보로 확보한다. 필터가 알아서 거른다.
-        if len(rows) >= 200:
+        # 상한을 넉넉히. percentOff 정렬이라 앞쪽은 80%+ 무명이 많고, 유명 브랜드의
+        # 60~79% 딜은 뒤쪽에 있다. 많이 담아야 유명 브랜드 공급이 늘어난다(필터가 정리).
+        if len(rows) >= 300:
             break
     return rows
 

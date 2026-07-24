@@ -155,9 +155,9 @@ DOA_PAGE_CATEGORY = {
     "/laptop-deals.php": "electronics",
     "/digital-camera-deals.php": "electronics",
     "/video-games-deals.php": "electronics",
-    "/kitchen-deals.php": "etc",
-    "/home-and-garden-deals.php": "etc",
-    "/furniture-deals.php": "etc",
+    "/kitchen-deals.php": "home",
+    "/home-and-garden-deals.php": "home",
+    "/furniture-deals.php": "home",
     "/books-and-ebooks-deals.php": "etc",
     "/movies-tv-show-deals.php": "etc",
     "/lcd-tv-deals.php": "electronics",
@@ -203,7 +203,7 @@ def _parse_doa_listing(html: str, category: str = "") -> list[dict]:
 
 
 def fetch_dealsofamerica(limit: int = 600, enrich_top: int = 12,
-                         per_page: int = 45) -> list[Deal]:
+                         elec_enrich: int = 40, per_page: int = 45) -> list[Deal]:
     """
     DoA 카테고리 목록들을 순회해 딜을 모은다(정가 포함).
     상위 enrich_top개는 상세페이지까지 열어 결제창 프로모션 코드를 확보한다
@@ -239,7 +239,14 @@ def fetch_dealsofamerica(limit: int = 600, enrich_top: int = 12,
         return (1 - c / l) if (c and l and l > c) else 0
     rows.sort(key=_disc, reverse=True)
 
-    for r in rows[:enrich_top]:
+    # 상세페이지를 열어 결제창 코드를 확보할 대상 선정.
+    # 코드 딜은 목록상 할인이 낮아 보여(코드 적용 전 가격) 할인정렬로는 놓친다.
+    # 사용자 방침: 전자제품 코드딜은 빠짐없이 → 전자 카테고리를 우선 대량 진입.
+    elec = [r for r in rows if r.get("category") == "electronics"]
+    others = [r for r in rows if r.get("category") != "electronics"]
+    to_enrich = elec[:elec_enrich] + others[:enrich_top]
+
+    for r in to_enrich:
         try:
             dh = _http_get(r["url"], timeout=12)
         except Exception:
