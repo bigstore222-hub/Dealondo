@@ -390,8 +390,9 @@ def score_brand(deal: Deal) -> tuple[int, str]:
     return brands.TIER_BONUS.get(t, 0), t
 
 
-# 공개 코드 딜이 확보하는 점수 하한(STEADY 진입선). 유명 브랜드보다는 아래.
-CODE_DEAL_FLOOR = int(os.environ.get("RADAR_CODE_DEAL_FLOOR", "60"))
+# 공개 코드 딜이 확보하는 점수 하한. 사용자가 특히 좋아하는 딜이라 HOT(70+)로 올려
+# 딜보드·알림 상단에 오게 한다(코드=실제 적용되는 추가 할인이라 행동가능성이 높다).
+CODE_DEAL_FLOOR = int(os.environ.get("RADAR_CODE_DEAL_FLOOR", "75"))
 
 
 def has_price_history(deal: Deal) -> bool:

@@ -164,7 +164,7 @@ def notify_deals(deals: list, digest_threshold: int = 5) -> int:
         for d in sorted(rest, key=lambda x: -x.score)[:15]:
             icon = URGENCY_ICON.get(d.urgency, "")
             pct = f"{d.discount_pct:.0f}%" if d.discount_pct else "-"
-            code = f" 🎟{_esc(d.coupon_code)}" if getattr(d, "coupon_code", "") else ""
+            code = f" 🔥코드 {_esc(d.coupon_code)}" if getattr(d, "coupon_code", "") else ""
             # 브랜드를 앞세운 라벨을 링크로. 한눈에 브랜드·가치가 보인다.
             label = brand_label(d, with_rest=True, maxlen=42)
             link = getattr(d, "buy_url", "") or d.url
