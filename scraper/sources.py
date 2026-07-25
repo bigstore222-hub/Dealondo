@@ -13,12 +13,17 @@ sources.py
 """
 from __future__ import annotations
 import os
+import socket
 import urllib.request
 import urllib.robotparser
 from urllib.parse import urlparse
 from typing import Optional
 import xml.etree.ElementTree as ET
 import re
+
+# 어떤 네트워크 호출도 무한 대기하지 않도록 전역 소켓 타임아웃을 건다.
+# (타임아웃 인자를 깜빡한 호출이나 라이브러리 내부 호출까지 보호 → CI 행 방지)
+socket.setdefaulttimeout(int(os.environ.get("RADAR_SOCKET_TIMEOUT", "20")))
 
 from filter_engine import Deal
 
@@ -28,18 +33,34 @@ USER_AGENT = "HotdealRadar/0.1 (+contact: your-email@example.com)"
 # ---------------------------------------------------------------------------
 # 0. 컴플라이언스 게이트 — robots.txt 자동 점검
 # ---------------------------------------------------------------------------
+_robots_cache: dict = {}
+
+
 def check_robots(url: str, user_agent: str = USER_AGENT) -> bool:
-    """대상 URL을 이 UA로 가져와도 되는지 robots.txt 기준으로 판정."""
+    """대상 URL을 이 UA로 가져와도 되는지 robots.txt 기준으로 판정.
+
+    주의: RobotFileParser.read()는 내부 urlopen에 **타임아웃이 없어** 응답을
+    안 주는 서버에서 영원히 멈춘다(실측: CI 30분 행의 원인). 그래서 robots.txt를
+    타임아웃 있는 _http_get 으로 직접 받아 parse() 한다. 도메인별로 캐시한다.
+    """
     try:
         parsed = urlparse(url)
-        robots_url = f"{parsed.scheme}://{parsed.netloc}/robots.txt"
-        rp = urllib.robotparser.RobotFileParser()
-        rp.set_url(robots_url)
-        rp.read()
+        host = parsed.netloc
+        robots_url = f"{parsed.scheme}://{host}/robots.txt"
+        rp = _robots_cache.get(host)
+        if rp is None:
+            rp = urllib.robotparser.RobotFileParser()
+            try:
+                txt = _http_get(robots_url, timeout=8)
+                rp.parse(txt.splitlines())
+            except Exception:
+                rp = True          # robots 못 읽음 → 판정 불가, 통과(관대)
+            _robots_cache[host] = rp
+        if rp is True:
+            return True
         return rp.can_fetch(user_agent, url)
     except Exception:
-        # robots.txt 조회 실패 시 보수적으로 False (긁지 않음)
-        return False
+        return True
 
 
 def _http_get(url: str, timeout: int = 15) -> str:

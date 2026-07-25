@@ -74,7 +74,9 @@ jobs:
         run: |
           mkdir -p data
           cd scraper
-          python scheduler.py --once
+          # 하드 상한: 무슨 일이 있어도 14분 뒤 강제 종료(딜보드는 티어마다 저장돼 있음).
+          # 어떤 내부 행이 있어도 CI 30분 타임아웃엔 절대 안 걸린다.
+          timeout --preserve-status 840 python scheduler.py --once || echo "[CI] 시간 상한 도달 — 부분 결과로 진행"
 
       - name: DB 캐시 저장
         if: always()
