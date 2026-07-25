@@ -58,8 +58,10 @@ jobs:
           RADAR_DISABLE_RENDER: '1'      # CI는 정적 수집만 (렌더 사이트는 로컬에서)
           # 티어당 수집 시간 상한(초). 렌더를 끈 정적 수집이라 훨씬 빨라, 첫 전량
           # 스윕도 타임아웃 안에 끝난다. 이후엔 티어 주기 로직으로 대부분 T1/T2만.
-          RADAR_FETCH_BUDGET_SEC: '180'
-          RADAR_SITE_BUDGET_SEC: '25'
+          RADAR_FETCH_BUDGET_SEC: '150'
+          RADAR_SITE_BUDGET_SEC: '20'
+          RADAR_RUN_BUDGET_SEC: '780'     # 전체 실행 13분 상한 (타임아웃 30분 훨씬 이내)
+          RADAR_DOA_ENRICH_BUDGET_SEC: '70'
           PYTHONUTF8: '1'
           # 시크릿 (Settings > Secrets and variables > Actions 에 등록)
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

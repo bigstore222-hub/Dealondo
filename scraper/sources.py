@@ -132,6 +132,9 @@ def parse_doa_item(title: str, link: str, desc: str = "") -> Deal:
 # 대신 카테고리 목록 페이지 HTML을 직접 파싱한다. robots.txt 허용 경로이고,
 # 목록에 our-price(현재가)·list-price(정가)가 함께 있어 상세 진입 없이 할인율을 얻는다.
 DOA_BASE = "https://www.dealsofamerica.com"
+# DoA 상세페이지 진입(코드 확보)에 쓸 최대 시간(초). 느린 상세페이지가 쌓여
+# CI가 타임아웃 걸리는 걸 막는다.
+DOA_ENRICH_BUDGET_SEC = int(os.environ.get("RADAR_DOA_ENRICH_BUDGET_SEC", "90"))
 # 해외직구로 의미 있는 카테고리 위주. hot-deals가 전 카테고리 인기 딜을 모아준다.
 DOA_PAGES = [
     "/hot-deals.php", "/amazon-deals.php", "/apparel-deals.php", "/shoes-deals.php",
@@ -202,8 +205,8 @@ def _parse_doa_listing(html: str, category: str = "") -> list[dict]:
     return rows
 
 
-def fetch_dealsofamerica(limit: int = 600, enrich_top: int = 12,
-                         elec_enrich: int = 40, per_page: int = 45) -> list[Deal]:
+def fetch_dealsofamerica(limit: int = 600, enrich_top: int = 10,
+                         elec_enrich: int = 24, per_page: int = 45) -> list[Deal]:
     """
     DoA 카테고리 목록들을 순회해 딜을 모은다(정가 포함).
     상위 enrich_top개는 상세페이지까지 열어 결제창 프로모션 코드를 확보한다
@@ -246,9 +249,15 @@ def fetch_dealsofamerica(limit: int = 600, enrich_top: int = 12,
     others = [r for r in rows if r.get("category") != "electronics"]
     to_enrich = elec[:elec_enrich] + others[:enrich_top]
 
+    # 상세 진입은 상품마다 네트워크 왕복이라, 전체 시간 상한을 둔다.
+    # 이게 없으면 느린 상세페이지가 쌓여 CI가 30분 타임아웃에 걸린다(실측).
+    import time as _t
+    enrich_deadline = _t.time() + DOA_ENRICH_BUDGET_SEC
     for r in to_enrich:
+        if _t.time() > enrich_deadline:
+            break
         try:
-            dh = _http_get(r["url"], timeout=12)
+            dh = _http_get(r["url"], timeout=8)
         except Exception:
             continue
         hm = _DOA_HOT.search(dh)

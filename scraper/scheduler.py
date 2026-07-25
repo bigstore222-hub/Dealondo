@@ -288,6 +288,11 @@ def main() -> None:
     pending: list = []
     board: dict = {}
 
+    # 한 번의 --once 실행이 절대 넘지 않을 전체 시간 상한(초).
+    # 어떤 느린 경로가 있어도 이 시간 안에 멈추고 딜보드를 저장한다 → CI 타임아웃 방지.
+    run_budget = int(os.environ.get("RADAR_RUN_BUDGET_SEC", "900"))
+    run_deadline = time.time() + run_budget
+
     while True:
         # 지연 시간이 지난 무료 채널 딜 발송
         try:
@@ -297,6 +302,9 @@ def main() -> None:
 
         now = time.time()
         for t in tiers:
+            if once and time.time() > run_deadline:
+                print(f"[스케줄] 전체 시간 상한({run_budget}s) 도달 — 남은 티어는 다음 실행으로.")
+                break
             due = now - last_run[t] >= TIER_MINUTES.get(t, 360) * 60
             if not (due or once):
                 continue
