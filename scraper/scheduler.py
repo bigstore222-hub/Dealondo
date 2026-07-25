@@ -97,6 +97,13 @@ def run_tier(tier: str, con) -> tuple[list, list]:
         except Exception as e:
             print(f"[{tier}] DoA 수집 오류: {type(e).__name__}: {e}")
         try:
+            dn = sources.fetch_dealnews()
+            if dn:
+                print(f"[{tier}] DealNews {len(dn)}건 추가")
+                raw = raw + dn
+        except Exception as e:
+            print(f"[{tier}] DealNews 수집 오류: {type(e).__name__}: {e}")
+        try:
             import sources_feed
             feed = sources_feed.fetch_feeds()
             if feed:

@@ -128,6 +128,103 @@ def parse_doa_item(title: str, link: str, desc: str = "") -> Deal:
     )
 
 
+# ---------------------------------------------------------------------------
+# 1-B. DealNews — 공개 RSS (todays-edition). DoA 보완 애그리게이터.
+# ---------------------------------------------------------------------------
+DEALNEWS_RSS = "https://www.dealnews.com/rss/todays-edition/"
+_DN_FOR = re.compile(r'\b(?:for|now|just|only)\s+\$([\d,]+(?:\.\d{2})?)', re.I)
+_DN_FROM = re.compile(r'\bfrom\s+\$([\d,]+(?:\.\d{2})?)', re.I)
+_DN_IMG = re.compile(r"src=['\"](https?://[^'\"]+?\.(?:avif|jpg|jpeg|png|webp)[^'\"]*)['\"]", re.I)
+_DN_TITLEATTR = re.compile(r'title=["\']([^"\']{20,})["\']')
+
+
+def parse_dealnews_item(title: str, link: str, desc: str) -> Deal:
+    import html as _html
+    import promocode as _pc
+    title = _html.unescape(title or "").strip()
+    desc_raw = _html.unescape(desc or "")
+    # 설명 안의 요약 텍스트(가격·조건이 풀어져 있음)와 이미지 추출
+    tm = _DN_TITLEATTR.search(desc_raw)
+    snippet = _html.unescape(tm.group(1)) if tm else ""
+    text = f"{title} {snippet}"
+
+    price_current = price_list = None
+    m = _PRICE_ARROW.search(text)
+    if m:
+        price_list, price_current = _f(m.group(1)), _f(m.group(2))
+    else:
+        m2 = _PRICE_WAS.search(text)
+        if m2:
+            price_current, price_list = _f(m2.group(1)), _f(m2.group(2))
+    if price_current is None:
+        mf = _DN_FOR.search(title) or _DN_FROM.search(title) or _DN_FOR.search(snippet)
+        if mf:
+            price_current = _f(mf.group(1))
+    if price_list is None:
+        mp = _PCT_OFF.search(text)
+        if mp and price_current:
+            pct = int(mp.group(1))
+            if 0 < pct < 100:
+                price_list = round(price_current / (1 - pct / 100), 2)
+
+    # 결제창 코드(공개 딜 게시라 public)
+    coupon_code = code_kind = ""
+    codes = _pc.extract(text, subject=title, public_source=True)
+    best = _pc.best(codes, shareable_only=True)
+    if best:
+        coupon_code, code_kind = best.code, best.kind
+        mfin = re.search(r'=\s*\$\s?(\d{1,4}(?:\.\d{2})?)', text)
+        if mfin:
+            if price_list is None and price_current:
+                price_list = price_current
+            price_current = _f(mfin.group(1))
+        elif best.percent and price_current:
+            if price_list is None:
+                price_list = price_current
+            price_current = _pc.apply_to_price(price_current, best)
+
+    im = _DN_IMG.search(desc_raw)
+    # 브랜드는 제목 전체에서 탐지(첫 단어만 보면 'Tommy Hilfiger'→'Tommy'로 놓친다).
+    try:
+        import brands as _b
+        canon = _b.lookup(title)[1]
+    except Exception:
+        canon = ""
+    brand = canon or (title.split()[0] if title else "")
+    return Deal(
+        source="dealnews", source_tier="T2", url=link,
+        title=title[:140], brand=brand,
+        image=im.group(1) if im else "",
+        price_current=price_current, price_list=price_list,
+        coupon_code=coupon_code, code_kind=code_kind,
+        collection_method="rss",
+    )
+
+
+def fetch_dealnews(limit: int = 60) -> list[Deal]:
+    """DealNews todays-edition RSS를 읽어 딜로 변환."""
+    try:
+        raw = _http_get(DEALNEWS_RSS, timeout=12)
+    except Exception as e:
+        print(f"[dealnews] fetch 실패: {getattr(e,'code',type(e).__name__)}")
+        return []
+    deals: list[Deal] = []
+    try:
+        root = ET.fromstring(raw)
+        for item in root.iter("item"):
+            title = (item.findtext("title") or "").strip()
+            link = (item.findtext("link") or "").strip()
+            desc = (item.findtext("description") or "")
+            if title and link:
+                deals.append(parse_dealnews_item(title, link, desc))
+            if len(deals) >= limit:
+                break
+    except ET.ParseError as e:
+        print(f"[dealnews] RSS 파싱 실패: {e}")
+    print(f"[dealnews] {len(deals)}건 수집")
+    return deals
+
+
 # DoA의 파트너 RSS(arssm.xml)는 2023-12-07에 멈춰 있다(실측 — lastBuildDate 고정).
 # 대신 카테고리 목록 페이지 HTML을 직접 파싱한다. robots.txt 허용 경로이고,
 # 목록에 our-price(현재가)·list-price(정가)가 함께 있어 상세 진입 없이 할인율을 얻는다.

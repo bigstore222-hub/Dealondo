@@ -19,6 +19,16 @@ import brands
 KNOWN_MIN_DISCOUNT = float(os.environ.get("RADAR_KNOWN_MIN_DISCOUNT", "60"))
 PREMIUM_MIN_DISCOUNT = float(os.environ.get("RADAR_PREMIUM_MIN_DISCOUNT", "50"))
 
+# 편집자가 딜을 엄선하는 '큐레이션 애그리게이터'. 이런 곳의 유명 브랜드 딜은
+# 할인율 표기가 없어도(제목이 "for $X" 형태) 신뢰할 만하므로 할인 문턱을 면제하고
+# 최소 점수를 보장한다. 단 유명 브랜드 요건은 유지(패션은 여전히 유명 브랜드만).
+CURATED_SOURCES = {"dealnews"}
+CURATED_FLOOR = int(os.environ.get("RADAR_CURATED_FLOOR", "55"))
+
+
+def is_curated(deal: Deal) -> bool:
+    return getattr(deal, "source", "") in CURATED_SOURCES
+
 
 # ---------------------------------------------------------------------------
 # 데이터 모델 — 스펙 "구현 시 데이터 요구사항" 체크리스트와 1:1 대응
@@ -150,7 +160,9 @@ def hard_filter(deal: Deal) -> tuple[bool, str]:
         if t == "unknown":
             return False, f"H7: 무명 브랜드({deal.brand or '미상'}) — 의류·잡화는 유명 브랜드만"
         floor = PREMIUM_MIN_DISCOUNT if t == "premium" else KNOWN_MIN_DISCOUNT
-        if not has_public_code(deal):
+        # 공개 코드 딜, 그리고 큐레이션 소스(DealNews)는 할인 문턱 면제.
+        # (DealNews는 편집자가 엄선하고 할인율을 텍스트로 안 주는 경우가 많다)
+        if not has_public_code(deal) and not is_curated(deal):
             pct = deal.discount_pct if deal.discount_pct is not None else compute_discount_pct(deal)
             if not (pct and pct >= floor):
                 return False, (f"H7: {deal.brand} 할인 {pct or 0:.0f}% < {floor:.0f}% "
@@ -434,6 +446,11 @@ def score_deal(deal: Deal) -> Deal:
     if has_public_code(deal) and (deal.discount_pct or 0) >= 20:
         deal.score = max(deal.score, CODE_DEAL_FLOOR)
         deal.score_breakdown["code_deal"] = f"공개코드 {deal.coupon_code} → 하한 {CODE_DEAL_FLOOR}"
+
+    # 큐레이션 소스(DealNews)의 유명 브랜드 딜은 편집자 검증을 신뢰해 최소 노출 보장.
+    if is_curated(deal) and deal.brand_tier in ("premium", "known"):
+        deal.score = max(deal.score, CURATED_FLOOR)
+        deal.score_breakdown["curated"] = f"DealNews 엄선 → 하한 {CURATED_FLOOR}"
 
     deal.urgency = classify_urgency(deal)
     return deal
