@@ -89,6 +89,17 @@ def run_tier(tier: str, con) -> tuple[list, list]:
     # 리테일러 세일페이지에 안 잡히는 딜(아마존 코드 딜 포함)을 여기서 보완한다.
     # 제휴 상품피드(메이시스·아웃넷 등 봇차단 사이트)도 T2에서 함께 읽는다.
     # 둘 다 정적 다운로드라 빠르다.
+    # 슬릭딜 공개 RSS(frontpage/popular) — 커뮤니티가 검증한 가장 뜨거운 딜.
+    # 아마존 코드딜의 원천이라 자주(빠른 T1 주기) 확인한다.
+    if tier == "T1":
+        try:
+            sd = sources.fetch_slickdeals()
+            if sd:
+                print(f"[{tier}] Slickdeals RSS {len(sd)}건 추가")
+                raw = raw + sd
+        except Exception as e:
+            print(f"[{tier}] Slickdeals 수집 오류: {type(e).__name__}: {e}")
+
     if tier == "T2":
         try:
             doa = sources.fetch_dealsofamerica()

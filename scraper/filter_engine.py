@@ -25,6 +25,9 @@ PREMIUM_MIN_DISCOUNT = float(os.environ.get("RADAR_PREMIUM_MIN_DISCOUNT", "50"))
 CURATED_SOURCES = {"dealnews"}
 CURATED_FLOOR = int(os.environ.get("RADAR_CURATED_FLOOR", "55"))
 
+# 커뮤니티 투표(슬릭딜 Thumb Score)가 이 값 이상이면 crowd-검증 핫딜로 보고 점수 하한 부여.
+VOTE_FLOOR_MIN = int(os.environ.get("RADAR_VOTE_FLOOR_MIN", "30"))
+
 
 def is_curated(deal: Deal) -> bool:
     return getattr(deal, "source", "") in CURATED_SOURCES
@@ -453,6 +456,15 @@ def score_deal(deal: Deal) -> Deal:
         deal.score = max(deal.score, CURATED_FLOOR)
         deal.score_breakdown["curated"] = f"DealNews 엄선 → 하한 {CURATED_FLOOR}"
 
+    # 커뮤니티 투표(슬릭딜 Thumb Score)는 crowd가 검증한 핫딜 신호.
+    # 투표수에 비례해 점수 하한을 준다(50표→60, 많을수록↑, 최대 82).
+    v = deal.community_votes or 0
+    if v >= VOTE_FLOOR_MIN:
+        vote_floor = min(55 + (v - VOTE_FLOOR_MIN) // 10, 82)
+        if vote_floor > deal.score:
+            deal.score = vote_floor
+            deal.score_breakdown["community"] = f"투표 {v} → 하한 {vote_floor}"
+
     deal.urgency = classify_urgency(deal)
     return deal
 
@@ -461,7 +473,9 @@ def score_deal(deal: Deal) -> Deal:
 # 4단계. 긴급도 분류
 # ---------------------------------------------------------------------------
 def classify_urgency(deal: Deal) -> str:
-    if deal.score >= 85 or deal.frontpage:
+    # 슬릭딜 frontpage를 무조건 FLASH로 하면 매 사이클 알림 폭탄이 된다.
+    # 점수(할인·코드·투표가 반영된)만으로 판정한다.
+    if deal.score >= 85:
         return "FLASH"      # 즉시 발행 (15분 내)
     if deal.score >= 70:
         return "HOT"        # 다음 정기 슬롯

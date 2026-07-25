@@ -79,15 +79,31 @@ def _sovrn(url: str) -> str | None:
     return f"https://redirect.viglink.com/?format=go&key={key}&u={_enc(url)}"
 
 
+def _amazon_tag(url: str, dom: str) -> str | None:
+    """아마존 딜은 Amazon Associates 태그를 붙여 커미션을 받는다.
+    사용자가 특히 좋아하는 아마존 코드딜을 바로 수익화한다."""
+    tag = os.environ.get("RADAR_AMAZON_TAG")
+    if not tag or "amazon." not in dom:
+        return None
+    sep = "&" if "?" in url else "?"
+    # 이미 tag가 있으면 덮어쓰지 않는다(원 게시자 태그 존중은 아니지만 중복 방지)
+    if "tag=" in url:
+        return url
+    return f"{url}{sep}tag={tag}"
+
+
 def wrap(url: str, source: str = "") -> str:
     """
     상품 URL을 제휴 추적 링크로 변환. 설정이 없으면 원본을 그대로 돌려준다
     (수익화 전에도 시스템은 정상 동작).
-    우선순위: 머천트 딥링크 템플릿 > Skimlinks > Sovrn > 원본.
+    우선순위: 아마존 태그 > 머천트 딥링크 템플릿 > Skimlinks > Sovrn > 원본.
     """
     if not url or not url.startswith("http"):
         return url
     dom = _domain(url) or (source or "").lower()
+    amz = _amazon_tag(url, dom)
+    if amz:
+        return amz
     # 등록도메인 단위로 매칭 (sub.macys.com → macys.com)
     tmpl = _load_templates().get(dom)
     if not tmpl:

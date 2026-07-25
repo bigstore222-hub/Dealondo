@@ -416,19 +416,112 @@ def fetch_dealsofamerica(limit: int = 600, enrich_top: int = 10,
 
 
 # ---------------------------------------------------------------------------
-# 2. Slickdeals — 공식 Partner API 슬롯 (키 있을 때만)
+# 2. Slickdeals — 공개 RSS 신디케이션 피드 (frontpage/popular)
+#    HTML 스크래핑(ToS 금지)이 아니라, 슬릭딜이 신디케이션용으로 공개한 RSS를 소비.
+#    frontpage = 커뮤니티가 투표로 검증한 '가장 뜨거운 딜' → 아마존 코드딜의 원천.
+#    링크는 슬릭딜 딜페이지로 되돌려 준다(피드의 본래 용도 존중 + 출처 표기).
 # ---------------------------------------------------------------------------
+SLICKDEALS_FEEDS = [
+    ("frontpage", "https://feeds.feedburner.com/SlickdealsnetFP"),
+    ("popular", "https://feeds.feedburner.com/SlickdealsnetForums-9"),
+]
+_SD_RETAILER = re.compile(r'<description>\s*https?://(?:www\.|m\.)?([^/<\s]+)', re.I)
+_SD_THUMB = re.compile(r'Thumb Score:\s*([+\-]?\d+)')
+_SD_IMG = re.compile(r'<img[^>]+src="([^"]+)"')
+_SD_PRICE = re.compile(r'\$([\d,]+(?:\.\d{2})?)')
+
+
+def parse_slickdeals_item(title: str, link: str, desc: str, content: str,
+                          frontpage: bool) -> Deal:
+    import html as _html
+    import promocode as _pc
+    title = _html.unescape(title or "").strip()
+    content = _html.unescape(content or "")
+    # 코드/가격 추출용 텍스트는 HTML 태그를 제거해 만든다.
+    # (안 그러면 data-couponid 같은 속성을 코드로 오인한다 — 실측 버그)
+    clean = re.sub(r"<[^>]+>", " ", content)
+    text = f"{title} {clean}"
+
+    # 가격: 제목의 마지막 $금액을 현재가로(대개 "제품명 ... $XX + Free S&H")
+    prices = _SD_PRICE.findall(title)
+    price_current = float(prices[-1].replace(",", "")) if prices else None
+    price_list = None
+    m = _PRICE_ARROW.search(text)
+    if m:
+        price_list, price_current = _f(m.group(1)), _f(m.group(2))
+    mp = _PCT_OFF.search(text)
+    if price_list is None and mp and price_current:
+        pct = int(mp.group(1))
+        if 0 < pct < 100:
+            price_list = round(price_current / (1 - pct / 100), 2)
+
+    # 결제창 코드(있으면)
+    coupon_code = code_kind = ""
+    codes = _pc.extract(text, subject=title, public_source=True)
+    best = _pc.best(codes, shareable_only=True)
+    if best:
+        coupon_code, code_kind = best.code, best.kind
+        if best.percent and price_current and price_list is None:
+            price_list = price_current
+            price_current = _pc.apply_to_price(price_current, best)
+
+    # 커뮤니티 투표(Thumb Score) → 점수 신호
+    tm = _SD_THUMB.search(content)
+    votes = int(tm.group(1)) if tm else None
+    # 리테일러 도메인(설명 미리보기에서)
+    rm = _SD_RETAILER.search(f"<description>{desc}")
+    retailer = rm.group(1).lower() if rm else "slickdeals.net"
+    im = _SD_IMG.search(content)
+
+    try:
+        import brands as _b
+        brand = _b.lookup(title)[1]
+    except Exception:
+        brand = ""
+
+    return Deal(
+        source=f"slickdeals:{retailer}", source_tier="T1",
+        url=link.split("?")[0] if link else link,
+        title=title[:140], brand=brand or (title.split()[0] if title else ""),
+        image=im.group(1) if im else "",
+        price_current=price_current, price_list=price_list,
+        coupon_code=coupon_code, code_kind=code_kind,
+        community_votes=votes, frontpage=frontpage,
+        collection_method="rss",
+    )
+
+
 def fetch_slickdeals(limit: int = 50) -> list[Deal]:
-    api_key = os.environ.get("SLICKDEALS_API_KEY")
-    if not api_key:
-        print("[slickdeals] SLICKDEALS_API_KEY 없음 → 비활성 (ToS상 스크래핑 대신 공식 API 필요)")
-        return []
-    # 승인된 파트너 API 엔드포인트/스키마에 맞춰 여기 구현.
-    # 예시 골격:
-    #   raw = _http_get(f"https://api.slickdeals.net/...?key={api_key}")
-    #   for d in json.loads(raw)["deals"]: deals.append(Deal(source="slickdeals_api", source_tier="T1", frontpage=..., community_votes=..., ...))
-    print("[slickdeals] API 키 감지 — 파트너 API 응답 매핑 로직을 여기 구현하세요.")
-    return []
+    """슬릭딜 공개 RSS(frontpage/popular)를 읽어 딜로 변환."""
+    import xml.etree.ElementTree as _ET
+    deals: list[Deal] = []
+    seen: set[str] = set()
+    for name, url in SLICKDEALS_FEEDS:
+        try:
+            raw = _http_get(url, timeout=12)
+        except Exception as e:
+            print(f"[slickdeals] {name} 실패: {getattr(e,'code',type(e).__name__)}")
+            continue
+        # content:encoded 네임스페이스 때문에 정규식으로 item 단위 파싱
+        for block in re.findall(r"<item>(.*?)</item>", raw, re.S):
+            def _tag(t):
+                mm = re.search(rf"<{t}>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</{t}>", block, re.S)
+                return mm.group(1) if mm else ""
+            title = _tag("title")
+            link = _tag("link")
+            desc = _tag("description")
+            cm = re.search(r"<content:encoded>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</content:encoded>",
+                           block, re.S)
+            content = cm.group(1) if cm else ""
+            if not (title and link) or link in seen:
+                continue
+            seen.add(link)
+            deals.append(parse_slickdeals_item(title, link, desc, content,
+                                                frontpage=(name == "frontpage")))
+            if len(deals) >= limit:
+                break
+    print(f"[slickdeals] RSS {len(deals)}건 수집 (frontpage/popular)")
+    return deals
 
 
 # ---------------------------------------------------------------------------
