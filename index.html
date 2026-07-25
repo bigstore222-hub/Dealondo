@@ -44,9 +44,11 @@
   .was{color:var(--sub);text-decoration:line-through;font-size:13px}
   .off{color:var(--flash);font-weight:700;font-size:13px}
   .promo{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;
-    background:#132b1e;color:#57e08a;border:1px solid #2c6b45;border-radius:7px;padding:5px 10px}
-  .promo code{font-family:ui-monospace,Menlo,monospace;background:#0b1a12;color:#8affc0;
+    background:#2b1a10;color:#ffb066;border:1px solid #7a3f1c;border-radius:7px;padding:5px 10px}
+  .promo code{font-family:ui-monospace,Menlo,monospace;background:#1a0f08;color:#ffd0a0;
     padding:1px 6px;border-radius:4px;letter-spacing:.5px}
+  .card.codedeal{border-color:#c8631f;box-shadow:0 0 0 1px #c8631f55}
+  .card.codedeal:hover{border-color:#ff8a3d}
   .tags{display:flex;gap:6px;flex-wrap:wrap}
   .tag{font-size:11px;color:var(--sub);border:1px solid var(--line);
        padding:2px 7px;border-radius:5px}
@@ -120,9 +122,9 @@ function render(){
     if(d.free_gift)tags.push('🎁 사은품');
     if(d.price_alltime_low!=null && d.price_current!=null && d.price_current<=d.price_alltime_low)tags.push('📉 역대최저');
     const b=d.score_breakdown||{};
-    return `<div class="card">
+    return `<div class="card${d.coupon_code?' codedeal':''}">
       <div class="row">
-        <span class="badge ${d.urgency}">${d.urgency}</span>
+        <span class="badge ${d.urgency}">${d.coupon_code?'🔥 코드딜':d.urgency}</span>
         <span class="src">${d.source} · ${d.source_tier}</span>
         <span class="score">점수 <b>${d.score}</b>/100</span>
       </div>
@@ -136,7 +138,7 @@ function render(){
         ${d.price_list?`<span class="was">${fmtPrice(d.price_list)}</span>`:''}
         ${d.discount_pct?`<span class="off">${d.discount_pct}% OFF</span>`:''}
       </div>
-      ${d.coupon_code?`<div class="promo">🎟️ 결제창 코드 <code>${d.coupon_code}</code> 입력가 ${fmtPrice(d.price_current)}</div>`:''}
+      ${d.coupon_code?`<div class="promo">🔥 결제창 코드 <code>${d.coupon_code}</code> 입력 시 ${fmtPrice(d.price_current)}</div>`:''}
       ${tags.length?`<div class="tags">${tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>`:''}
       <div class="foot">
         <span class="src">${CAT_LABEL[dispCat(d)]||''}</span>
