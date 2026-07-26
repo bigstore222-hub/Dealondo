@@ -81,6 +81,11 @@
     <button data-f="STEADY">🟡 STEADY</button>
     <button data-f="PREMIUM">⭐ 프리미엄</button>
   </div>
+  <div class="toolbar" id="sorts">
+    <span style="font-size:12px;color:var(--sub);align-self:center;margin-right:2px">정렬</span>
+    <button data-s="score" class="active">🔥 점수순</button>
+    <button data-s="recent">🕒 최신순</button>
+  </div>
 </header>
 <div style="padding:6px 24px;font-size:11px;color:var(--sub);max-width:1400px;margin:0 auto">
   일부 링크는 제휴 링크로, 회원님의 구매 시 딜온도가 소정의 수수료를 받을 수 있습니다(구매가는 동일).
@@ -90,9 +95,16 @@
 <script>
 const board=document.getElementById('board');
 const meta=document.getElementById('meta');
-let deals=[], filter='ALL', cat='ALL';
+let deals=[], filter='ALL', cat='ALL', sort='score';
 
 function fmtPrice(v){return v==null?'—':'$'+Number(v).toLocaleString(undefined,{maximumFractionDigits:2});}
+function timeAgo(iso){
+  const t=Date.parse(iso||0); if(!t)return '';
+  const m=Math.max(0,Math.floor((Date.now()-t)/60000));
+  if(m<1)return '방금'; if(m<60)return m+'분 전';
+  const h=Math.floor(m/60); if(h<24)return h+'시간 전';
+  return Math.floor(h/24)+'일 전';
+}
 
 // 딜을 해외직구 분류(육아·키즈 / 의류·잡화 / 신발 / 전자·IT / 스포츠·아웃도어)로 매핑.
 // 신발은 제목 키워드로 감지해 카테고리보다 우선(운동화 포함 신발은 신발 탭으로).
@@ -114,6 +126,12 @@ function render(){
   const list=deals.filter(d=>
     (filter==='ALL'||(filter==='PREMIUM'?d.brand_tier==='premium':d.urgency===filter))
     && (cat==='ALL'||dispCat(d)===cat));
+  // 정렬: 점수순(기본) 또는 최신순(등록시각 detected_at 내림차순)
+  if(sort==='recent'){
+    list.sort((a,b)=>(Date.parse(b.detected_at||0)||0)-(Date.parse(a.detected_at||0)||0));
+  }else{
+    list.sort((a,b)=>(b.score||0)-(a.score||0));
+  }
   if(!list.length){board.innerHTML='<div class="empty">표시할 딜이 없습니다.</div>';return;}
   board.innerHTML=list.map(d=>{
     const tags=[];
@@ -142,6 +160,7 @@ function render(){
       ${tags.length?`<div class="tags">${tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>`:''}
       <div class="foot">
         <span class="src">${CAT_LABEL[dispCat(d)]||''}</span>
+        ${d.detected_at?`<span class="src">🕒 ${timeAgo(d.detected_at)}</span>`:''}
         <a class="go" href="${d.buy_url||d.url}" target="_blank" rel="noopener sponsored">딜 보기 →</a>
       </div>
       <div class="bd">
@@ -161,6 +180,11 @@ document.getElementById('cats').addEventListener('click',e=>{
   if(e.target.tagName!=='BUTTON')return;
   document.querySelectorAll('#cats button').forEach(b=>b.classList.remove('active'));
   e.target.classList.add('active');cat=e.target.dataset.c;render();
+});
+document.getElementById('sorts').addEventListener('click',e=>{
+  if(e.target.tagName!=='BUTTON')return;
+  document.querySelectorAll('#sorts button').forEach(b=>b.classList.remove('active'));
+  e.target.classList.add('active');sort=e.target.dataset.s;render();
 });
 
 fetch('deals.json').then(r=>r.json()).then(data=>{
