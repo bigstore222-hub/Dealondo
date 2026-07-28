@@ -16,6 +16,19 @@ Playwright가 없거나 실행 불가한 환경에서는 조용히 비활성화�
 from __future__ import annotations
 import os
 
+# 렌더링 임시파일 위치 재지정.
+# 헤드리스 브라우저는 페이지마다 임시 프로필/캐시를 만들어 C: 용량을 빠르게 먹는다.
+# RADAR_TMP 가 설정되면(예: F:\dealondo\tmp) Playwright·tempfile 이 그쪽을 쓴다.
+_radar_tmp = os.environ.get("RADAR_TMP")
+if _radar_tmp:
+    try:
+        os.makedirs(_radar_tmp, exist_ok=True)
+        os.environ["TMP"] = os.environ["TEMP"] = _radar_tmp
+        import tempfile as _tf
+        _tf.tempdir = _radar_tmp
+    except Exception:
+        pass
+
 LAUNCH_ARGS = ["--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu"]
 
 # 지연 로딩 상품을 끌어내리기 위한 스크롤 설정.
