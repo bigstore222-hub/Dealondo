@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-28T07:34:26.198725+00:00",
-  "count": 365,
+  "generated_at": "2026-07-28T10:14:12.759613+00:00",
+  "count": 368,
   "deals": [
     {
       "source": "nordstromrack.com",
@@ -46,7 +46,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
-      "detected_at": "2026-07-28T07:32:48.110473+00:00"
+      "detected_at": "2026-07-28T10:12:28.661402+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -92,7 +92,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
-      "detected_at": "2026-07-28T07:32:48.110538+00:00"
+      "detected_at": "2026-07-28T10:12:28.661467+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -138,7 +138,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
-      "detected_at": "2026-07-28T07:32:48.110581+00:00"
+      "detected_at": "2026-07-28T10:12:28.661509+00:00"
     },
     {
       "source": "zappos.com",
@@ -184,7 +184,53 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
-      "detected_at": "2026-07-28T07:32:49.614407+00:00"
+      "detected_at": "2026-07-28T10:12:30.570401+00:00"
+    },
+    {
+      "source": "6pm.com",
+      "source_tier": "T3",
+      "url": "https://www.6pm.com/product/9953813",
+      "title": "Sofia 45 Slide",
+      "brand": "Stuart Weitzman",
+      "category": "premium_fashion",
+      "image": "//www.6pm.comnull",
+      "price_current": 95.0,
+      "price_list": 475.0,
+      "price_baseline": 475.0,
+      "price_alltime_low": 95.0,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": 4.0,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 139397,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.6pm.com/product/9953813",
+      "discount_pct": 80.0,
+      "score": 97,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-07-28T10:13:18.127518+00:00"
     },
     {
       "source": "6pm.com",
@@ -230,7 +276,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
-      "detected_at": "2026-07-28T07:33:37.897403+00:00"
+      "detected_at": "2026-07-28T10:13:18.127535+00:00"
     },
     {
       "source": "6pm.com",
@@ -276,7 +322,53 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
-      "detected_at": "2026-07-28T07:33:37.897458+00:00"
+      "detected_at": "2026-07-28T10:13:18.127540+00:00"
+    },
+    {
+      "source": "6pm.com",
+      "source_tier": "T3",
+      "url": "https://www.6pm.com/product/10016139",
+      "title": "Maven Western Bootie",
+      "brand": "Stuart Weitzman",
+      "category": "premium_fashion",
+      "image": "//www.6pm.comnull",
+      "price_current": 139.0,
+      "price_list": 695.0,
+      "price_baseline": 695.0,
+      "price_alltime_low": 139.0,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": 5.0,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 203959,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.6pm.com/product/10016139",
+      "discount_pct": 80.0,
+      "score": 97,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-07-28T10:13:18.127588+00:00"
     },
     {
       "source": "6pm.com",
@@ -465,98 +557,6 @@
     {
       "source": "6pm.com",
       "source_tier": "T3",
-      "url": "https://www.6pm.com/product/9953813",
-      "title": "Sofia 45 Slide",
-      "brand": "Stuart Weitzman",
-      "category": "premium_fashion",
-      "image": "//www.6pm.comnull",
-      "price_current": 95.0,
-      "price_list": 475.0,
-      "price_baseline": 475.0,
-      "price_alltime_low": 95.0,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": 4.0,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 139397,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.6pm.com/product/9953813",
-      "discount_pct": 80.0,
-      "score": 97,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-07-28T04:55:54.001661+00:00"
-    },
-    {
-      "source": "6pm.com",
-      "source_tier": "T3",
-      "url": "https://www.6pm.com/product/10016139",
-      "title": "Maven Western Bootie",
-      "brand": "Stuart Weitzman",
-      "category": "premium_fashion",
-      "image": "//www.6pm.comnull",
-      "price_current": 139.0,
-      "price_list": 695.0,
-      "price_baseline": 695.0,
-      "price_alltime_low": 139.0,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": 5.0,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 203959,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.6pm.com/product/10016139",
-      "discount_pct": 80.0,
-      "score": 97,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-07-28T04:55:54.002855+00:00"
-    },
-    {
-      "source": "6pm.com",
-      "source_tier": "T3",
       "url": "https://www.6pm.com/product/10009875",
       "title": "Summer Strappy Sandals",
       "brand": "Vince",
@@ -690,7 +690,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
-      "detected_at": "2026-07-28T07:32:48.110525+00:00"
+      "detected_at": "2026-07-28T10:12:28.661454+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -736,7 +736,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
-      "detected_at": "2026-07-28T07:32:48.110529+00:00"
+      "detected_at": "2026-07-28T10:12:28.661459+00:00"
     },
     {
       "source": "zappos.com",
@@ -782,7 +782,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
-      "detected_at": "2026-07-28T07:32:49.614373+00:00",
+      "detected_at": "2026-07-28T10:12:30.570423+00:00",
       "variant_count": 2
     },
     {
@@ -807,7 +807,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 42328,
+      "krw_effective": 42553,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -829,7 +829,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
-      "detected_at": "2026-07-27T19:18:56.619497+00:00"
+      "detected_at": "2026-07-28T10:13:18.127592+00:00"
     },
     {
       "source": "zappos.com",
@@ -875,7 +875,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
-      "detected_at": "2026-07-28T07:32:49.614423+00:00"
+      "detected_at": "2026-07-28T10:12:30.570458+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -921,7 +921,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
-      "detected_at": "2026-07-28T07:32:59.200460+00:00"
+      "detected_at": "2026-07-28T10:12:33.797233+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -967,7 +967,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
-      "detected_at": "2026-07-28T07:32:48.110576+00:00"
+      "detected_at": "2026-07-28T10:12:28.661505+00:00"
     },
     {
       "source": "zappos.com",
@@ -1289,7 +1289,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:49.614415+00:00"
+      "detected_at": "2026-07-28T10:12:30.570555+00:00"
     },
     {
       "source": "6pm.com",
@@ -1335,7 +1335,53 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:33:37.897393+00:00"
+      "detected_at": "2026-07-28T10:13:18.127479+00:00"
+    },
+    {
+      "source": "6pm.com",
+      "source_tier": "T3",
+      "url": "https://www.6pm.com/product/9917167",
+      "title": "Holiday Sweatshirt",
+      "brand": "P.J. Salvage",
+      "category": "sports_outdoor",
+      "image": "https://m.media-amazon.com/images/I/71H9ysLXlpL._AC_SR255,340_.jpg",
+      "price_current": 13.6,
+      "price_list": 68.0,
+      "price_baseline": 68.0,
+      "price_alltime_low": 13.6,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 19956,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.6pm.com/product/9917167",
+      "discount_pct": 80.0,
+      "score": 84,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": 25,
+        "category": 13,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-07-28T10:13:18.127708+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1382,53 +1428,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:48.110623+00:00"
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/dr-martens-939-ben-boot-women/8880998",
-      "title": "939 Ben Boot",
-      "brand": "Dr Martens",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/917d8b41-65d3-4d8c-a085-5df33184fb8e.jpeg?h=368&w=240&dpr=2",
-      "price_current": 54.98,
-      "price_list": 170.0,
-      "price_baseline": 170.0,
-      "price_alltime_low": 54.98,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 80674,
-      "kr_lowest_price": 96990.0,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/dr-martens-939-ben-boot-women/8880998",
-      "discount_pct": 67.7,
-      "score": 83,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 16,
-        "bonus": 0,
-        "brand": 12
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-07-28T06:41:40.353841+00:00"
+      "detected_at": "2026-07-28T10:12:28.661552+00:00"
     },
     {
       "source": "6pm.com",
@@ -1475,7 +1475,53 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T04:55:54.003108+00:00"
+      "detected_at": "2026-07-28T10:13:18.127747+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/dr-martens-939-ben-boot-women/8880998",
+      "title": "939 Ben Boot",
+      "brand": "Dr Martens",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/917d8b41-65d3-4d8c-a085-5df33184fb8e.jpeg?h=368&w=240&dpr=2",
+      "price_current": 54.98,
+      "price_list": 170.0,
+      "price_baseline": 170.0,
+      "price_alltime_low": 54.98,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 80674,
+      "kr_lowest_price": 96990.0,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.nordstromrack.com/s/dr-martens-939-ben-boot-women/8880998",
+      "discount_pct": 67.7,
+      "score": 83,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 16,
+        "bonus": 0,
+        "brand": 12
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-07-28T06:41:40.353841+00:00"
     },
     {
       "source": "6pm.com",
@@ -1809,7 +1855,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:48.110636+00:00"
+      "detected_at": "2026-07-28T10:12:28.661566+00:00"
     },
     {
       "source": "zappos.com",
@@ -1855,7 +1901,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:49.614554+00:00"
+      "detected_at": "2026-07-28T10:12:30.570604+00:00"
     },
     {
       "source": "zappos.com",
@@ -1947,7 +1993,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:59.200468+00:00"
+      "detected_at": "2026-07-28T10:12:33.797240+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1993,7 +2039,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:48.110648+00:00"
+      "detected_at": "2026-07-28T10:12:28.661579+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -2039,7 +2085,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:59.200570+00:00"
+      "detected_at": "2026-07-28T10:12:33.797326+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -2085,7 +2131,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:59.200731+00:00"
+      "detected_at": "2026-07-28T10:12:33.797467+00:00"
     },
     {
       "source": "zappos.com",
@@ -2178,7 +2224,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:48.110585+00:00"
+      "detected_at": "2026-07-28T10:12:28.661513+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2225,7 +2271,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:48.110653+00:00"
+      "detected_at": "2026-07-28T10:12:28.661583+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2414,53 +2460,6 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-27T07:54:47.458094+00:00"
-    },
-    {
-      "source": "6pm.com",
-      "source_tier": "T3",
-      "url": "https://www.6pm.com/product/9979803",
-      "title": "Oaklyn",
-      "brand": "Sam Edelman",
-      "category": "premium_fashion",
-      "image": "//www.6pm.comnull",
-      "price_current": 34.0,
-      "price_list": 170.0,
-      "price_baseline": 170.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": 5.0,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 49735,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.6pm.com/product/9979803",
-      "discount_pct": 80.0,
-      "score": 76,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-07-26T09:00:36.315686+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -3802,7 +3801,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:59.200475+00:00"
+      "detected_at": "2026-07-28T10:12:33.797246+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -3848,7 +3847,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:59.200482+00:00"
+      "detected_at": "2026-07-28T10:12:33.797252+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -3894,7 +3893,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:59.200489+00:00"
+      "detected_at": "2026-07-28T10:12:33.797257+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -3940,7 +3939,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:59.200515+00:00"
+      "detected_at": "2026-07-28T10:12:33.797279+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -3986,7 +3985,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:59.200522+00:00"
+      "detected_at": "2026-07-28T10:12:33.797286+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -4032,7 +4031,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:59.200536+00:00"
+      "detected_at": "2026-07-28T10:12:33.797297+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -4079,7 +4078,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:48.110551+00:00"
+      "detected_at": "2026-07-28T10:12:28.661479+00:00"
     },
     {
       "source": "zappos.com",
@@ -4407,7 +4406,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:59.200529+00:00"
+      "detected_at": "2026-07-28T10:12:33.797291+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -4453,7 +4452,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:59.200563+00:00"
+      "detected_at": "2026-07-28T10:12:33.797321+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -4499,7 +4498,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:59.200591+00:00"
+      "detected_at": "2026-07-28T10:12:33.797346+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -4545,7 +4544,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:59.200689+00:00"
+      "detected_at": "2026-07-28T10:12:33.797432+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -4591,7 +4590,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:59.200746+00:00"
+      "detected_at": "2026-07-28T10:12:33.797479+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -4637,7 +4636,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:59.200800+00:00"
+      "detected_at": "2026-07-28T10:12:33.797519+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -4683,7 +4682,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:59.200959+00:00"
+      "detected_at": "2026-07-28T10:12:33.797676+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -4729,7 +4728,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:59.200989+00:00"
+      "detected_at": "2026-07-28T10:12:33.797704+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -4775,7 +4774,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:59.201035+00:00"
+      "detected_at": "2026-07-28T10:12:33.797747+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -4821,7 +4820,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:59.201070+00:00"
+      "detected_at": "2026-07-28T10:12:33.797780+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -4867,7 +4866,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:59.201161+00:00"
+      "detected_at": "2026-07-28T10:12:33.797866+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -4913,7 +4912,53 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T07:32:59.201167+00:00"
+      "detected_at": "2026-07-28T10:12:33.797872+00:00"
+    },
+    {
+      "source": "walmart.com",
+      "source_tier": "T3",
+      "url": "https://www.walmart.com/shop/savings?povid=EvergreenClearance_Facet_AllSavings",
+      "title": "Shop All Savings",
+      "brand": "Walmart",
+      "category": "etc",
+      "image": "https://i5.walmartimages.com/dfw/4ff9c6c9-5b89/k2-_d6992fde-4030-42f0-8a46-b3a538496bcc.v1.png",
+      "price_current": 5.0,
+      "price_list": 25.0,
+      "price_baseline": 25.0,
+      "price_alltime_low": 5.0,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 7337,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.walmart.com/shop/savings?povid=EvergreenClearance_Facet_AllSavings",
+      "discount_pct": 80.0,
+      "score": 70,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": 25,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-07-28T10:13:17.643634+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -5104,14 +5149,14 @@
     {
       "source": "6pm.com",
       "source_tier": "T3",
-      "url": "https://www.6pm.com/product/9963581",
-      "title": "Echo Clogs (Toddler)",
+      "url": "https://www.6pm.com/product/9964360",
+      "title": "Bubble Crush Clogs",
       "brand": "Crocs",
-      "category": "kids",
+      "category": "sports_outdoor",
       "image": "//www.6pm.comnull",
-      "price_current": 9.45,
-      "price_list": 54.95,
-      "price_baseline": 54.95,
+      "price_current": 14.7,
+      "price_list": 79.95,
+      "price_baseline": 79.95,
       "price_alltime_low": null,
       "currency": "USD",
       "coupon_code": "",
@@ -5119,11 +5164,11 @@
       "off_season": false,
       "free_gift": false,
       "community_votes": null,
-      "rating": null,
+      "rating": 4.0,
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 13823,
+      "krw_effective": 21570,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -5132,21 +5177,21 @@
       "frontpage": false,
       "code_kind": "",
       "brand_tier": "known",
-      "buy_url": "https://www.6pm.com/product/9963581",
-      "discount_pct": 82.8,
-      "score": 70,
+      "buy_url": "https://www.6pm.com/product/9964360",
+      "discount_pct": 81.6,
+      "score": 68,
       "score_breakdown": {
         "discount_depth": 40,
         "price_history": null,
-        "category": 15,
+        "category": 13,
         "bonus": 0,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-07-26T09:00:36.314351+00:00"
+      "urgency": "STEADY",
+      "detected_at": "2026-07-28T10:13:18.127484+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -5479,7 +5524,54 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:48.110607+00:00"
+      "detected_at": "2026-07-28T10:12:28.661535+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10046158",
+      "title": "Wide Sleeve Cropped Crew Neck Jacket",
+      "brand": "Vince Camuto",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/81EgSIiewAL._AC_SR255,340_.jpg",
+      "price_current": 47.7,
+      "price_list": 159.0,
+      "price_baseline": 159.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 69992,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10046158",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-28T10:12:30.570877+00:00"
     },
     {
       "source": "zappos.com",
@@ -5624,53 +5716,6 @@
       "detected_at": "2026-07-27T23:55:26.467443+00:00"
     },
     {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10046158",
-      "title": "Wide Sleeve Cropped Crew Neck Jacket",
-      "brand": "Vince Camuto",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/81EgSIiewAL._AC_SR255,340_.jpg",
-      "price_current": 47.7,
-      "price_list": 159.0,
-      "price_baseline": 159.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 69623,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10046158",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-07-27T23:55:50.397065+00:00"
-    },
-    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/19792497-sportsroyals-power-cage-with-lat-pulldown-263-50-free-s-h",
@@ -5762,7 +5807,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200584+00:00"
+      "detected_at": "2026-07-28T10:12:33.797340+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -5808,7 +5853,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200599+00:00"
+      "detected_at": "2026-07-28T10:12:33.797351+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -5854,7 +5899,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200675+00:00"
+      "detected_at": "2026-07-28T10:12:33.797421+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -5900,7 +5945,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200717+00:00"
+      "detected_at": "2026-07-28T10:12:33.797454+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -5946,7 +5991,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200738+00:00"
+      "detected_at": "2026-07-28T10:12:33.797473+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -5992,7 +6037,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200753+00:00"
+      "detected_at": "2026-07-28T10:12:33.797485+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -6038,7 +6083,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200834+00:00"
+      "detected_at": "2026-07-28T10:12:33.797547+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -6084,7 +6129,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200870+00:00"
+      "detected_at": "2026-07-28T10:12:33.797586+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -6130,7 +6175,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200882+00:00"
+      "detected_at": "2026-07-28T10:12:33.797597+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -6176,7 +6221,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200888+00:00"
+      "detected_at": "2026-07-28T10:12:33.797602+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -6222,7 +6267,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200894+00:00"
+      "detected_at": "2026-07-28T10:12:33.797608+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -6268,7 +6313,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200906+00:00"
+      "detected_at": "2026-07-28T10:12:33.797619+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -6314,7 +6359,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200912+00:00"
+      "detected_at": "2026-07-28T10:12:33.797624+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -6360,7 +6405,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200917+00:00"
+      "detected_at": "2026-07-28T10:12:33.797630+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -6406,7 +6451,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200929+00:00"
+      "detected_at": "2026-07-28T10:12:33.797640+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -6452,7 +6497,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200935+00:00"
+      "detected_at": "2026-07-28T10:12:33.797646+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -6498,7 +6543,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201000+00:00"
+      "detected_at": "2026-07-28T10:12:33.797715+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -6544,7 +6589,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201065+00:00"
+      "detected_at": "2026-07-28T10:12:33.797775+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -6590,7 +6635,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201076+00:00"
+      "detected_at": "2026-07-28T10:12:33.797786+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -6636,7 +6681,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201093+00:00"
+      "detected_at": "2026-07-28T10:12:33.797806+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -6682,7 +6727,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201121+00:00"
+      "detected_at": "2026-07-28T10:12:33.797843+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -6731,6 +6776,54 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-28T07:32:25.419560+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/19812573-dungeon-crawler-carl-books-2-3-4-7-by-matt-dinniman-kindle-ebooks-1",
+      "title": "Dungeon Crawler Carl: Books #2, 3, 4 & 7 by Matt Dinniman (Kindle eBooks) $1",
+      "brand": "Dungeon",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/8/6/6/3/0/300x300/21123696.thumb",
+      "price_current": 1.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 99,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 1467,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/19812573-dungeon-crawler-carl-books-2-3-4-7-by-matt-dinniman-kindle-ebooks-1",
+      "discount_pct": null,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "community": "투표 99 → 하한 61"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-28T10:11:59.468310+00:00"
     },
     {
       "source": "zappos.com",
@@ -6918,7 +7011,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200549+00:00"
+      "detected_at": "2026-07-28T10:12:33.797309+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -6964,7 +7057,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200556+00:00"
+      "detected_at": "2026-07-28T10:12:33.797315+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7011,7 +7104,54 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200634+00:00"
+      "detected_at": "2026-07-28T10:12:33.797381+00:00"
+    },
+    {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/trucozie-3-in-1-filter-air-purifier/840703.htm",
+      "title": "Trucozie 3-in-1 Filter App Controlled Air Purifier (Covers 3000 sq ft)",
+      "brand": "Trucozie",
+      "category": "electronics",
+      "image": "https://d16f00g4zitf8i.cloudfront.net/images/trucozie-3-in-1-filter-air purifier.jpg",
+      "price_current": 79.99,
+      "price_list": 299.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 117372,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.dealsofamerica.com/trucozie-3-in-1-filter-air-purifier/840703.htm",
+      "discount_pct": 73.3,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-28T10:12:33.797387+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7057,7 +7197,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200654+00:00"
+      "detected_at": "2026-07-28T10:12:33.797404+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7103,7 +7243,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200809+00:00"
+      "detected_at": "2026-07-28T10:12:33.797525+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7149,7 +7289,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200858+00:00"
+      "detected_at": "2026-07-28T10:12:33.797575+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7196,7 +7336,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200941+00:00"
+      "detected_at": "2026-07-28T10:12:33.797659+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7242,7 +7382,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200965+00:00"
+      "detected_at": "2026-07-28T10:12:33.797681+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7288,7 +7428,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.200994+00:00"
+      "detected_at": "2026-07-28T10:12:33.797710+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7334,7 +7474,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201105+00:00"
+      "detected_at": "2026-07-28T10:12:33.797818+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7380,7 +7520,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201116+00:00"
+      "detected_at": "2026-07-28T10:12:33.797823+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7426,7 +7566,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201143+00:00"
+      "detected_at": "2026-07-28T10:12:33.797850+00:00"
     },
     {
       "source": "sneakersnstuff.com",
@@ -8175,7 +8315,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201208+00:00"
+      "detected_at": "2026-07-28T10:12:33.797915+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -8221,7 +8361,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201213+00:00",
+      "detected_at": "2026-07-28T10:12:33.797920+00:00",
       "variant_count": 2
     },
     {
@@ -8268,7 +8408,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201219+00:00"
+      "detected_at": "2026-07-28T10:12:33.797925+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -8314,7 +8454,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201231+00:00"
+      "detected_at": "2026-07-28T10:12:33.797936+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -8360,7 +8500,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201243+00:00"
+      "detected_at": "2026-07-28T10:12:33.797948+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -8406,7 +8546,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201273+00:00"
+      "detected_at": "2026-07-28T10:12:33.797981+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -8452,7 +8592,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201296+00:00"
+      "detected_at": "2026-07-28T10:12:33.798003+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -8498,7 +8638,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201324+00:00"
+      "detected_at": "2026-07-28T10:12:33.798029+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -8544,7 +8684,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201346+00:00"
+      "detected_at": "2026-07-28T10:12:33.798050+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -8590,7 +8730,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201352+00:00"
+      "detected_at": "2026-07-28T10:12:33.798055+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -8636,7 +8776,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201370+00:00"
+      "detected_at": "2026-07-28T10:12:33.798071+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -8682,7 +8822,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201381+00:00"
+      "detected_at": "2026-07-28T10:12:33.798082+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -8728,7 +8868,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201387+00:00"
+      "detected_at": "2026-07-28T10:12:33.798087+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -8774,7 +8914,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201392+00:00"
+      "detected_at": "2026-07-28T10:12:33.798093+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -8820,7 +8960,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201472+00:00"
+      "detected_at": "2026-07-28T10:12:33.798158+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -8866,7 +9006,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201541+00:00"
+      "detected_at": "2026-07-28T10:12:33.798221+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -8912,7 +9052,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201581+00:00"
+      "detected_at": "2026-07-28T10:12:33.798268+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -8958,7 +9098,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201641+00:00"
+      "detected_at": "2026-07-28T10:12:33.798318+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -9004,7 +9144,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201676+00:00"
+      "detected_at": "2026-07-28T10:12:33.798350+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -9050,7 +9190,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201724+00:00"
+      "detected_at": "2026-07-28T10:12:33.798456+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -9096,7 +9236,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201734+00:00"
+      "detected_at": "2026-07-28T10:12:33.798462+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -9142,7 +9282,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201741+00:00"
+      "detected_at": "2026-07-28T10:12:33.798467+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -9188,7 +9328,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201747+00:00"
+      "detected_at": "2026-07-28T10:12:33.798473+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -9234,7 +9374,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201776+00:00"
+      "detected_at": "2026-07-28T10:12:33.798499+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -9280,7 +9420,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201782+00:00"
+      "detected_at": "2026-07-28T10:12:33.798504+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -9326,7 +9466,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201788+00:00"
+      "detected_at": "2026-07-28T10:12:33.798510+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -9372,7 +9512,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201823+00:00"
+      "detected_at": "2026-07-28T10:12:33.798541+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -9418,7 +9558,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201958+00:00"
+      "detected_at": "2026-07-28T10:12:33.798620+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -9464,7 +9604,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201977+00:00"
+      "detected_at": "2026-07-28T10:12:33.798640+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -9510,7 +9650,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201986+00:00"
+      "detected_at": "2026-07-28T10:12:33.798650+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -9556,7 +9696,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202010+00:00"
+      "detected_at": "2026-07-28T10:12:33.798676+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -9602,7 +9742,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202031+00:00"
+      "detected_at": "2026-07-28T10:12:33.798692+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -9648,7 +9788,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202036+00:00"
+      "detected_at": "2026-07-28T10:12:33.798697+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -9694,7 +9834,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202045+00:00"
+      "detected_at": "2026-07-28T10:12:33.798709+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -9740,7 +9880,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202050+00:00"
+      "detected_at": "2026-07-28T10:12:33.798714+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -9786,7 +9926,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202093+00:00"
+      "detected_at": "2026-07-28T10:12:33.798757+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -9832,7 +9972,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202108+00:00"
+      "detected_at": "2026-07-28T10:12:33.798773+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -9878,7 +10018,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202153+00:00"
+      "detected_at": "2026-07-28T10:12:33.798809+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -9924,7 +10064,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202158+00:00"
+      "detected_at": "2026-07-28T10:12:33.798814+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -9970,7 +10110,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202163+00:00"
+      "detected_at": "2026-07-28T10:12:33.798821+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10016,7 +10156,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202180+00:00"
+      "detected_at": "2026-07-28T10:12:33.798851+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10062,7 +10202,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202190+00:00"
+      "detected_at": "2026-07-28T10:12:33.798864+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10108,7 +10248,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202196+00:00"
+      "detected_at": "2026-07-28T10:12:33.798869+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10154,7 +10294,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202201+00:00"
+      "detected_at": "2026-07-28T10:12:33.798875+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10200,7 +10340,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202205+00:00"
+      "detected_at": "2026-07-28T10:12:33.798880+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10246,7 +10386,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202220+00:00"
+      "detected_at": "2026-07-28T10:12:33.798895+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10292,7 +10432,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202234+00:00"
+      "detected_at": "2026-07-28T10:12:33.798909+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10338,7 +10478,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202239+00:00"
+      "detected_at": "2026-07-28T10:12:33.798914+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10384,7 +10524,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202253+00:00"
+      "detected_at": "2026-07-28T10:12:33.798929+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10430,7 +10570,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202258+00:00"
+      "detected_at": "2026-07-28T10:12:33.798934+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10476,7 +10616,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202282+00:00"
+      "detected_at": "2026-07-28T10:12:33.798963+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10522,7 +10662,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202309+00:00"
+      "detected_at": "2026-07-28T10:12:33.798988+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10568,7 +10708,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202320+00:00"
+      "detected_at": "2026-07-28T10:12:33.798999+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10614,7 +10754,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202325+00:00"
+      "detected_at": "2026-07-28T10:12:33.799004+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10660,7 +10800,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202329+00:00"
+      "detected_at": "2026-07-28T10:12:33.799009+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10706,7 +10846,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202337+00:00"
+      "detected_at": "2026-07-28T10:12:33.799015+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10752,7 +10892,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202348+00:00"
+      "detected_at": "2026-07-28T10:12:33.799024+00:00"
     },
     {
       "source": "amazon.com",
@@ -11563,6 +11703,54 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
+      "url": "https://slickdeals.net/f/19815351-nintendo-switch-digital-games-monster-hunter-rise-8-hogwarts-legacy-9-phoenix-wright-ace-attorney-trilogy-10-more",
+      "title": "Nintendo Switch Digital Games: Hogwarts Legacy $9, Monster Hunter Rise $8 & Many More",
+      "brand": "Nintendo",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/8/6/6/3/0/300x300/21123783.thumb",
+      "price_current": 8.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 46,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 11739,
+      "kr_lowest_price": 91400.0,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/19815351-nintendo-switch-digital-games-monster-hunter-rise-8-hogwarts-legacy-9-phoenix-wright-ace-attorney-trilogy-10-more",
+      "discount_pct": null,
+      "score": 56,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "community": "투표 46 → 하한 56"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-28T10:11:59.465564+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
       "url": "https://slickdeals.net/f/19811214-target-school-supplies-sale-up-to-60-off-select-items-free-store-pickup-or-free-shipping-w-target-360-circle-card-or-on-35",
       "title": "School Supplies Sale: 12-Ct Crayola Colored Pencils $1, 24-Ct Crayola Crayons $0.50 & More + Free Pickup",
       "brand": "School",
@@ -12249,7 +12437,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 39,
+      "community_votes": 38,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -12273,12 +12461,60 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "community": "투표 39 → 하한 55"
+        "community": "투표 38 → 하한 55"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:25.405779+00:00"
+      "detected_at": "2026-07-28T10:11:59.480155+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/adidas-Terrex-Shoe-Clothing-Deals-Up-to-40-off-extra-15-off-free-shipping/21934370.html?iref=rss",
+      "title": "adidas Terrex Shoe & Clothing Deals: Up to 40% off + extra 15% off + free shipping",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1785143811-adidas-terrex-dark-gray-trail-shoe-yery.png?h=61&w=125",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/adidas-Terrex-Shoe-Clothing-Deals-Up-to-40-off-extra-15-off-free-shipping/21934370.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-28T10:12:34.039811+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -12375,54 +12611,6 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-28T07:32:25.418486+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/adidas-Terrex-Shoe-Clothing-Deals-Up-to-40-off-extra-15-off-free-shipping/21934370.html?iref=rss",
-      "title": "adidas Terrex Shoe & Clothing Deals: Up to 40% off + extra 15% off + free shipping",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1785143811-adidas-terrex-dark-gray-trail-shoe-yery.png?h=61&w=125",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/adidas-Terrex-Shoe-Clothing-Deals-Up-to-40-off-extra-15-off-free-shipping/21934370.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.492887+00:00"
     },
     {
       "source": "dealnews",
@@ -14633,54 +14821,6 @@
       "detected_at": "2026-07-26T15:42:41.951119+00:00"
     },
     {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Jan-Sport-28-L-All-Around-Pack-Backpack-for-27-free-shipping-w-Prime/21929318.html?iref=rss",
-      "title": "JanSport 28L All Around Pack Backpack for $27 + free shipping w/ Prime",
-      "brand": "Jansport",
-      "category": "watch_misc",
-      "image": "https://d.dlnws.com/64599/1784990970-product-trimmed.jpg?h=125&w=81",
-      "price_current": 27.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 39495,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Jan-Sport-28-L-All-Around-Pack-Backpack-for-27-free-shipping-w-Prime/21929318.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 10,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-07-26T08:59:49.200195+00:00"
-    },
-    {
       "source": "ssense.com",
       "source_tier": "T3",
       "url": "https://www.ssense.com",
@@ -14817,7 +14957,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201184+00:00"
+      "detected_at": "2026-07-28T10:12:33.797893+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -14863,7 +15003,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201249+00:00"
+      "detected_at": "2026-07-28T10:12:33.797956+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -14909,7 +15049,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201255+00:00"
+      "detected_at": "2026-07-28T10:12:33.797963+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -14955,7 +15095,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201267+00:00"
+      "detected_at": "2026-07-28T10:12:33.797975+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -15001,7 +15141,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201319+00:00"
+      "detected_at": "2026-07-28T10:12:33.798023+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -15047,7 +15187,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201335+00:00"
+      "detected_at": "2026-07-28T10:12:33.798039+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -15093,7 +15233,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201404+00:00"
+      "detected_at": "2026-07-28T10:12:33.798098+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -15139,7 +15279,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201421+00:00"
+      "detected_at": "2026-07-28T10:12:33.798114+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -15185,7 +15325,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201433+00:00"
+      "detected_at": "2026-07-28T10:12:33.798125+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -15231,7 +15371,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201457+00:00"
+      "detected_at": "2026-07-28T10:12:33.798147+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -15277,7 +15417,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201483+00:00"
+      "detected_at": "2026-07-28T10:12:33.798168+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -15323,7 +15463,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201489+00:00"
+      "detected_at": "2026-07-28T10:12:33.798174+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -15369,7 +15509,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201518+00:00"
+      "detected_at": "2026-07-28T10:12:33.798199+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -15415,7 +15555,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201535+00:00"
+      "detected_at": "2026-07-28T10:12:33.798216+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -15461,7 +15601,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201564+00:00"
+      "detected_at": "2026-07-28T10:12:33.798246+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -15507,7 +15647,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201569+00:00"
+      "detected_at": "2026-07-28T10:12:33.798252+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -15553,7 +15693,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201594+00:00"
+      "detected_at": "2026-07-28T10:12:33.798278+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -15599,7 +15739,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201635+00:00"
+      "detected_at": "2026-07-28T10:12:33.798313+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -15645,7 +15785,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201653+00:00"
+      "detected_at": "2026-07-28T10:12:33.798329+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -15691,7 +15831,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201664+00:00"
+      "detected_at": "2026-07-28T10:12:33.798338+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -15737,7 +15877,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201698+00:00"
+      "detected_at": "2026-07-28T10:12:33.798373+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -15783,7 +15923,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201752+00:00"
+      "detected_at": "2026-07-28T10:12:33.798478+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -15829,7 +15969,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201758+00:00"
+      "detected_at": "2026-07-28T10:12:33.798483+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -15875,7 +16015,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201770+00:00"
+      "detected_at": "2026-07-28T10:12:33.798493+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -15921,7 +16061,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201798+00:00"
+      "detected_at": "2026-07-28T10:12:33.798515+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -15967,7 +16107,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201803+00:00"
+      "detected_at": "2026-07-28T10:12:33.798520+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16013,7 +16153,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201808+00:00"
+      "detected_at": "2026-07-28T10:12:33.798525+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16059,7 +16199,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201813+00:00"
+      "detected_at": "2026-07-28T10:12:33.798530+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16105,7 +16245,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201818+00:00"
+      "detected_at": "2026-07-28T10:12:33.798536+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16151,7 +16291,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201887+00:00"
+      "detected_at": "2026-07-28T10:12:33.798546+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16197,7 +16337,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201894+00:00"
+      "detected_at": "2026-07-28T10:12:33.798552+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16243,7 +16383,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201899+00:00"
+      "detected_at": "2026-07-28T10:12:33.798557+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16289,7 +16429,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201909+00:00"
+      "detected_at": "2026-07-28T10:12:33.798567+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16335,7 +16475,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201932+00:00"
+      "detected_at": "2026-07-28T10:12:33.798593+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16381,7 +16521,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201948+00:00"
+      "detected_at": "2026-07-28T10:12:33.798609+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16427,7 +16567,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201962+00:00"
+      "detected_at": "2026-07-28T10:12:33.798624+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16473,7 +16613,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.201991+00:00"
+      "detected_at": "2026-07-28T10:12:33.798656+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16519,7 +16659,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202000+00:00"
+      "detected_at": "2026-07-28T10:12:33.798666+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16565,7 +16705,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202077+00:00"
+      "detected_at": "2026-07-28T10:12:33.798741+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16611,7 +16751,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202082+00:00"
+      "detected_at": "2026-07-28T10:12:33.798746+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16657,7 +16797,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202118+00:00"
+      "detected_at": "2026-07-28T10:12:33.798783+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16703,7 +16843,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202143+00:00"
+      "detected_at": "2026-07-28T10:12:33.798799+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16749,7 +16889,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202185+00:00"
+      "detected_at": "2026-07-28T10:12:33.798856+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16795,7 +16935,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202225+00:00"
+      "detected_at": "2026-07-28T10:12:33.798899+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16841,7 +16981,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202229+00:00"
+      "detected_at": "2026-07-28T10:12:33.798904+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16887,7 +17027,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202273+00:00"
+      "detected_at": "2026-07-28T10:12:33.798952+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16933,7 +17073,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202290+00:00"
+      "detected_at": "2026-07-28T10:12:33.798968+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16979,7 +17119,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202295+00:00"
+      "detected_at": "2026-07-28T10:12:33.798973+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17025,7 +17165,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202299+00:00"
+      "detected_at": "2026-07-28T10:12:33.798978+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17071,7 +17211,7 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-28T07:32:59.202358+00:00"
+      "detected_at": "2026-07-28T10:12:33.799034+00:00"
     }
   ]
 }
