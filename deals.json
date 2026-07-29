@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-29T15:46:35.923340+00:00",
-  "count": 396,
+  "generated_at": "2026-07-29T17:05:26.538826+00:00",
+  "count": 397,
   "deals": [
     {
       "source": "nordstromrack.com",
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "zappos.com",
@@ -94,7 +94,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "6pm.com",
@@ -699,13 +699,13 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "zappos.com",
       "source_tier": "T2",
       "url": "https://www.zappos.com/product/10042124",
-      "title": "Milena Mini  (외 1종)",
+      "title": "Milena Mini",
       "brand": "Free People",
       "category": "premium_fashion",
       "image": "https://m.media-amazon.com/images/I/81ZZfsRklfL._AC_SR255,340_.jpg",
@@ -746,8 +746,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00",
-      "variant_count": 2
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "6pm.com",
@@ -888,7 +887,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -935,7 +934,54 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10008795",
+      "title": "Darma Dress",
+      "brand": "AllSaints",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/61OVU6GYodL._AC_SR255,340_.jpg",
+      "price_current": 113.7,
+      "price_list": 379.0,
+      "price_baseline": 379.0,
+      "price_alltime_low": 113.7,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 165720,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.zappos.com/product/10008795",
+      "discount_pct": 70.0,
+      "score": 87,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-07-25T07:35:17.591958+00:00",
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1029,53 +1075,6 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-07-24T16:59:01.371219+00:00",
-      "last_seen": "2026-07-29T11:48:39.852451+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/9604886",
-      "title": "Hadley Dress",
-      "brand": "AllSaints",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61vHbRfgXPL._AC_SR255,340_.jpg",
-      "price_current": 65.7,
-      "price_list": 219.0,
-      "price_baseline": 219.0,
-      "price_alltime_low": 65.7,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 95759,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.zappos.com/product/9604886",
-      "discount_pct": 70.0,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-07-23T04:59:37.245520+00:00",
       "last_seen": "2026-07-29T11:48:39.852451+00:00"
     },
     {
@@ -1173,103 +1172,11 @@
     {
       "source": "zappos.com",
       "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10038147",
-      "title": "Plaid Cotton Poplin Shirtdress (Big Kid)",
-      "brand": "Polo Ralph Lauren",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/71hYVrl3AAL._AC_SR255,340_.jpg",
-      "price_current": 25.5,
-      "price_list": 85.0,
-      "price_baseline": 85.0,
-      "price_alltime_low": 25.5,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 37220,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.zappos.com/product/10038147",
-      "discount_pct": 70.0,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-07-27T16:08:15.837853+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10038244",
-      "title": "Tie-Front Velvet Cocktail Dress",
-      "brand": "Lauren Ralph Lauren",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61U29gX+f0L._AC_SR255,340_.jpg",
-      "price_current": 79.5,
-      "price_list": 265.0,
-      "price_baseline": 265.0,
-      "price_alltime_low": 79.5,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 116038,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.zappos.com/product/10038244",
-      "discount_pct": 70.0,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-07-27T16:08:15.837944+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
       "url": "https://www.zappos.com/product/9981480",
-      "title": "Cotton Modal Jersey Softee Pajama Set  (외 1종)",
+      "title": "Cotton Modal Jersey Softee Pajama Set",
       "brand": "P.J. Salvage",
       "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/61NTk0U19mL._AC_SR255,340_.jpg",
+      "image": "https://m.media-amazon.com/images/I/61+PA2gqMqL._AC_SR255,340_.jpg",
       "price_current": 19.6,
       "price_list": 98.0,
       "price_baseline": 98.0,
@@ -1307,8 +1214,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00",
-      "variant_count": 2
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "6pm.com",
@@ -1454,6 +1360,54 @@
     {
       "source": "nordstromrack.com",
       "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/kate-spade-new-york-cove-street-crossbody-bag/6862094",
+      "title": "cove street crossbody bag",
+      "brand": "Kate Spade New York",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/8c08b706-a889-4fc2-bef2-67683b44de26.jpeg?h=368&w=240&dpr=2",
+      "price_current": 58.48,
+      "price_list": 299.0,
+      "price_baseline": 299.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 85236,
+      "kr_lowest_price": 178800.0,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.nordstromrack.com/s/kate-spade-new-york-cove-street-crossbody-bag/6862094",
+      "discount_pct": 80.4,
+      "score": 83,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-07-29T17:05:06.817099+00:00",
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/dr-martens-939-ben-boot-women/8880998",
       "title": "939 Ben Boot",
       "brand": "Dr Martens",
@@ -1496,7 +1450,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-24T04:34:52.164413+00:00",
-      "last_seen": "2026-07-29T13:46:12.671481+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1783,7 +1737,54 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10034126",
+      "title": "We The Free Cori Waxed Jacket",
+      "brand": "Free People",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/71aM+AaWv8L._AC_SR255,340_.jpg",
+      "price_current": 89.4,
+      "price_list": 298.0,
+      "price_baseline": 298.0,
+      "price_alltime_low": 89.4,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 130302,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10034126",
+      "discount_pct": 70.0,
+      "score": 81,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-07-24T18:17:52.658312+00:00",
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1877,7 +1878,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1924,7 +1925,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-24T07:13:54.457661+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -1971,7 +1972,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -2018,7 +2019,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2159,7 +2160,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-27T07:54:01.480024+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "6pm.com",
@@ -2352,51 +2353,249 @@
       "detected_at": "2026-07-28T16:22:03.986515+00:00"
     },
     {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/free-people-lucia-tie-top-maxi-skirt-set/8389540",
-      "title": "Lucia Tie Top & Maxi Skirt Set",
-      "brand": "Free People",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/7d63609f-79c5-4504-b20f-01334d8d7603.jpeg?h=368&w=240&dpr=2",
-      "price_current": 38.48,
-      "price_list": 228.0,
-      "price_baseline": 228.0,
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/19796913-12-pack-24-gal-homesure-heavy-duty-moving-bags-w-zipper-handles-27-99-free-shipping-w-prime-or-on-35",
+      "title": "HOMESURE Semi-Transparent Heavy Duty Moving Bags: 12-pk  $28, 8-pk $18.90",
+      "brand": "HOMESURE",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/4/5/4/3/2/5/300x300/21138840.thumb",
+      "price_current": 18.9,
+      "price_list": 27.0,
+      "price_baseline": null,
       "price_alltime_low": null,
       "currency": "USD",
-      "coupon_code": "",
+      "coupon_code": "VNTLONL3",
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": null,
+      "community_votes": 20,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 56463,
+      "krw_effective": 27547,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
       "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/free-people-lucia-tie-top-maxi-skirt-set/8389540",
-      "discount_pct": 83.1,
-      "score": 76,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/19796913-12-pack-24-gal-homesure-heavy-duty-moving-bags-w-zipper-handles-27-99-free-shipping-w-prime-or-on-35",
+      "discount_pct": 30.0,
+      "score": 75,
       "score_breakdown": {
-        "discount_depth": 40,
+        "discount_depth": 8,
         "price_history": null,
-        "category": 20,
+        "category": 5,
         "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 VNTLONL3 → 하한 75"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-07-28T06:41:40.353960+00:00"
+      "detected_at": "2026-07-29T17:04:24.085858+00:00",
+      "last_seen": "2026-07-29T17:04:44.747004+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/19817190-adidas-men-grand-court-2-0-shoes-19-2-free-shipping",
+      "title": "adidas Men's Grand Court 2.0 Shoes (Cloud White / Core Black / Focus Orange) $19.20 + Free S&H",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://static.slickdealscdn.com/attachment/3/5/4/6/6/8/6/8/300x300/21125640.thumb",
+      "price_current": 19.2,
+      "price_list": 24.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "FIRSTBELL20",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 23,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 27984,
+      "kr_lowest_price": 63000.0,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/19817190-adidas-men-grand-court-2-0-shoes-19-2-free-shipping",
+      "discount_pct": 20.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 FIRSTBELL20 → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-07-29T17:04:24.085858+00:00",
+      "last_seen": "2026-07-29T17:04:44.747004+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/19821156-adidas-women-ultraboost-1-0-shoes-57-6-free-shipping",
+      "title": "adidas Women's Ultraboost 1.0 Shoes (Cloud White) $57.60 + Free S&H",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://static.slickdealscdn.com/attachment/3/5/4/6/6/8/6/8/300x300/21135663.thumb",
+      "price_current": 57.6,
+      "price_list": 72.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "FIRSTBELL20",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 18,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 83953,
+      "kr_lowest_price": 336500.0,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/19821156-adidas-women-ultraboost-1-0-shoes-57-6-free-shipping",
+      "discount_pct": 20.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 FIRSTBELL20 → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-07-29T17:04:24.085858+00:00",
+      "last_seen": "2026-07-29T17:04:44.747004+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/19819998-adidas-men-s-workout-essentials-base-zipper-pockets-woven-shorts-ray-blue-8-80-free-shipping",
+      "title": "adidas Men's Workout Essentials Base Zipper Pockets Woven Shorts (Ray Blue) $8.80 + Free S&H",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://static.slickdealscdn.com/attachment/3/0/4/6/9/4/2/0/300x300/21132843.thumb",
+      "price_current": 8.8,
+      "price_list": 11.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "FIRSTBELL20",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 18,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 12826,
+      "kr_lowest_price": 58000.0,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/19819998-adidas-men-s-workout-essentials-base-zipper-pockets-woven-shorts-ray-blue-8-80-free-shipping",
+      "discount_pct": 20.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 FIRSTBELL20 → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-07-29T03:42:04.287243+00:00",
+      "last_seen": "2026-07-29T17:04:44.747004+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/19822197-3-piece-bedsure-pinch-pleat-comforter-set-w-pillowcase-decorative-pillow-twin-xl-3-colors-from-9-99-free-shipping-w-prime-or-on-35",
+      "title": "3-Piece Bedsure Pinch Pleat Comforter Set w/ Pillowcase & Decorative Pillow (Twin XL, 3 Colors) from $9.99 + Free Shipping w/ Prime or on $3",
+      "brand": "3-Piece",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/2/0/3/1/1/5/0/300x300/21138729.thumb",
+      "price_current": 35.0,
+      "price_list": 70.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "X2ZSWRRE",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 0,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 51013,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/19822197-3-piece-bedsure-pinch-pleat-comforter-set-w-pillowcase-decorative-pillow-twin-xl-3-colors-from-9-99-free-shipping-w-prime-or-on-35",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 X2ZSWRRE → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-07-29T17:04:24.085858+00:00",
+      "last_seen": "2026-07-29T17:04:44.747004+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -2790,104 +2989,6 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
-      "url": "https://slickdeals.net/f/19819998-adidas-men-s-workout-essentials-base-zipper-pockets-woven-shorts-ray-blue-8-80-free-shipping",
-      "title": "adidas Men's Workout Essentials Base Zipper Pockets Woven Shorts (Ray Blue) $8.80 + Free Shipping",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://static.slickdealscdn.com/attachment/3/0/4/6/9/4/2/0/300x300/21132843.thumb",
-      "price_current": 8.8,
-      "price_list": 11.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "FIRSTBELL20",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 0,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 12826,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "public",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/19819998-adidas-men-s-workout-essentials-base-zipper-pockets-woven-shorts-ray-blue-8-80-free-shipping",
-      "discount_pct": 20.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 FIRSTBELL20 → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-07-29T03:42:04.287243+00:00",
-      "last_seen": "2026-07-29T03:42:24.819566+00:00"
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/19819983-adidas-men-s-workout-essentials-feelready-t-shirt-halo-silver-s-or-2xl-6-40-free-shipping",
-      "title": "adidas Men's Workout Essentials Feelready T-Shirt (Halo Silver, S or 2XL) $6.40 + Free Shipping",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://static.slickdealscdn.com/attachment/3/0/4/6/9/4/2/0/300x300/21132822.thumb",
-      "price_current": 6.4,
-      "price_list": 8.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "FIRSTBELL20",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 0,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 9328,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "public",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/19819983-adidas-men-s-workout-essentials-feelready-t-shirt-halo-silver-s-or-2xl-6-40-free-shipping",
-      "discount_pct": 20.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 FIRSTBELL20 → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-07-29T03:42:04.287243+00:00",
-      "last_seen": "2026-07-29T03:42:24.819566+00:00"
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
       "url": "https://slickdeals.net/f/19819947-bougerv-23-quart-car-refrigerator-compressor-cooling-22l-ebay-kemimoto-utv-126-39",
       "title": "BougeRV 23 Quart Car Refrigerator Compressor Cooling (22L) @Ebay (Kemimoto-UTV) $126.39",
       "brand": "BougeRV",
@@ -3029,54 +3130,6 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-29T00:10:54.066008+00:00"
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/19817100-adidas-men-adilette-lite-slides-various-colors-8-8-free-shipping",
-      "title": "adidas Men's Adilette Lite Slides (various) $8.80 + Free S&H",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://static.slickdealscdn.com/attachment/4/5/4/3/2/5/300x300/21130152.thumb",
-      "price_current": 8.8,
-      "price_list": 11.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "FIRSTBELL20",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 25,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 12913,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "public",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/19817100-adidas-men-adilette-lite-slides-various-colors-8-8-free-shipping",
-      "discount_pct": 20.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 FIRSTBELL20 → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-07-28T22:04:21.318327+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -4711,6 +4764,55 @@
       "detected_at": "2026-07-27T17:56:31.611218+00:00"
     },
     {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/19792497-sportsroyals-power-cage-with-lat-pulldown-263-50-free-s-h",
+      "title": "Sportsroyals Multi-Functional Power Cage w/ Pulley System & LAT Pull Down $263.50 + Free S&H",
+      "brand": "Sportsroyals",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/2/5/1/6/8/8/6/300x300/21137163.thumb",
+      "price_current": 263.5,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "O9N6OVK7",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 222,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 456258,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/19792497-sportsroyals-power-cage-with-lat-pulldown-263-50-free-s-h",
+      "discount_pct": null,
+      "score": 74,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "community": "투표 222 → 하한 74"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-07-26T17:54:15.699626+00:00",
+      "last_seen": "2026-07-29T17:04:44.747004+00:00"
+    },
+    {
       "source": "zappos.com",
       "source_tier": "T2",
       "url": "https://www.zappos.com/product/9927475",
@@ -4757,55 +4859,6 @@
       "detected_at": "2026-07-28T20:59:20.733192+00:00"
     },
     {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/19792497-sportsroyals-power-cage-with-lat-pulldown-263-50-free-s-h",
-      "title": "Sportsroyals Multi-Functional Power Cage w/ Pulley System & LAT Pull Down $263.50 + Free S&H",
-      "brand": "Sportsroyals",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/2/5/1/6/8/8/6/300x300/21137163.thumb",
-      "price_current": 263.5,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "O9N6OVK7",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 217,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 456258,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/19792497-sportsroyals-power-cage-with-lat-pulldown-263-50-free-s-h",
-      "discount_pct": null,
-      "score": 73,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "community": "투표 217 → 하한 73"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-07-26T17:54:15.699626+00:00",
-      "last_seen": "2026-07-29T15:44:51.690045+00:00"
-    },
-    {
       "source": "dealsofamerica",
       "source_tier": "T2",
       "url": "https://www.dealsofamerica.com/korky-ultra-standard-2inch-universal-toilet-flapper-100bp/798660.htm",
@@ -4850,7 +4903,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -4897,7 +4950,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -4944,7 +4997,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -4991,7 +5044,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -5038,7 +5091,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -5085,7 +5138,104 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/versace-59mm-polarized-square-sunglasses/7900764",
+      "title": "59mm Polarized Square Sunglasses",
+      "brand": "Versace",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/77feffc5-f8a1-41f4-a599-61908c1de3b5.jpeg?h=368&w=240&dpr=2",
+      "price_current": 97.47,
+      "price_list": 251.0,
+      "price_baseline": 251.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 142064,
+      "kr_lowest_price": 276260.0,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.nordstromrack.com/s/versace-59mm-polarized-square-sunglasses/7900764",
+      "discount_pct": 61.2,
+      "score": 71,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-07-29T09:25:12.522084+00:00",
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/marc-jacobs-medium-canvas-standard-supply-tote/8390327",
+      "title": "Medium Canvas Standard Supply Tote  (외 1종)",
+      "brand": "Marc Jacobs",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/48122f77-2da9-4d37-b108-826bf3691316.jpeg?h=368&w=240&dpr=2",
+      "price_current": 65.98,
+      "price_list": 195.0,
+      "price_baseline": 195.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 96167,
+      "kr_lowest_price": 259800.0,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.nordstromrack.com/s/marc-jacobs-medium-canvas-standard-supply-tote/8390327",
+      "discount_pct": 66.2,
+      "score": 71,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-07-29T11:48:20.524283+00:00",
+      "last_seen": "2026-07-29T17:05:26.500083+00:00",
+      "variant_count": 2
     },
     {
       "source": "nordstromrack.com",
@@ -5134,103 +5284,6 @@
       "urgency": "HOT",
       "detected_at": "2026-07-29T15:45:06.025197+00:00",
       "last_seen": "2026-07-29T15:45:25.008078+00:00"
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/versace-59mm-polarized-square-sunglasses/7900764",
-      "title": "59mm Polarized Square Sunglasses",
-      "brand": "Versace",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/77feffc5-f8a1-41f4-a599-61908c1de3b5.jpeg?h=368&w=240&dpr=2",
-      "price_current": 97.47,
-      "price_list": 251.0,
-      "price_baseline": 251.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 142064,
-      "kr_lowest_price": 276260.0,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/versace-59mm-polarized-square-sunglasses/7900764",
-      "discount_pct": 61.2,
-      "score": 71,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-07-29T09:25:12.522084+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/marc-jacobs-medium-canvas-standard-supply-tote/8390327",
-      "title": "Medium Canvas Standard Supply Tote  (외 1종)",
-      "brand": "Marc Jacobs",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/48122f77-2da9-4d37-b108-826bf3691316.jpeg?h=368&w=240&dpr=2",
-      "price_current": 65.98,
-      "price_list": 195.0,
-      "price_baseline": 195.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 96167,
-      "kr_lowest_price": 259800.0,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/marc-jacobs-medium-canvas-standard-supply-tote/8390327",
-      "discount_pct": 66.2,
-      "score": 71,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-07-29T11:48:20.524283+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00",
-      "variant_count": 2
     },
     {
       "source": "nordstromrack.com",
@@ -5423,53 +5476,6 @@
       "detected_at": "2026-07-28T01:43:29.524350+00:00"
     },
     {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10038149",
-      "title": "Buffalo Check Cotton Twill Dress (Big Kid)",
-      "brand": "Polo Ralph Lauren",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61sDNvJNU0L._AC_SR255,340_.jpg",
-      "price_current": 23.85,
-      "price_list": 79.5,
-      "price_baseline": 79.5,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 34812,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.zappos.com/product/10038149",
-      "discount_pct": 70.0,
-      "score": 71,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-07-27T16:08:15.837857+00:00"
-    },
-    {
       "source": "dealsofamerica",
       "source_tier": "T2",
       "url": "https://www.dealsofamerica.com/patriot-games-jack-ryan-book-2-kindle-edition/839812.htm",
@@ -5514,7 +5520,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -5561,7 +5567,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -5608,7 +5614,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -5655,7 +5661,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -5702,7 +5708,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -5749,7 +5755,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -5796,7 +5802,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -5843,7 +5849,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -5890,7 +5896,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -5937,7 +5943,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -5984,7 +5990,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -6031,7 +6037,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "walmart.com",
@@ -6269,7 +6275,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-29T11:48:20.524283+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -6413,7 +6419,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-29T11:48:20.524283+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10046158",
+      "title": "Wide Sleeve Cropped Crew Neck Jacket",
+      "brand": "Vince Camuto",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/81EgSIiewAL._AC_SR255,340_.jpg",
+      "price_current": 47.7,
+      "price_list": 159.0,
+      "price_baseline": 159.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 69524,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10046158",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-27T23:56:01.133204+00:00",
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -6462,54 +6516,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-07-29T09:25:12.522084+00:00",
       "last_seen": "2026-07-29T09:25:32.900370+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10035566",
-      "title": "Floral Jacquard Long Sleeve Crew",
-      "brand": "Vince Camuto",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/81iPEn5eCPL._AC_SR255,340_.jpg",
-      "price_current": 29.7,
-      "price_list": 99.0,
-      "price_baseline": 99.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 43288,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10035566",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-07-29T06:24:46.817669+00:00",
-      "last_seen": "2026-07-29T06:25:06.404766+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -6935,7 +6941,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -6982,7 +6988,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7029,7 +7035,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7076,7 +7082,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7123,7 +7129,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T21:30:18.047164+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7170,7 +7176,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7217,7 +7223,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7264,7 +7270,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7311,7 +7317,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7358,7 +7364,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T14:36:34.003672+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7405,7 +7411,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7452,7 +7458,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7499,7 +7505,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7546,7 +7552,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7593,7 +7599,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7640,7 +7646,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7687,7 +7693,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7734,7 +7740,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7781,7 +7787,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7828,7 +7834,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7875,7 +7881,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -7922,7 +7928,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -7969,7 +7975,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-26T03:02:55.498015+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -8112,7 +8118,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-29T11:48:20.524283+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "zappos.com",
@@ -8255,7 +8261,625 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-29T11:48:20.524283+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
+    },
+    {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/inokraft-portable-waist-fan/840790.htm",
+      "title": "Inokraft 25W 4Ah Rechargeable Battery Portable Waist Fan",
+      "brand": "Inokraft",
+      "category": "etc",
+      "image": "https://d16f00g4zitf8i.cloudfront.net/images/inokraft-portable-waist-fan.jpg",
+      "price_current": 9.99,
+      "price_list": 49.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 14561,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.dealsofamerica.com/inokraft-portable-waist-fan/840790.htm",
+      "discount_pct": 80.0,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-29T15:45:06.025197+00:00",
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
+    },
+    {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/karchilor-military-men-smartwatch/840792.htm",
+      "title": "Karchilor 1000mAh IP68 Waterproof Military Smart Watch for Men",
+      "brand": "Karchilor",
+      "category": "electronics",
+      "image": "https://d16f00g4zitf8i.cloudfront.net/images/karchilor-military-men-smartwatch.jpg",
+      "price_current": 28.99,
+      "price_list": 109.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 42253,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.dealsofamerica.com/karchilor-military-men-smartwatch/840792.htm",
+      "discount_pct": 73.6,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-29T17:05:06.817099+00:00",
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
+    },
+    {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/vonuv-magnetic-360-degrees-adjustable-phone-holder-mount/815254.htm",
+      "title": "Vonuv 96lbs Ultra Suction & Strong Magnetic Phone Holder",
+      "brand": "Vonuv",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/71uLfFVERoL._AC_AA200_.jpg",
+      "price_current": 7.99,
+      "price_list": 29.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 11646,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.dealsofamerica.com/vonuv-magnetic-360-degrees-adjustable-phone-holder-mount/815254.htm",
+      "discount_pct": 73.4,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-27T16:08:19.090611+00:00",
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
+    },
+    {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/Django-Unchained-HD-Digital-Movies/489253.htm",
+      "title": "Django Unchained Blu-ray + DVD + Digital",
+      "brand": "Django",
+      "category": "etc",
+      "image": "https://i5.walmartimages.com/seo/Django-Unchained-Blu-ray-DVD-Digital-Copy_3b3f8f04-677a-4dc3-aac2-c6d79853620f.215bcb374871ce4c5a3dc607f234a650.jpeg?odnHeight=200&odnWidth=200&odnBg=FFFFFF",
+      "price_current": 5.0,
+      "price_list": 17.99,
+      "price_baseline": null,
+      "price_alltime_low": 5.0,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 7288,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.dealsofamerica.com/Django-Unchained-HD-Digital-Movies/489253.htm",
+      "discount_pct": 72.2,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-24T01:36:30.724991+00:00",
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
+    },
+    {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/voopnu-24db-sleep-mode/840788.htm",
+      "title": "Voopnu 24db-Sleep Mode 3-Stage Hepa FIlteration Air Purifier",
+      "brand": "Voopnu",
+      "category": "electronics",
+      "image": "https://d16f00g4zitf8i.cloudfront.net/images/voopnu-24db-sleep-mode.jpg",
+      "price_current": 19.79,
+      "price_list": 69.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 28844,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.dealsofamerica.com/voopnu-24db-sleep-mode/840788.htm",
+      "discount_pct": 71.7,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-29T15:45:06.025197+00:00",
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
+    },
+    {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/The-Hobbit-And-The-Lord-Of-The-Rings--Deluxe-Pocket-Boxed--/698944.htm",
+      "title": "The Hobbit And The Lord Of The Rings: Deluxe Pocket Boxed Set Hardcover",
+      "brand": "The",
+      "category": "etc",
+      "image": "https://m.media-amazon.com/images/I/61f5qt8LhhL._AA200_.jpg",
+      "price_current": 24.92,
+      "price_list": 75.0,
+      "price_baseline": null,
+      "price_alltime_low": 24.92,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 36321,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.dealsofamerica.com/The-Hobbit-And-The-Lord-Of-The-Rings--Deluxe-Pocket-Boxed--/698944.htm",
+      "discount_pct": 66.8,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-24T01:36:30.724991+00:00",
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
+    },
+    {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/lisen-mount-phone-holder-car/840641.htm",
+      "title": "Lisen Mount Phone Holder for Car (Thick Cases Friendly)",
+      "brand": "Lisen",
+      "category": "electronics",
+      "image": "https://d16f00g4zitf8i.cloudfront.net/images/lisen-mount-phone-holder-car.jpg",
+      "price_current": 4.99,
+      "price_list": 13.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 7273,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.dealsofamerica.com/lisen-mount-phone-holder-car/840641.htm",
+      "discount_pct": 64.3,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-27T11:10:51.007322+00:00",
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
+    },
+    {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/scary-movie-collection-bluray/814067.htm",
+      "title": "Scary Movie Collection DVD",
+      "brand": "Scary",
+      "category": "etc",
+      "image": "https://m.media-amazon.com/images/I/81jhg-2b5CL._AA200_.jpg",
+      "price_current": 5.0,
+      "price_list": 13.99,
+      "price_baseline": null,
+      "price_alltime_low": 5.0,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 7288,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.dealsofamerica.com/scary-movie-collection-bluray/814067.htm",
+      "discount_pct": 64.3,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-24T01:36:30.724991+00:00",
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
+    },
+    {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/onbeam-solar-4500v-365395nm-led-outdoor-bug-zapper/781517.htm",
+      "title": "Onbeam 4500V Solar Bug Zapper Outdoor with 10W Solar Panel",
+      "brand": "Onbeam",
+      "category": "etc",
+      "image": "https://m.media-amazon.com/images/I/81HrPRIgPEL._AC_AA200_.jpg",
+      "price_current": 32.99,
+      "price_list": 89.99,
+      "price_baseline": null,
+      "price_alltime_low": 32.99,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 48084,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.dealsofamerica.com/onbeam-solar-4500v-365395nm-led-outdoor-bug-zapper/781517.htm",
+      "discount_pct": 63.3,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-23T02:46:01.736200+00:00",
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
+    },
+    {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/bevigor-aa-rechargeable-batteries-1500-cycle/761802.htm",
+      "title": "16-Pack Bevigor 2800mAh AA Rechargeable Batteries",
+      "brand": "16-Pack",
+      "category": "etc",
+      "image": "https://m.media-amazon.com/images/I/71WxsX3ChaL._AC_AA200_.jpg",
+      "price_current": 8.99,
+      "price_list": 23.99,
+      "price_baseline": null,
+      "price_alltime_low": 8.99,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 13103,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.dealsofamerica.com/bevigor-aa-rechargeable-batteries-1500-cycle/761802.htm",
+      "discount_pct": 62.5,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-23T02:46:01.736200+00:00",
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
+    },
+    {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/topoint-sleep-mask-headphones-bluetooth-wireless-54-gh01/824770.htm",
+      "title": "Topoint Sleep Mask Bluetooth 5.4 Wireless Headphones",
+      "brand": "Topoint",
+      "category": "electronics",
+      "image": "https://d16f00g4zitf8i.cloudfront.net/images/topoint-sleep-mask-bluetooth.jpg",
+      "price_current": 11.99,
+      "price_list": 29.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 17476,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.dealsofamerica.com/topoint-sleep-mask-headphones-bluetooth-wireless-54-gh01/824770.htm",
+      "discount_pct": 60.0,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-29T13:45:50.290226+00:00",
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
+    },
+    {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/tilswall-20z-electric-hvlp-paint-sprayer-w2-nozzles/778702.htm",
+      "title": "Tilswall Dreamer400 Ultra-Light Electric Paint Spray Gun",
+      "brand": "Tilswall",
+      "category": "etc",
+      "image": "https://d16f00g4zitf8i.cloudfront.net/images/tilswall-dreamer400-paint-spray-gun.jpg",
+      "price_current": 15.99,
+      "price_list": 39.99,
+      "price_baseline": null,
+      "price_alltime_low": 15.99,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 23306,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.dealsofamerica.com/tilswall-20z-electric-hvlp-paint-sprayer-w2-nozzles/778702.htm",
+      "discount_pct": 60.0,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-23T02:46:01.736200+00:00",
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
+    },
+    {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/zuvmitg-4k-hd-portable-projector/840795.htm",
+      "title": "Zuvmitg 120\" 16:9 4K HD Portable Projector Screen with Stand",
+      "brand": "Zuvmitg",
+      "category": "electronics",
+      "image": "https://d16f00g4zitf8i.cloudfront.net/images/zuvmitg-4k-hd-portable-projector.jpg",
+      "price_current": 39.99,
+      "price_list": 99.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 58286,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.dealsofamerica.com/zuvmitg-4k-hd-portable-projector/840795.htm",
+      "discount_pct": 60.0,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-29T17:05:06.817099+00:00",
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -8308,292 +8932,6 @@
     {
       "source": "dealsofamerica",
       "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/inokraft-portable-waist-fan/840790.htm",
-      "title": "Inokraft 25W 4Ah Rechargeable Battery Portable Waist Fan",
-      "brand": "Inokraft",
-      "category": "etc",
-      "image": "https://d16f00g4zitf8i.cloudfront.net/images/inokraft-portable-waist-fan.jpg",
-      "price_current": 9.99,
-      "price_list": 49.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 14561,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.dealsofamerica.com/inokraft-portable-waist-fan/840790.htm",
-      "discount_pct": 80.0,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-07-29T15:45:06.025197+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
-    },
-    {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/vonuv-magnetic-360-degrees-adjustable-phone-holder-mount/815254.htm",
-      "title": "Vonuv 96lbs Ultra Suction & Strong Magnetic Phone Holder",
-      "brand": "Vonuv",
-      "category": "electronics",
-      "image": "https://m.media-amazon.com/images/I/71uLfFVERoL._AC_AA200_.jpg",
-      "price_current": 7.99,
-      "price_list": 29.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 11646,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.dealsofamerica.com/vonuv-magnetic-360-degrees-adjustable-phone-holder-mount/815254.htm",
-      "discount_pct": 73.4,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-07-27T16:08:19.090611+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
-    },
-    {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/Django-Unchained-HD-Digital-Movies/489253.htm",
-      "title": "Django Unchained Blu-ray + DVD + Digital",
-      "brand": "Django",
-      "category": "etc",
-      "image": "https://i5.walmartimages.com/seo/Django-Unchained-Blu-ray-DVD-Digital-Copy_3b3f8f04-677a-4dc3-aac2-c6d79853620f.215bcb374871ce4c5a3dc607f234a650.jpeg?odnHeight=200&odnWidth=200&odnBg=FFFFFF",
-      "price_current": 5.0,
-      "price_list": 17.99,
-      "price_baseline": null,
-      "price_alltime_low": 5.0,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 7288,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.dealsofamerica.com/Django-Unchained-HD-Digital-Movies/489253.htm",
-      "discount_pct": 72.2,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
-    },
-    {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/voopnu-24db-sleep-mode/840788.htm",
-      "title": "Voopnu 24db-Sleep Mode 3-Stage Hepa FIlteration Air Purifier",
-      "brand": "Voopnu",
-      "category": "electronics",
-      "image": "https://d16f00g4zitf8i.cloudfront.net/images/voopnu-24db-sleep-mode.jpg",
-      "price_current": 19.79,
-      "price_list": 69.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 28844,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.dealsofamerica.com/voopnu-24db-sleep-mode/840788.htm",
-      "discount_pct": 71.7,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-07-29T15:45:06.025197+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
-    },
-    {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/The-Hobbit-And-The-Lord-Of-The-Rings--Deluxe-Pocket-Boxed--/698944.htm",
-      "title": "The Hobbit And The Lord Of The Rings: Deluxe Pocket Boxed Set Hardcover",
-      "brand": "The",
-      "category": "etc",
-      "image": "https://m.media-amazon.com/images/I/61f5qt8LhhL._AA200_.jpg",
-      "price_current": 24.92,
-      "price_list": 75.0,
-      "price_baseline": null,
-      "price_alltime_low": 24.92,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 36321,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.dealsofamerica.com/The-Hobbit-And-The-Lord-Of-The-Rings--Deluxe-Pocket-Boxed--/698944.htm",
-      "discount_pct": 66.8,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
-    },
-    {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/lisen-mount-phone-holder-car/840641.htm",
-      "title": "Lisen Mount Phone Holder for Car (Thick Cases Friendly)",
-      "brand": "Lisen",
-      "category": "electronics",
-      "image": "https://d16f00g4zitf8i.cloudfront.net/images/lisen-mount-phone-holder-car.jpg",
-      "price_current": 4.99,
-      "price_list": 13.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 7273,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.dealsofamerica.com/lisen-mount-phone-holder-car/840641.htm",
-      "discount_pct": 64.3,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-07-27T11:10:51.007322+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
-    },
-    {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
       "url": "https://www.dealsofamerica.com/bravego-a6-ear-headset/840742.htm",
       "title": "Bravego 6.0 Bluetooth Headset with Noise Canceling Microphone",
       "brand": "Bravego",
@@ -8637,195 +8975,6 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-28T18:01:20.359693+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
-    },
-    {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/scary-movie-collection-bluray/814067.htm",
-      "title": "Scary Movie Collection DVD",
-      "brand": "Scary",
-      "category": "etc",
-      "image": "https://m.media-amazon.com/images/I/81jhg-2b5CL._AA200_.jpg",
-      "price_current": 5.0,
-      "price_list": 13.99,
-      "price_baseline": null,
-      "price_alltime_low": 5.0,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 7288,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.dealsofamerica.com/scary-movie-collection-bluray/814067.htm",
-      "discount_pct": 64.3,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
-    },
-    {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/bevigor-aa-rechargeable-batteries-1500-cycle/761802.htm",
-      "title": "16-Pack Bevigor 2800mAh AA Rechargeable Batteries",
-      "brand": "16-Pack",
-      "category": "etc",
-      "image": "https://m.media-amazon.com/images/I/71WxsX3ChaL._AC_AA200_.jpg",
-      "price_current": 8.99,
-      "price_list": 23.99,
-      "price_baseline": null,
-      "price_alltime_low": 8.99,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 13103,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.dealsofamerica.com/bevigor-aa-rechargeable-batteries-1500-cycle/761802.htm",
-      "discount_pct": 62.5,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
-    },
-    {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/topoint-sleep-mask-headphones-bluetooth-wireless-54-gh01/824770.htm",
-      "title": "Topoint Sleep Mask Bluetooth 5.4 Wireless Headphones",
-      "brand": "Topoint",
-      "category": "electronics",
-      "image": "https://d16f00g4zitf8i.cloudfront.net/images/topoint-sleep-mask-bluetooth.jpg",
-      "price_current": 11.99,
-      "price_list": 29.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 17476,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.dealsofamerica.com/topoint-sleep-mask-headphones-bluetooth-wireless-54-gh01/824770.htm",
-      "discount_pct": 60.0,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-07-29T13:45:50.290226+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
-    },
-    {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/tilswall-20z-electric-hvlp-paint-sprayer-w2-nozzles/778702.htm",
-      "title": "Tilswall Dreamer400 Ultra-Light Electric Paint Spray Gun",
-      "brand": "Tilswall",
-      "category": "etc",
-      "image": "https://d16f00g4zitf8i.cloudfront.net/images/tilswall-dreamer400-paint-spray-gun.jpg",
-      "price_current": 15.99,
-      "price_list": 39.99,
-      "price_baseline": null,
-      "price_alltime_low": 15.99,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 23306,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.dealsofamerica.com/tilswall-20z-electric-hvlp-paint-sprayer-w2-nozzles/778702.htm",
-      "discount_pct": 60.0,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-07-23T02:46:01.736200+00:00",
       "last_seen": "2026-07-29T15:45:25.008078+00:00"
     },
     {
@@ -9015,53 +9164,6 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T20:56:05.361705+00:00",
-      "last_seen": "2026-07-29T11:48:39.852451+00:00"
-    },
-    {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/onbeam-solar-4500v-365395nm-led-outdoor-bug-zapper/781517.htm",
-      "title": "Onbeam 4500V Solar Bug Zapper Outdoor with 10W Solar Panel",
-      "brand": "Onbeam",
-      "category": "etc",
-      "image": "https://m.media-amazon.com/images/I/81HrPRIgPEL._AC_AA200_.jpg",
-      "price_current": 32.99,
-      "price_list": 89.99,
-      "price_baseline": null,
-      "price_alltime_low": 32.99,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 48084,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.dealsofamerica.com/onbeam-solar-4500v-365395nm-led-outdoor-bug-zapper/781517.htm",
-      "discount_pct": 63.3,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-07-23T02:46:01.736200+00:00",
       "last_seen": "2026-07-29T11:48:39.852451+00:00"
     },
     {
@@ -9767,98 +9869,52 @@
       "detected_at": "2026-07-27T17:57:06.681600+00:00"
     },
     {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/juninke-11-32gb-gemini-ai-tablet/840671.htm",
-      "title": "Juninke 11'' 32gb Gemini AI Android 16 Tablet with Keyboard",
-      "brand": "Juninke",
-      "category": "electronics",
-      "image": "https://d16f00g4zitf8i.cloudfront.net/images/juninke-11-32gb-gemini-ai-tablet.jpg",
-      "price_current": 71.99,
-      "price_list": 199.99,
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/19800792-22-piece-workpro-sae-metric-72-teeth-flex-head-ratcheting-wrench-set-59-50-free-s-h",
+      "title": "22-Pc WORKPRO SAE / Metric 72-Teeth Flex-Head Ratcheting Wrench Set $59.50 + Free S&H",
+      "brand": "22-Pc",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/3/6/9/5/2/8/300x300/21138426.thumb",
+      "price_current": 59.5,
+      "price_list": null,
       "price_baseline": null,
-      "price_alltime_low": null,
+      "price_alltime_low": 59.5,
       "currency": "USD",
-      "coupon_code": "",
+      "coupon_code": "T4V6GDJW",
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": null,
+      "community_votes": 73,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 105077,
+      "krw_effective": 86722,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
       "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
       "brand_tier": "",
-      "buy_url": "https://www.dealsofamerica.com/juninke-11-32gb-gemini-ai-tablet/840671.htm",
-      "discount_pct": 64.0,
-      "score": 60,
+      "buy_url": "https://slickdeals.net/f/19800792-22-piece-workpro-sae-metric-72-teeth-flex-head-ratcheting-wrench-set-59-50-free-s-h",
+      "discount_pct": null,
+      "score": 59,
       "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
+        "discount_depth": 0,
+        "price_history": 25,
+        "category": 5,
         "bonus": 0,
         "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
+        "community": "투표 73 → 하한 59"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-07-27T16:08:18.946715+00:00"
-    },
-    {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/orgbro-z3-label-maker-machine/840625.htm",
-      "title": "Orgbro Z3 3\" Bluetooth Thermal Portable Label Maker Machine",
-      "brand": "Orgbro",
-      "category": "electronics",
-      "image": "https://d16f00g4zitf8i.cloudfront.net/images/orgbro-z3-label-maker-machine.jpg",
-      "price_current": 17.99,
-      "price_list": 44.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 26258,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.dealsofamerica.com/orgbro-z3-label-maker-machine/840625.htm",
-      "discount_pct": 60.0,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-07-27T16:08:18.946862+00:00"
+      "detected_at": "2026-07-26T14:27:30.121875+00:00",
+      "last_seen": "2026-07-29T17:04:44.747004+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -9909,6 +9965,55 @@
       "detected_at": "2026-07-27T21:56:25.874439+00:00"
     },
     {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/19792041-dji-action-2-dual-screen-combo-140-free-s-h",
+      "title": "DJI Action 2 Dual-Screen Combo $140 + Free S&H",
+      "brand": "DJI",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/2/8/9/1/1/300x300/21137604.thumb",
+      "price_current": 140.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "FCDJVC140",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 63,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 204052,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/19792041-dji-action-2-dual-screen-combo-140-free-s-h",
+      "discount_pct": null,
+      "score": 58,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "community": "투표 63 → 하한 58"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-29T15:44:30.816000+00:00",
+      "last_seen": "2026-07-29T17:04:44.747004+00:00"
+    },
+    {
       "source": "dealsofamerica",
       "source_tier": "T2",
       "url": "https://www.dealsofamerica.com/pipishell-full-motion-tv-monitor-wall-mount-bracket/773051.htm",
@@ -9953,7 +10058,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10000,7 +10105,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00",
+      "last_seen": "2026-07-29T17:05:26.500083+00:00",
       "variant_count": 2
     },
     {
@@ -10048,7 +10153,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T13:04:47.631905+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10095,7 +10200,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10142,7 +10247,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10189,7 +10294,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10236,7 +10341,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10283,7 +10388,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10330,7 +10435,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10377,7 +10482,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10424,7 +10529,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10471,7 +10576,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10518,7 +10623,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10565,7 +10670,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10612,7 +10717,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T09:35:54.634411+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10659,7 +10764,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T14:36:34.003672+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10706,7 +10811,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10753,7 +10858,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10800,7 +10905,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10847,7 +10952,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10894,7 +10999,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T17:47:43.492272+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10941,7 +11046,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -10988,7 +11093,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -11035,7 +11140,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -11082,7 +11187,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -11129,7 +11234,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -11176,7 +11281,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -11223,7 +11328,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -11270,7 +11375,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -11317,7 +11422,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T09:35:54.634411+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -11364,7 +11469,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -11411,7 +11516,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -11458,7 +11563,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -11505,7 +11610,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -11552,7 +11657,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -11599,7 +11704,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -11646,7 +11751,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -11693,7 +11798,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -11740,7 +11845,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -11787,7 +11892,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -11834,7 +11939,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -11881,7 +11986,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -11928,7 +12033,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -11975,7 +12080,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -12022,7 +12127,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -12069,7 +12174,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -12116,7 +12221,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -12163,7 +12268,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -12210,7 +12315,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -12257,7 +12362,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -12304,7 +12409,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -12351,7 +12456,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -12398,7 +12503,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -12445,7 +12550,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -12775,55 +12880,6 @@
       "detected_at": "2026-07-27T21:56:25.871566+00:00"
     },
     {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/19792041-dji-action-2-dual-screen-combo-140-free-s-h",
-      "title": "DJI Action 2 Dual-Screen Combo $140 + Free S&H",
-      "brand": "DJI",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/2/8/9/1/1/300x300/21137604.thumb",
-      "price_current": 140.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "FCDJVC140",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 56,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 204052,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/19792041-dji-action-2-dual-screen-combo-140-free-s-h",
-      "discount_pct": null,
-      "score": 57,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "community": "투표 56 → 하한 57"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-07-29T15:44:30.816000+00:00",
-      "last_seen": "2026-07-29T15:44:51.690045+00:00"
-    },
-    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/ugg-goldenstar-glide-platform-sandal-women/8137223",
@@ -12869,7 +12925,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-29T11:48:20.524283+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -13210,6 +13266,55 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
+      "url": "https://slickdeals.net/f/19820076-select-locations-2-pack-23-ounce-clorox-foaming-glass-cleaner-trigger-spray-fresh-scent-2-57-w-s-s-free-shipping-w-prime-or-on-35",
+      "title": "Select Accts: 2-pk 23-oz Clorox Foaming Glass Cleaner Trigger Spray (Fresh Scent) $2.55 w/ S&S",
+      "brand": "Select",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/4/0/4/0/3/4/4/300x300/21133083.thumb",
+      "price_current": 2.55,
+      "price_list": 4.25,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 44,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 3717,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/19820076-select-locations-2-pack-23-ounce-clorox-foaming-glass-cleaner-trigger-spray-fresh-scent-2-57-w-s-s-free-shipping-w-prime-or-on-35",
+      "discount_pct": 40.0,
+      "score": 56,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "community": "투표 44 → 하한 56"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-29T15:44:30.816000+00:00",
+      "last_seen": "2026-07-29T17:04:44.747004+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
       "url": "https://slickdeals.net/f/19821216-12-pk-great-value-led-75w-1050-lumens-a19-light-bulbs-3-05",
       "title": "12-Pk Great Value LED 75W 1050-Lumens A19 Light Bulbs $3.05",
       "brand": "12-Pk",
@@ -13224,7 +13329,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 41,
+      "community_votes": 47,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -13248,13 +13353,13 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "community": "투표 41 → 하한 56"
+        "community": "투표 47 → 하한 56"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-29T15:44:30.816000+00:00",
-      "last_seen": "2026-07-29T15:44:51.690045+00:00"
+      "last_seen": "2026-07-29T17:04:44.747004+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -13794,6 +13899,55 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
+      "url": "https://slickdeals.net/f/19811244-texas-instruments-ti-84-evo-graphing-calculator-w-python-white-93-free-shipping",
+      "title": "Texas Instruments TI-84 Evo Graphing Calculator w/ Python (White) $93 + Free S/H",
+      "brand": "Texas",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/1/6/7/9/8/1/2/300x300/21137676.thumb",
+      "price_current": 93.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 30,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 135549,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/19811244-texas-instruments-ti-84-evo-graphing-calculator-w-python-white-93-free-shipping",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "community": "투표 30 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-26T22:14:10.862453+00:00",
+      "last_seen": "2026-07-29T17:04:44.747004+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
       "url": "https://slickdeals.net/f/19819125-cuisinart-30-electric-smoker-99-at-ollie-s",
       "title": "Select Ollie's Stores: Cuisinart 30\" Electric Smoker $100 (In-Store Only)",
       "brand": "Select",
@@ -13808,7 +13962,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 34,
+      "community_votes": 39,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -13832,13 +13986,62 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "community": "투표 34 → 하한 55"
+        "community": "투표 39 → 하한 55"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-29T15:44:30.816000+00:00",
-      "last_seen": "2026-07-29T15:44:51.690045+00:00"
+      "last_seen": "2026-07-29T17:04:44.747004+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Marmot-End-of-Summer-Sale-Up-to-40-off-free-shipping-w-49/21945930.html?iref=rss",
+      "title": "Marmot End of Summer Sale: Up to 40% off + free shipping w/ $49",
+      "brand": "Marmot",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1785344527-540a8719-dc31-3ef0-bf17-586c4454349d.jpg?h=125&w=94",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Marmot-End-of-Summer-Sale-Up-to-40-off-free-shipping-w-49/21945930.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-07-29T17:05:06.782527+00:00",
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -16304,148 +16507,6 @@
       "detected_at": "2026-07-27T17:56:31.451124+00:00"
     },
     {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/19812633-524-ego-power-21-56v-cordless-snow-blower-w-2x-5-0ah-batteries-dual-port-charger-at-amazon",
-      "title": "EGO Power+ 21\" 56V Cordless Snow Blower w/ 2x 5.0Ah Batteries & Dual Port Charger $524 + Free S&H",
-      "brand": "EGO",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/1/7/1/5/2/7/300x300/21112836.thumb",
-      "price_current": 524.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 37,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 908620,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/19812633-524-ego-power-21-56v-cordless-snow-blower-w-2x-5-0ah-batteries-dual-port-charger-at-amazon",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "community": "투표 37 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-07-27T16:07:43.626500+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Champion-Womens-High-Quarter-Cushioned-Athletic-Socks-6-Pack-for-5-81-via-Sub-Save-free-shipping-w-Prime/21934504.html?iref=rss",
-      "title": "Champion Women's High Quarter Cushioned Athletic Socks 6-Pack for $5.81 via Sub. & Save + free shipping w/ Prime",
-      "brand": "Champion",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1785166845-product-trimmed.jpg?h=121&w=125",
-      "price_current": 5.81,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 8480,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Champion-Womens-High-Quarter-Cushioned-Athletic-Socks-6-Pack-for-5-81-via-Sub-Save-free-shipping-w-Prime/21934504.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-07-27T16:08:19.067059+00:00"
-    },
-    {
-      "source": "ssense.com",
-      "source_tier": "T3",
-      "url": "https://www.ssense.com",
-      "title": "Tan Prescott Overshirt",
-      "brand": "Carhartt Work In Progress",
-      "category": "sports_outdoor",
-      "image": "",
-      "price_current": 78.0,
-      "price_list": 260.0,
-      "price_baseline": 260.0,
-      "price_alltime_low": 55.0,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 113849,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.ssense.com",
-      "discount_pct": 70.0,
-      "score": 53,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 0,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-07-27T16:08:49.151383+00:00"
-    },
-    {
       "source": "dealsofamerica",
       "source_tier": "T2",
       "url": "https://www.dealsofamerica.com/pioneer-woman-harper-leather-recliner-wwhiskey-upholstery/840084.htm",
@@ -16490,7 +16551,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16537,7 +16598,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16584,7 +16645,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16631,7 +16692,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16678,7 +16739,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16725,7 +16786,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16772,7 +16833,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16819,7 +16880,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16866,7 +16927,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16913,7 +16974,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -16960,7 +17021,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17007,7 +17068,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17054,7 +17115,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T21:30:18.047164+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17101,7 +17162,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17148,7 +17209,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17195,7 +17256,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17242,7 +17303,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17289,7 +17350,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17336,7 +17397,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17383,7 +17444,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17430,7 +17491,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17477,7 +17538,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17524,7 +17585,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17571,7 +17632,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17618,7 +17679,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17665,7 +17726,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17712,7 +17773,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17759,7 +17820,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T14:36:34.003672+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17806,7 +17867,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17853,7 +17914,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17900,7 +17961,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17947,7 +18008,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -17994,7 +18055,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -18041,7 +18102,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -18088,7 +18149,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -18135,7 +18196,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -18182,7 +18243,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -18229,7 +18290,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -18276,7 +18337,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -18323,7 +18384,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -18370,7 +18431,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -18417,7 +18478,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -18464,7 +18525,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -18511,7 +18572,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -18558,7 +18619,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T20:12:33.120178+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -18605,7 +18666,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -18652,7 +18713,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -18699,7 +18760,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -18746,7 +18807,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-24T01:36:30.724991+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -18793,7 +18854,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-07-23T02:46:01.736200+00:00",
-      "last_seen": "2026-07-29T15:45:25.008078+00:00"
+      "last_seen": "2026-07-29T17:05:26.500083+00:00"
     }
   ]
 }
