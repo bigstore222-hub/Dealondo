@@ -152,6 +152,13 @@ def run_tier(tier: str, con) -> tuple[list, list]:
 
     scored = fe.process(raw)
 
+    # detected_at = '처음 본 시각', last_seen = '지금' 으로 설정 → 최신순 정렬과
+    # 신선도(오래된 딜 제외)가 제대로 동작한다.
+    try:
+        store.apply_first_seen(con, scored)
+    except Exception as e:
+        print(f"[신선도] first_seen 설정 오류: {type(e).__name__}: {e}")
+
     # 제휴 추적 링크로 변환(수익화). 원본 url은 중복제거에 쓰이므로 보존하고,
     # 표시·발송용 buy_url 만 채운다. 제휴 설정이 없으면 원본과 동일하다.
     try:
@@ -202,12 +209,23 @@ def dispatch(fresh: list, con, pending: list, force: bool = False) -> list:
     return pending
 
 
-# 딜보드에 딜을 며칠 보여줄지. 이보다 오래된 건 새로고침 때 사라진다.
+# 마지막으로 관측한 뒤 이 시간이 지나도록 다시 안 잡히면 딜보드에서 내린다
+# (활성 유지 판단 — last_seen 기준).
 BOARD_TTL_HOURS = int(os.environ.get("RADAR_BOARD_TTL_HOURS", "48"))
+# '처음 본 지' 이 일수를 넘긴 딜은 오래된 딜로 보고 딜보드에서 제외한다(신선도).
+# DoA·리테일러가 같은 딜을 몇 주씩 걸어둬도, 오래된 건 안 보이게 한다.
+BOARD_STALE_DAYS = float(os.environ.get("RADAR_BOARD_STALE_DAYS", "10"))
 
 
 def _deal_id(d: dict) -> str:
     return (d.get("url") or "").split("?")[0].rstrip("/") or f"{d.get('source')}:{d.get('title')}"
+
+
+def _age_hours(now, iso: str) -> float:
+    try:
+        return (now - datetime.fromisoformat(iso)).total_seconds() / 3600
+    except (TypeError, ValueError):
+        return 0.0
 
 
 def write_board(all_deals: list) -> None:
@@ -226,7 +244,8 @@ def write_board(all_deals: list) -> None:
             row = asdict(d)
             fresh[_deal_id(row)] = row
 
-    # 기존 딜보드 읽어서 병합 (이번에 안 돈 티어의 딜을 살린다)
+    # 기존 딜보드 읽어서 병합 (이번에 안 돈 티어의 딜을 살린다).
+    # 살릴지 판단은 '마지막으로 본 시각(last_seen)' 기준 — 최근까지 활성이면 유지.
     merged = dict(fresh)
     try:
         with open(WEB_JSON, encoding="utf-8") as f:
@@ -235,23 +254,24 @@ def write_board(all_deals: list) -> None:
             key = _deal_id(row)
             if key in merged:
                 continue                      # 이번 수집분이 최신이므로 우선
-            ts = row.get("detected_at", "")
-            try:
-                age_h = (now - datetime.fromisoformat(ts)).total_seconds() / 3600
-            except (TypeError, ValueError):
-                age_h = 0
-            if age_h <= BOARD_TTL_HOURS:
+            seen = row.get("last_seen") or row.get("detected_at", "")
+            if _age_hours(now, seen) <= BOARD_TTL_HOURS:
                 merged[key] = row
     except (FileNotFoundError, json.JSONDecodeError):
         pass
 
+    # 신선도 컷: '처음 본 지' 오래된 딜은 제외(재수집돼도 계속 보이던 15일 된 딜 제거).
+    stale_h = BOARD_STALE_DAYS * 24
+    kept = [r for r in merged.values()
+            if _age_hours(now, r.get("detected_at", "")) <= stale_h]
+
     # 색상/사이즈 변형 묶기 + 브랜드 도배 상한 (Adornia ×10 같은 문제 정리)
     try:
         import curate
-        curated = curate.curate(list(merged.values()))
+        curated = curate.curate(kept)
     except Exception as e:
         print(f"[큐레이션] 오류: {type(e).__name__}: {e}")
-        curated = list(merged.values())
+        curated = kept
 
     deals = sorted(curated, key=lambda d: d.get("score", 0), reverse=True)
     payload = {"generated_at": now.isoformat(), "count": len(deals), "deals": deals}

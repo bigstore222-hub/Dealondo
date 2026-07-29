@@ -87,7 +87,10 @@ class Deal:
     passed_hard_filter: bool = False
     reject_reason: str = ""
     urgency: str = ""                  # FLASH / HOT / STEADY / (미발행)
+    # detected_at = 이 딜을 '처음 관측한 시각'(store.apply_first_seen 이 채움).
+    #   재수집돼도 갱신되지 않으므로 최신순 정렬·신선도 판단의 기준이 된다.
     detected_at: str = field(default_factory=lambda: datetime.now(timezone.utc).isoformat())
+    last_seen: str = ""                # 마지막으로 관측한 시각(딜보드 활성 유지 판단용)
 
 
 # ---------------------------------------------------------------------------

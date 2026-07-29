@@ -153,6 +153,28 @@ def record_prices(con: sqlite3.Connection, deals: list) -> None:
     con.commit()
 
 
+def apply_first_seen(con: sqlite3.Connection, deals: list) -> None:
+    """
+    각 딜의 detected_at 을 '우리가 처음 관측한 시각'으로, last_seen 을 '지금'으로 설정한다.
+
+    지금까지 detected_at 은 '마지막으로 긁은 시각'이라, 15일째 세일 중인 딜도
+    매번 '방금'으로 갱신돼 최신순이 무의미했다. price_history 의 최초 scraped_at
+    (record_prices 가 매 실행 적재)을 최초 관측 시각으로 삼아 이를 바로잡는다.
+    반드시 record_prices() 뒤에 호출한다.
+    """
+    now = _now()
+    for d in deals:
+        d.last_seen = now
+        try:
+            row = con.execute(
+                "SELECT MIN(scraped_at) FROM price_history WHERE deal_key=?",
+                (deal_key(d),)).fetchone()
+            if row and row[0]:
+                d.detected_at = row[0]     # 최초 관측 시각으로 고정
+        except sqlite3.Error:
+            pass
+
+
 # 이력을 '신뢰할 수 있다'고 볼 최소 조건.
 # 횟수만 보면 안 된다 — 15분 간격으로 3번 찍은 이력은 사실상 한 시점의 값이라
 # 모든 상품이 '역대 최저가'로 잡혀 점수가 부풀려진다(테스트 중 실제로 발생).
