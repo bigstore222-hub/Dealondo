@@ -22,7 +22,7 @@ FLASH 딜이 나오면 정기 슬롯을 기다리지 않고 즉시 알린다.
 from __future__ import annotations
 import sys, time, json, os
 from dataclasses import asdict
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 
 # 화면과 로그 파일에 동시에 출력한다(Tee).
@@ -69,14 +69,22 @@ import membership
 WEB_JSON = (os.environ.get("RADAR_WEB_JSON")
             or os.path.join(os.path.dirname(__file__), "..", "web", "deals.json"))
 
-# 정기 발행 슬롯 (로컬 시각 기준). 실측: 08~10시가 압도적 피크.
-PUBLISH_SLOTS = [(8, 10), (13, 16), (20, 23)]
+# 발송 허용 시간대 (한국시간 KST 기준). 이 시간엔 새 딜을 바로 알린다.
+# 예전엔 좁은 3개 슬롯이었는데, GitHub Actions 서버가 UTC라 그대로 쓰면
+# 한국시간으로 새벽·심야에만 발송돼 낮엔 메시지가 안 왔다(실측: 하루 종일 0건).
+# → KST로 판정하고, 깨어있는 시간(08~24시) 내내 알림이 오게 넓힌다.
+PUBLISH_SLOTS = [(8, 24)]        # KST 08:00 ~ 23:59
 
 TIER_MINUTES = {"T1": 15, "T2": 30, "T3": 120, "T4": 360}
+KST = timezone(timedelta(hours=9))
 
 
 def in_publish_slot(now: datetime | None = None) -> bool:
-    h = (now or datetime.now()).hour
+    # 한국시간(KST) 시각으로 판정. 서버가 UTC여도 한국 기준으로 맞춘다.
+    base = now or datetime.now(timezone.utc)
+    if base.tzinfo is None:
+        base = base.replace(tzinfo=timezone.utc)
+    h = base.astimezone(KST).hour
     return any(a <= h < b for a, b in PUBLISH_SLOTS)
 
 
