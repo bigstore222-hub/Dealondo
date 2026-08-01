@@ -105,8 +105,11 @@ def format_deal(d) -> str:
 
 
 def send(text: str, disable_preview: bool = False) -> bool:
-    token = os.environ.get("TELEGRAM_BOT_TOKEN")
-    chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+    # 시크릿을 붙여넣을 때 줄바꿈·공백이 딸려오면 URL에 제어문자가 섞여
+    # "InvalidURL: URL can't contain control characters" 로 발송이 실패한다(실측).
+    # 토큰·chat id는 원래 공백이 없으므로 모든 공백/제어문자를 제거해 방어한다.
+    token = re.sub(r"\s", "", os.environ.get("TELEGRAM_BOT_TOKEN") or "")
+    chat_id = re.sub(r"\s", "", os.environ.get("TELEGRAM_CHAT_ID") or "")
     if not (token and chat_id):
         # 윈도우 콘솔(CP949)은 이모지를 못 찍는다.
         # 텔레그램으로 보낼 때는 이모지를 그대로 쓰되,
