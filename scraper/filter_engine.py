@@ -166,9 +166,9 @@ def hard_filter(deal: Deal) -> tuple[bool, str]:
         if t == "unknown":
             return False, f"H7: 무명 브랜드({deal.brand or '미상'}) — 의류·잡화는 유명 브랜드만"
         floor = PREMIUM_MIN_DISCOUNT if t == "premium" else KNOWN_MIN_DISCOUNT
-        # 공개 코드 딜, 그리고 큐레이션 소스(DealNews)는 할인 문턱 면제.
-        # (DealNews는 편집자가 엄선하고 할인율을 텍스트로 안 주는 경우가 많다)
-        if not has_public_code(deal) and not is_curated(deal):
+        # '강한 코드딜'(공개코드+50%↑) 과 큐레이션 소스(DealNews)만 할인 문턱 면제.
+        # 20% 코드 딜은 면제 대상이 아니므로 유명 브랜드 최소 할인(60%)을 그대로 적용받는다.
+        if not strong_code_deal(deal) and not is_curated(deal):
             pct = deal.discount_pct if deal.discount_pct is not None else compute_discount_pct(deal)
             if not (pct and pct >= floor):
                 return False, (f"H7: {deal.brand} 할인 {pct or 0:.0f}% < {floor:.0f}% "
@@ -180,6 +180,19 @@ def hard_filter(deal: Deal) -> tuple[bool, str]:
 def has_public_code(deal: Deal) -> bool:
     """공유 가능한(공개) 결제창 프로모션 코드가 붙은 딜인가."""
     return bool(getattr(deal, "coupon_code", "") and deal.code_kind == "public")
+
+
+# 코드딜이 '핫딜 대접'(문턱 면제 + HOT 하한)을 받으려면 필요한 최소 실질 할인.
+# 20% 코드(eBay FIRSTBELL20 류)까지 핫딜로 밀어올려 잡음이 심했다 → 실질 할인이 커야 한다.
+CODE_DEAL_MIN_DISCOUNT = float(os.environ.get("RADAR_CODE_DEAL_MIN_DISCOUNT", "50"))
+
+
+def strong_code_deal(deal: Deal) -> bool:
+    """공개 코드 + '충분한 실질 할인(기본 50%+)'인 딜만 핫딜로 인정한다."""
+    if not has_public_code(deal):
+        return False
+    pct = deal.discount_pct if deal.discount_pct is not None else compute_discount_pct(deal)
+    return bool(pct and pct >= CODE_DEAL_MIN_DISCOUNT)
 
 
 # ---------------------------------------------------------------------------
@@ -450,7 +463,7 @@ def score_deal(deal: Deal) -> Deal:
     # 공개 결제창 코드 딜은 브랜드/점수와 무관하게 반드시 노출한다(사용자 요청).
     # 단, 코드 할인이 실질적일 때만(20%+) — 5% 코드 잡음까지 올리지 않는다.
     # 상한을 STEADY 하단(60)으로 둬, 유명 브랜드 정품 딜을 밀어내지 않게 한다.
-    if has_public_code(deal) and (deal.discount_pct or 0) >= 20:
+    if strong_code_deal(deal):
         deal.score = max(deal.score, CODE_DEAL_FLOOR)
         deal.score_breakdown["code_deal"] = f"공개코드 {deal.coupon_code} → 하한 {CODE_DEAL_FLOOR}"
 
