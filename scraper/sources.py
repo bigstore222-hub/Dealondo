@@ -84,6 +84,20 @@ def _f(num: str) -> float:
     return float(num.replace(",", ""))
 
 
+def _brand_from_title(title: str) -> str:
+    """제목에서 '사전에 등록된 실제 브랜드'만 뽑는다. 없으면 빈 문자열.
+
+    애그리게이터(슬릭딜·DoA·DealNews)는 제목만 주므로 브랜드를 제목에서 찾는데,
+    첫 단어를 무조건 브랜드로 쓰면 '25%', 'Prime', '5.5"', 'PROVIDES' 같은
+    쓰레기가 브랜드로 뜬다(실측). 그래서 사전 매칭에 성공한 것만 브랜드로 인정한다.
+    """
+    try:
+        import brands as _b
+        return _b.lookup(title or "")[1]
+    except Exception:
+        return ""
+
+
 def parse_doa_item(title: str, link: str, desc: str = "") -> Deal:
     text = f"{title} {desc}"
     price_current = price_list = None
@@ -109,7 +123,7 @@ def parse_doa_item(title: str, link: str, desc: str = "") -> Deal:
                 if 0 < pct < 100:
                     price_list = round(price_current / (1 - pct / 100), 2)
 
-    brand = title.split()[0] if title else ""
+    brand = _brand_from_title(title)
 
     # 결제창 프로모션 코드 추출.
     # 아마존 셀러 코드(FHJMZNRA 류)는 상품 페이지엔 없고 이런 딜 게시글 본문에만 있다.
@@ -206,15 +220,9 @@ def parse_dealnews_item(title: str, link: str, desc: str) -> Deal:
 
     im = _DN_IMG.search(desc_raw)
     # 브랜드는 제목 전체에서 탐지(첫 단어만 보면 'Tommy Hilfiger'→'Tommy'로 놓친다).
-    try:
-        import brands as _b
-        canon = _b.lookup(title)[1]
-    except Exception:
-        canon = ""
-    brand = canon or (title.split()[0] if title else "")
     return Deal(
         source="dealnews", source_tier="T2", url=link,
-        title=title[:140], brand=brand,
+        title=title[:140], brand=_brand_from_title(title),
         image=im.group(1) if im else "",
         price_current=price_current, price_list=price_list,
         coupon_code=coupon_code, code_kind=code_kind,
@@ -243,6 +251,107 @@ def fetch_dealnews(limit: int = 60) -> list[Deal]:
     except ET.ParseError as e:
         print(f"[dealnews] RSS 파싱 실패: {e}")
     print(f"[dealnews] {len(deals)}건 수집")
+    return deals
+
+
+# ---------------------------------------------------------------------------
+# 1-C. TechBargains — 공개 RSS (600건). 링크가 리테일러로 직접 연결돼 수익화에 유리.
+#   item: title(가격) / link(리테일러 URL 직결) / description / vendorname(리테일러)
+#         / category / imagelink.  대부분 할인율 표기 없이 가격만 → 큐레이션 소스로 취급.
+# ---------------------------------------------------------------------------
+TECHBARGAINS_RSS = "https://www.techbargains.com/rss.xml"
+
+# TechBargains 카테고리 → 내부 카테고리
+_TB_CAT = {
+    "laptops": "electronics", "desktops": "electronics", "gaming": "electronics",
+    "cell phones": "electronics", "tvs": "electronics", "electronics": "electronics",
+    "tablets": "electronics", "cameras": "electronics", "audio": "electronics",
+    "computers": "electronics", "video games": "electronics",
+    "clothing & shoes": "premium_fashion", "clothing": "premium_fashion",
+    "home & garden": "home", "tools": "home", "kitchen": "home", "furniture": "home",
+    "toys": "kids", "baby & kids": "kids", "kids": "kids",
+}
+
+
+def parse_techbargains_item(title, link, desc, vendor, category, imagelink) -> Deal:
+    import html as _html
+    import promocode as _pc
+    title = _html.unescape(title or "").strip()
+    desc_clean = re.sub(r"<[^>]+>", " ", _html.unescape(desc or ""))
+    text = f"{title} {desc_clean}"
+
+    price_current = price_list = None
+    m = _PRICE_ARROW.search(text)
+    if m:
+        price_list, price_current = _f(m.group(1)), _f(m.group(2))
+    else:
+        m2 = _PRICE_WAS.search(text)
+        if m2:
+            price_current, price_list = _f(m2.group(1)), _f(m2.group(2))
+    if price_current is None:
+        mf = _DN_FOR.search(title) or _DN_FROM.search(title)
+        if mf:
+            price_current = _f(mf.group(1))
+        else:
+            ms = re.findall(r'\$([\d,]+(?:\.\d{2})?)', title)
+            if ms:
+                price_current = _f(ms[-1])
+    if price_list is None:
+        mp = _PCT_OFF.search(text)
+        if mp and price_current:
+            pct = int(mp.group(1))
+            if 0 < pct < 100:
+                price_list = round(price_current / (1 - pct / 100), 2)
+
+    coupon_code = code_kind = ""
+    codes = _pc.extract(text, subject=title, public_source=True)
+    best = _pc.best(codes, shareable_only=True)
+    if best:
+        coupon_code, code_kind = best.code, best.kind
+        if best.percent and price_current and price_list is None:
+            price_list = price_current
+            price_current = _pc.apply_to_price(price_current, best)
+
+    cat = _TB_CAT.get(_html.unescape(category or "").strip().lower(), "")
+    vend = _html.unescape(vendor or "").strip()
+    src = f"techbargains:{vend.lower()}" if vend else "techbargains"
+    return Deal(
+        source=src, source_tier="T2", url=(link or "").strip(),
+        title=title[:140], brand=_brand_from_title(title),
+        image=(imagelink or "").strip(), category=cat,
+        price_current=price_current, price_list=price_list,
+        coupon_code=coupon_code, code_kind=code_kind,
+        collection_method="rss",
+    )
+
+
+def fetch_techbargains(limit: int = 200) -> list[Deal]:
+    """TechBargains 공개 RSS(600건)를 읽어 딜로 변환. 링크는 리테일러 직결."""
+    try:
+        raw = _http_get(TECHBARGAINS_RSS, timeout=12)
+    except Exception as e:
+        print(f"[techbargains] fetch 실패: {getattr(e,'code',type(e).__name__)}")
+        return []
+    deals: list[Deal] = []
+    try:
+        root = ET.fromstring(raw)
+        for item in root.iter("item"):
+            title = (item.findtext("title") or "").strip()
+            link = (item.findtext("link") or "").strip()
+            if not (title and link):
+                continue
+            deals.append(parse_techbargains_item(
+                title, link,
+                item.findtext("description") or "",
+                item.findtext("vendorname") or "",
+                item.findtext("category") or "",
+                item.findtext("imagelink") or "",
+            ))
+            if len(deals) >= limit:
+                break
+    except ET.ParseError as e:
+        print(f"[techbargains] RSS 파싱 실패: {e}")
+    print(f"[techbargains] {len(deals)}건 수집")
     return deals
 
 
@@ -404,7 +513,7 @@ def fetch_dealsofamerica(limit: int = 600, enrich_top: int = 10,
     for r in rows:
         deals.append(Deal(
             source="dealsofamerica", source_tier="T2", url=r["url"],
-            title=r["title"], brand=(r["title"].split()[0] if r["title"] else ""),
+            title=r["title"], brand=_brand_from_title(r["title"]),
             image=r.get("image", ""), category=r.get("category", ""),
             price_current=r["price_current"], price_list=r["price_list"],
             coupon_code=r.get("coupon_code", ""), code_kind=r.get("code_kind", ""),
@@ -473,16 +582,10 @@ def parse_slickdeals_item(title: str, link: str, desc: str, content: str,
     retailer = rm.group(1).lower() if rm else "slickdeals.net"
     im = _SD_IMG.search(content)
 
-    try:
-        import brands as _b
-        brand = _b.lookup(title)[1]
-    except Exception:
-        brand = ""
-
     return Deal(
         source=f"slickdeals:{retailer}", source_tier="T1",
         url=link.split("?")[0] if link else link,
-        title=title[:140], brand=brand or (title.split()[0] if title else ""),
+        title=title[:140], brand=_brand_from_title(title),
         image=im.group(1) if im else "",
         price_current=price_current, price_list=price_list,
         coupon_code=coupon_code, code_kind=code_kind,

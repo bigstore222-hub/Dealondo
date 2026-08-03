@@ -146,11 +146,11 @@ function render(){
         <span class="src">${d.source} · ${d.source_tier}</span>
         <span class="score">점수 <b>${d.score}</b>/100</span>
       </div>
-      <div class="brandrow">
-        <span class="brand">${d.brand||'브랜드 미상'}</span>
+      ${d.brand?`<div class="brandrow">
+        <span class="brand">${d.brand}</span>
         ${d.brand_tier?`<span class="btier ${d.brand_tier}">${({premium:'⭐ 프리미엄',known:'✓ 유명',unknown:'· 무명'})[d.brand_tier]||''}</span>`:''}
-      </div>
-      <div class="title">${d.title}</div>
+      </div>`:''}
+      <div class="title"${d.brand?'':' style="font-size:16px;font-weight:700"'}>${d.title}</div>
       <div class="price">
         <span class="now">${fmtPrice(d.price_current)}</span>
         ${d.price_list?`<span class="was">${fmtPrice(d.price_list)}</span>`:''}

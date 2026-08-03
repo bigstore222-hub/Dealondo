@@ -22,7 +22,7 @@ PREMIUM_MIN_DISCOUNT = float(os.environ.get("RADAR_PREMIUM_MIN_DISCOUNT", "50"))
 # 편집자가 딜을 엄선하는 '큐레이션 애그리게이터'. 이런 곳의 유명 브랜드 딜은
 # 할인율 표기가 없어도(제목이 "for $X" 형태) 신뢰할 만하므로 할인 문턱을 면제하고
 # 최소 점수를 보장한다. 단 유명 브랜드 요건은 유지(패션은 여전히 유명 브랜드만).
-CURATED_SOURCES = {"dealnews"}
+CURATED_SOURCES = {"dealnews", "techbargains"}
 CURATED_FLOOR = int(os.environ.get("RADAR_CURATED_FLOOR", "55"))
 
 # 커뮤니티 투표(슬릭딜 Thumb Score)가 이 값 이상이면 crowd-검증 핫딜로 보고 점수 하한 부여.
@@ -30,7 +30,9 @@ VOTE_FLOOR_MIN = int(os.environ.get("RADAR_VOTE_FLOOR_MIN", "30"))
 
 
 def is_curated(deal: Deal) -> bool:
-    return getattr(deal, "source", "") in CURATED_SOURCES
+    # source가 "techbargains:amazon" 처럼 벤더가 붙는 경우가 있어 접두 매칭한다.
+    src = getattr(deal, "source", "")
+    return any(src == c or src.startswith(c + ":") for c in CURATED_SOURCES)
 
 
 # ---------------------------------------------------------------------------
