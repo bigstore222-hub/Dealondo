@@ -19,6 +19,11 @@ import brands
 KNOWN_MIN_DISCOUNT = float(os.environ.get("RADAR_KNOWN_MIN_DISCOUNT", "60"))
 PREMIUM_MIN_DISCOUNT = float(os.environ.get("RADAR_PREMIUM_MIN_DISCOUNT", "50"))
 
+# 발행 최소 실질 할인(H8). 이 미만은 카테고리 불문 '핫딜'이 아니다.
+# 예외: 강한 코드딜(50%+)·큐레이션 유명브랜드·역대최저가.
+# 사용자 방침: 5~20%대 저할인 잡음을 근본 차단.
+MIN_PUBLISH_DISCOUNT = float(os.environ.get("RADAR_MIN_PUBLISH_DISCOUNT", "25"))
+
 # 편집자가 딜을 엄선하는 '큐레이션 애그리게이터'. 이런 곳의 유명 브랜드 딜은
 # 할인율 표기가 없어도(제목이 "for $X" 형태) 신뢰할 만하므로 할인 문턱을 면제하고
 # 최소 점수를 보장한다. 단 유명 브랜드 요건은 유지(패션은 여전히 유명 브랜드만).
@@ -140,7 +145,13 @@ def hard_filter(deal: Deal) -> tuple[bool, str]:
             pass
 
     # H5: 리퍼/중고 (단, 리퍼 명시 + 60% 이상 할인은 예외 통과)
-    if deal.is_refurbished:
+    # 파서가 is_refurbished를 못 채운 경우가 많다(슬릭딜 RSS 등). 제목에서도 감지한다.
+    #   예) "(Used) Backbone Mobile Gaming Controller" → 중고. 8% 할인이면 배제.
+    #   'used'는 "(used" 형태로만 잡아 'widely used' 같은 오탐을 피한다.
+    _t = (deal.title or "").lower()
+    _is_used = deal.is_refurbished or bool(re.search(
+        r"\brefurbished\b|\brenewed\b|\bopen[- ]?box\b|\bpre-?owned\b|\(used\b", _t))
+    if _is_used:
         pct = deal.discount_pct if deal.discount_pct is not None else compute_discount_pct(deal)
         if not (pct and pct >= 60):
             return False, "H5: 리퍼/중고 (60% 미만 할인)"
@@ -175,6 +186,18 @@ def hard_filter(deal: Deal) -> tuple[bool, str]:
             if not (pct and pct >= floor):
                 return False, (f"H7: {deal.brand} 할인 {pct or 0:.0f}% < {floor:.0f}% "
                                f"(유명 브랜드 최소 할인)")
+
+    # H8: 사실상 할인이 없는 딜은 '핫딜'이 아니다 — 근본 배제.
+    #   사용자 방침: "이딴 허접한 할인율(5%·8%·20%)을 딜이라고 올리지 마라."
+    #   원인이던 슬릭딜 '투표만 높은 저할인' 잡동사니(세제 5%, 중고 컨트롤러 8%)를
+    #   점수 하한이 끌어올리기 전에 하드필터 단계에서 차단한다.
+    #   예외 — 강한 코드딜(공개코드 50%+) / 큐레이션 유명브랜드 / 역대최저가 갱신.
+    if not strong_code_deal(deal) and not is_curated(deal):
+        pct = deal.discount_pct if deal.discount_pct is not None else compute_discount_pct(deal)
+        at_low = bool(deal.price_alltime_low and deal.price_current
+                      and deal.price_current <= deal.price_alltime_low)
+        if not at_low and not (pct and pct >= MIN_PUBLISH_DISCOUNT):
+            return False, f"H8: 할인 {pct or 0:.0f}% < {MIN_PUBLISH_DISCOUNT:.0f}% (허접 할인 제외)"
 
     return True, ""
 
@@ -474,14 +497,15 @@ def score_deal(deal: Deal) -> Deal:
         deal.score = max(deal.score, CURATED_FLOOR)
         deal.score_breakdown["curated"] = f"DealNews 엄선 → 하한 {CURATED_FLOOR}"
 
-    # 커뮤니티 투표(슬릭딜 Thumb Score)는 crowd가 검증한 핫딜 신호.
-    # 투표수에 비례해 점수 하한을 준다(50표→60, 많을수록↑, 최대 82).
+    # 커뮤니티 투표(슬릭딜 Thumb Score)는 '실질 할인이 큰' 딜에서만 점수를 밀어준다.
+    # 예전엔 투표수만 높으면 5~8% 할인 잡동사니(세제·중고 컨트롤러)도 55점으로 올라갔다.
+    # → 할인 40% 이상일 때만 투표 하한을 적용한다(투표는 좋은 딜을 '증폭'만, '생성'은 안 함).
     v = deal.community_votes or 0
-    if v >= VOTE_FLOOR_MIN:
+    if v >= VOTE_FLOOR_MIN and (deal.discount_pct or 0) >= 40:
         vote_floor = min(55 + (v - VOTE_FLOOR_MIN) // 10, 82)
         if vote_floor > deal.score:
             deal.score = vote_floor
-            deal.score_breakdown["community"] = f"투표 {v} → 하한 {vote_floor}"
+            deal.score_breakdown["community"] = f"투표 {v}+할인{deal.discount_pct:.0f}% → 하한 {vote_floor}"
 
     deal.urgency = classify_urgency(deal)
     return deal
