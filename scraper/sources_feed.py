@@ -27,6 +27,16 @@ import xml.etree.ElementTree as ET
 
 from filter_engine import Deal
 
+
+def _known_brand(title: str) -> str:
+    """사전 등록된 실제 브랜드만. 첫 단어 폴백('Hybrid' 등 오탐) 금지."""
+    try:
+        import brands as _b
+        return _b.lookup(title or "")[1]
+    except Exception:
+        return ""
+
+
 _CFG = os.path.join(os.path.dirname(__file__), "..", "data", "feeds.csv")
 UA = "Mozilla/5.0 (compatible; DealondoBot/0.1; affiliate feed reader)"
 
@@ -194,7 +204,7 @@ def fetch_feeds(max_per_feed: int = 400) -> list[Deal]:
             deals.append(Deal(
                 source=retailer, source_tier="T2", url=url,
                 title=title[:140],
-                brand=(r.get("brand") or title.split()[0] or "").strip()[:60],
+                brand=(r.get("brand") or _known_brand(title) or "").strip()[:60],
                 image=(r.get("image") or "").strip(),
                 category=cat_default,
                 price_current=cur, price_list=lst,

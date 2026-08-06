@@ -36,6 +36,16 @@ from datetime import datetime, timedelta, timezone
 
 from filter_engine import Deal
 
+
+def _email_known_brand(title: str) -> str:
+    """사전 등록된 실제 브랜드만. 도메인명('Amazon' 등)을 브랜드로 쓰지 않는다."""
+    try:
+        import brands as _b
+        return _b.lookup(title or "")[1]
+    except Exception:
+        return ""
+
+
 IMAP_HOST = os.environ.get("RADAR_IMAP_HOST", "imap.gmail.com")
 
 # 발신 도메인 → 리테일러 도메인 매핑.
@@ -250,7 +260,7 @@ def parse_message(msg) -> Deal | None:
         source_tier="T2",
         url=_first_link(body, domain),
         title=title,
-        brand=domain.split(".")[0].title(),
+        brand=_email_known_brand(title),
         price_current=cur,
         price_list=lst,
         price_baseline=lst,

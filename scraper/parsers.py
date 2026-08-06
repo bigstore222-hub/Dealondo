@@ -15,6 +15,19 @@ from __future__ import annotations
 import re, json, html as htmlmod
 
 
+def _known_brand(title: str) -> str:
+    """제목에서 '사전 등록된 실제 브랜드'만 뽑는다. 없으면 빈 문자열.
+
+    첫 단어를 무조건 브랜드로 쓰면 'Hybrid'·'Prime'·'25%' 같은 쓰레기가
+    브랜드로 뜬다(실측: 아마존 'Hybrid Active Noise Cancelling...'). 사전 매칭
+    성공한 것만 브랜드로 인정하고, 없으면 빈 값으로 둔다(제목이 대표 표기가 됨)."""
+    try:
+        import brands as _b
+        return _b.lookup(title or "")[1]
+    except Exception:
+        return ""
+
+
 def _unescape_js(s: str) -> str:
     """Zappos 등이 쓰는 \\u002F 형태 유니코드 이스케이프 복원."""
     try:
@@ -255,7 +268,7 @@ def ebay(html: str, site) -> list[dict]:
         row = {
             "url": url,
             "title": title[:120],
-            "brand": title.split()[0] if title else site.name,
+            "brand": _known_brand(title),
             "image": htmlmod.unescape(eim.group("img")) if eim else "",
             "price_current": cur,
             "price_list": was,
@@ -367,8 +380,8 @@ def amazon(html: str, site) -> list[dict]:
         row = {
             "url": url,
             "title": title[:120],
-            # 아마존 제목은 보통 '브랜드 + 상품명' 순이라 첫 토큰이 브랜드에 가깝다
-            "brand": title.split(",")[0].split()[0] if title.split() else site.name,
+            # 아마존 제목의 첫 토큰을 브랜드로 쓰면 'Hybrid' 같은 오탐이 난다 → 사전 매칭만.
+            "brand": _known_brand(title),
             "image": f'{im.group("base")}._AC_SR255,340_.{im.group("ext")}' if im else "",
             "price_current": cur,
             "price_list": was,
@@ -471,7 +484,7 @@ def woot(html: str, site) -> list[dict]:
         rows.append({
             "url": url,
             "title": title[:120],
-            "brand": title.split(",")[0].split()[0] if title.split() else site.name,
+            "brand": _known_brand(title),
             "image": htmlmod.unescape(wim.group("img")) if wim else "",
             "price_current": cur,
             "price_list": was,

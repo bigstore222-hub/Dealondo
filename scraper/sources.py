@@ -143,10 +143,10 @@ def parse_doa_item(title: str, link: str, desc: str = "") -> Deal:
             if price_list is None and price_current:
                 price_list = price_current      # 코드 전 가격을 정가 기준으로 승격
             price_current = coded
-        elif best.percent and price_current:
-            # 명시 최종가가 없으면 코드 %를 현재가에 적용
-            if price_list is None:
-                price_list = price_current
+        elif best.percent and price_current and price_list is None:
+            # 정가를 아직 모를 때만 '코드 전 가격=현재가'로 보고 코드 %를 적용한다.
+            # 정가가 이미 있으면 현재가가 곧 최종가이므로 재적용하면 이중할인이 된다.
+            price_list = price_current
             price_current = _pc.apply_to_price(price_current, best)
 
     return Deal(
@@ -213,9 +213,9 @@ def parse_dealnews_item(title: str, link: str, desc: str) -> Deal:
             if price_list is None and price_current:
                 price_list = price_current
             price_current = _f(mfin.group(1))
-        elif best.percent and price_current:
-            if price_list is None:
-                price_list = price_current
+        elif best.percent and price_current and price_list is None:
+            # 정가가 이미 있으면 현재가가 곧 최종가 → 코드 %를 재적용하면 이중할인이 된다.
+            price_list = price_current
             price_current = _pc.apply_to_price(price_current, best)
 
     im = _DN_IMG.search(desc_raw)
@@ -504,9 +504,9 @@ def fetch_dealsofamerica(limit: int = 600, enrich_top: int = 10,
                 if not r["price_list"]:
                     r["price_list"] = r["price_current"]
                 r["price_current"] = float(mfin.group(1))
-            elif best.percent:
-                if not r["price_list"]:
-                    r["price_list"] = r["price_current"]
+            elif best.percent and not r["price_list"]:
+                # 정가가 없을 때만 코드 %를 적용(정가가 있으면 이중할인 방지)
+                r["price_list"] = r["price_current"]
                 r["price_current"] = _pc.apply_to_price(r["price_current"], best)
 
     deals: list[Deal] = []
