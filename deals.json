@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-09T20:56:52.858915+00:00",
-  "count": 69,
+  "generated_at": "2026-08-09T21:24:01.929523+00:00",
+  "count": 67,
   "deals": [
     {
       "source": "6pm.com",
@@ -1040,7 +1040,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-09T20:20:00.510760+00:00",
-      "last_seen": "2026-08-09T20:56:23.016185+00:00"
+      "last_seen": "2026-08-09T21:24:01.923144+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1089,7 +1089,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-09T19:01:40.859386+00:00",
-      "last_seen": "2026-08-09T20:56:23.016185+00:00"
+      "last_seen": "2026-08-09T21:24:01.923144+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1622,54 +1622,6 @@
       "urgency": "HOT",
       "detected_at": "2026-08-08T20:51:34.393634+00:00",
       "last_seen": "2026-08-08T20:51:51.577110+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10045430",
-      "title": "Aastha Fur Boat Shoes",
-      "brand": "AllSaints",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61OymhFIGiL._AC_SR255,340_.jpg",
-      "price_current": 115.5,
-      "price_list": 385.0,
-      "price_baseline": 385.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 164412,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.zappos.com/product/10045430",
-      "discount_pct": 70.0,
-      "score": 71,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-08-07T21:02:45.080323+00:00",
-      "last_seen": "2026-08-07T21:03:04.709750+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -3269,55 +3221,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-08-08T11:04:39.033284+00:00",
       "last_seen": "2026-08-08T12:27:07.698159+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Samsonite-Luggage-Bags-Deals-at-Macys-Up-to-73-off-free-shipping-w-39/21985518.html?iref=rss",
-      "title": "Samsonite Luggage & Bags Deals at Macy's: Up to 73% off + free shipping w/ $39",
-      "brand": "Samsonite",
-      "category": "premium_fashion",
-      "image": "https://d.dlnws.com/64599/1786129637-product-trimmed.jpg?h=125&w=71",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Samsonite-Luggage-Bags-Deals-at-Macys-Up-to-73-off-free-shipping-w-39/21985518.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-08-07T21:02:44.774520+00:00",
-      "last_seen": "2026-08-07T21:03:04.709750+00:00"
     }
   ]
 }
