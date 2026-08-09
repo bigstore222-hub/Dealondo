@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-09T22:03:22.078503+00:00",
-  "count": 68,
+  "generated_at": "2026-08-09T22:52:04.093743+00:00",
+  "count": 69,
   "deals": [
     {
       "source": "6pm.com",
@@ -141,7 +141,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-08-04T04:33:15.368757+00:00",
-      "last_seen": "2026-08-09T22:02:04.768243+00:00"
+      "last_seen": "2026-08-09T22:52:03.998270+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -189,7 +189,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-09T20:56:35.627956+00:00",
-      "last_seen": "2026-08-09T22:02:04.768243+00:00"
+      "last_seen": "2026-08-09T22:52:03.998270+00:00"
     },
     {
       "source": "6pm.com",
@@ -331,7 +331,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-06T13:13:29.693812+00:00",
-      "last_seen": "2026-08-09T22:02:04.768243+00:00"
+      "last_seen": "2026-08-09T22:52:03.998270+00:00"
     },
     {
       "source": "zappos.com",
@@ -660,7 +660,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-01T14:55:20.064898+00:00",
-      "last_seen": "2026-08-09T22:02:04.768243+00:00"
+      "last_seen": "2026-08-09T22:52:03.998270+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -707,7 +707,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-02T23:14:02.726673+00:00",
-      "last_seen": "2026-08-09T22:02:04.768243+00:00"
+      "last_seen": "2026-08-09T22:52:03.998270+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1087,7 +1087,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-09T20:20:00.510760+00:00",
-      "last_seen": "2026-08-09T22:01:33.384288+00:00"
+      "last_seen": "2026-08-09T22:51:33.049631+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1383,54 +1383,6 @@
       "last_seen": "2026-08-09T14:55:24.821838+00:00"
     },
     {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/ferragamo-classic-logo-tea-cup-52mm-round-sunglasses/7886324",
-      "title": "Classic Logo Tea Cup 52mm Round Sunglasses",
-      "brand": "Ferragamo",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/e5b75814-a4d1-4c28-834e-7801380d3653.jpeg?h=368&w=240&dpr=2",
-      "price_current": 67.47,
-      "price_list": 270.0,
-      "price_baseline": 270.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 95281,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/ferragamo-classic-logo-tea-cup-52mm-round-sunglasses/7886324",
-      "discount_pct": 75.0,
-      "score": 71,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-08-09T22:01:41.221848+00:00",
-      "last_seen": "2026-08-09T22:02:04.768243+00:00"
-    },
-    {
       "source": "zappos.com",
       "source_tier": "T2",
       "url": "https://www.zappos.com/product/10016866",
@@ -1476,6 +1428,54 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-07T05:19:36.264293+00:00",
+      "last_seen": "2026-08-09T22:52:03.998270+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/ferragamo-classic-logo-tea-cup-52mm-round-sunglasses/7886324",
+      "title": "Classic Logo Tea Cup 52mm Round Sunglasses",
+      "brand": "Ferragamo",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/e5b75814-a4d1-4c28-834e-7801380d3653.jpeg?h=368&w=240&dpr=2",
+      "price_current": 67.47,
+      "price_list": 270.0,
+      "price_baseline": 270.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 95281,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.nordstromrack.com/s/ferragamo-classic-logo-tea-cup-52mm-round-sunglasses/7886324",
+      "discount_pct": 75.0,
+      "score": 71,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-08-09T22:01:41.221848+00:00",
       "last_seen": "2026-08-09T22:02:04.768243+00:00"
     },
     {
@@ -1764,7 +1764,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-09T20:56:35.627956+00:00",
-      "last_seen": "2026-08-09T22:02:04.768243+00:00"
+      "last_seen": "2026-08-09T22:52:03.998270+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1812,7 +1812,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-09T20:56:35.627956+00:00",
-      "last_seen": "2026-08-09T22:02:04.768243+00:00"
+      "last_seen": "2026-08-09T22:52:03.998270+00:00"
     },
     {
       "source": "zappos.com",
@@ -2100,7 +2100,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-09T20:56:35.627956+00:00",
-      "last_seen": "2026-08-09T22:02:04.768243+00:00"
+      "last_seen": "2026-08-09T22:52:03.998270+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2436,7 +2436,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-09T20:56:35.627956+00:00",
-      "last_seen": "2026-08-09T22:02:04.768243+00:00"
+      "last_seen": "2026-08-09T22:52:03.998270+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2537,6 +2537,55 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
+      "url": "https://www.dealnews.com/Reebok-Mens-Insulated-Softshell-Winter-Jacket-L-only-for-24-free-shipping-w-Prime/21993951.html?iref=rss",
+      "title": "Reebok Men's Insulated Softshell Winter Jacket (L only) for $24 + free shipping w/ Prime",
+      "brand": "Reebok",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1786314334-71m3_c1oi2l-ac_sx679.jpg?h=125&w=83",
+      "price_current": 24.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 33893,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Reebok-Mens-Insulated-Softshell-Winter-Jacket-L-only-for-24-free-shipping-w-Prime/21993951.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-08-09T22:51:46.863024+00:00",
+      "last_seen": "2026-08-09T22:52:03.998270+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
       "url": "https://www.dealnews.com/products/Casio/Casio-Vintage-Series-Data-Bank-Watch/516185.html?iref=rss",
       "title": "Casio Vintage Series Data Bank Watch for $24 + free shipping w/ Prime",
       "brand": "Casio",
@@ -2581,7 +2630,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-09T20:56:35.627956+00:00",
-      "last_seen": "2026-08-09T22:02:04.768243+00:00"
+      "last_seen": "2026-08-09T22:52:03.998270+00:00"
     },
     {
       "source": "dealnews",
@@ -2629,8 +2678,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-09T22:01:41.013421+00:00",
-      "last_seen": "2026-08-09T22:02:04.768243+00:00"
+      "detected_at": "2026-08-09T22:51:46.665741+00:00",
+      "last_seen": "2026-08-09T22:52:03.998270+00:00"
     },
     {
       "source": "dealnews",
@@ -2679,7 +2728,56 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-09T19:02:17.813740+00:00",
-      "last_seen": "2026-08-09T22:02:04.768243+00:00"
+      "last_seen": "2026-08-09T22:52:03.998270+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Birkenstock-UGG-Footwear-Sale-at-Woot-Up-to-50-off-free-shipping-w-Prime/21985396.html?iref=rss",
+      "title": "Birkenstock & UGG Footwear Sale at Woot: Up to 50% off + free shipping w/ Prime",
+      "brand": "Birkenstock",
+      "category": "premium_fashion",
+      "image": "https://d.dlnws.com/64599/1786105427-product-trimmed.png?h=70&w=125",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/Birkenstock-UGG-Footwear-Sale-at-Woot-Up-to-50-off-free-shipping-w-Prime/21985396.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-08-09T22:51:46.679286+00:00",
+      "last_seen": "2026-08-09T22:52:03.998270+00:00"
     },
     {
       "source": "techbargains:under armour",
@@ -2727,8 +2825,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-09T22:01:41.110215+00:00",
-      "last_seen": "2026-08-09T22:02:04.768243+00:00"
+      "detected_at": "2026-08-09T22:51:46.751016+00:00",
+      "last_seen": "2026-08-09T22:52:03.998270+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -2776,8 +2874,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-09T22:01:41.129078+00:00",
-      "last_seen": "2026-08-09T22:02:04.768243+00:00"
+      "detected_at": "2026-08-09T22:51:46.770163+00:00",
+      "last_seen": "2026-08-09T22:52:03.998270+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -2825,8 +2923,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-09T22:01:41.134336+00:00",
-      "last_seen": "2026-08-09T22:02:04.768243+00:00"
+      "detected_at": "2026-08-09T22:51:46.775364+00:00",
+      "last_seen": "2026-08-09T22:52:03.998270+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2875,7 +2973,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-09T11:46:33.447821+00:00",
-      "last_seen": "2026-08-09T22:02:04.768243+00:00"
+      "last_seen": "2026-08-09T22:52:03.998270+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2924,7 +3022,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-08T14:50:43.395477+00:00",
-      "last_seen": "2026-08-09T22:02:04.768243+00:00"
+      "last_seen": "2026-08-09T22:52:03.998270+00:00"
     },
     {
       "source": "dealnews",
@@ -3120,55 +3218,6 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-09T19:49:45.378439+00:00",
-      "last_seen": "2026-08-09T19:50:08.595994+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Birkenstock-UGG-Footwear-Sale-at-Woot-Up-to-50-off-free-shipping-w-Prime/21985396.html?iref=rss",
-      "title": "Birkenstock & UGG Footwear Sale at Woot: Up to 50% off + free shipping w/ Prime",
-      "brand": "Birkenstock",
-      "category": "premium_fashion",
-      "image": "https://d.dlnws.com/64599/1786105427-product-trimmed.png?h=70&w=125",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/Birkenstock-UGG-Footwear-Sale-at-Woot-Up-to-50-off-free-shipping-w-Prime/21985396.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-08-09T19:49:45.390149+00:00",
       "last_seen": "2026-08-09T19:50:08.595994+00:00"
     },
     {
