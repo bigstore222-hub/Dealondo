@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T02:40:32.732762+00:00",
+  "generated_at": "2026-08-10T04:17:09.692989+00:00",
   "count": 69,
   "deals": [
     {
@@ -189,7 +189,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-09T20:56:35.627956+00:00",
-      "last_seen": "2026-08-10T02:36:25.278635+00:00"
+      "last_seen": "2026-08-10T04:17:09.593829+00:00"
     },
     {
       "source": "6pm.com",
@@ -331,7 +331,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-06T13:13:29.693812+00:00",
-      "last_seen": "2026-08-10T02:36:25.278635+00:00"
+      "last_seen": "2026-08-10T04:17:09.593829+00:00"
     },
     {
       "source": "zappos.com",
@@ -660,7 +660,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-01T14:55:20.064898+00:00",
-      "last_seen": "2026-08-10T02:36:25.278635+00:00"
+      "last_seen": "2026-08-10T04:17:09.593829+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -707,7 +707,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-02T23:14:02.726673+00:00",
-      "last_seen": "2026-08-10T02:36:25.278635+00:00"
+      "last_seen": "2026-08-10T04:17:09.593829+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1764,7 +1764,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-09T20:56:35.627956+00:00",
-      "last_seen": "2026-08-10T02:36:25.278635+00:00"
+      "last_seen": "2026-08-10T04:17:09.593829+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1812,7 +1812,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-09T20:56:35.627956+00:00",
-      "last_seen": "2026-08-10T02:36:25.278635+00:00"
+      "last_seen": "2026-08-10T04:17:09.593829+00:00"
     },
     {
       "source": "zappos.com",
@@ -2100,7 +2100,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-09T20:56:35.627956+00:00",
-      "last_seen": "2026-08-10T02:36:25.278635+00:00"
+      "last_seen": "2026-08-10T04:17:09.593829+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10015151",
+      "title": "Palermo Hello Kitty And Friends Shoes (Big Kid)",
+      "brand": "PUMA",
+      "category": "sports_outdoor",
+      "image": "https://m.media-amazon.com/images/I/71+lYsAKmVL._AC_SR255,340_.jpg",
+      "price_current": 22.5,
+      "price_list": 75.0,
+      "price_baseline": 75.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 31717,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10015151",
+      "discount_pct": 70.0,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-08-08T13:29:46.850868+00:00",
+      "last_seen": "2026-08-10T04:17:09.593829+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2343,54 +2391,6 @@
       "last_seen": "2026-08-09T02:59:18.222811+00:00"
     },
     {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10015151",
-      "title": "Palermo Hello Kitty And Friends Shoes (Big Kid)",
-      "brand": "PUMA",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/71+lYsAKmVL._AC_SR255,340_.jpg",
-      "price_current": 22.5,
-      "price_list": 75.0,
-      "price_baseline": 75.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 31762,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10015151",
-      "discount_pct": 70.0,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-08-08T13:29:46.850868+00:00",
-      "last_seen": "2026-08-08T23:49:08.946889+00:00"
-    },
-    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/vionic-emma-flip-flop-women/8409683",
@@ -2436,7 +2436,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-09T20:56:35.627956+00:00",
-      "last_seen": "2026-08-10T02:36:25.278635+00:00"
+      "last_seen": "2026-08-10T04:17:09.593829+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2508,7 +2508,7 @@
       "review_count": 82,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 63523,
+      "krw_effective": 63434,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -2532,7 +2532,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-08T13:29:46.850868+00:00",
-      "last_seen": "2026-08-08T23:49:08.946889+00:00"
+      "last_seen": "2026-08-10T04:17:09.593829+00:00"
     },
     {
       "source": "dealnews",
@@ -2581,7 +2581,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-09T22:51:46.863024+00:00",
-      "last_seen": "2026-08-10T02:36:25.278635+00:00"
+      "last_seen": "2026-08-10T04:17:09.593829+00:00"
     },
     {
       "source": "dealnews",
@@ -2630,7 +2630,56 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-09T20:56:35.627956+00:00",
-      "last_seen": "2026-08-10T02:36:25.278635+00:00"
+      "last_seen": "2026-08-10T04:17:09.593829+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-84-off-free-shipping/21980509.html?iref=rss",
+      "title": "lululemon We Made Too Much Event: Up to 84% off + free shipping",
+      "brand": "Lululemon",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1784834214-1783326378-lululemon-logo-red-white-esqq.jpeg?h=125&w=125",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-84-off-free-shipping/21980509.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-08-10T04:16:52.597141+00:00",
+      "last_seen": "2026-08-10T04:17:09.593829+00:00"
     },
     {
       "source": "dealnews",
@@ -2679,56 +2728,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-09T19:02:17.813740+00:00",
-      "last_seen": "2026-08-10T02:36:25.278635+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-84-off-free-shipping/21980509.html?iref=rss",
-      "title": "lululemon We Made Too Much Event: Up to 84% off + free shipping",
-      "brand": "Lululemon",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1784834214-1783326378-lululemon-logo-red-white-esqq.jpeg?h=125&w=125",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-84-off-free-shipping/21980509.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-08-10T02:36:08.238269+00:00",
-      "last_seen": "2026-08-10T02:36:25.278635+00:00"
+      "last_seen": "2026-08-10T04:17:09.593829+00:00"
     },
     {
       "source": "techbargains:under armour",
@@ -2776,8 +2776,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-10T02:36:08.399991+00:00",
-      "last_seen": "2026-08-10T02:36:25.278635+00:00"
+      "detected_at": "2026-08-10T04:16:52.740823+00:00",
+      "last_seen": "2026-08-10T04:17:09.593829+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -2825,8 +2825,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-10T02:36:08.418884+00:00",
-      "last_seen": "2026-08-10T02:36:25.278635+00:00"
+      "detected_at": "2026-08-10T04:16:52.759762+00:00",
+      "last_seen": "2026-08-10T04:17:09.593829+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -2874,8 +2874,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-10T02:36:08.424159+00:00",
-      "last_seen": "2026-08-10T02:36:25.278635+00:00"
+      "detected_at": "2026-08-10T04:16:52.764979+00:00",
+      "last_seen": "2026-08-10T04:17:09.593829+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2924,7 +2924,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-09T11:46:33.447821+00:00",
-      "last_seen": "2026-08-10T02:36:25.278635+00:00"
+      "last_seen": "2026-08-10T04:17:09.593829+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2973,7 +2973,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-08T14:50:43.395477+00:00",
-      "last_seen": "2026-08-10T02:36:25.278635+00:00"
+      "last_seen": "2026-08-10T04:17:09.593829+00:00"
     },
     {
       "source": "dealnews",
