@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-13T22:06:22.538180+00:00",
-  "count": 58,
+  "generated_at": "2026-08-13T23:04:52.212319+00:00",
+  "count": 59,
   "deals": [
     {
       "source": "nordstromrack.com",
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-08-09T20:56:35.627956+00:00",
-      "last_seen": "2026-08-13T22:05:06.344975+00:00"
+      "last_seen": "2026-08-13T23:04:51.415158+00:00"
     },
     {
       "source": "6pm.com",
@@ -189,7 +189,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-13T22:04:48.779270+00:00",
-      "last_seen": "2026-08-13T22:05:06.344975+00:00"
+      "last_seen": "2026-08-13T23:04:51.415158+00:00"
     },
     {
       "source": "6pm.com",
@@ -284,7 +284,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-09T20:56:35.627956+00:00",
-      "last_seen": "2026-08-13T22:05:06.344975+00:00"
+      "last_seen": "2026-08-13T23:04:51.415158+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -675,13 +675,13 @@
       "price_current": 13.5,
       "price_list": 27.0,
       "price_baseline": null,
-      "price_alltime_low": null,
+      "price_alltime_low": 13.5,
       "currency": "USD",
       "coupon_code": "WONIOTYC",
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 81,
+      "community_votes": 84,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -700,18 +700,17 @@
       "score": 75,
       "score_breakdown": {
         "discount_depth": 18,
-        "price_history": null,
+        "price_history": 25,
         "category": 5,
         "bonus": 0,
         "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
         "code_deal": "공개코드 WONIOTYC → 하한 75"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-10T22:37:21.263370+00:00",
-      "last_seen": "2026-08-13T22:04:34.545712+00:00"
+      "last_seen": "2026-08-13T23:04:13.316770+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -730,7 +729,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 15,
+      "community_votes": 14,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -760,7 +759,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-13T22:04:17.236680+00:00",
-      "last_seen": "2026-08-13T22:04:34.545712+00:00"
+      "last_seen": "2026-08-13T23:04:13.316770+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -809,7 +808,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-13T22:04:17.236680+00:00",
-      "last_seen": "2026-08-13T22:04:34.545712+00:00"
+      "last_seen": "2026-08-13T23:04:13.316770+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -858,7 +857,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-13T22:04:17.236680+00:00",
-      "last_seen": "2026-08-13T22:04:34.545712+00:00"
+      "last_seen": "2026-08-13T23:04:13.316770+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1198,7 +1197,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-13T22:04:48.779270+00:00",
-      "last_seen": "2026-08-13T22:05:06.344975+00:00"
+      "last_seen": "2026-08-13T23:04:51.415158+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1390,7 +1389,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-13T22:04:48.779270+00:00",
-      "last_seen": "2026-08-13T22:05:06.344975+00:00"
+      "last_seen": "2026-08-13T23:04:51.415158+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/steve-madden-latches-bootie-women/8686157",
+      "title": "Latches Bootie",
+      "brand": "Steve Madden",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/137bba6e-25c0-41ce-b2aa-62c0d440e23e.jpeg?h=368&w=240&dpr=2",
+      "price_current": 53.98,
+      "price_list": 179.95,
+      "price_baseline": 179.95,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 76477,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/steve-madden-latches-bootie-women/8686157",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-08-13T23:04:33.613101+00:00",
+      "last_seen": "2026-08-13T23:04:51.415158+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -1443,55 +1490,6 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
-      "url": "https://www.dealnews.com/Nike-Shoes-Sale-at-JCPenney-Up-to-40-off-free-shipping-w-49/22019537.html?iref=rss",
-      "title": "Nike Shoes Sale at JCPenney: Up to 40% off + free shipping w/ $49",
-      "brand": "Nike",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1786654900-product-trimmed.avif?h=125&w=125",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Nike-Shoes-Sale-at-JCPenney-Up-to-40-off-free-shipping-w-49/22019537.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-08-13T22:04:48.595995+00:00",
-      "last_seen": "2026-08-13T22:05:06.344975+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
       "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22018304.html?iref=rss",
       "title": "lululemon We Made Too Much Event: Up to 78% off + free shipping",
       "brand": "Lululemon",
@@ -1535,18 +1533,18 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-13T22:04:48.597701+00:00",
-      "last_seen": "2026-08-13T22:05:06.344975+00:00"
+      "detected_at": "2026-08-13T23:04:33.281307+00:00",
+      "last_seen": "2026-08-13T23:04:51.415158+00:00"
     },
     {
       "source": "dealnews",
       "source_tier": "T2",
-      "url": "https://www.dealnews.com/Nike-Mens-C1-TY-Premium-Cordura-Shoes-for-68-free-shipping/22019501.html?iref=rss",
-      "title": "Nike Men's C1TY Premium Cordura Shoes for $68 + free shipping",
+      "url": "https://www.dealnews.com/Nike-Mens-Womens-Le-Bron-Witness-9-Basketball-Shoes-for-48-free-shipping-w-50/22019616.html?iref=rss",
+      "title": "Nike Men's / Women's LeBron Witness 9 Basketball Shoes for $48 + free shipping w/ $50",
       "brand": "Nike",
       "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1786653746-nike_c1ty_prm.jpeg?h=125&w=100",
-      "price_current": 68.0,
+      "image": "https://d.dlnws.com/64599/1786659447-product-trimmed.png?h=65&w=125",
+      "price_current": 48.0,
       "price_list": null,
       "price_baseline": null,
       "price_alltime_low": null,
@@ -1560,7 +1558,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 96340,
+      "krw_effective": 68005,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -1569,7 +1567,7 @@
       "frontpage": false,
       "code_kind": "",
       "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Nike-Mens-C1-TY-Premium-Cordura-Shoes-for-68-free-shipping/22019501.html?iref=rss",
+      "buy_url": "https://www.dealnews.com/Nike-Mens-Womens-Le-Bron-Witness-9-Basketball-Shoes-for-48-free-shipping-w-50/22019616.html?iref=rss",
       "discount_pct": null,
       "score": 55,
       "score_breakdown": {
@@ -1584,8 +1582,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-13T21:05:02.136187+00:00",
-      "last_seen": "2026-08-13T22:05:06.344975+00:00"
+      "detected_at": "2026-08-13T23:04:33.613101+00:00",
+      "last_seen": "2026-08-13T23:04:51.415158+00:00"
     },
     {
       "source": "dealnews",
@@ -1634,16 +1632,16 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-13T06:03:40.440765+00:00",
-      "last_seen": "2026-08-13T22:05:06.344975+00:00"
+      "last_seen": "2026-08-13T23:04:51.415158+00:00"
     },
     {
-      "source": "techbargains:nike",
+      "source": "dealnews",
       "source_tier": "T2",
-      "url": "https://www.nike.com/w/back-to-school-sale-2083c",
-      "title": "Nike Back to School Sale: 25% off Select Shoes and Sneakers",
+      "url": "https://www.dealnews.com/Nike-Shoes-Sale-at-JCPenney-Up-to-40-off-free-shipping-w-49/22019537.html?iref=rss",
+      "title": "Nike Shoes Sale at JCPenney: Up to 40% off + free shipping w/ $49",
       "brand": "Nike",
-      "category": "premium_fashion",
-      "image": "https://www.techbargains.com/imagery/deals/117324.1786653129.fit_lim.size_125x125.png",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1786654900-product-trimmed.avif?h=125&w=125",
       "price_current": null,
       "price_list": null,
       "price_baseline": null,
@@ -1667,13 +1665,13 @@
       "frontpage": false,
       "code_kind": "",
       "brand_tier": "known",
-      "buy_url": "https://www.nike.com/w/back-to-school-sale-2083c",
+      "buy_url": "https://www.dealnews.com/Nike-Shoes-Sale-at-JCPenney-Up-to-40-off-free-shipping-w-49/22019537.html?iref=rss",
       "discount_pct": null,
       "score": 55,
       "score_breakdown": {
         "discount_depth": 0,
         "price_history": null,
-        "category": 20,
+        "category": 17,
         "bonus": 0,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
@@ -1682,8 +1680,57 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-13T22:04:48.678083+00:00",
-      "last_seen": "2026-08-13T22:05:06.344975+00:00"
+      "detected_at": "2026-08-13T23:04:33.296195+00:00",
+      "last_seen": "2026-08-13T23:04:51.415158+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Nike-Mens-C1-TY-Premium-Cordura-Shoes-for-68-free-shipping/22019501.html?iref=rss",
+      "title": "Nike Men's C1TY Premium Cordura Shoes for $68 + free shipping",
+      "brand": "Nike",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1786653746-nike_c1ty_prm.jpeg?h=125&w=100",
+      "price_current": 68.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 96340,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Nike-Mens-C1-TY-Premium-Cordura-Shoes-for-68-free-shipping/22019501.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-08-13T21:05:02.136187+00:00",
+      "last_seen": "2026-08-13T23:04:51.415158+00:00"
     },
     {
       "source": "dealnews",
