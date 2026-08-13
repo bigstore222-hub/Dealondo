@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T11:24:59.585388+00:00",
+  "generated_at": "2026-08-13T12:29:51.246203+00:00",
   "count": 60,
   "deals": [
     {
@@ -94,7 +94,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-08-07T00:36:46.618208+00:00",
-      "last_seen": "2026-08-13T11:24:56.706926+00:00"
+      "last_seen": "2026-08-13T12:29:49.947029+00:00"
     },
     {
       "source": "6pm.com",
@@ -237,7 +237,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-06T13:13:29.693812+00:00",
-      "last_seen": "2026-08-13T11:24:56.706926+00:00"
+      "last_seen": "2026-08-13T12:29:49.947029+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1007,7 +1007,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-13T11:24:39.735877+00:00",
-      "last_seen": "2026-08-13T11:24:56.706926+00:00"
+      "last_seen": "2026-08-13T12:29:49.947029+00:00"
     },
     {
       "source": "6pm.com",
@@ -1103,7 +1103,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-10T23:52:16.858353+00:00",
-      "last_seen": "2026-08-13T11:24:56.706926+00:00"
+      "last_seen": "2026-08-13T12:29:49.947029+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1343,7 +1343,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-10T21:03:37.548860+00:00",
-      "last_seen": "2026-08-13T11:24:56.706926+00:00"
+      "last_seen": "2026-08-13T12:29:49.947029+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1535,8 +1535,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-13T11:24:39.492204+00:00",
-      "last_seen": "2026-08-13T11:24:56.706926+00:00"
+      "detected_at": "2026-08-13T12:29:27.626935+00:00",
+      "last_seen": "2026-08-13T12:29:49.947029+00:00"
     },
     {
       "source": "dealnews",
@@ -1585,7 +1585,56 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-13T06:03:40.440765+00:00",
-      "last_seen": "2026-08-13T11:24:56.706926+00:00"
+      "last_seen": "2026-08-13T12:29:49.947029+00:00"
+    },
+    {
+      "source": "techbargains:woot!",
+      "source_tier": "T2",
+      "url": "https://sport.woot.com/plus/denim-days-jeans-shop",
+      "title": "Woot! Denim Sale: Up to 90% off Amazon Essentials, Wrangler, Levi's and More",
+      "brand": "Levi's",
+      "category": "premium_fashion",
+      "image": "https://www.techbargains.com/imagery/deals/206319.1786533692.fit_lim.size_125x125.jpg",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://sport.woot.com/plus/denim-days-jeans-shop",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-08-13T12:29:28.878542+00:00",
+      "last_seen": "2026-08-13T12:29:49.947029+00:00"
     },
     {
       "source": "techbargains:nike",
@@ -1634,55 +1683,6 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-13T11:24:39.651972+00:00",
-      "last_seen": "2026-08-13T11:24:56.706926+00:00"
-    },
-    {
-      "source": "techbargains:woot!",
-      "source_tier": "T2",
-      "url": "https://sport.woot.com/plus/denim-days-jeans-shop",
-      "title": "Woot! Denim Sale: Up to 90% off Amazon Essentials, Wrangler, Levi's and More",
-      "brand": "Levi's",
-      "category": "premium_fashion",
-      "image": "https://www.techbargains.com/imagery/deals/206319.1786533692.fit_lim.size_125x125.jpg",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://sport.woot.com/plus/denim-days-jeans-shop",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-08-13T11:24:39.732056+00:00",
       "last_seen": "2026-08-13T11:24:56.706926+00:00"
     },
     {
