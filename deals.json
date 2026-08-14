@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-14T22:42:44.884643+00:00",
-  "count": 71,
+  "generated_at": "2026-08-14T23:12:37.558286+00:00",
+  "count": 69,
   "deals": [
     {
       "source": "nordstromrack.com",
@@ -855,7 +855,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-14T18:28:48.787789+00:00",
-      "last_seen": "2026-08-14T22:42:12.466487+00:00"
+      "last_seen": "2026-08-14T23:12:35.521568+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -904,7 +904,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-14T22:12:31.607057+00:00",
-      "last_seen": "2026-08-14T22:42:12.466487+00:00"
+      "last_seen": "2026-08-14T23:12:35.521568+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1343,54 +1343,6 @@
       "urgency": "HOT",
       "detected_at": "2026-08-10T23:52:16.858353+00:00",
       "last_seen": "2026-08-13T21:05:19.448082+00:00"
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/kate-spade-new-york-lock-key-charm-belt/8949170",
-      "title": "lock & key charm belt",
-      "brand": "Kate Spade New York",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/2bedd977-fddc-4d97-a675-22b16096a521.jpeg?h=368&w=240&dpr=2",
-      "price_current": 19.48,
-      "price_list": 78.0,
-      "price_baseline": 78.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 27523,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/kate-spade-new-york-lock-key-charm-belt/8949170",
-      "discount_pct": 75.0,
-      "score": 71,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-08-12T23:03:17.842730+00:00",
-      "last_seen": "2026-08-12T23:03:43.022721+00:00"
     },
     {
       "source": "6pm.com",
@@ -3397,55 +3349,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-08-12T23:03:17.842730+00:00",
       "last_seen": "2026-08-13T00:00:29.472998+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Calvin-Klein-Ck950-Rush-Ck951-32-x-5-Area-Rug-for-56-free-shipping/22013204.html?iref=rss",
-      "title": "Calvin Klein Ck950 Rush Ck951 3'2\" x 5' Area Rug for $56 + free shipping",
-      "brand": "Calvin Klein",
-      "category": "premium_fashion",
-      "image": "https://d.dlnws.com/64599/1786570123-22119278_fpx.jpeg?h=125&w=103",
-      "price_current": 56.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 79121,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Calvin-Klein-Ck950-Rush-Ck951-32-x-5-Area-Rug-for-56-free-shipping/22013204.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-08-12T22:03:57.770507+00:00",
-      "last_seen": "2026-08-12T23:03:43.022721+00:00"
     }
   ]
 }
