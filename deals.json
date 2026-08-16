@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T10:16:06.950240+00:00",
+  "generated_at": "2026-08-16T10:43:30.374637+00:00",
   "count": 78,
   "deals": [
     {
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-08-10T16:13:04.418653+00:00",
-      "last_seen": "2026-08-16T08:19:31.838231+00:00"
+      "last_seen": "2026-08-16T10:43:30.360711+00:00"
     },
     {
       "source": "6pm.com",
@@ -567,7 +567,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-10T21:03:37.548860+00:00",
-      "last_seen": "2026-08-16T09:45:53.462420+00:00"
+      "last_seen": "2026-08-16T10:42:16.037479+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -709,7 +709,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-08T13:29:46.850868+00:00",
-      "last_seen": "2026-08-16T09:45:53.462420+00:00"
+      "last_seen": "2026-08-16T10:42:16.037479+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -804,7 +804,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-15T17:14:09.882780+00:00",
-      "last_seen": "2026-08-16T08:19:31.838231+00:00"
+      "last_seen": "2026-08-16T10:43:30.360711+00:00"
     },
     {
       "source": "6pm.com",
@@ -1915,7 +1915,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-16T03:14:13.443657+00:00",
-      "last_seen": "2026-08-16T09:45:53.462420+00:00"
+      "last_seen": "2026-08-16T10:42:16.037479+00:00"
+    },
+    {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/astroai-s8-mini-portable-car-battery-jump-starter/786366.htm",
+      "title": "AstroAI S8 1500A 3-Mode 12V Car Battery Jump Starter (6L Gas, 3L Diesel Engine)",
+      "brand": "Diesel",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/81gV80XHY+L._AC_AA200_.jpg",
+      "price_current": 19.34,
+      "price_list": 59.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 27363,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealsofamerica.com/astroai-s8-mini-portable-car-battery-jump-starter/786366.htm",
+      "discount_pct": 67.8,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-08-16T10:41:58.722254+00:00",
+      "last_seen": "2026-08-16T10:42:16.037479+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2155,7 +2203,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-16T07:11:20.236996+00:00",
-      "last_seen": "2026-08-16T09:45:53.462420+00:00"
+      "last_seen": "2026-08-16T10:42:16.037479+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2203,7 +2251,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-16T02:16:18.379180+00:00",
-      "last_seen": "2026-08-16T09:45:53.462420+00:00"
+      "last_seen": "2026-08-16T10:42:16.037479+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2251,7 +2299,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-16T04:39:44.461776+00:00",
-      "last_seen": "2026-08-16T09:45:53.462420+00:00"
+      "last_seen": "2026-08-16T10:42:16.037479+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2348,7 +2396,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-16T09:45:36.912273+00:00",
-      "last_seen": "2026-08-16T09:45:53.462420+00:00"
+      "last_seen": "2026-08-16T10:42:16.037479+00:00"
     },
     {
       "source": "dealnews",
@@ -2396,57 +2444,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-16T09:45:36.683779+00:00",
-      "last_seen": "2026-08-16T09:45:53.462420+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22018304.html?iref=rss",
-      "title": "lululemon We Made Too Much Event: Up to 78% off + free shipping",
-      "brand": "Lululemon",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1786607603-1784834214-1783326378-lululemon-logo-red-white-esqq.jpeg?h=125&w=125",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22018304.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-08-16T09:45:36.700682+00:00",
-      "last_seen": "2026-08-16T09:45:53.462420+00:00"
+      "detected_at": "2026-08-16T10:41:58.529966+00:00",
+      "last_seen": "2026-08-16T10:42:16.037479+00:00"
     },
     {
       "source": "techbargains:nike",
@@ -2494,8 +2493,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-16T09:45:36.810774+00:00",
-      "last_seen": "2026-08-16T09:45:53.462420+00:00"
+      "detected_at": "2026-08-16T10:41:58.623178+00:00",
+      "last_seen": "2026-08-16T10:42:16.037479+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2544,7 +2543,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-15T16:13:26.503683+00:00",
-      "last_seen": "2026-08-16T09:45:53.462420+00:00"
+      "last_seen": "2026-08-16T10:42:16.037479+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2593,6 +2592,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-14T20:46:57.335949+00:00",
+      "last_seen": "2026-08-16T10:42:16.037479+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22018304.html?iref=rss",
+      "title": "lululemon We Made Too Much Event: Up to 78% off + free shipping",
+      "brand": "Lululemon",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1786607603-1784834214-1783326378-lululemon-logo-red-white-esqq.jpeg?h=125&w=125",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22018304.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-08-16T09:45:36.700682+00:00",
       "last_seen": "2026-08-16T09:45:53.462420+00:00"
     },
     {
@@ -3721,55 +3769,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-08-14T11:24:36.416402+00:00",
       "last_seen": "2026-08-14T11:24:56.831253+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Jan-Sport-Right-Pack-Sleek-Backpack-for-20-free-shipping-w-Prime/22024648.html?iref=rss",
-      "title": "JanSport Right Pack Sleek Backpack for $20 + free shipping w/ Prime",
-      "brand": "Jansport",
-      "category": "watch_misc",
-      "image": "https://d.dlnws.com/64599/1786695566-product-trimmed.jpg?h=125&w=79",
-      "price_current": 20.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 28368,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Jan-Sport-Right-Pack-Sleek-Backpack-for-20-free-shipping-w-Prime/22024648.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 10,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-08-14T08:39:10.050821+00:00",
-      "last_seen": "2026-08-14T10:38:46.547484+00:00"
     }
   ]
 }
