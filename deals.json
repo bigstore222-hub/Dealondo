@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T14:13:16.875864+00:00",
+  "generated_at": "2026-08-16T14:41:11.154998+00:00",
   "count": 74,
   "deals": [
     {
@@ -520,7 +520,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-10T21:03:37.548860+00:00",
-      "last_seen": "2026-08-16T13:46:25.041238+00:00"
+      "last_seen": "2026-08-16T14:41:11.010173+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -615,7 +615,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-08T13:29:46.850868+00:00",
-      "last_seen": "2026-08-16T13:46:25.041238+00:00"
+      "last_seen": "2026-08-16T14:41:11.010173+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -969,7 +969,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 25,
+      "community_votes": 31,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -999,7 +999,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-16T11:11:13.582527+00:00",
-      "last_seen": "2026-08-16T14:13:16.868852+00:00"
+      "last_seen": "2026-08-16T14:40:39.649864+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1822,7 +1822,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-16T03:14:13.443657+00:00",
-      "last_seen": "2026-08-16T13:46:25.041238+00:00"
+      "last_seen": "2026-08-16T14:41:11.010173+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -1870,7 +1870,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-16T10:41:58.722254+00:00",
-      "last_seen": "2026-08-16T13:46:25.041238+00:00"
+      "last_seen": "2026-08-16T14:41:11.010173+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2110,7 +2110,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-16T02:16:18.379180+00:00",
-      "last_seen": "2026-08-16T13:46:25.041238+00:00"
+      "last_seen": "2026-08-16T14:41:11.010173+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2158,7 +2158,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-16T04:39:44.461776+00:00",
-      "last_seen": "2026-08-16T13:46:25.041238+00:00"
+      "last_seen": "2026-08-16T14:41:11.010173+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2259,6 +2259,55 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
+      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22018304.html?iref=rss",
+      "title": "lululemon We Made Too Much Event: Up to 78% off + free shipping",
+      "brand": "Lululemon",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1786607603-1784834214-1783326378-lululemon-logo-red-white-esqq.jpeg?h=125&w=125",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22018304.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-08-16T14:40:48.702498+00:00",
+      "last_seen": "2026-08-16T14:41:11.010173+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
       "url": "https://www.dealnews.com/Jan-Sport-Backpack-Deals-at-Amazon-for-From-21-free-shipping-w-Prime/22038630.html?iref=rss",
       "title": "JanSport Backpack Deals at Amazon for From $21 + free shipping w/ Prime",
       "brand": "Jansport",
@@ -2303,105 +2352,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-16T09:45:36.912273+00:00",
-      "last_seen": "2026-08-16T13:46:25.041238+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22018304.html?iref=rss",
-      "title": "lululemon We Made Too Much Event: Up to 78% off + free shipping",
-      "brand": "Lululemon",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1786607603-1784834214-1783326378-lululemon-logo-red-white-esqq.jpeg?h=125&w=125",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22018304.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-08-16T13:46:02.152130+00:00",
-      "last_seen": "2026-08-16T13:46:25.041238+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Patagonia-Mens-Down-Insulation-Past-Season-Deals-Up-to-50-off-free-shipping-w-99/21985465.html?iref=rss",
-      "title": "Patagonia Men's Down Insulation Past-Season Deals: Up to 50% off + free shipping w/ $99",
-      "brand": "Patagonia",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1786116894-product-trimmed.jpg?h=99&w=125",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/Patagonia-Mens-Down-Insulation-Past-Season-Deals-Up-to-50-off-free-shipping-w-99/21985465.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-08-16T13:46:02.154441+00:00",
-      "last_seen": "2026-08-16T13:46:25.041238+00:00"
+      "last_seen": "2026-08-16T14:41:11.010173+00:00"
     },
     {
       "source": "techbargains:nike",
@@ -2449,8 +2400,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-16T13:46:02.367816+00:00",
-      "last_seen": "2026-08-16T13:46:25.041238+00:00"
+      "detected_at": "2026-08-16T14:40:48.814982+00:00",
+      "last_seen": "2026-08-16T14:41:11.010173+00:00"
     },
     {
       "source": "techbargains:adidas",
@@ -2498,8 +2449,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-16T13:46:02.371358+00:00",
-      "last_seen": "2026-08-16T13:46:25.041238+00:00"
+      "detected_at": "2026-08-16T14:40:48.818649+00:00",
+      "last_seen": "2026-08-16T14:41:11.010173+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2548,7 +2499,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-15T16:13:26.503683+00:00",
-      "last_seen": "2026-08-16T13:46:25.041238+00:00"
+      "last_seen": "2026-08-16T14:41:11.010173+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2597,6 +2548,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-14T20:46:57.335949+00:00",
+      "last_seen": "2026-08-16T14:41:11.010173+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Patagonia-Mens-Down-Insulation-Past-Season-Deals-Up-to-50-off-free-shipping-w-99/21985465.html?iref=rss",
+      "title": "Patagonia Men's Down Insulation Past-Season Deals: Up to 50% off + free shipping w/ $99",
+      "brand": "Patagonia",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1786116894-product-trimmed.jpg?h=99&w=125",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/Patagonia-Mens-Down-Insulation-Past-Season-Deals-Up-to-50-off-free-shipping-w-99/21985465.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-08-16T13:46:02.154441+00:00",
       "last_seen": "2026-08-16T13:46:25.041238+00:00"
     },
     {
