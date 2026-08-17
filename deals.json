@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T22:14:54.884089+00:00",
+  "generated_at": "2026-08-17T22:44:18.045052+00:00",
   "count": 59,
   "deals": [
     {
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-08-10T16:13:04.418653+00:00",
-      "last_seen": "2026-08-17T20:17:04.105154+00:00"
+      "last_seen": "2026-08-17T22:44:18.030568+00:00"
     },
     {
       "source": "6pm.com",
@@ -282,7 +282,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-08-13T19:28:19.799787+00:00",
-      "last_seen": "2026-08-17T20:17:04.105154+00:00"
+      "last_seen": "2026-08-17T22:44:18.030568+00:00"
     },
     {
       "source": "6pm.com",
@@ -332,10 +332,10 @@
       "last_seen": "2026-08-17T13:26:08.771192+00:00"
     },
     {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10017229",
-      "title": "Floral Crinkle Georgette Tiered Skirt",
+      "source": "6pm.com",
+      "source_tier": "T3",
+      "url": "https://www.6pm.com/product/10017229",
+      "title": "Floral Crinkle Georgette Tiered Skirt  (외 1종)",
       "brand": "Lauren Ralph Lauren",
       "category": "premium_fashion",
       "image": "https://m.media-amazon.com/images/I/71nXPZrZJ-L._AC_SR255,340_.jpg",
@@ -362,7 +362,7 @@
       "frontpage": false,
       "code_kind": "",
       "brand_tier": "premium",
-      "buy_url": "https://www.zappos.com/product/10017229",
+      "buy_url": "https://www.6pm.com/product/10017229",
       "discount_pct": 80.0,
       "score": 83,
       "score_breakdown": {
@@ -376,8 +376,9 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-08-17T16:16:15.671999+00:00",
-      "last_seen": "2026-08-17T22:14:54.657459+00:00"
+      "detected_at": "2026-08-15T17:14:09.882780+00:00",
+      "last_seen": "2026-08-17T22:44:18.030568+00:00",
+      "variant_count": 2
     },
     {
       "source": "zappos.com",
@@ -855,7 +856,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-17T22:13:59.463947+00:00",
-      "last_seen": "2026-08-17T22:14:21.987738+00:00"
+      "last_seen": "2026-08-17T22:42:59.000994+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -904,7 +905,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-17T22:13:59.463947+00:00",
-      "last_seen": "2026-08-17T22:14:21.987738+00:00"
+      "last_seen": "2026-08-17T22:42:59.000994+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -953,7 +954,56 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-17T21:16:54.988466+00:00",
-      "last_seen": "2026-08-17T22:14:21.987738+00:00"
+      "last_seen": "2026-08-17T22:42:59.000994+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/19890636-2-piece-casly-lamiit-women-s-cap-sleeve-top-tennis-skort-set-various-9-99-free-shipping-w-prime-or-on-35",
+      "title": "2-Piece Casly Lamiit Women's Cap Sleeve Top & Tennis Skort Set (Various) $9.99 + Free Shipping w/ Prime or on $35+",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/3/1/7/1/9/9/0/1/300x300/21310593.thumb",
+      "price_current": 35.0,
+      "price_list": 70.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "8YHIML46",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 0,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 49528,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/19890636-2-piece-casly-lamiit-women-s-cap-sleeve-top-tennis-skort-set-various-9-99-free-shipping-w-prime-or-on-35",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 8YHIML46 → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-08-17T22:42:40.852181+00:00",
+      "last_seen": "2026-08-17T22:42:59.000994+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1003,55 +1053,6 @@
       "urgency": "HOT",
       "detected_at": "2026-08-17T21:16:54.988466+00:00",
       "last_seen": "2026-08-17T22:14:21.987738+00:00"
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/19872111-aokown-dog-winter-coat-w-fleece-lining-reflective-strip-size-xs-l-various-colors-9-99-free-shipping-w-prime-or-on-35",
-      "title": "AOKOWN Dog Winter Coat w/ Fleece Lining & Reflective Strip $10",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/3/1/7/1/9/9/0/1/300x300/21266214.thumb",
-      "price_current": 10.0,
-      "price_list": 20.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "Q67DMZXA",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 20,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 14151,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/19872111-aokown-dog-winter-coat-w-fleece-lining-reflective-strip-size-xs-l-various-colors-9-99-free-shipping-w-prime-or-on-35",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 Q67DMZXA → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-08-17T20:14:58.435377+00:00",
-      "last_seen": "2026-08-17T21:43:31.270612+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
