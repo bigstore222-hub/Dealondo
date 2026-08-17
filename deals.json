@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-17T13:26:08.781721+00:00",
-  "count": 52,
+  "generated_at": "2026-08-17T14:04:44.136570+00:00",
+  "count": 53,
   "deals": [
     {
       "source": "6pm.com",
@@ -1723,7 +1723,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-09T20:56:35.627956+00:00",
-      "last_seen": "2026-08-17T13:24:49.280039+00:00"
+      "last_seen": "2026-08-17T14:04:42.849380+00:00"
     },
     {
       "source": "dealnews",
@@ -1772,7 +1772,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-17T13:24:31.293774+00:00",
-      "last_seen": "2026-08-17T13:24:49.280039+00:00",
+      "last_seen": "2026-08-17T14:04:42.849380+00:00",
       "variant_count": 2
     },
     {
@@ -1822,7 +1822,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-16T18:48:27.932934+00:00",
-      "last_seen": "2026-08-17T13:24:49.280039+00:00"
+      "last_seen": "2026-08-17T14:04:42.849380+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -1871,7 +1871,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-15T16:13:26.503683+00:00",
-      "last_seen": "2026-08-17T13:24:49.280039+00:00"
+      "last_seen": "2026-08-17T14:04:42.849380+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -1920,7 +1920,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-14T20:46:57.335949+00:00",
-      "last_seen": "2026-08-17T13:24:49.280039+00:00"
+      "last_seen": "2026-08-17T14:04:42.849380+00:00"
     },
     {
       "source": "techbargains:nike",
@@ -2509,6 +2509,54 @@
       "urgency": "STEADY",
       "detected_at": "2026-08-16T03:14:13.215151+00:00",
       "last_seen": "2026-08-16T03:14:34.652900+00:00"
+    },
+    {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/jansport-adjustable-compact-backpack/841681.htm",
+      "title": "JanSport 10L Adjustable Compact Backpack (Black)",
+      "brand": "Jansport",
+      "category": "watch_misc",
+      "image": "https://d16f00g4zitf8i.cloudfront.net/images/jansport-adjustable-compact-backpack.jpg",
+      "price_current": 19.99,
+      "price_list": 55.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 28288,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealsofamerica.com/jansport-adjustable-compact-backpack/841681.htm",
+      "discount_pct": 63.7,
+      "score": 53,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 10,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-08-17T14:04:22.500514+00:00",
+      "last_seen": "2026-08-17T14:04:42.849380+00:00"
     }
   ]
 }
