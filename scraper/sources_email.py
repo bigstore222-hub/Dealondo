@@ -98,7 +98,7 @@ _EXTRA = re.compile(r"(?:extra|additional|추가)\s*(\d{1,2})\s*%", re.I)
 _UPTO = re.compile(r"up\s*to\s*(\d{1,2})\s*%", re.I)
 _ANYPCT = re.compile(r"(\d{1,2})\s*%\s*(?:off|할인)", re.I)
 _CODE = re.compile(r"\b(?:code|promo\s*code|coupon)\s*:?\s*([A-Z0-9]{4,15})\b")
-_PRICE_PAIR = re.compile(r"\$\s?([\d,]+(?:\.\d{2})?)\s*(?:->|→|from)\s*\$\s?([\d,]+(?:\.\d{2})?)", re.I)
+_PRICE_PAIR = re.compile(r"\$\s?([\d,]+(?:\.\d+)?)\s*(?:->|→|from)\s*\$\s?([\d,]+(?:\.\d+)?)", re.I)
 
 
 def _decode(s) -> str:

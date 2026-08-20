@@ -137,7 +137,7 @@ def parse_doa_item(title: str, link: str, desc: str = "") -> Deal:
         coupon_code = best.code
         code_kind = best.kind
         # 본문에 최종가가 "= $24.96" 형태로 명시되면 그걸 최우선으로 쓴다.
-        mfin = re.search(r'=\s*\$\s?(\d{1,4}(?:\.\d{2})?)', text)
+        mfin = re.search(r'=\s*\$\s?(\d{1,4}(?:\.\d+)?)', text)
         if mfin:
             coded = _f(mfin.group(1))
             if price_list is None and price_current:
@@ -167,8 +167,8 @@ def parse_doa_item(title: str, link: str, desc: str = "") -> Deal:
 # 1-B. DealNews — 공개 RSS (todays-edition). DoA 보완 애그리게이터.
 # ---------------------------------------------------------------------------
 DEALNEWS_RSS = "https://www.dealnews.com/rss/todays-edition/"
-_DN_FOR = re.compile(r'\b(?:for|now|just|only)\s+\$([\d,]+(?:\.\d{2})?)', re.I)
-_DN_FROM = re.compile(r'\bfrom\s+\$([\d,]+(?:\.\d{2})?)', re.I)
+_DN_FOR = re.compile(r'\b(?:for|now|just|only)\s+\$([\d,]+(?:\.\d+)?)', re.I)
+_DN_FROM = re.compile(r'\bfrom\s+\$([\d,]+(?:\.\d+)?)', re.I)
 _DN_IMG = re.compile(r"src=['\"](https?://[^'\"]+?\.(?:avif|jpg|jpeg|png|webp)[^'\"]*)['\"]", re.I)
 _DN_TITLEATTR = re.compile(r'title=["\']([^"\']{20,})["\']')
 
@@ -208,7 +208,7 @@ def parse_dealnews_item(title: str, link: str, desc: str) -> Deal:
     best = _pc.best(codes, shareable_only=True)
     if best:
         coupon_code, code_kind = best.code, best.kind
-        mfin = re.search(r'=\s*\$\s?(\d{1,4}(?:\.\d{2})?)', text)
+        mfin = re.search(r'=\s*\$\s?(\d{1,4}(?:\.\d+)?)', text)
         if mfin:
             if price_list is None and price_current:
                 price_list = price_current
@@ -293,7 +293,7 @@ def parse_techbargains_item(title, link, desc, vendor, category, imagelink) -> D
         if mf:
             price_current = _f(mf.group(1))
         else:
-            ms = re.findall(r'\$([\d,]+(?:\.\d{2})?)', title)
+            ms = re.findall(r'\$([\d,]+(?:\.\d+)?)', title)
             if ms:
                 price_current = _f(ms[-1])
     if price_list is None:
@@ -397,8 +397,8 @@ DOA_PAGE_CATEGORY = {
 _DOA_TITLE = re.compile(
     r'<div class="title">\s*<a href="(' + re.escape(DOA_BASE) +
     r'/[^"]+?\.htm)"[^>]*>([^<]+)</a>', re.S)
-_DOA_OUR = re.compile(r'class="our-price">\s*\$?([\d,]+(?:\.\d{2})?)')
-_DOA_LIST = re.compile(r'class="list-price">\s*\$?([\d,]+(?:\.\d{2})?)')
+_DOA_OUR = re.compile(r'class="our-price">\s*\$?([\d,]+(?:\.\d+)?)')
+_DOA_LIST = re.compile(r'class="list-price">\s*\$?([\d,]+(?:\.\d+)?)')
 _DOA_IMG = re.compile(r'<img src="([^"]+)"[^>]*alt="[^"]*[Dd]eals?[^"]*"')
 # 상세페이지의 할인율 뱃지와 설명(코드 추출용)
 _DOA_HOT = re.compile(r'class="hot-deal">\*{0,2}\s*(\d{1,3})\s*%\s*off', re.I)
@@ -499,7 +499,7 @@ def fetch_dealsofamerica(limit: int = 600, enrich_top: int = 10,
         if best:
             r["coupon_code"] = best.code
             r["code_kind"] = best.kind
-            mfin = re.search(r'=\s*\$\s?(\d{1,4}(?:\.\d{2})?)', desc)
+            mfin = re.search(r'=\s*\$\s?(\d{1,4}(?:\.\d+)?)', desc)
             if mfin:
                 if not r["price_list"]:
                     r["price_list"] = r["price_current"]
@@ -537,7 +537,11 @@ SLICKDEALS_FEEDS = [
 _SD_RETAILER = re.compile(r'<description>\s*https?://(?:www\.|m\.)?([^/<\s]+)', re.I)
 _SD_THUMB = re.compile(r'Thumb Score:\s*([+\-]?\d+)')
 _SD_IMG = re.compile(r'<img[^>]+src="([^"]+)"')
-_SD_PRICE = re.compile(r'\$([\d,]+(?:\.\d{2})?)')
+# 소수점 자릿수를 \.\d{2}(정확히 2자리)로 고정했더니 커뮤니티가 캐주얼하게
+# 적은 "$37.5" 같은 1자리 가격에서 소수부가 통째로 날아가 $37로 잘렸다
+# (실측: "...Carl's Jr Gift Cards $37.5" → 현재가 37, 정가 역산 49.33로
+#  둘 다 틀어짐 — 실제로는 37.5/0.75=$50). \.\d+로 자릿수 제한을 풀어 고친다.
+_SD_PRICE = re.compile(r'\$([\d,]+(?:\.\d+)?)')
 
 
 def parse_slickdeals_item(title: str, link: str, desc: str, content: str,
@@ -680,7 +684,7 @@ def _proximity_parser(html: str, site) -> list[dict]:
     # $현재가 + $정가(취소선) 인접 패턴
     pat = re.compile(
         r'href="(?P<href>/[^"]{10,150})"[^>]*>(?P<txt>[^<]{5,120})<.{0,400}?'
-        r'\$(?P<cur>[\d,]+(?:\.\d{2})?)\D{0,80}?\$(?P<was>[\d,]+(?:\.\d{2})?)',
+        r'\$(?P<cur>[\d,]+(?:\.\d+)?)\D{0,80}?\$(?P<was>[\d,]+(?:\.\d+)?)',
         re.S)
     for m in pat.finditer(html):
         try:

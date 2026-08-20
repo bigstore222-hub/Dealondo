@@ -45,6 +45,29 @@ def _num(s) -> float | None:
         return None
 
 
+def _sanitize_brand(raw: str) -> str:
+    """페이지에 적힌 brand 텍스트를 그대로 신뢰하지 않는다.
+
+    이 파일의 5개 전략(JSON-LD/semantic/searchspring/class/card)은 페이지
+    마크업에 있는 brand 필드를 그대로 가져오는데, 마켓플레이스형 사이트
+    (특히 아마존 제3자 셀러)는 이 필드에 'Hybrid' 같은 무의미한 제조사
+    등록명이 실제로 들어있어 그대로 노출하면 브랜드처럼 오인된다
+    (parsers.py/sources.py가 첫 단어 폴백을 금지한 것과 동일한 문제,
+    실측: 'Hybrid Active Noise Cancelling Bluetooth 6.0 Headphones...').
+
+    brands.py 사전에 매칭되는 것만 인정하고, 나머지는 버려 호출부의
+    site.name 폴백(아래 parse())으로 넘긴다."""
+    raw = (raw or "").strip()
+    if not raw:
+        return ""
+    try:
+        import brands as _b
+        tier, canon = _b.lookup(raw)
+        return canon if tier != "unknown" else ""
+    except Exception:
+        return raw
+
+
 # ---------------------------------------------------------------------------
 # 전략 1 — JSON-LD (schema.org)
 # ---------------------------------------------------------------------------
@@ -170,8 +193,8 @@ _SS_BLOCK = re.compile(
     r'(?P<body>.{0,900}?)</a>', re.S)
 _SS_BRAND = re.compile(r'ss__result__brand[^>]*>([^<]{1,60})<')
 _SS_NAME = re.compile(r'ss__result__name[^>]*>([^<]{3,140})<')
-_SS_PRICE = re.compile(r'ss__result__price[^>]*>\s*\$?\s*([\d,]+(?:\.\d{2})?)')
-_SS_MSRP = re.compile(r'ss__result__msrp[^>]*>\s*\$?\s*([\d,]+(?:\.\d{2})?)')
+_SS_PRICE = re.compile(r'ss__result__price[^>]*>\s*\$?\s*([\d,]+(?:\.\d+)?)')
+_SS_MSRP = re.compile(r'ss__result__msrp[^>]*>\s*\$?\s*([\d,]+(?:\.\d+)?)')
 
 
 def from_searchspring(html: str, base_url: str) -> list[dict]:
@@ -225,17 +248,17 @@ _CS_BRAND = re.compile(r'class="[^"]*(?:product[-_]?brand|brand[-_]?name)[^"]*"[
 # 정가: old / was / regular / compare / list / msrp
 _CS_OLD = re.compile(
     r'class="[^"]*(?:old|was|regular|compare|list|msrp|original|strike)[^"]*price[^"]*"[^>]*>'
-    r'[^\d<]{0,6}([\d,]+(?:\.\d{2})?)', re.I)
+    r'[^\d<]{0,6}([\d,]+(?:\.\d+)?)', re.I)
 _CS_OLD2 = re.compile(
     r'class="[^"]*price[^"]*(?:old|was|regular|compare|list|msrp|original|strike)[^"]*"[^>]*>'
-    r'[^\d<]{0,6}([\d,]+(?:\.\d{2})?)', re.I)
+    r'[^\d<]{0,6}([\d,]+(?:\.\d+)?)', re.I)
 # 판매가: new / sale / final / special / current
 _CS_NEW = re.compile(
     r'class="[^"]*(?:new|sale|final|special|current|now)[^"]*price[^"]*"[^>]*>'
-    r'[^\d<]{0,6}([\d,]+(?:\.\d{2})?)', re.I)
+    r'[^\d<]{0,6}([\d,]+(?:\.\d+)?)', re.I)
 _CS_NEW2 = re.compile(
     r'class="[^"]*price[^"]*(?:new|sale|final|special|current|now)[^"]*"[^>]*>'
-    r'[^\d<]{0,6}([\d,]+(?:\.\d{2})?)', re.I)
+    r'[^\d<]{0,6}([\d,]+(?:\.\d+)?)', re.I)
 _CS_IMG = re.compile(r'<img[^>]+(?:data-)?src="(https?://[^"]{10,300})"')
 _CS_ALT = re.compile(r'alt="([^"]{5,140})"')
 
@@ -250,9 +273,9 @@ _CS_ALT = re.compile(r'alt="([^"]{5,140})"')
 _DT = r'data-test[-_]?(?:id)?="[^"]*'
 _CS_DT_NAME = re.compile(_DT + r'(?:name|title)[^"]*"[^>]*>\s*([^<]{4,140})', re.I)
 _CS_DT_FULL = re.compile(_DT + r'(?:full|was|regular|original|list|msrp)price[^"]*"[^>]*>'
-                         r'[^\d<]{0,6}([\d,]+(?:\.\d{2})?)', re.I)
+                         r'[^\d<]{0,6}([\d,]+(?:\.\d+)?)', re.I)
 _CS_DT_FINAL = re.compile(_DT + r'(?:final|sale|current|now|discount)price[^"]*"[^>]*>'
-                          r'[^\d<]{0,6}([\d,]+(?:\.\d{2})?)', re.I)
+                          r'[^\d<]{0,6}([\d,]+(?:\.\d+)?)', re.I)
 _CS_DT_BRAND = re.compile(_DT + r'brand[^"]*"[^>]*>\s*([^<]{2,60})', re.I)
 
 
@@ -309,8 +332,8 @@ _CARD_OPEN = re.compile(
 _A_HREF = re.compile(r'href="(?P<h>[^"#]{4,200})"')
 _IMG = re.compile(r'<img[^>]+src="(?P<s>https?://[^"]{10,300})"')
 _PRICE_TAG = re.compile(
-    r'class="[^"]*price[^"]*"[^>]*>\s*[^\d<]{0,8}([\d,]+(?:\.\d{2})?)', re.I)
-_ANY_PRICE = re.compile(r'[\$€£]\s?([\d,]+(?:\.\d{2})?)')
+    r'class="[^"]*price[^"]*"[^>]*>\s*[^\d<]{0,8}([\d,]+(?:\.\d+)?)', re.I)
+_ANY_PRICE = re.compile(r'[\$€£]\s?([\d,]+(?:\.\d+)?)')
 
 
 def from_card_blocks(html: str, base_url: str) -> list[dict]:
@@ -401,6 +424,7 @@ def parse(html: str, site, debug: bool = False) -> list[dict]:
 
     for r in best_rows:
         r.setdefault("price_baseline", r.get("price_list"))
+        r["brand"] = _sanitize_brand(r.get("brand"))
         if not r.get("brand"):
             r["brand"] = site.name
     if debug and best_rows:

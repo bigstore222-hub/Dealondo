@@ -65,7 +65,7 @@ _NR_CARD = re.compile(
     r'<article[^>]*>(?P<card>.{0,3000}?)</article>', re.S)
 _NR_LINK = re.compile(r'href="(?P<href>/s/[^"?]+)')
 _NR_TITLE = re.compile(r'alt="(?P<title>[^"]{4,120})"')
-_NR_PRICES = re.compile(r'\$(?P<a>[\d,]+(?:\.\d{2})?)')
+_NR_PRICES = re.compile(r'\$(?P<a>[\d,]+(?:\.\d+)?)')
 _NR_IMG = re.compile(r'<img[^>]+src="(?P<img>https://n\.nordstrommedia\.com/[^"]+)"')
 
 
