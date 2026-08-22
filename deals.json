@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-22T22:56:30.667454+00:00",
-  "count": 50,
+  "generated_at": "2026-08-22T23:13:43.659195+00:00",
+  "count": 51,
   "deals": [
     {
       "source": "zappos.com",
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-08-17T16:16:15.671999+00:00",
-      "last_seen": "2026-08-22T22:40:37.741842+00:00"
+      "last_seen": "2026-08-22T23:13:42.514267+00:00"
     },
     {
       "source": "6pm.com",
@@ -329,54 +329,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-08-16T02:16:18.379180+00:00",
-      "last_seen": "2026-08-22T22:40:37.741842+00:00"
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/kate-spade-new-york-lock-key-charm-belt/8949170",
-      "title": "lock & key charm belt",
-      "brand": "Kate Spade New York",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/2bedd977-fddc-4d97-a675-22b16096a521.jpeg?h=368&w=240&dpr=2",
-      "price_current": 19.48,
-      "price_list": 78.0,
-      "price_baseline": 78.0,
-      "price_alltime_low": 19.48,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 26994,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/kate-spade-new-york-lock-key-charm-belt/8949170",
-      "discount_pct": 75.0,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-08-12T23:03:17.842730+00:00",
-      "last_seen": "2026-08-22T16:43:17.578133+00:00"
+      "last_seen": "2026-08-22T23:13:42.514267+00:00"
     },
     {
       "source": "6pm.com",
@@ -612,7 +565,56 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-16T15:53:59.547998+00:00",
-      "last_seen": "2026-08-22T22:40:37.741842+00:00"
+      "last_seen": "2026-08-22T23:13:42.514267+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/19907517-nike-women-s-nike-terra-mantra-shoes-pink-white-sizes-5-10-29-98-free-shipping-75",
+      "title": "Nike Women's Terra Mantra Shoes (Limited Sizes, Pink/White) $30 + Free S&H on $70+",
+      "brand": "Nike",
+      "category": "sports_outdoor",
+      "image": "https://static.slickdealscdn.com/attachment/5/7/4/5/9/6/3/300x300/21352902.thumb",
+      "price_current": 70.0,
+      "price_list": 140.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "AUTOMATICALLY",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 21,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 97002,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/19907517-nike-women-s-nike-terra-mantra-shoes-pink-white-sizes-5-10-29-98-free-shipping-75",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 AUTOMATICALLY → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-08-22T23:12:49.751766+00:00",
+      "last_seen": "2026-08-22T23:13:08.895231+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1002,7 +1004,55 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-22T05:44:02.283545+00:00",
-      "last_seen": "2026-08-22T22:40:37.741842+00:00"
+      "last_seen": "2026-08-22T23:13:42.514267+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/marc-jacobs-quilted-nylon-shoulder-bag/8644832",
+      "title": "Quilted Nylon Shoulder Bag",
+      "brand": "Marc Jacobs",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/54d0c045-ddce-401e-8b9c-c0a01ca9f6e1.jpeg?h=368&w=240&dpr=2",
+      "price_current": 76.96,
+      "price_list": 225.0,
+      "price_baseline": 225.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 106647,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.nordstromrack.com/s/marc-jacobs-quilted-nylon-shoulder-bag/8644832",
+      "discount_pct": 65.8,
+      "score": 71,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-08-22T23:13:24.522454+00:00",
+      "last_seen": "2026-08-22T23:13:42.514267+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -1050,7 +1100,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-22T15:13:08.202737+00:00",
-      "last_seen": "2026-08-22T22:40:37.741842+00:00"
+      "last_seen": "2026-08-22T23:13:42.514267+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1338,7 +1388,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-22T20:12:30.452983+00:00",
-      "last_seen": "2026-08-22T22:40:37.741842+00:00"
+      "last_seen": "2026-08-22T23:13:42.514267+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1434,8 +1484,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-22T22:40:13.977469+00:00",
-      "last_seen": "2026-08-22T22:40:37.741842+00:00"
+      "detected_at": "2026-08-22T23:13:24.203269+00:00",
+      "last_seen": "2026-08-22T23:13:42.514267+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -1483,8 +1533,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-22T22:40:14.140183+00:00",
-      "last_seen": "2026-08-22T22:40:37.741842+00:00"
+      "detected_at": "2026-08-22T23:13:24.435895+00:00",
+      "last_seen": "2026-08-22T23:13:42.514267+00:00"
     },
     {
       "source": "techbargains:adidas",
@@ -1532,8 +1582,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-22T22:40:14.146936+00:00",
-      "last_seen": "2026-08-22T22:40:37.741842+00:00"
+      "detected_at": "2026-08-22T23:13:24.442505+00:00",
+      "last_seen": "2026-08-22T23:13:42.514267+00:00"
     },
     {
       "source": "techbargains:adidas",
@@ -1581,7 +1631,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-14T19:33:33.724729+00:00",
-      "last_seen": "2026-08-22T22:40:37.741842+00:00"
+      "last_seen": "2026-08-22T23:13:42.514267+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -1630,7 +1680,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-22T14:40:08.248322+00:00",
-      "last_seen": "2026-08-22T22:40:37.741842+00:00"
+      "last_seen": "2026-08-22T23:13:42.514267+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -1679,7 +1729,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-22T11:36:31.109779+00:00",
-      "last_seen": "2026-08-22T22:40:37.741842+00:00"
+      "last_seen": "2026-08-22T23:13:42.514267+00:00"
     },
     {
       "source": "dealnews",
@@ -2412,7 +2462,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-15T22:55:54.258037+00:00",
-      "last_seen": "2026-08-22T22:40:37.741842+00:00"
+      "last_seen": "2026-08-22T23:13:42.514267+00:00"
     }
   ]
 }
