@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-22T19:52:09.241625+00:00",
-  "count": 52,
+  "generated_at": "2026-08-22T20:12:53.576569+00:00",
+  "count": 53,
   "deals": [
     {
       "source": "zappos.com",
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-08-17T16:16:15.671999+00:00",
-      "last_seen": "2026-08-22T19:38:22.398029+00:00"
+      "last_seen": "2026-08-22T20:12:53.102322+00:00"
     },
     {
       "source": "6pm.com",
@@ -329,7 +329,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-08-16T02:16:18.379180+00:00",
-      "last_seen": "2026-08-22T19:38:22.398029+00:00"
+      "last_seen": "2026-08-22T20:12:53.102322+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -612,7 +612,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-16T15:53:59.547998+00:00",
-      "last_seen": "2026-08-22T19:38:22.398029+00:00"
+      "last_seen": "2026-08-22T20:12:53.102322+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1002,7 +1002,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-22T05:44:02.283545+00:00",
-      "last_seen": "2026-08-22T19:38:22.398029+00:00"
+      "last_seen": "2026-08-22T20:12:53.102322+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -1050,7 +1050,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-22T15:13:08.202737+00:00",
-      "last_seen": "2026-08-22T19:38:22.398029+00:00"
+      "last_seen": "2026-08-22T20:12:53.102322+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1295,6 +1295,54 @@
     {
       "source": "nordstromrack.com",
       "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/valentino-51mm-polarized-cat-eye-sunglasses/8704352",
+      "title": "51mm Polarized Cat Eye Sunglasses",
+      "brand": "Valentino",
+      "category": "watch_misc",
+      "image": "https://n.nordstrommedia.com/it/ad788304-b982-4c99-93ed-b8f7c67326c2.jpeg?h=368&w=240&dpr=2",
+      "price_current": 137.48,
+      "price_list": 680.0,
+      "price_baseline": 680.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 190512,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.nordstromrack.com/s/valentino-51mm-polarized-cat-eye-sunglasses/8704352",
+      "discount_pct": 79.8,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 10,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-08-22T20:12:30.452983+00:00",
+      "last_seen": "2026-08-22T20:12:53.102322+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/marc-jacobs-the-marc-heart-espadrille-flat-women/9059452",
       "title": "The Marc Heart Espadrille Flat",
       "brand": "Marc Jacobs",
@@ -1339,6 +1387,55 @@
       "urgency": "STEADY",
       "detected_at": "2026-08-20T17:50:18.276417+00:00",
       "last_seen": "2026-08-21T07:09:34.319012+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22064684.html?iref=rss",
+      "title": "lululemon We Made Too Much Event: Up to 78% off + free shipping",
+      "brand": "Lululemon",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1786607603-1784834214-1783326378-lululemon-logo-red-white-esqq.jpeg?h=125&w=125",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22064684.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-08-22T20:12:30.247401+00:00",
+      "last_seen": "2026-08-22T20:12:53.102322+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -1386,14 +1483,14 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-22T19:37:59.302651+00:00",
-      "last_seen": "2026-08-22T19:38:22.398029+00:00"
+      "detected_at": "2026-08-22T20:12:30.366790+00:00",
+      "last_seen": "2026-08-22T20:12:53.102322+00:00"
     },
     {
       "source": "techbargains:adidas",
       "source_tier": "T2",
       "url": "https://www.adidas.com/us/sale",
-      "title": "Adidas Summer Sale: Up to 40% off + Extra 15% off Select Clothing, Shoes, More  (외 1종)",
+      "title": "Adidas Summer Sale: Up to 40% off + Extra 15% off Select Clothing, Shoes, More",
       "brand": "Adidas",
       "category": "premium_fashion",
       "image": "https://www.techbargains.com/imagery/deals/6829.1787408030.fit_lim.size_125x125.png",
@@ -1435,9 +1532,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-22T19:37:59.308996+00:00",
-      "last_seen": "2026-08-22T19:38:22.398029+00:00",
-      "variant_count": 2
+      "detected_at": "2026-08-22T20:12:30.373353+00:00",
+      "last_seen": "2026-08-22T20:12:53.102322+00:00"
     },
     {
       "source": "techbargains:adidas",
@@ -1485,7 +1581,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-14T19:33:33.724729+00:00",
-      "last_seen": "2026-08-22T19:38:22.398029+00:00"
+      "last_seen": "2026-08-22T20:12:53.102322+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -1534,7 +1630,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-22T14:40:08.248322+00:00",
-      "last_seen": "2026-08-22T19:38:22.398029+00:00"
+      "last_seen": "2026-08-22T20:12:53.102322+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -1583,7 +1679,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-22T11:36:31.109779+00:00",
-      "last_seen": "2026-08-22T19:38:22.398029+00:00"
+      "last_seen": "2026-08-22T20:12:53.102322+00:00"
     },
     {
       "source": "dealnews",
@@ -1632,55 +1728,6 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-22T18:50:43.441166+00:00",
-      "last_seen": "2026-08-22T18:51:02.891041+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22064684.html?iref=rss",
-      "title": "lululemon We Made Too Much Event: Up to 78% off + free shipping",
-      "brand": "Lululemon",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1786607603-1784834214-1783326378-lululemon-logo-red-white-esqq.jpeg?h=125&w=125",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22064684.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-08-22T18:50:43.454142+00:00",
       "last_seen": "2026-08-22T18:51:02.891041+00:00"
     },
     {
@@ -2512,7 +2559,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-15T22:55:54.258037+00:00",
-      "last_seen": "2026-08-22T19:38:22.398029+00:00"
+      "last_seen": "2026-08-22T20:12:53.102322+00:00"
     }
   ]
 }
