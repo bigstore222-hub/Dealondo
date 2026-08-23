@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T08:18:16.616963+00:00",
+  "generated_at": "2026-08-23T08:52:14.163741+00:00",
   "count": 51,
   "deals": [
     {
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-08-17T16:16:15.671999+00:00",
-      "last_seen": "2026-08-23T07:50:29.030196+00:00"
+      "last_seen": "2026-08-23T08:52:13.146124+00:00"
     },
     {
       "source": "6pm.com",
@@ -377,7 +377,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-08-16T02:16:18.379180+00:00",
-      "last_seen": "2026-08-23T07:50:29.030196+00:00"
+      "last_seen": "2026-08-23T08:52:13.146124+00:00"
     },
     {
       "source": "6pm.com",
@@ -613,7 +613,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-16T15:53:59.547998+00:00",
-      "last_seen": "2026-08-23T07:50:29.030196+00:00"
+      "last_seen": "2026-08-23T08:52:13.146124+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1004,7 +1004,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-22T05:44:02.283545+00:00",
-      "last_seen": "2026-08-23T07:50:29.030196+00:00"
+      "last_seen": "2026-08-23T08:52:13.146124+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -1052,7 +1052,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-22T15:13:08.202737+00:00",
-      "last_seen": "2026-08-23T07:50:29.030196+00:00"
+      "last_seen": "2026-08-23T08:52:13.146124+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1292,7 +1292,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-23T07:18:20.388169+00:00",
-      "last_seen": "2026-08-23T07:50:29.030196+00:00"
+      "last_seen": "2026-08-23T08:52:13.146124+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1484,7 +1484,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-23T07:18:20.388169+00:00",
-      "last_seen": "2026-08-23T07:50:29.030196+00:00"
+      "last_seen": "2026-08-23T08:52:13.146124+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1532,7 +1532,105 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-22T20:12:30.452983+00:00",
-      "last_seen": "2026-08-23T07:50:29.030196+00:00"
+      "last_seen": "2026-08-23T08:52:13.146124+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/New-Balance-Mens-237-Sneakers-for-from-37-free-shipping/22081805.html?iref=rss",
+      "title": "New Balance Men's 237 Sneakers for from $37 + free shipping",
+      "brand": "New Balance",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1787472540-71-azdqwnjl.jpg?h=71&w=125",
+      "price_current": 37.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 51227,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/New-Balance-Mens-237-Sneakers-for-from-37-free-shipping/22081805.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-08-23T08:51:52.365415+00:00",
+      "last_seen": "2026-08-23T08:52:13.146124+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22064684.html?iref=rss",
+      "title": "lululemon We Made Too Much Event: Up to 78% off + free shipping",
+      "brand": "Lululemon",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1786607603-1784834214-1783326378-lululemon-logo-red-white-esqq.jpeg?h=125&w=125",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22064684.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-08-23T08:51:52.165468+00:00",
+      "last_seen": "2026-08-23T08:52:13.146124+00:00"
     },
     {
       "source": "dealnews",
@@ -1580,8 +1678,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-23T07:50:11.200640+00:00",
-      "last_seen": "2026-08-23T07:50:29.030196+00:00",
+      "detected_at": "2026-08-23T08:51:52.166768+00:00",
+      "last_seen": "2026-08-23T08:52:13.146124+00:00",
       "variant_count": 2
     },
     {
@@ -1630,8 +1728,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-23T07:50:11.284157+00:00",
-      "last_seen": "2026-08-23T07:50:29.030196+00:00"
+      "detected_at": "2026-08-23T08:51:52.274692+00:00",
+      "last_seen": "2026-08-23T08:52:13.146124+00:00"
     },
     {
       "source": "techbargains:adidas",
@@ -1679,7 +1777,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-14T19:33:33.724729+00:00",
-      "last_seen": "2026-08-23T07:50:29.030196+00:00"
+      "last_seen": "2026-08-23T08:52:13.146124+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -1728,7 +1826,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-22T14:40:08.248322+00:00",
-      "last_seen": "2026-08-23T07:50:29.030196+00:00"
+      "last_seen": "2026-08-23T08:52:13.146124+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -1777,56 +1875,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-22T11:36:31.109779+00:00",
-      "last_seen": "2026-08-23T07:50:29.030196+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22064684.html?iref=rss",
-      "title": "lululemon We Made Too Much Event: Up to 78% off + free shipping",
-      "brand": "Lululemon",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1786607603-1784834214-1783326378-lululemon-logo-red-white-esqq.jpeg?h=125&w=125",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22064684.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-08-23T07:18:20.115597+00:00",
-      "last_seen": "2026-08-23T07:18:40.196502+00:00"
+      "last_seen": "2026-08-23T08:52:13.146124+00:00"
     },
     {
       "source": "dealnews",
@@ -2368,55 +2417,6 @@
       "last_seen": "2026-08-21T09:18:54.901492+00:00"
     },
     {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Coach-Station-Suede-Leather-Tote-Bag-for-189-free-shipping/22065636.html?iref=rss",
-      "title": "Coach Station Suede & Leather Tote Bag for $189 + free shipping",
-      "brand": "Coach",
-      "category": "premium_fashion",
-      "image": "https://d.dlnws.com/64599/1787266405-cew20_imwbr_a0.webp?h=87&w=125",
-      "price_current": 189.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 263600,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/Coach-Station-Suede-Leather-Tote-Bag-for-189-free-shipping/22065636.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-08-20T23:42:39.704132+00:00",
-      "last_seen": "2026-08-21T08:39:01.996419+00:00"
-    },
-    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/new-balance-rc42-sneaker-women/7714150",
@@ -2461,7 +2461,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-15T22:55:54.258037+00:00",
-      "last_seen": "2026-08-23T07:50:29.030196+00:00"
+      "last_seen": "2026-08-23T08:52:13.146124+00:00"
     }
   ]
 }
