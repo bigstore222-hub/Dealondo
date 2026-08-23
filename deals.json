@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T21:37:15.170598+00:00",
+  "generated_at": "2026-08-23T21:54:23.770819+00:00",
   "count": 52,
   "deals": [
     {
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-08-17T16:16:15.671999+00:00",
-      "last_seen": "2026-08-23T21:13:05.233848+00:00"
+      "last_seen": "2026-08-23T21:54:23.204161+00:00"
     },
     {
       "source": "6pm.com",
@@ -282,7 +282,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-08-14T23:37:44.945254+00:00",
-      "last_seen": "2026-08-23T21:13:05.233848+00:00"
+      "last_seen": "2026-08-23T21:54:23.204161+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -329,7 +329,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-08-16T02:16:18.379180+00:00",
-      "last_seen": "2026-08-23T21:13:05.233848+00:00"
+      "last_seen": "2026-08-23T21:54:23.204161+00:00"
     },
     {
       "source": "6pm.com",
@@ -565,7 +565,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-16T15:53:59.547998+00:00",
-      "last_seen": "2026-08-23T21:13:05.233848+00:00"
+      "last_seen": "2026-08-23T21:54:23.204161+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -614,7 +614,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-23T18:49:01.508258+00:00",
-      "last_seen": "2026-08-23T21:37:15.160261+00:00"
+      "last_seen": "2026-08-23T21:53:51.142069+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -907,7 +907,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-22T15:13:08.202737+00:00",
-      "last_seen": "2026-08-23T21:13:05.233848+00:00"
+      "last_seen": "2026-08-23T21:54:23.204161+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1339,7 +1339,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-23T11:36:17.650269+00:00",
-      "last_seen": "2026-08-23T20:12:08.906131+00:00"
+      "last_seen": "2026-08-23T21:54:23.204161+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1387,7 +1387,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-23T11:36:17.650269+00:00",
-      "last_seen": "2026-08-23T20:12:08.906131+00:00"
+      "last_seen": "2026-08-23T21:54:23.204161+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1771,7 +1771,56 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-23T11:36:17.650269+00:00",
-      "last_seen": "2026-08-23T21:13:05.233848+00:00"
+      "last_seen": "2026-08-23T21:54:23.204161+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/adidas-Mens-or-Womens-CLOT-Mundial-by-Edison-Chen-Leather-Trainers-for-77-free-shipping/22082461.html?iref=rss",
+      "title": "adidas Men's or Women's CLOT Mundial by Edison Chen Leather Trainers for $77 + free shipping",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1787519929-clot_mundial_by_edison_chen_trainers_black_jq6823_hm51.jpg?h=125&w=125",
+      "price_current": 77.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 106608,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/adidas-Mens-or-Womens-CLOT-Mundial-by-Edison-Chen-Leather-Trainers-for-77-free-shipping/22082461.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-08-23T21:54:00.502609+00:00",
+      "last_seen": "2026-08-23T21:54:23.204161+00:00"
     },
     {
       "source": "dealnews",
@@ -1820,7 +1869,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-23T21:12:46.106569+00:00",
-      "last_seen": "2026-08-23T21:13:05.233848+00:00"
+      "last_seen": "2026-08-23T21:54:23.204161+00:00"
     },
     {
       "source": "dealnews",
@@ -1869,7 +1918,56 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-23T19:37:23.025005+00:00",
-      "last_seen": "2026-08-23T21:13:05.233848+00:00"
+      "last_seen": "2026-08-23T21:54:23.204161+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22064684.html?iref=rss",
+      "title": "lululemon We Made Too Much Event: Up to 78% off + free shipping",
+      "brand": "Lululemon",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1786607603-1784834214-1783326378-lululemon-logo-red-white-esqq.jpeg?h=125&w=125",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22064684.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-08-23T21:54:00.304532+00:00",
+      "last_seen": "2026-08-23T21:54:23.204161+00:00"
     },
     {
       "source": "dealnews",
@@ -1918,7 +2016,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-23T18:15:26.339990+00:00",
-      "last_seen": "2026-08-23T21:13:05.233848+00:00",
+      "last_seen": "2026-08-23T21:54:23.204161+00:00",
       "variant_count": 2
     },
     {
@@ -1967,106 +2065,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-23T21:12:45.733602+00:00",
-      "last_seen": "2026-08-23T21:13:05.233848+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22064684.html?iref=rss",
-      "title": "lululemon We Made Too Much Event: Up to 78% off + free shipping",
-      "brand": "Lululemon",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1786607603-1784834214-1783326378-lululemon-logo-red-white-esqq.jpeg?h=125&w=125",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22064684.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-08-23T21:12:45.733968+00:00",
-      "last_seen": "2026-08-23T21:13:05.233848+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/adidas-Outlet-Sale-at-eBay-Up-to-60-off-extra-50-off-free-shipping/22082278.html?iref=rss",
-      "title": "adidas Outlet Sale at eBay: Up to 60% off + extra 50% off + free shipping",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1787505165-product-trimmed.jpg?h=111&w=125",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/adidas-Outlet-Sale-at-eBay-Up-to-60-off-extra-50-off-free-shipping/22082278.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-08-23T21:12:45.742833+00:00",
-      "last_seen": "2026-08-23T21:13:05.233848+00:00"
+      "detected_at": "2026-08-23T21:54:00.305369+00:00",
+      "last_seen": "2026-08-23T21:54:23.204161+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -2114,8 +2114,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-23T21:12:46.021958+00:00",
-      "last_seen": "2026-08-23T21:13:05.233848+00:00"
+      "detected_at": "2026-08-23T21:54:00.419091+00:00",
+      "last_seen": "2026-08-23T21:54:23.204161+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2164,7 +2164,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-22T14:40:08.248322+00:00",
-      "last_seen": "2026-08-23T21:13:05.233848+00:00"
+      "last_seen": "2026-08-23T21:54:23.204161+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2213,7 +2213,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-22T11:36:31.109779+00:00",
-      "last_seen": "2026-08-23T21:13:05.233848+00:00"
+      "last_seen": "2026-08-23T21:54:23.204161+00:00"
     },
     {
       "source": "dealnews",
@@ -2505,7 +2505,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-15T22:55:54.258037+00:00",
-      "last_seen": "2026-08-23T21:13:05.233848+00:00"
+      "last_seen": "2026-08-23T21:54:23.204161+00:00"
     }
   ]
 }
