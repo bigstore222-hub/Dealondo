@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T18:15:50.473221+00:00",
-  "count": 51,
+  "generated_at": "2026-08-23T18:51:07.282608+00:00",
+  "count": 52,
   "deals": [
     {
       "source": "zappos.com",
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-08-17T16:16:15.671999+00:00",
-      "last_seen": "2026-08-23T18:15:49.906044+00:00"
+      "last_seen": "2026-08-23T18:49:52.780672+00:00"
     },
     {
       "source": "6pm.com",
@@ -94,7 +94,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-08-16T19:50:31.580239+00:00",
-      "last_seen": "2026-08-23T11:54:18.638430+00:00"
+      "last_seen": "2026-08-23T18:51:06.513693+00:00"
     },
     {
       "source": "6pm.com",
@@ -141,7 +141,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-08-18T17:02:21.065394+00:00",
-      "last_seen": "2026-08-23T11:54:18.638430+00:00"
+      "last_seen": "2026-08-23T18:51:06.513693+00:00"
     },
     {
       "source": "zappos.com",
@@ -282,7 +282,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-08-13T19:28:19.799787+00:00",
-      "last_seen": "2026-08-23T16:46:16.157221+00:00"
+      "last_seen": "2026-08-23T18:51:06.513693+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -329,7 +329,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-08-14T23:37:44.945254+00:00",
-      "last_seen": "2026-08-23T18:15:49.906044+00:00"
+      "last_seen": "2026-08-23T18:49:52.780672+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -376,7 +376,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-08-16T02:16:18.379180+00:00",
-      "last_seen": "2026-08-23T18:15:49.906044+00:00"
+      "last_seen": "2026-08-23T18:49:52.780672+00:00"
     },
     {
       "source": "6pm.com",
@@ -612,7 +612,56 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-16T15:53:59.547998+00:00",
-      "last_seen": "2026-08-23T18:15:49.906044+00:00"
+      "last_seen": "2026-08-23T18:49:52.780672+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/19906332-amazon-beelicious-pro-vacsense-75kpa-handheld-vacuum-sealer-30-bags-19-49-w-code",
+      "title": "Beelicious Pro VacSense 75kPa Handheld Vacuum Sealer + 30 Reusable Bags $19.50",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/1/2/4/9/0/7/0/8/300x300/21349716.thumb",
+      "price_current": 19.5,
+      "price_list": 50.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "CUI5I9Y5",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 26,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 26998,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/19906332-amazon-beelicious-pro-vacsense-75kpa-handheld-vacuum-sealer-30-bags-19-49-w-code",
+      "discount_pct": 61.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 CUI5I9Y5 → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-08-23T18:49:01.508258+00:00",
+      "last_seen": "2026-08-23T18:49:19.799783+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -862,55 +911,6 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
-      "url": "https://slickdeals.net/f/19910661-amazon-brxl-women-s-5-5-high-waisted-biker-shorts-9-99-w-code",
-      "title": "Amazon – BRXL Women's 5.5\" High-Waisted Biker Shorts $9.99 w/ Code",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/2/4/9/0/7/0/8/300x300/21359235.thumb",
-      "price_current": 9.99,
-      "price_list": 19.98,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "P8IEOFAJ",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 1,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 13844,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/19910661-amazon-brxl-women-s-5-5-high-waisted-biker-shorts-9-99-w-code",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 P8IEOFAJ → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-08-22T16:42:20.842594+00:00",
-      "last_seen": "2026-08-22T19:37:50.281220+00:00"
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
       "url": "https://slickdeals.net/f/19906401-adidas-men-s-train-essentials-feelready-training-tee-medium-grey-heather-7-50-free-shipping",
       "title": "adidas Men's Train Essentials Feelready Training Tee (Medium Grey Heather) $7.50 + Free S&H",
       "brand": "Adidas",
@@ -1003,7 +1003,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-22T15:13:08.202737+00:00",
-      "last_seen": "2026-08-23T18:15:49.906044+00:00"
+      "last_seen": "2026-08-23T18:49:52.780672+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1294,6 +1294,54 @@
       "last_seen": "2026-08-22T03:58:01.745721+00:00"
     },
     {
+      "source": "6pm.com",
+      "source_tier": "T3",
+      "url": "https://www.6pm.com/product/9932822",
+      "title": "Cushion Bondi 2 Bar",
+      "brand": "Reef",
+      "category": "sports_outdoor",
+      "image": "//www.6pm.comnull",
+      "price_current": 14.0,
+      "price_list": 70.0,
+      "price_baseline": 70.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": 4.0,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 19383,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.6pm.com/product/9932822",
+      "discount_pct": 80.0,
+      "score": 68,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 13,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-08-23T18:50:48.621607+00:00",
+      "last_seen": "2026-08-23T18:51:06.513693+00:00"
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/sam-edelman-emina-square-toe-flat-women/7937109",
@@ -1339,7 +1387,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-23T11:36:17.650269+00:00",
-      "last_seen": "2026-08-23T18:15:49.906044+00:00"
+      "last_seen": "2026-08-23T18:49:52.780672+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1387,7 +1435,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-23T11:36:17.650269+00:00",
-      "last_seen": "2026-08-23T18:15:49.906044+00:00"
+      "last_seen": "2026-08-23T18:49:52.780672+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1435,7 +1483,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-23T16:44:42.810850+00:00",
-      "last_seen": "2026-08-23T18:15:49.906044+00:00"
+      "last_seen": "2026-08-23T18:49:52.780672+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1771,7 +1819,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-23T11:36:17.650269+00:00",
-      "last_seen": "2026-08-23T18:15:49.906044+00:00"
+      "last_seen": "2026-08-23T18:49:52.780672+00:00"
     },
     {
       "source": "dealnews",
@@ -1820,7 +1868,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-23T18:15:26.339990+00:00",
-      "last_seen": "2026-08-23T18:15:49.906044+00:00",
+      "last_seen": "2026-08-23T18:49:52.780672+00:00",
       "variant_count": 2
     },
     {
@@ -1869,8 +1917,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-23T18:15:26.074000+00:00",
-      "last_seen": "2026-08-23T18:15:49.906044+00:00"
+      "detected_at": "2026-08-23T18:49:35.259342+00:00",
+      "last_seen": "2026-08-23T18:49:52.780672+00:00"
     },
     {
       "source": "dealnews",
@@ -1918,8 +1966,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-23T18:15:26.083438+00:00",
-      "last_seen": "2026-08-23T18:15:49.906044+00:00"
+      "detected_at": "2026-08-23T18:49:35.268542+00:00",
+      "last_seen": "2026-08-23T18:49:52.780672+00:00"
     },
     {
       "source": "dealnews",
@@ -1967,8 +2015,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-23T18:15:26.091527+00:00",
-      "last_seen": "2026-08-23T18:15:49.906044+00:00"
+      "detected_at": "2026-08-23T18:49:35.277082+00:00",
+      "last_seen": "2026-08-23T18:49:52.780672+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -2016,14 +2064,14 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-23T18:15:26.233182+00:00",
-      "last_seen": "2026-08-23T18:15:49.906044+00:00"
+      "detected_at": "2026-08-23T18:49:35.425982+00:00",
+      "last_seen": "2026-08-23T18:49:52.780672+00:00"
     },
     {
       "source": "techbargains:adidas",
       "source_tier": "T2",
       "url": "https://www.adidas.com/us/sale",
-      "title": "Adidas Summer Sale: Up to 40% off + Extra 15% off Select Clothing, Shoes, More  (외 1종)",
+      "title": "Adidas Summer Sale: Up to 40% off + Extra 15% off Select Clothing, Shoes, More",
       "brand": "Adidas",
       "category": "premium_fashion",
       "image": "https://www.techbargains.com/imagery/deals/6829.1787493166.fit_lim.size_125x125.png",
@@ -2065,9 +2113,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-23T18:15:26.240287+00:00",
-      "last_seen": "2026-08-23T18:15:49.906044+00:00",
-      "variant_count": 2
+      "detected_at": "2026-08-23T18:49:35.433304+00:00",
+      "last_seen": "2026-08-23T18:49:52.780672+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2116,7 +2163,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-22T14:40:08.248322+00:00",
-      "last_seen": "2026-08-23T18:15:49.906044+00:00"
+      "last_seen": "2026-08-23T18:49:52.780672+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2165,7 +2212,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-22T11:36:31.109779+00:00",
-      "last_seen": "2026-08-23T18:15:49.906044+00:00"
+      "last_seen": "2026-08-23T18:49:52.780672+00:00"
     },
     {
       "source": "dealnews",
@@ -2457,7 +2504,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-15T22:55:54.258037+00:00",
-      "last_seen": "2026-08-23T18:15:49.906044+00:00"
+      "last_seen": "2026-08-23T18:49:52.780672+00:00"
     }
   ]
 }
