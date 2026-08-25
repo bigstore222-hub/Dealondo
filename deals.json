@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-25T02:09:35.754945+00:00",
-  "count": 66,
+  "generated_at": "2026-08-25T03:14:11.444851+00:00",
+  "count": 67,
   "deals": [
     {
       "source": "zappos.com",
@@ -235,7 +235,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-08-16T02:16:18.379180+00:00",
-      "last_seen": "2026-08-25T02:08:08.901875+00:00"
+      "last_seen": "2026-08-25T03:14:08.162554+00:00"
     },
     {
       "source": "6pm.com",
@@ -334,6 +334,53 @@
       "last_seen": "2026-08-24T21:49:08.558183+00:00"
     },
     {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/vince-camuto-cosette-fringe-loafer-women/8556560",
+      "title": "Cosette Fringe Loafer",
+      "brand": "Vince Camuto",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/34315597-838d-4398-8010-0e863ef1b0f5.jpeg?h=368&w=240&dpr=2",
+      "price_current": 24.99,
+      "price_list": 119.0,
+      "price_baseline": 119.0,
+      "price_alltime_low": 24.99,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 34564,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/vince-camuto-cosette-fringe-loafer-women/8556560",
+      "discount_pct": 79.0,
+      "score": 81,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-08-19T17:27:04.209959+00:00",
+      "last_seen": "2026-08-25T03:14:08.162554+00:00"
+    },
+    {
       "source": "dealsofamerica",
       "source_tier": "T2",
       "url": "https://www.dealsofamerica.com/Apple-iPhone-12-Mini-Clear-Case-with-MagSafe/558834.htm",
@@ -378,7 +425,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-16T15:53:59.547998+00:00",
-      "last_seen": "2026-08-25T02:08:08.901875+00:00"
+      "last_seen": "2026-08-25T03:14:08.162554+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -525,7 +572,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-25T02:07:09.792644+00:00",
-      "last_seen": "2026-08-25T02:07:35.410257+00:00"
+      "last_seen": "2026-08-25T03:13:35.223981+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -574,7 +621,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-08-24T22:45:54.846051+00:00",
-      "last_seen": "2026-08-25T02:07:35.410257+00:00"
+      "last_seen": "2026-08-25T03:13:35.223981+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1633,7 +1680,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-24T15:59:51.450691+00:00",
-      "last_seen": "2026-08-25T02:08:08.901875+00:00"
+      "last_seen": "2026-08-25T03:14:08.162554+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1777,7 +1824,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-24T13:42:36.585591+00:00",
-      "last_seen": "2026-08-25T02:08:08.901875+00:00"
+      "last_seen": "2026-08-25T03:14:08.162554+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2018,56 +2065,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-25T02:07:46.066312+00:00",
-      "last_seen": "2026-08-25T02:08:08.901875+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Nike-Mens-Reax-8-TR-Workout-Shoes-for-61-free-shipping/22088928.html?iref=rss",
-      "title": "Nike Men's Reax 8 TR Workout Shoes for $61 + free shipping",
-      "brand": "Nike",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1787619378-product-trimmed.png?h=64&w=125",
-      "price_current": 61.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 84370,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Nike-Mens-Reax-8-TR-Workout-Shoes-for-61-free-shipping/22088928.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-08-25T02:07:46.066312+00:00",
-      "last_seen": "2026-08-25T02:08:08.901875+00:00"
+      "last_seen": "2026-08-25T03:14:08.162554+00:00"
     },
     {
       "source": "dealnews",
@@ -2116,7 +2114,56 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-24T10:57:32.325192+00:00",
-      "last_seen": "2026-08-25T02:08:08.901875+00:00"
+      "last_seen": "2026-08-25T03:14:08.162554+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Nike-Mens-Reax-8-TR-Workout-Shoes-for-61-free-shipping/22088928.html?iref=rss",
+      "title": "Nike Men's Reax 8 TR Workout Shoes for $61 + free shipping",
+      "brand": "Nike",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1787619378-product-trimmed.png?h=64&w=125",
+      "price_current": 61.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 84370,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Nike-Mens-Reax-8-TR-Workout-Shoes-for-61-free-shipping/22088928.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-08-25T02:07:46.066312+00:00",
+      "last_seen": "2026-08-25T03:14:08.162554+00:00"
     },
     {
       "source": "dealnews",
@@ -2165,7 +2212,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-24T22:46:28.515059+00:00",
-      "last_seen": "2026-08-25T02:08:08.901875+00:00"
+      "last_seen": "2026-08-25T03:14:08.162554+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -2213,8 +2260,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-25T02:07:45.978847+00:00",
-      "last_seen": "2026-08-25T02:08:08.901875+00:00"
+      "detected_at": "2026-08-25T03:13:46.011100+00:00",
+      "last_seen": "2026-08-25T03:14:08.162554+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -2262,8 +2309,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-25T02:07:45.982157+00:00",
-      "last_seen": "2026-08-25T02:08:08.901875+00:00"
+      "detected_at": "2026-08-25T03:13:46.014316+00:00",
+      "last_seen": "2026-08-25T03:14:08.162554+00:00"
     },
     {
       "source": "techbargains:adidas",
@@ -2311,8 +2358,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-08-25T02:07:46.003840+00:00",
-      "last_seen": "2026-08-25T02:08:08.901875+00:00"
+      "detected_at": "2026-08-25T03:13:46.035311+00:00",
+      "last_seen": "2026-08-25T03:14:08.162554+00:00"
     },
     {
       "source": "dealnews",
@@ -3192,7 +3239,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-08-15T22:55:54.258037+00:00",
-      "last_seen": "2026-08-25T02:08:08.901875+00:00"
+      "last_seen": "2026-08-25T03:14:08.162554+00:00"
     }
   ]
 }
