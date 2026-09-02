@@ -48,6 +48,23 @@ def _esc(s: str) -> str:
             .replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
 
 
+def _trunc(s: str, n: int) -> str:
+    """n자를 넘으면 자르되, 단어 중간에서 뚝 끊기지 않게 한다.
+
+    실측 버그: maxlen을 그냥 슬라이싱(title[:maxlen])했더니
+    "...Medicine Cabinet with" 43%처럼 단어가 잘려 무슨 상품인지
+    알아볼 수 없는 채로 발송됐다. 마지막 공백에서 자르고 말줄임표를
+    붙여, 잘렸다는 사실 자체는 보이게 하되 최소한 단어는 보존한다."""
+    s = (s or "").strip()
+    if len(s) <= n:
+        return s
+    cut = s[:n]
+    sp = cut.rfind(" ")
+    if sp > n * 0.6:      # 너무 짧아지지 않는 선에서만 단어 경계로 자른다
+        cut = cut[:sp]
+    return cut.rstrip(" ,.-") + "…"
+
+
 def brand_label(d, with_rest: bool = True, maxlen: int = 46) -> str:
     """
     '⭐<b>브랜드</b> 나머지제목' 형태로 브랜드를 앞세운다.
@@ -58,13 +75,13 @@ def brand_label(d, with_rest: bool = True, maxlen: int = 46) -> str:
     title = (d.title or "").strip()
     badge = TIER_BADGE.get(getattr(d, "brand_tier", ""), "")
     if not brand:
-        return _esc(title[:maxlen])
+        return _esc(_trunc(title, maxlen))
     rest = title
     if title.lower().startswith(brand.lower()):
         rest = title[len(brand):].lstrip(" -·,·").strip()
     head = f"{badge}<b>{_esc(brand)}</b>" if badge else f"<b>{_esc(brand)}</b>"
     if with_rest and rest:
-        head += f" {_esc(rest[:maxlen])}"
+        head += f" {_esc(_trunc(rest, maxlen))}"
     return head
 
 
@@ -73,7 +90,9 @@ def format_deal(d) -> str:
     lines = [f"{icon} <b>{_esc(d.urgency)}</b>  ·  {d.score}점  ·  {_esc(d.source)}"]
 
     # 브랜드를 앞세워 도드라지게(티어 배지 포함). 제목은 그 뒤에 이어붙는다.
-    lines.append(brand_label(d, with_rest=True, maxlen=90))
+    # maxlen을 상품명 최대 길이(파서 title[:120]/[:140])보다 넉넉히 잡아
+    # 실사용에서는 거의 안 잘리게 한다 — 잘려도 _trunc가 단어 경계+말줄임표로 처리.
+    lines.append(brand_label(d, with_rest=True, maxlen=150))
 
     if d.price_current is not None:
         cur = f"${d.price_current:,.2f}" if d.price_current < 100000 else f"{d.price_current:,.0f}원"
@@ -169,7 +188,11 @@ def notify_deals(deals: list, digest_threshold: int = 5) -> int:
             pct = f"{d.discount_pct:.0f}%" if d.discount_pct else "-"
             code = f" 🔥코드 {_esc(d.coupon_code)}" if getattr(d, "coupon_code", "") else ""
             # 브랜드를 앞세운 라벨을 링크로. 한눈에 브랜드·가치가 보인다.
-            label = brand_label(d, with_rest=True, maxlen=42)
+            # maxlen=42는 너무 짧아서 "...Medicine Cabinet with" 43%처럼
+            # 단어가 중간에 잘려 무슨 상품인지 알아볼 수 없었다(실측 버그).
+            # 다이제스트 15건이 한 메시지에 들어가도 텔레그램 4096자 한도에
+            # 여유가 있으므로 넉넉히 늘린다.
+            label = brand_label(d, with_rest=True, maxlen=120)
             link = getattr(d, "buy_url", "") or d.url
             body.append(f'{icon} <a href="{_esc(link)}">{label}</a>  '
                         f'{pct} · {d.score}점{code}')
