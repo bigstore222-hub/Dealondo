@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-12T20:16:41.783967+00:00",
-  "count": 62,
+  "generated_at": "2026-09-12T22:21:48.325671+00:00",
+  "count": 63,
   "deals": [
     {
       "source": "nordstromrack.com",
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-09-08T09:43:54.046561+00:00",
-      "last_seen": "2026-09-12T20:12:40.647230+00:00"
+      "last_seen": "2026-09-12T22:20:32.151174+00:00"
     },
     {
       "source": "6pm.com",
@@ -331,7 +331,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-09-12T17:58:46.386711+00:00",
-      "last_seen": "2026-09-12T20:12:40.647230+00:00"
+      "last_seen": "2026-09-12T22:20:32.151174+00:00"
     },
     {
       "source": "6pm.com",
@@ -379,7 +379,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-09-11T22:21:56.602208+00:00",
-      "last_seen": "2026-09-12T20:14:09.199638+00:00"
+      "last_seen": "2026-09-12T22:21:48.301376+00:00"
     },
     {
       "source": "6pm.com",
@@ -522,7 +522,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-09-09T14:46:42.777538+00:00",
-      "last_seen": "2026-09-12T20:11:55.510770+00:00"
+      "last_seen": "2026-09-12T22:19:58.557393+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -862,7 +862,55 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-09-07T15:25:19.250061+00:00",
-      "last_seen": "2026-09-12T20:14:09.199638+00:00"
+      "last_seen": "2026-09-12T22:21:48.301376+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10026678",
+      "title": "Chrystie Shearling Mule",
+      "brand": "Stuart Weitzman",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/71uGJRbWBXL._AC_SR255,340_.jpg",
+      "price_current": 135.0,
+      "price_list": 450.0,
+      "price_baseline": 450.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 181242,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.zappos.com/product/10026678",
+      "discount_pct": 70.0,
+      "score": 71,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-09-12T22:20:14.486113+00:00",
+      "last_seen": "2026-09-12T22:20:32.151174+00:00"
     },
     {
       "source": "zappos.com",
@@ -1102,7 +1150,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-12T18:00:10.847729+00:00",
-      "last_seen": "2026-09-12T20:14:09.199638+00:00"
+      "last_seen": "2026-09-12T22:21:48.301376+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1293,7 +1341,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-11T20:00:25.980129+00:00",
-      "last_seen": "2026-09-12T20:12:40.647230+00:00"
+      "last_seen": "2026-09-12T22:20:32.151174+00:00"
     },
     {
       "source": "zappos.com",
@@ -1677,7 +1725,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-12T08:59:48.289558+00:00",
-      "last_seen": "2026-09-12T20:12:40.647230+00:00"
+      "last_seen": "2026-09-12T22:20:32.151174+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1724,7 +1772,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-05T12:45:05.201555+00:00",
-      "last_seen": "2026-09-12T15:49:44.915407+00:00"
+      "last_seen": "2026-09-12T22:20:32.151174+00:00"
     },
     {
       "source": "dealnews",
@@ -1773,7 +1821,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-12T17:58:46.386711+00:00",
-      "last_seen": "2026-09-12T20:12:40.647230+00:00"
+      "last_seen": "2026-09-12T22:20:32.151174+00:00"
     },
     {
       "source": "dealnews",
@@ -1822,7 +1870,105 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-12T17:58:46.386711+00:00",
-      "last_seen": "2026-09-12T20:12:40.647230+00:00"
+      "last_seen": "2026-09-12T22:20:32.151174+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/adidas-Fall-Kick-Off-Sale-Up-to-40-off-extra-15-off-Free-shipping/22165811.html?iref=rss",
+      "title": "adidas Fall Kick Off Sale: Up to 40% off + extra 15% off + Free shipping",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1701448358-dn-image-6647752.png?h=84&w=125",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/adidas-Fall-Kick-Off-Sale-Up-to-40-off-extra-15-off-Free-shipping/22165811.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-09-12T22:20:14.287329+00:00",
+      "last_seen": "2026-09-12T22:20:32.151174+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Nike-Mens-Clearance-Deals-at-Dicks-Sporting-Goods-Extra-25-off-up-to-70-off-ending-today-free-shipping-w-49/22172829.html?iref=rss",
+      "title": "Nike Men's Clearance Deals at Dick's Sporting Goods: Extra 25% off, up to 70% off, ending today + free shipping w/ $49",
+      "brand": "Nike",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1789141555-24nikmfrmtcn6blkwprf_white_black_green_strike_black.webp?h=65&w=125",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Nike-Mens-Clearance-Deals-at-Dicks-Sporting-Goods-Extra-25-off-up-to-70-off-ending-today-free-shipping-w-49/22172829.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-09-12T22:20:14.302486+00:00",
+      "last_seen": "2026-09-12T22:20:32.151174+00:00"
     },
     {
       "source": "dealnews",
@@ -1871,104 +2017,6 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-12T20:12:17.960046+00:00",
-      "last_seen": "2026-09-12T20:12:40.647230+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Nike-Mens-Clearance-Deals-at-Dicks-Sporting-Goods-Extra-25-off-up-to-70-off-ending-today-free-shipping-w-49/22172829.html?iref=rss",
-      "title": "Nike Men's Clearance Deals at Dick's Sporting Goods: Extra 25% off, up to 70% off, ending today + free shipping w/ $49",
-      "brand": "Nike",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1789141555-24nikmfrmtcn6blkwprf_white_black_green_strike_black.webp?h=65&w=125",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Nike-Mens-Clearance-Deals-at-Dicks-Sporting-Goods-Extra-25-off-up-to-70-off-ending-today-free-shipping-w-49/22172829.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-09-12T20:12:17.963640+00:00",
-      "last_seen": "2026-09-12T20:12:40.647230+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/adidas-Fall-Kick-Off-Sale-Up-to-40-off-extra-15-off-Free-shipping/22165811.html?iref=rss",
-      "title": "adidas Fall Kick Off Sale: Up to 40% off + extra 15% off + Free shipping",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1701448358-dn-image-6647752.png?h=84&w=125",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/adidas-Fall-Kick-Off-Sale-Up-to-40-off-extra-15-off-Free-shipping/22165811.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-09-12T20:12:17.964120+00:00",
       "last_seen": "2026-09-12T20:12:40.647230+00:00"
     },
     {
@@ -2994,7 +3042,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-07T22:15:18.630819+00:00",
-      "last_seen": "2026-09-12T20:12:40.647230+00:00"
+      "last_seen": "2026-09-12T22:20:32.151174+00:00"
     }
   ]
 }
