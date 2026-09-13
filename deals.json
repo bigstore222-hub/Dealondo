@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-13T21:42:42.599744+00:00",
-  "count": 55,
+  "generated_at": "2026-09-13T23:29:05.120031+00:00",
+  "count": 57,
   "deals": [
     {
       "source": "nordstromrack.com",
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-09-08T09:43:54.046561+00:00",
-      "last_seen": "2026-09-13T21:38:47.671047+00:00"
+      "last_seen": "2026-09-13T23:29:02.767306+00:00"
     },
     {
       "source": "zappos.com",
@@ -94,7 +94,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-09-08T17:47:18.700368+00:00",
-      "last_seen": "2026-09-13T21:38:47.671047+00:00"
+      "last_seen": "2026-09-13T23:29:02.767306+00:00"
     },
     {
       "source": "6pm.com",
@@ -377,7 +377,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-09-12T17:58:46.386711+00:00",
-      "last_seen": "2026-09-13T21:38:47.671047+00:00"
+      "last_seen": "2026-09-13T23:29:02.767306+00:00"
     },
     {
       "source": "6pm.com",
@@ -1196,7 +1196,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-07T09:50:43.976794+00:00",
-      "last_seen": "2026-09-13T21:38:47.671047+00:00"
+      "last_seen": "2026-09-13T23:29:02.767306+00:00"
     },
     {
       "source": "6pm.com",
@@ -1249,6 +1249,54 @@
     {
       "source": "zappos.com",
       "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10052175",
+      "title": "Be Mine Pants",
+      "brand": "Free People",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/7152Kthwc3L._AC_SR255,340_.jpg",
+      "price_current": 23.4,
+      "price_list": 78.0,
+      "price_baseline": 78.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 31427,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10052175",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-09-13T23:28:45.229881+00:00",
+      "last_seen": "2026-09-13T23:29:02.767306+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
       "url": "https://www.zappos.com/product/9903498",
       "title": "Long Sleeve Rib Lurex Cutout Sweater",
       "brand": "DKNY",
@@ -1292,7 +1340,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-12T17:58:46.386711+00:00",
-      "last_seen": "2026-09-13T19:29:21.175435+00:00"
+      "last_seen": "2026-09-13T23:29:02.767306+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -1628,7 +1676,54 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-12T08:59:48.289558+00:00",
-      "last_seen": "2026-09-13T21:38:47.671047+00:00"
+      "last_seen": "2026-09-13T23:29:02.767306+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/vince-camuto-valeria-knee-high-platform-boot-wide-calf-women/8538807",
+      "title": "Valeria Knee High Platform Boot - Wide Calf",
+      "brand": "Vince Camuto",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/7e844bf7-c741-482d-b5ef-ae65a45e1ce1.jpeg?h=368&w=240&dpr=2",
+      "price_current": 49.99,
+      "price_list": 239.0,
+      "price_baseline": 239.0,
+      "price_alltime_low": 37.49,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 67138,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/vince-camuto-valeria-knee-high-platform-boot-wide-calf-women/8538807",
+      "discount_pct": 79.1,
+      "score": 56,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 0,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-09-06T18:44:53.080312+00:00",
+      "last_seen": "2026-09-13T23:29:02.767306+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1680,6 +1775,55 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
+      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22169569.html?iref=rss",
+      "title": "lululemon We Made Too Much Specials: Up to 84% off + free shipping",
+      "brand": "Lululemon",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1789056240-1788465511-1687888395-dn-image-6245504.png?h=125&w=124",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22169569.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-09-13T23:28:44.963871+00:00",
+      "last_seen": "2026-09-13T23:29:02.767306+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
       "url": "https://www.dealnews.com/adidas-Fall-Kick-Off-Sale-Up-to-40-off-extra-15-off-Free-shipping/22165811.html?iref=rss",
       "title": "adidas Fall Kick Off Sale: Up to 40% off + extra 15% off + Free shipping",
       "brand": "Adidas",
@@ -1723,8 +1867,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-09-13T21:38:25.639345+00:00",
-      "last_seen": "2026-09-13T21:38:47.671047+00:00"
+      "detected_at": "2026-09-13T23:28:44.969512+00:00",
+      "last_seen": "2026-09-13T23:29:02.767306+00:00"
     },
     {
       "source": "dealnews",
@@ -1772,56 +1916,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-10T14:28:39.235433+00:00",
-      "last_seen": "2026-09-13T21:38:47.671047+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22169569.html?iref=rss",
-      "title": "lululemon We Made Too Much Specials: Up to 84% off + free shipping",
-      "brand": "Lululemon",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1789056240-1788465511-1687888395-dn-image-6245504.png?h=125&w=124",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22169569.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-09-13T21:38:25.644091+00:00",
-      "last_seen": "2026-09-13T21:38:47.671047+00:00"
+      "last_seen": "2026-09-13T23:29:02.767306+00:00"
     },
     {
       "source": "dealnews",
@@ -1869,7 +1964,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-10T10:00:49.505660+00:00",
-      "last_seen": "2026-09-13T21:38:47.671047+00:00"
+      "last_seen": "2026-09-13T23:29:02.767306+00:00"
     },
     {
       "source": "dealnews",
@@ -1917,8 +2012,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-09-13T21:38:25.645323+00:00",
-      "last_seen": "2026-09-13T21:38:47.671047+00:00"
+      "detected_at": "2026-09-13T23:28:44.972830+00:00",
+      "last_seen": "2026-09-13T23:29:02.767306+00:00"
     },
     {
       "source": "dealnews",
@@ -1966,8 +2061,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-09-13T21:38:25.647313+00:00",
-      "last_seen": "2026-09-13T21:38:47.671047+00:00"
+      "detected_at": "2026-09-13T23:28:44.974835+00:00",
+      "last_seen": "2026-09-13T23:29:02.767306+00:00"
     },
     {
       "source": "dealnews",
@@ -2602,7 +2697,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-05T17:48:30.064300+00:00",
-      "last_seen": "2026-09-13T21:38:47.671047+00:00"
+      "last_seen": "2026-09-13T23:29:02.767306+00:00"
     },
     {
       "source": "nordstromrack.com",
