@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-20T22:15:49.277014+00:00",
-  "count": 73,
+  "generated_at": "2026-09-21T00:19:44.725078+00:00",
+  "count": 70,
   "deals": [
     {
       "source": "6pm.com",
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-09-16T18:25:40.129072+00:00",
-      "last_seen": "2026-09-20T22:13:07.832209+00:00"
+      "last_seen": "2026-09-21T00:19:43.664336+00:00"
     },
     {
       "source": "6pm.com",
@@ -236,7 +236,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-09-20T22:11:25.740360+00:00",
-      "last_seen": "2026-09-20T22:11:46.513064+00:00"
+      "last_seen": "2026-09-21T00:18:23.122912+00:00"
     },
     {
       "source": "6pm.com",
@@ -284,7 +284,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-09-20T17:49:35.393363+00:00",
-      "last_seen": "2026-09-20T20:00:15.711539+00:00"
+      "last_seen": "2026-09-21T00:19:43.664336+00:00"
     },
     {
       "source": "6pm.com",
@@ -429,6 +429,53 @@
       "urgency": "HOT",
       "detected_at": "2026-09-19T09:14:35.906999+00:00",
       "last_seen": "2026-09-19T09:14:59.685916+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/9903498",
+      "title": "Long Sleeve Rib Lurex Cutout Sweater",
+      "brand": "DKNY",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/71fyu8hxjDL._AC_SR255,340_.jpg",
+      "price_current": 29.7,
+      "price_list": 99.0,
+      "price_baseline": 99.0,
+      "price_alltime_low": 29.7,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 41186,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/9903498",
+      "discount_pct": 70.0,
+      "score": 81,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-09-12T17:58:46.386711+00:00",
+      "last_seen": "2026-09-21T00:18:23.122912+00:00"
     },
     {
       "source": "zappos.com",
@@ -621,53 +668,6 @@
     {
       "source": "zappos.com",
       "source_tier": "T2",
-      "url": "https://www.zappos.com/product/9903498",
-      "title": "Long Sleeve Rib Lurex Cutout Sweater",
-      "brand": "DKNY",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/71fyu8hxjDL._AC_SR255,340_.jpg",
-      "price_current": 29.7,
-      "price_list": 99.0,
-      "price_baseline": 99.0,
-      "price_alltime_low": 29.7,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 41186,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/9903498",
-      "discount_pct": 70.0,
-      "score": 81,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-09-12T17:58:46.386711+00:00",
-      "last_seen": "2026-09-20T11:35:37.457186+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
       "url": "https://www.zappos.com/product/10042130",
       "title": "Tinsel Kiss Mini",
       "brand": "Free People",
@@ -804,7 +804,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-09-17T17:38:48.573877+00:00",
-      "last_seen": "2026-09-20T22:11:46.513064+00:00"
+      "last_seen": "2026-09-21T00:18:23.122912+00:00"
     },
     {
       "source": "zappos.com",
@@ -1148,55 +1148,6 @@
       "last_seen": "2026-09-20T22:11:14.744736+00:00"
     },
     {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20034888-botach-has-reloaded-seiko-watch-inventory-up-to-55-off-252",
-      "title": "Botach has reloaded SEIKO watch inventory - UP TO 55% OFF $252",
-      "brand": "Seiko",
-      "category": "watch_misc",
-      "image": "https://static.slickdealscdn.com/attachment/4/9/2/5/6/2/300x300/21645858.thumb",
-      "price_current": 252.0,
-      "price_list": 560.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "X9F7CJFV486ZV",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 0,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 413289,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "public",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20034888-botach-has-reloaded-seiko-watch-inventory-up-to-55-off-252",
-      "discount_pct": 55.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 10,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 X9F7CJFV486ZV → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-09-18T22:39:32.440703+00:00",
-      "last_seen": "2026-09-18T22:39:54.263049+00:00"
-    },
-    {
       "source": "6pm.com",
       "source_tier": "T3",
       "url": "https://www.6pm.com/product/9996290",
@@ -1245,53 +1196,6 @@
       "last_seen": "2026-09-20T06:21:30.730741+00:00"
     },
     {
-      "source": "6pm.com",
-      "source_tier": "T3",
-      "url": "https://www.6pm.com/product/9812955",
-      "title": "Viola Skimmer",
-      "brand": "Cole Haan",
-      "category": "premium_fashion",
-      "image": "//www.6pm.comnull",
-      "price_current": 31.95,
-      "price_list": 170.0,
-      "price_baseline": 170.0,
-      "price_alltime_low": 31.5,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": 4.0,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 44107,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.6pm.com/product/9812955",
-      "discount_pct": 81.2,
-      "score": 72,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": 0,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-09-13T14:00:13.330375+00:00",
-      "last_seen": "2026-09-18T22:41:57.048802+00:00"
-    },
-    {
       "source": "zappos.com",
       "source_tier": "T2",
       "url": "https://www.zappos.com/product/9982882",
@@ -1337,7 +1241,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-09-19T16:31:49.496391+00:00",
-      "last_seen": "2026-09-20T22:11:46.513064+00:00"
+      "last_seen": "2026-09-21T00:18:23.122912+00:00"
     },
     {
       "source": "zappos.com",
@@ -1529,7 +1433,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-20T17:49:35.393363+00:00",
-      "last_seen": "2026-09-20T22:13:07.832209+00:00"
+      "last_seen": "2026-09-21T00:19:43.664336+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1577,7 +1481,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-20T19:58:33.024611+00:00",
-      "last_seen": "2026-09-20T22:11:46.513064+00:00"
+      "last_seen": "2026-09-21T00:18:23.122912+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1625,7 +1529,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-20T19:58:33.024611+00:00",
-      "last_seen": "2026-09-20T22:11:46.513064+00:00"
+      "last_seen": "2026-09-21T00:18:23.122912+00:00"
     },
     {
       "source": "zappos.com",
@@ -1961,7 +1865,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-18T17:58:00.774314+00:00",
-      "last_seen": "2026-09-20T22:11:46.513064+00:00"
+      "last_seen": "2026-09-21T00:18:23.122912+00:00"
     },
     {
       "source": "zappos.com",
@@ -2158,54 +2062,6 @@
     {
       "source": "zappos.com",
       "source_tier": "T2",
-      "url": "https://www.zappos.com/product/9998839",
-      "title": "Wesbrook Backpack",
-      "brand": "Herschel Supply Co.",
-      "category": "watch_misc",
-      "image": "https://m.media-amazon.com/images/I/91yVSUOyNkL._AC_SR255,340_.jpg",
-      "price_current": 19.5,
-      "price_list": 65.0,
-      "price_baseline": 65.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 26920,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.zappos.com/product/9998839",
-      "discount_pct": 70.0,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 10,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-09-18T22:40:08.667856+00:00",
-      "last_seen": "2026-09-18T22:40:29.117762+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
       "url": "https://www.zappos.com/product/9932821",
       "title": "Cushion Bondi",
       "brand": "Reef",
@@ -2298,7 +2154,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-20T22:11:25.740360+00:00",
-      "last_seen": "2026-09-20T22:11:46.513064+00:00"
+      "last_seen": "2026-09-21T00:18:23.122912+00:00"
     },
     {
       "source": "dealnews",
@@ -2347,7 +2203,56 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-20T22:11:25.740360+00:00",
-      "last_seen": "2026-09-20T22:11:46.513064+00:00"
+      "last_seen": "2026-09-21T00:18:23.122912+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22195143.html?iref=rss",
+      "title": "lululemon We Made Too Much Event: Up to 78% off + free shipping",
+      "brand": "Lululemon",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1789655587-1789056240-1788465511-1687888395-dn-image-6245504.png?h=125&w=124",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22195143.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-09-21T00:17:59.893629+00:00",
+      "last_seen": "2026-09-21T00:18:23.122912+00:00"
     },
     {
       "source": "dealnews",
@@ -2396,7 +2301,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-20T19:58:33.024611+00:00",
-      "last_seen": "2026-09-20T22:11:46.513064+00:00"
+      "last_seen": "2026-09-21T00:18:23.122912+00:00"
     },
     {
       "source": "dealnews",
@@ -2445,7 +2350,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-20T19:58:33.024611+00:00",
-      "last_seen": "2026-09-20T22:11:46.513064+00:00"
+      "last_seen": "2026-09-21T00:18:23.122912+00:00"
     },
     {
       "source": "dealnews",
@@ -2494,7 +2399,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-20T19:58:33.024611+00:00",
-      "last_seen": "2026-09-20T22:11:46.513064+00:00"
+      "last_seen": "2026-09-21T00:18:23.122912+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2542,7 +2447,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-17T17:38:48.573877+00:00",
-      "last_seen": "2026-09-20T22:11:46.513064+00:00"
+      "last_seen": "2026-09-21T00:18:23.122912+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2591,7 +2496,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-18T20:20:41.683667+00:00",
-      "last_seen": "2026-09-20T22:11:46.513064+00:00"
+      "last_seen": "2026-09-21T00:18:23.122912+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2640,7 +2545,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-18T20:20:41.683667+00:00",
-      "last_seen": "2026-09-20T22:11:46.513064+00:00"
+      "last_seen": "2026-09-21T00:18:23.122912+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2689,56 +2594,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-18T17:58:00.774314+00:00",
-      "last_seen": "2026-09-20T22:11:46.513064+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22195143.html?iref=rss",
-      "title": "lululemon We Made Too Much Event: Up to 78% off + free shipping",
-      "brand": "Lululemon",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1789655587-1789056240-1788465511-1687888395-dn-image-6245504.png?h=125&w=124",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-78-off-free-shipping/22195143.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-09-20T19:58:32.782632+00:00",
-      "last_seen": "2026-09-20T19:58:50.499315+00:00"
+      "last_seen": "2026-09-21T00:18:23.122912+00:00"
     },
     {
       "source": "dealnews",
