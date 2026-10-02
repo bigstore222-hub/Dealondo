@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-02T02:43:37.125177+00:00",
-  "count": 64,
+  "generated_at": "2026-10-02T07:03:47.526491+00:00",
+  "count": 66,
   "deals": [
     {
       "source": "6pm.com",
@@ -24,7 +24,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 94637,
+      "krw_effective": 94942,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-09-24T17:32:50.541283+00:00",
-      "last_seen": "2026-10-01T21:52:32.132280+00:00"
+      "last_seen": "2026-10-02T07:03:47.512674+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -189,7 +189,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-09-28T16:24:56.810412+00:00",
-      "last_seen": "2026-10-02T01:14:41.611616+00:00"
+      "last_seen": "2026-10-02T07:03:47.512674+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -236,7 +236,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-09-28T07:57:36.699336+00:00",
-      "last_seen": "2026-10-02T02:43:36.030195+00:00"
+      "last_seen": "2026-10-02T07:02:22.577575+00:00"
     },
     {
       "source": "6pm.com",
@@ -426,7 +426,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-09-26T22:53:43.697612+00:00",
-      "last_seen": "2026-10-02T02:43:36.030195+00:00"
+      "last_seen": "2026-10-02T07:02:22.577575+00:00"
     },
     {
       "source": "zappos.com",
@@ -777,7 +777,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 32,
+      "community_votes": 51,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -807,7 +807,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-02T01:11:45.540985+00:00",
-      "last_seen": "2026-10-02T02:43:03.020231+00:00"
+      "last_seen": "2026-10-02T07:01:49.329965+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1051,7 +1051,103 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-01T03:06:20.303602+00:00",
-      "last_seen": "2026-10-02T02:43:36.030195+00:00"
+      "last_seen": "2026-10-02T07:02:22.577575+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10063825",
+      "title": "Tyla Eyelet Sandals",
+      "brand": "AllSaints",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/61prN9QK1tL._AC_SR255,340_.jpg",
+      "price_current": 56.7,
+      "price_list": 189.0,
+      "price_baseline": 189.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 77123,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.zappos.com/product/10063825",
+      "discount_pct": 70.0,
+      "score": 71,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-02T07:02:02.433714+00:00",
+      "last_seen": "2026-10-02T07:02:22.577575+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10041812",
+      "title": "Oasis Espadrille Lace-Up Shoes",
+      "brand": "Vince",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/81VFudeNlmL._AC_SR255,340_.jpg",
+      "price_current": 82.5,
+      "price_list": 275.0,
+      "price_baseline": 275.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 112217,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.zappos.com/product/10041812",
+      "discount_pct": 70.0,
+      "score": 71,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-02T07:02:02.433714+00:00",
+      "last_seen": "2026-10-02T07:02:22.577575+00:00"
     },
     {
       "source": "zappos.com",
@@ -1195,7 +1291,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-29T19:36:51.441301+00:00",
-      "last_seen": "2026-10-02T02:43:36.030195+00:00"
+      "last_seen": "2026-10-02T07:02:22.577575+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1243,7 +1339,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-29T19:36:51.441301+00:00",
-      "last_seen": "2026-10-02T02:43:36.030195+00:00"
+      "last_seen": "2026-10-02T07:02:22.577575+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1291,7 +1387,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-29T19:36:51.441301+00:00",
-      "last_seen": "2026-10-02T02:43:36.030195+00:00"
+      "last_seen": "2026-10-02T07:02:22.577575+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -1532,7 +1628,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-29T19:36:51.441301+00:00",
-      "last_seen": "2026-10-02T02:43:36.030195+00:00"
+      "last_seen": "2026-10-02T07:02:22.577575+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -1677,7 +1773,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-02T01:12:52.696694+00:00",
-      "last_seen": "2026-10-02T02:43:36.030195+00:00"
+      "last_seen": "2026-10-02T07:02:22.577575+00:00"
     },
     {
       "source": "dealnews",
@@ -1726,7 +1822,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-02T01:12:52.696694+00:00",
-      "last_seen": "2026-10-02T02:43:36.030195+00:00"
+      "last_seen": "2026-10-02T07:02:22.577575+00:00"
     },
     {
       "source": "dealnews",
@@ -1775,7 +1871,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-01T21:50:38.685285+00:00",
-      "last_seen": "2026-10-02T02:43:36.030195+00:00"
+      "last_seen": "2026-10-02T07:02:22.577575+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -1823,8 +1919,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-02T02:43:11.675189+00:00",
-      "last_seen": "2026-10-02T02:43:36.030195+00:00"
+      "detected_at": "2026-10-02T07:02:02.382156+00:00",
+      "last_seen": "2026-10-02T07:02:22.577575+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -1872,8 +1968,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-02T02:43:11.679613+00:00",
-      "last_seen": "2026-10-02T02:43:36.030195+00:00"
+      "detected_at": "2026-10-02T07:02:02.385195+00:00",
+      "last_seen": "2026-10-02T07:02:22.577575+00:00"
     },
     {
       "source": "techbargains:adidas",
@@ -1921,8 +2017,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-02T02:43:11.693576+00:00",
-      "last_seen": "2026-10-02T02:43:36.030195+00:00"
+      "detected_at": "2026-10-02T07:02:02.395607+00:00",
+      "last_seen": "2026-10-02T07:02:22.577575+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -1970,8 +2066,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-02T02:43:11.728511+00:00",
-      "last_seen": "2026-10-02T02:43:36.030195+00:00"
+      "detected_at": "2026-10-02T07:02:02.419358+00:00",
+      "last_seen": "2026-10-02T07:02:22.577575+00:00"
     },
     {
       "source": "dealnews",
