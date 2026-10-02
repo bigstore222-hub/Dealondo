@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-02T01:17:35.740784+00:00",
-  "count": 66,
+  "generated_at": "2026-10-02T02:43:37.125177+00:00",
+  "count": 64,
   "deals": [
     {
       "source": "6pm.com",
@@ -236,7 +236,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-09-28T07:57:36.699336+00:00",
-      "last_seen": "2026-10-02T01:13:18.001794+00:00"
+      "last_seen": "2026-10-02T02:43:36.030195+00:00"
     },
     {
       "source": "6pm.com",
@@ -335,54 +335,6 @@
       "last_seen": "2026-09-30T23:54:05.158264+00:00"
     },
     {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/9998987",
-      "title": "Antonia Skirt",
-      "brand": "AllSaints",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/612MCLmj78L._AC_SR255,340_.jpg",
-      "price_current": 53.8,
-      "price_list": 269.0,
-      "price_baseline": 269.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 72828,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.zappos.com/product/9998987",
-      "discount_pct": 80.0,
-      "score": 83,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-09-29T19:36:51.441301+00:00",
-      "last_seen": "2026-09-30T02:09:21.649736+00:00"
-    },
-    {
       "source": "dealsofamerica",
       "source_tier": "T2",
       "url": "https://www.dealsofamerica.com/moacey-hc-008-knee-massager/803441.htm",
@@ -474,7 +426,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-09-26T22:53:43.697612+00:00",
-      "last_seen": "2026-10-02T01:13:18.001794+00:00"
+      "last_seen": "2026-10-02T02:43:36.030195+00:00"
     },
     {
       "source": "zappos.com",
@@ -811,6 +763,55 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20085996-5-cyskxyi-halloween-led-spooky-swinging-ghost-w-remote-17-99-free-shipping-w-prime-or-on-35",
+      "title": "5' CYSKXYI Halloween LED Spooky Swinging Ghost w/ Remote $18 + Free S&H",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/9/3/0/4/6/1/9/300x300/21777705.thumb",
+      "price_current": 18.0,
+      "price_list": 36.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "QP1SPBDX",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 32,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 24484,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20085996-5-cyskxyi-halloween-led-spooky-swinging-ghost-w-remote-17-99-free-shipping-w-prime-or-on-35",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 QP1SPBDX → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-02T01:11:45.540985+00:00",
+      "last_seen": "2026-10-02T02:43:03.020231+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
       "url": "https://slickdeals.net/f/20084619-3-pairs-schwer-3-4-double-dipped-coating-winter-work-gloves-6-59-w-s-s-free-shipping-w-prime-or-on-35",
       "title": "3-pr Schwer 3/4 Double-Dipped Coating Winter Work Gloves $6.60 w/ S&S",
       "brand": "",
@@ -825,7 +826,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 39,
+      "community_votes": 49,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -855,7 +856,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-02T01:11:45.540985+00:00",
-      "last_seen": "2026-10-02T01:12:11.019082+00:00"
+      "last_seen": "2026-10-02T02:43:03.020231+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -904,55 +905,6 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-01T17:02:34.135457+00:00",
-      "last_seen": "2026-10-02T01:12:11.019082+00:00"
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20085996-5-cyskxyi-halloween-led-spooky-swinging-ghost-w-remote-17-99-free-shipping-w-prime-or-on-35",
-      "title": "5' CYSKXYI Halloween LED Spooky Swinging Ghost w/ Remote $17.99 + Free Shipping w/ Prime or on $35+",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/9/3/0/4/6/1/9/300x300/21777705.thumb",
-      "price_current": 35.0,
-      "price_list": 70.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "QP1SPBDX",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 8,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 47607,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20085996-5-cyskxyi-halloween-led-spooky-swinging-ghost-w-remote-17-99-free-shipping-w-prime-or-on-35",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 QP1SPBDX → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-02T01:11:45.540985+00:00",
       "last_seen": "2026-10-02T01:12:11.019082+00:00"
     },
     {
@@ -1099,7 +1051,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-01T03:06:20.303602+00:00",
-      "last_seen": "2026-10-02T01:13:18.001794+00:00"
+      "last_seen": "2026-10-02T02:43:36.030195+00:00"
     },
     {
       "source": "zappos.com",
@@ -1108,7 +1060,7 @@
       "title": "Staffa Sandals",
       "brand": "AllSaints",
       "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/71LG8MzxibL._AC_SR255,340_.jpg",
+      "image": "https://m.media-amazon.com/images/I/71C+BPhQwRL._AC_SR255,340_.jpg",
       "price_current": 77.7,
       "price_list": 259.0,
       "price_baseline": 259.0,
@@ -1123,7 +1075,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 105181,
+      "krw_effective": 105688,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -1147,7 +1099,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-09-30T20:03:22.536217+00:00",
-      "last_seen": "2026-09-30T23:52:44.465633+00:00"
+      "last_seen": "2026-10-02T02:43:36.030195+00:00"
     },
     {
       "source": "6pm.com",
@@ -1243,7 +1195,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-29T19:36:51.441301+00:00",
-      "last_seen": "2026-10-02T01:13:18.001794+00:00"
+      "last_seen": "2026-10-02T02:43:36.030195+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1291,7 +1243,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-29T19:36:51.441301+00:00",
-      "last_seen": "2026-10-02T01:13:18.001794+00:00"
+      "last_seen": "2026-10-02T02:43:36.030195+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1339,7 +1291,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-09-29T19:36:51.441301+00:00",
-      "last_seen": "2026-10-02T01:13:18.001794+00:00"
+      "last_seen": "2026-10-02T02:43:36.030195+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -1387,7 +1339,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-01T21:50:38.685285+00:00",
-      "last_seen": "2026-10-02T01:13:18.001794+00:00",
+      "last_seen": "2026-10-02T02:43:36.030195+00:00",
       "variant_count": 2
     },
     {
@@ -1535,6 +1487,54 @@
       "last_seen": "2026-09-30T08:37:07.399941+00:00"
     },
     {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/toms-alpargata-slip-on-baby-walker-toddler-little-kid-big-kid/8207994",
+      "title": "Alpargata Slip-On",
+      "brand": "Toms",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/38106542-b518-453d-ab5b-a9d041124a26.jpeg?h=368&w=240&dpr=2",
+      "price_current": 11.99,
+      "price_list": 40.0,
+      "price_baseline": 40.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 16309,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/toms-alpargata-slip-on-baby-walker-toddler-little-kid-big-kid/8207994",
+      "discount_pct": 70.0,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 16,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-09-29T19:36:51.441301+00:00",
+      "last_seen": "2026-10-02T02:43:36.030195+00:00"
+    },
+    {
       "source": "dealsofamerica",
       "source_tier": "T2",
       "url": "https://www.dealsofamerica.com/versace-pour-homme-spray/843721.htm",
@@ -1631,54 +1631,6 @@
       "last_seen": "2026-09-30T08:37:07.399941+00:00"
     },
     {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/9567389",
-      "title": "Jibbitz Around The World",
-      "brand": "Crocs",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/61VAuznkB8L._AC_SR255,340_.jpg",
-      "price_current": 5.99,
-      "price_list": 19.99,
-      "price_baseline": 19.99,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": 5.0,
-      "review_count": 6844,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 8109,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/9567389",
-      "discount_pct": 70.0,
-      "score": 56,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 13,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-09-29T07:57:25.288150+00:00",
-      "last_seen": "2026-09-30T02:09:21.649736+00:00"
-    },
-    {
       "source": "dealnews",
       "source_tier": "T2",
       "url": "https://www.dealnews.com/Arcteryx-Mens-Norvan-Windshell-Hoody-Jacket-for-110-free-shipping/22232210.html?iref=rss",
@@ -1725,7 +1677,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-02T01:12:52.696694+00:00",
-      "last_seen": "2026-10-02T01:13:18.001794+00:00"
+      "last_seen": "2026-10-02T02:43:36.030195+00:00"
     },
     {
       "source": "dealnews",
@@ -1774,7 +1726,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-02T01:12:52.696694+00:00",
-      "last_seen": "2026-10-02T01:13:18.001794+00:00"
+      "last_seen": "2026-10-02T02:43:36.030195+00:00"
     },
     {
       "source": "dealnews",
@@ -1823,7 +1775,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-01T21:50:38.685285+00:00",
-      "last_seen": "2026-10-02T01:13:18.001794+00:00"
+      "last_seen": "2026-10-02T02:43:36.030195+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -1871,8 +1823,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-02T01:12:52.625908+00:00",
-      "last_seen": "2026-10-02T01:13:18.001794+00:00"
+      "detected_at": "2026-10-02T02:43:11.675189+00:00",
+      "last_seen": "2026-10-02T02:43:36.030195+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -1920,8 +1872,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-02T01:12:52.630327+00:00",
-      "last_seen": "2026-10-02T01:13:18.001794+00:00"
+      "detected_at": "2026-10-02T02:43:11.679613+00:00",
+      "last_seen": "2026-10-02T02:43:36.030195+00:00"
     },
     {
       "source": "techbargains:adidas",
@@ -1969,8 +1921,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-02T01:12:52.644300+00:00",
-      "last_seen": "2026-10-02T01:13:18.001794+00:00"
+      "detected_at": "2026-10-02T02:43:11.693576+00:00",
+      "last_seen": "2026-10-02T02:43:36.030195+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -2018,8 +1970,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-02T01:12:52.677975+00:00",
-      "last_seen": "2026-10-02T01:13:18.001794+00:00"
+      "detected_at": "2026-10-02T02:43:11.728511+00:00",
+      "last_seen": "2026-10-02T02:43:36.030195+00:00"
     },
     {
       "source": "dealnews",
@@ -3147,55 +3099,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-09-30T08:36:47.936865+00:00",
       "last_seen": "2026-09-30T08:37:07.399941+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Under-Armour-Mens-Workwear-Unhemmed-Pants-for-25-free-shipping-w-Prime/22226967.html?iref=rss",
-      "title": "Under Armour Men's Workwear Unhemmed Pants for $25 + free shipping w/ Prime",
-      "brand": "Under Armour",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1790716644-product-trimmed.png?h=125&w=69",
-      "price_current": 25.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 33842,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Under-Armour-Mens-Workwear-Unhemmed-Pants-for-25-free-shipping-w-Prime/22226967.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-09-29T23:10:38.147603+00:00",
-      "last_seen": "2026-09-30T02:09:21.649736+00:00"
     }
   ]
 }
