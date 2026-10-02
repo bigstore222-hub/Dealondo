@@ -155,7 +155,7 @@ python run.py                 # 워치리스트 T1/T2 순회 + DoA RSS
 | 티어 | 사이트 | 수집 | 방식 |
 |---|---|---|---|
 | T1 | Amazon | 15건 | **헤드리스 렌더링 + 재시도** + 전용 파서 (마감 타이머·재고상태까지 추출) |
-| T1 | Woot | 11건 | **헤드리스 렌더링** + 전용 파서 (`/alldeals`가 전 서브도메인 딜 집약) |
+| T1 | Woot | 11건 | `WOOT_API_KEY` 있으면 **공식 Developer API**(`sources_woot_api.py`), 없으면 **헤드리스 렌더링** + 전용 파서(`/alldeals`가 전 서브도메인 딜 집약)로 자동 폴백 |
 | T1 | eBay | 13~18건 | **헤드리스 렌더링** + 전용 파서 |
 | T2 | Zappos | 60건 | 정적 + 전용 파서 (페이지 내 JSON에 브랜드·평점·리뷰수 포함) |
 | T2 | Nordstrom Rack | 44건 | 정적 + 전용 파서 (URL 슬러그에서 브랜드 추출) |
@@ -165,6 +165,7 @@ python run.py                 # 워치리스트 T1/T2 순회 + DoA RSS
 - **워치리스트 리테일러(주력)**: `sources.fetch_watchlist()`. 매 요청 전 `check_robots()`로 재확인 후 세일페이지 파싱.
 - **Deals of America**: 공개 RSS(`arssm.xml`).
 - **Slickdeals**: `SLICKDEALS_API_KEY` 환경변수가 있을 때만 활성화. ToS상 무단 스크래핑은 하지 않으며, 공식 Partner API 응답 매핑은 `sources.fetch_slickdeals`에 구현.
+- **Woot**: `WOOT_API_KEY` 환경변수가 있으면 `sources.fetch_woot`(→ `sources_woot_api.fetch_woot_api`)가 공식 Developer API(`developer.woot.com`)로 직접 수집한다. 키 발급은 `forums.woot.com`의 "Request Developer API Key" 스레드에 댓글로 신청 → 포럼 쪽지로 수령(SETUP.md "권장 4" 참고). 키가 없으면 `fetch_watchlist()`의 헤드리스 렌더링 경로가 계속 Woot을 커버하므로 둘 중 하나만 돌고 중복되지 않는다.
 
 ## 헤드리스 렌더링 (Playwright)
 
