@@ -3,7 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>딜온도 — 딜보드</title>
+<title>딜온도 — 해외직구 핫딜 딜보드</title>
+<meta name="description" content="아마존·이베이·Woot·노드스트롬랙 등 미국 직구 핫딜을 하루 종일 자동 수집해, 관부가세·배송비 포함 원화 실질가와 할인 점수로 골라 보여드립니다.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="딜온도">
+<meta property="og:title" content="딜온도 — 해외직구 핫딜 딜보드">
+<meta property="og:description" content="미국 직구 핫딜을 관부가세 포함 원화가·할인 점수로 골라 보는 딜보드">
+<meta property="og:locale" content="ko_KR">
 <style>
   /* ── 애플 디자인 시스템: 다크 기본 + OS 라이트모드 자동 대응 ── */
   :root{
@@ -71,6 +77,7 @@
   /* ── 카드 그리드 ── */
   main{padding:22px 28px 60px;display:grid;gap:18px;
     grid-template-columns:repeat(auto-fill,minmax(330px,1fr));
+    align-items:start;
     max-width:1440px;margin:0 auto}
   .card{background:var(--card);border:.5px solid var(--line);border-radius:18px;
     padding:20px;display:flex;flex-direction:column;gap:11px;
@@ -127,6 +134,14 @@
   .bd{font-size:10.5px;color:var(--sub);display:flex;gap:10px;flex-wrap:wrap;
     border-top:.5px solid var(--line);padding-top:9px;margin-top:1px;opacity:.75}
 
+  /* 썸네일: 이미지가 깨지면 숨기고 카드 레이아웃은 유지 */
+  .thumb{width:100%;height:180px;object-fit:contain;border-radius:12px;
+    background:#fff;display:block}
+  .krw{font-size:13px;color:var(--sub2);margin-top:-4px}
+  .krw b{color:var(--txt);font-weight:600}
+  .fresh.stale{color:var(--deal)}
+  .card.stale .price .now{opacity:.55}
+
   .empty{grid-column:1/-1;text-align:center;color:var(--sub);padding:80px 20px;font-size:15px}
 
   @media (max-width:640px){
@@ -168,6 +183,7 @@
 </header>
 <div class="disclose">
   일부 링크는 제휴 링크로, 회원님의 구매 시 딜온도가 소정의 수수료를 받을 수 있습니다(구매가는 동일).
+  표시 가격은 마지막 확인 시점 기준이며 실시간으로 바뀔 수 있습니다. 원화 금액은 배송비·관부가세를 포함한 추정치이니 결제 전 판매처에서 최종 가격을 확인하세요.
 </div>
 <main id="board"><div class="empty">deals.json 로딩 중…</div></main>
 
@@ -176,7 +192,18 @@ const board=document.getElementById('board');
 const meta=document.getElementById('meta');
 let deals=[], filter='ALL', cat='ALL', sort='score';
 
-function fmtPrice(v){return v==null?'—':'$'+Number(v).toLocaleString(undefined,{maximumFractionDigits:2});}
+// 스크랩한 제목·브랜드는 외부 텍스트다. innerHTML에 그대로 넣으면
+// '<img onerror=...>' 같은 문자열이 스크립트로 실행될 수 있어 반드시 이스케이프한다.
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);}
+// 링크는 http(s)만 허용 — javascript: 등 다른 스킴은 차단
+function safeUrl(u){u=String(u||'');return /^https?:\/\//i.test(u)?u:'';}
+// 이미지: '//host/..' 상대주소 보정, 'null'이 섞인 깨진 주소는 버림(실측: '//www.6pm.comnull')
+function imgUrl(u){u=String(u||'').trim();if(!u||/null$|undefined$/i.test(u))return '';
+  if(u.startsWith('//'))u='https:'+u;return safeUrl(u);}
+function fmtKRW(v){return v==null?'':'₩'+Math.round(v).toLocaleString('ko-KR');}
+// 마지막으로 가격을 확인한 지 이 시간이 지나면 '가격 변동 가능'으로 표시
+const STALE_HOURS=24;
+function fmtPrice(v){if(v==null)return '—';const n=Number(v);const f=Number.isInteger(n)?0:2;return '$'+n.toLocaleString('en-US',{minimumFractionDigits:f,maximumFractionDigits:2});}
 function timeAgo(iso){
   const t=Date.parse(iso||0); if(!t)return '';
   const m=Math.max(0,Math.floor((Date.now()-t)/60000));
@@ -219,32 +246,39 @@ function render(){
     if(d.free_gift)tags.push('🎁 사은품');
     if(d.price_alltime_low!=null && d.price_current!=null && d.price_current<=d.price_alltime_low)tags.push('📉 역대최저');
     const b=d.score_breakdown||{};
-    return `<div class="card${d.coupon_code?' codedeal':''}">
+    const href=safeUrl(d.buy_url)||safeUrl(d.url);
+    const img=imgUrl(d.image);
+    const seenH=d.last_seen?(Date.now()-Date.parse(d.last_seen))/3600000:null;
+    const stale=seenH!=null&&seenH>STALE_HOURS;
+    return `<div class="card${d.coupon_code?' codedeal':''}${stale?' stale':''}">
+      ${img?`<img class="thumb" src="${esc(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:''}
       <div class="row">
-        <span class="badge ${d.urgency}">${d.coupon_code?'🔥 코드딜':d.urgency}</span>
-        <span class="src">${d.source} · ${d.source_tier}</span>
-        <span class="score">점수 <b>${d.score}</b>/100</span>
+        <span class="badge ${esc(d.urgency)}">${d.coupon_code?'🔥 코드딜':esc(d.urgency)}</span>
+        <span class="src">${esc(d.source)} · ${esc(d.source_tier)}</span>
+        <span class="score">점수 <b>${esc(d.score)}</b>/100</span>
       </div>
       ${d.brand?`<div class="brandrow">
-        <span class="brand">${d.brand}</span>
+        <span class="brand">${esc(d.brand)}</span>
         ${d.brand_tier?`<span class="btier ${d.brand_tier}">${({premium:'⭐ 프리미엄',known:'✓ 유명',unknown:'· 무명'})[d.brand_tier]||''}</span>`:''}
       </div>`:''}
-      <div class="title"${d.brand?'':' style="font-size:16px;font-weight:700"'}>${d.title}</div>
+      <div class="title"${d.brand?'':' style="font-size:16px;font-weight:700"'}>${esc(d.title)}</div>
       <div class="price">
         <span class="now">${fmtPrice(d.price_current)}</span>
         ${d.price_list?`<span class="was">${fmtPrice(d.price_list)}</span>`:''}
-        ${d.discount_pct?`<span class="off">${d.discount_pct}% OFF</span>`:''}
+        ${d.discount_pct?`<span class="off">${esc(d.discount_pct)}% OFF</span>`:''}
       </div>
-      ${d.coupon_code?`<div class="promo">🔥 결제창 코드 <code>${d.coupon_code}</code> 입력 시 ${fmtPrice(d.price_current)}</div>`:''}
+      ${d.krw_effective?`<div class="krw">≈ <b>${fmtKRW(d.krw_effective)}</b> · 배송비·관부가세 포함 추정</div>`:''}
+      ${d.coupon_code?`<div class="promo">🔥 결제창 코드 <code>${esc(d.coupon_code)}</code> 입력 시 ${fmtPrice(d.price_current)}</div>`:''}
       ${tags.length?`<div class="tags">${tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>`:''}
       <div class="foot">
         <span class="src">${CAT_LABEL[dispCat(d)]||''}</span>
-        ${d.detected_at?`<span class="src">🕒 ${timeAgo(d.detected_at)}</span>`:''}
-        <a class="go" href="${d.buy_url||d.url}" target="_blank" rel="noopener sponsored">딜 보기 →</a>
+        ${d.detected_at?`<span class="src">🕒 ${timeAgo(d.detected_at)} 발견</span>`:''}
+        ${d.last_seen?`<span class="src fresh${stale?' stale':''}">${stale?'⚠️ ':'🔄 '}${timeAgo(d.last_seen)} 확인${stale?' · 가격 변동 가능':''}</span>`:''}
+        ${href?`<a class="go" href="${esc(href)}" target="_blank" rel="noopener noreferrer sponsored">딜 보기 →</a>`:''}
       </div>
       <div class="bd">
-        <span>할인 ${b.discount_depth??0}</span><span>이력 ${b.price_history??0}</span>
-        <span>카테고리 ${b.category??0}</span><span>브랜드 ${b.brand??0}</span><span>보너스 ${b.bonus??0}</span>
+        <span>할인 ${esc(b.discount_depth??0)}</span><span>이력 ${esc(b.price_history??0)}</span>
+        <span>카테고리 ${esc(b.category??0)}</span><span>브랜드 ${esc(b.brand??0)}</span><span>보너스 ${esc(b.bonus??0)}</span>
       </div>
     </div>`;
   }).join('');

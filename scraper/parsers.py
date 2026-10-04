@@ -170,7 +170,10 @@ def zappos(html: str, site) -> list[dict]:
         if not blk or '"originalPrice"' not in blk or '"productName"' not in blk:
             continue
 
-        def g(key, pat=r'"([^"]*)"'):
+        # 값 안의 이스케이프된 따옴표(\")까지 포함해 읽는다.
+        # 예전 패턴 "([^"]*)" 는 인치 표기(9\")에서 끊겨 제목이 '101 9\'로
+        # 잘린 채 딜보드에 올라갔다(실측: PUMA 6pm.com, 2026-10).
+        def g(key, pat=r'"((?:[^"\\]|\\.)*)"'):
             m = re.search(rf'"{key}":\s*{pat}', blk)
             return m.group(1) if m else None
 
@@ -197,7 +200,14 @@ def zappos(html: str, site) -> list[dict]:
         img = g("thumbnailImageUrl")
         if img:
             img = _unescape_js(img)
-        else:
+            # 6pm.com은 이미지가 없을 때 '//www.6pm.comnull' 같은 깨진 값을
+            # 그대로 내려준다(실측 2026-10, 딜보드 엑박 3건). 상대주소는 https로
+            # 보정하고, null로 끝나는 값은 버려 msaImageId 경로로 넘긴다.
+            if img.startswith("//"):
+                img = "https:" + img
+            if not img.startswith("http") or img.endswith(("null", "undefined")):
+                img = ""
+        if not img:
             msa = g("msaImageId")
             img = f"https://m.media-amazon.com/images/I/{msa}._AC_SR255,340_.jpg" if msa else ""
 
