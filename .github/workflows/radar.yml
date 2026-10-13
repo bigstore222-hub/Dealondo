@@ -71,6 +71,15 @@ jobs:
           # 이메일 뉴스레터 수집(선택) — 설정 시에만 동작
           RADAR_IMAP_USER: ${{ secrets.RADAR_IMAP_USER }}
           RADAR_IMAP_PASS: ${{ secrets.RADAR_IMAP_PASS }}
+          # 아래는 전부 선택 — 시크릿을 등록한 것만 켜지고, 비어 있으면 코드가 조용히 건너뛴다.
+          # Woot 공식 API: CI는 렌더링을 끄므로 이 키가 없으면 딜보드에 Woot이 아예 안 잡힌다.
+          WOOT_API_KEY: ${{ secrets.WOOT_API_KEY }}
+          # 텔레그램 무료 채널(60분 지연 발송). 없으면 단일 채널로만 발송.
+          TELEGRAM_FREE_CHAT_ID: ${{ secrets.TELEGRAM_FREE_CHAT_ID }}
+          # 제휴 수익화(affiliate.py) — 승인받은 것만 등록
+          RADAR_AMAZON_TAG: ${{ secrets.RADAR_AMAZON_TAG }}
+          RADAR_SKIMLINKS_ID: ${{ secrets.RADAR_SKIMLINKS_ID }}
+          RADAR_SOVRN_KEY: ${{ secrets.RADAR_SOVRN_KEY }}
         run: |
           mkdir -p data
           cd scraper

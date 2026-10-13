@@ -107,6 +107,15 @@ def run_tier(tier: str, con) -> tuple[list, list]:
                 raw = raw + sd
         except Exception as e:
             print(f"[{tier}] Slickdeals 수집 오류: {type(e).__name__}: {e}")
+        # Woot 공식 API (WOOT_API_KEY 있을 때만). 키가 있으면 fetch_watchlist가
+        # woot.com 렌더 경로를 건너뛰므로, 여기서 반드시 불러야 Woot이 수집된다.
+        try:
+            wt = sources.fetch_woot()
+            if wt:
+                print(f"[{tier}] Woot API {len(wt)}건 추가")
+                raw = raw + wt
+        except Exception as e:
+            print(f"[{tier}] Woot API 수집 오류: {type(e).__name__}: {e}")
 
     if tier == "T2":
         try:

@@ -85,6 +85,10 @@ def landed_cost_krw(price_usd: float, category: str = "etc",
     fx = usd_krw()
     goods = price_usd + shipping_usd
     limit = DUTY_FREE_USD.get(origin, DUTY_FREE_USD["DEFAULT"])
+    # 전자제품은 2022-06-07부터 목록통관 배제 → 미국발이어도 일반통관 150달러 기준.
+    # (관세청 특송고시 개정, 전파법 개정 연동. 예: 블루투스 이어폰·스마트워치·외장하드)
+    if category == "electronics":
+        limit = DUTY_FREE_USD["DEFAULT"]
     if goods <= limit:
         return round(goods * fx)
     duty_rate = DUTY_RATES.get(category, DUTY_RATES["etc"])
