@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>딜온도 메일 수집 모니터</title>
+<style>
+:root{--bg:#f7f5f2;--card:#fff;--ink:#222;--muted:#6b6b6b;--line:#e6e2dc;--ok:#1f8a4c;--bad:#c0392b;--warn:#b7791f}
+@media (prefers-color-scheme:dark){:root{--bg:#16181f;--card:#1f222b;--ink:#eee;--muted:#9a9a9a;--line:#2e323d}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 -apple-system,"Noto Sans KR",sans-serif;padding:16px}
+h1{font-size:20px;margin:0 0 4px}.sub{color:var(--muted);margin:0 0 16px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-bottom:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
+.card h2{font-size:13px;color:var(--muted);margin:0 0 6px;font-weight:600}
+.big{font-size:22px;font-weight:700}.ok{color:var(--ok)}.bad{color:var(--bad)}.warn{color:var(--warn)}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-size:12px;color:var(--muted);font-weight:600}td.num{text-align:right;white-space:nowrap}
+.pill{display:inline-block;padding:1px 8px;border-radius:999px;font-size:12px;font-weight:600}
+.pill.y{background:rgba(31,138,76,.15);color:var(--ok)}.pill.n{background:rgba(192,57,43,.12);color:var(--bad)}
+.why{color:var(--muted);font-size:12px}a{color:inherit}
+.wrap{overflow-x:auto}
+</style>
+</head>
+<body>
+<h1>메일 수집 모니터</h1>
+<p class="sub" id="gen">불러오는 중…</p>
+<div class="cards" id="cards"></div>
+<div class="wrap"><table><thead><tr><th>처음 본 시각</th><th>출처</th><th>딜</th><th>가격</th><th>할인</th><th>점수</th><th>딜보드</th></tr></thead><tbody id="rows"></tbody></table></div>
+<script>
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const kst=iso=>{try{return new Date(iso).toLocaleString('ko-KR',{timeZone:'Asia/Seoul',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'})}catch(e){return iso}};
+const NAMES={sd_alert:'슬릭딜 알림 메일',newsletter:'쇼핑몰 뉴스레터'};
+fetch('deals.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
+  const m=d.email_monitor||{};const st=m.status||{};const t=m.totals||{};
+  document.getElementById('gen').textContent='딜보드 갱신 '+kst(d.generated_at)+' · 최근 72시간 기록';
+  let h=`<div class="card"><h2>72시간 동안 메일로 들어온 딜</h2><div class="big">${t.collected_72h??0}건</div><div class="why">딜보드 통과 ${t.published_72h??0}건</div></div>`;
+  for(const k of ['sd_alert','newsletter']){const s=st[k];
+    if(!s){h+=`<div class="card"><h2>${NAMES[k]}</h2><div class="big warn">기록 없음</div><div class="why">아직 이 수집이 실행되지 않았어요</div></div>`;continue}
+    const cls=s.state==='정상'?'ok':(s.state==='미설정'?'warn':'bad');
+    h+=`<div class="card"><h2>${NAMES[k]}</h2><div class="big ${cls}">${esc(s.state)}</div><div class="why">마지막 실행 ${kst(s.at)} · 메일 ${s.mails}통 → 딜 ${s.deals}건</div></div>`}
+  document.getElementById('cards').innerHTML=h;
+  const rows=(m.recent||[]).map(r=>`<tr><td>${kst(r.first_seen)}</td><td>${esc((r.source||'').replace('slickdeals:','SD · '))}</td>
+   <td><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>${r.reject_reason?`<div class="why">${esc(r.reject_reason)}</div>`:''}</td>
+   <td class="num">${r.price!=null?'$'+r.price:''}${r.list_price!=null?`<div class="why">$${r.list_price}</div>`:''}</td>
+   <td class="num">${r.discount_pct!=null?Math.round(r.discount_pct)+'%':''}</td><td class="num">${r.score??''}</td>
+   <td>${r.published?'<span class="pill y">통과</span>':'<span class="pill n">탈락</span>'}</td></tr>`).join('');
+  document.getElementById('rows').innerHTML=rows||'<tr><td colspan="7" class="why">아직 메일로 들어온 딜이 없습니다</td></tr>';
+}).catch(()=>{document.getElementById('gen').textContent='deals.json 을 불러오지 못했습니다'});
+</script>
+</body>
+</html>

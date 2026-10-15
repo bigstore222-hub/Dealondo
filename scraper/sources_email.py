@@ -36,6 +36,15 @@ from datetime import datetime, timedelta, timezone
 
 from filter_engine import Deal
 
+# 이번 실행의 메일 수집 상태 — scheduler.write_board 가 deals.json 의 email_monitor 로 남긴다.
+# (Actions 로그를 열지 않아도 딜보드 파일만으로 메일 수집이 도는지 확인하기 위함)
+STATUS: dict = {}
+
+
+def _status(key: str, state: str, mails: int = 0, deals: int = 0) -> None:
+    STATUS[key] = {"at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                   "state": state, "mails": mails, "deals": deals}
+
 
 def _email_known_brand(title: str) -> str:
     """사전 등록된 실제 브랜드만. 도메인명('Amazon' 등)을 브랜드로 쓰지 않는다."""
@@ -294,6 +303,7 @@ def fetch_email_deals(days: int = 2, limit: int = 200) -> list[Deal]:
     pw = os.environ.get("RADAR_IMAP_PASS")
     if not (user and pw):
         print("[email] RADAR_IMAP_USER/PASS 미설정 → 건너뜀 (9_이메일수집.bat 참고)")
+        _status("newsletter", "미설정")
         return []
 
     try:
@@ -302,9 +312,12 @@ def fetch_email_deals(days: int = 2, limit: int = 200) -> list[Deal]:
     except Exception as e:
         print(f"[email] 로그인 실패: {type(e).__name__}: {str(e)[:120]}")
         print("        Gmail은 '앱 비밀번호'가 필요합니다 (일반 비밀번호 아님)")
+        _status("newsletter", "로그인 실패")
         return []
 
     deals: list[Deal] = []
+    ids: list = []
+    state = "정상"
     try:
         # 읽기 전용 + PEEK — 사용자 메일함의 '읽음' 상태를 바꾸지 않는다(본 계정 메일함을 쓰는 경우 중요)
         M.select("INBOX", readonly=True)
@@ -327,6 +340,7 @@ def fetch_email_deals(days: int = 2, limit: int = 200) -> list[Deal]:
                 _save_codes(d, msg)
     except Exception as e:
         print(f"[email] 읽기 오류: {type(e).__name__}: {str(e)[:120]}")
+        state = "읽기 오류"
     finally:
         try:
             M.logout()
@@ -339,6 +353,7 @@ def fetch_email_deals(days: int = 2, limit: int = 200) -> list[Deal]:
     for s, n in sorted(by_src.items(), key=lambda x: -x[1]):
         print(f"  [email] {s:24s} {n}건")
     print(f"[email] 총 {len(deals)}건 추출")
+    _status("newsletter", state, len(ids), len(deals))
     return deals
 
 
@@ -468,16 +483,20 @@ def fetch_slickdeals_alert_deals(days: int = 1, limit: int = 40) -> list[Deal]:
     user = os.environ.get("RADAR_IMAP_USER")
     pw = os.environ.get("RADAR_IMAP_PASS")
     if not (user and pw):
+        print("[sd-alert] RADAR_IMAP_USER/PASS 미설정 → 건너뜀")
+        _status("sd_alert", "미설정")
         return []
     try:
         M = imaplib.IMAP4_SSL(IMAP_HOST)
         M.login(user, pw)
     except Exception as e:
         print(f"[sd-alert] 로그인 실패: {type(e).__name__}: {str(e)[:120]}")
+        _status("sd_alert", "로그인 실패")
         return []
     deals: list[Deal] = []
     seen: set[str] = set()
     ids: list = []
+    state = "정상"
     try:
         M.select(_all_mail_folder(M), readonly=True)       # 읽음 표시를 바꾸지 않는다
         since = (datetime.now(timezone.utc) - timedelta(days=days)).strftime("%d-%b-%Y")
@@ -493,12 +512,14 @@ def fetch_slickdeals_alert_deals(days: int = 1, limit: int = 40) -> list[Deal]:
                 deals.append(d)
     except Exception as e:
         print(f"[sd-alert] 읽기 오류: {type(e).__name__}: {str(e)[:120]}")
+        state = "읽기 오류"
     finally:
         try:
             M.logout()
         except Exception:
             pass
     print(f"[sd-alert] 슬릭딜 알림 메일 {len(ids)}통 → 딜 {len(deals)}건")
+    _status("sd_alert", state, len(ids), len(deals))
     return deals
 
 

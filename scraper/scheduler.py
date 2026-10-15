@@ -264,6 +264,63 @@ def _age_hours(now, iso: str) -> float:
         return 0.0
 
 
+EMAIL_MONITOR_HOURS = 72      # 메일 수집 기록을 이 시간만큼 남긴다
+EMAIL_MONITOR_MAX = 80
+
+
+def _email_monitor(all_deals: list, old: dict, now) -> dict:
+    """
+    메일(슬릭딜 알림·뉴스레터)로 들어온 딜을 '발행 여부와 탈락 사유'까지 남긴다.
+    딜보드에는 통과한 것만 보이므로, 메일 수집이 실제로 얼마나 도는지 보려면 이 기록이 필요하다.
+    공개 파일이므로 링크는 쿼리(추적 파라미터)를 떼고, 제목·가격·점수만 남긴다.
+    """
+    prev = old.get("email_monitor") or {}
+    status = dict(prev.get("status") or {})
+    try:
+        import sources_email
+        status.update(sources_email.STATUS)
+    except Exception:
+        pass
+
+    rows = {r.get("url"): r for r in (prev.get("recent") or []) if r.get("url")}
+    for d in all_deals:
+        r = d if isinstance(d, dict) else asdict(d)
+        if r.get("collection_method") != "email":
+            continue
+        url = sources.slickdeals_canonical((r.get("url") or "").split("?")[0])
+        if not url:
+            continue
+        pub = fe.should_publish(d) if not isinstance(d, dict) else bool(r.get("passed_hard_filter"))
+        keep = rows.get(url, {})
+        rows[url] = {
+            "url": url,
+            "source": r.get("source"),
+            "title": (r.get("title") or "")[:120],
+            "price": r.get("price_current"),
+            "list_price": r.get("price_list"),
+            "discount_pct": r.get("discount_pct"),
+            "krw": r.get("krw_effective"),
+            "kr_lowest": r.get("kr_lowest_price"),
+            "score": r.get("score"),
+            "published": pub,
+            "reject_reason": r.get("reject_reason") or "",
+            "first_seen": keep.get("first_seen") or now.isoformat(timespec="seconds"),
+            "last_seen": now.isoformat(timespec="seconds"),
+        }
+    recent = [r for r in rows.values()
+              if _age_hours(now, r.get("first_seen", "")) <= EMAIL_MONITOR_HOURS]
+    recent.sort(key=lambda r: r.get("first_seen", ""), reverse=True)
+    recent = recent[:EMAIL_MONITOR_MAX]
+    return {
+        "status": status,
+        "recent": recent,
+        "totals": {
+            "collected_72h": len(recent),
+            "published_72h": sum(1 for r in recent if r.get("published")),
+        },
+    }
+
+
 def write_board(all_deals: list) -> None:
     """
     딜보드용 JSON 갱신.
@@ -283,6 +340,7 @@ def write_board(all_deals: list) -> None:
     # 기존 딜보드 읽어서 병합 (이번에 안 돈 티어의 딜을 살린다).
     # 살릴지 판단은 '마지막으로 본 시각(last_seen)' 기준 — 최근까지 활성이면 유지.
     merged = dict(fresh)
+    old: dict = {}
     try:
         with open(WEB_JSON, encoding="utf-8") as f:
             old = json.load(f)
@@ -310,7 +368,8 @@ def write_board(all_deals: list) -> None:
         curated = kept
 
     deals = sorted(curated, key=lambda d: d.get("score", 0), reverse=True)
-    payload = {"generated_at": now.isoformat(), "count": len(deals), "deals": deals}
+    payload = {"generated_at": now.isoformat(), "count": len(deals), "deals": deals,
+               "email_monitor": _email_monitor(all_deals, old if isinstance(old, dict) else {}, now)}
     os.makedirs(os.path.dirname(WEB_JSON), exist_ok=True)
     tmp = WEB_JSON + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
