@@ -4,7 +4,8 @@ name: Dealondo Threads
 # 글·일정: data/threads_schedule.json  /  이미지: threads/ (GitHub Pages로 공개 주소 제공)
 on:
   schedule:
-    - cron: '20 11 * * *'   # 매일 11:20 UTC = 20:20 한국시간 (GitHub 사정으로 다소 늦을 수 있음)
+    # 매일 게시는 radar.yml(20분마다)의 '스레드 예약 글 게시' 단계가 맡는다(예약 실행 지연 대비).
+    # 여기는 수동 실행(dry-run/post/refresh)과 주간 토큰 연장만.
     - cron: '0 3 * * 1'     # 매주 월요일 12:00 한국시간 — 토큰 60일 연장
   workflow_dispatch:
     inputs:
@@ -40,7 +41,7 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GH_PAT: ${{ secrets.GH_PAT }}          # 선택: 토큰 연장 시 시크릿 자동 갱신
           GH_REPO: ${{ github.repository }}
-          MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || (github.event.schedule == '0 3 * * 1' && 'refresh' || 'post') }}
+          MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || 'refresh' }}
         run: |
           cd scraper
           case "$MODE" in

@@ -90,6 +90,33 @@ def label(it: dict) -> str:
     return f"#{it['no']} {it['title']}"
 
 
+# 딜보드 워크플로(20분마다)에 얹어 돌릴 때: 게시 창(window~until) 안에서만 시도한다.
+# GitHub 예약 실행은 수십 분 밀리거나 가끔 건너뛰므로, 20분마다 도는 실행 중
+# '게시 시각 이후 첫 실행'이 올리게 해서 하루 한 번을 확실히 보장한다.
+QUIET = {"on": False}        # 창 모드에서 같은 알림이 20분마다 반복되지 않게
+
+
+def _hm(s: str) -> dt.time:
+    h, m = s.split(":")
+    return dt.time(int(h), int(m))
+
+
+def in_window(start: str, until: str) -> tuple[bool, bool]:
+    """(지금 창 안인가, 창의 첫 20분인가)"""
+    now = dt.datetime.now(KST)
+    a = dt.datetime.combine(now.date(), _hm(start), KST)
+    b = dt.datetime.combine(now.date(), _hm(until), KST)
+    return a <= now < b, a <= now < a + dt.timedelta(minutes=20)
+
+
+def fail_tg(msg: str) -> None:
+    """실패 알림 — 창 모드에선 첫 시도와 마지막 시도에서만 보낸다(20분마다 반복 방지)."""
+    if QUIET["on"] and not QUIET.get("last"):
+        print("[알림 생략 — 재시도 중]", msg.replace("\n", " | "))
+        return
+    tg(msg + ("\n(오늘 마지막 자동 시도였어요. Actions에서 post로 직접 실행해 주세요.)" if QUIET.get("last") else ""))
+
+
 def run_post(dry: bool, force: bool) -> int:
     token, uid = os.environ.get("THREADS_ACCESS_TOKEN"), os.environ.get("THREADS_USER_ID")
     items, today = load_schedule(), today_kst()
@@ -108,7 +135,7 @@ def run_post(dry: bool, force: bool) -> int:
 
     print(f"오늘(KST) {today} · 예약 {len(items)}개 · 게시됨 {sum(map(is_posted, items))}개 · "
           f"올릴 차례 {len(ready)}개 · 빈칸 때문에 보류 {len(blocked)}개")
-    for it in blocked:
+    for it in ([] if QUIET["on"] else blocked):
         tg(f"⚠️ 스레드 예약 글 보류: {label(it)} ({it['date']})\n"
            f"본문이나 첫 답글에 [링크] 빈칸이 남아 있어요. data/threads_schedule.json 을 채워 커밋해 주세요.")
 
@@ -142,14 +169,14 @@ def run_post(dry: bool, force: bool) -> int:
         return 0
 
     if img and not image_ok(img):
-        tg(f"❌ 스레드 게시 중단: {label(it)}\n이미지 주소를 열 수 없어요: {img}\n"
+        fail_tg(f"❌ 스레드 게시 중단: {label(it)}\n이미지 주소를 열 수 없어요: {img}\n"
            f"threads/ 폴더 이미지가 커밋·배포됐는지 확인해 주세요.")
         return 1
 
     try:
         pid = T.publish_post(uid, token, it["text"], img)
     except T.ThreadsError as e:
-        tg(f"❌ 스레드 게시 실패: {label(it)}\n{e}")
+        fail_tg(f"❌ 스레드 게시 실패: {label(it)}\n{e}")
         return 1
     link = T.permalink(pid, token)
     reply_note = ""
@@ -204,8 +231,24 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--force", action="store_true", help="오늘 이미 올렸어도 한 번 더")
     ap.add_argument("--refresh", action="store_true")
+    ap.add_argument("--window", help="이 시각(KST, HH:MM) 이후에만 게시 시도. 예: 20:20")
+    ap.add_argument("--until", default="23:00", help="게시 시도 마감 시각(KST)")
     a = ap.parse_args()
-    return run_refresh() if a.refresh else run_post(a.dry_run, a.force)
+    if a.refresh:
+        return run_refresh()
+    if a.window:
+        inside, first = in_window(a.window, a.until)
+        if not inside:
+            print(f"[스레드] 게시 창({a.window}~{a.until} KST) 밖 — 건너뜀")
+            return 0
+        QUIET["on"] = not first          # 보류·실패 알림은 창의 첫 실행에서만
+        QUIET["last"] = in_window(a.until, a.until)[0] or (
+            dt.datetime.now(KST) >= dt.datetime.combine(dt.datetime.now(KST).date(), _hm(a.until), KST) - dt.timedelta(minutes=20))
+    try:
+        return run_post(a.dry_run, a.force)
+    except Exception as e:               # 딜보드 워크플로를 깨뜨리지 않는다
+        print(f"[스레드] 오류: {type(e).__name__}: {e}")
+        return 0
 
 
 if __name__ == "__main__":

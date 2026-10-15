@@ -94,6 +94,21 @@ jobs:
           path: data/radar.db
           key: dealondo-db-${{ github.run_id }}
 
+      # 스레드(@deal_ondo) 예약 글 — 20분마다 도는 이 워크플로에 얹어서 하루 1회를 보장한다.
+      # (GitHub 예약 실행은 수십 분 밀리거나 건너뛰는 일이 잦아 별도 하루 1회 cron은 불안정)
+      # 20:20~23:00 KST 사이 '첫 실행'이 올리고, 이미 올렸으면 그날은 건너뛴다.
+      - name: 스레드 예약 글 게시
+        if: always()
+        env:
+          PYTHONUTF8: '1'
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          cd scraper
+          timeout 300 python threads_post.py --window 20:20 --until 23:00 || true
+
       - name: 딜보드 커밋 & 푸시
         run: |
           # 최신 UI를 루트로 동기화(딜보드 화면)
