@@ -1,0 +1,50 @@
+name: Dealondo Threads
+
+# 스레드(@deal_ondo) 예약 글 자동 게시.
+# 글·일정: data/threads_schedule.json  /  이미지: threads/ (GitHub Pages로 공개 주소 제공)
+on:
+  schedule:
+    - cron: '20 11 * * *'   # 매일 11:20 UTC = 20:20 한국시간 (GitHub 사정으로 다소 늦을 수 있음)
+    - cron: '0 3 * * 1'     # 매주 월요일 12:00 한국시간 — 토큰 60일 연장
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'post = 지금 게시 / dry-run = 미리보기만 / refresh = 토큰 연장'
+        required: true
+        default: 'dry-run'
+        type: choice
+        options: [dry-run, post, refresh]
+
+concurrency:
+  group: dealondo-threads
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 실행
+        env:
+          PYTHONUTF8: '1'
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GH_PAT: ${{ secrets.GH_PAT }}          # 선택: 토큰 연장 시 시크릿 자동 갱신
+          GH_REPO: ${{ github.repository }}
+          MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || (github.event.schedule == '0 3 * * 1' && 'refresh' || 'post') }}
+        run: |
+          cd scraper
+          case "$MODE" in
+            refresh) python threads_post.py --refresh ;;
+            dry-run) python threads_post.py --dry-run ;;
+            *)       python threads_post.py ;;
+          esac

@@ -116,6 +116,15 @@ def run_tier(tier: str, con) -> tuple[list, list]:
                 raw = raw + wt
         except Exception as e:
             print(f"[{tier}] Woot API 수집 오류: {type(e).__name__}: {e}")
+        # 슬릭딜 딜 알림 메일 — 사용자가 슬릭딜에 걸어둔 키워드 알림(FP·Fire·추천수 기준).
+        # 프론트페이지 RSS에 안 뜨는 메이시스·브랜드 딜까지 잡힌다. 시간 민감해서 T1 주기.
+        try:
+            al = sources.fetch_slickdeals_alerts()
+            if al:
+                print(f"[{tier}] 슬릭딜 알림 메일 {len(al)}건 추가")
+                raw = raw + al
+        except Exception as e:
+            print(f"[{tier}] 슬릭딜 알림 수집 오류: {type(e).__name__}: {e}")
 
     if tier == "T2":
         try:
@@ -242,7 +251,10 @@ BOARD_STALE_DAYS = float(os.environ.get("RADAR_BOARD_STALE_DAYS", "10"))
 
 
 def _deal_id(d: dict) -> str:
-    return (d.get("url") or "").split("?")[0].rstrip("/") or f"{d.get('source')}:{d.get('title')}"
+    base = (d.get("url") or "").split("?")[0].rstrip("/")
+    # 슬릭딜은 스레드 번호로 통일 — 예전 슬러그 주소 행과 새 표준형 행이 중복되지 않게
+    base = sources.slickdeals_canonical(base)
+    return base or f"{d.get('source')}:{d.get('title')}"
 
 
 def _age_hours(now, iso: str) -> float:

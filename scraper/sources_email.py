@@ -289,7 +289,7 @@ def _save_codes(deal: Deal, msg) -> None:
         print(f"[email] 코드 저장 실패: {type(e).__name__}")
 
 
-def fetch_email_deals(days: int = 2, limit: int = 60) -> list[Deal]:
+def fetch_email_deals(days: int = 2, limit: int = 200) -> list[Deal]:
     user = os.environ.get("RADAR_IMAP_USER")
     pw = os.environ.get("RADAR_IMAP_PASS")
     if not (user and pw):
@@ -306,14 +306,15 @@ def fetch_email_deals(days: int = 2, limit: int = 60) -> list[Deal]:
 
     deals: list[Deal] = []
     try:
-        M.select("INBOX")
+        # 읽기 전용 + PEEK — 사용자 메일함의 '읽음' 상태를 바꾸지 않는다(본 계정 메일함을 쓰는 경우 중요)
+        M.select("INBOX", readonly=True)
         since = (datetime.now(timezone.utc) - timedelta(days=days)).strftime("%d-%b-%Y")
         typ, data = M.search(None, f'(SINCE {since})')
         ids = data[0].split()[-limit:] if data and data[0] else []
         print(f"[email] 최근 {days}일 메일 {len(ids)}통 검사")
 
         for i in ids:
-            typ, msg_data = M.fetch(i, "(RFC822)")
+            typ, msg_data = M.fetch(i, "(BODY.PEEK[])")
             if typ != "OK" or not msg_data or not msg_data[0]:
                 continue
             msg = email.message_from_bytes(msg_data[0][1])
@@ -328,7 +329,7 @@ def fetch_email_deals(days: int = 2, limit: int = 60) -> list[Deal]:
         print(f"[email] 읽기 오류: {type(e).__name__}: {str(e)[:120]}")
     finally:
         try:
-            M.close(); M.logout()
+            M.logout()
         except Exception:
             pass
 
@@ -338,6 +339,166 @@ def fetch_email_deals(days: int = 2, limit: int = 60) -> list[Deal]:
     for s, n in sorted(by_src.items(), key=lambda x: -x[1]):
         print(f"  [email] {s:24s} {n}건")
     print(f"[email] 총 {len(deals)}건 추출")
+    return deals
+
+
+# ---------------------------------------------------------------------------
+# 슬릭딜 딜 알림 메일
+#   사용자가 슬릭딜에서 직접 걸어둔 키워드 알림(예: "Nike (Frontpage Rating)",
+#   "DYSON (4+ Thumbs)")이 deals@da.slickdeals.net 으로 온다. 슬릭딜이 보내준 메일을
+#   내가 읽는 것이므로 사이트 수집이 아니다. 프론트페이지 RSS에 안 뜨는
+#   메이시스·브랜드 딜까지 들어온다(실측: 30일 약 200통).
+#
+#   개인정보 주의: 메일 속 링크는 전부 links.da.slickdeals.net 추적 링크이고
+#   사용자 고유 uid가 박혀 있다. 이 링크는 절대 저장·발행하지 않는다.
+#   본문 이미지 주소에 있는 스레드 번호로 공개 주소(https://slickdeals.net/f/<번호>)를
+#   새로 만들어 쓴다. 메일 머리의 슬릭딜 닉네임도 저장하지 않는다.
+#
+#   메일 구조(2026-10 실측):
+#     본문 첫 줄: "<닉네임>, this FP deal matches your alert for "..."
+#     메인 딜: [가게명] → [제목] → [$현재가 $정가] → View Deal
+#     그 아래 "More Deals You Might Like" 추천 딜은 알림과 무관하므로 버린다.
+# ---------------------------------------------------------------------------
+_SDA_THREAD = re.compile(r"forums/daImageHandler\.php\?threadId=(\d+)")
+_SDA_THREAD_ANY = re.compile(r"daImageHandler\.php\?(?:size=\d+&(?:amp;)?)?threadId=(\d+)")
+_SDA_PAIR = re.compile(r"\$\s?([\d,]+(?:\.\d+)?)\s+\$\s?([\d,]+(?:\.\d+)?)")
+_SDA_RATING = re.compile(r"this\s+(FP|Fire|Frontpage|Popular|\d+\+?\s*thumbs?)\s+deal", re.I)
+_SDA_STORE = re.compile(r"\bat\s+([A-Za-z0-9][\w&'.\- ]{1,40}?)\s*$")
+_STORE_DOMAIN = {
+    "amazon": "amazon.com", "best buy": "bestbuy.com", "macy's": "macys.com", "macys": "macys.com",
+    "walmart": "walmart.com", "target": "target.com", "ebay": "ebay.com", "woot": "woot.com",
+    "zappos": "zappos.com", "6pm": "6pm.com", "nike": "nike.com", "adidas": "adidas.com",
+    "nordstrom rack": "nordstromrack.com", "nordstrom": "nordstrom.com", "costco": "costco.com",
+    "home depot": "homedepot.com", "lowe's": "lowes.com", "dsw": "dsw.com", "kohl's": "kohls.com",
+    "champs sports": "champssports.com", "foot locker": "footlocker.com", "rei": "rei.com",
+    "bloomingdale's": "bloomingdales.com", "saks off 5th": "saksoff5th.com", "newegg": "newegg.com",
+    "b&h photo": "bhphotovideo.com", "adorama": "adorama.com", "levi's": "levi.com",
+}
+
+
+def _parts(msg) -> tuple[str, str]:
+    """(plain, html) 원문 그대로."""
+    plain, html = "", ""
+    for p in (msg.walk() if msg.is_multipart() else [msg]):
+        ctype = p.get_content_type()
+        if ctype not in ("text/plain", "text/html"):
+            continue
+        try:
+            raw = p.get_payload(decode=True) or b""
+            txt = raw.decode(p.get_content_charset() or "utf-8", "replace")
+        except Exception:
+            continue
+        if ctype == "text/plain" and not plain:
+            plain = txt
+        elif ctype == "text/html" and not html:
+            html = txt
+    return plain, html
+
+
+def parse_slickdeals_alert(msg) -> Deal | None:
+    frm = _decode(msg.get("From", "")).lower()
+    if "slickdeals.net" not in frm:
+        return None
+    subject = re.sub(r"\s+", " ", _decode(msg.get("Subject", ""))).strip()
+    plain, html = _parts(msg)
+    m = _SDA_THREAD.search(html) or _SDA_THREAD_ANY.search(html)
+    if not (subject and m):
+        return None
+    tid = m.group(1)
+    url = f"https://slickdeals.net/f/{tid}"
+
+    # 메인 딜 영역만 (추천 딜 이전)
+    text = plain or re.sub(r"<[^>]+>", " ", html)
+    text = htmlmod.unescape(text).split("More Deals You Might Like")[0]
+    text_noref = re.sub(r"\(https?://[^)]*\)", " ", text)       # 추적 링크 제거
+
+    rating = _SDA_RATING.search(text_noref)
+    rating_s = rating.group(1).lower() if rating else ""
+    frontpage = rating_s in ("fp", "frontpage")
+
+    # 제목 뒤 첫 "$현재가 $정가" 쌍
+    after_title = text_noref.split(subject[:30], 1)[-1] if subject[:30] in text_noref else text_noref
+    cur = lst = None
+    pm = _SDA_PAIR.search(after_title)
+    if pm:
+        try:
+            cur = float(pm.group(1).replace(",", ""))
+            lst = float(pm.group(2).replace(",", ""))
+        except ValueError:
+            cur = lst = None
+        if lst is not None and cur is not None and lst <= cur:
+            lst = None
+
+    # 공통 슬릭딜 파서로 브랜드·쿠폰·가격(제목 기준)을 채우고, 메일의 가격쌍으로 보정
+    try:
+        import sources as _src
+        d = _src.parse_slickdeals_item(subject, url, "", text_noref[:2000], frontpage)
+    except Exception:
+        return None
+    if cur is not None and not d.coupon_code:
+        d.price_current = cur
+    if lst is not None and (d.price_list is None or d.price_list <= (d.price_current or 0)):
+        d.price_list = lst
+    d.url = url
+    sm = _SDA_STORE.search(subject)
+    store_name = sm.group(1).strip().lower() if sm else ""
+    dom = _STORE_DOMAIN.get(store_name) or (re.sub(r"[^a-z0-9]+", "", store_name) or "slickdeals.net")
+    d.source = f"slickdeals:{dom}"
+    d.collection_method = "email"
+    d.image = d.image or f"https://slickdeals.net/forums/daImageHandler.php?threadId={tid}&t=15"
+    return d
+
+
+def _all_mail_folder(M) -> str:
+    """Gmail '전체보관함'(\\All) 폴더명 — 언어 설정마다 이름이 달라 속성으로 찾는다.
+    메일 정리 규칙이 알림을 보관처리해도 놓치지 않게 하려는 것. 못 찾으면 INBOX."""
+    try:
+        typ, data = M.list()
+        for line in data or []:
+            ln = line.decode("utf-8", "replace") if isinstance(line, bytes) else str(line)
+            if "\\All" in ln:
+                name = ln.rsplit(' "/" ', 1)[-1].strip()
+                return name if name.startswith('"') else f'"{name}"'
+    except Exception:
+        pass
+    return "INBOX"
+
+
+def fetch_slickdeals_alert_deals(days: int = 1, limit: int = 40) -> list[Deal]:
+    user = os.environ.get("RADAR_IMAP_USER")
+    pw = os.environ.get("RADAR_IMAP_PASS")
+    if not (user and pw):
+        return []
+    try:
+        M = imaplib.IMAP4_SSL(IMAP_HOST)
+        M.login(user, pw)
+    except Exception as e:
+        print(f"[sd-alert] 로그인 실패: {type(e).__name__}: {str(e)[:120]}")
+        return []
+    deals: list[Deal] = []
+    seen: set[str] = set()
+    ids: list = []
+    try:
+        M.select(_all_mail_folder(M), readonly=True)       # 읽음 표시를 바꾸지 않는다
+        since = (datetime.now(timezone.utc) - timedelta(days=days)).strftime("%d-%b-%Y")
+        typ, data = M.search(None, "SINCE", since, "FROM", "slickdeals.net")
+        ids = data[0].split()[-limit:] if data and data[0] else []
+        for i in reversed(ids):                              # 최신 메일부터
+            typ, msg_data = M.fetch(i, "(BODY.PEEK[])")
+            if typ != "OK" or not msg_data or not msg_data[0]:
+                continue
+            d = parse_slickdeals_alert(email.message_from_bytes(msg_data[0][1]))
+            if d and d.url not in seen:
+                seen.add(d.url)
+                deals.append(d)
+    except Exception as e:
+        print(f"[sd-alert] 읽기 오류: {type(e).__name__}: {str(e)[:120]}")
+    finally:
+        try:
+            M.logout()
+        except Exception:
+            pass
+    print(f"[sd-alert] 슬릭딜 알림 메일 {len(ids)}통 → 딜 {len(deals)}건")
     return deals
 
 

@@ -12,7 +12,7 @@ store.py — 상태 저장소 (SQLite)
    90일치가 모이면 '역대 최저가/1년 최저가/90일 최저가' 판정이 자동으로 켜진다.
 """
 from __future__ import annotations
-import sqlite3, os, hashlib
+import sqlite3, os, hashlib, re
 from datetime import datetime, timezone, timedelta
 
 def _default_db_path() -> str:
@@ -221,6 +221,24 @@ def history_depth(con: sqlite3.Connection) -> tuple[int, int]:
 # ---------------------------------------------------------------------------
 # 중복 방지
 # ---------------------------------------------------------------------------
+_SD_ID = re.compile(r"slickdeals\.net/f/(\d+)")
+
+
+def _legacy_slickdeals_row(con: sqlite3.Connection, d):
+    """슬릭딜 주소를 스레드 번호 표준형으로 바꾸기 전(슬러그 포함 주소)에 알린 기록 조회.
+    전환 직후 이미 알린 딜을 '새 딜'로 착각해 또 보내는 것을 막는다."""
+    m = _SD_ID.search(d.url or "")
+    if not m:
+        return None
+    try:
+        return con.execute(
+            "SELECT best_price, last_notified FROM notified WHERE url LIKE ? "
+            "ORDER BY last_notified DESC LIMIT 1",
+            (f"https://slickdeals.net/f/{m.group(1)}-%",)).fetchone()
+    except sqlite3.Error:
+        return None
+
+
 def filter_new(con: sqlite3.Connection, deals: list,
                repeat_after_days: int = 14,
                price_drop_pct: float = 5.0) -> list:
@@ -235,6 +253,8 @@ def filter_new(con: sqlite3.Connection, deals: list,
         row = con.execute(
             "SELECT best_price, last_notified FROM notified WHERE deal_key=?", (k,)
         ).fetchone()
+        if row is None:
+            row = _legacy_slickdeals_row(con, d)
         if row is None:
             out.append(d)
             continue

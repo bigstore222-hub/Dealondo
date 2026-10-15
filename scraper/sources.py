@@ -543,6 +543,16 @@ _SD_IMG = re.compile(r'<img[^>]+src="([^"]+)"')
 #  둘 다 틀어짐 — 실제로는 37.5/0.75=$50). \.\d+로 자릿수 제한을 풀어 고친다.
 _SD_PRICE = re.compile(r'\$([\d,]+(?:\.\d+)?)')
 
+# 슬릭딜 딜 주소를 스레드 번호만 남긴 표준형(https://slickdeals.net/f/<번호>)으로 맞춘다.
+# 같은 딜이 RSS(슬러그 포함 주소)와 알림 메일(번호만 확인 가능) 두 경로로 들어와도
+# 같은 딜로 인식되게 하려는 것. 표준형 주소도 슬릭딜이 원래 글로 리다이렉트한다.
+_SD_THREAD = re.compile(r'slickdeals\.net/f/(\d+)')
+
+
+def slickdeals_canonical(url: str) -> str:
+    m = _SD_THREAD.search(url or "")
+    return f"https://slickdeals.net/f/{m.group(1)}" if m else url
+
 
 def parse_slickdeals_item(title: str, link: str, desc: str, content: str,
                           frontpage: bool) -> Deal:
@@ -588,7 +598,7 @@ def parse_slickdeals_item(title: str, link: str, desc: str, content: str,
 
     return Deal(
         source=f"slickdeals:{retailer}", source_tier="T1",
-        url=link.split("?")[0] if link else link,
+        url=slickdeals_canonical(link.split("?")[0]) if link else link,
         title=title[:140], brand=_brand_from_title(title),
         image=im.group(1) if im else "",
         price_current=price_current, price_list=price_list,
@@ -858,6 +868,16 @@ def fetch_email() -> list[Deal]:
     try:
         from sources_email import fetch_email_deals
         return fetch_email_deals()
+    except ImportError:
+        return []
+
+
+def fetch_slickdeals_alerts() -> list[Deal]:
+    """슬릭딜 딜 알림 메일(사용자가 슬릭딜에서 직접 설정한 키워드 알림).
+    RADAR_IMAP_USER/PASS 가 없으면 조용히 빈 리스트."""
+    try:
+        from sources_email import fetch_slickdeals_alert_deals
+        return fetch_slickdeals_alert_deals()
     except ImportError:
         return []
 
