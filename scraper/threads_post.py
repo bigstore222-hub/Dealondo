@@ -41,6 +41,15 @@ BOARD_JSON = ROOT / "deals.json"
 
 
 def save_status(result: str, detail: str, it: dict | None, link: str = "") -> None:
+    # 수동 실행(창 모드가 아님)에서는 결과가 무엇이든 텔레그램으로도 알린다.
+    # 초록색 '성공'인데 글이 안 올라간 경우의 이유를 휴대폰에서 바로 보기 위함.
+    if not QUIET.get("window") and result != "게시 완료":
+        tg(f"ℹ️ 스레드 수동 실행 결과: {result}" + (f" — {label(it)}" if it else "")
+           + (f"\n{detail}" if detail else ""))
+    _save_status(result, detail, it, link)
+
+
+def _save_status(result: str, detail: str, it: dict | None, link: str = "") -> None:
     """
     마지막 게시 시도 결과를 deals.json 의 threads_monitor 에 남긴다.
     딜보드 워크플로가 이 파일을 커밋하므로, Actions 로그를 열지 않아도
@@ -74,7 +83,9 @@ def first_line(s: str) -> str:
 
 
 def tg(msg: str) -> None:
-    tok, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
+    # 시크릿 값 끝에 줄바꿈·공백이 섞여 들어가면 URL 오류가 난다(10/17 실제 발생) → 다듬어서 쓴다
+    tok = (os.environ.get("TELEGRAM_BOT_TOKEN") or "").strip()
+    chat = (os.environ.get("TELEGRAM_CHAT_ID") or "").strip()
     print("[알림]", msg.replace("\n", " | "))
     if not (tok and chat):
         return
@@ -144,7 +155,8 @@ def fail_tg(msg: str) -> None:
 
 
 def run_post(dry: bool, force: bool) -> int:
-    token, uid = os.environ.get("THREADS_ACCESS_TOKEN"), os.environ.get("THREADS_USER_ID")
+    token = (os.environ.get("THREADS_ACCESS_TOKEN") or "").strip()
+    uid = (os.environ.get("THREADS_USER_ID") or "").strip()
     items, today = load_schedule(), today_kst()
     if not (token and uid):
         if not dry:
@@ -276,6 +288,7 @@ def main() -> int:
         if not inside:
             print(f"[스레드] 게시 창({a.window}~{a.until} KST) 밖 — 건너뜀")
             return 0
+        QUIET["window"] = True
         QUIET["on"] = not first          # 보류·실패 알림은 창의 첫 실행에서만
         QUIET["last"] = in_window(a.until, a.until)[0] or (
             dt.datetime.now(KST) >= dt.datetime.combine(dt.datetime.now(KST).date(), _hm(a.until), KST) - dt.timedelta(minutes=20))
