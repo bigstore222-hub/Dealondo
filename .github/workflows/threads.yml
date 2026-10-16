@@ -12,9 +12,9 @@ on:
       mode:
         description: 'post = 지금 게시 / dry-run = 미리보기만 / refresh = 토큰 연장'
         required: true
-        default: 'dry-run'
+        default: 'post'
         type: choice
-        options: [dry-run, post, refresh]
+        options: [post, dry-run, refresh]
 
 concurrency:
   group: dealondo-threads

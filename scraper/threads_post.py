@@ -149,6 +149,7 @@ def run_post(dry: bool, force: bool) -> int:
     if not (token and uid):
         if not dry:
             print("[!] THREADS_ACCESS_TOKEN / THREADS_USER_ID 가 없습니다. 게시를 건너뜁니다.")
+            save_status("설정 누락", "GitHub Secrets에 THREADS_ACCESS_TOKEN / THREADS_USER_ID 가 없음", None)
             return 0
         posted = {}
     else:
@@ -196,7 +197,7 @@ def run_post(dry: bool, force: bool) -> int:
     if it.get("reply"):
         print("  첫 답글 ───────\n" + it["reply"])
     if dry:
-        print("\n(--dry-run: 실제로 올리지 않았습니다)")
+        print("\n(--dry-run: 실제로 올리지 않았습니다. 올리려면 Run workflow 에서 post 를 고르세요)")
         return 0
 
     if img and not image_ok(img):
@@ -282,6 +283,9 @@ def main() -> int:
         return run_post(a.dry_run, a.force)
     except Exception as e:               # 딜보드 워크플로를 깨뜨리지 않는다
         print(f"[스레드] 오류: {type(e).__name__}: {e}")
+        save_status("오류", f"{type(e).__name__}: {str(e)[:300]}", None)
+        if not QUIET["on"]:
+            tg(f"❌ 스레드 자동 게시 오류: {type(e).__name__}: {str(e)[:200]}")
         return 0
 
 
