@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-16T17:33:40.393541+00:00",
-  "count": 55,
+  "generated_at": "2026-10-16T20:05:08.404043+00:00",
+  "count": 58,
   "deals": [
     {
       "source": "6pm.com",
@@ -94,7 +94,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-11T18:57:09.186814+00:00",
-      "last_seen": "2026-10-16T17:29:08.087915+00:00"
+      "last_seen": "2026-10-16T20:03:44.320355+00:00"
     },
     {
       "source": "zappos.com",
@@ -141,7 +141,55 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-10T19:03:59.222408+00:00",
-      "last_seen": "2026-10-16T13:17:29.528288+00:00"
+      "last_seen": "2026-10-16T20:03:44.320355+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/allsaints-riley-leather-bomber-jacket/8183311",
+      "title": "Riley Leather Bomber Jacket",
+      "brand": "Allsaints",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/f5f787d3-7223-4ea4-9c32-c916dd258d86.jpeg?h=368&w=240&dpr=2",
+      "price_current": 59.99,
+      "price_list": 539.0,
+      "price_baseline": 539.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 80551,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.nordstromrack.com/s/allsaints-riley-leather-bomber-jacket/8183311",
+      "discount_pct": 88.9,
+      "score": 83,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-06T23:04:58.612488+00:00",
+      "last_seen": "2026-10-16T20:03:44.320355+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -283,7 +331,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-13T14:41:31.853740+00:00",
-      "last_seen": "2026-10-16T17:29:08.087915+00:00"
+      "last_seen": "2026-10-16T20:03:44.320355+00:00"
     },
     {
       "source": "carhartt.com",
@@ -519,7 +567,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-16T17:28:47.337116+00:00",
-      "last_seen": "2026-10-16T17:29:08.087915+00:00",
+      "last_seen": "2026-10-16T20:03:44.320355+00:00",
       "variant_count": 2
     },
     {
@@ -573,6 +621,55 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20163837",
+      "title": "GINJEE Cordless Men's Hair Clipper & Trimmer Set (Gold) $20 + Free S&H",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/1/2/4/9/0/7/0/8/300x300/21979011.thumb",
+      "price_current": 20.0,
+      "price_list": 40.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "U0W8ILF0",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 23,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 26855,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20163837",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 U0W8ILF0 → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-15T18:36:04.796135+00:00",
+      "last_seen": "2026-10-16T20:03:09.813110+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
       "url": "https://slickdeals.net/f/20152149",
       "title": "2-Pk Wegear 30W USB-C GaN III Wall Charger Block & Cable (Black or White) $10",
       "brand": "",
@@ -587,7 +684,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 94,
+      "community_votes": 103,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -617,7 +714,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-15T06:49:33.542285+00:00",
-      "last_seen": "2026-10-16T17:28:36.303738+00:00"
+      "last_seen": "2026-10-16T20:03:09.813110+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -636,7 +733,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 233,
+      "community_votes": 235,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -660,13 +757,62 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "community": "투표 233+할인40% → 하한 75"
+        "community": "투표 235+할인40% → 하한 75"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-16T17:28:14.734151+00:00",
-      "last_seen": "2026-10-16T17:28:36.303738+00:00"
+      "last_seen": "2026-10-16T20:03:09.813110+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20131167",
+      "title": "K-Swiss Men's Cloud Burst Road Running Shoes (4 Colors) $59.95 + Free S&H",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/8/3/9/2/300x300/21891705.thumb",
+      "price_current": 59.95,
+      "price_list": 5995.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "HUNE8U66",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 15,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 80497,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20131167",
+      "discount_pct": 99.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 HUNE8U66 → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-16T17:28:14.734151+00:00",
+      "last_seen": "2026-10-16T20:03:09.813110+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -715,22 +861,22 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-16T17:28:14.734151+00:00",
-      "last_seen": "2026-10-16T17:28:36.303738+00:00"
+      "last_seen": "2026-10-16T20:03:09.813110+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20168427",
-      "title": "Amazon – Ceylon Cinnamon Supplement with Berberine & Chromium - $7.34 w/ Code",
+      "url": "https://slickdeals.net/f/20168940",
+      "title": "36L Uoxfill Folding Bread Proofing Box w/ Temp Control $24.99 + Free Shipping",
       "brand": "",
       "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/2/4/9/0/7/0/8/300x300/21992121.thumb",
-      "price_current": 7.34,
-      "price_list": 14.68,
+      "image": "https://static.slickdealscdn.com/attachment/9/3/0/4/6/1/9/300x300/21993345.thumb",
+      "price_current": 24.99,
+      "price_list": 49.98,
       "price_baseline": null,
       "price_alltime_low": null,
       "currency": "USD",
-      "coupon_code": "M5M4GQD0",
+      "coupon_code": "V4EXA1MR",
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
@@ -739,7 +885,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 9856,
+      "krw_effective": 33555,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -748,7 +894,7 @@
       "frontpage": false,
       "code_kind": "public",
       "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20168427",
+      "buy_url": "https://slickdeals.net/f/20168940",
       "discount_pct": 50.0,
       "score": 75,
       "score_breakdown": {
@@ -758,111 +904,13 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 M5M4GQD0 → 하한 75"
+        "code_deal": "공개코드 V4EXA1MR → 하한 75"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-10-16T17:28:14.734151+00:00",
-      "last_seen": "2026-10-16T17:28:36.303738+00:00"
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20168412",
-      "title": "Amazon – Alliwise D3 K2 Vitamin 10000 IU with Magnesium Glycinate Softgels,120 Count - $6.99 w/ Code",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/2/4/9/0/7/0/8/300x300/21992046.thumb",
-      "price_current": 6.99,
-      "price_list": 13.98,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "03I74LVN",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 1,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 9386,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20168412",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 03I74LVN → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-16T17:28:14.734151+00:00",
-      "last_seen": "2026-10-16T17:28:36.303738+00:00"
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20168409",
-      "title": "Amazon – Lukaree 16-in-1 Wormwood Black Walnut Clove Cleanse - Gentle Gut Health - $9.99 w/ Code",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/2/4/9/0/7/0/8/300x300/21992007.thumb",
-      "price_current": 9.99,
-      "price_list": 19.98,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "ZT0RFC2W",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 1,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 13414,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20168409",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 ZT0RFC2W → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-16T17:28:14.734151+00:00",
-      "last_seen": "2026-10-16T17:28:36.303738+00:00"
+      "detected_at": "2026-10-16T20:02:49.328818+00:00",
+      "last_seen": "2026-10-16T20:03:09.813110+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -910,7 +958,103 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-14T08:11:21.943566+00:00",
-      "last_seen": "2026-10-16T17:29:08.087915+00:00"
+      "last_seen": "2026-10-16T20:03:44.320355+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10053743",
+      "title": "Lumley Long Sleeve Shirt",
+      "brand": "AllSaints",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/812JD+V-0WL._AC_SR255,340_.jpg",
+      "price_current": 47.7,
+      "price_list": 159.0,
+      "price_baseline": 159.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 64049,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.zappos.com/product/10053743",
+      "discount_pct": 70.0,
+      "score": 71,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-16T20:03:26.331446+00:00",
+      "last_seen": "2026-10-16T20:03:44.320355+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/9992206",
+      "title": "Taverham Performance Polo Shirt",
+      "brand": "Barbour",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/71jIuUlDwbL._AC_SR255,340_.jpg",
+      "price_current": 30.0,
+      "price_list": 100.0,
+      "price_baseline": 100.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 40282,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.zappos.com/product/9992206",
+      "discount_pct": 70.0,
+      "score": 71,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-16T20:03:26.331446+00:00",
+      "last_seen": "2026-10-16T20:03:44.320355+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1102,7 +1246,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-15T09:31:30.211767+00:00",
-      "last_seen": "2026-10-16T17:29:08.087915+00:00"
+      "last_seen": "2026-10-16T20:03:44.320355+00:00"
     },
     {
       "source": "zappos.com",
@@ -1342,7 +1486,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-16T08:12:52.950462+00:00",
-      "last_seen": "2026-10-16T17:28:36.303738+00:00"
+      "last_seen": "2026-10-16T20:03:09.813110+00:00"
     },
     {
       "source": "slickdeals:zappos.com",
@@ -1390,7 +1534,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-15T06:49:33.542285+00:00",
-      "last_seen": "2026-10-16T17:28:36.303738+00:00"
+      "last_seen": "2026-10-16T20:03:09.813110+00:00"
     },
     {
       "source": "slickdeals:zappos.com",
@@ -1438,7 +1582,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-15T06:49:33.542285+00:00",
-      "last_seen": "2026-10-16T17:28:36.303738+00:00"
+      "last_seen": "2026-10-16T20:03:09.813110+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1486,7 +1630,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-15T04:43:12.560420+00:00",
-      "last_seen": "2026-10-16T17:29:08.087915+00:00"
+      "last_seen": "2026-10-16T20:03:44.320355+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1534,7 +1678,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-16T08:13:27.341983+00:00",
-      "last_seen": "2026-10-16T17:29:08.087915+00:00"
+      "last_seen": "2026-10-16T20:03:44.320355+00:00"
     },
     {
       "source": "ashford.com",
@@ -1582,7 +1726,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-15T18:37:52.122016+00:00",
-      "last_seen": "2026-10-16T17:30:24.596148+00:00"
+      "last_seen": "2026-10-16T20:05:07.084227+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1633,16 +1777,16 @@
       "last_seen": "2026-10-15T21:43:53.322281+00:00"
     },
     {
-      "source": "dealnews",
+      "source": "zappos.com",
       "source_tier": "T2",
-      "url": "https://www.dealnews.com/Under-Armour-Mens-Unstoppable-Jacket-for-34-free-shipping-w-49/22288975.html?iref=rss",
-      "title": "Under Armour Men's Unstoppable Jacket for $34 + free shipping w/ $49",
-      "brand": "Under Armour",
+      "url": "https://www.zappos.com/product/10008746",
+      "title": "Buenita",
+      "brand": "Kenneth Cole Reaction",
       "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1792169735-23uarmnstppbljcktapo_city_khaki_black.webp?h=250&w=187",
-      "price_current": 34.0,
-      "price_list": null,
-      "price_baseline": null,
+      "image": "https://m.media-amazon.com/images/I/71e0+yCZ95L._AC_SR255,340_.jpg",
+      "price_current": 23.7,
+      "price_list": 79.0,
+      "price_baseline": 79.0,
       "price_alltime_low": null,
       "currency": "USD",
       "coupon_code": "",
@@ -1654,32 +1798,31 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 45653,
+      "krw_effective": 31823,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
       "expires_at": null,
-      "collection_method": "rss",
+      "collection_method": "scrape",
       "frontpage": false,
       "code_kind": "",
       "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Under-Armour-Mens-Unstoppable-Jacket-for-34-free-shipping-w-49/22288975.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
+      "buy_url": "https://www.zappos.com/product/10008746",
+      "discount_pct": 70.0,
+      "score": 56,
       "score_breakdown": {
-        "discount_depth": 0,
+        "discount_depth": 30,
         "price_history": null,
-        "category": 17,
+        "category": 13,
         "bonus": 0,
         "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
+        "note": "가격이력 미축적 → 87점 척도 정규화"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-16T17:28:47.337116+00:00",
-      "last_seen": "2026-10-16T17:29:08.087915+00:00"
+      "detected_at": "2026-10-16T20:03:26.331446+00:00",
+      "last_seen": "2026-10-16T20:03:44.320355+00:00"
     },
     {
       "source": "dealnews",
@@ -1727,8 +1870,106 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-16T17:28:47.085825+00:00",
-      "last_seen": "2026-10-16T17:29:08.087915+00:00"
+      "detected_at": "2026-10-16T20:03:26.074927+00:00",
+      "last_seen": "2026-10-16T20:03:44.320355+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Under-Armour-Mens-Unstoppable-Jacket-for-34-free-shipping-w-49/22288975.html?iref=rss",
+      "title": "Under Armour Men's Unstoppable Jacket for $34 + free shipping w/ $49",
+      "brand": "Under Armour",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1792169735-23uarmnstppbljcktapo_city_khaki_black.webp?h=250&w=187",
+      "price_current": 34.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 45653,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Under-Armour-Mens-Unstoppable-Jacket-for-34-free-shipping-w-49/22288975.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-16T17:28:47.337116+00:00",
+      "last_seen": "2026-10-16T20:03:44.320355+00:00"
+    },
+    {
+      "source": "techbargains:adidas",
+      "source_tier": "T2",
+      "url": "https://www.adidas.com/us/sale",
+      "title": "Adidas Fall Favorites: Up to 40% off + Extra 15% Off Select Sale & Full Priced Shoes and Clothing",
+      "brand": "Adidas",
+      "category": "premium_fashion",
+      "image": "https://www.techbargains.com/imagery/deals/216156.1792151058.fit_lim.size_125x125.png",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.adidas.com/us/sale",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-16T20:03:26.299132+00:00",
+      "last_seen": "2026-10-16T20:03:44.320355+00:00"
     },
     {
       "source": "dealnews",
@@ -1777,55 +2018,6 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-16T17:28:47.104806+00:00",
-      "last_seen": "2026-10-16T17:29:08.087915+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/adidas-Fall-Accessory-Sale-Up-to-60-off-extra-30-off-free-shipping/22288841.html?iref=rss",
-      "title": "adidas Fall Accessory Sale: Up to 60% off + extra 30% off + free shipping",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1792162588-product-trimmed.png?h=250&w=244",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/adidas-Fall-Accessory-Sale-Up-to-60-off-extra-30-off-free-shipping/22288841.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-16T17:28:47.107050+00:00",
       "last_seen": "2026-10-16T17:29:08.087915+00:00"
     },
     {
@@ -2611,64 +2803,15 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-14T21:43:15.113265+00:00",
       "last_seen": "2026-10-14T21:43:35.747247+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Kenneth-Cole-Mens-47-mm-Quartz-Watch-for-30-free-shipping/22284117.html?iref=rss",
-      "title": "Kenneth Cole Men's 47mm Quartz Watch for $30 + free shipping",
-      "brand": "Kenneth Cole",
-      "category": "watch_misc",
-      "image": "https://d.dlnws.com/64599/1791993883-product-trimmed.jpg?h=250&w=176",
-      "price_current": 30.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 40226,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Kenneth-Cole-Mens-47-mm-Quartz-Watch-for-30-free-shipping/22284117.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 10,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-14T18:13:52.020456+00:00",
-      "last_seen": "2026-10-14T18:14:12.078757+00:00"
     }
   ],
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-16T17:28:14+00:00",
+        "at": "2026-10-16T20:02:49+00:00",
         "state": "정상",
-        "mails": 10,
-        "deals": 10
+        "mails": 12,
+        "deals": 12
       },
       "newsletter": {
         "at": "2026-10-16T17:33:19+00:00",
@@ -2678,6 +2821,36 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20168661",
+        "source": "slickdeals:amazon.com",
+        "title": "89-Pc LEGO Star Wars Plo Koon's Jedi Starfighter Microfighter Building Set for $8.90 at Amazon",
+        "price": 8.9,
+        "list_price": 14.99,
+        "discount_pct": 40.6,
+        "krw": 11950,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-10-16T20:03:09+00:00",
+        "last_seen": "2026-10-16T20:05:08+00:00"
+      },
+      {
+        "url": "https://slickdeals.net/f/20139090",
+        "source": "slickdeals:amazon.com",
+        "title": "ENOMIR Smart Watch for Kids w/ Camera & Music Player (2 colors) for $23 at Amazon",
+        "price": 23.0,
+        "list_price": 69.99,
+        "discount_pct": 67.1,
+        "krw": 30883,
+        "kr_lowest": null,
+        "score": 60,
+        "published": true,
+        "reject_reason": "",
+        "first_seen": "2026-10-16T20:03:09+00:00",
+        "last_seen": "2026-10-16T20:05:08+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20165625",
         "source": "slickdeals:harborfreight",
@@ -2691,7 +2864,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-16T13:16:53+00:00",
-        "last_seen": "2026-10-16T17:33:40+00:00"
+        "last_seen": "2026-10-16T20:05:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20164485",
@@ -2706,7 +2879,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-16T13:16:53+00:00",
-        "last_seen": "2026-10-16T17:33:40+00:00"
+        "last_seen": "2026-10-16T20:05:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20165391",
@@ -2721,7 +2894,7 @@
         "published": false,
         "reject_reason": "H8: 할인 19% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-16T13:16:53+00:00",
-        "last_seen": "2026-10-16T17:33:40+00:00"
+        "last_seen": "2026-10-16T20:05:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20153565",
@@ -2736,7 +2909,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-16T08:13:17+00:00",
-        "last_seen": "2026-10-16T17:33:40+00:00"
+        "last_seen": "2026-10-16T20:05:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20157408",
@@ -2751,7 +2924,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-16T08:13:17+00:00",
-        "last_seen": "2026-10-16T17:33:40+00:00"
+        "last_seen": "2026-10-16T20:05:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20165136",
@@ -2766,7 +2939,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-16T03:14:11+00:00",
-        "last_seen": "2026-10-16T17:33:40+00:00"
+        "last_seen": "2026-10-16T20:05:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20165157",
@@ -2781,7 +2954,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-16T03:14:11+00:00",
-        "last_seen": "2026-10-16T17:33:40+00:00"
+        "last_seen": "2026-10-16T20:05:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20151078",
@@ -2841,7 +3014,7 @@
         "published": false,
         "reject_reason": "H7: Adidas 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-15T18:36:23+00:00",
-        "last_seen": "2026-10-16T17:33:40+00:00"
+        "last_seen": "2026-10-16T20:05:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20158236",
@@ -3021,7 +3194,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-15T06:49:53+00:00",
-        "last_seen": "2026-10-16T17:33:40+00:00"
+        "last_seen": "2026-10-16T20:05:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20157390",
@@ -3036,7 +3209,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-15T06:49:53+00:00",
-        "last_seen": "2026-10-16T17:33:40+00:00"
+        "last_seen": "2026-10-16T20:05:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20146779",
@@ -3160,8 +3333,8 @@
       }
     ],
     "totals": {
-      "collected_72h": 32,
-      "published_72h": 3
+      "collected_72h": 34,
+      "published_72h": 4
     }
   }
 }
