@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15T21:48:43.344026+00:00",
-  "count": 60,
+  "generated_at": "2026-10-16T00:00:58.226997+00:00",
+  "count": 59,
   "deals": [
     {
       "source": "6pm.com",
@@ -94,7 +94,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-11T18:57:09.186814+00:00",
-      "last_seen": "2026-10-15T21:43:53.322281+00:00"
+      "last_seen": "2026-10-15T23:59:32.090661+00:00"
     },
     {
       "source": "zappos.com",
@@ -142,54 +142,6 @@
       "urgency": "FLASH",
       "detected_at": "2026-10-10T19:03:59.222408+00:00",
       "last_seen": "2026-10-15T14:23:31.045203+00:00"
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/kate-spade-new-york-small-flap-card-wallet/7744072",
-      "title": "small flap card wallet",
-      "brand": "Kate Spade New York",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/e8b23e91-5eed-41fb-887d-b2143b44ab28.jpeg?h=368&w=240&dpr=2",
-      "price_current": 24.98,
-      "price_list": 139.0,
-      "price_baseline": 139.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 33317,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/kate-spade-new-york-small-flap-card-wallet/7744072",
-      "discount_pct": 82.0,
-      "score": 83,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-13T23:50:42.535042+00:00",
-      "last_seen": "2026-10-13T23:51:00.495515+00:00"
     },
     {
       "source": "carhartt.com",
@@ -425,7 +377,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-15T21:44:58.903920+00:00",
-      "last_seen": "2026-10-15T21:45:17.893318+00:00"
+      "last_seen": "2026-10-16T00:00:56.410501+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -444,7 +396,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 19,
+      "community_votes": 22,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -474,7 +426,56 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-15T21:42:56.363397+00:00",
-      "last_seen": "2026-10-15T21:43:15.615522+00:00"
+      "last_seen": "2026-10-15T23:58:53.652963+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20165094",
+      "title": "Amazon – INPHIC M9 Rechargeable Wireless Mouse - $6.80 w/ Code + Coupon",
+      "brand": "",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/1/2/4/9/0/7/0/8/300x300/21982704.thumb",
+      "price_current": 6.8,
+      "price_list": 13.6,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "CCE5CGCN",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 0,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 9111,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20165094",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 CCE5CGCN → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-15T23:58:34.056676+00:00",
+      "last_seen": "2026-10-15T23:58:53.652963+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -673,55 +674,6 @@
       "last_seen": "2026-10-15T18:36:23.319758+00:00"
     },
     {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20163885",
-      "title": "4-Pack cusugbaso 12\"x18\" Thanksgiving Pumpkin Fall Placemats $3.49 + Free Shipping w/ Prime or on $35+",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/9/3/0/4/6/1/9/300x300/21979182.thumb",
-      "price_current": 35.0,
-      "price_list": 70.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "8WA2GBD9",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 0,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 46893,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20163885",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 8WA2GBD9 → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-15T18:36:04.796135+00:00",
-      "last_seen": "2026-10-15T18:36:23.319758+00:00"
-    },
-    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/marc-jacobs-bold-grind-mini-top-handle-satchel/8048781",
@@ -767,7 +719,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-14T08:11:21.943566+00:00",
-      "last_seen": "2026-10-15T21:43:53.322281+00:00"
+      "last_seen": "2026-10-15T23:59:32.090661+00:00"
     },
     {
       "source": "zappos.com",
@@ -960,7 +912,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-15T09:31:30.211767+00:00",
-      "last_seen": "2026-10-15T21:43:53.322281+00:00"
+      "last_seen": "2026-10-15T23:59:32.090661+00:00"
     },
     {
       "source": "zappos.com",
@@ -1008,7 +960,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-14T21:43:15.113265+00:00",
-      "last_seen": "2026-10-15T21:43:53.322281+00:00"
+      "last_seen": "2026-10-15T23:59:32.090661+00:00"
     },
     {
       "source": "zappos.com",
@@ -1200,7 +1152,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-15T06:49:33.542285+00:00",
-      "last_seen": "2026-10-15T21:43:15.615522+00:00"
+      "last_seen": "2026-10-15T23:58:53.652963+00:00"
     },
     {
       "source": "slickdeals:zappos.com",
@@ -1248,7 +1200,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-15T06:49:33.542285+00:00",
-      "last_seen": "2026-10-15T21:43:15.615522+00:00"
+      "last_seen": "2026-10-15T23:58:53.652963+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1296,7 +1248,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-13T14:41:31.853740+00:00",
-      "last_seen": "2026-10-15T21:43:53.322281+00:00"
+      "last_seen": "2026-10-15T23:59:32.090661+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1344,7 +1296,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-15T04:43:12.560420+00:00",
-      "last_seen": "2026-10-15T21:43:53.322281+00:00"
+      "last_seen": "2026-10-15T23:59:32.090661+00:00"
+    },
+    {
+      "source": "ashford.com",
+      "source_tier": "T3",
+      "url": "https://www.ashford.com/products/bugatti-48m-gry-rx-af",
+      "title": "Front view of Bugatti Men's Eyeglasses 48M-GRY-RX-AF",
+      "brand": "Ashford",
+      "category": "etc",
+      "image": "",
+      "price_current": 15.0,
+      "price_list": 183.6,
+      "price_baseline": 183.6,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 20097,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.ashford.com/products/bugatti-48m-gry-rx-af",
+      "discount_pct": 91.8,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-15T18:37:52.122016+00:00",
+      "last_seen": "2026-10-16T00:00:56.410501+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1395,54 +1395,6 @@
       "last_seen": "2026-10-15T21:43:53.322281+00:00"
     },
     {
-      "source": "ashford.com",
-      "source_tier": "T3",
-      "url": "https://www.ashford.com/products/bugatti-48m-gry-rx-af",
-      "title": "Front view of Bugatti Men's Eyeglasses 48M-GRY-RX-AF",
-      "brand": "Ashford",
-      "category": "etc",
-      "image": "",
-      "price_current": 15.0,
-      "price_list": 183.6,
-      "price_baseline": 183.6,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 20097,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.ashford.com/products/bugatti-48m-gry-rx-af",
-      "discount_pct": 91.8,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-15T18:37:52.122016+00:00",
-      "last_seen": "2026-10-15T21:45:17.893318+00:00"
-    },
-    {
       "source": "dealnews",
       "source_tier": "T2",
       "url": "https://www.dealnews.com/adidas-Terrex-Shoes-Clothes-Sale-Up-to-50-off-extra-30-off-Free-shipping/22285491.html?iref=rss",
@@ -1489,7 +1441,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-15T14:23:10.586114+00:00",
-      "last_seen": "2026-10-15T21:43:53.322281+00:00"
+      "last_seen": "2026-10-15T23:59:32.090661+00:00"
     },
     {
       "source": "dealnews",
@@ -1538,7 +1490,105 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-15T21:43:33.123267+00:00",
-      "last_seen": "2026-10-15T21:43:53.322281+00:00"
+      "last_seen": "2026-10-15T23:59:32.090661+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/adidas-Fall-Favorites-Sale-Up-to-50-off-extra-30-off-Free-shipping/22279528.html?iref=rss",
+      "title": "adidas Fall Favorites Sale: Up to 50% off + extra 30% off + Free shipping",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1701448358-dn-image-6647752.png?h=169&w=250",
+      "price_current": 35.0,
+      "price_list": 70.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 46893,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/adidas-Fall-Favorites-Sale-Up-to-50-off-extra-30-off-Free-shipping/22279528.html?iref=rss",
+      "discount_pct": 50.0,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-13T14:41:31.853740+00:00",
+      "last_seen": "2026-10-15T23:59:32.090661+00:00"
+    },
+    {
+      "source": "techbargains:adidas",
+      "source_tier": "T2",
+      "url": "https://www.adidas.com/us/sale",
+      "title": "Adidas Fall Favorites: Up to 50% off + Extra 15% Off Select Sale & Full Priced Shoes and Clothing",
+      "brand": "Adidas",
+      "category": "premium_fashion",
+      "image": "https://www.techbargains.com/imagery/deals/216156.1792094167.fit_lim.size_125x125.png",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.adidas.com/us/sale",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-15T23:59:12.852294+00:00",
+      "last_seen": "2026-10-15T23:59:32.090661+00:00"
     },
     {
       "source": "dealnews",
@@ -1685,104 +1735,6 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-15T21:43:32.745086+00:00",
-      "last_seen": "2026-10-15T21:43:53.322281+00:00"
-    },
-    {
-      "source": "techbargains:adidas",
-      "source_tier": "T2",
-      "url": "https://www.adidas.com/us/sale",
-      "title": "Adidas Fall Favorites: Up to 50% off + Extra 15% Off Select Sale & Full Priced Shoes and Clothing",
-      "brand": "Adidas",
-      "category": "premium_fashion",
-      "image": "https://www.techbargains.com/imagery/deals/216156.1792094167.fit_lim.size_125x125.png",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.adidas.com/us/sale",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-15T21:43:33.029651+00:00",
-      "last_seen": "2026-10-15T21:43:53.322281+00:00"
-    },
-    {
-      "source": "techbargains:amazon",
-      "source_tier": "T2",
-      "url": "https://www.amazon.com/gp/product/B08JWKPPJT/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1",
-      "title": "Adidas 40L Excel 6 Backpack $40.52",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://www.techbargains.com/imagery/deals/272702.1792068634.fit_lim.size_125x125.jpg",
-      "price_current": 40.52,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 54289,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/gp/product/B08JWKPPJT/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-15T14:23:10.586114+00:00",
       "last_seen": "2026-10-15T21:43:53.322281+00:00"
     },
     {
@@ -2916,10 +2868,10 @@
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-15T21:42:56+00:00",
+        "at": "2026-10-15T23:58:34+00:00",
         "state": "정상",
-        "mails": 22,
-        "deals": 21
+        "mails": 24,
+        "deals": 23
       },
       "newsletter": {
         "at": "2026-10-15T21:48:23+00:00",
@@ -2929,6 +2881,36 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20151078",
+        "source": "slickdeals:amazon.com",
+        "title": "626-Pc LEGO Creator 3-in-1 Wild Animals: Panda Family Building Set for $32 at Amazon",
+        "price": 32.0,
+        "list_price": 39.99,
+        "discount_pct": 20.0,
+        "krw": 42874,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-10-15T23:58:56+00:00",
+        "last_seen": "2026-10-16T00:00:58+00:00"
+      },
+      {
+        "url": "https://slickdeals.net/f/20155980",
+        "source": "slickdeals:amazon.com",
+        "title": "204-pc LEGO Harry Potter Hogwarts Castle: Charms Class Building Toy (76442) for $12 at Amazon",
+        "price": 12.0,
+        "list_price": 19.99,
+        "discount_pct": 40.0,
+        "krw": 16078,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-10-15T23:58:56+00:00",
+        "last_seen": "2026-10-16T00:00:58+00:00"
+      },
       {
         "url": "https://click.email.bloomingdales.com/",
         "source": "bloomingdales.com",
@@ -2957,7 +2939,7 @@
         "published": false,
         "reject_reason": "H7: Adidas 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-15T18:36:23+00:00",
-        "last_seen": "2026-10-15T21:48:43+00:00"
+        "last_seen": "2026-10-16T00:00:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20158236",
@@ -2972,7 +2954,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-15T18:36:23+00:00",
-        "last_seen": "2026-10-15T21:48:43+00:00"
+        "last_seen": "2026-10-16T00:00:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20088882",
@@ -2987,7 +2969,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-15T18:36:23+00:00",
-        "last_seen": "2026-10-15T21:48:43+00:00"
+        "last_seen": "2026-10-16T00:00:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20158329",
@@ -3002,7 +2984,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-15T18:36:23+00:00",
-        "last_seen": "2026-10-15T21:48:43+00:00"
+        "last_seen": "2026-10-16T00:00:58+00:00"
       },
       {
         "url": "https://clicks.finishline.com/f/a/726XqJ5AwP7aiwo0veIeDw~~/AAQRxRA~/q5FWE6g2uEc3AUAy5xm8e_FIJ3givzGXcYE3TXmjE6yDv1quUJkbMjjJCUfCPlk6ljUKRh4mJjtJPt9L310F_ELuQsMXq4bjLxlS4Rev2tzbjtJgd-F9Z8V1iiHBiiXaYl10YDI1Zzi14YaxfygAaQ~~",
@@ -3032,7 +3014,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-15T14:22:52+00:00",
-        "last_seen": "2026-10-15T21:48:43+00:00"
+        "last_seen": "2026-10-16T00:00:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20148180",
@@ -3047,7 +3029,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-15T14:22:52+00:00",
-        "last_seen": "2026-10-15T21:48:43+00:00"
+        "last_seen": "2026-10-16T00:00:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20162214",
@@ -3062,7 +3044,7 @@
         "published": false,
         "reject_reason": "H8: 할인 17% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-15T14:22:52+00:00",
-        "last_seen": "2026-10-15T21:48:43+00:00"
+        "last_seen": "2026-10-16T00:00:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20142210",
@@ -3077,7 +3059,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-15T14:22:52+00:00",
-        "last_seen": "2026-10-15T21:48:43+00:00"
+        "last_seen": "2026-10-16T00:00:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20153319",
@@ -3092,7 +3074,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-15T09:31:17+00:00",
-        "last_seen": "2026-10-15T21:48:43+00:00"
+        "last_seen": "2026-10-16T00:00:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20156670",
@@ -3107,7 +3089,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-15T06:49:53+00:00",
-        "last_seen": "2026-10-15T21:48:43+00:00"
+        "last_seen": "2026-10-16T00:00:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20156559",
@@ -3122,7 +3104,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-15T06:49:53+00:00",
-        "last_seen": "2026-10-15T21:48:43+00:00"
+        "last_seen": "2026-10-16T00:00:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20157540",
@@ -3137,7 +3119,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-15T06:49:53+00:00",
-        "last_seen": "2026-10-15T21:48:43+00:00"
+        "last_seen": "2026-10-16T00:00:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20157390",
@@ -3152,7 +3134,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-15T06:49:53+00:00",
-        "last_seen": "2026-10-15T21:48:43+00:00"
+        "last_seen": "2026-10-16T00:00:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20146779",
@@ -3167,7 +3149,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-15T06:49:53+00:00",
-        "last_seen": "2026-10-15T21:48:43+00:00"
+        "last_seen": "2026-10-16T00:00:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20156148",
@@ -3182,7 +3164,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-15T06:49:53+00:00",
-        "last_seen": "2026-10-15T21:48:43+00:00"
+        "last_seen": "2026-10-16T00:00:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20151582",
@@ -3197,7 +3179,7 @@
         "published": false,
         "reject_reason": "H7: Adidas 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-15T06:49:53+00:00",
-        "last_seen": "2026-10-15T21:48:43+00:00"
+        "last_seen": "2026-10-16T00:00:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20154363",
@@ -3212,7 +3194,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-15T06:49:53+00:00",
-        "last_seen": "2026-10-15T21:48:43+00:00"
+        "last_seen": "2026-10-16T00:00:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20152878",
@@ -3227,7 +3209,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-15T06:49:53+00:00",
-        "last_seen": "2026-10-15T21:48:43+00:00"
+        "last_seen": "2026-10-16T00:00:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20152149",
@@ -3242,7 +3224,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-15T06:49:53+00:00",
-        "last_seen": "2026-10-15T21:48:43+00:00"
+        "last_seen": "2026-10-16T00:00:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20151648",
@@ -3257,7 +3239,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-15T06:49:53+00:00",
-        "last_seen": "2026-10-15T21:48:43+00:00"
+        "last_seen": "2026-10-16T00:00:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20150946",
@@ -3272,11 +3254,11 @@
         "published": false,
         "reject_reason": "H8: 할인 19% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-15T06:49:53+00:00",
-        "last_seen": "2026-10-15T21:48:43+00:00"
+        "last_seen": "2026-10-16T00:00:58+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 23,
+      "collected_72h": 25,
       "published_72h": 2
     }
   }
