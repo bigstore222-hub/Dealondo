@@ -36,6 +36,32 @@ KST = dt.timezone(dt.timedelta(hours=9))
 PLACEHOLDER = re.compile(r"\[[^\]\n]*(링크|주소)[^\]\n]*\]")
 
 
+MAX_PER_DAY = 2
+BOARD_JSON = ROOT / "deals.json"
+
+
+def save_status(result: str, detail: str, it: dict | None, link: str = "") -> None:
+    """
+    마지막 게시 시도 결과를 deals.json 의 threads_monitor 에 남긴다.
+    딜보드 워크플로가 이 파일을 커밋하므로, Actions 로그를 열지 않아도
+    공개 주소(deals.json, monitor.html)에서 게시가 왜 됐는지/안 됐는지 확인할 수 있다.
+    """
+    try:
+        data = json.loads(BOARD_JSON.read_text(encoding="utf-8"))
+    except Exception:
+        return
+    mon = data.get("threads_monitor") or {}
+    entry = {"at": dt.datetime.now(KST).isoformat(timespec="seconds"), "result": result,
+             "detail": detail, "item": label(it) if it else "", "date": it["date"] if it else "",
+             "link": link}
+    hist = [entry] + [h for h in (mon.get("history") or [])][:19]
+    data["threads_monitor"] = {"last": entry, "history": hist}
+    try:
+        BOARD_JSON.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    except Exception as e:
+        print("  상태 기록 실패:", e)
+
+
 def today_kst() -> dt.date:
     return dt.datetime.now(KST).date()
 
@@ -139,21 +165,26 @@ def run_post(dry: bool, force: bool) -> int:
         tg(f"⚠️ 스레드 예약 글 보류: {label(it)} ({it['date']})\n"
            f"본문이나 첫 답글에 [링크] 빈칸이 남아 있어요. data/threads_schedule.json 을 채워 커밋해 주세요.")
 
-    # 같은 날 두 번 올리지 않기 (수동 실행 + 정기 실행이 겹쳐도 안전)
-    if not force and posted:
-        sched_lines = {first_line(it["text"]) for it in items}
-        for fl, p in posted.items():
-            ts = p.get("timestamp", "")
-            try:
-                d = dt.datetime.strptime(ts, "%Y-%m-%dT%H:%M:%S%z").astimezone(KST).date()
-            except ValueError:
-                continue
-            if d == today and fl in sched_lines:
-                print("오늘 이미 예약 글 하나를 올렸습니다. 내일 다시 실행됩니다.")
-                return 0
+    # 하루 게시 상한. 예전엔 '하루 1개'였는데, 밀린 글을 늦게(자정 넘어) 올리면
+    # 그날 예정 글이 막히는 문제가 있었다(10/16 실제 발생). 그래서 하루 2개까지 허용해
+    # 밀린 글 1개 + 그날 글 1개가 같은 날 나갈 수 있게 한다. 중복 게시는 '본문 첫 줄'로 막는다.
+    sched_lines = {first_line(it["text"]) for it in items}
+    posted_today = 0
+    for fl, p in posted.items():
+        try:
+            d = dt.datetime.strptime(p.get("timestamp", ""), "%Y-%m-%dT%H:%M:%S%z").astimezone(KST).date()
+        except ValueError:
+            continue
+        if d == today and fl in sched_lines:
+            posted_today += 1
+    if not force and posted_today >= MAX_PER_DAY:
+        print(f"오늘 이미 예약 글 {posted_today}개를 올렸습니다(하루 상한 {MAX_PER_DAY}). 내일 이어서 올립니다.")
+        save_status("상한 도달", f"오늘 {posted_today}개 게시됨", ready[0] if ready else None)
+        return 0
 
     if not ready:
         print("올릴 글이 없습니다.")
+        save_status("올릴 글 없음", "", None)
         return 0
     it = ready[0]
     img = (IMAGE_BASE + it["image"]) if it.get("image") else None
@@ -169,6 +200,7 @@ def run_post(dry: bool, force: bool) -> int:
         return 0
 
     if img and not image_ok(img):
+        save_status("실패", f"이미지 주소를 열 수 없음: {img}", it)
         fail_tg(f"❌ 스레드 게시 중단: {label(it)}\n이미지 주소를 열 수 없어요: {img}\n"
            f"threads/ 폴더 이미지가 커밋·배포됐는지 확인해 주세요.")
         return 1
@@ -176,6 +208,7 @@ def run_post(dry: bool, force: bool) -> int:
     try:
         pid = T.publish_post(uid, token, it["text"], img)
     except T.ThreadsError as e:
+        save_status("실패", str(e)[:300], it)
         fail_tg(f"❌ 스레드 게시 실패: {label(it)}\n{e}")
         return 1
     link = T.permalink(pid, token)
@@ -194,6 +227,7 @@ def run_post(dry: bool, force: bool) -> int:
         when = "내일" if n["_date"] <= today + dt.timedelta(days=1) else n["date"]
         nxt_txt = (f"\n\n📝 다음 글({when}): {label(n)}\n{n['text'][:180]}"
                    f"{'…' if len(n['text']) > 180 else ''}\n고칠 곳이 있으면 data/threads_schedule.json 수정 후 커밋")
+    save_status("게시 완료", reply_note, it, link)
     tg(f"✅ 스레드 게시 완료: {label(it)}\n{link}\n{reply_note}{nxt_txt}")
     return 0
 

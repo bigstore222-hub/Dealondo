@@ -26,6 +26,9 @@ th{font-size:12px;color:var(--muted);font-weight:600}td.num{text-align:right;whi
 <body>
 <h1>메일 수집 모니터</h1>
 <p class="sub" id="gen">불러오는 중…</p>
+<h2 style="font-size:15px;margin:8px 0">스레드 자동 게시</h2>
+<div class="cards" id="threads"></div>
+<h2 style="font-size:15px;margin:8px 0">메일 수집</h2>
 <div class="cards" id="cards"></div>
 <div class="wrap"><table><thead><tr><th>처음 본 시각</th><th>출처</th><th>딜</th><th>가격</th><th>할인</th><th>점수</th><th>딜보드</th></tr></thead><tbody id="rows"></tbody></table></div>
 <script>
@@ -41,6 +44,12 @@ fetch('deals.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
     const cls=s.state==='정상'?'ok':(s.state==='미설정'?'warn':'bad');
     h+=`<div class="card"><h2>${NAMES[k]}</h2><div class="big ${cls}">${esc(s.state)}</div><div class="why">마지막 실행 ${kst(s.at)} · 메일 ${s.mails}통 → 딜 ${s.deals}건</div></div>`}
   document.getElementById('cards').innerHTML=h;
+  const tm=d.threads_monitor||{};const hist=tm.history||[];
+  const tcls=r=>r==='게시 완료'?'ok':(r==='실패'?'bad':'warn');
+  let th='';
+  if(!hist.length){th='<div class="card"><h2>최근 시도</h2><div class="big warn">기록 없음</div><div class="why">20:20~23:00 사이 딜보드 실행에서 기록돼요</div></div>';}
+  else{th=hist.slice(0,6).map(x=>`<div class="card"><h2>${kst(x.at)}</h2><div class="big ${tcls(x.result)}">${esc(x.result)}</div><div class="why">${esc(x.item)}${x.date?' · 예정 '+esc(x.date):''}</div>${x.detail?`<div class="why">${esc(x.detail)}</div>`:''}${x.link?`<div class="why"><a href="${esc(x.link)}" target="_blank" rel="noopener">글 보기</a></div>`:''}</div>`).join('');}
+  document.getElementById('threads').innerHTML=th;
   const rows=(m.recent||[]).map(r=>`<tr><td>${kst(r.first_seen)}</td><td>${esc((r.source||'').replace('slickdeals:','SD · '))}</td>
    <td><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>${r.reject_reason?`<div class="why">${esc(r.reject_reason)}</div>`:''}</td>
    <td class="num">${r.price!=null?'$'+r.price:''}${r.list_price!=null?`<div class="why">$${r.list_price}</div>`:''}</td>
