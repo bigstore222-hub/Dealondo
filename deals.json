@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17T21:10:56.793750+00:00",
-  "count": 64,
+  "generated_at": "2026-10-17T23:12:48.513272+00:00",
+  "count": 61,
   "deals": [
     {
       "source": "6pm.com",
@@ -332,7 +332,54 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-14T08:11:21.943566+00:00",
-      "last_seen": "2026-10-17T21:09:31.198262+00:00"
+      "last_seen": "2026-10-17T23:09:35.223938+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10055734",
+      "title": "Hezey",
+      "brand": "Calvin Klein",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/61UzJ8FjV1L._AC_SR255,340_.jpg",
+      "price_current": 36.0,
+      "price_list": 120.0,
+      "price_baseline": 120.0,
+      "price_alltime_low": 36.0,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 48056,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10055734",
+      "discount_pct": 70.0,
+      "score": 81,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-14T21:43:15.113265+00:00",
+      "last_seen": "2026-10-17T23:09:35.223938+00:00"
     },
     {
       "source": "zappos.com",
@@ -473,13 +520,13 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-09T23:17:33.543431+00:00",
-      "last_seen": "2026-10-17T21:09:31.198262+00:00"
+      "last_seen": "2026-10-17T23:09:35.223938+00:00"
     },
     {
       "source": "zappos.com",
       "source_tier": "T2",
       "url": "https://www.zappos.com/product/9822129",
-      "title": "Rugged Flex&#174; Slim Fit Tapered Jeans  (외 1종)",
+      "title": "Rugged Flex&#174; Slim Fit Tapered Jeans",
       "brand": "Carhartt",
       "category": "premium_fashion",
       "image": "https://m.media-amazon.com/images/I/71T8zr6oXqL._AC_SR255,340_.jpg",
@@ -521,8 +568,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-16T17:28:47.337116+00:00",
-      "last_seen": "2026-10-17T21:09:31.198262+00:00",
-      "variant_count": 2
+      "last_seen": "2026-10-17T23:09:35.223938+00:00"
     },
     {
       "source": "6pm.com",
@@ -571,6 +617,104 @@
       "urgency": "HOT",
       "detected_at": "2026-10-16T17:30:03.306408+00:00",
       "last_seen": "2026-10-17T21:10:56.769182+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20172660",
+      "title": "Koikify Bird & Floral Diamond Painting Hanging Ornament Kit $4.99 + Free Shipping w/ Prime or on $35+",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/9/3/0/4/6/1/9/300x300/22002552.thumb",
+      "price_current": 35.0,
+      "price_list": 70.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "5IKP43BF",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 1,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 46721,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20172660",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 5IKP43BF → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-17T23:08:40.020564+00:00",
+      "last_seen": "2026-10-17T23:08:59.600553+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20172642",
+      "title": "2-Pack 18\" decorUhome Faux Fur Plush Throw Pillow Covers (Light Orange) $4.99 + Free Shipping w/ Prime or on $35+",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/9/3/0/4/6/1/9/300x300/22002531.thumb",
+      "price_current": 35.0,
+      "price_list": 70.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "1Q4GWB2H",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 2,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 46721,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20172642",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 1Q4GWB2H → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-17T23:08:40.020564+00:00",
+      "last_seen": "2026-10-17T23:08:59.600553+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -769,104 +913,6 @@
       "last_seen": "2026-10-17T13:08:56.989096+00:00"
     },
     {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20167425",
-      "title": "RichBird Smart 2K Camera Window Bird Feeder $13",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/3/1/1/9/6/7/1/6/300x300/21988923.thumb",
-      "price_current": 13.0,
-      "price_list": 26.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "QIV0AWDP",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 23,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 17354,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20167425",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 QIV0AWDP → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-17T09:23:38.800532+00:00",
-      "last_seen": "2026-10-17T13:08:56.989096+00:00"
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20131275",
-      "title": "KalraMay Multi Function Rotary Cheese Grater w/ Handle $13.50",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/9/3/0/4/6/1/9/300x300/21892056.thumb",
-      "price_current": 13.5,
-      "price_list": 27.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "FNV67X1I",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 34,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 18021,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20131275",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 FNV67X1I → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-17T05:11:31.176798+00:00",
-      "last_seen": "2026-10-17T13:08:56.989096+00:00"
-    },
-    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/allsaints-francine-crossbody-bag/8468474",
@@ -912,7 +958,55 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-17T09:24:16.062988+00:00",
-      "last_seen": "2026-10-17T21:09:31.198262+00:00"
+      "last_seen": "2026-10-17T23:09:35.223938+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/9961209",
+      "title": "Duffled Throw II",
+      "brand": "UGG",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/71Pv2Vk3k2L._AC_SR255,340_.jpg",
+      "price_current": 29.4,
+      "price_list": 98.0,
+      "price_baseline": 98.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 39246,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.zappos.com/product/9961209",
+      "discount_pct": 70.0,
+      "score": 71,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-17T23:09:17.791691+00:00",
+      "last_seen": "2026-10-17T23:09:35.223938+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1392,7 +1486,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-17T09:24:16.062988+00:00",
-      "last_seen": "2026-10-17T21:09:31.198262+00:00"
+      "last_seen": "2026-10-17T23:09:35.223938+00:00"
     },
     {
       "source": "zappos.com",
@@ -1440,55 +1534,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-17T16:27:09.224979+00:00",
-      "last_seen": "2026-10-17T21:09:31.198262+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10055734",
-      "title": "Hezey",
-      "brand": "Calvin Klein",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61UzJ8FjV1L._AC_SR255,340_.jpg",
-      "price_current": 36.0,
-      "price_list": 120.0,
-      "price_baseline": 120.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 48056,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10055734",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-14T21:43:15.113265+00:00",
-      "last_seen": "2026-10-17T21:09:31.198262+00:00"
+      "last_seen": "2026-10-17T23:09:35.223938+00:00"
     },
     {
       "source": "zappos.com",
@@ -1536,7 +1582,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-15T18:36:38.505009+00:00",
-      "last_seen": "2026-10-17T21:09:31.198262+00:00"
+      "last_seen": "2026-10-17T23:09:35.223938+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1728,7 +1774,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-17T05:11:31.176798+00:00",
-      "last_seen": "2026-10-17T21:08:53.314307+00:00"
+      "last_seen": "2026-10-17T23:08:59.600553+00:00"
     },
     {
       "source": "slickdeals:zappos.com",
@@ -1776,7 +1822,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-16T08:12:52.950462+00:00",
-      "last_seen": "2026-10-17T21:08:53.314307+00:00"
+      "last_seen": "2026-10-17T23:08:59.600553+00:00"
     },
     {
       "source": "zappos.com",
@@ -2021,54 +2067,6 @@
     {
       "source": "nordstromrack.com",
       "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/tumi-alpha-bravo-nellis-backpack-nordstrom-exclusive/5268305",
-      "title": "Alpha Bravo Nellis Backpack (Nordstrom Exclusive)",
-      "brand": "Tumi",
-      "category": "watch_misc",
-      "image": "https://n.nordstrommedia.com/it/b71913f0-9127-4918-8147-806a572f4053.jpeg?h=368&w=240&dpr=2",
-      "price_current": 162.48,
-      "price_list": 495.0,
-      "price_baseline": 495.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 217693,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/tumi-alpha-bravo-nellis-backpack-nordstrom-exclusive/5268305",
-      "discount_pct": 67.2,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 10,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-12T17:59:20.304240+00:00",
-      "last_seen": "2026-10-15T21:43:53.322281+00:00"
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/cole-haan-grand-crosscourt-premier-sneaker-wide-width-available-men/6600846",
       "title": "Grand Crosscourt Premier Sneaker - Wide Width Available",
       "brand": "Cole Haan",
@@ -2257,7 +2255,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-17T13:09:05.903052+00:00",
-      "last_seen": "2026-10-17T21:09:31.198262+00:00"
+      "last_seen": "2026-10-17T23:09:35.223938+00:00"
     },
     {
       "source": "dealnews",
@@ -2306,7 +2304,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-17T13:09:05.903052+00:00",
-      "last_seen": "2026-10-17T21:09:31.198262+00:00"
+      "last_seen": "2026-10-17T23:09:35.223938+00:00"
     },
     {
       "source": "dealnews",
@@ -2355,7 +2353,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-17T13:09:05.903052+00:00",
-      "last_seen": "2026-10-17T21:09:31.198262+00:00"
+      "last_seen": "2026-10-17T23:09:35.223938+00:00"
     },
     {
       "source": "dealnews",
@@ -2403,8 +2401,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-17T21:09:10.977430+00:00",
-      "last_seen": "2026-10-17T21:09:31.198262+00:00"
+      "detected_at": "2026-10-17T23:09:17.560609+00:00",
+      "last_seen": "2026-10-17T23:09:35.223938+00:00"
     },
     {
       "source": "dealnews",
@@ -2452,7 +2450,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-12T01:44:47.089426+00:00",
-      "last_seen": "2026-10-17T21:09:31.198262+00:00"
+      "last_seen": "2026-10-17T23:09:35.223938+00:00"
     },
     {
       "source": "dealnews",
@@ -2501,7 +2499,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-17T13:09:05.903052+00:00",
-      "last_seen": "2026-10-17T21:09:31.198262+00:00"
+      "last_seen": "2026-10-17T23:09:35.223938+00:00"
     },
     {
       "source": "dealnews",
@@ -2549,8 +2547,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-17T21:09:10.982478+00:00",
-      "last_seen": "2026-10-17T21:09:31.198262+00:00"
+      "detected_at": "2026-10-17T23:09:17.563696+00:00",
+      "last_seen": "2026-10-17T23:09:35.223938+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2599,7 +2597,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-17T16:27:09.224979+00:00",
-      "last_seen": "2026-10-17T21:09:31.198262+00:00"
+      "last_seen": "2026-10-17T23:09:35.223938+00:00"
     },
     {
       "source": "dealnews",
@@ -2943,171 +2941,54 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-15T21:43:33.123267+00:00",
       "last_seen": "2026-10-16T03:14:46.543619+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Clarks-Shoe-Deals-at-Kohls-Up-to-40-off-extra-20-off-free-shipping/22286099.html?iref=rss",
-      "title": "Clarks Shoe Deals at Kohl's: Up to 40% off + extra 20% off + free shipping",
-      "brand": "Clarks",
-      "category": "premium_fashion",
-      "image": "https://d.dlnws.com/64599/1792091827-product-trimmed.jpg?h=156&w=250",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Clarks-Shoe-Deals-at-Kohls-Up-to-40-off-extra-20-off-free-shipping/22286099.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-15T21:43:32.740468+00:00",
-      "last_seen": "2026-10-15T21:43:53.322281+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/The-North-Face-Mens-Highrail-Fleece-Jacket-for-95-free-shipping/22286032.html?iref=rss",
-      "title": "The North Face Men's Highrail Fleece Jacket for $95 + free shipping",
-      "brand": "The North Face",
-      "category": "premium_fashion",
-      "image": "https://d.dlnws.com/64599/1792088893-product-trimmed.jpg?h=250&w=192",
-      "price_current": 95.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 127282,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/The-North-Face-Mens-Highrail-Fleece-Jacket-for-95-free-shipping/22286032.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-15T18:36:38.505009+00:00",
-      "last_seen": "2026-10-15T21:43:53.322281+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Merrell-Footwear-Handpicked-Deals-at-REI-Outlet-Up-to-50-off-free-shipping-w-60/22286018.html?iref=rss",
-      "title": "Merrell Footwear Handpicked Deals at REI Outlet: Up to 50% off + free shipping w/ $60",
-      "brand": "Merrell",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1792088009-product-trimmed.avif?h=115&w=250",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Merrell-Footwear-Handpicked-Deals-at-REI-Outlet-Up-to-50-off-free-shipping-w-60/22286018.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-15T21:43:32.745086+00:00",
-      "last_seen": "2026-10-15T21:43:53.322281+00:00"
     }
   ],
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-17T21:08:33+00:00",
+        "at": "2026-10-17T23:08:40+00:00",
         "state": "정상",
-        "mails": 12,
-        "deals": 12
+        "mails": 14,
+        "deals": 14
       },
       "newsletter": {
-        "at": "2026-10-17T16:31:54+00:00",
+        "at": "2026-10-17T23:12:28+00:00",
         "state": "정상",
-        "mails": 53,
+        "mails": 62,
         "deals": 4
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20154591",
+        "source": "slickdeals:amazon.com",
+        "title": "10-Tier SONGMICS Shoe Rack w/ Cover (Holds 20 Pairs) for $18.55 at Amazon",
+        "price": 18.55,
+        "list_price": 22.99,
+        "discount_pct": 19.3,
+        "krw": 24762,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H8: 할인 19% < 25% (허접 할인 제외)",
+        "first_seen": "2026-10-17T23:09:02+00:00",
+        "last_seen": "2026-10-17T23:12:48+00:00"
+      },
+      {
+        "url": "https://slickdeals.net/f/20172468",
+        "source": "slickdeals:amazon.com",
+        "title": "808-Pc LEGO Speed Champions Mercedes-AMG G 63 & Mercedes-AMG SL 63 Building Kits for $27 at Amazon",
+        "price": 27.0,
+        "list_price": 44.99,
+        "discount_pct": 40.0,
+        "krw": 36042,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-10-17T23:09:02+00:00",
+        "last_seen": "2026-10-17T23:12:48+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20170995",
         "source": "slickdeals:amazon.com",
@@ -3121,7 +3002,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-17T21:08:53+00:00",
-        "last_seen": "2026-10-17T21:10:56+00:00"
+        "last_seen": "2026-10-17T23:12:48+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20171637",
@@ -3136,7 +3017,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-17T21:08:53+00:00",
-        "last_seen": "2026-10-17T21:10:56+00:00"
+        "last_seen": "2026-10-17T23:12:48+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20170881",
@@ -3151,7 +3032,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-17T18:47:17+00:00",
-        "last_seen": "2026-10-17T21:10:56+00:00"
+        "last_seen": "2026-10-17T23:12:48+00:00"
       },
       {
         "url": "https://www.amazon.com/hz/mobile/mission",
@@ -3166,7 +3047,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-17T09:28:57+00:00",
-        "last_seen": "2026-10-17T16:32:18+00:00"
+        "last_seen": "2026-10-17T23:12:48+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20167851",
@@ -3181,7 +3062,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-17T09:24:01+00:00",
-        "last_seen": "2026-10-17T21:10:56+00:00"
+        "last_seen": "2026-10-17T23:12:48+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20167425",
@@ -3196,7 +3077,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-17T09:24:01+00:00",
-        "last_seen": "2026-10-17T21:10:56+00:00"
+        "last_seen": "2026-10-17T23:12:48+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20167659",
@@ -3211,7 +3092,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-17T05:11:57+00:00",
-        "last_seen": "2026-10-17T21:10:56+00:00"
+        "last_seen": "2026-10-17T23:12:48+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20144643",
@@ -3226,7 +3107,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-17T05:11:57+00:00",
-        "last_seen": "2026-10-17T21:10:56+00:00"
+        "last_seen": "2026-10-17T23:12:48+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20140728",
@@ -3241,7 +3122,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-17T05:11:57+00:00",
-        "last_seen": "2026-10-17T21:10:56+00:00"
+        "last_seen": "2026-10-17T23:12:48+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20147046",
@@ -3256,7 +3137,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-17T05:11:57+00:00",
-        "last_seen": "2026-10-17T21:10:56+00:00"
+        "last_seen": "2026-10-17T23:12:48+00:00"
       },
       {
         "url": "https://click.emails.underarmour.com/",
@@ -3271,7 +3152,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-17T00:58:07+00:00",
-        "last_seen": "2026-10-17T16:32:18+00:00"
+        "last_seen": "2026-10-17T23:12:48+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20166984",
@@ -3286,7 +3167,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-16T22:52:24+00:00",
-        "last_seen": "2026-10-17T21:10:56+00:00"
+        "last_seen": "2026-10-17T23:12:48+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20168661",
@@ -3391,7 +3272,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-16T08:13:17+00:00",
-        "last_seen": "2026-10-17T21:10:56+00:00"
+        "last_seen": "2026-10-17T23:12:48+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20165136",
@@ -3466,7 +3347,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-15T21:48:43+00:00",
-        "last_seen": "2026-10-17T16:32:18+00:00"
+        "last_seen": "2026-10-17T23:12:48+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20163405",
@@ -3481,7 +3362,7 @@
         "published": false,
         "reject_reason": "H7: Adidas 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-15T18:36:23+00:00",
-        "last_seen": "2026-10-17T21:10:56+00:00"
+        "last_seen": "2026-10-17T23:12:48+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20158236",
@@ -3541,7 +3422,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-15T14:30:28+00:00",
-        "last_seen": "2026-10-17T16:32:18+00:00"
+        "last_seen": "2026-10-17T23:12:48+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20158632",
@@ -3800,7 +3681,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 46,
+      "collected_72h": 48,
       "published_72h": 6
     }
   }
