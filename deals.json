@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T18:49:10.585475+00:00",
+  "generated_at": "2026-10-17T21:10:56.793750+00:00",
   "count": 64,
   "deals": [
     {
@@ -332,7 +332,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-14T08:11:21.943566+00:00",
-      "last_seen": "2026-10-17T16:27:32.167835+00:00"
+      "last_seen": "2026-10-17T21:09:31.198262+00:00"
     },
     {
       "source": "zappos.com",
@@ -473,13 +473,13 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-09T23:17:33.543431+00:00",
-      "last_seen": "2026-10-17T16:27:32.167835+00:00"
+      "last_seen": "2026-10-17T21:09:31.198262+00:00"
     },
     {
       "source": "zappos.com",
       "source_tier": "T2",
       "url": "https://www.zappos.com/product/9822129",
-      "title": "Rugged Flex&#174; Slim Fit Tapered Jeans",
+      "title": "Rugged Flex&#174; Slim Fit Tapered Jeans  (외 1종)",
       "brand": "Carhartt",
       "category": "premium_fashion",
       "image": "https://m.media-amazon.com/images/I/71T8zr6oXqL._AC_SR255,340_.jpg",
@@ -521,7 +521,8 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-16T17:28:47.337116+00:00",
-      "last_seen": "2026-10-17T18:47:52.823713+00:00"
+      "last_seen": "2026-10-17T21:09:31.198262+00:00",
+      "variant_count": 2
     },
     {
       "source": "6pm.com",
@@ -569,7 +570,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-16T17:30:03.306408+00:00",
-      "last_seen": "2026-10-17T16:29:09.097234+00:00"
+      "last_seen": "2026-10-17T21:10:56.769182+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -868,6 +869,54 @@
     {
       "source": "nordstromrack.com",
       "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/allsaints-francine-crossbody-bag/8468474",
+      "title": "Francine Crossbody Bag",
+      "brand": "Allsaints",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/6a373636-db23-4423-9106-cad3fc558d19.jpeg?h=368&w=240&dpr=2",
+      "price_current": 83.98,
+      "price_list": 239.0,
+      "price_baseline": 239.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 112104,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.nordstromrack.com/s/allsaints-francine-crossbody-bag/8468474",
+      "discount_pct": 64.9,
+      "score": 71,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-17T09:24:16.062988+00:00",
+      "last_seen": "2026-10-17T21:09:31.198262+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/vince-bianca-slingback-pointed-toe-pump-women/7740778",
       "title": "Bianca Slingback Pointed Toe Pump",
       "brand": "Vince",
@@ -960,54 +1009,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-17T18:47:34.826266+00:00",
       "last_seen": "2026-10-17T18:47:52.823713+00:00"
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/allsaints-francine-crossbody-bag/8468474",
-      "title": "Francine Crossbody Bag",
-      "brand": "Allsaints",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/6a373636-db23-4423-9106-cad3fc558d19.jpeg?h=368&w=240&dpr=2",
-      "price_current": 83.98,
-      "price_list": 239.0,
-      "price_baseline": 239.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 112104,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/allsaints-francine-crossbody-bag/8468474",
-      "discount_pct": 64.9,
-      "score": 71,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-17T09:24:16.062988+00:00",
-      "last_seen": "2026-10-17T16:27:32.167835+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1348,14 +1349,14 @@
     {
       "source": "nordstromrack.com",
       "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/calvin-klein-solid-bright-blue-wool-suit-separates-pants/6032557",
-      "title": "Solid Bright Blue Wool Suit Separates Pants",
-      "brand": "Calvin Klein",
+      "url": "https://www.nordstromrack.com/s/calvin-klein-kids-two-button-suit-set-big-kid/8833194",
+      "title": "Two Button Wool Blend Suit Set",
+      "brand": "Calvin Klein Two",
       "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/e886f9bc-957a-4ef9-a351-2930f73869ab.jpeg?h=368&w=240&dpr=2",
-      "price_current": 49.99,
-      "price_list": 190.0,
-      "price_baseline": 190.0,
+      "image": "https://n.nordstrommedia.com/it/ad314b88-a286-4e3f-8041-cec4b887b12b.jpeg?h=368&w=240&dpr=2",
+      "price_current": 209.96,
+      "price_list": 595.0,
+      "price_baseline": 595.0,
       "price_alltime_low": null,
       "currency": "USD",
       "coupon_code": "",
@@ -1367,7 +1368,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 66731,
+      "krw_effective": 332965,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -1376,8 +1377,8 @@
       "frontpage": false,
       "code_kind": "",
       "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/calvin-klein-solid-bright-blue-wool-suit-separates-pants/6032557",
-      "discount_pct": 73.7,
+      "buy_url": "https://www.nordstromrack.com/s/calvin-klein-kids-two-button-suit-set-big-kid/8833194",
+      "discount_pct": 64.7,
       "score": 64,
       "score_breakdown": {
         "discount_depth": 30,
@@ -1390,8 +1391,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-17T18:47:34.826266+00:00",
-      "last_seen": "2026-10-17T18:47:52.823713+00:00"
+      "detected_at": "2026-10-17T09:24:16.062988+00:00",
+      "last_seen": "2026-10-17T21:09:31.198262+00:00"
     },
     {
       "source": "zappos.com",
@@ -1439,6 +1440,150 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-17T16:27:09.224979+00:00",
+      "last_seen": "2026-10-17T21:09:31.198262+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10055734",
+      "title": "Hezey",
+      "brand": "Calvin Klein",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/61UzJ8FjV1L._AC_SR255,340_.jpg",
+      "price_current": 36.0,
+      "price_list": 120.0,
+      "price_baseline": 120.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 48056,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10055734",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-14T21:43:15.113265+00:00",
+      "last_seen": "2026-10-17T21:09:31.198262+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10055736",
+      "title": "Lileta",
+      "brand": "Calvin Klein",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/71-XJ80wRtL._AC_SR255,340_.jpg",
+      "price_current": 25.5,
+      "price_list": 85.0,
+      "price_baseline": 85.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 34040,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10055736",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-15T18:36:38.505009+00:00",
+      "last_seen": "2026-10-17T21:09:31.198262+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/calvin-klein-solid-bright-blue-wool-suit-separates-pants/6032557",
+      "title": "Solid Bright Blue Wool Suit Separates Pants",
+      "brand": "Calvin Klein",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/e886f9bc-957a-4ef9-a351-2930f73869ab.jpeg?h=368&w=240&dpr=2",
+      "price_current": 49.99,
+      "price_list": 190.0,
+      "price_baseline": 190.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 66731,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/calvin-klein-solid-bright-blue-wool-suit-separates-pants/6032557",
+      "discount_pct": 73.7,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-17T18:47:34.826266+00:00",
       "last_seen": "2026-10-17T18:47:52.823713+00:00"
     },
     {
@@ -1488,150 +1633,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-17T18:47:34.826266+00:00",
       "last_seen": "2026-10-17T18:47:52.823713+00:00"
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/calvin-klein-kids-two-button-suit-set-big-kid/8833194",
-      "title": "Two Button Wool Blend Suit Set",
-      "brand": "Calvin Klein Two",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/ad314b88-a286-4e3f-8041-cec4b887b12b.jpeg?h=368&w=240&dpr=2",
-      "price_current": 209.96,
-      "price_list": 595.0,
-      "price_baseline": 595.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 332965,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/calvin-klein-kids-two-button-suit-set-big-kid/8833194",
-      "discount_pct": 64.7,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-17T09:24:16.062988+00:00",
-      "last_seen": "2026-10-17T16:27:32.167835+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10055736",
-      "title": "Lileta",
-      "brand": "Calvin Klein",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/71-XJ80wRtL._AC_SR255,340_.jpg",
-      "price_current": 25.5,
-      "price_list": 85.0,
-      "price_baseline": 85.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 34040,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10055736",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-15T18:36:38.505009+00:00",
-      "last_seen": "2026-10-17T16:27:32.167835+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10055734",
-      "title": "Hezey",
-      "brand": "Calvin Klein",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61UzJ8FjV1L._AC_SR255,340_.jpg",
-      "price_current": 36.0,
-      "price_list": 120.0,
-      "price_baseline": 120.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 48056,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10055734",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-14T21:43:15.113265+00:00",
-      "last_seen": "2026-10-17T16:27:32.167835+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1727,7 +1728,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-17T05:11:31.176798+00:00",
-      "last_seen": "2026-10-17T18:47:17.988073+00:00"
+      "last_seen": "2026-10-17T21:08:53.314307+00:00"
     },
     {
       "source": "slickdeals:zappos.com",
@@ -1775,7 +1776,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-16T08:12:52.950462+00:00",
-      "last_seen": "2026-10-17T18:47:17.988073+00:00"
+      "last_seen": "2026-10-17T21:08:53.314307+00:00"
     },
     {
       "source": "zappos.com",
@@ -2015,7 +2016,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-15T18:37:52.122016+00:00",
-      "last_seen": "2026-10-17T18:49:10.563143+00:00"
+      "last_seen": "2026-10-17T21:10:56.769182+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2212,55 +2213,6 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
-      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-79-off-free-shipping/22288190.html?iref=rss",
-      "title": "lululemon We Made Too Much Event: Up to 79% off + free shipping",
-      "brand": "Lululemon",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1792231761-imglululemon_yogo_rgb_blk-1658424320863.png?h=200&w=200",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-79-off-free-shipping/22288190.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-17T18:47:34.590158+00:00",
-      "last_seen": "2026-10-17T18:47:52.823713+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
       "url": "https://www.dealnews.com/adidas-Mens-Soccer-Scarves-for-9-80-free-shipping/22291155.html?iref=rss",
       "title": "adidas Men's Soccer Scarves for $9.80 + free shipping",
       "brand": "Adidas",
@@ -2305,7 +2257,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-17T13:09:05.903052+00:00",
-      "last_seen": "2026-10-17T18:47:52.823713+00:00"
+      "last_seen": "2026-10-17T21:09:31.198262+00:00"
     },
     {
       "source": "dealnews",
@@ -2354,7 +2306,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-17T13:09:05.903052+00:00",
-      "last_seen": "2026-10-17T18:47:52.823713+00:00"
+      "last_seen": "2026-10-17T21:09:31.198262+00:00"
     },
     {
       "source": "dealnews",
@@ -2403,7 +2355,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-17T13:09:05.903052+00:00",
-      "last_seen": "2026-10-17T18:47:52.823713+00:00"
+      "last_seen": "2026-10-17T21:09:31.198262+00:00"
     },
     {
       "source": "dealnews",
@@ -2451,8 +2403,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-17T18:47:34.593742+00:00",
-      "last_seen": "2026-10-17T18:47:52.823713+00:00"
+      "detected_at": "2026-10-17T21:09:10.977430+00:00",
+      "last_seen": "2026-10-17T21:09:31.198262+00:00"
     },
     {
       "source": "dealnews",
@@ -2500,7 +2452,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-12T01:44:47.089426+00:00",
-      "last_seen": "2026-10-17T18:47:52.823713+00:00"
+      "last_seen": "2026-10-17T21:09:31.198262+00:00"
     },
     {
       "source": "dealnews",
@@ -2549,7 +2501,56 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-17T13:09:05.903052+00:00",
-      "last_seen": "2026-10-17T18:47:52.823713+00:00"
+      "last_seen": "2026-10-17T21:09:31.198262+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/lululemon-Joggers-Sweatpants-Specials-Up-to-67-off-free-shipping/22269578.html?iref=rss",
+      "title": "lululemon Joggers & Sweatpants Specials: Up to 67% off + free shipping",
+      "brand": "Lululemon",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1791643243-product-trimmed.png?h=250&w=139",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/lululemon-Joggers-Sweatpants-Specials-Up-to-67-off-free-shipping/22269578.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-17T21:09:10.982478+00:00",
+      "last_seen": "2026-10-17T21:09:31.198262+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2598,7 +2599,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-17T16:27:09.224979+00:00",
-      "last_seen": "2026-10-17T18:47:52.823713+00:00"
+      "last_seen": "2026-10-17T21:09:31.198262+00:00"
     },
     {
       "source": "dealnews",
@@ -3094,10 +3095,10 @@
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-17T18:46:58+00:00",
+        "at": "2026-10-17T21:08:33+00:00",
         "state": "정상",
-        "mails": 10,
-        "deals": 10
+        "mails": 12,
+        "deals": 12
       },
       "newsletter": {
         "at": "2026-10-17T16:31:54+00:00",
@@ -3107,6 +3108,36 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20170995",
+        "source": "slickdeals:amazon.com",
+        "title": "201-Pc. LEGO Speed Champions F1 ACADEMY LEGO Race Car Building Toy for $18.10 at Amazon",
+        "price": 18.1,
+        "list_price": 27.99,
+        "discount_pct": 35.3,
+        "krw": 24162,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-10-17T21:08:53+00:00",
+        "last_seen": "2026-10-17T21:10:56+00:00"
+      },
+      {
+        "url": "https://slickdeals.net/f/20171637",
+        "source": "slickdeals:amazon.com",
+        "title": "810-Pc LEGO Technic Fast & Furious Toyota Supra MK4 Building Kit for $35.50 at Amazon",
+        "price": 35.5,
+        "list_price": 59.99,
+        "discount_pct": 40.8,
+        "krw": 47389,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-10-17T21:08:53+00:00",
+        "last_seen": "2026-10-17T21:10:56+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20170881",
         "source": "slickdeals:amazon.com",
@@ -3120,7 +3151,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-17T18:47:17+00:00",
-        "last_seen": "2026-10-17T18:49:10+00:00"
+        "last_seen": "2026-10-17T21:10:56+00:00"
       },
       {
         "url": "https://www.amazon.com/hz/mobile/mission",
@@ -3150,7 +3181,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-17T09:24:01+00:00",
-        "last_seen": "2026-10-17T18:49:10+00:00"
+        "last_seen": "2026-10-17T21:10:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20167425",
@@ -3165,7 +3196,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-17T09:24:01+00:00",
-        "last_seen": "2026-10-17T18:49:10+00:00"
+        "last_seen": "2026-10-17T21:10:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20167659",
@@ -3180,7 +3211,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-17T05:11:57+00:00",
-        "last_seen": "2026-10-17T18:49:10+00:00"
+        "last_seen": "2026-10-17T21:10:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20144643",
@@ -3195,7 +3226,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-17T05:11:57+00:00",
-        "last_seen": "2026-10-17T18:49:10+00:00"
+        "last_seen": "2026-10-17T21:10:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20140728",
@@ -3210,7 +3241,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-17T05:11:57+00:00",
-        "last_seen": "2026-10-17T18:49:10+00:00"
+        "last_seen": "2026-10-17T21:10:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20147046",
@@ -3225,7 +3256,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-17T05:11:57+00:00",
-        "last_seen": "2026-10-17T18:49:10+00:00"
+        "last_seen": "2026-10-17T21:10:56+00:00"
       },
       {
         "url": "https://click.emails.underarmour.com/",
@@ -3255,7 +3286,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-16T22:52:24+00:00",
-        "last_seen": "2026-10-17T18:49:10+00:00"
+        "last_seen": "2026-10-17T21:10:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20168661",
@@ -3360,7 +3391,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-16T08:13:17+00:00",
-        "last_seen": "2026-10-17T18:49:10+00:00"
+        "last_seen": "2026-10-17T21:10:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20165136",
@@ -3450,7 +3481,7 @@
         "published": false,
         "reject_reason": "H7: Adidas 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-15T18:36:23+00:00",
-        "last_seen": "2026-10-17T18:49:10+00:00"
+        "last_seen": "2026-10-17T21:10:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20158236",
@@ -3769,7 +3800,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 44,
+      "collected_72h": 46,
       "published_72h": 6
     }
   }
