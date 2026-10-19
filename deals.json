@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T09:41:11.723486+00:00",
+  "generated_at": "2026-10-19T09:50:55.601369+00:00",
   "count": 66,
   "deals": [
     {
@@ -3178,7 +3178,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-19T09:40:27+00:00",
+      "T1": "2026-10-19T09:50:24+00:00",
       "T2": "2026-10-19T09:11:42+00:00",
       "T3": "2026-10-19T09:12:16+00:00",
       "T4": "2026-10-19T04:01:50+00:00"
@@ -3212,16 +3212,17 @@
       1,
       7,
       11,
-      9
+      9,
+      10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-19T09:40:50+00:00",
-        "state": "로그인 실패",
-        "mails": 0,
-        "deals": 0
+        "at": "2026-10-19T09:50:31+00:00",
+        "state": "정상",
+        "mails": 9,
+        "deals": 9
       },
       "newsletter": {
         "at": "2026-10-19T04:04:35+00:00",
@@ -3231,6 +3232,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20176434",
+        "source": "slickdeals:amazon.com",
+        "title": "Prime Members: Anker Nano Charger Neo Dynamic 45W-65W USB C Charger for $20 at Amazon",
+        "price": 20.0,
+        "list_price": 25.99,
+        "discount_pct": 23.0,
+        "krw": 26672,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H8: 할인 23% < 25% (허접 할인 제외)",
+        "first_seen": "2026-10-19T09:50:55+00:00",
+        "last_seen": "2026-10-19T09:50:55+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20164143",
         "source": "slickdeals:amazon.com",
@@ -3244,7 +3260,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-19T03:01:15+00:00",
-        "last_seen": "2026-10-19T09:32:02+00:00"
+        "last_seen": "2026-10-19T09:50:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20173578",
@@ -3259,7 +3275,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 44% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T02:46:04+00:00",
-        "last_seen": "2026-10-19T09:32:02+00:00"
+        "last_seen": "2026-10-19T09:50:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20175666",
@@ -3274,7 +3290,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-19T02:46:04+00:00",
-        "last_seen": "2026-10-19T09:32:02+00:00"
+        "last_seen": "2026-10-19T09:50:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20174250",
@@ -3289,7 +3305,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-19T02:46:04+00:00",
-        "last_seen": "2026-10-19T09:32:02+00:00"
+        "last_seen": "2026-10-19T09:50:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20165976",
@@ -3304,7 +3320,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-19T02:46:04+00:00",
-        "last_seen": "2026-10-19T09:32:02+00:00"
+        "last_seen": "2026-10-19T09:50:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20171061",
@@ -3319,7 +3335,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-19T02:46:04+00:00",
-        "last_seen": "2026-10-19T09:32:02+00:00"
+        "last_seen": "2026-10-19T09:50:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20175834",
@@ -3544,7 +3560,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-18T05:56:22+00:00",
-        "last_seen": "2026-10-19T09:32:02+00:00"
+        "last_seen": "2026-10-19T09:50:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20170173",
@@ -3604,7 +3620,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-17T23:09:02+00:00",
-        "last_seen": "2026-10-19T09:32:02+00:00"
+        "last_seen": "2026-10-19T09:50:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20170995",
@@ -3863,7 +3879,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 42,
+      "collected_72h": 43,
       "published_72h": 5
     }
   }
