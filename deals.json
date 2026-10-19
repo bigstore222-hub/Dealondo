@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T15:01:51.291088+00:00",
+  "generated_at": "2026-10-19T15:11:03.564513+00:00",
   "count": 69,
   "deals": [
     {
@@ -2110,6 +2110,54 @@
       "last_seen": "2026-10-19T15:01:50.539658+00:00"
     },
     {
+      "source": "slickdeals:kohls.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20177082",
+      "title": "Nike 3BRAND by Russell Wilson Futura Cheetah Print Daypack for $12 at Kohl's",
+      "brand": "Nike",
+      "category": "sports_outdoor",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20177082&t=15",
+      "price_current": 12.0,
+      "price_list": 40.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 16003,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20177082",
+      "discount_pct": 70.0,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-19T12:30:40.093964+00:00",
+      "last_seen": "2026-10-19T15:11:03.557730+00:00"
+    },
+    {
       "source": "dealnews",
       "source_tier": "T2",
       "url": "https://www.dealnews.com/adidas-Essentials-3-Stripes-Fleece-Sweatshirt-for-20-Free-shipping/22296598.html?iref=rss",
@@ -2157,54 +2205,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-19T15:01:32.171430+00:00",
       "last_seen": "2026-10-19T15:01:50.539658+00:00"
-    },
-    {
-      "source": "slickdeals:kohls.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20177082",
-      "title": "Nike 3BRAND by Russell Wilson Futura Cheetah Print Daypack for $12 at Kohl's",
-      "brand": "Nike",
-      "category": "sports_outdoor",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20177082&t=15",
-      "price_current": 12.0,
-      "price_list": 40.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 16003,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20177082",
-      "discount_pct": 70.0,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-19T12:30:40.093964+00:00",
-      "last_seen": "2026-10-19T15:01:13.464818+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -3324,13 +3324,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-19T15:00:43+00:00",
+      "T1": "2026-10-19T15:10:26+00:00",
       "T2": "2026-10-19T15:01:15+00:00",
       "T3": "2026-10-19T13:31:09+00:00",
       "T4": "2026-10-19T10:10:58+00:00"
     },
     "recent_gaps_min": [
-      1,
       9,
       10,
       1,
@@ -3359,13 +3358,14 @@
       10,
       10,
       10,
-      1
+      1,
+      9
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-19T15:00:54+00:00",
+        "at": "2026-10-19T15:10:39+00:00",
         "state": "정상",
         "mails": 13,
         "deals": 13
@@ -3391,7 +3391,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-19T14:40:59+00:00",
-        "last_seen": "2026-10-19T15:01:13+00:00"
+        "last_seen": "2026-10-19T15:11:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20176659",
@@ -3406,7 +3406,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-19T14:20:59+00:00",
-        "last_seen": "2026-10-19T15:01:13+00:00"
+        "last_seen": "2026-10-19T15:11:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20175255",
@@ -3421,7 +3421,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T13:31:07+00:00",
-        "last_seen": "2026-10-19T15:01:13+00:00"
+        "last_seen": "2026-10-19T15:11:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177082",
@@ -3436,7 +3436,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-19T12:31:06+00:00",
-        "last_seen": "2026-10-19T15:01:13+00:00"
+        "last_seen": "2026-10-19T15:11:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20176434",
@@ -3451,7 +3451,7 @@
         "published": false,
         "reject_reason": "H8: 할인 23% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-19T09:50:55+00:00",
-        "last_seen": "2026-10-19T15:01:13+00:00"
+        "last_seen": "2026-10-19T15:11:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20164143",
@@ -3466,7 +3466,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-19T03:01:15+00:00",
-        "last_seen": "2026-10-19T15:01:13+00:00"
+        "last_seen": "2026-10-19T15:11:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20173578",
@@ -3481,7 +3481,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 44% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T02:46:04+00:00",
-        "last_seen": "2026-10-19T15:01:13+00:00"
+        "last_seen": "2026-10-19T15:11:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20175666",
@@ -3496,7 +3496,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-19T02:46:04+00:00",
-        "last_seen": "2026-10-19T15:01:13+00:00"
+        "last_seen": "2026-10-19T15:11:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20174250",
@@ -3511,7 +3511,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-19T02:46:04+00:00",
-        "last_seen": "2026-10-19T15:01:13+00:00"
+        "last_seen": "2026-10-19T15:11:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20165976",
@@ -3526,7 +3526,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-19T02:46:04+00:00",
-        "last_seen": "2026-10-19T15:01:13+00:00"
+        "last_seen": "2026-10-19T15:11:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20171061",
@@ -3541,7 +3541,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-19T02:46:04+00:00",
-        "last_seen": "2026-10-19T15:01:13+00:00"
+        "last_seen": "2026-10-19T15:11:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20175834",
@@ -3766,7 +3766,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-18T05:56:22+00:00",
-        "last_seen": "2026-10-19T15:01:13+00:00"
+        "last_seen": "2026-10-19T15:11:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20170173",
@@ -3826,7 +3826,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-17T23:09:02+00:00",
-        "last_seen": "2026-10-19T15:01:13+00:00"
+        "last_seen": "2026-10-19T15:11:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20170995",
