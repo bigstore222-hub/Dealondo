@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-19T23:21:04.152504+00:00",
-  "count": 78,
+  "generated_at": "2026-10-19T23:21:38.695865+00:00",
+  "count": 79,
   "deals": [
     {
       "source": "6pm.com",
@@ -142,7 +142,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-10T19:03:59.222408+00:00",
-      "last_seen": "2026-10-19T21:21:36.921216+00:00"
+      "last_seen": "2026-10-19T23:21:37.359232+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1480,7 +1480,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-19T22:42:39.814599+00:00"
+      "last_seen": "2026-10-19T23:21:37.359232+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1528,7 +1528,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T19:37:39.161056+00:00",
-      "last_seen": "2026-10-19T22:42:39.814599+00:00"
+      "last_seen": "2026-10-19T23:21:37.359232+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10035565",
+      "title": "Wrap Front Bubble Sleeve Maxi",
+      "brand": "Vince Camuto",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/71ikFFPox1L._AC_SR255,340_.jpg",
+      "price_current": 38.7,
+      "price_list": 129.0,
+      "price_baseline": 129.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 51610,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10035565",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-10T19:03:59.222408+00:00",
+      "last_seen": "2026-10-19T23:21:37.359232+00:00"
     },
     {
       "source": "zappos.com",
@@ -2681,7 +2729,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-19T22:42:39.814599+00:00"
+      "last_seen": "2026-10-19T23:21:37.359232+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2729,7 +2777,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-19T22:42:39.814599+00:00"
+      "last_seen": "2026-10-19T23:21:37.359232+00:00"
     },
     {
       "source": "slickdeals:dickssportinggoods",
@@ -2878,12 +2926,12 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
-      "url": "https://www.dealnews.com/adidas-Womens-Iconic-3-Stripes-Snap-Track-Top-for-13-free-shipping-w-49/22297070.html?iref=rss",
-      "title": "adidas Women's Iconic 3-Stripes Snap Track Top for $13 + free shipping w/ $49",
+      "url": "https://www.dealnews.com/adidas-Mens-adi-Pure-Shift-Running-Shoes-for-28-free-shipping-w-49/22297215.html?iref=rss",
+      "title": "adidas Men's adiPure Shift Running Shoes for $28 + free shipping w/ $49",
       "brand": "Adidas",
       "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1792442309-product-trimmed.png?h=250&w=154",
-      "price_current": 13.0,
+      "image": "https://d.dlnws.com/64599/1792450767-product-trimmed.png?h=180&w=250",
+      "price_current": 28.0,
       "price_list": null,
       "price_baseline": null,
       "price_alltime_low": null,
@@ -2897,7 +2945,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 17337,
+      "krw_effective": 37341,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -2906,7 +2954,7 @@
       "frontpage": false,
       "code_kind": "",
       "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/adidas-Womens-Iconic-3-Stripes-Snap-Track-Top-for-13-free-shipping-w-49/22297070.html?iref=rss",
+      "buy_url": "https://www.dealnews.com/adidas-Mens-adi-Pure-Shift-Running-Shoes-for-28-free-shipping-w-49/22297215.html?iref=rss",
       "discount_pct": null,
       "score": 55,
       "score_breakdown": {
@@ -2921,8 +2969,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-19T20:44:20.685534+00:00",
-      "last_seen": "2026-10-19T22:42:39.814599+00:00"
+      "detected_at": "2026-10-19T23:21:13.540723+00:00",
+      "last_seen": "2026-10-19T23:21:37.359232+00:00"
     },
     {
       "source": "dealnews",
@@ -2971,7 +3019,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-19T22:42:39.814599+00:00"
+      "last_seen": "2026-10-19T23:21:37.359232+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -3020,7 +3068,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T17:24:58.440683+00:00",
-      "last_seen": "2026-10-19T22:42:39.814599+00:00"
+      "last_seen": "2026-10-19T23:21:37.359232+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -3068,8 +3116,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-19T22:42:19.675405+00:00",
-      "last_seen": "2026-10-19T22:42:39.814599+00:00"
+      "detected_at": "2026-10-19T23:21:13.449417+00:00",
+      "last_seen": "2026-10-19T23:21:37.359232+00:00"
     },
     {
       "source": "dealnews",
@@ -3760,12 +3808,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-19T23:20:23+00:00",
-      "T2": "2026-10-19T22:42:06+00:00",
+      "T2": "2026-10-19T23:21:05+00:00",
       "T3": "2026-10-19T22:01:54+00:00",
       "T4": "2026-10-19T22:31:11+00:00"
     },
     "recent_gaps_min": [
-      1,
       9,
       10,
       1,
@@ -3794,7 +3841,8 @@
       8,
       10,
       10,
-      10
+      10,
+      1
     ]
   },
   "email_monitor": {
