@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T11:20:56.830158+00:00",
+  "generated_at": "2026-10-19T11:22:16.310838+00:00",
   "count": 68,
   "deals": [
     {
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-11T18:58:32.889480+00:00",
-      "last_seen": "2026-10-19T04:52:10.118876+00:00"
+      "last_seen": "2026-10-19T11:22:14.792731+00:00"
     },
     {
       "source": "6pm.com",
@@ -237,7 +237,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T19:38:52.983383+00:00",
-      "last_seen": "2026-10-19T09:13:36.131053+00:00"
+      "last_seen": "2026-10-19T11:22:14.792731+00:00"
     },
     {
       "source": "6pm.com",
@@ -261,7 +261,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 58463,
+      "krw_effective": 58412,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -285,7 +285,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T17:26:22.184237+00:00",
-      "last_seen": "2026-10-18T19:39:11.375522+00:00"
+      "last_seen": "2026-10-19T11:22:14.792731+00:00"
     },
     {
       "source": "6pm.com",
@@ -1435,7 +1435,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-15T18:37:52.122016+00:00",
-      "last_seen": "2026-10-19T09:13:36.131053+00:00"
+      "last_seen": "2026-10-19T11:22:14.792731+00:00"
     },
     {
       "source": "dealnews",
@@ -3278,11 +3278,10 @@
     "tier_last_run": {
       "T1": "2026-10-19T11:20:24+00:00",
       "T2": "2026-10-19T11:01:50+00:00",
-      "T3": "2026-10-19T09:12:16+00:00",
+      "T3": "2026-10-19T11:20:58+00:00",
       "T4": "2026-10-19T10:10:58+00:00"
     },
     "recent_gaps_min": [
-      10,
       9,
       1,
       10,
@@ -3311,7 +3310,8 @@
       11,
       1,
       8,
-      10
+      10,
+      1
     ]
   },
   "email_monitor": {
