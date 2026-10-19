@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T23:48:48.909782+00:00",
+  "generated_at": "2026-10-19T02:46:04.273016+00:00",
   "count": 72,
   "deals": [
     {
@@ -3467,13 +3467,21 @@
       "last_seen": "2026-10-17T05:12:28.671225+00:00"
     }
   ],
+  "pipeline": {
+    "tier_last_run": {
+      "T1": "2026-10-19T02:45:34+00:00"
+    },
+    "recent_gaps_min": [
+      177
+    ]
+  },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-18T23:47:55+00:00",
+        "at": "2026-10-19T02:45:40+00:00",
         "state": "정상",
-        "mails": 19,
-        "deals": 19
+        "mails": 7,
+        "deals": 7
       },
       "newsletter": {
         "at": "2026-10-18T21:54:01+00:00",
@@ -3483,6 +3491,81 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20173578",
+        "source": "slickdeals:amazon.com",
+        "title": "Nike Men's Air VaporMax Plus Shoes (Black / Anthracite / White / Bright Crimson) for $122 at Amazon",
+        "price": 122.0,
+        "list_price": 220.0,
+        "discount_pct": 44.5,
+        "krw": 162699,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: Nike 할인 44% < 60% (유명 브랜드 최소 할인)",
+        "first_seen": "2026-10-19T02:46:04+00:00",
+        "last_seen": "2026-10-19T02:46:04+00:00"
+      },
+      {
+        "url": "https://slickdeals.net/f/20175666",
+        "source": "slickdeals:amazon.com",
+        "title": "Eletiuo Duck Silicone Apple Watch Charger Stand (Various) for $6 at Amazon",
+        "price": 6.0,
+        "list_price": 9.99,
+        "discount_pct": 39.9,
+        "krw": 8002,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-10-19T02:46:04+00:00",
+        "last_seen": "2026-10-19T02:46:04+00:00"
+      },
+      {
+        "url": "https://slickdeals.net/f/20174250",
+        "source": "slickdeals:amazon.com",
+        "title": "Anker 3-Port up to 167.5W USB C Fast Charging Car Charger w/ 3.3' Cable for $34 at Amazon",
+        "price": 34.0,
+        "list_price": 53.96,
+        "discount_pct": 37.0,
+        "krw": 45342,
+        "kr_lowest": null,
+        "score": 31,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-10-19T02:46:04+00:00",
+        "last_seen": "2026-10-19T02:46:04+00:00"
+      },
+      {
+        "url": "https://slickdeals.net/f/20165976",
+        "source": "slickdeals:walmart.com",
+        "title": "Ozark Trail Girls' Hiking Romper (Limited Sizes / Colors) for $4.60 at Walmart",
+        "price": 4.6,
+        "list_price": 14.98,
+        "discount_pct": 69.3,
+        "krw": 6135,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-10-19T02:46:04+00:00",
+        "last_seen": "2026-10-19T02:46:04+00:00"
+      },
+      {
+        "url": "https://slickdeals.net/f/20171061",
+        "source": "slickdeals:target.com",
+        "title": "6' heyday Apple Watch Charger (2 Colors) for $10 at Target",
+        "price": 10.0,
+        "list_price": 19.99,
+        "discount_pct": 50.0,
+        "krw": 13336,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-10-19T02:46:04+00:00",
+        "last_seen": "2026-10-19T02:46:04+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20175834",
         "source": "slickdeals:amazon.com",
@@ -3700,13 +3783,13 @@
         "price": 85.0,
         "list_price": 150.0,
         "discount_pct": 43.3,
-        "krw": 113456,
+        "krw": 113356,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-18T05:56:22+00:00",
-        "last_seen": "2026-10-18T23:48:48+00:00"
+        "last_seen": "2026-10-19T02:46:04+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20170173",
@@ -3760,13 +3843,13 @@
         "price": 27.0,
         "list_price": 44.99,
         "discount_pct": 40.0,
-        "krw": 36039,
+        "krw": 36007,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-17T23:09:02+00:00",
-        "last_seen": "2026-10-18T23:48:48+00:00"
+        "last_seen": "2026-10-19T02:46:04+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20170995",
@@ -4082,40 +4165,10 @@
         "reject_reason": "",
         "first_seen": "2026-10-16T03:14:11+00:00",
         "last_seen": "2026-10-16T22:54:20+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20151078",
-        "source": "slickdeals:amazon.com",
-        "title": "626-Pc LEGO Creator 3-in-1 Wild Animals: Panda Family Building Set for $32 at Amazon",
-        "price": 32.0,
-        "list_price": 39.99,
-        "discount_pct": 20.0,
-        "krw": 42874,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
-        "first_seen": "2026-10-15T23:58:56+00:00",
-        "last_seen": "2026-10-16T00:00:58+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20155980",
-        "source": "slickdeals:amazon.com",
-        "title": "204-pc LEGO Harry Potter Hogwarts Castle: Charms Class Building Toy (76442) for $12 at Amazon",
-        "price": 12.0,
-        "list_price": 19.99,
-        "discount_pct": 40.0,
-        "krw": 16078,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
-        "first_seen": "2026-10-15T23:58:56+00:00",
-        "last_seen": "2026-10-16T00:00:58+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 42,
+      "collected_72h": 45,
       "published_72h": 6
     }
   }
