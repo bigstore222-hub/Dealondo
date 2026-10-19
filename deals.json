@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T02:50:27.261861+00:00",
+  "generated_at": "2026-10-19T03:01:15.748083+00:00",
   "count": 73,
   "deals": [
     {
@@ -3518,7 +3518,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-19T02:45:34+00:00",
+      "T1": "2026-10-19T03:00:41+00:00",
       "T2": "2026-10-19T02:46:06+00:00",
       "T3": "2026-10-19T02:46:41+00:00"
     },
@@ -3526,16 +3526,17 @@
       177,
       1,
       1,
-      2
+      2,
+      11
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-19T02:45:40+00:00",
+        "at": "2026-10-19T03:00:50+00:00",
         "state": "정상",
-        "mails": 7,
-        "deals": 7
+        "mails": 8,
+        "deals": 8
       },
       "newsletter": {
         "at": "2026-10-18T21:54:01+00:00",
@@ -3545,6 +3546,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20164143",
+        "source": "slickdeals:amazon.com",
+        "title": "8-Oz Aveeno Baby Healthy Start Nourishing Newborn Wash w/ Prebiotic Oat for $3.85 at Amazon",
+        "price": 3.85,
+        "list_price": 8.9,
+        "discount_pct": 56.7,
+        "krw": 5134,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-10-19T03:01:15+00:00",
+        "last_seen": "2026-10-19T03:01:15+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20173578",
         "source": "slickdeals:amazon.com",
@@ -3558,7 +3574,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 44% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T02:46:04+00:00",
-        "last_seen": "2026-10-19T02:46:04+00:00"
+        "last_seen": "2026-10-19T03:01:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20175666",
@@ -3573,7 +3589,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-19T02:46:04+00:00",
-        "last_seen": "2026-10-19T02:46:04+00:00"
+        "last_seen": "2026-10-19T03:01:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20174250",
@@ -3588,7 +3604,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-19T02:46:04+00:00",
-        "last_seen": "2026-10-19T02:46:04+00:00"
+        "last_seen": "2026-10-19T03:01:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20165976",
@@ -3603,7 +3619,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-19T02:46:04+00:00",
-        "last_seen": "2026-10-19T02:46:04+00:00"
+        "last_seen": "2026-10-19T03:01:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20171061",
@@ -3618,7 +3634,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-19T02:46:04+00:00",
-        "last_seen": "2026-10-19T02:46:04+00:00"
+        "last_seen": "2026-10-19T03:01:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20175834",
@@ -3843,7 +3859,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-18T05:56:22+00:00",
-        "last_seen": "2026-10-19T02:46:04+00:00"
+        "last_seen": "2026-10-19T03:01:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20170173",
@@ -3903,7 +3919,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-17T23:09:02+00:00",
-        "last_seen": "2026-10-19T02:46:04+00:00"
+        "last_seen": "2026-10-19T03:01:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20170995",
@@ -4222,7 +4238,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 45,
+      "collected_72h": 46,
       "published_72h": 6
     }
   }
