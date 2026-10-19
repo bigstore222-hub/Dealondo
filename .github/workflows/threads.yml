@@ -2,26 +2,37 @@ name: Dealondo Threads
 
 # 스레드(@deal_ondo) 예약 글 자동 게시.
 # 글·일정: data/threads_schedule.json  /  이미지: threads/ (GitHub Pages로 공개 주소 제공)
+#
+# GitHub 예약 실행은 수십 분~수 시간씩 밀리거나 아예 빠지는 일이 잦다(10/16·10/17 실제로 빠짐).
+# 그래서 매일 저녁 20:20~23:45(KST) 사이에 7번 따로 시도한다. 하나만 돌아도 글이 올라가고,
+# 이미 올렸으면 바로 건너뛰므로 중복 게시는 없다(본문 첫 줄로 확인).
+# 분(minute)을 정각이 아닌 값으로 둔 것도 GitHub 혼잡 시간대를 피하기 위함이다.
+# 주 트리거는 외부 알람(cron-job.org)이 20:25에 mode=window 로 깨우는 것이고, 아래 7개는 안전망이다.
 on:
   schedule:
-    # 매일 게시는 radar.yml(20분마다)의 '스레드 예약 글 게시' 단계가 맡는다(예약 실행 지연 대비).
-    # 여기는 수동 실행(dry-run/post/refresh)과 주간 토큰 연장만.
-    - cron: '0 3 * * 1'     # 매주 월요일 12:00 한국시간 — 토큰 60일 연장
+    - cron: '23 11 * * *'   # 20:23 KST
+    - cron: '47 11 * * *'   # 20:47 KST
+    - cron: '13 12 * * *'   # 21:13 KST
+    - cron: '41 12 * * *'   # 21:41 KST
+    - cron: '17 13 * * *'   # 22:17 KST
+    - cron: '53 13 * * *'   # 22:53 KST
+    - cron: '29 14 * * *'   # 23:29 KST (마지막 시도 — 실패하면 텔레그램 알림)
+    - cron: '7 3 * * 1'     # 매주 월요일 12:07 KST — 토큰 60일 연장
   workflow_dispatch:
     inputs:
       mode:
-        description: 'post = 지금 게시 / dry-run = 미리보기만 / refresh = 토큰 연장'
+        description: 'post = 지금 게시 / window = 저녁 시간대에만 게시(외부 알람용) / dry-run = 미리보기만 / refresh = 토큰 연장'
         required: true
         default: 'post'
         type: choice
-        options: [post, dry-run, refresh]
+        options: [post, window, dry-run, refresh]
 
 concurrency:
   group: dealondo-threads
   cancel-in-progress: false
 
 permissions:
-  contents: read
+  contents: write              # threads_status.json(게시 기록) 커밋
 
 jobs:
   run:
@@ -41,11 +52,17 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GH_PAT: ${{ secrets.GH_PAT }}          # 선택: 토큰 연장 시 시크릿 자동 갱신
           GH_REPO: ${{ github.repository }}
-          MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || 'refresh' }}
+          MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || (github.event.schedule == '7 3 * * 1' && 'refresh' || 'window') }}
         run: |
           cd scraper
           case "$MODE" in
             refresh) python threads_post.py --refresh ;;
             dry-run) python threads_post.py --dry-run ;;
+            window)  python threads_post.py --window 20:20 --until 23:45 ;;
             *)       python threads_post.py ;;
           esac
+
+      # 게시 시도 결과(threads_status.json)를 커밋 → monitor.html 에서 확인
+      - name: 게시 기록 저장
+        if: always()
+        run: bash .github/scripts/push_files.sh "스레드 게시 기록 $(date -u +%Y-%m-%dT%H:%M:%SZ)" threads_status.json

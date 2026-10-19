@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
-<title>딜온도 메일 수집 모니터</title>
+<title>딜온도 운영 모니터</title>
 <style>
 :root{--bg:#f7f5f2;--card:#fff;--ink:#222;--muted:#6b6b6b;--line:#e6e2dc;--ok:#1f8a4c;--bad:#c0392b;--warn:#b7791f}
 @media (prefers-color-scheme:dark){:root{--bg:#16181f;--card:#1f222b;--ink:#eee;--muted:#9a9a9a;--line:#2e323d}}
@@ -24,8 +24,10 @@ th{font-size:12px;color:var(--muted);font-weight:600}td.num{text-align:right;whi
 </style>
 </head>
 <body>
-<h1>메일 수집 모니터</h1>
+<h1>딜온도 운영 모니터</h1>
 <p class="sub" id="gen">불러오는 중…</p>
+<h2 style="font-size:15px;margin:8px 0">수집 상태</h2>
+<div class="cards" id="pipe"></div>
 <h2 style="font-size:15px;margin:8px 0">스레드 자동 게시</h2>
 <div class="cards" id="threads"></div>
 <h2 style="font-size:15px;margin:8px 0">메일 수집</h2>
@@ -35,7 +37,9 @@ th{font-size:12px;color:var(--muted);font-weight:600}td.num{text-align:right;whi
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const kst=iso=>{try{return new Date(iso).toLocaleString('ko-KR',{timeZone:'Asia/Seoul',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'})}catch(e){return iso}};
 const NAMES={sd_alert:'슬릭딜 알림 메일',newsletter:'쇼핑몰 뉴스레터'};
-fetch('deals.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
+Promise.all([fetch('deals.json',{cache:'no-store'}).then(r=>r.json()),
+  fetch('threads_status.json',{cache:'no-store'}).then(r=>r.ok?r.json():{}).catch(()=>({}))]).then(([d,ts])=>{
+  window.__threads=ts;
   const m=d.email_monitor||{};const st=m.status||{};const t=m.totals||{};
   document.getElementById('gen').textContent='딜보드 갱신 '+kst(d.generated_at)+' · 최근 72시간 기록';
   let h=`<div class="card"><h2>72시간 동안 메일로 들어온 딜</h2><div class="big">${t.collected_72h??0}건</div><div class="why">딜보드 통과 ${t.published_72h??0}건</div></div>`;
@@ -44,10 +48,20 @@ fetch('deals.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
     const cls=s.state==='정상'?'ok':(s.state==='미설정'?'warn':'bad');
     h+=`<div class="card"><h2>${NAMES[k]}</h2><div class="big ${cls}">${esc(s.state)}</div><div class="why">마지막 실행 ${kst(s.at)} · 메일 ${s.mails}통 → 딜 ${s.deals}건</div></div>`}
   document.getElementById('cards').innerHTML=h;
-  const tm=d.threads_monitor||{};const hist=tm.history||[];
+  // 수집 상태: 마지막 갱신 경과 시간, 티어별 마지막 실행, 최근 공백
+  const ago=iso=>{const m=Math.round((Date.now()-new Date(iso))/60000);return m<60?m+'분 전':Math.floor(m/60)+'시간 '+(m%60)+'분 전'};
+  const age=Math.round((Date.now()-new Date(d.generated_at))/60000);
+  const pc=age<=30?'ok':(age<=60?'warn':'bad');
+  const pl=d.pipeline||{};const tr=pl.tier_last_run||{};const gaps=pl.recent_gaps_min||[];
+  const TN={T1:'빠른 수집(슬릭딜·알림메일·Woot)',T2:'딜사이트(DoA·DealNews 등)',T3:'리테일러',T4:'뉴스레터'};
+  let ph=`<div class="card"><h2>딜보드 마지막 갱신</h2><div class="big ${pc}">${ago(d.generated_at)}</div><div class="why">30분 안이면 정상</div></div>`;
+  for(const k of ['T1','T2','T3','T4']){if(tr[k])ph+=`<div class="card"><h2>${TN[k]}</h2><div class="big">${ago(tr[k])}</div></div>`}
+  if(gaps.length){const mx=Math.max(...gaps);ph+=`<div class="card"><h2>최근 갱신 간격(최대)</h2><div class="big ${mx<=30?'ok':(mx<=60?'warn':'bad')}">${mx}분</div><div class="why">최근 ${gaps.length}회 · 평균 ${Math.round(gaps.reduce((a,b)=>a+b,0)/gaps.length)}분</div></div>`}
+  document.getElementById('pipe').innerHTML=ph;
+  const tm=window.__threads||{};const hist=tm.history||[];
   const tcls=r=>r==='게시 완료'?'ok':(r==='실패'?'bad':'warn');
   let th='';
-  if(!hist.length){th='<div class="card"><h2>최근 시도</h2><div class="big warn">기록 없음</div><div class="why">20:20~23:00 사이 딜보드 실행에서 기록돼요</div></div>';}
+  if(!hist.length){th='<div class="card"><h2>최근 시도</h2><div class="big warn">기록 없음</div><div class="why">매일 20:20 이후 게시 시도 때 기록돼요</div></div>';}
   else{th=hist.slice(0,6).map(x=>`<div class="card"><h2>${kst(x.at)}</h2><div class="big ${tcls(x.result)}">${esc(x.result)}</div><div class="why">${esc(x.item)}${x.date?' · 예정 '+esc(x.date):''}</div>${x.detail?`<div class="why">${esc(x.detail)}</div>`:''}${x.link?`<div class="why"><a href="${esc(x.link)}" target="_blank" rel="noopener">글 보기</a></div>`:''}</div>`).join('');}
   document.getElementById('threads').innerHTML=th;
   const rows=(m.recent||[]).map(r=>`<tr><td>${kst(r.first_seen)}</td><td>${esc((r.source||'').replace('slickdeals:','SD · '))}</td>

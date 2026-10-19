@@ -1,20 +1,51 @@
 name: Dealondo Radar
 
-# PC를 켜두지 않아도 GitHub 서버가 주기적으로 스크래퍼를 돌린다.
-# 결과(deals.json)를 리포에 커밋 → GitHub Pages 딜보드가 자동 갱신되고,
-# 텔레그램 알림도 서버에서 발송된다.
+# PC를 켜두지 않아도 GitHub 서버가 스크래퍼를 돌린다.
+# 결과(deals.json)를 리포에 커밋 → GitHub Pages 딜보드가 갱신되고, 텔레그램 알림도 서버에서 발송된다.
+#
+# 실행 시각(중요)
+#  · 주 트리거: 외부 알람(cron-job.org)이 10분마다 workflow_dispatch 로 깨운다.
+#    GitHub 자체 예약(schedule)은 수십 분~수 시간씩 밀리거나 빠지는 일이 잦아서(10/16~18 실측)
+#    정시성을 외부 알람에 맡긴다. 수동 실행(workflow_dispatch)은 밀리지 않고 바로 시작된다.
+#  · 보조 트리거: 아래 schedule 은 외부 알람이 끊겼을 때를 위한 안전망.
 on:
   schedule:
-    - cron: '*/20 * * * *'   # 20분마다 (GitHub 부하에 따라 다소 지연될 수 있음)
-  workflow_dispatch: {}        # Actions 탭에서 수동 실행 버튼
+    - cron: '7,27,47 * * * *'   # 안전망(정각을 피한 분) — 밀려도 외부 알람이 주 트리거
+  workflow_dispatch: {}
 
-# 이전 실행이 안 끝났으면 겹치지 않게 한 번에 하나만.
+# 이전 실행이 안 끝났으면 겹치지 않게 한 번에 하나만(대기 1개까지).
 concurrency:
   group: dealondo-radar
   cancel-in-progress: false
 
 permissions:
   contents: write              # deals.json 커밋/푸시 권한
+
+env:
+  # DB는 리포 안 data/ 에 두고 캐시로 유지
+  RADAR_DB: ${{ github.workspace }}/data/radar.db
+  # 딜보드 JSON은 리포 루트로 → GitHub Pages가 서빙
+  RADAR_WEB_JSON: ${{ github.workspace }}/deals.json
+  RADAR_MIN_FREE_MB: '500'
+  RADAR_DISABLE_RENDER: '1'        # CI는 정적 수집만 (렌더 사이트는 로컬에서)
+  RADAR_T1_MINUTES: '8'            # 빠른 소스(T1)는 매 실행마다
+  RADAR_FETCH_BUDGET_SEC: '150'
+  RADAR_SITE_BUDGET_SEC: '20'
+  RADAR_DOA_ENRICH_BUDGET_SEC: '70'
+  PYTHONUTF8: '1'
+  # 시크릿 (Settings > Secrets and variables > Actions)
+  TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+  TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+  NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+  NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+  RADAR_IMAP_USER: ${{ secrets.RADAR_IMAP_USER }}
+  RADAR_IMAP_PASS: ${{ secrets.RADAR_IMAP_PASS }}
+  # 아래는 선택 — 등록한 것만 켜지고, 비어 있으면 코드가 조용히 건너뛴다.
+  WOOT_API_KEY: ${{ secrets.WOOT_API_KEY }}
+  TELEGRAM_FREE_CHAT_ID: ${{ secrets.TELEGRAM_FREE_CHAT_ID }}
+  RADAR_AMAZON_TAG: ${{ secrets.RADAR_AMAZON_TAG }}
+  RADAR_SKIMLINKS_ID: ${{ secrets.RADAR_SKIMLINKS_ID }}
+  RADAR_SOVRN_KEY: ${{ secrets.RADAR_SOVRN_KEY }}
 
 jobs:
   run:
@@ -29,8 +60,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      # DB(가격이력·중복방지)를 실행 간에 유지한다.
-      # 리포에 커밋하면 바이너리가 계속 쌓이므로, 대신 Actions 캐시를 굴린다.
+      # DB(가격이력·중복방지)를 실행 간에 유지한다(리포 대신 Actions 캐시).
       - name: DB 캐시 복원
         uses: actions/cache/restore@v4
         with:
@@ -39,53 +69,33 @@ jobs:
           restore-keys: |
             dealondo-db-
 
-      # CI에서는 렌더링(Playwright)을 쓰지 않으므로 브라우저를 설치하지 않는다.
-      # → 설치 4~5분 절약 + 렌더 멈춤/불안정 원천 제거. 정적 소스(노드스트롬랙·
-      #   자포스·6pm·DoA·제휴피드)만으로도 프리미엄 딜은 충분히 잡힌다.
       - name: 의존성 설치
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: 한 사이클 수집
+      # ① 빠른 수집: 슬릭딜 RSS·슬릭딜 알림 메일·Woot API·T1 워치리스트.
+      #    시간 민감한 딜이라 먼저 돌리고 곧바로 딜보드에 반영한다(느린 수집을 기다리지 않음).
+      - name: 빠른 수집 (T1)
         env:
-          # DB는 리포 안 data/ 에 두고 캐시로 유지
-          RADAR_DB: ${{ github.workspace }}/data/radar.db
-          # 딜보드 JSON은 리포 루트로 → GitHub Pages가 서빙
-          RADAR_WEB_JSON: ${{ github.workspace }}/deals.json
-          # Actions 러너는 디스크가 넉넉하다
-          RADAR_MIN_FREE_MB: '500'
-          RADAR_DISABLE_RENDER: '1'      # CI는 정적 수집만 (렌더 사이트는 로컬에서)
-          # 티어당 수집 시간 상한(초). 렌더를 끈 정적 수집이라 훨씬 빨라, 첫 전량
-          # 스윕도 타임아웃 안에 끝난다. 이후엔 티어 주기 로직으로 대부분 T1/T2만.
-          RADAR_FETCH_BUDGET_SEC: '150'
-          RADAR_SITE_BUDGET_SEC: '20'
-          RADAR_RUN_BUDGET_SEC: '780'     # 전체 실행 13분 상한 (타임아웃 30분 훨씬 이내)
-          RADAR_DOA_ENRICH_BUDGET_SEC: '70'
-          PYTHONUTF8: '1'
-          # 시크릿 (Settings > Secrets and variables > Actions 에 등록)
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
-          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
-          # 이메일 뉴스레터 수집(선택) — 설정 시에만 동작
-          RADAR_IMAP_USER: ${{ secrets.RADAR_IMAP_USER }}
-          RADAR_IMAP_PASS: ${{ secrets.RADAR_IMAP_PASS }}
-          # 아래는 전부 선택 — 시크릿을 등록한 것만 켜지고, 비어 있으면 코드가 조용히 건너뛴다.
-          # Woot 공식 API: CI는 렌더링을 끄므로 이 키가 없으면 딜보드에 Woot이 아예 안 잡힌다.
-          WOOT_API_KEY: ${{ secrets.WOOT_API_KEY }}
-          # 텔레그램 무료 채널(60분 지연 발송). 없으면 단일 채널로만 발송.
-          TELEGRAM_FREE_CHAT_ID: ${{ secrets.TELEGRAM_FREE_CHAT_ID }}
-          # 제휴 수익화(affiliate.py) — 승인받은 것만 등록
-          RADAR_AMAZON_TAG: ${{ secrets.RADAR_AMAZON_TAG }}
-          RADAR_SKIMLINKS_ID: ${{ secrets.RADAR_SKIMLINKS_ID }}
-          RADAR_SOVRN_KEY: ${{ secrets.RADAR_SOVRN_KEY }}
+          RADAR_RUN_BUDGET_SEC: '240'
         run: |
           mkdir -p data
           cd scraper
-          # 하드 상한: 무슨 일이 있어도 14분 뒤 강제 종료(딜보드는 티어마다 저장돼 있음).
-          # 어떤 내부 행이 있어도 CI 30분 타임아웃엔 절대 안 걸린다.
-          timeout --preserve-status 840 python scheduler.py --once || echo "[CI] 시간 상한 도달 — 부분 결과로 진행"
+          timeout --preserve-status 300 python scheduler.py --once --tier T1 --due-only || echo "[CI] T1 시간 상한 — 부분 결과로 진행"
+
+      - name: 딜보드 반영 (빠른 수집분)
+        run: |
+          cp -f web/index.html index.html || true
+          bash .github/scripts/push_files.sh "딜보드 갱신(빠른) $(date -u +%Y-%m-%dT%H:%M:%SZ)" deals.json index.html
+
+      # ② 느린 수집: DoA·DealNews·TechBargains·제휴피드(T2), 리테일러(T3), 뉴스레터(T4) — 주기가 된 것만.
+      - name: 나머지 수집 (T2~T4, 주기 된 것만)
+        env:
+          RADAR_RUN_BUDGET_SEC: '660'
+        run: |
+          cd scraper
+          timeout --preserve-status 720 python scheduler.py --once --tier T2,T3,T4 --due-only || echo "[CI] 시간 상한 — 부분 결과로 진행"
 
       - name: DB 캐시 저장
         if: always()
@@ -94,31 +104,8 @@ jobs:
           path: data/radar.db
           key: dealondo-db-${{ github.run_id }}
 
-      # 스레드(@deal_ondo) 예약 글 — 20분마다 도는 이 워크플로에 얹어서 하루 1회를 보장한다.
-      # (GitHub 예약 실행은 수십 분 밀리거나 건너뛰는 일이 잦아 별도 하루 1회 cron은 불안정)
-      # 20:20~23:00 KST 사이 '첫 실행'이 올리고, 이미 올렸으면 그날은 건너뛴다.
-      - name: 스레드 예약 글 게시
+      - name: 딜보드 반영 (전체)
         if: always()
-        env:
-          PYTHONUTF8: '1'
-          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
-          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          cd scraper
-          timeout 300 python threads_post.py --window 20:20 --until 23:00 || true
-
-      - name: 딜보드 커밋 & 푸시
-        run: |
-          # 최신 UI를 루트로 동기화(딜보드 화면)
           cp -f web/index.html index.html || true
-          git config user.name "dealondo-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add deals.json index.html
-          if git diff --staged --quiet; then
-            echo "변경 없음 — 커밋 생략"
-          else
-            git commit -m "딜보드 갱신 $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-            git push
-          fi
+          bash .github/scripts/push_files.sh "딜보드 갱신 $(date -u +%Y-%m-%dT%H:%M:%SZ)" deals.json index.html

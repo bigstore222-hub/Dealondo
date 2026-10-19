@@ -37,7 +37,7 @@ PLACEHOLDER = re.compile(r"\[[^\]\n]*(링크|주소)[^\]\n]*\]")
 
 
 MAX_PER_DAY = 2
-BOARD_JSON = ROOT / "deals.json"
+STATUS_JSON = ROOT / "threads_status.json"   # Dealondo Threads 워크플로가 커밋 → monitor.html
 
 
 def save_status(result: str, detail: str, it: dict | None, link: str = "") -> None:
@@ -51,22 +51,21 @@ def save_status(result: str, detail: str, it: dict | None, link: str = "") -> No
 
 def _save_status(result: str, detail: str, it: dict | None, link: str = "") -> None:
     """
-    마지막 게시 시도 결과를 deals.json 의 threads_monitor 에 남긴다.
-    딜보드 워크플로가 이 파일을 커밋하므로, Actions 로그를 열지 않아도
-    공개 주소(deals.json, monitor.html)에서 게시가 왜 됐는지/안 됐는지 확인할 수 있다.
+    마지막 게시 시도 결과를 threads_status.json 에 남긴다.
+    Dealondo Threads 워크플로가 이 파일을 커밋하므로, Actions 로그를 열지 않아도
+    공개 주소(threads_status.json, monitor.html)에서 게시가 왜 됐는지/안 됐는지 확인할 수 있다.
     """
     try:
-        data = json.loads(BOARD_JSON.read_text(encoding="utf-8"))
+        mon = json.loads(STATUS_JSON.read_text(encoding="utf-8"))
     except Exception:
-        return
-    mon = data.get("threads_monitor") or {}
+        mon = {}
     entry = {"at": dt.datetime.now(KST).isoformat(timespec="seconds"), "result": result,
              "detail": detail, "item": label(it) if it else "", "date": it["date"] if it else "",
              "link": link}
     hist = [entry] + [h for h in (mon.get("history") or [])][:19]
-    data["threads_monitor"] = {"last": entry, "history": hist}
     try:
-        BOARD_JSON.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+        STATUS_JSON.write_text(json.dumps({"last": entry, "history": hist}, ensure_ascii=False, indent=2),
+                               encoding="utf-8")
     except Exception as e:
         print("  상태 기록 실패:", e)
 
@@ -83,18 +82,21 @@ def first_line(s: str) -> str:
 
 
 def tg(msg: str) -> None:
-    # 시크릿 값 끝에 줄바꿈·공백이 섞여 들어가면 URL 오류가 난다(10/17 실제 발생) → 다듬어서 쓴다
-    tok = (os.environ.get("TELEGRAM_BOT_TOKEN") or "").strip()
-    chat = (os.environ.get("TELEGRAM_CHAT_ID") or "").strip()
+    # 시크릿 값에 공백·줄바꿈이 섞여 있으면 URL 오류로 발송이 실패한다(10/17 실제 발생).
+    # 토큰·chat id에는 원래 공백이 없으므로 notify.py 와 같이 모든 공백 문자를 제거한다.
+    tok = re.sub(r"\s", "", os.environ.get("TELEGRAM_BOT_TOKEN") or "")
+    chat = re.sub(r"\s", "", os.environ.get("TELEGRAM_CHAT_ID") or "")
     print("[알림]", msg.replace("\n", " | "))
     if not (tok and chat):
         return
     data = urllib.parse.urlencode({"chat_id": chat, "text": msg,
                                    "disable_web_page_preview": "true"}).encode()
     try:
-        urllib.request.urlopen(f"https://api.telegram.org/bot{tok}/sendMessage", data, timeout=15)
+        with urllib.request.urlopen(f"https://api.telegram.org/bot{tok}/sendMessage", data, timeout=15) as r:
+            if not json.loads(r.read()).get("ok"):
+                print("  텔레그램 응답 ok=false")
     except Exception as e:
-        print("  텔레그램 전송 실패:", e)
+        print("  텔레그램 전송 실패:", type(e).__name__, str(e)[:150])
 
 
 def load_schedule() -> list[dict]:
@@ -155,8 +157,8 @@ def fail_tg(msg: str) -> None:
 
 
 def run_post(dry: bool, force: bool) -> int:
-    token = (os.environ.get("THREADS_ACCESS_TOKEN") or "").strip()
-    uid = (os.environ.get("THREADS_USER_ID") or "").strip()
+    token = re.sub(r"\s", "", os.environ.get("THREADS_ACCESS_TOKEN") or "")
+    uid = re.sub(r"\s", "", os.environ.get("THREADS_USER_ID") or "")
     items, today = load_schedule(), today_kst()
     if not (token and uid):
         if not dry:
@@ -283,6 +285,12 @@ def main() -> int:
     a = ap.parse_args()
     if a.refresh:
         return run_refresh()
+    # 예전 설정에서는 딜보드 워크플로(Dealondo Radar)에도 게시 단계가 붙어 있다.
+    # 이제 게시는 Dealondo Threads 워크플로가 저녁에 7번 시도하며 전담한다.
+    # 두 워크플로가 같은 순간에 같은 글을 올리는 일을 막기 위해 여기서는 건너뛴다.
+    if a.window and os.environ.get("GITHUB_WORKFLOW") == "Dealondo Radar":
+        print("[스레드] 게시는 Dealondo Threads 워크플로가 담당 — 딜보드 실행에서는 건너뜀")
+        return 0
     if a.window:
         inside, first = in_window(a.window, a.until)
         if not inside:

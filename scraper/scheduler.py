@@ -76,6 +76,12 @@ WEB_JSON = (os.environ.get("RADAR_WEB_JSON")
 PUBLISH_SLOTS = [(8, 24)]        # KST 08:00 ~ 23:59
 
 TIER_MINUTES = {"T1": 15, "T2": 30, "T3": 120, "T4": 360}
+# 빠른 소스(슬릭딜 RSS·알림 메일·Woot API)만 도는 T1 주기. CI는 외부 트리거로 10분마다
+# 돌므로 8분으로 내려 매 실행마다 T1이 돌게 한다(RADAR_T1_MINUTES).
+TIER_MINUTES["T1"] = float(os.environ.get("RADAR_T1_MINUTES", TIER_MINUTES["T1"]))
+# 딜보드 파일에 남기는 수집 상태(티어별 마지막 실행 시각) — monitor.html 에서 본다
+PIPELINE: dict = {"tier_last_run": {}}
+GAP_ALERT_MIN = int(os.environ.get("RADAR_GAP_ALERT_MIN", "60"))
 KST = timezone(timedelta(hours=9))
 
 
@@ -368,7 +374,29 @@ def write_board(all_deals: list) -> None:
         curated = kept
 
     deals = sorted(curated, key=lambda d: d.get("score", 0), reverse=True)
+    # 수집 공백 감시: 직전 갱신과의 간격이 길면(=실행이 멈춰 있었다면) 한 번 알린다.
+    gap_min = None
+    try:
+        prev = old.get("generated_at") if isinstance(old, dict) else None
+        if prev:
+            gap_min = round((now - datetime.fromisoformat(prev)).total_seconds() / 60)
+    except (TypeError, ValueError):
+        gap_min = None
+    if (gap_min is not None and gap_min >= GAP_ALERT_MIN
+            and os.environ.get("GITHUB_ACTIONS") == "true"):
+        try:
+            notify.send(f"⚠️ 딜 수집이 {gap_min}분 동안 멈춰 있다가 다시 돌기 시작했어요.\n"
+                        f"자주 반복되면 외부 트리거(cron-job.org) 설정을 확인해 주세요.", True)
+        except Exception:
+            pass
+    pipe_old = (old.get("pipeline") or {}) if isinstance(old, dict) else {}
+    tier_runs = dict(pipe_old.get("tier_last_run") or {})
+    tier_runs.update(PIPELINE["tier_last_run"])
+    gaps = [g for g in (pipe_old.get("recent_gaps_min") or [])][-29:]
+    if gap_min is not None and gap_min > 0:
+        gaps.append(gap_min)
     payload = {"generated_at": now.isoformat(), "count": len(deals), "deals": deals,
+               "pipeline": {"tier_last_run": tier_runs, "recent_gaps_min": gaps},
                "email_monitor": _email_monitor(all_deals, old if isinstance(old, dict) else {}, now)}
     os.makedirs(os.path.dirname(WEB_JSON), exist_ok=True)
     tmp = WEB_JSON + ".tmp"
@@ -410,7 +438,9 @@ def main() -> None:
     # 환경에서 '지금 돌 차례인 티어'만 골라 돌기 위해). 상주 모드에선 첫 사이클에만 영향.
     last_run = {t: 0.0 for t in tiers}
     last_run.update({t: v for t, v in store.get_tier_last_run(con).items() if t in tiers})
-    if once and not only_tier and not force_all:
+    # --due-only: --tier 로 티어를 지정해도 '주기가 된 것만' 돈다(CI의 빠른/느린 단계 분리용).
+    due_only = "--due-only" in sys.argv
+    if once and (not only_tier or due_only) and not force_all:
         due_now_list = [t for t in tiers
                         if time.time() - last_run.get(t, 0.0) >= TIER_MINUTES.get(t, 360) * 60]
         skipped = [t for t in tiers if t not in due_now_list]
@@ -441,6 +471,7 @@ def main() -> None:
             due = now - last_run[t] >= TIER_MINUTES.get(t, 360) * 60
             if not (due or once):
                 continue
+            PIPELINE["tier_last_run"][t] = datetime.now(timezone.utc).isoformat(timespec="seconds")
             try:
                 fresh, scored = run_tier(t, con)
                 pending = dispatch(fresh, con, pending, force=force_send)
