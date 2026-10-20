@@ -85,14 +85,24 @@ def permalink(media_id: str, token: str) -> str:
 
 
 # ── 게시 ──────────────────────────────────────────────
-def _create(uid: str, token: str, text: str, image_url: str | None = None,
-            reply_to: str | None = None) -> str:
-    p = {"access_token": token, "text": text,
-         "media_type": "IMAGE" if image_url else "TEXT"}
+def _create(uid: str, token: str, text: str | None, image_url: str | None = None,
+            reply_to: str | None = None, topic_tag: str | None = None, *,
+            carousel_item: bool = False, children: list[str] | None = None) -> str:
+    p = {"access_token": token,
+         "media_type": "CAROUSEL" if children else ("IMAGE" if image_url else "TEXT")}
+    if text:
+        p["text"] = text
     if image_url:
         p["image_url"] = image_url
+    if carousel_item:
+        p["is_carousel_item"] = "true"
+    if children:
+        p["children"] = ",".join(children)
     if reply_to:
         p["reply_to_id"] = reply_to
+    if topic_tag:
+        # 글 하나에 주제 태그 1개(1~50자, 마침표·& 불가). 그 주제 피드에 노출되고 계정 주제 파악에 쓰인다.
+        p["topic_tag"] = topic_tag.replace(".", "").replace("&", "")[:50]
     return _req("POST", f"{VER}/{uid}/threads", p)["id"]
 
 
@@ -119,10 +129,28 @@ def _publish(uid: str, token: str, container_id: str) -> str:
 
 
 def publish_post(uid: str, token: str, text: str, image_url: str | None = None,
-                 reply_to: str | None = None) -> str:
-    """글(또는 답글) 하나를 게시하고 게시물 ID를 돌려준다."""
+                 reply_to: str | None = None, topic_tag: str | None = None,
+                 images: list[str] | None = None) -> str:
+    """
+    글(또는 답글) 하나를 게시하고 게시물 ID를 돌려준다.
+    images 에 2~20장을 주면 넘겨보는 이미지(캐러셀)로 올린다.
+    주제 태그 때문에 거절되면 태그 없이 한 번 더 시도한다(게시 자체가 막히지 않게).
+    """
     if len(text) > 500:
         raise ThreadsError(f"본문이 500자를 넘습니다 ({len(text)}자)")
-    cid = _create(uid, token, text, image_url, reply_to)
+    def make(tag):
+        if images and len(images) >= 2:
+            kids = [_create(uid, token, None, u, carousel_item=True) for u in images[:20]]
+            for k in kids:
+                _wait_ready(k, token)
+            return _create(uid, token, text, None, reply_to, tag, children=kids)
+        return _create(uid, token, text, image_url, reply_to, tag)
+    try:
+        cid = make(topic_tag)
+    except ThreadsError as e:
+        if not topic_tag:
+            raise
+        print(f"  [threads] 주제 태그 '{topic_tag}' 로 거절됨 → 태그 없이 재시도: {e}")
+        cid = make(None)
     _wait_ready(cid, token)
     return _publish(uid, token, cid)

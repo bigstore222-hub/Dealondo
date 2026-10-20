@@ -70,6 +70,14 @@ def _save_status(result: str, detail: str, it: dict | None, link: str = "") -> N
         print("  상태 기록 실패:", e)
 
 
+def topic_of(it: dict) -> str:
+    """글마다 주제 태그 1개. 일정 파일에 "topic" 이 있으면 그것을, 없으면 내용으로 고른다."""
+    if it.get("topic"):
+        return it["topic"]
+    t = it.get("text") or ""
+    return "블랙프라이데이" if ("블프" in t or "블랙프라이데이" in t) else "해외직구"
+
+
 def today_kst() -> dt.date:
     return dt.datetime.now(KST).date()
 
@@ -221,7 +229,7 @@ def run_post(dry: bool, force: bool) -> int:
         return 1
 
     try:
-        pid = T.publish_post(uid, token, it["text"], img)
+        pid = T.publish_post(uid, token, it["text"], img, topic_tag=topic_of(it))
     except T.ThreadsError as e:
         save_status("실패", str(e)[:300], it)
         fail_tg(f"❌ 스레드 게시 실패: {label(it)}\n{e}")

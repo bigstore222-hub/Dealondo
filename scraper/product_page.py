@@ -60,7 +60,11 @@ def _shopify(url: str) -> dict | None:
         or next((x for x in variants if x.get("available")), None) or (variants[0] if variants else {})
     price = (v.get("price") or j.get("price") or 0) / 100
     cmp_ = (v.get("compare_at_price") or j.get("compare_at_price") or 0) / 100
-    return {"title": j.get("title"), "brand": j.get("vendor") or "",
+    img = (v.get("featured_image") or {}).get("src") if isinstance(v.get("featured_image"), dict) else None
+    img = img or j.get("featured_image") or ((j.get("images") or [None])[0])
+    if img and img.startswith("//"):
+        img = "https:" + img
+    return {"title": j.get("title"), "brand": j.get("vendor") or "", "image": img,
             "price_current": price or None, "price_list": cmp_ if cmp_ > price else None,
             "currency": "USD", "in_stock": bool(j.get("available")), "how": "shopify"}
 
@@ -91,6 +95,11 @@ def _from_html(html: str) -> dict:
     out: dict = {}
     for prod in _jsonld_products(html):
         out.setdefault("title", prod.get("name"))
+        im = prod.get("image")
+        im = im[0] if isinstance(im, list) and im else im
+        im = im.get("url") if isinstance(im, dict) else im
+        if isinstance(im, str) and im.startswith("http"):
+            out.setdefault("image", im)
         b = prod.get("brand")
         out.setdefault("brand", (b.get("name") if isinstance(b, dict) else b) or "")
         offers = prod.get("offers") or {}
@@ -115,6 +124,8 @@ def _from_html(html: str) -> dict:
             or re.search(rf'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\']{prop}["\']', html, re.I)
         return htmlmod.unescape(m.group(1)) if m else None
     out.setdefault("title", meta("og:title") or "")
+    if not out.get("image") and (meta("og:image") or "").startswith("http"):
+        out["image"] = meta("og:image")
     if not out.get("price_current"):
         pr = _num(meta("product:price:amount") or meta("og:price:amount"))
         if pr:

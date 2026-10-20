@@ -31,8 +31,15 @@ STORES = {"nordstromrack.com": "Nordstrom Rack", "nordstrom.com": "Nordstrom", "
           "macys.com": "Macy's", "ebay.com": "eBay", "walmart.com": "Walmart", "target.com": "Target",
           "carhartt.com": "Carhartt", "adidas.com": "adidas", "nike.com": "Nike",
           "saksoff5th.com": "Saks OFF 5TH", "bloomingdales.com": "Bloomingdale's"}
-QUESTIONS = ["이런 가격, 직구해보신 적 있어요?", "이 정도면 장바구니 담으시나요?",
-             "요즘 노리는 브랜드 있으세요?", "직구할 때 제일 먼저 보는 게 뭐예요?"]
+# 질문은 상품 종류에 맞춰 고른다(어느 글에나 붙는 질문은 자동 게시물처럼 보여 답글이 안 달린다)
+QUESTIONS = {
+    "clothes": ["이 가격이면 사이즈 모험해볼 만할까요?", "이 가격이면 한 사이즈 크게 사두시겠어요?"],
+    "shoes": ["신발은 사이즈 실패가 무서운데, 이 가격이면 도전하시겠어요?", "이 가격이면 반 사이즈 고민 없이 사시겠어요?"],
+    "bags": ["이 가격이면 선물용으로 하나 더 사두시겠어요?", "이 가격이면 데일리로 막 들어도 괜찮겠죠?"],
+    "electronics": ["국내 가격이랑 비교하면 어떠세요?", "이 가격이면 지금 바꾸시겠어요?"],
+    "etc": ["이 가격이면 장바구니 담으시겠어요?", "이 가격, 직구해볼 만할까요?"],
+}
+BF_WINDOW = ((11, 20), (12, 2))     # 이 기간엔 주제 태그를 '블랙프라이데이'로
 
 
 def norm(u: str) -> str:
@@ -74,32 +81,81 @@ def duty_line(d: dict) -> str:
     return f"관부가세 포함 예상 약 ₩{krw:,}" if krw else "면세한도 초과 — 관부가세 확인 필요"
 
 
+def topic_tag(now: dt.datetime | None = None) -> str:
+    n = now or dt.datetime.now(KST)
+    (m1, d1), (m2, d2) = BF_WINDOW
+    return "블랙프라이데이" if (m1, d1) <= (n.month, n.day) <= (m2, d2) else "해외직구"
+
+
 def build_text(d: dict, seen_kst: dt.datetime) -> tuple[str, str]:
+    """
+    첫 줄 = 한국어로 '무엇인지' + 가격 변화 (피드에서 멈추게 하는 줄)
+    본문은 짧게, 세부(관부가세·확인 시각)는 카드 이미지에 맡긴다.
+    """
+    import kr_names as K
     now, was, pct = d["price_current"], d.get("price_list"), d.get("discount_pct")
     brand, title = (d.get("brand") or "").strip(), (d.get("title") or "").strip()
-    name = f"{brand} {title}".strip() if brand and not title.lower().startswith(brand.lower()) else title
-    lines = [f"{money(was)}짜리가 {money(now)}." if was else f"{name} {money(now)}.", "",
-             f"{store_name(d)} · {name}"]
-    if pct:
-        lines.append(f"{round(pct)}% 할인 중이에요.")
-    lines.append("")
-    if was:
-        lines.append(f"· 정가 {money(was)} → {money(now)}")
-    lines.append("· " + duty_line(d))
-    if d.get("kr_lowest_price"):
-        lines.append(f"· 국내 최저가 ₩{int(d['kr_lowest_price']):,} (네이버 쇼핑 기준)")
-    lines.append("· 배대지 배송비는 별도")
+    head = K.headline_name(brand, title)
+    g = K.gender(title, d.get("url") or "")
+    lines = [f"{head}, {money(was)} → {money(now)}" if was else f"{head} {money(now)}", ""]
+    lines.append(f"{store_name(d)}에서 {round(pct)}% 할인 중이에요." if pct else f"{store_name(d)} 판매가예요.")
+    if g:
+        lines[-1] += f" ({g})"
+    duty = duty_line(d)
+    if "없음" in duty:
+        lim = "150" if "$150" in duty else "200"
+        lines.append(f"${lim} 이하라 관부가세 없고, 배대지 배송비만 더하면 돼요.")
+    else:
+        lines.append(duty.replace("관부가세 포함 예상", "관부가세 포함하면 약") + ", 배대지 배송비는 별도예요.")
+    kr, krw = d.get("kr_lowest_price"), d.get("krw_effective")
+    if kr and krw and kr > krw:
+        lines.append(f"국내 최저가는 ₩{int(kr):,}(네이버 쇼핑)이에요.")
     if d.get("coupon_code"):
-        lines.append(f"· 코드 {d['coupon_code']}")
-    lines += ["", "할인 폭이 큰 상품은 사이즈·재고가 금방 빠져요." if pct else "가격·재고는 금방 바뀌어요.",
-              f"({seen_kst:%m/%d %H:%M} 확인 기준 — 결제 전 다시 확인하세요)", "",
-              QUESTIONS[int(hashlib.md5(name.encode()).hexdigest(), 16) % len(QUESTIONS)]]
+        lines.append(f"코드 {d['coupon_code']} 적용 기준이에요.")
+    lines.append("")
+    lines.append("이 할인 폭이면 사이즈가 몇 시간 안에 빠져요." if pct and pct >= 60 and K.kind(title) in ("clothes", "shoes")
+                 else ("할인 폭이 큰 딜이라 재고가 금방 빠질 수 있어요." if pct and pct >= 60 else "가격·재고는 금방 바뀌어요."))
+    qs = QUESTIONS[K.kind(title)]
+    lines.append(qs[int(hashlib.md5(title.encode()).hexdigest(), 16) % len(qs)])
     text = "\n".join(lines)
     reply = (f"상품 링크: {d.get('buy_url') or d['url']}\n"
-             "블프 기간엔 이렇게 국내보다 싼 딜만 골라 올려요. 팔로우해두면 놓치지 않아요.")
+             "이런 딜을 매일 골라 올려요. 팔로우해두면 놓치지 않아요.")
     if d.get("buy_url") and d["buy_url"] != d["url"]:
         reply = "이 링크는 제휴 링크로, 구매 시 일정액의 수수료를 제공받습니다.\n" + reply
     return text[:500], reply[:500]
+
+
+def product_image(d: dict) -> str | None:
+    """딜보드의 상품 사진 주소. 썸네일 크기로 저장된 경우 피드에 맞는 크기로 바꾼다."""
+    u = (d.get("image") or "").strip()
+    if not u.startswith("http"):
+        return None
+    if "nordstrommedia.com" in u:          # 노드스트롬·랙: 480px 썸네일 → 800×1200
+        u = u.split("?")[0] + "?h=1200&w=800&dpr=1"
+    return u
+
+
+def image_ok(url: str) -> bool:
+    try:
+        req = urllib.request.Request(url, method="GET", headers={"User-Agent": "Mozilla/5.0", "Range": "bytes=0-1023"})
+        with urllib.request.urlopen(req, timeout=10) as r:
+            return r.status in (200, 206) and (r.headers.get("Content-Type") or "").startswith("image/")
+    except Exception:
+        return False
+
+
+def post_deal(uid: str, token: str, text: str, card_url: str, product_img: str | None) -> tuple[str, str]:
+    """
+    상품 사진 + 딜 카드를 넘겨보는 이미지로 게시(주제 태그 포함).
+    상품 사진을 쓸 수 없거나 캐러셀이 거절되면 카드 한 장으로 올린다. → (게시물 ID, 메모)
+    """
+    tag = topic_tag()
+    if product_img and image_ok(product_img):
+        try:
+            return T.publish_post(uid, token, text, topic_tag=tag, images=[product_img, card_url]), f"사진+카드 · #{tag}"
+        except T.ThreadsError as e:
+            print("  [타임딜] 캐러셀 실패 → 카드 한 장으로:", e)
+    return T.publish_post(uid, token, text, card_url, topic_tag=tag), f"카드 · #{tag}"
 
 
 def render_card(d: dict, seen_kst: dt.datetime, out: Path) -> None:
@@ -206,13 +262,13 @@ def main() -> int:
     uid = re.sub(r"\s", "", os.environ.get("THREADS_USER_ID") or "")
     try:
         img = publish_image(card)
-        pid = T.publish_post(uid, token, text, img)
+        pid, how = post_deal(uid, token, text, img, product_image(d))
         link = T.permalink(pid, token)
         try:
             T.publish_post(uid, token, reply, reply_to=pid)
-            note = "첫 답글 완료"
+            note = f"{how} · 첫 답글 완료"
         except T.ThreadsError as e:
-            note = f"첫 답글 실패 ({e})"
+            note = f"{how} · 첫 답글 실패 ({e})"
     except Exception as e:
         msg = f"{type(e).__name__}: {str(e)[:250]}"
         print("[타임딜] 실패:", msg); TP.tg(f"❌ 타임딜 게시 실패: {d.get('title')}\n{msg}"); record(url, "실패", msg)

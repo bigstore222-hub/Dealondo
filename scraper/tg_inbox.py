@@ -259,7 +259,8 @@ def build_deal(url: str, hint: dict) -> tuple[dict | None, list[str], dt.datetim
     store = TD.STORES.get(dom) or (brand if key and key in dom.replace(".", "") else dom.split(".")[0].capitalize())
     d = {"url": url, "source": dom, "store_name": store, "title": title, "brand": brand,
          "category": PP.category_of(f"{brand} {title}"),
-         "price_current": price, "price_list": hint.get("price_list") or page.get("price_list")}
+         "price_current": price, "price_list": hint.get("price_list") or page.get("price_list"),
+         "image": page.get("image")}
     try:
         import affiliate
         d["buy_url"] = affiliate.wrap(url, dom)
@@ -295,7 +296,7 @@ def preview_text(dr: dict) -> str:
         warn.append(f"국내 최저가(₩{int(kr):,})가 직구 예상가(₩{int(krw):,})보다 싸요. 올릴지 다시 생각해보세요.")
     if warn:
         parts += ["", *("⚠️ " + w for w in warn)]
-    parts += ["", f"본문 {len(dr['text'])}/500자 · 답장으로 \"19.99 495\" → 가격 수정, 다른 글 → 본문 교체"]
+    parts += ["", f"주제 태그 #{TD.topic_tag()} · 본문 {len(dr['text'])}/500자 · 답장으로 \"19.99 495\" → 가격 수정, 다른 글 → 본문 교체"]
     return "\n".join(parts)[:4000]
 
 
@@ -313,8 +314,21 @@ def send_preview(st: dict, did: str, chat: str, reply_to: int | None = None) -> 
     seen = dt.datetime.fromisoformat(dr["seen"])
     TD.CARD_DIR.mkdir(parents=True, exist_ok=True)
     TD.render_card(dr["deal"], seen, card_path(did))
+    img = TD.product_image(dr["deal"])
+    if img and dr.get("img_ok") is None:
+        dr["img_ok"] = TD.image_ok(img)
+    if img and dr.get("img_ok"):
+        try:
+            tg("sendPhoto", chat_id=chat, photo=img, caption="1/2 상품 사진", reply_to_message_id=reply_to)
+        except Exception as e:
+            dr["img_ok"] = False
+            print("  상품 사진 전송 실패:", e)
+    n = ("상품 사진을 불러오지 못해 카드 한 장으로 올라가요." if img and not dr.get("img_ok")
+         else ("상품 사진을 찾지 못해 카드 한 장으로 올라가요." if not img else ""))
+    if n and n not in dr.setdefault("notes", []):
+        dr["notes"].append(n)
     try:
-        ph = send_photo(chat, card_path(did), "카드 이미지 미리보기", reply_to)
+        ph = send_photo(chat, card_path(did), "2/2 딜 카드" if dr.get("img_ok") else "딜 카드", reply_to)
         dr["photo_msg"] = ph["message_id"]
     except Exception as e:
         print("  카드 전송 실패:", e)
@@ -376,13 +390,14 @@ def publish(st: dict, did: str, chat: str, dry: bool) -> None:
             TD.CARD_DIR.mkdir(parents=True, exist_ok=True)
             TD.render_card(dr["deal"], dt.datetime.fromisoformat(dr["seen"]), card)
         img = TD.publish_image(card)
-        pid = T.publish_post(uid, token, dr["text"], img)
+        pid, how = TD.post_deal(uid, token, dr["text"], img,
+                                TD.product_image(dr["deal"]) if dr.get("img_ok") else None)
         link = T.permalink(pid, token)
         try:
             T.publish_post(uid, token, dr["reply"], reply_to=pid)
-            note = "첫 답글(링크) 완료"
+            note = f"{how} · 첫 답글(링크) 완료"
         except T.ThreadsError as e:
-            note = f"첫 답글 실패 ({e})"
+            note = f"{how} · 첫 답글 실패 ({e})"
     except Exception as e:
         msg = f"{type(e).__name__}: {str(e)[:300]}"
         dr["status"] = "waiting"
