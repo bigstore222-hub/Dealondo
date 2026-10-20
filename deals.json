@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T04:22:17.793488+00:00",
+  "generated_at": "2026-10-20T04:22:52.533521+00:00",
   "count": 86,
   "deals": [
     {
@@ -284,7 +284,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-20T00:31:22.740518+00:00",
-      "last_seen": "2026-10-20T03:51:28.892250+00:00"
+      "last_seen": "2026-10-20T04:22:52.089943+00:00"
     },
     {
       "source": "6pm.com",
@@ -1624,7 +1624,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-20T03:51:28.892250+00:00"
+      "last_seen": "2026-10-20T04:22:52.089943+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1672,7 +1672,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T19:37:39.161056+00:00",
-      "last_seen": "2026-10-20T03:51:28.892250+00:00"
+      "last_seen": "2026-10-20T04:22:52.089943+00:00"
     },
     {
       "source": "zappos.com",
@@ -3017,7 +3017,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-20T03:51:28.892250+00:00"
+      "last_seen": "2026-10-20T04:22:52.089943+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -3065,7 +3065,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-20T03:51:28.892250+00:00"
+      "last_seen": "2026-10-20T04:22:52.089943+00:00"
     },
     {
       "source": "slickdeals:dickssportinggoods",
@@ -3258,7 +3258,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T01:51:08.760395+00:00",
-      "last_seen": "2026-10-20T03:51:28.892250+00:00"
+      "last_seen": "2026-10-20T04:22:52.089943+00:00"
     },
     {
       "source": "dealnews",
@@ -3306,8 +3306,57 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-20T03:51:10.549942+00:00",
-      "last_seen": "2026-10-20T03:51:28.892250+00:00"
+      "detected_at": "2026-10-20T04:22:32.073286+00:00",
+      "last_seen": "2026-10-20T04:22:52.089943+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Under-Armour-Outlet-Mens-Underwear-Deals-for-Single-pairs-from-9-multipacks-from-20-free-shipping-w-50/22297011.html?iref=rss",
+      "title": "Under Armour Outlet Men's Underwear Deals for Single pairs from $9, multipacks from $20 + free shipping w/ $50",
+      "brand": "Under Armour",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1792440039-product-trimmed.jpg?h=250&w=212",
+      "price_current": 9.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 11977,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Under-Armour-Outlet-Mens-Underwear-Deals-for-Single-pairs-from-9-multipacks-from-20-free-shipping-w-50/22297011.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-19T20:11:12.756067+00:00",
+      "last_seen": "2026-10-20T04:22:52.089943+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -3356,7 +3405,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T17:24:58.440683+00:00",
-      "last_seen": "2026-10-20T03:51:28.892250+00:00"
+      "last_seen": "2026-10-20T04:22:52.089943+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -3404,57 +3453,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-20T03:51:10.758775+00:00",
-      "last_seen": "2026-10-20T03:51:28.892250+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Under-Armour-Outlet-Mens-Underwear-Deals-for-Single-pairs-from-9-multipacks-from-20-free-shipping-w-50/22297011.html?iref=rss",
-      "title": "Under Armour Outlet Men's Underwear Deals for Single pairs from $9, multipacks from $20 + free shipping w/ $50",
-      "brand": "Under Armour",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1792440039-product-trimmed.jpg?h=250&w=212",
-      "price_current": 9.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 12002,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Under-Armour-Outlet-Mens-Underwear-Deals-for-Single-pairs-from-9-multipacks-from-20-free-shipping-w-50/22297011.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-20T00:31:43.365212+00:00"
+      "detected_at": "2026-10-20T04:22:32.277392+00:00",
+      "last_seen": "2026-10-20T04:22:52.089943+00:00"
     },
     {
       "source": "dealnews",
@@ -4145,12 +4145,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-20T04:20:26+00:00",
-      "T2": "2026-10-20T03:50:54+00:00",
+      "T2": "2026-10-20T04:22:19+00:00",
       "T3": "2026-10-20T02:21:02+00:00",
       "T4": "2026-10-19T22:31:11+00:00"
     },
     "recent_gaps_min": [
-      1,
       9,
       10,
       10,
@@ -4179,7 +4178,8 @@
       1,
       10,
       10,
-      11
+      11,
+      1
     ]
   },
   "email_monitor": {
