@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T18:01:52.629756+00:00",
+  "generated_at": "2026-10-20T18:11:07.272420+00:00",
   "count": 84,
   "deals": [
     {
@@ -664,7 +664,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-17T16:26:36.970362+00:00",
-      "last_seen": "2026-10-20T18:01:18.334325+00:00"
+      "last_seen": "2026-10-20T18:11:07.262880+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -951,7 +951,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-20T15:10:38.003426+00:00",
-      "last_seen": "2026-10-20T18:01:18.334325+00:00"
+      "last_seen": "2026-10-20T18:11:07.262880+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1000,7 +1000,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-20T16:40:35.661712+00:00",
-      "last_seen": "2026-10-20T18:01:18.334325+00:00"
+      "last_seen": "2026-10-20T18:11:07.262880+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -2394,6 +2394,54 @@
       "last_seen": "2026-10-20T05:02:24.305500+00:00"
     },
     {
+      "source": "slickdeals:kohls.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20177754",
+      "title": "3-Pk Men's Nike Everyday Cushion Crew Training Socks (Grey) for $7 at Kohl's",
+      "brand": "Nike",
+      "category": "sports_outdoor",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20177754&t=15",
+      "price_current": 7.0,
+      "price_list": 20.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 9316,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20177754",
+      "discount_pct": 65.0,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-20T12:10:51.966064+00:00",
+      "last_seen": "2026-10-20T18:11:07.262880+00:00"
+    },
+    {
       "source": "dealsofamerica",
       "source_tier": "T2",
       "url": "https://www.dealsofamerica.com/adidas-ultraboost-shoes/844907.htm",
@@ -2440,54 +2488,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-20T17:21:16.973115+00:00",
       "last_seen": "2026-10-20T18:01:51.879704+00:00"
-    },
-    {
-      "source": "slickdeals:kohls.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20177754",
-      "title": "3-Pk Men's Nike Everyday Cushion Crew Training Socks (Grey) for $7 at Kohl's",
-      "brand": "Nike",
-      "category": "sports_outdoor",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20177754&t=15",
-      "price_current": 7.0,
-      "price_list": 20.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 9316,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20177754",
-      "discount_pct": 65.0,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-20T12:10:51.966064+00:00",
-      "last_seen": "2026-10-20T18:01:18.334325+00:00"
     },
     {
       "source": "zappos.com",
@@ -4050,13 +4050,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-20T18:00:45+00:00",
+      "T1": "2026-10-20T18:10:29+00:00",
       "T2": "2026-10-20T18:01:19+00:00",
       "T3": "2026-10-20T17:31:07+00:00",
       "T4": "2026-10-20T17:01:28+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       10,
@@ -4085,16 +4084,17 @@
       9,
       10,
       10,
-      1
+      1,
+      9
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-20T18:00:53+00:00",
+        "at": "2026-10-20T18:10:43+00:00",
         "state": "정상",
-        "mails": 16,
-        "deals": 16
+        "mails": 17,
+        "deals": 17
       },
       "newsletter": {
         "at": "2026-10-20T17:04:20+00:00",
@@ -4104,6 +4104,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20164578",
+        "source": "slickdeals:amazon.com",
+        "title": "2-Ct ZMLM Halloween Rainbow Scratch Art Notebooks w/ Stencils & Wooden Styluses for $4 at Amazon",
+        "price": 4.0,
+        "list_price": 9.99,
+        "discount_pct": 60.0,
+        "krw": 5323,
+        "kr_lowest": null,
+        "score": 47,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-10-20T18:11:07+00:00",
+        "last_seen": "2026-10-20T18:11:07+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20176620",
         "source": "slickdeals:amazon.com",
@@ -4117,7 +4132,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-20T17:41:10+00:00",
-        "last_seen": "2026-10-20T18:01:18+00:00"
+        "last_seen": "2026-10-20T18:11:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20176665",
@@ -4132,7 +4147,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-20T17:31:05+00:00",
-        "last_seen": "2026-10-20T18:01:18+00:00"
+        "last_seen": "2026-10-20T18:11:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177832",
@@ -4147,7 +4162,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-20T15:31:32+00:00",
-        "last_seen": "2026-10-20T18:01:18+00:00"
+        "last_seen": "2026-10-20T18:11:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177754",
@@ -4162,7 +4177,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-20T12:11:14+00:00",
-        "last_seen": "2026-10-20T18:01:18+00:00"
+        "last_seen": "2026-10-20T18:11:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20180181",
@@ -4177,7 +4192,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-20T12:01:16+00:00",
-        "last_seen": "2026-10-20T18:01:18+00:00"
+        "last_seen": "2026-10-20T18:11:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20179911",
@@ -4192,7 +4207,7 @@
         "published": false,
         "reject_reason": "H8: 할인 19% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-20T10:20:56+00:00",
-        "last_seen": "2026-10-20T18:01:18+00:00"
+        "last_seen": "2026-10-20T18:11:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20179128",
@@ -4207,7 +4222,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-20T10:11:47+00:00",
-        "last_seen": "2026-10-20T18:01:18+00:00"
+        "last_seen": "2026-10-20T18:11:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20175252",
@@ -4222,7 +4237,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-20T08:50:58+00:00",
-        "last_seen": "2026-10-20T18:01:18+00:00"
+        "last_seen": "2026-10-20T18:11:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20173797",
@@ -4237,7 +4252,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-20T06:50:56+00:00",
-        "last_seen": "2026-10-20T18:01:18+00:00"
+        "last_seen": "2026-10-20T18:11:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20179506",
@@ -4252,7 +4267,7 @@
         "published": false,
         "reject_reason": "H8: 할인 21% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-20T04:10:59+00:00",
-        "last_seen": "2026-10-20T18:01:18+00:00"
+        "last_seen": "2026-10-20T18:11:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20173587",
@@ -4267,7 +4282,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T23:31:16+00:00",
-        "last_seen": "2026-10-20T18:01:18+00:00"
+        "last_seen": "2026-10-20T18:11:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20171121",
@@ -4327,7 +4342,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-19T20:11:00+00:00",
-        "last_seen": "2026-10-20T18:01:18+00:00"
+        "last_seen": "2026-10-20T18:11:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20168157",
@@ -4357,7 +4372,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T19:31:09+00:00",
-        "last_seen": "2026-10-20T18:01:18+00:00"
+        "last_seen": "2026-10-20T18:11:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20173107",
@@ -4432,7 +4447,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T16:40:59+00:00",
-        "last_seen": "2026-10-20T18:01:18+00:00"
+        "last_seen": "2026-10-20T18:11:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177028",
@@ -4492,7 +4507,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T13:31:07+00:00",
-        "last_seen": "2026-10-20T18:01:18+00:00"
+        "last_seen": "2026-10-20T18:11:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177082",
@@ -4552,7 +4567,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 44% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T02:46:04+00:00",
-        "last_seen": "2026-10-20T18:01:18+00:00"
+        "last_seen": "2026-10-20T18:11:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20175666",
@@ -4946,7 +4961,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 56,
+      "collected_72h": 57,
       "published_72h": 4
     }
   }
