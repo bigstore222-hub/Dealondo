@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20T08:51:55.182172+00:00",
-  "count": 86,
+  "generated_at": "2026-10-20T09:01:15.870285+00:00",
+  "count": 85,
   "deals": [
     {
       "source": "6pm.com",
@@ -480,53 +480,6 @@
     {
       "source": "zappos.com",
       "source_tier": "T2",
-      "url": "https://www.zappos.com/product/9986436",
-      "title": "Courage",
-      "brand": "Anne Klein",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/71BgItmrAdL._AC_SR255,340_.jpg",
-      "price_current": 25.5,
-      "price_list": 85.0,
-      "price_baseline": 85.0,
-      "price_alltime_low": 25.5,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 33935,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/9986436",
-      "discount_pct": 70.0,
-      "score": 81,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-10T08:55:13.539358+00:00",
-      "last_seen": "2026-10-20T05:41:36.974787+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
       "url": "https://www.zappos.com/product/10055734",
       "title": "Hezey",
       "brand": "Calvin Klein",
@@ -902,7 +855,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-20T07:50:42.681329+00:00",
-      "last_seen": "2026-10-20T08:50:58.301845+00:00"
+      "last_seen": "2026-10-20T09:01:15.862988+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -4143,13 +4096,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-20T08:50:25+00:00",
+      "T1": "2026-10-20T09:00:41+00:00",
       "T2": "2026-10-20T08:21:04+00:00",
       "T3": "2026-10-20T08:50:59+00:00",
       "T4": "2026-10-20T04:41:00+00:00"
     },
     "recent_gaps_min": [
-      8,
       10,
       10,
       10,
@@ -4178,13 +4130,14 @@
       9,
       10,
       10,
-      1
+      1,
+      9
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-20T08:50:34+00:00",
+        "at": "2026-10-20T09:00:54+00:00",
         "state": "정상",
         "mails": 9,
         "deals": 9
@@ -4210,7 +4163,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-20T08:50:58+00:00",
-        "last_seen": "2026-10-20T08:50:58+00:00"
+        "last_seen": "2026-10-20T09:01:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20173797",
@@ -4225,7 +4178,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-20T06:50:56+00:00",
-        "last_seen": "2026-10-20T08:50:58+00:00"
+        "last_seen": "2026-10-20T09:01:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20179506",
@@ -4240,7 +4193,7 @@
         "published": false,
         "reject_reason": "H8: 할인 21% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-20T04:10:59+00:00",
-        "last_seen": "2026-10-20T08:50:58+00:00"
+        "last_seen": "2026-10-20T09:01:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20173587",
@@ -4255,7 +4208,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T23:31:16+00:00",
-        "last_seen": "2026-10-20T08:50:58+00:00"
+        "last_seen": "2026-10-20T09:01:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20171121",
@@ -4315,7 +4268,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-19T20:11:00+00:00",
-        "last_seen": "2026-10-20T08:50:58+00:00"
+        "last_seen": "2026-10-20T09:01:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20168157",
@@ -4345,7 +4298,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T19:31:09+00:00",
-        "last_seen": "2026-10-20T08:50:58+00:00"
+        "last_seen": "2026-10-20T09:01:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20173107",
@@ -4420,7 +4373,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T16:40:59+00:00",
-        "last_seen": "2026-10-20T08:50:58+00:00"
+        "last_seen": "2026-10-20T09:01:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177028",
@@ -4480,7 +4433,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T13:31:07+00:00",
-        "last_seen": "2026-10-20T08:50:58+00:00"
+        "last_seen": "2026-10-20T09:01:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177082",
@@ -4540,7 +4493,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 44% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T02:46:04+00:00",
-        "last_seen": "2026-10-20T08:50:58+00:00"
+        "last_seen": "2026-10-20T09:01:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20175666",
