@@ -1,0 +1,61 @@
+name: Dealondo 타임딜 게시
+
+# 텔레그램으로 받은 딜을 스레드에 바로 올린다.
+# Actions → "Dealondo 타임딜 게시" → Run workflow → 상품 링크 붙여넣기 → Run (휴대폰 GitHub 앱에서도 가능)
+# 딜보드에서 가격·할인·도착가를 가져와 딜 카드 이미지를 만들고, 글 + 첫 답글(링크)을 게시한다.
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: '상품 링크 (텔레그램 알림의 링크를 그대로 붙여넣기)'
+        required: true
+        type: string
+      force:
+        description: '마지막 확인이 6시간 넘었거나 이미 올린 딜이어도 게시 (상품 페이지에서 직접 확인했을 때만)'
+        required: false
+        default: false
+        type: boolean
+      dry_run:
+        description: '미리보기만 (글·카드만 만들고 올리지 않음)'
+        required: false
+        default: false
+        type: boolean
+
+concurrency:
+  group: dealondo-threads          # 저녁 예약 게시와 겹치지 않게 같은 줄에 세운다
+  cancel-in-progress: false
+
+permissions:
+  contents: write                  # 딜 카드 이미지·게시 기록 커밋
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 한글 글꼴·브라우저 준비 (딜 카드 이미지용)
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk >/dev/null
+          pip install -q playwright
+          python -m playwright install --with-deps chromium >/dev/null
+      - name: 타임딜 게시
+        env:
+          PYTHONUTF8: '1'
+          URL: ${{ inputs.url }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          cd scraper
+          ARGS=()
+          [ "${{ inputs.force }}" = "true" ] && ARGS+=(--force)
+          [ "${{ inputs.dry_run }}" = "true" ] && ARGS+=(--dry-run)
+          python threads_deal.py --url "$URL" "${ARGS[@]}"
+      - name: 게시 기록 저장
+        if: always()
+        run: bash .github/scripts/push_files.sh "타임딜 게시 기록 $(date -u +%Y-%m-%dT%H:%M:%SZ)" threads_status.json

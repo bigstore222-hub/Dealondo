@@ -1,0 +1,27 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1350px}
+body{background:#1C1F2B;color:#F4F1EC;font-family:"Noto Sans CJK KR","Noto Sans KR",sans-serif;padding:84px 80px 64px;display:flex;flex-direction:column}
+.k{font-size:30px;font-weight:700;letter-spacing:.06em;color:#F28C28}
+.brand{font-size:44px;font-weight:700;margin-top:56px;color:#C9C4BC}
+.name{font-size:54px;font-weight:900;line-height:1.22;margin-top:10px;letter-spacing:-.02em;max-height:200px;overflow:hidden}
+.prices{margin-top:64px;display:flex;align-items:baseline;gap:28px;flex-wrap:wrap}
+.now{font-size:150px;font-weight:900;letter-spacing:-.04em;background:linear-gradient(0deg,#F5C542,#F28C28 55%,#E03131);-webkit-background-clip:text;color:transparent;line-height:1.05}
+.was{font-size:56px;color:#8A8F9E;text-decoration:line-through}
+.off{display:inline-block;margin-top:24px;font-size:44px;font-weight:900;color:#1C1F2B;background:#E03131;border-radius:16px;padding:8px 22px;align-self:flex-start}
+.rows{margin-top:56px;border-top:2px solid #333849}
+.row{display:flex;justify-content:space-between;gap:24px;font-size:34px;padding:24px 0;border-bottom:2px solid #333849}
+.row b{font-weight:700;text-align:right}.row span{color:#C9C4BC;white-space:nowrap}
+.note{margin-top:auto;font-size:26px;color:#8A8F9E;line-height:1.5}
+.foot{display:flex;justify-content:space-between;align-items:center;margin-top:28px;font-size:30px;font-weight:900}
+.foot small{font-size:24px;font-weight:500;color:#8A8F9E}
+</style></head><body>
+<div class="k">{{KICKER}}</div>
+<div class="brand">{{BRAND}}</div>
+<div class="name">{{NAME}}</div>
+<div class="prices"><div class="now">{{NOW}}</div><div class="was">{{WAS}}</div></div>
+<div class="off">{{OFF}}</div>
+<div class="rows">{{ROWS}}</div>
+<div class="note">가격·재고는 금방 바뀌어요. 결제 전 상품 페이지에서 다시 확인하세요.</div>
+<div class="foot"><div>딜온도 D°</div><small>@deal_ondo</small></div>
+</body></html>
