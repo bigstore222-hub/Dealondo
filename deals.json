@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T05:10:55.102404+00:00",
+  "generated_at": "2026-10-20T05:20:55.865598+00:00",
   "count": 86,
   "deals": [
     {
@@ -4144,7 +4144,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-20T05:10:23+00:00",
+      "T1": "2026-10-20T05:20:25+00:00",
       "T2": "2026-10-20T05:01:52+00:00",
       "T3": "2026-10-20T04:31:06+00:00",
       "T4": "2026-10-20T04:41:00+00:00"
@@ -4178,13 +4178,14 @@
       7,
       10,
       1,
-      8
+      8,
+      10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-20T05:10:28+00:00",
+        "at": "2026-10-20T05:20:32+00:00",
         "state": "정상",
         "mails": 7,
         "deals": 7
@@ -4210,7 +4211,7 @@
         "published": false,
         "reject_reason": "H8: 할인 21% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-20T04:10:59+00:00",
-        "last_seen": "2026-10-20T05:10:53+00:00"
+        "last_seen": "2026-10-20T05:20:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20173587",
@@ -4225,7 +4226,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T23:31:16+00:00",
-        "last_seen": "2026-10-20T05:10:53+00:00"
+        "last_seen": "2026-10-20T05:20:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20171121",
@@ -4285,7 +4286,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-19T20:11:00+00:00",
-        "last_seen": "2026-10-20T05:10:53+00:00"
+        "last_seen": "2026-10-20T05:20:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20168157",
@@ -4315,7 +4316,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T19:31:09+00:00",
-        "last_seen": "2026-10-20T05:10:53+00:00"
+        "last_seen": "2026-10-20T05:20:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20173107",
@@ -4390,7 +4391,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T16:40:59+00:00",
-        "last_seen": "2026-10-20T05:10:53+00:00"
+        "last_seen": "2026-10-20T05:20:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177028",
@@ -4450,7 +4451,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T13:31:07+00:00",
-        "last_seen": "2026-10-20T05:10:53+00:00"
+        "last_seen": "2026-10-20T05:20:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177082",
@@ -4510,7 +4511,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 44% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T02:46:04+00:00",
-        "last_seen": "2026-10-20T05:10:53+00:00"
+        "last_seen": "2026-10-20T05:20:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20175666",
@@ -4946,71 +4947,11 @@
         "reject_reason": "",
         "first_seen": "2026-10-17T09:24:01+00:00",
         "last_seen": "2026-10-17T23:12:48+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20167659",
-        "source": "slickdeals:amazon.com",
-        "title": "8-Pk Mupoer 1.5V 3000mWh Rechargeable AA Lithium Batteries w/ USB-C Charger for $15 at Amazon",
-        "price": 15.0,
-        "list_price": 29.99,
-        "discount_pct": 50.0,
-        "krw": 20023,
-        "kr_lowest": null,
-        "score": 31,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-10-17T05:11:57+00:00",
-        "last_seen": "2026-10-17T23:12:48+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20144643",
-        "source": "slickdeals:amazon.com",
-        "title": "Prime Members: UGREEN Nexode Pro 4-Port up to 160W Charger w/ Cable for $100 at Amazon",
-        "price": 100.0,
-        "list_price": 149.99,
-        "discount_pct": 33.3,
-        "krw": 133489,
-        "kr_lowest": null,
-        "score": 17,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-10-17T05:11:57+00:00",
-        "last_seen": "2026-10-17T23:12:48+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20140728",
-        "source": "slickdeals:dickssportinggoods",
-        "title": "adidas Kids' Barreda Decode Shoes (Silver Metallic/Black/Chalk White) for $21 at Dick's Sporting Goods",
-        "price": 21.0,
-        "list_price": 59.99,
-        "discount_pct": 65.0,
-        "krw": 28030,
-        "kr_lowest": null,
-        "score": 61,
-        "published": true,
-        "reject_reason": "",
-        "first_seen": "2026-10-17T05:11:57+00:00",
-        "last_seen": "2026-10-18T23:48:48+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20147046",
-        "source": "slickdeals:32degrees",
-        "title": "32 Degrees Outerwear: Men's Outdoor Sherpa Full Zip Jacket for $20 at 32 Degrees",
-        "price": 20.0,
-        "list_price": 65.0,
-        "discount_pct": 69.2,
-        "krw": 26698,
-        "kr_lowest": null,
-        "score": 47,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-10-17T05:11:57+00:00",
-        "last_seen": "2026-10-17T23:12:48+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 54,
-      "published_72h": 5
+      "collected_72h": 50,
+      "published_72h": 4
     }
   }
 }
