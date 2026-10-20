@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T18:51:10.679389+00:00",
+  "generated_at": "2026-10-20T19:02:00.719522+00:00",
   "count": 87,
   "deals": [
     {
@@ -951,7 +951,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-20T18:10:43.035149+00:00",
-      "last_seen": "2026-10-20T18:51:08.828907+00:00"
+      "last_seen": "2026-10-20T19:02:00.710845+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1000,7 +1000,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-20T18:20:48.992095+00:00",
-      "last_seen": "2026-10-20T18:51:08.828907+00:00"
+      "last_seen": "2026-10-20T19:02:00.710845+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -2439,7 +2439,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T12:10:51.966064+00:00",
-      "last_seen": "2026-10-20T18:51:08.828907+00:00"
+      "last_seen": "2026-10-20T19:02:00.710845+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -4197,7 +4197,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-20T18:50:29+00:00",
+      "T1": "2026-10-20T19:00:52+00:00",
       "T2": "2026-10-20T18:41:11+00:00",
       "T3": "2026-10-20T17:31:07+00:00",
       "T4": "2026-10-20T17:01:28+00:00"
@@ -4231,16 +4231,17 @@
       10,
       1,
       5,
-      4
+      4,
+      11
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-20T18:50:50+00:00",
+        "at": "2026-10-20T19:01:38+00:00",
         "state": "정상",
-        "mails": 18,
-        "deals": 18
+        "mails": 20,
+        "deals": 20
       },
       "newsletter": {
         "at": "2026-10-20T17:04:20+00:00",
@@ -4250,6 +4251,36 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20157807",
+        "source": "slickdeals:amazon.com",
+        "title": "OREiN Motion Sensor Waterproof Hardwired Outdoor Flood Light 42W 6500LM for $19 at Amazon",
+        "price": 19.0,
+        "list_price": 39.99,
+        "discount_pct": 52.5,
+        "krw": 25285,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-10-20T19:02:00+00:00",
+        "last_seen": "2026-10-20T19:02:00+00:00"
+      },
+      {
+        "url": "https://slickdeals.net/f/20181297",
+        "source": "slickdeals:amazon.com",
+        "title": "10-Oz WD-40 Specialist Dry Lube Spray w/ Smart Straw for $6 at Amazon",
+        "price": 6.0,
+        "list_price": 8.49,
+        "discount_pct": 29.3,
+        "krw": 7985,
+        "kr_lowest": null,
+        "score": 17,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-10-20T19:02:00+00:00",
+        "last_seen": "2026-10-20T19:02:00+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20179419",
         "source": "slickdeals:amazon.com",
@@ -4263,7 +4294,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-20T18:51:08+00:00",
-        "last_seen": "2026-10-20T18:51:08+00:00"
+        "last_seen": "2026-10-20T19:02:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20164578",
@@ -4278,7 +4309,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-20T18:11:07+00:00",
-        "last_seen": "2026-10-20T18:51:08+00:00"
+        "last_seen": "2026-10-20T19:02:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20176620",
@@ -4293,7 +4324,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-20T17:41:10+00:00",
-        "last_seen": "2026-10-20T18:51:08+00:00"
+        "last_seen": "2026-10-20T19:02:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20176665",
@@ -4308,7 +4339,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-20T17:31:05+00:00",
-        "last_seen": "2026-10-20T18:51:08+00:00"
+        "last_seen": "2026-10-20T19:02:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177832",
@@ -4323,7 +4354,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-20T15:31:32+00:00",
-        "last_seen": "2026-10-20T18:51:08+00:00"
+        "last_seen": "2026-10-20T19:02:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177754",
@@ -4338,7 +4369,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-20T12:11:14+00:00",
-        "last_seen": "2026-10-20T18:51:08+00:00"
+        "last_seen": "2026-10-20T19:02:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20180181",
@@ -4353,7 +4384,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-20T12:01:16+00:00",
-        "last_seen": "2026-10-20T18:51:08+00:00"
+        "last_seen": "2026-10-20T19:02:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20179911",
@@ -4368,7 +4399,7 @@
         "published": false,
         "reject_reason": "H8: 할인 19% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-20T10:20:56+00:00",
-        "last_seen": "2026-10-20T18:51:08+00:00"
+        "last_seen": "2026-10-20T19:02:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20179128",
@@ -4383,7 +4414,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-20T10:11:47+00:00",
-        "last_seen": "2026-10-20T18:51:08+00:00"
+        "last_seen": "2026-10-20T19:02:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20175252",
@@ -4398,7 +4429,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-20T08:50:58+00:00",
-        "last_seen": "2026-10-20T18:51:08+00:00"
+        "last_seen": "2026-10-20T19:02:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20173797",
@@ -4413,7 +4444,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-20T06:50:56+00:00",
-        "last_seen": "2026-10-20T18:51:08+00:00"
+        "last_seen": "2026-10-20T19:02:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20179506",
@@ -4428,7 +4459,7 @@
         "published": false,
         "reject_reason": "H8: 할인 21% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-20T04:10:59+00:00",
-        "last_seen": "2026-10-20T18:51:08+00:00"
+        "last_seen": "2026-10-20T19:02:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20173587",
@@ -4443,7 +4474,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T23:31:16+00:00",
-        "last_seen": "2026-10-20T18:51:08+00:00"
+        "last_seen": "2026-10-20T19:02:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20171121",
@@ -4503,7 +4534,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-19T20:11:00+00:00",
-        "last_seen": "2026-10-20T18:51:08+00:00"
+        "last_seen": "2026-10-20T19:02:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20168157",
@@ -4533,7 +4564,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T19:31:09+00:00",
-        "last_seen": "2026-10-20T18:51:08+00:00"
+        "last_seen": "2026-10-20T19:02:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20173107",
@@ -4608,7 +4639,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T16:40:59+00:00",
-        "last_seen": "2026-10-20T18:51:08+00:00"
+        "last_seen": "2026-10-20T19:02:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177028",
@@ -4668,7 +4699,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T13:31:07+00:00",
-        "last_seen": "2026-10-20T18:51:08+00:00"
+        "last_seen": "2026-10-20T19:02:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177082",
@@ -4728,7 +4759,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 44% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T02:46:04+00:00",
-        "last_seen": "2026-10-20T18:51:08+00:00"
+        "last_seen": "2026-10-20T19:02:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20175666",
@@ -5107,7 +5138,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 57,
+      "collected_72h": 59,
       "published_72h": 4
     }
   }
