@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T23:11:03.474444+00:00",
+  "generated_at": "2026-10-20T23:15:04.346244+00:00",
   "count": 89,
   "deals": [
     {
@@ -142,7 +142,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-13T14:41:31.853740+00:00",
-      "last_seen": "2026-10-20T22:31:42.794151+00:00"
+      "last_seen": "2026-10-20T23:11:39.284908+00:00"
     },
     {
       "source": "zappos.com",
@@ -284,7 +284,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-20T00:31:22.740518+00:00",
-      "last_seen": "2026-10-20T22:31:42.794151+00:00"
+      "last_seen": "2026-10-20T23:11:39.284908+00:00"
     },
     {
       "source": "6pm.com",
@@ -1481,7 +1481,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-20T22:31:42.794151+00:00"
+      "last_seen": "2026-10-20T23:11:39.284908+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1529,7 +1529,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T17:21:16.973115+00:00",
-      "last_seen": "2026-10-20T22:31:42.794151+00:00"
+      "last_seen": "2026-10-20T23:11:39.284908+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1577,7 +1577,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T19:37:39.161056+00:00",
-      "last_seen": "2026-10-20T22:31:42.794151+00:00"
+      "last_seen": "2026-10-20T23:11:39.284908+00:00"
     },
     {
       "source": "zappos.com",
@@ -2252,16 +2252,16 @@
       "last_seen": "2026-10-20T05:02:24.305500+00:00"
     },
     {
-      "source": "slickdeals:kohls.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20177754",
-      "title": "3-Pk Men's Nike Everyday Cushion Crew Training Socks (Grey) for $7 at Kohl's",
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10043575",
+      "title": "Long Sleeve Bubble Hydroguard Top & 5\" Volley Short Set (Little Kid)",
       "brand": "Nike",
       "category": "sports_outdoor",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20177754&t=15",
-      "price_current": 7.0,
-      "price_list": 20.0,
-      "price_baseline": null,
+      "image": "https://m.media-amazon.com/images/I/713-ObPCL7L._AC_SR255,340_.jpg",
+      "price_current": 16.2,
+      "price_list": 54.0,
+      "price_baseline": 54.0,
       "price_alltime_low": null,
       "currency": "USD",
       "coupon_code": "",
@@ -2273,17 +2273,17 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 9316,
+      "krw_effective": 21559,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
       "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
+      "collection_method": "scrape",
+      "frontpage": false,
       "code_kind": "",
       "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20177754",
-      "discount_pct": 65.0,
+      "buy_url": "https://www.zappos.com/product/10043575",
+      "discount_pct": 70.0,
       "score": 61,
       "score_breakdown": {
         "discount_depth": 30,
@@ -2296,8 +2296,56 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-20T12:10:51.966064+00:00",
-      "last_seen": "2026-10-20T23:11:03.468498+00:00"
+      "detected_at": "2026-10-20T23:11:18.941322+00:00",
+      "last_seen": "2026-10-20T23:11:39.284908+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10043577",
+      "title": "Breaker Logo Tape 4\" Brief Lined Volley (Big Kid)",
+      "brand": "Nike",
+      "category": "sports_outdoor",
+      "image": "https://m.media-amazon.com/images/I/61QasJGl4ML._AC_SR255,340_.jpg",
+      "price_current": 13.8,
+      "price_list": 46.0,
+      "price_baseline": 46.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 18365,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10043577",
+      "discount_pct": 70.0,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-20T23:11:18.941322+00:00",
+      "last_seen": "2026-10-20T23:11:39.284908+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -2345,7 +2393,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T17:21:16.973115+00:00",
-      "last_seen": "2026-10-20T22:31:42.794151+00:00"
+      "last_seen": "2026-10-20T23:11:39.284908+00:00"
+    },
+    {
+      "source": "slickdeals:kohls.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20177754",
+      "title": "3-Pk Men's Nike Everyday Cushion Crew Training Socks (Grey) for $7 at Kohl's",
+      "brand": "Nike",
+      "category": "sports_outdoor",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20177754&t=15",
+      "price_current": 7.0,
+      "price_list": 20.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 9316,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20177754",
+      "discount_pct": 65.0,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-20T12:10:51.966064+00:00",
+      "last_seen": "2026-10-20T23:11:03.468498+00:00"
     },
     {
       "source": "zappos.com",
@@ -2396,54 +2492,6 @@
       "last_seen": "2026-10-20T03:11:44.601833+00:00"
     },
     {
-      "source": "slickdeals:kohls.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20177082",
-      "title": "Nike 3BRAND by Russell Wilson Futura Cheetah Print Daypack for $12 at Kohl's",
-      "brand": "Nike",
-      "category": "sports_outdoor",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20177082&t=15",
-      "price_current": 12.0,
-      "price_list": 40.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 15970,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20177082",
-      "discount_pct": 70.0,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-19T12:30:40.093964+00:00",
-      "last_seen": "2026-10-20T00:51:02.317648+00:00"
-    },
-    {
       "source": "zappos.com",
       "source_tier": "T2",
       "url": "https://www.zappos.com/product/10042074",
@@ -2490,54 +2538,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-19T23:58:18.762314+00:00",
       "last_seen": "2026-10-19T23:58:38.570502+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10043570",
-      "title": "Long Sleeve Hydroguard Top & 5\" Multi Sneaker Volley Short Set (Little Kid)",
-      "brand": "Nike",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/61Xe13TijjL._AC_SR255,340_.jpg",
-      "price_current": 16.2,
-      "price_list": 54.0,
-      "price_baseline": 54.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 21604,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10043570",
-      "discount_pct": 70.0,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-17T13:09:05.903052+00:00",
-      "last_seen": "2026-10-19T22:42:39.814599+00:00"
     },
     {
       "source": "zappos.com",
@@ -2730,7 +2730,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-20T22:31:42.794151+00:00"
+      "last_seen": "2026-10-20T23:11:39.284908+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2778,7 +2778,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-20T22:31:42.794151+00:00"
+      "last_seen": "2026-10-20T23:11:39.284908+00:00"
     },
     {
       "source": "slickdeals:dickssportinggoods",
@@ -2923,7 +2923,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T22:31:25.308141+00:00",
-      "last_seen": "2026-10-20T22:31:42.794151+00:00"
+      "last_seen": "2026-10-20T23:11:39.284908+00:00"
     },
     {
       "source": "dealnews",
@@ -2972,7 +2972,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T21:21:33.193891+00:00",
-      "last_seen": "2026-10-20T22:31:42.794151+00:00"
+      "last_seen": "2026-10-20T23:11:39.284908+00:00"
     },
     {
       "source": "dealnews",
@@ -3021,7 +3021,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T20:41:22.840482+00:00",
-      "last_seen": "2026-10-20T22:31:42.794151+00:00"
+      "last_seen": "2026-10-20T23:11:39.284908+00:00"
     },
     {
       "source": "dealnews",
@@ -3070,7 +3070,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T20:01:56.184252+00:00",
-      "last_seen": "2026-10-20T22:31:42.794151+00:00"
+      "last_seen": "2026-10-20T23:11:39.284908+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -3119,7 +3119,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T17:24:58.440683+00:00",
-      "last_seen": "2026-10-20T22:31:42.794151+00:00"
+      "last_seen": "2026-10-20T23:11:39.284908+00:00"
     },
     {
       "source": "techbargains:walmart",
@@ -3168,7 +3168,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T14:01:53.982594+00:00",
-      "last_seen": "2026-10-20T22:31:42.794151+00:00"
+      "last_seen": "2026-10-20T23:11:39.284908+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -3216,8 +3216,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-20T22:31:25.217569+00:00",
-      "last_seen": "2026-10-20T22:31:42.794151+00:00"
+      "detected_at": "2026-10-20T23:11:18.892183+00:00",
+      "last_seen": "2026-10-20T23:11:39.284908+00:00"
     },
     {
       "source": "dealnews",
@@ -4301,13 +4301,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-20T23:10:27+00:00",
-      "T2": "2026-10-20T22:31:11+00:00",
+      "T2": "2026-10-20T23:11:04+00:00",
       "T3": "2026-10-20T21:51:09+00:00",
-      "T4": "2026-10-20T17:01:28+00:00"
+      "T4": "2026-10-20T23:11:40+00:00"
     },
     "recent_gaps_min": [
-      10,
-      1,
       9,
       10,
       1,
@@ -4335,7 +4333,9 @@
       10,
       9,
       10,
-      10
+      10,
+      1,
+      3
     ]
   },
   "email_monitor": {
@@ -4347,9 +4347,9 @@
         "deals": 30
       },
       "newsletter": {
-        "at": "2026-10-20T17:04:20+00:00",
+        "at": "2026-10-20T23:14:43+00:00",
         "state": "정상",
-        "mails": 44,
+        "mails": 66,
         "deals": 1
       }
     },
@@ -5117,7 +5117,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-18T21:54:19+00:00",
-        "last_seen": "2026-10-20T17:04:44+00:00"
+        "last_seen": "2026-10-20T23:15:04+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20159025",
