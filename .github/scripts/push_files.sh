@@ -6,7 +6,7 @@ set -u
 MSG="$1"; shift
 git config user.name "dealondo-bot"
 git config user.email "actions@users.noreply.github.com"
-git add -- "$@" 2>/dev/null || true
+for f in "$@"; do git add -- "$f" 2>/dev/null || true; done   # 없는 파일이 섞여도 나머지는 올린다
 if git diff --staged --quiet; then
   echo "변경 없음 — 커밋 생략"
   exit 0
@@ -18,7 +18,7 @@ for i in 1 2 3 4; do
     exit 0
   fi
   echo "푸시 거절 — 원격 변경을 받아 다시 시도 (${i})"
-  git pull -q --rebase -X theirs origin "${GITHUB_REF_NAME:-main}" || { git rebase --abort 2>/dev/null; sleep 5; }
+  git pull -q --rebase --autostash -X theirs origin "${GITHUB_REF_NAME:-main}" || { git rebase --abort 2>/dev/null; sleep 5; }
 done
 echo "::warning::푸시 4회 실패 — 다음 실행에서 다시 반영됩니다"
 exit 0

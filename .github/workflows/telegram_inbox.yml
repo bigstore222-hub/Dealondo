@@ -1,0 +1,57 @@
+name: Dealondo 텔레그램 딜 접수
+
+# 딜온도 텔레그램 봇에 상품 링크를 보내면 → 스레드 글·카드 미리보기를 텔레그램으로 보내고
+# → [✅ 스레드에 올리기]를 누르면 @deal_ondo 에 바로 게시한다. (scraper/tg_inbox.py)
+#
+# 실행 주기: cron-job.org 가 2분마다 이 워크플로를 깨운다(아래 schedule 은 안전망).
+# 새 메시지가 없으면 20초 안에 끝난다. 미리보기를 보낸 뒤에는 최대 9분 동안 ✅ 를 기다려 바로 처리한다.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/10 * * * *'
+
+concurrency:
+  group: telegram-inbox            # 텔레그램 메시지는 한 번에 한 실행만 받아야 한다(동시 수신 시 409)
+  cancel-in-progress: false
+
+permissions:
+  contents: write                  # 딜 카드 이미지·접수 기록 커밋
+
+jobs:
+  inbox:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONUTF8: '1'
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      TELEGRAM_OWNER_ID: ${{ secrets.TELEGRAM_OWNER_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: 새 메시지 확인
+        id: peek
+        run: cd scraper && python3 tg_inbox.py --peek
+      - uses: actions/setup-python@v5
+        if: steps.peek.outputs.has_work == 'true'
+        with:
+          python-version: '3.12'
+      - name: 한글 글꼴·브라우저 준비 (딜 카드 이미지용)
+        if: steps.peek.outputs.has_work == 'true'
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk >/dev/null
+          pip install -q playwright
+          python -m playwright install --with-deps chromium >/dev/null
+      - name: 미리보기 보내기 · 승인되면 게시
+        if: steps.peek.outputs.has_work == 'true'
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          RADAR_AMAZON_TAG: ${{ secrets.RADAR_AMAZON_TAG }}
+          RADAR_SKIMLINKS_ID: ${{ secrets.RADAR_SKIMLINKS_ID }}
+          RADAR_SOVRN_KEY: ${{ secrets.RADAR_SOVRN_KEY }}
+        run: cd scraper && python tg_inbox.py --serve --minutes 9
+      - name: 접수 기록 저장
+        if: always() && steps.peek.outputs.has_work == 'true'
+        run: bash .github/scripts/push_files.sh "텔레그램 딜 접수 기록 $(date -u +%Y-%m-%dT%H:%M:%SZ)" threads/inbox.json threads_status.json

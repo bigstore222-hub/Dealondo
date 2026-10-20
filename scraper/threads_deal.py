@@ -53,6 +53,8 @@ def find_deal(url: str) -> dict | None:
 
 
 def store_name(d: dict) -> str:
+    if d.get("store_name"):
+        return d["store_name"]
     src = (d.get("source") or "").split(":")[-1]
     return STORES.get(src, src or "미국 쇼핑몰")
 
@@ -63,7 +65,9 @@ def money(v: float) -> str:
 
 def duty_line(d: dict) -> str:
     p = d.get("price_current") or 0
-    limit = 150 if "electron" in (d.get("category") or "") else 200
+    # 무선 통신 기능이 있는 전자기기만 미국발이어도 $150 (목록통관 배제). SSD 등 나머지는 $200.
+    import product_page
+    limit = 150 if product_page.WIRELESS.search(f"{d.get('brand') or ''} {d.get('title') or ''}") else 200
     if p and p <= limit:
         return f"${limit} 이하라 관부가세 없음 (미국발 기준)"
     krw = d.get("krw_effective")
@@ -87,7 +91,7 @@ def build_text(d: dict, seen_kst: dt.datetime) -> tuple[str, str]:
     lines.append("· 배대지 배송비는 별도")
     if d.get("coupon_code"):
         lines.append(f"· 코드 {d['coupon_code']}")
-    lines += ["", "할인 폭이 큰 상품은 사이즈·재고가 금방 빠져요.",
+    lines += ["", "할인 폭이 큰 상품은 사이즈·재고가 금방 빠져요." if pct else "가격·재고는 금방 바뀌어요.",
               f"({seen_kst:%m/%d %H:%M} 확인 기준 — 결제 전 다시 확인하세요)", "",
               QUESTIONS[int(hashlib.md5(name.encode()).hexdigest(), 16) % len(QUESTIONS)]]
     text = "\n".join(lines)
