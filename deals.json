@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20T19:21:14.981677+00:00",
-  "count": 85,
+  "generated_at": "2026-10-20T19:21:52.981558+00:00",
+  "count": 86,
   "deals": [
     {
       "source": "6pm.com",
@@ -142,7 +142,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-13T14:41:31.853740+00:00",
-      "last_seen": "2026-10-20T18:41:42.440959+00:00"
+      "last_seen": "2026-10-20T19:21:52.234045+00:00"
     },
     {
       "source": "zappos.com",
@@ -189,7 +189,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-13T00:13:03.433533+00:00",
-      "last_seen": "2026-10-20T17:21:35.080650+00:00"
+      "last_seen": "2026-10-20T19:21:52.234045+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -284,7 +284,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-20T00:31:22.740518+00:00",
-      "last_seen": "2026-10-20T18:41:42.440959+00:00"
+      "last_seen": "2026-10-20T19:21:52.234045+00:00"
     },
     {
       "source": "6pm.com",
@@ -1194,7 +1194,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T17:24:58.440683+00:00",
-      "last_seen": "2026-10-20T17:21:35.080650+00:00"
+      "last_seen": "2026-10-20T19:21:52.234045+00:00"
     },
     {
       "source": "zappos.com",
@@ -1529,7 +1529,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-20T18:41:42.440959+00:00"
+      "last_seen": "2026-10-20T19:21:52.234045+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1577,7 +1577,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T17:21:16.973115+00:00",
-      "last_seen": "2026-10-20T18:41:42.440959+00:00"
+      "last_seen": "2026-10-20T19:21:52.234045+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1625,7 +1625,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T19:37:39.161056+00:00",
-      "last_seen": "2026-10-20T18:41:42.440959+00:00"
+      "last_seen": "2026-10-20T19:21:52.234045+00:00"
     },
     {
       "source": "zappos.com",
@@ -2300,6 +2300,54 @@
       "last_seen": "2026-10-20T05:02:24.305500+00:00"
     },
     {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/adidas-ultraboost-shoes/844907.htm",
+      "title": "Adidas Men Ultraboost 5X Light Weight Shoes",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://d16f00g4zitf8i.cloudfront.net/images/adidas-ultraboost-shoes.jpg",
+      "price_current": 58.8,
+      "price_list": 180.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 78251,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealsofamerica.com/adidas-ultraboost-shoes/844907.htm",
+      "discount_pct": 67.3,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-20T17:21:16.973115+00:00",
+      "last_seen": "2026-10-20T19:21:52.234045+00:00"
+    },
+    {
       "source": "slickdeals:kohls.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20177754",
@@ -2346,54 +2394,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-20T12:10:51.966064+00:00",
       "last_seen": "2026-10-20T19:21:14.972553+00:00"
-    },
-    {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/adidas-ultraboost-shoes/844907.htm",
-      "title": "Adidas Men Ultraboost 5X Light Weight Shoes",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://d16f00g4zitf8i.cloudfront.net/images/adidas-ultraboost-shoes.jpg",
-      "price_current": 58.8,
-      "price_list": 180.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 78251,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealsofamerica.com/adidas-ultraboost-shoes/844907.htm",
-      "discount_pct": 67.3,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-20T17:21:16.973115+00:00",
-      "last_seen": "2026-10-20T18:41:42.440959+00:00"
     },
     {
       "source": "zappos.com",
@@ -2778,7 +2778,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-20T18:41:42.440959+00:00"
+      "last_seen": "2026-10-20T19:21:52.234045+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2826,7 +2826,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-20T18:41:42.440959+00:00"
+      "last_seen": "2026-10-20T19:21:52.234045+00:00"
     },
     {
       "source": "slickdeals:dickssportinggoods",
@@ -2927,6 +2927,55 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
+      "url": "https://www.dealnews.com/Reebok-Womens-Small-Logo-Rise-Tank-Top-for-5-free-shipping-w-35/22299721.html?iref=rss",
+      "title": "Reebok Women's Small Logo Rise Tank Top for $5 + free shipping w/ $35",
+      "brand": "Reebok",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1792523066-reebok-women-s-small-logo-rise-tank-top-sizes-xs-xxxl_d2ac6779-e8b7-4a49-8b47-aba98dce1d1f.avif?h=250&w=250",
+      "price_current": 5.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 6654,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Reebok-Womens-Small-Logo-Rise-Tank-Top-for-5-free-shipping-w-35/22299721.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-20T19:21:32.853086+00:00",
+      "last_seen": "2026-10-20T19:21:52.234045+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
       "url": "https://www.dealnews.com/Under-Armour-Mens-Charged-Ascend-Running-Shoes-for-26-free-shipping-w-49/22299703.html?iref=rss",
       "title": "Under Armour Men's Charged+ Ascend Running Shoes for $26 + free shipping w/ $49",
       "brand": "Under Armour",
@@ -2971,7 +3020,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T18:41:22.111638+00:00",
-      "last_seen": "2026-10-20T18:41:42.440959+00:00"
+      "last_seen": "2026-10-20T19:21:52.234045+00:00"
     },
     {
       "source": "dealnews",
@@ -3020,7 +3069,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T18:41:22.111638+00:00",
-      "last_seen": "2026-10-20T18:41:42.440959+00:00"
+      "last_seen": "2026-10-20T19:21:52.234045+00:00"
     },
     {
       "source": "dealnews",
@@ -3069,7 +3118,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T18:41:22.111638+00:00",
-      "last_seen": "2026-10-20T18:41:42.440959+00:00"
+      "last_seen": "2026-10-20T19:21:52.234045+00:00"
     },
     {
       "source": "dealnews",
@@ -3118,7 +3167,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T18:01:28.973044+00:00",
-      "last_seen": "2026-10-20T18:41:42.440959+00:00"
+      "last_seen": "2026-10-20T19:21:52.234045+00:00"
     },
     {
       "source": "techbargains:walmart",
@@ -3167,7 +3216,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T14:01:53.982594+00:00",
-      "last_seen": "2026-10-20T18:41:42.440959+00:00"
+      "last_seen": "2026-10-20T19:21:52.234045+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -3216,7 +3265,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T17:24:58.440683+00:00",
-      "last_seen": "2026-10-20T18:41:42.440959+00:00"
+      "last_seen": "2026-10-20T19:21:52.234045+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -3264,8 +3313,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-20T18:41:22.059534+00:00",
-      "last_seen": "2026-10-20T18:41:42.440959+00:00"
+      "detected_at": "2026-10-20T19:21:32.816021+00:00",
+      "last_seen": "2026-10-20T19:21:52.234045+00:00"
     },
     {
       "source": "dealnews",
@@ -4104,12 +4153,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-20T19:20:28+00:00",
-      "T2": "2026-10-20T18:41:11+00:00",
+      "T2": "2026-10-20T19:21:16+00:00",
       "T3": "2026-10-20T17:31:07+00:00",
       "T4": "2026-10-20T17:01:28+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       1,
       9,
@@ -4138,7 +4186,8 @@
       4,
       11,
       9,
-      10
+      10,
+      1
     ]
   },
   "email_monitor": {
