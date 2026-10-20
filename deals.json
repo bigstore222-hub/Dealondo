@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T17:01:27.098523+00:00",
+  "generated_at": "2026-10-20T17:04:44.964939+00:00",
   "count": 86,
   "deals": [
     {
@@ -4148,10 +4148,9 @@
       "T1": "2026-10-20T17:00:42+00:00",
       "T2": "2026-10-20T16:40:58+00:00",
       "T3": "2026-10-20T15:21:41+00:00",
-      "T4": "2026-10-20T10:50:26+00:00"
+      "T4": "2026-10-20T17:01:28+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       10,
@@ -4180,7 +4179,8 @@
       10,
       1,
       9,
-      10
+      10,
+      3
     ]
   },
   "email_monitor": {
@@ -4192,10 +4192,10 @@
         "deals": 14
       },
       "newsletter": {
-        "at": "2026-10-20T10:53:19+00:00",
+        "at": "2026-10-20T17:04:20+00:00",
         "state": "정상",
-        "mails": 31,
-        "deals": 0
+        "mails": 44,
+        "deals": 1
       }
     },
     "recent": [
@@ -4712,17 +4712,17 @@
       {
         "url": "https://click.email.bloomingdales.com/",
         "source": "bloomingdales.com",
-        "title": "Today only: 30% off all Stuart Weitzman",
-        "price": 70.0,
+        "title": "25% off starts today",
+        "price": 75.0,
         "list_price": 100.0,
-        "discount_pct": 30.0,
-        "krw": 93352,
+        "discount_pct": 25.0,
+        "krw": 99810,
         "kr_lowest": null,
         "score": 0,
         "published": false,
-        "reject_reason": "H7: Stuart Weitzman 할인 30% < 50% (유명 브랜드 최소 할인)",
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-18T21:54:19+00:00",
-        "last_seen": "2026-10-19T22:35:02+00:00"
+        "last_seen": "2026-10-20T17:04:44+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20159025",
