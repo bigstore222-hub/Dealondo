@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T07:41:32.390377+00:00",
+  "generated_at": "2026-10-20T07:51:05.782619+00:00",
   "count": 86,
   "deals": [
     {
@@ -858,6 +858,55 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20181876",
+      "title": "Women Fleece Lined Leopard Sweatshirt $14.99",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/3/5/9/3/3/4/0/6/300x300/22025577.thumb",
+      "price_current": 14.99,
+      "price_list": 29.98,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "K9SQ8FAR",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 0,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 19949,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20181876",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 K9SQ8FAR → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-20T07:50:42.681329+00:00",
+      "last_seen": "2026-10-20T07:51:05.162198+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
       "url": "https://slickdeals.net/f/20159202",
       "title": "SOLOEVER Copper-Infused Fingerless Compression Arthritis Gloves w/ Non-Slip Grip $5",
       "brand": "",
@@ -1044,55 +1093,6 @@
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
         "code_deal": "공개코드 9OLI8CKM → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-19T21:40:49.490755+00:00",
-      "last_seen": "2026-10-19T23:31:16.393607+00:00"
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20180100",
-      "title": "10-Pair Lazycorner 304 Stainless Steel Reusable Chopsticks $7.49 + Free Shipping w/ Prime or on $35+",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/2/0/3/1/1/5/0/300x300/22021869.thumb",
-      "price_current": 35.0,
-      "price_list": 70.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "WX5H1YR4",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 0,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 46676,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20180100",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 WX5H1YR4 → 하한 75"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
@@ -4144,13 +4144,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-20T07:40:25+00:00",
+      "T1": "2026-10-20T07:50:24+00:00",
       "T2": "2026-10-20T07:40:58+00:00",
       "T3": "2026-10-20T06:41:02+00:00",
       "T4": "2026-10-20T04:41:00+00:00"
     },
     "recent_gaps_min": [
-      10,
       11,
       1,
       8,
@@ -4179,13 +4178,14 @@
       10,
       10,
       10,
-      1
+      1,
+      10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-20T07:40:32+00:00",
+        "at": "2026-10-20T07:50:42+00:00",
         "state": "정상",
         "mails": 8,
         "deals": 8
@@ -4211,7 +4211,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-20T06:50:56+00:00",
-        "last_seen": "2026-10-20T07:40:57+00:00"
+        "last_seen": "2026-10-20T07:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20179506",
@@ -4226,7 +4226,7 @@
         "published": false,
         "reject_reason": "H8: 할인 21% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-20T04:10:59+00:00",
-        "last_seen": "2026-10-20T07:40:57+00:00"
+        "last_seen": "2026-10-20T07:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20173587",
@@ -4241,7 +4241,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T23:31:16+00:00",
-        "last_seen": "2026-10-20T07:40:57+00:00"
+        "last_seen": "2026-10-20T07:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20171121",
@@ -4301,7 +4301,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-19T20:11:00+00:00",
-        "last_seen": "2026-10-20T07:40:57+00:00"
+        "last_seen": "2026-10-20T07:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20168157",
@@ -4331,7 +4331,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T19:31:09+00:00",
-        "last_seen": "2026-10-20T07:40:57+00:00"
+        "last_seen": "2026-10-20T07:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20173107",
@@ -4406,7 +4406,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T16:40:59+00:00",
-        "last_seen": "2026-10-20T07:40:57+00:00"
+        "last_seen": "2026-10-20T07:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177028",
@@ -4466,7 +4466,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T13:31:07+00:00",
-        "last_seen": "2026-10-20T07:40:57+00:00"
+        "last_seen": "2026-10-20T07:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177082",
@@ -4526,7 +4526,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 44% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T02:46:04+00:00",
-        "last_seen": "2026-10-20T07:40:57+00:00"
+        "last_seen": "2026-10-20T07:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20175666",
