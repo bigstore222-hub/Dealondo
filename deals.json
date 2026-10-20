@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20T18:01:18.344103+00:00",
-  "count": 82,
+  "generated_at": "2026-10-20T18:01:52.629756+00:00",
+  "count": 84,
   "deals": [
     {
       "source": "6pm.com",
@@ -142,7 +142,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-13T14:41:31.853740+00:00",
-      "last_seen": "2026-10-20T17:21:35.080650+00:00"
+      "last_seen": "2026-10-20T18:01:51.879704+00:00"
     },
     {
       "source": "zappos.com",
@@ -331,7 +331,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-20T00:31:22.740518+00:00",
-      "last_seen": "2026-10-20T17:21:35.080650+00:00"
+      "last_seen": "2026-10-20T18:01:51.879704+00:00"
     },
     {
       "source": "6pm.com",
@@ -782,7 +782,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 216683,
+      "krw_effective": 216227,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -805,7 +805,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-12T17:59:20.304240+00:00",
-      "last_seen": "2026-10-19T20:11:34.568367+00:00"
+      "last_seen": "2026-10-20T18:01:51.879704+00:00"
     },
     {
       "source": "6pm.com",
@@ -1623,7 +1623,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-20T17:21:35.080650+00:00"
+      "last_seen": "2026-10-20T18:01:51.879704+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1671,7 +1671,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T17:21:16.973115+00:00",
-      "last_seen": "2026-10-20T17:21:35.080650+00:00"
+      "last_seen": "2026-10-20T18:01:51.879704+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/vince-camuto-nelly-leather-crossbody-bag/9083830",
+      "title": "Nelly Leather Crossbody Bag",
+      "brand": "Vince Camuto",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/1eb54c7b-6e55-4182-b6b0-8181ffe3a09f.jpeg?h=368&w=240&dpr=2",
+      "price_current": 59.98,
+      "price_list": 168.0,
+      "price_baseline": 168.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 79821,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/vince-camuto-nelly-leather-crossbody-bag/9083830",
+      "discount_pct": 64.3,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-18T19:37:39.161056+00:00",
+      "last_seen": "2026-10-20T18:01:51.879704+00:00"
     },
     {
       "source": "zappos.com",
@@ -2346,6 +2394,54 @@
       "last_seen": "2026-10-20T05:02:24.305500+00:00"
     },
     {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/adidas-ultraboost-shoes/844907.htm",
+      "title": "Adidas Men Ultraboost 5X Light Weight Shoes",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://d16f00g4zitf8i.cloudfront.net/images/adidas-ultraboost-shoes.jpg",
+      "price_current": 58.8,
+      "price_list": 180.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 78251,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealsofamerica.com/adidas-ultraboost-shoes/844907.htm",
+      "discount_pct": 67.3,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-20T17:21:16.973115+00:00",
+      "last_seen": "2026-10-20T18:01:51.879704+00:00"
+    },
+    {
       "source": "slickdeals:kohls.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20177754",
@@ -2392,54 +2488,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-20T12:10:51.966064+00:00",
       "last_seen": "2026-10-20T18:01:18.334325+00:00"
-    },
-    {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/adidas-ultraboost-shoes/844907.htm",
-      "title": "Adidas Men Ultraboost 5X Light Weight Shoes",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://d16f00g4zitf8i.cloudfront.net/images/adidas-ultraboost-shoes.jpg",
-      "price_current": 58.8,
-      "price_list": 180.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 78251,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealsofamerica.com/adidas-ultraboost-shoes/844907.htm",
-      "discount_pct": 67.3,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-20T17:21:16.973115+00:00",
-      "last_seen": "2026-10-20T17:21:35.080650+00:00"
     },
     {
       "source": "zappos.com",
@@ -2824,7 +2872,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-20T17:21:35.080650+00:00"
+      "last_seen": "2026-10-20T18:01:51.879704+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2872,7 +2920,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-20T17:21:35.080650+00:00"
+      "last_seen": "2026-10-20T18:01:51.879704+00:00"
     },
     {
       "source": "slickdeals:dickssportinggoods",
@@ -2971,6 +3019,55 @@
       "last_seen": "2026-10-19T20:11:34.568367+00:00"
     },
     {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Oakley-Ray-Ban-Sunglasses-Deals-at-Zulily-for-57-w-Code-shipping-varies/22299660.html?iref=rss",
+      "title": "Oakley & Ray-Ban Sunglasses Deals at Zulily for $57 w/ Code + shipping varies",
+      "brand": "Ray-Ban",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1792517913-sunglasses_oakley_men_s_flak_beta_sunglasses.jpg?h=250&w=250",
+      "price_current": 57.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 75855,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Oakley-Ray-Ban-Sunglasses-Deals-at-Zulily-for-57-w-Code-shipping-varies/22299660.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-20T18:01:28.973044+00:00",
+      "last_seen": "2026-10-20T18:01:51.879704+00:00"
+    },
+    {
       "source": "techbargains:walmart",
       "source_tier": "T2",
       "url": "https://www.walmart.com/ip/seort/16446970112",
@@ -3017,7 +3114,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T14:01:53.982594+00:00",
-      "last_seen": "2026-10-20T17:21:35.080650+00:00"
+      "last_seen": "2026-10-20T18:01:51.879704+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -3066,7 +3163,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T17:24:58.440683+00:00",
-      "last_seen": "2026-10-20T17:21:35.080650+00:00"
+      "last_seen": "2026-10-20T18:01:51.879704+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -3114,8 +3211,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-20T17:21:16.915428+00:00",
-      "last_seen": "2026-10-20T17:21:35.080650+00:00"
+      "detected_at": "2026-10-20T18:01:28.924222+00:00",
+      "last_seen": "2026-10-20T18:01:51.879704+00:00"
     },
     {
       "source": "dealnews",
@@ -3954,12 +4051,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-20T18:00:45+00:00",
-      "T2": "2026-10-20T17:21:03+00:00",
+      "T2": "2026-10-20T18:01:19+00:00",
       "T3": "2026-10-20T17:31:07+00:00",
       "T4": "2026-10-20T17:01:28+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       1,
       9,
@@ -3988,7 +4084,8 @@
       1,
       9,
       10,
-      10
+      10,
+      1
     ]
   },
   "email_monitor": {
