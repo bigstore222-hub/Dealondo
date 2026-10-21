@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T14:41:02.091217+00:00",
+  "generated_at": "2026-10-21T14:41:57.739401+00:00",
   "count": 98,
   "deals": [
     {
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-11T18:58:32.889480+00:00",
-      "last_seen": "2026-10-21T10:27:22.547037+00:00"
+      "last_seen": "2026-10-21T14:41:57.714450+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -855,6 +855,54 @@
       "last_seen": "2026-10-20T18:01:51.879704+00:00"
     },
     {
+      "source": "6pm.com",
+      "source_tier": "T3",
+      "url": "https://www.6pm.com/product/10030528",
+      "title": "Primm",
+      "brand": "Sam Edelman",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/71ouLIZ7UkL._AC_SR255,340_.jpg",
+      "price_current": 31.99,
+      "price_list": 159.95,
+      "price_baseline": 159.95,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": 5.0,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 42456,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.6pm.com/product/10030528",
+      "discount_pct": 80.0,
+      "score": 76,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-20T17:31:37.706896+00:00",
+      "last_seen": "2026-10-21T14:41:57.714450+00:00"
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/dkny-jeans-cotton-gauze-dress/9072282",
@@ -901,54 +949,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-21T14:21:20.939196+00:00",
       "last_seen": "2026-10-21T14:21:39.284659+00:00"
-    },
-    {
-      "source": "6pm.com",
-      "source_tier": "T3",
-      "url": "https://www.6pm.com/product/10030528",
-      "title": "Primm",
-      "brand": "Sam Edelman",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/71ouLIZ7UkL._AC_SR255,340_.jpg",
-      "price_current": 31.99,
-      "price_list": 159.95,
-      "price_baseline": 159.95,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": 5.0,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 42456,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.6pm.com/product/10030528",
-      "discount_pct": 80.0,
-      "score": 76,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-20T17:31:37.706896+00:00",
-      "last_seen": "2026-10-21T12:32:18.780907+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1429,7 +1429,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-20T17:31:37.706896+00:00",
-      "last_seen": "2026-10-21T12:32:18.780907+00:00"
+      "last_seen": "2026-10-21T14:41:57.714450+00:00"
     },
     {
       "source": "zappos.com",
@@ -1668,7 +1668,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-15T18:37:52.122016+00:00",
-      "last_seen": "2026-10-21T12:32:18.780907+00:00"
+      "last_seen": "2026-10-21T14:41:57.714450+00:00"
     },
     {
       "source": "dealnews",
@@ -4737,11 +4737,10 @@
     "tier_last_run": {
       "T1": "2026-10-21T14:40:29+00:00",
       "T2": "2026-10-21T14:21:05+00:00",
-      "T3": "2026-10-21T12:31:23+00:00",
+      "T3": "2026-10-21T14:41:04+00:00",
       "T4": "2026-10-21T11:31:22+00:00"
     },
     "recent_gaps_min": [
-      1,
       9,
       10,
       10,
@@ -4770,7 +4769,8 @@
       10,
       1,
       10,
-      9
+      9,
+      1
     ]
   },
   "email_monitor": {
