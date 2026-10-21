@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T23:42:02.167144+00:00",
+  "generated_at": "2026-10-21T23:51:05.816783+00:00",
   "count": 102,
   "deals": [
     {
@@ -1049,53 +1049,6 @@
       "last_seen": "2026-10-21T02:31:42.001688+00:00"
     },
     {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/ugg-goldenstar-clog-women/7245083",
-      "title": "Goldenstar Clog",
-      "brand": "Ugg",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/d4264a73-4411-4b9a-9381-0f056e5fcf66.jpeg?h=368&w=240&dpr=2",
-      "price_current": 59.97,
-      "price_list": 135.0,
-      "price_baseline": 135.0,
-      "price_alltime_low": 59.97,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 79590,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/ugg-goldenstar-clog-women/7245083",
-      "discount_pct": 55.6,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-21T23:42:00.042302+00:00"
-    },
-    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20183205",
@@ -1142,7 +1095,54 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-21T20:50:43.053167+00:00",
-      "last_seen": "2026-10-21T23:41:24.349679+00:00"
+      "last_seen": "2026-10-21T23:51:05.805343+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/ugg-goldenstar-clog-women/7245083",
+      "title": "Goldenstar Clog",
+      "brand": "Ugg",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/d4264a73-4411-4b9a-9381-0f056e5fcf66.jpeg?h=368&w=240&dpr=2",
+      "price_current": 59.97,
+      "price_list": 135.0,
+      "price_baseline": 135.0,
+      "price_alltime_low": 59.97,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 79590,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.nordstromrack.com/s/ugg-goldenstar-clog-women/7245083",
+      "discount_pct": 55.6,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-18T10:09:31.697522+00:00",
+      "last_seen": "2026-10-21T23:42:00.042302+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -4932,13 +4932,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-21T23:40:26+00:00",
+      "T1": "2026-10-21T23:50:30+00:00",
       "T2": "2026-10-21T23:41:26+00:00",
       "T3": "2026-10-21T23:21:02+00:00",
       "T4": "2026-10-21T17:41:45+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       10,
@@ -4967,16 +4966,17 @@
       1,
       9,
       10,
-      1
+      1,
+      9
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-21T23:41:01+00:00",
+        "at": "2026-10-21T23:50:44+00:00",
         "state": "정상",
-        "mails": 23,
-        "deals": 23
+        "mails": 24,
+        "deals": 24
       },
       "newsletter": {
         "at": "2026-10-21T17:44:27+00:00",
@@ -4986,6 +4986,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20188884",
+        "source": "slickdeals:amazon.com",
+        "title": "4-Port UGREEN Nexode Up to 200W GaN USB-C Wall Charger w/ Foldable Plug for $65 at Amazon",
+        "price": 65.0,
+        "list_price": 99.99,
+        "discount_pct": 35.0,
+        "krw": 86266,
+        "kr_lowest": null,
+        "score": 17,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-10-21T23:51:05+00:00",
+        "last_seen": "2026-10-21T23:51:05+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20187729",
         "source": "slickdeals:amazon.com",
@@ -4999,7 +5014,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-21T23:41:24+00:00",
-        "last_seen": "2026-10-21T23:41:24+00:00"
+        "last_seen": "2026-10-21T23:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20187498",
@@ -5014,7 +5029,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-21T20:51:05+00:00",
-        "last_seen": "2026-10-21T23:41:24+00:00"
+        "last_seen": "2026-10-21T23:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20183205",
@@ -5029,7 +5044,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-21T20:51:05+00:00",
-        "last_seen": "2026-10-21T23:41:24+00:00"
+        "last_seen": "2026-10-21T23:51:05+00:00"
       },
       {
         "url": "https://click.emails.underarmour.com/",
@@ -5059,7 +5074,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-21T17:21:05+00:00",
-        "last_seen": "2026-10-21T23:41:24+00:00"
+        "last_seen": "2026-10-21T23:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20181585",
@@ -5074,7 +5089,7 @@
         "published": false,
         "reject_reason": "H8: 할인 12% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-21T16:31:14+00:00",
-        "last_seen": "2026-10-21T23:41:24+00:00"
+        "last_seen": "2026-10-21T23:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20181357",
@@ -5089,7 +5104,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-21T16:01:18+00:00",
-        "last_seen": "2026-10-21T23:41:24+00:00"
+        "last_seen": "2026-10-21T23:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178168",
@@ -5104,7 +5119,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-21T15:01:20+00:00",
-        "last_seen": "2026-10-21T23:41:24+00:00"
+        "last_seen": "2026-10-21T23:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20181834",
@@ -5119,7 +5134,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-21T14:41:02+00:00",
-        "last_seen": "2026-10-21T23:41:24+00:00"
+        "last_seen": "2026-10-21T23:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20186943",
@@ -5134,7 +5149,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-21T13:31:15+00:00",
-        "last_seen": "2026-10-21T23:41:24+00:00"
+        "last_seen": "2026-10-21T23:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20182740",
@@ -5149,7 +5164,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-21T07:51:24+00:00",
-        "last_seen": "2026-10-21T23:41:24+00:00"
+        "last_seen": "2026-10-21T23:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20183664",
@@ -5164,7 +5179,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-21T06:11:25+00:00",
-        "last_seen": "2026-10-21T23:41:24+00:00"
+        "last_seen": "2026-10-21T23:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20176890",
@@ -5179,7 +5194,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-21T05:31:58+00:00",
-        "last_seen": "2026-10-21T23:41:24+00:00"
+        "last_seen": "2026-10-21T23:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20182755",
@@ -5194,7 +5209,7 @@
         "published": false,
         "reject_reason": "H8: 할인 23% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-21T05:20:59+00:00",
-        "last_seen": "2026-10-21T23:41:24+00:00"
+        "last_seen": "2026-10-21T23:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20181639",
@@ -5209,7 +5224,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-21T05:10:57+00:00",
-        "last_seen": "2026-10-21T23:41:24+00:00"
+        "last_seen": "2026-10-21T23:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20179545",
@@ -5224,7 +5239,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-21T03:41:02+00:00",
-        "last_seen": "2026-10-21T23:41:24+00:00"
+        "last_seen": "2026-10-21T23:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20180400",
@@ -5239,7 +5254,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-21T01:40:53+00:00",
-        "last_seen": "2026-10-21T23:41:24+00:00"
+        "last_seen": "2026-10-21T23:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177022",
@@ -5284,7 +5299,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-20T21:41:13+00:00",
-        "last_seen": "2026-10-21T23:41:24+00:00"
+        "last_seen": "2026-10-21T23:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20174559",
@@ -5359,7 +5374,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-20T19:40:59+00:00",
-        "last_seen": "2026-10-21T23:41:24+00:00"
+        "last_seen": "2026-10-21T23:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20176917",
@@ -5494,7 +5509,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-20T15:31:32+00:00",
-        "last_seen": "2026-10-21T23:41:24+00:00"
+        "last_seen": "2026-10-21T23:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177754",
@@ -5614,7 +5629,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T23:31:16+00:00",
-        "last_seen": "2026-10-21T23:41:24+00:00"
+        "last_seen": "2026-10-21T23:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20171121",
@@ -5674,7 +5689,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-19T20:11:00+00:00",
-        "last_seen": "2026-10-21T23:41:24+00:00"
+        "last_seen": "2026-10-21T23:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20168157",
@@ -5704,7 +5719,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T19:31:09+00:00",
-        "last_seen": "2026-10-21T23:41:24+00:00"
+        "last_seen": "2026-10-21T23:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20173107",
@@ -5779,7 +5794,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T16:40:59+00:00",
-        "last_seen": "2026-10-21T23:41:24+00:00"
+        "last_seen": "2026-10-21T23:51:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177028",
@@ -5960,40 +5975,10 @@
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-19T02:46:04+00:00",
         "last_seen": "2026-10-20T00:51:02+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20175834",
-        "source": "slickdeals:amazon.com",
-        "title": "6800mAh 22.5W Lisen USB-C Capsule Mini Portable Charger for $16 at Amazon",
-        "price": 16.0,
-        "list_price": 26.99,
-        "discount_pct": 40.7,
-        "krw": 21356,
-        "kr_lowest": null,
-        "score": 31,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-10-18T23:48:15+00:00",
-        "last_seen": "2026-10-18T23:48:48+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20169045",
-        "source": "slickdeals:costcowholesale",
-        "title": "Costco Members: 2-Pk 32 Degrees Men's or Women's Heat Tee or Pants for $12 at Costco Wholesale",
-        "price": 12.0,
-        "list_price": 14.99,
-        "discount_pct": 19.9,
-        "krw": 16017,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
-        "first_seen": "2026-10-18T23:48:15+00:00",
-        "last_seen": "2026-10-18T23:48:48+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 67,
+      "collected_72h": 66,
       "published_72h": 2
     }
   }
