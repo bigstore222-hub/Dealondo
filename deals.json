@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-21T00:31:12.065457+00:00",
-  "count": 89,
+  "generated_at": "2026-10-21T00:31:50.420124+00:00",
+  "count": 92,
   "deals": [
     {
       "source": "6pm.com",
@@ -142,7 +142,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-13T14:41:31.853740+00:00",
-      "last_seen": "2026-10-20T23:53:08.176690+00:00"
+      "last_seen": "2026-10-21T00:31:47.925295+00:00"
     },
     {
       "source": "zappos.com",
@@ -284,7 +284,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-20T00:31:22.740518+00:00",
-      "last_seen": "2026-10-20T23:53:08.176690+00:00"
+      "last_seen": "2026-10-21T00:31:47.925295+00:00"
     },
     {
       "source": "6pm.com",
@@ -759,7 +759,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-20T23:52:43.995848+00:00",
-      "last_seen": "2026-10-20T23:53:08.176690+00:00"
+      "last_seen": "2026-10-21T00:31:47.925295+00:00"
     },
     {
       "source": "6pm.com",
@@ -1486,6 +1486,54 @@
     {
       "source": "nordstromrack.com",
       "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/sam-edelman-rinda-pump-women/8367707",
+      "title": "Rinda Pump",
+      "brand": "Sam Edelman",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/834c2b9d-552f-41df-bc50-71aa7a2da229.jpeg?h=368&w=240&dpr=2",
+      "price_current": 44.98,
+      "price_list": 150.0,
+      "price_baseline": 150.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 59859,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/sam-edelman-rinda-pump-women/8367707",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-21T00:31:29.914976+00:00",
+      "last_seen": "2026-10-21T00:31:47.925295+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/vince-camuto-gibi-knee-high-boot-women-regular-narrow-wide-extrawide-calf/7862129",
       "title": "Gibi Knee High Boot",
       "brand": "Vince Camuto",
@@ -1529,7 +1577,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-20T23:53:08.176690+00:00"
+      "last_seen": "2026-10-21T00:31:47.925295+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1577,7 +1625,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T17:21:16.973115+00:00",
-      "last_seen": "2026-10-20T23:53:08.176690+00:00"
+      "last_seen": "2026-10-21T00:31:47.925295+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1625,7 +1673,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T19:37:39.161056+00:00",
-      "last_seen": "2026-10-20T23:53:08.176690+00:00"
+      "last_seen": "2026-10-21T00:31:47.925295+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10042093",
+      "title": "East Side Cardigan",
+      "brand": "Free People",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/81uFQ9GVWvL._AC_SR255,340_.jpg",
+      "price_current": 38.4,
+      "price_list": 128.0,
+      "price_baseline": 128.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 51103,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10042093",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-19T18:11:19.637845+00:00",
+      "last_seen": "2026-10-21T00:31:47.925295+00:00"
     },
     {
       "source": "zappos.com",
@@ -2060,54 +2156,6 @@
       "last_seen": "2026-10-20T00:31:43.365212+00:00"
     },
     {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10042093",
-      "title": "East Side Cardigan",
-      "brand": "Free People",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/81uFQ9GVWvL._AC_SR255,340_.jpg",
-      "price_current": 38.4,
-      "price_list": 128.0,
-      "price_baseline": 128.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 51210,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10042093",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-19T18:11:19.637845+00:00",
-      "last_seen": "2026-10-19T23:58:38.570502+00:00"
-    },
-    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/sam-edelman-poppy-woven-sneaker-women/8360784",
@@ -2252,6 +2300,54 @@
       "last_seen": "2026-10-20T05:02:24.305500+00:00"
     },
     {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/adidas-ultraboost-shoes/844907.htm",
+      "title": "Adidas Men Ultraboost 5X Light Weight Shoes",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://d16f00g4zitf8i.cloudfront.net/images/adidas-ultraboost-shoes.jpg",
+      "price_current": 58.8,
+      "price_list": 180.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 78251,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealsofamerica.com/adidas-ultraboost-shoes/844907.htm",
+      "discount_pct": 67.3,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-20T17:21:16.973115+00:00",
+      "last_seen": "2026-10-21T00:31:47.925295+00:00"
+    },
+    {
       "source": "slickdeals:kohls.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20177754",
@@ -2298,54 +2394,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-20T12:10:51.966064+00:00",
       "last_seen": "2026-10-21T00:31:12.058180+00:00"
-    },
-    {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/adidas-ultraboost-shoes/844907.htm",
-      "title": "Adidas Men Ultraboost 5X Light Weight Shoes",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://d16f00g4zitf8i.cloudfront.net/images/adidas-ultraboost-shoes.jpg",
-      "price_current": 58.8,
-      "price_list": 180.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 78251,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealsofamerica.com/adidas-ultraboost-shoes/844907.htm",
-      "discount_pct": 67.3,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-20T17:21:16.973115+00:00",
-      "last_seen": "2026-10-20T23:53:08.176690+00:00"
     },
     {
       "source": "zappos.com",
@@ -2730,7 +2778,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-20T23:53:08.176690+00:00"
+      "last_seen": "2026-10-21T00:31:47.925295+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2778,7 +2826,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-20T23:53:08.176690+00:00"
+      "last_seen": "2026-10-21T00:31:47.925295+00:00"
     },
     {
       "source": "zappos.com",
@@ -2831,6 +2879,104 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
+      "url": "https://www.dealnews.com/Tommy-Hilfiger-Mens-Hiday-Casualized-Hybrid-Oxfords-for-55-free-shipping/22299984.html?iref=rss",
+      "title": "Tommy Hilfiger Men's Hiday Casualized Hybrid Oxfords for $55 + free shipping",
+      "brand": "Tommy Hilfiger",
+      "category": "premium_fashion",
+      "image": "https://d.dlnws.com/64599/1792541621-35478875_fpx.jpeg?h=250&w=205",
+      "price_current": 55.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 73194,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Tommy-Hilfiger-Mens-Hiday-Casualized-Hybrid-Oxfords-for-55-free-shipping/22299984.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-21T00:31:29.914976+00:00",
+      "last_seen": "2026-10-21T00:31:47.925295+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Michael-Kors-Mens-Classic-Fit-Twill-Blazer-for-125-free-shipping/22299977.html?iref=rss",
+      "title": "Michael Kors Men's Classic-Fit Twill Blazer for $125 + free shipping",
+      "brand": "Michael Kors",
+      "category": "premium_fashion",
+      "image": "https://d.dlnws.com/64599/1792540343-29173219_fpx.jpeg?h=250&w=205",
+      "price_current": 125.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 166349,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/Michael-Kors-Mens-Classic-Fit-Twill-Blazer-for-125-free-shipping/22299977.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-21T00:31:29.914976+00:00",
+      "last_seen": "2026-10-21T00:31:47.925295+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
       "url": "https://www.dealnews.com/Seiko-Mens-Chronograph-Essentials-Watch-for-186-free-shipping/22299963.html?iref=rss",
       "title": "Seiko Men's Chronograph Essentials Watch for $186 + free shipping",
       "brand": "Seiko",
@@ -2875,7 +3021,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T23:52:43.995848+00:00",
-      "last_seen": "2026-10-20T23:53:08.176690+00:00"
+      "last_seen": "2026-10-21T00:31:47.925295+00:00"
     },
     {
       "source": "dealnews",
@@ -2924,7 +3070,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T22:31:25.308141+00:00",
-      "last_seen": "2026-10-20T23:53:08.176690+00:00"
+      "last_seen": "2026-10-21T00:31:47.925295+00:00"
     },
     {
       "source": "dealnews",
@@ -2973,7 +3119,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T21:21:33.193891+00:00",
-      "last_seen": "2026-10-20T23:53:08.176690+00:00"
+      "last_seen": "2026-10-21T00:31:47.925295+00:00"
     },
     {
       "source": "dealnews",
@@ -3022,7 +3168,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T20:41:22.840482+00:00",
-      "last_seen": "2026-10-20T23:53:08.176690+00:00"
+      "last_seen": "2026-10-21T00:31:47.925295+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -3071,7 +3217,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T17:24:58.440683+00:00",
-      "last_seen": "2026-10-20T23:53:08.176690+00:00"
+      "last_seen": "2026-10-21T00:31:47.925295+00:00"
     },
     {
       "source": "techbargains:walmart",
@@ -3120,7 +3266,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T14:01:53.982594+00:00",
-      "last_seen": "2026-10-20T23:53:08.176690+00:00"
+      "last_seen": "2026-10-21T00:31:47.925295+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -3168,8 +3314,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-20T23:52:43.906431+00:00",
-      "last_seen": "2026-10-20T23:53:08.176690+00:00"
+      "detected_at": "2026-10-21T00:31:29.829456+00:00",
+      "last_seen": "2026-10-21T00:31:47.925295+00:00"
     },
     {
       "source": "dealnews",
@@ -4302,12 +4448,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-21T00:30:36+00:00",
-      "T2": "2026-10-20T23:52:35+00:00",
+      "T2": "2026-10-21T00:31:13+00:00",
       "T3": "2026-10-20T23:53:10+00:00",
       "T4": "2026-10-20T23:11:40+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       1,
       9,
@@ -4336,7 +4481,8 @@
       7,
       10,
       10,
-      10
+      10,
+      1
     ]
   },
   "email_monitor": {
