@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T09:51:15.622379+00:00",
+  "generated_at": "2026-10-21T09:51:54.662270+00:00",
   "count": 95,
   "deals": [
     {
@@ -142,7 +142,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-13T14:41:31.853740+00:00",
-      "last_seen": "2026-10-21T09:12:31.845684+00:00"
+      "last_seen": "2026-10-21T09:51:53.288214+00:00"
     },
     {
       "source": "zappos.com",
@@ -284,7 +284,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-20T00:31:22.740518+00:00",
-      "last_seen": "2026-10-21T09:12:31.845684+00:00"
+      "last_seen": "2026-10-21T09:51:53.288214+00:00"
     },
     {
       "source": "6pm.com",
@@ -1623,7 +1623,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-21T09:12:31.845684+00:00"
+      "last_seen": "2026-10-21T09:51:53.288214+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1671,7 +1671,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T17:21:16.973115+00:00",
-      "last_seen": "2026-10-21T09:12:31.845684+00:00"
+      "last_seen": "2026-10-21T09:51:53.288214+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1719,7 +1719,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T19:37:39.161056+00:00",
-      "last_seen": "2026-10-21T09:12:31.845684+00:00"
+      "last_seen": "2026-10-21T09:51:53.288214+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/9996688",
+      "title": "Jorine 2",
+      "brand": "Tommy Hilfiger",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/71Hzvh40bSL._AC_SR255,340_.jpg",
+      "price_current": 38.7,
+      "price_list": 129.0,
+      "price_baseline": 129.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 51361,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/9996688",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-21T09:51:34.467012+00:00",
+      "last_seen": "2026-10-21T09:51:53.288214+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2346,6 +2394,102 @@
       "last_seen": "2026-10-20T05:02:24.305500+00:00"
     },
     {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10043577",
+      "title": "Breaker Logo Tape 4\" Brief Lined Volley (Big Kid)",
+      "brand": "Nike",
+      "category": "sports_outdoor",
+      "image": "https://m.media-amazon.com/images/I/61QasJGl4ML._AC_SR255,340_.jpg",
+      "price_current": 13.8,
+      "price_list": 46.0,
+      "price_baseline": 46.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 18315,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10043577",
+      "discount_pct": 70.0,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-20T23:11:18.941322+00:00",
+      "last_seen": "2026-10-21T09:51:53.288214+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10043578",
+      "title": "Hydroguard Dri-Fit UV Long Sleeve Top (Little Kid/Big Kid)",
+      "brand": "Nike",
+      "category": "sports_outdoor",
+      "image": "https://m.media-amazon.com/images/I/51XpxekpBoL._AC_SR255,340_.jpg",
+      "price_current": 12.6,
+      "price_list": 42.0,
+      "price_baseline": 42.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 16722,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10043578",
+      "discount_pct": 70.0,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-18T01:04:59.440240+00:00",
+      "last_seen": "2026-10-21T09:51:53.288214+00:00"
+    },
+    {
       "source": "dealsofamerica",
       "source_tier": "T2",
       "url": "https://www.dealsofamerica.com/adidas-ultraboost-shoes/844907.htm",
@@ -2391,7 +2535,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T17:21:16.973115+00:00",
-      "last_seen": "2026-10-21T09:12:31.845684+00:00"
+      "last_seen": "2026-10-21T09:51:53.288214+00:00"
     },
     {
       "source": "slickdeals:kohls.com",
@@ -2440,102 +2584,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-20T12:10:51.966064+00:00",
       "last_seen": "2026-10-21T00:51:21.303550+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10043575",
-      "title": "Long Sleeve Bubble Hydroguard Top & 5\" Volley Short Set (Little Kid)",
-      "brand": "Nike",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/713-ObPCL7L._AC_SR255,340_.jpg",
-      "price_current": 16.2,
-      "price_list": 54.0,
-      "price_baseline": 54.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 21559,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10043575",
-      "discount_pct": 70.0,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-20T23:11:18.941322+00:00",
-      "last_seen": "2026-10-20T23:11:39.284908+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10043577",
-      "title": "Breaker Logo Tape 4\" Brief Lined Volley (Big Kid)",
-      "brand": "Nike",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/61QasJGl4ML._AC_SR255,340_.jpg",
-      "price_current": 13.8,
-      "price_list": 46.0,
-      "price_baseline": 46.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 18365,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10043577",
-      "discount_pct": 70.0,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-20T23:11:18.941322+00:00",
-      "last_seen": "2026-10-20T23:11:39.284908+00:00"
     },
     {
       "source": "zappos.com",
@@ -2824,7 +2872,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-21T09:12:31.845684+00:00"
+      "last_seen": "2026-10-21T09:51:53.288214+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2872,7 +2920,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-21T09:12:31.845684+00:00"
+      "last_seen": "2026-10-21T09:51:53.288214+00:00"
     },
     {
       "source": "zappos.com",
@@ -2969,7 +3017,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-21T09:12:09.216298+00:00",
-      "last_seen": "2026-10-21T09:12:31.845684+00:00"
+      "last_seen": "2026-10-21T09:51:53.288214+00:00"
     },
     {
       "source": "dealnews",
@@ -3017,8 +3065,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-21T09:12:09.000252+00:00",
-      "last_seen": "2026-10-21T09:12:31.845684+00:00"
+      "detected_at": "2026-10-21T09:51:34.093660+00:00",
+      "last_seen": "2026-10-21T09:51:53.288214+00:00"
     },
     {
       "source": "dealnews",
@@ -3066,8 +3114,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-21T09:12:09.007026+00:00",
-      "last_seen": "2026-10-21T09:12:31.845684+00:00"
+      "detected_at": "2026-10-21T09:51:34.101572+00:00",
+      "last_seen": "2026-10-21T09:51:53.288214+00:00"
     },
     {
       "source": "dealnews",
@@ -3116,7 +3164,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-21T07:51:32.988638+00:00",
-      "last_seen": "2026-10-21T09:12:31.845684+00:00"
+      "last_seen": "2026-10-21T09:51:53.288214+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -3165,7 +3213,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T17:24:58.440683+00:00",
-      "last_seen": "2026-10-21T09:12:31.845684+00:00"
+      "last_seen": "2026-10-21T09:51:53.288214+00:00"
     },
     {
       "source": "techbargains:walmart",
@@ -3214,7 +3262,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T14:01:53.982594+00:00",
-      "last_seen": "2026-10-21T09:12:31.845684+00:00"
+      "last_seen": "2026-10-21T09:51:53.288214+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -3262,8 +3310,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-21T09:12:09.131086+00:00",
-      "last_seen": "2026-10-21T09:12:31.845684+00:00"
+      "detected_at": "2026-10-21T09:51:34.383356+00:00",
+      "last_seen": "2026-10-21T09:51:53.288214+00:00"
     },
     {
       "source": "dealnews",
@@ -4538,66 +4586,16 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-19T12:21:22.147067+00:00",
       "last_seen": "2026-10-19T12:21:44.257320+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/products/Lacoste/Lacoste-Heritage-16-x-30-Supima-Cotton-Hand-Towel/517471.html?iref=rss",
-      "title": "Lacoste Heritage 16\" x 30\" Supima Cotton Hand Towel for $9 + free shipping w/ Prime",
-      "brand": "Lacoste",
-      "category": "premium_fashion",
-      "image": "https://d.dlnws.com/64599/1792396059-product-trimmed.jpg?h=250&w=136",
-      "price_current": 9.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 12002,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/products/Lacoste/Lacoste-Heritage-16-x-30-Supima-Cotton-Hand-Towel/517471.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-19T08:00:24.907807+00:00",
-      "last_seen": "2026-10-19T09:51:29.550756+00:00"
     }
   ],
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-21T09:50:29+00:00",
-      "T2": "2026-10-21T09:12:01+00:00",
+      "T2": "2026-10-21T09:51:17+00:00",
       "T3": "2026-10-21T08:21:03+00:00",
       "T4": "2026-10-21T05:21:01+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       10,
@@ -4626,7 +4624,8 @@
       9,
       10,
       10,
-      10
+      10,
+      1
     ]
   },
   "email_monitor": {
