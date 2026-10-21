@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-21T07:51:24.198153+00:00",
-  "count": 93,
+  "generated_at": "2026-10-21T07:51:57.882198+00:00",
+  "count": 94,
   "deals": [
     {
       "source": "6pm.com",
@@ -142,7 +142,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-13T14:41:31.853740+00:00",
-      "last_seen": "2026-10-21T07:11:44.335515+00:00"
+      "last_seen": "2026-10-21T07:51:56.584946+00:00"
     },
     {
       "source": "zappos.com",
@@ -284,7 +284,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-20T00:31:22.740518+00:00",
-      "last_seen": "2026-10-21T07:11:44.335515+00:00"
+      "last_seen": "2026-10-21T07:51:56.584946+00:00"
     },
     {
       "source": "6pm.com",
@@ -429,6 +429,53 @@
       "urgency": "HOT",
       "detected_at": "2026-10-18T17:26:22.184237+00:00",
       "last_seen": "2026-10-20T02:22:20.164084+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10050809",
+      "title": "Bayley",
+      "brand": "Steve Madden",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/61LRpqEp8YL._AC_SR255,340_.jpg",
+      "price_current": 38.98,
+      "price_list": 129.95,
+      "price_baseline": 129.95,
+      "price_alltime_low": 38.98,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 51733,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10050809",
+      "discount_pct": 70.0,
+      "score": 81,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-17T18:47:34.826266+00:00",
+      "last_seen": "2026-10-21T07:51:56.584946+00:00"
     },
     {
       "source": "6pm.com",
@@ -1576,7 +1623,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-21T07:11:44.335515+00:00"
+      "last_seen": "2026-10-21T07:51:56.584946+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1624,7 +1671,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T17:21:16.973115+00:00",
-      "last_seen": "2026-10-21T07:11:44.335515+00:00"
+      "last_seen": "2026-10-21T07:51:56.584946+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1672,7 +1719,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T19:37:39.161056+00:00",
-      "last_seen": "2026-10-21T07:11:44.335515+00:00"
+      "last_seen": "2026-10-21T07:51:56.584946+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2109,54 +2156,6 @@
     {
       "source": "zappos.com",
       "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10050809",
-      "title": "Bayley",
-      "brand": "Steve Madden",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61LRpqEp8YL._AC_SR255,340_.jpg",
-      "price_current": 38.98,
-      "price_list": 129.95,
-      "price_baseline": 129.95,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 51874,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10050809",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-17T18:47:34.826266+00:00",
-      "last_seen": "2026-10-20T07:02:04.300160+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
       "url": "https://www.zappos.com/product/9507837",
       "title": "Flowt Wedge Cork Sandal",
       "brand": "ECCO",
@@ -2392,7 +2391,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T17:21:16.973115+00:00",
-      "last_seen": "2026-10-21T07:11:44.335515+00:00"
+      "last_seen": "2026-10-21T07:51:56.584946+00:00"
     },
     {
       "source": "slickdeals:kohls.com",
@@ -2825,7 +2824,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-21T07:11:44.335515+00:00"
+      "last_seen": "2026-10-21T07:51:56.584946+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2873,7 +2872,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-21T07:11:44.335515+00:00"
+      "last_seen": "2026-10-21T07:51:56.584946+00:00"
     },
     {
       "source": "zappos.com",
@@ -2926,6 +2925,55 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
+      "url": "https://www.dealnews.com/Lacoste-30-x-54-100-Supima-Cotton-Bath-Towel-for-13-free-shipping-w-Prime/22301928.html?iref=rss",
+      "title": "Lacoste 30\"x 54\" 100% Supima Cotton Bath Towel for $13 + free shipping w/ Prime",
+      "brand": "Lacoste",
+      "category": "premium_fashion",
+      "image": "https://d.dlnws.com/64599/1792568694-product-trimmed.jpg?h=250&w=173",
+      "price_current": 13.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 17253,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Lacoste-30-x-54-100-Supima-Cotton-Bath-Towel-for-13-free-shipping-w-Prime/22301928.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-21T07:51:32.988638+00:00",
+      "last_seen": "2026-10-21T07:51:56.584946+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
       "url": "https://www.dealnews.com/Tommy-Hilfiger-Mens-Hiday-Casualized-Hybrid-Oxfords-for-55-free-shipping/22299984.html?iref=rss",
       "title": "Tommy Hilfiger Men's Hiday Casualized Hybrid Oxfords for $55 + free shipping",
       "brand": "Tommy Hilfiger",
@@ -2970,7 +3018,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-21T00:31:29.914976+00:00",
-      "last_seen": "2026-10-21T07:11:44.335515+00:00"
+      "last_seen": "2026-10-21T07:51:56.584946+00:00"
     },
     {
       "source": "dealnews",
@@ -3019,7 +3067,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-21T00:31:29.914976+00:00",
-      "last_seen": "2026-10-21T07:11:44.335515+00:00"
+      "last_seen": "2026-10-21T07:51:56.584946+00:00"
     },
     {
       "source": "dealnews",
@@ -3068,56 +3116,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T23:52:43.995848+00:00",
-      "last_seen": "2026-10-21T07:11:44.335515+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Tommy-Hilfiger-Mens-Virat-Casualized-Hybrid-Oxfords-for-55-free-shipping/22299899.html?iref=rss",
-      "title": "Tommy Hilfiger Men's Virat Casualized Hybrid Oxfords for $55 + free shipping",
-      "brand": "Tommy Hilfiger",
-      "category": "premium_fashion",
-      "image": "https://d.dlnws.com/64599/1792533625-29613946_fpx.jpeg?h=250&w=204",
-      "price_current": 55.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 72994,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Tommy-Hilfiger-Mens-Virat-Casualized-Hybrid-Oxfords-for-55-free-shipping/22299899.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-20T22:31:25.308141+00:00",
-      "last_seen": "2026-10-21T07:11:44.335515+00:00"
+      "last_seen": "2026-10-21T07:51:56.584946+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -3166,7 +3165,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T17:24:58.440683+00:00",
-      "last_seen": "2026-10-21T07:11:44.335515+00:00"
+      "last_seen": "2026-10-21T07:51:56.584946+00:00"
     },
     {
       "source": "techbargains:walmart",
@@ -3215,7 +3214,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T14:01:53.982594+00:00",
-      "last_seen": "2026-10-21T07:11:44.335515+00:00"
+      "last_seen": "2026-10-21T07:51:56.584946+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -3263,7 +3262,56 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-21T07:11:23.341587+00:00",
+      "detected_at": "2026-10-21T07:51:32.902337+00:00",
+      "last_seen": "2026-10-21T07:51:56.584946+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Tommy-Hilfiger-Mens-Virat-Casualized-Hybrid-Oxfords-for-55-free-shipping/22299899.html?iref=rss",
+      "title": "Tommy Hilfiger Men's Virat Casualized Hybrid Oxfords for $55 + free shipping",
+      "brand": "Tommy Hilfiger",
+      "category": "premium_fashion",
+      "image": "https://d.dlnws.com/64599/1792533625-29613946_fpx.jpeg?h=250&w=204",
+      "price_current": 55.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 72994,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Tommy-Hilfiger-Mens-Virat-Casualized-Hybrid-Oxfords-for-55-free-shipping/22299899.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-20T22:31:25.308141+00:00",
       "last_seen": "2026-10-21T07:11:44.335515+00:00"
     },
     {
@@ -4495,12 +4543,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-21T07:50:50+00:00",
-      "T2": "2026-10-21T07:11:12+00:00",
+      "T2": "2026-10-21T07:51:25+00:00",
       "T3": "2026-10-21T06:11:27+00:00",
       "T4": "2026-10-21T05:21:01+00:00"
     },
     "recent_gaps_min": [
-      8,
       9,
       10,
       1,
@@ -4529,7 +4576,8 @@
       9,
       12,
       8,
-      11
+      11,
+      1
     ]
   },
   "email_monitor": {
