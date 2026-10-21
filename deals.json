@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T04:02:04.406855+00:00",
+  "generated_at": "2026-10-21T04:03:01.302883+00:00",
   "count": 93,
   "deals": [
     {
@@ -24,7 +24,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 126425,
+      "krw_effective": 126081,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-11T18:58:32.889480+00:00",
-      "last_seen": "2026-10-20T21:52:00.732614+00:00"
+      "last_seen": "2026-10-21T04:03:01.272107+00:00"
     },
     {
       "source": "6pm.com",
@@ -762,6 +762,54 @@
       "last_seen": "2026-10-20T18:01:51.879704+00:00"
     },
     {
+      "source": "6pm.com",
+      "source_tier": "T3",
+      "url": "https://www.6pm.com/product/10030528",
+      "title": "Primm",
+      "brand": "Sam Edelman",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/71ouLIZ7UkL._AC_SR255,340_.jpg",
+      "price_current": 31.99,
+      "price_list": 159.95,
+      "price_baseline": 159.95,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": 5.0,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 42456,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.6pm.com/product/10030528",
+      "discount_pct": 80.0,
+      "score": 76,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-20T17:31:37.706896+00:00",
+      "last_seen": "2026-10-21T04:03:01.272107+00:00"
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/steve-madden-multi-keeper-faux-leather-belt/9027875",
@@ -808,54 +856,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-20T23:52:43.995848+00:00",
       "last_seen": "2026-10-21T02:31:42.001688+00:00"
-    },
-    {
-      "source": "6pm.com",
-      "source_tier": "T3",
-      "url": "https://www.6pm.com/product/10030528",
-      "title": "Primm",
-      "brand": "Sam Edelman",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/71ouLIZ7UkL._AC_SR255,340_.jpg",
-      "price_current": 31.99,
-      "price_list": 159.95,
-      "price_baseline": 159.95,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": 5.0,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 42456,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.6pm.com/product/10030528",
-      "discount_pct": 80.0,
-      "score": 76,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-20T17:31:37.706896+00:00",
-      "last_seen": "2026-10-21T02:02:02.554666+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1241,7 +1241,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-20T17:31:37.706896+00:00",
-      "last_seen": "2026-10-21T02:02:02.554666+00:00"
+      "last_seen": "2026-10-21T04:03:01.272107+00:00"
     },
     {
       "source": "zappos.com",
@@ -1480,7 +1480,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-15T18:37:52.122016+00:00",
-      "last_seen": "2026-10-21T02:02:02.554666+00:00"
+      "last_seen": "2026-10-21T04:03:01.272107+00:00"
     },
     {
       "source": "dealnews",
@@ -4496,11 +4496,10 @@
     "tier_last_run": {
       "T1": "2026-10-21T04:00:37+00:00",
       "T2": "2026-10-21T03:50:57+00:00",
-      "T3": "2026-10-21T02:01:14+00:00",
+      "T3": "2026-10-21T04:02:05+00:00",
       "T4": "2026-10-20T23:11:40+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       2,
       7,
@@ -4529,7 +4528,8 @@
       10,
       10,
       1,
-      10
+      10,
+      1
     ]
   },
   "email_monitor": {
