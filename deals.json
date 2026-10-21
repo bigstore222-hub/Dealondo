@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T01:31:03.356772+00:00",
+  "generated_at": "2026-10-21T01:40:53.136011+00:00",
   "count": 92,
   "deals": [
     {
@@ -904,7 +904,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-16T20:02:49.328818+00:00",
-      "last_seen": "2026-10-21T01:31:01.799668+00:00"
+      "last_seen": "2026-10-21T01:40:53.128049+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -4446,7 +4446,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-21T01:30:33+00:00",
+      "T1": "2026-10-21T01:40:25+00:00",
       "T2": "2026-10-21T01:11:00+00:00",
       "T3": "2026-10-20T23:53:10+00:00",
       "T4": "2026-10-20T23:11:40+00:00"
@@ -4480,16 +4480,17 @@
       10,
       1,
       9,
+      10,
       10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-21T01:30:41+00:00",
+        "at": "2026-10-21T01:40:32+00:00",
         "state": "정상",
-        "mails": 7,
-        "deals": 7
+        "mails": 8,
+        "deals": 8
       },
       "newsletter": {
         "at": "2026-10-20T23:14:43+00:00",
@@ -4499,6 +4500,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20180400",
+        "source": "slickdeals:amazon.com",
+        "title": "89-Pc LEGO Star Wars Plo Koon's Jedi Starfighter Microfighter Building Set for $9 at Amazon",
+        "price": 9.0,
+        "list_price": 14.99,
+        "discount_pct": 40.0,
+        "krw": 11945,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-10-21T01:40:53+00:00",
+        "last_seen": "2026-10-21T01:40:53+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20177022",
         "source": "slickdeals:amazon.com",
@@ -4542,7 +4558,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-20T21:41:13+00:00",
-        "last_seen": "2026-10-21T01:31:01+00:00"
+        "last_seen": "2026-10-21T01:40:53+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20174559",
@@ -4617,7 +4633,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-20T19:40:59+00:00",
-        "last_seen": "2026-10-21T01:31:01+00:00"
+        "last_seen": "2026-10-21T01:40:53+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20176917",
@@ -4752,7 +4768,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-20T15:31:32+00:00",
-        "last_seen": "2026-10-21T01:31:01+00:00"
+        "last_seen": "2026-10-21T01:40:53+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177754",
@@ -4872,7 +4888,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T23:31:16+00:00",
-        "last_seen": "2026-10-21T01:31:01+00:00"
+        "last_seen": "2026-10-21T01:40:53+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20171121",
@@ -4932,7 +4948,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-19T20:11:00+00:00",
-        "last_seen": "2026-10-21T01:31:01+00:00"
+        "last_seen": "2026-10-21T01:40:53+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20168157",
@@ -4962,7 +4978,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T19:31:09+00:00",
-        "last_seen": "2026-10-21T01:31:01+00:00"
+        "last_seen": "2026-10-21T01:40:53+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20173107",
@@ -5037,7 +5053,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-19T16:40:59+00:00",
-        "last_seen": "2026-10-21T01:31:01+00:00"
+        "last_seen": "2026-10-21T01:40:53+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177028",
@@ -5476,7 +5492,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 65,
+      "collected_72h": 66,
       "published_72h": 4
     }
   }
