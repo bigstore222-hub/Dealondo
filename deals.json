@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T19:21:49.947022+00:00",
-  "count": 100,
+  "generated_at": "2026-10-22T19:32:40.715915+00:00",
+  "count": 99,
   "deals": [
     {
       "source": "6pm.com",
@@ -997,7 +997,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-22T00:20:39.649844+00:00",
-      "last_seen": "2026-10-22T19:21:48.509790+00:00"
+      "last_seen": "2026-10-22T19:32:40.708338+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -4788,60 +4788,11 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-20T18:41:22.111638+00:00",
       "last_seen": "2026-10-20T20:02:13.963003+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Oakley-Ray-Ban-Sunglasses-Deals-at-Zulily-for-57-w-Code-shipping-varies/22299660.html?iref=rss",
-      "title": "Oakley & Ray-Ban Sunglasses Deals at Zulily for $57 w/ Code + shipping varies",
-      "brand": "Ray-Ban",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1792517913-sunglasses_oakley_men_s_flak_beta_sunglasses.jpg?h=250&w=250",
-      "price_current": 57.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 75855,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Oakley-Ray-Ban-Sunglasses-Deals-at-Zulily-for-57-w-Code-shipping-varies/22299660.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-20T18:01:28.973044+00:00",
-      "last_seen": "2026-10-20T19:21:52.234045+00:00"
     }
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-22T19:20:40+00:00",
+      "T1": "2026-10-22T19:30:40+00:00",
       "T2": "2026-10-22T19:12:31+00:00",
       "T3": "2026-10-22T18:31:17+00:00",
       "T4": "2026-10-22T18:21:06+00:00"
@@ -4875,16 +4826,17 @@
       11,
       11,
       1,
-      9
+      9,
+      11
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-22T19:21:23+00:00",
-        "state": "정상",
-        "mails": 25,
-        "deals": 25
+        "at": "2026-10-22T19:32:21+00:00",
+        "state": "읽기 오류",
+        "mails": 26,
+        "deals": 0
       },
       "newsletter": {
         "at": "2026-10-22T18:24:02+00:00",
@@ -5988,25 +5940,10 @@
         "reject_reason": "",
         "first_seen": "2026-10-19T20:01:15+00:00",
         "last_seen": "2026-10-20T00:51:02+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20178216",
-        "source": "slickdeals:nike.com",
-        "title": "Nike Pegasus 42 Men's Road Running Sneakers for $83 at Nike",
-        "price": 83.0,
-        "list_price": 145.0,
-        "discount_pct": 42.8,
-        "krw": 110155,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
-        "first_seen": "2026-10-19T19:31:09+00:00",
-        "last_seen": "2026-10-21T23:51:05+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 74,
+      "collected_72h": 73,
       "published_72h": 2
     }
   }
