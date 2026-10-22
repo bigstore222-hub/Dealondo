@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T10:11:34.502716+00:00",
-  "count": 101,
+  "generated_at": "2026-10-22T10:20:58.914202+00:00",
+  "count": 99,
   "deals": [
     {
       "source": "6pm.com",
@@ -969,7 +969,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 21,
+      "community_votes": 23,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -999,7 +999,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-22T09:00:58.991057+00:00",
-      "last_seen": "2026-10-22T10:10:59.148383+00:00"
+      "last_seen": "2026-10-22T10:20:58.905646+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1194,53 +1194,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
       "last_seen": "2026-10-22T05:01:58.903145+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/9970240",
-      "title": "Coldbay Chukka Realtree MM",
-      "brand": "Sperry",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/71W6v9DpheL._AC_SR255,340_.jpg",
-      "price_current": 36.0,
-      "price_list": 120.0,
-      "price_baseline": 120.0,
-      "price_alltime_low": 36.0,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 47909,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/9970240",
-      "discount_pct": 70.0,
-      "score": 74,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 13,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-16T22:52:40.168521+00:00",
-      "last_seen": "2026-10-20T10:12:26.585735+00:00"
     },
     {
       "source": "6pm.com",
@@ -1481,54 +1434,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-20T03:11:20.308134+00:00",
       "last_seen": "2026-10-20T12:41:38.018397+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10045773",
-      "title": "Cap Sleeve Raglan Mock Neck",
-      "brand": "Vince",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/71r9x2hibGL._AC_SR255,340_.jpg",
-      "price_current": 68.4,
-      "price_list": 228.0,
-      "price_baseline": 228.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 91026,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.zappos.com/product/10045773",
-      "discount_pct": 70.0,
-      "score": 71,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-19T16:51:24.907746+00:00",
-      "last_seen": "2026-10-20T10:12:26.585735+00:00"
     },
     {
       "source": "ashford.com",
@@ -4888,13 +4793,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-22T10:10:28+00:00",
+      "T1": "2026-10-22T10:20:30+00:00",
       "T2": "2026-10-22T10:11:00+00:00",
       "T3": "2026-10-22T10:01:18+00:00",
       "T4": "2026-10-22T06:01:15+00:00"
     },
     "recent_gaps_min": [
-      9,
       10,
       9,
       1,
@@ -4923,13 +4827,14 @@
       10,
       1,
       9,
-      1
+      1,
+      9
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-22T10:10:36+00:00",
+        "at": "2026-10-22T10:20:40+00:00",
         "state": "정상",
         "mails": 14,
         "deals": 14
@@ -4955,7 +4860,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T10:10:59+00:00",
-        "last_seen": "2026-10-22T10:10:59+00:00"
+        "last_seen": "2026-10-22T10:20:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177442",
@@ -4970,7 +4875,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T07:01:11+00:00",
-        "last_seen": "2026-10-22T10:10:59+00:00"
+        "last_seen": "2026-10-22T10:20:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20189883",
@@ -4985,7 +4890,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T06:11:00+00:00",
-        "last_seen": "2026-10-22T10:10:59+00:00"
+        "last_seen": "2026-10-22T10:20:58+00:00"
       },
       {
         "url": "https://www.adorama.com",
@@ -5030,7 +4935,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-22T04:11:08+00:00",
-        "last_seen": "2026-10-22T10:10:59+00:00"
+        "last_seen": "2026-10-22T10:20:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20188443",
@@ -5045,7 +4950,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T03:51:21+00:00",
-        "last_seen": "2026-10-22T10:10:59+00:00"
+        "last_seen": "2026-10-22T10:20:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20189511",
@@ -5060,7 +4965,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-22T03:51:21+00:00",
-        "last_seen": "2026-10-22T10:10:59+00:00"
+        "last_seen": "2026-10-22T10:20:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20180049",
@@ -5075,7 +4980,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T03:10:52+00:00",
-        "last_seen": "2026-10-22T10:10:59+00:00"
+        "last_seen": "2026-10-22T10:20:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20187504",
@@ -5090,7 +4995,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-22T02:31:19+00:00",
-        "last_seen": "2026-10-22T10:10:59+00:00"
+        "last_seen": "2026-10-22T10:20:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20170230",
@@ -5105,7 +5010,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T02:20:52+00:00",
-        "last_seen": "2026-10-22T10:10:59+00:00"
+        "last_seen": "2026-10-22T10:20:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20187795",
@@ -5255,7 +5160,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-21T16:01:18+00:00",
-        "last_seen": "2026-10-22T10:10:59+00:00"
+        "last_seen": "2026-10-22T10:20:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178168",
@@ -5300,7 +5205,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-21T13:31:15+00:00",
-        "last_seen": "2026-10-22T10:10:59+00:00"
+        "last_seen": "2026-10-22T10:20:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20182740",
@@ -5450,7 +5355,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-20T21:41:13+00:00",
-        "last_seen": "2026-10-22T10:10:59+00:00"
+        "last_seen": "2026-10-22T10:20:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20174559",
@@ -5525,7 +5430,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-20T19:40:59+00:00",
-        "last_seen": "2026-10-22T10:10:59+00:00"
+        "last_seen": "2026-10-22T10:20:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20176917",
@@ -5660,7 +5565,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-20T15:31:32+00:00",
-        "last_seen": "2026-10-22T10:10:59+00:00"
+        "last_seen": "2026-10-22T10:20:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177754",
