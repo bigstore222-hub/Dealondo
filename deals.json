@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T20:40:59.805525+00:00",
+  "generated_at": "2026-10-22T20:41:59.853558+00:00",
   "count": 100,
   "deals": [
     {
@@ -1292,54 +1292,6 @@
     {
       "source": "6pm.com",
       "source_tier": "T3",
-      "url": "https://www.6pm.com/product/7328321",
-      "title": "Old Skool V",
-      "brand": "Vans",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/71HGzgHeS7L._AC_SR255,340_.jpg",
-      "price_current": 15.99,
-      "price_list": 80.0,
-      "price_baseline": 80.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": 5.0,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 21205,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.6pm.com/product/7328321",
-      "discount_pct": 80.0,
-      "score": 72,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-22T16:21:45.055186+00:00",
-      "last_seen": "2026-10-22T18:32:14.313667+00:00"
-    },
-    {
-      "source": "6pm.com",
-      "source_tier": "T3",
       "url": "https://www.6pm.com/product/9460048",
       "title": "Ultimate365 Tapered Golf Pants",
       "brand": "adidas",
@@ -1383,6 +1335,54 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-20T17:31:37.706896+00:00",
+      "last_seen": "2026-10-22T20:41:59.826238+00:00"
+    },
+    {
+      "source": "6pm.com",
+      "source_tier": "T3",
+      "url": "https://www.6pm.com/product/7328321",
+      "title": "Old Skool V",
+      "brand": "Vans",
+      "category": "sports_outdoor",
+      "image": "https://m.media-amazon.com/images/I/71HGzgHeS7L._AC_SR255,340_.jpg",
+      "price_current": 15.99,
+      "price_list": 80.0,
+      "price_baseline": 80.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": 5.0,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 21205,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.6pm.com/product/7328321",
+      "discount_pct": 80.0,
+      "score": 72,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-22T16:21:45.055186+00:00",
       "last_seen": "2026-10-22T18:32:14.313667+00:00"
     },
     {
@@ -1622,7 +1622,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-15T18:37:52.122016+00:00",
-      "last_seen": "2026-10-22T18:32:14.313667+00:00"
+      "last_seen": "2026-10-22T20:41:59.826238+00:00"
     },
     {
       "source": "dealnews",
@@ -4843,11 +4843,10 @@
     "tier_last_run": {
       "T1": "2026-10-22T20:40:25+00:00",
       "T2": "2026-10-22T20:31:21+00:00",
-      "T3": "2026-10-22T18:31:17+00:00",
+      "T3": "2026-10-22T20:41:01+00:00",
       "T4": "2026-10-22T18:21:06+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       1,
       9,
@@ -4876,7 +4875,8 @@
       10,
       10,
       1,
-      9
+      9,
+      1
     ]
   },
   "email_monitor": {
@@ -5959,25 +5959,10 @@
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-19T23:21:04+00:00",
         "last_seen": "2026-10-20T00:51:02+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20169291",
-        "source": "slickdeals:amazon.com",
-        "title": "6-Ct DLPL LED Light-Up Halloween Pumpkin Yard Signs w/ Stakes for $7 at Amazon",
-        "price": 7.0,
-        "list_price": 19.99,
-        "discount_pct": 65.0,
-        "krw": 9316,
-        "kr_lowest": null,
-        "score": 47,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-10-19T20:41:00+00:00",
-        "last_seen": "2026-10-20T00:51:02+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 72,
+      "collected_72h": 71,
       "published_72h": 2
     }
   }
