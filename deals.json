@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T18:41:49.206051+00:00",
-  "count": 99,
+  "generated_at": "2026-10-22T18:42:29.013021+00:00",
+  "count": 100,
   "deals": [
     {
       "source": "6pm.com",
@@ -141,7 +141,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-18T17:24:58.440683+00:00",
-      "last_seen": "2026-10-22T11:31:45.194942+00:00"
+      "last_seen": "2026-10-22T18:42:28.189599+00:00"
     },
     {
       "source": "zappos.com",
@@ -428,7 +428,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T19:37:39.161056+00:00",
-      "last_seen": "2026-10-22T18:01:57.750799+00:00"
+      "last_seen": "2026-10-22T18:42:28.189599+00:00"
     },
     {
       "source": "zappos.com",
@@ -475,7 +475,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-15T18:36:38.505009+00:00",
-      "last_seen": "2026-10-22T18:01:57.750799+00:00"
+      "last_seen": "2026-10-22T18:42:28.189599+00:00"
     },
     {
       "source": "zappos.com",
@@ -804,7 +804,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-22T18:01:57.750799+00:00"
+      "last_seen": "2026-10-22T18:42:28.189599+00:00"
     },
     {
       "source": "6pm.com",
@@ -1482,6 +1482,53 @@
       "last_seen": "2026-10-21T15:02:00.235728+00:00"
     },
     {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/eizlxq-hnt-pd513-charging-adapter/844775.htm",
+      "title": "EIZLXQ 60W GaN Technology 5-Port Charging Adapter",
+      "brand": "",
+      "category": "electronics",
+      "image": "https://d16f00g4zitf8i.cloudfront.net/images/eizlxq-hnt-pd513-charging-adapter.jpg",
+      "price_current": 11.49,
+      "price_list": 29.99,
+      "price_baseline": null,
+      "price_alltime_low": 11.49,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 15237,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.dealsofamerica.com/eizlxq-hnt-pd513-charging-adapter/844775.htm",
+      "discount_pct": 61.7,
+      "score": 70,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-18T14:03:02.923009+00:00",
+      "last_seen": "2026-10-22T18:42:28.189599+00:00"
+    },
+    {
       "source": "ashford.com",
       "source_tier": "T3",
       "url": "https://www.ashford.com/products/bugatti-48m-gry-rx-af",
@@ -1527,53 +1574,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-15T18:37:52.122016+00:00",
       "last_seen": "2026-10-22T18:32:14.313667+00:00"
-    },
-    {
-      "source": "amazon.com",
-      "source_tier": "T1",
-      "url": "https://www.amazon.com/Blink-Outdoor-2KPlus-1campack-Black/dp/B0F95XH6ZM",
-      "title": "Blink Outdoor 2K+ (newest model) — Wireless smart security camera, 2K video resolution, enhanced audio, two-year battery",
-      "brand": "",
-      "category": "electronics",
-      "image": "https://m.media-amazon.com/images/I/51gv8NP2mnL._AC_SR255,340_.jpg",
-      "price_current": 34.99,
-      "price_list": 89.99,
-      "price_baseline": 89.99,
-      "price_alltime_low": 34.99,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 46402,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.amazon.com/Blink-Outdoor-2KPlus-1campack-Black/dp/B0F95XH6ZM",
-      "discount_pct": 61.1,
-      "score": 70,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 15,
-        "bonus": 0,
-        "brand": 0
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-14T18:13:11.968013+00:00",
-      "last_seen": "2026-10-22T18:31:14.492388+00:00"
     },
     {
       "source": "dealnews",
@@ -1627,54 +1627,6 @@
     {
       "source": "nordstromrack.com",
       "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/vince-camuto-gibi-knee-high-boot-women-regular-narrow-wide-extrawide-calf/7862129",
-      "title": "Gibi Knee High Boot",
-      "brand": "Vince Camuto",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/f8282cdd-ceaf-45a4-bdd5-32f72fe6345a.jpeg?h=368&w=240&dpr=2",
-      "price_current": 64.99,
-      "price_list": 239.0,
-      "price_baseline": 239.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 86186,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/vince-camuto-gibi-knee-high-boot-women-regular-narrow-wide-extrawide-calf/7862129",
-      "discount_pct": 72.8,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-22T18:01:57.750799+00:00"
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/anne-klein-ineza-slingback-sandal/9077309",
       "title": "Ineza Slingback Sandal",
       "brand": "Anne Klein",
@@ -1718,7 +1670,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-21T19:41:24.921170+00:00",
-      "last_seen": "2026-10-22T18:01:57.750799+00:00"
+      "last_seen": "2026-10-22T18:42:28.189599+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/vince-camuto-gibi-knee-high-boot-women-regular-narrow-wide-extrawide-calf/7862129",
+      "title": "Gibi Knee High Boot",
+      "brand": "Vince Camuto",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/f8282cdd-ceaf-45a4-bdd5-32f72fe6345a.jpeg?h=368&w=240&dpr=2",
+      "price_current": 64.99,
+      "price_list": 239.0,
+      "price_baseline": 239.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 86186,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/vince-camuto-gibi-knee-high-boot-women-regular-narrow-wide-extrawide-calf/7862129",
+      "discount_pct": 72.8,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-19T20:11:12.756067+00:00",
+      "last_seen": "2026-10-22T18:42:28.189599+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1766,7 +1766,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T17:21:16.973115+00:00",
-      "last_seen": "2026-10-22T18:01:57.750799+00:00"
+      "last_seen": "2026-10-22T18:42:28.189599+00:00"
     },
     {
       "source": "zappos.com",
@@ -2633,6 +2633,55 @@
       "last_seen": "2026-10-21T11:02:12.226521+00:00"
     },
     {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Michael-Kors-Outlet-Deals-for-Gifts-Under-50-free-shipping/22305062.html?iref=rss",
+      "title": "Michael Kors Outlet Deals for Gifts Under $50 + free shipping",
+      "brand": "Michael Kors",
+      "category": "premium_fashion",
+      "image": "https://d.dlnws.com/64599/1792692024-product-trimmed.png?h=166&w=250",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/Michael-Kors-Outlet-Deals-for-Gifts-Under-50-free-shipping/22305062.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-22T18:42:05.831834+00:00",
+      "last_seen": "2026-10-22T18:42:28.189599+00:00"
+    },
+    {
       "source": "techbargains:ebay",
       "source_tier": "T2",
       "url": "https://www.ebay.com/str/adidas?_soffType=CodedCouponOffer&_soffid=16953959205&_tab=sales",
@@ -2678,8 +2727,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-22T18:01:39.915099+00:00",
-      "last_seen": "2026-10-22T18:01:57.750799+00:00"
+      "detected_at": "2026-10-22T18:42:06.073492+00:00",
+      "last_seen": "2026-10-22T18:42:28.189599+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2727,7 +2776,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T17:24:58.440683+00:00",
-      "last_seen": "2026-10-22T18:01:57.750799+00:00"
+      "last_seen": "2026-10-22T18:42:28.189599+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -4791,12 +4840,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-22T18:40:27+00:00",
-      "T2": "2026-10-22T18:01:23+00:00",
+      "T2": "2026-10-22T18:41:51+00:00",
       "T3": "2026-10-22T18:31:17+00:00",
       "T4": "2026-10-22T18:21:06+00:00"
     },
     "recent_gaps_min": [
-      10,
       11,
       1,
       9,
@@ -4825,7 +4873,8 @@
       3,
       7,
       1,
-      10
+      10,
+      1
     ]
   },
   "email_monitor": {
