@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T18:24:20.778606+00:00",
+  "generated_at": "2026-10-22T18:31:14.502530+00:00",
   "count": 99,
   "deals": [
     {
@@ -1482,6 +1482,53 @@
       "last_seen": "2026-10-21T15:02:00.235728+00:00"
     },
     {
+      "source": "amazon.com",
+      "source_tier": "T1",
+      "url": "https://www.amazon.com/Blink-Outdoor-2KPlus-1campack-Black/dp/B0F95XH6ZM",
+      "title": "Blink Outdoor 2K+ (newest model) — Wireless smart security camera, 2K video resolution, enhanced audio, two-year battery",
+      "brand": "",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/51gv8NP2mnL._AC_SR255,340_.jpg",
+      "price_current": 34.99,
+      "price_list": 89.99,
+      "price_baseline": 89.99,
+      "price_alltime_low": 34.99,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 46402,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.amazon.com/Blink-Outdoor-2KPlus-1campack-Black/dp/B0F95XH6ZM",
+      "discount_pct": 61.1,
+      "score": 70,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-14T18:13:11.968013+00:00",
+      "last_seen": "2026-10-22T18:31:14.492388+00:00"
+    },
+    {
       "source": "ashford.com",
       "source_tier": "T3",
       "url": "https://www.ashford.com/products/bugatti-48m-gry-rx-af",
@@ -2584,54 +2631,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-20T17:21:16.973115+00:00",
       "last_seen": "2026-10-21T11:02:12.226521+00:00"
-    },
-    {
-      "source": "slickdeals:homedepot.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20191656",
-      "title": "Ryobi ONE+ HP 18V Brushless Cordless 4-1/2\" Angle Grinder w/ 4.0 Ah Battery for $99 at Home Depot",
-      "brand": "",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20191656&t=15",
-      "price_current": 99.0,
-      "price_list": 248.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 131288,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20191656",
-      "discount_pct": 60.1,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-22T12:02:08.660925+00:00",
-      "last_seen": "2026-10-22T18:21:04.120751+00:00"
     },
     {
       "source": "techbargains:ebay",
@@ -4791,13 +4790,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-22T18:20:27+00:00",
+      "T1": "2026-10-22T18:30:36+00:00",
       "T2": "2026-10-22T18:01:23+00:00",
       "T3": "2026-10-22T16:21:12+00:00",
       "T4": "2026-10-22T18:21:06+00:00"
     },
     "recent_gaps_min": [
-      1,
       9,
       10,
       10,
@@ -4826,13 +4824,14 @@
       1,
       9,
       10,
-      3
+      3,
+      7
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-22T18:20:44+00:00",
+        "at": "2026-10-22T18:30:50+00:00",
         "state": "정상",
         "mails": 24,
         "deals": 24
@@ -4873,7 +4872,7 @@
         "published": false,
         "reject_reason": "H8: 할인 12% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-22T18:21:04+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20188476",
@@ -4888,7 +4887,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-22T16:21:11+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20188533",
@@ -4903,7 +4902,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-22T16:01:57+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20188866",
@@ -4918,7 +4917,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T15:51:05+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20189142",
@@ -4933,7 +4932,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-22T14:31:14+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191683",
@@ -4948,7 +4947,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T14:31:14+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20180580",
@@ -4963,7 +4962,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T14:01:26+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191656",
@@ -4978,7 +4977,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-22T13:31:08+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191593",
@@ -4993,7 +4992,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-22T12:41:01+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191338",
@@ -5008,7 +5007,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T12:41:01+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191455",
@@ -5023,7 +5022,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T10:10:59+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177442",
@@ -5038,7 +5037,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T07:01:11+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20189883",
@@ -5053,7 +5052,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T06:11:00+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://www.adorama.com",
@@ -5098,7 +5097,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-22T04:11:08+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20188443",
@@ -5113,7 +5112,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T03:51:21+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20189511",
@@ -5128,7 +5127,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-22T03:51:21+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20180049",
@@ -5143,7 +5142,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T03:10:52+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20187504",
@@ -5158,7 +5157,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-22T02:31:19+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20170230",
@@ -5173,7 +5172,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T02:20:52+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20187795",
@@ -5323,7 +5322,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-21T16:01:18+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178168",
@@ -5368,7 +5367,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-21T13:31:15+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20182740",
@@ -5518,7 +5517,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-20T21:41:13+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20174559",
@@ -5593,7 +5592,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-20T19:40:59+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20176917",
@@ -5728,7 +5727,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-20T15:31:32+00:00",
-        "last_seen": "2026-10-22T18:21:04+00:00"
+        "last_seen": "2026-10-22T18:31:14+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177754",
