@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T00:21:03.550210+00:00",
-  "count": 101,
+  "generated_at": "2026-10-22T00:21:42.552436+00:00",
+  "count": 102,
   "deals": [
     {
       "source": "6pm.com",
@@ -94,7 +94,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-13T14:41:31.853740+00:00",
-      "last_seen": "2026-10-21T23:42:00.042302+00:00"
+      "last_seen": "2026-10-22T00:21:40.798442+00:00"
     },
     {
       "source": "zappos.com",
@@ -477,7 +477,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T19:37:39.161056+00:00",
-      "last_seen": "2026-10-21T23:42:00.042302+00:00"
+      "last_seen": "2026-10-22T00:21:40.798442+00:00"
     },
     {
       "source": "zappos.com",
@@ -524,7 +524,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-14T21:43:15.113265+00:00",
-      "last_seen": "2026-10-21T23:42:00.042302+00:00"
+      "last_seen": "2026-10-22T00:21:40.798442+00:00"
     },
     {
       "source": "zappos.com",
@@ -571,7 +571,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-15T18:36:38.505009+00:00",
-      "last_seen": "2026-10-21T23:42:00.042302+00:00"
+      "last_seen": "2026-10-22T00:21:40.798442+00:00"
     },
     {
       "source": "zappos.com",
@@ -855,7 +855,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-21T23:42:00.042302+00:00"
+      "last_seen": "2026-10-22T00:21:40.798442+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1049,6 +1049,53 @@
       "last_seen": "2026-10-21T02:31:42.001688+00:00"
     },
     {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/ugg-goldenstar-clog-women/7245083",
+      "title": "Goldenstar Clog",
+      "brand": "Ugg",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/d4264a73-4411-4b9a-9381-0f056e5fcf66.jpeg?h=368&w=240&dpr=2",
+      "price_current": 59.97,
+      "price_list": 135.0,
+      "price_baseline": 135.0,
+      "price_alltime_low": 59.97,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 79590,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.nordstromrack.com/s/ugg-goldenstar-clog-women/7245083",
+      "discount_pct": 55.6,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-18T10:09:31.697522+00:00",
+      "last_seen": "2026-10-22T00:21:40.798442+00:00"
+    },
+    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20183205",
@@ -1145,53 +1192,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-22T00:20:39.649844+00:00",
       "last_seen": "2026-10-22T00:21:02.856685+00:00"
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/ugg-goldenstar-clog-women/7245083",
-      "title": "Goldenstar Clog",
-      "brand": "Ugg",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/d4264a73-4411-4b9a-9381-0f056e5fcf66.jpeg?h=368&w=240&dpr=2",
-      "price_current": 59.97,
-      "price_list": 135.0,
-      "price_baseline": 135.0,
-      "price_alltime_low": 59.97,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 79590,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/ugg-goldenstar-clog-women/7245083",
-      "discount_pct": 55.6,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-21T23:42:00.042302+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1816,7 +1816,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-21T19:41:24.921170+00:00",
-      "last_seen": "2026-10-21T23:42:00.042302+00:00"
+      "last_seen": "2026-10-22T00:21:40.798442+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1864,7 +1864,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T17:21:16.973115+00:00",
-      "last_seen": "2026-10-21T23:42:00.042302+00:00"
+      "last_seen": "2026-10-22T00:21:40.798442+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1912,7 +1912,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-21T23:42:00.042302+00:00"
+      "last_seen": "2026-10-22T00:21:40.798442+00:00"
     },
     {
       "source": "zappos.com",
@@ -2925,6 +2925,55 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
+      "url": "https://www.dealnews.com/Carhartt-Black-Friday-Deals-Up-to-50-off-free-shipping/22302838.html?iref=rss",
+      "title": "Carhartt Black Friday Deals: Up to 50% off + free shipping",
+      "brand": "Carhartt",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1792627450-product-trimmed.png?h=121&w=250",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Carhartt-Black-Friday-Deals-Up-to-50-off-free-shipping/22302838.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-22T00:21:20.132117+00:00",
+      "last_seen": "2026-10-22T00:21:40.798442+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
       "url": "https://www.dealnews.com/The-North-Face-Performance-Fleece-Full-Zip-Hoodie-for-82-free-shipping-w-100/22302809.html?iref=rss",
       "title": "The North Face Performance Fleece Full-Zip Hoodie for $82 + free shipping w/ $100",
       "brand": "The North Face",
@@ -2969,7 +3018,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-21T23:41:39.113111+00:00",
-      "last_seen": "2026-10-21T23:42:00.042302+00:00"
+      "last_seen": "2026-10-22T00:21:40.798442+00:00"
     },
     {
       "source": "dealnews",
@@ -3018,56 +3067,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-21T08:31:15.480666+00:00",
-      "last_seen": "2026-10-21T23:42:00.042302+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Cole-Haan-Mens-Grand-Wingtip-Mens-Leather-Oxford-Shoes-for-68-free-shipping/22302672.html?iref=rss",
-      "title": "Cole Haan Men's Grand+ Wingtip Men's Leather Oxford Shoes for $68 + free shipping",
-      "brand": "Cole Haan",
-      "category": "premium_fashion",
-      "image": "https://d.dlnws.com/64599/1792612486-product-trimmed.jpg?h=210&w=250",
-      "price_current": 68.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 90248,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/Cole-Haan-Mens-Grand-Wingtip-Mens-Leather-Oxford-Shoes-for-68-free-shipping/22302672.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-21T20:21:46.707546+00:00",
-      "last_seen": "2026-10-21T23:42:00.042302+00:00"
+      "last_seen": "2026-10-22T00:21:40.798442+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -3115,7 +3115,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T17:24:58.440683+00:00",
-      "last_seen": "2026-10-21T23:42:00.042302+00:00"
+      "last_seen": "2026-10-22T00:21:40.798442+00:00"
     },
     {
       "source": "techbargains:adidas",
@@ -3163,8 +3163,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-21T23:41:39.074671+00:00",
-      "last_seen": "2026-10-21T23:42:00.042302+00:00"
+      "detected_at": "2026-10-22T00:21:20.447806+00:00",
+      "last_seen": "2026-10-22T00:21:40.798442+00:00"
     },
     {
       "source": "techbargains:walmart",
@@ -3213,7 +3213,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T14:01:53.982594+00:00",
-      "last_seen": "2026-10-21T23:42:00.042302+00:00"
+      "last_seen": "2026-10-22T00:21:40.798442+00:00"
     },
     {
       "source": "techbargains:woot!",
@@ -3261,7 +3261,56 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-21T23:41:39.099797+00:00",
+      "detected_at": "2026-10-22T00:21:20.490342+00:00",
+      "last_seen": "2026-10-22T00:21:40.798442+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Cole-Haan-Mens-Grand-Wingtip-Mens-Leather-Oxford-Shoes-for-68-free-shipping/22302672.html?iref=rss",
+      "title": "Cole Haan Men's Grand+ Wingtip Men's Leather Oxford Shoes for $68 + free shipping",
+      "brand": "Cole Haan",
+      "category": "premium_fashion",
+      "image": "https://d.dlnws.com/64599/1792612486-product-trimmed.jpg?h=210&w=250",
+      "price_current": 68.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 90248,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/Cole-Haan-Mens-Grand-Wingtip-Mens-Leather-Oxford-Shoes-for-68-free-shipping/22302672.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-21T20:21:46.707546+00:00",
       "last_seen": "2026-10-21T23:42:00.042302+00:00"
     },
     {
@@ -4885,12 +4934,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-22T00:20:29+00:00",
-      "T2": "2026-10-21T23:41:26+00:00",
+      "T2": "2026-10-22T00:21:05+00:00",
       "T3": "2026-10-21T23:21:02+00:00",
       "T4": "2026-10-21T23:51:07+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       10,
       1,
@@ -4919,7 +4967,8 @@
       3,
       7,
       10,
-      10
+      10,
+      1
     ]
   },
   "email_monitor": {
