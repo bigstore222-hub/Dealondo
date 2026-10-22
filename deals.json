@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T06:01:13.866919+00:00",
+  "generated_at": "2026-10-22T06:05:48.016267+00:00",
   "count": 100,
   "deals": [
     {
@@ -4841,10 +4841,9 @@
       "T1": "2026-10-22T06:00:43+00:00",
       "T2": "2026-10-22T05:41:01+00:00",
       "T3": "2026-10-22T05:41:37+00:00",
-      "T4": "2026-10-21T23:51:07+00:00"
+      "T4": "2026-10-22T06:01:15+00:00"
     },
     "recent_gaps_min": [
-      1,
       10,
       10,
       10,
@@ -4873,7 +4872,8 @@
       1,
       1,
       8,
-      10
+      10,
+      5
     ]
   },
   "email_monitor": {
@@ -4885,13 +4885,43 @@
         "deals": 11
       },
       "newsletter": {
-        "at": "2026-10-21T23:53:54+00:00",
+        "at": "2026-10-22T06:05:26+00:00",
         "state": "정상",
-        "mails": 56,
-        "deals": 1
+        "mails": 25,
+        "deals": 3
       }
     },
     "recent": [
+      {
+        "url": "https://www.adorama.com",
+        "source": "adorama.com",
+        "title": "Clearance Alert: Must-Have Gear at Can’t-Miss Prices",
+        "price": 30.0,
+        "list_price": 100.0,
+        "discount_pct": 70.0,
+        "krw": 39784,
+        "kr_lowest": null,
+        "score": 47,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-10-22T06:05:48+00:00",
+        "last_seen": "2026-10-22T06:05:48+00:00"
+      },
+      {
+        "url": "https://link.email.newbalance.com/u/nrd.php",
+        "source": "newbalance.com",
+        "title": "Avoid the holiday rush",
+        "price": 75.0,
+        "list_price": 100.0,
+        "discount_pct": 25.0,
+        "krw": 99461,
+        "kr_lowest": null,
+        "score": 17,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-10-22T06:05:48+00:00",
+        "last_seen": "2026-10-22T06:05:48+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20189865",
         "source": "slickdeals:nike.com",
@@ -5079,13 +5109,13 @@
         "price": 70.0,
         "list_price": 100.0,
         "discount_pct": 30.0,
-        "krw": 92902,
+        "krw": 92830,
         "kr_lowest": null,
         "score": 38,
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-21T17:44:49+00:00",
-        "last_seen": "2026-10-21T23:54:16+00:00"
+        "last_seen": "2026-10-22T06:05:48+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20181471",
@@ -5914,7 +5944,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 68,
+      "collected_72h": 70,
       "published_72h": 2
     }
   }
