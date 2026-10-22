@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T03:41:50.575341+00:00",
+  "generated_at": "2026-10-22T03:51:21.677107+00:00",
   "count": 101,
   "deals": [
     {
@@ -4886,13 +4886,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-22T03:40:26+00:00",
+      "T1": "2026-10-22T03:50:29+00:00",
       "T2": "2026-10-22T03:41:11+00:00",
       "T3": "2026-10-22T03:31:04+00:00",
       "T4": "2026-10-21T23:51:07+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       10,
@@ -4921,16 +4920,17 @@
       10,
       1,
       9,
-      1
+      1,
+      10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-22T03:40:49+00:00",
-        "state": "로그인 실패",
-        "mails": 0,
-        "deals": 0
+        "at": "2026-10-22T03:51:03+00:00",
+        "state": "정상",
+        "mails": 10,
+        "deals": 10
       },
       "newsletter": {
         "at": "2026-10-21T23:53:54+00:00",
@@ -4940,6 +4940,36 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20188443",
+        "source": "slickdeals:amazon.com",
+        "title": "TT Nature 1.5L Solar Smart Bird Feeder w/ 1080P AI Camera for $30 at Amazon",
+        "price": 30.0,
+        "list_price": 99.99,
+        "discount_pct": 70.0,
+        "krw": 39784,
+        "kr_lowest": null,
+        "score": 47,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-10-22T03:51:21+00:00",
+        "last_seen": "2026-10-22T03:51:21+00:00"
+      },
+      {
+        "url": "https://slickdeals.net/f/20189511",
+        "source": "slickdeals:amazon.com",
+        "title": "JBL Professional 306P MkII 6\" 2-Way Powered Active Monitor Speaker for $119 at Amazon",
+        "price": 119.0,
+        "list_price": null,
+        "discount_pct": null,
+        "krw": 157811,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
+        "first_seen": "2026-10-22T03:51:21+00:00",
+        "last_seen": "2026-10-22T03:51:21+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20180049",
         "source": "slickdeals:ebay.com",
@@ -4953,7 +4983,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T03:10:52+00:00",
-        "last_seen": "2026-10-22T03:31:03+00:00"
+        "last_seen": "2026-10-22T03:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20187504",
@@ -4968,7 +4998,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-22T02:31:19+00:00",
-        "last_seen": "2026-10-22T03:31:03+00:00"
+        "last_seen": "2026-10-22T03:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20170230",
@@ -4983,7 +5013,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T02:20:52+00:00",
-        "last_seen": "2026-10-22T03:31:03+00:00"
+        "last_seen": "2026-10-22T03:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20187795",
@@ -5133,7 +5163,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-21T16:01:18+00:00",
-        "last_seen": "2026-10-22T03:31:03+00:00"
+        "last_seen": "2026-10-22T03:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178168",
@@ -5178,7 +5208,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-21T13:31:15+00:00",
-        "last_seen": "2026-10-22T00:51:00+00:00"
+        "last_seen": "2026-10-22T03:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20182740",
@@ -5328,7 +5358,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-20T21:41:13+00:00",
-        "last_seen": "2026-10-22T03:31:03+00:00"
+        "last_seen": "2026-10-22T03:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20174559",
@@ -5403,7 +5433,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-20T19:40:59+00:00",
-        "last_seen": "2026-10-22T03:31:03+00:00"
+        "last_seen": "2026-10-22T03:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20176917",
@@ -5538,7 +5568,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-20T15:31:32+00:00",
-        "last_seen": "2026-10-22T03:31:03+00:00"
+        "last_seen": "2026-10-22T03:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177754",
@@ -5917,7 +5947,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 65,
+      "collected_72h": 67,
       "published_72h": 2
     }
   }
