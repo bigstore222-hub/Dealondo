@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T22:51:14.417664+00:00",
+  "generated_at": "2026-10-22T22:52:44.143352+00:00",
   "count": 100,
   "deals": [
     {
@@ -428,7 +428,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-22T22:15:33.858916+00:00"
+      "last_seen": "2026-10-22T22:51:47.758360+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -475,7 +475,101 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T19:37:39.161056+00:00",
-      "last_seen": "2026-10-22T22:15:33.858916+00:00"
+      "last_seen": "2026-10-22T22:51:47.758360+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10055736",
+      "title": "Lileta",
+      "brand": "Calvin Klein",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/71-XJ80wRtL._AC_SR255,340_.jpg",
+      "price_current": 25.5,
+      "price_list": 85.0,
+      "price_baseline": 85.0,
+      "price_alltime_low": 25.5,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 33817,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10055736",
+      "discount_pct": 70.0,
+      "score": 81,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-15T18:36:38.505009+00:00",
+      "last_seen": "2026-10-22T22:51:47.758360+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10063583",
+      "title": "Truthful",
+      "brand": "Steve Madden",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/81v2MY5-VML._AC_SR255,340_.jpg",
+      "price_current": 32.98,
+      "price_list": 109.95,
+      "price_baseline": 109.95,
+      "price_alltime_low": 32.98,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 43736,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10063583",
+      "discount_pct": 70.0,
+      "score": 81,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-18T19:37:39.161056+00:00",
+      "last_seen": "2026-10-22T22:51:47.758360+00:00"
     },
     {
       "source": "zappos.com",
@@ -523,53 +617,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-18T19:37:39.161056+00:00",
       "last_seen": "2026-10-22T21:12:41.542751+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10055736",
-      "title": "Lileta",
-      "brand": "Calvin Klein",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/71-XJ80wRtL._AC_SR255,340_.jpg",
-      "price_current": 25.5,
-      "price_list": 85.0,
-      "price_baseline": 85.0,
-      "price_alltime_low": 25.5,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 33817,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10055736",
-      "discount_pct": 70.0,
-      "score": 81,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-15T18:36:38.505009+00:00",
-      "last_seen": "2026-10-22T19:51:59.931314+00:00"
     },
     {
       "source": "zappos.com",
@@ -851,7 +898,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-22T22:15:33.858916+00:00"
+      "last_seen": "2026-10-22T22:51:47.758360+00:00"
     },
     {
       "source": "6pm.com",
@@ -1292,6 +1339,54 @@
     {
       "source": "6pm.com",
       "source_tier": "T3",
+      "url": "https://www.6pm.com/product/7328321",
+      "title": "Old Skool V",
+      "brand": "Vans",
+      "category": "sports_outdoor",
+      "image": "https://m.media-amazon.com/images/I/71HGzgHeS7L._AC_SR255,340_.jpg",
+      "price_current": 15.99,
+      "price_list": 80.0,
+      "price_baseline": 80.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": 5.0,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 21205,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.6pm.com/product/7328321",
+      "discount_pct": 80.0,
+      "score": 72,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-22T16:21:45.055186+00:00",
+      "last_seen": "2026-10-22T22:52:44.111824+00:00"
+    },
+    {
+      "source": "6pm.com",
+      "source_tier": "T3",
       "url": "https://www.6pm.com/product/9460048",
       "title": "Ultimate365 Tapered Golf Pants",
       "brand": "adidas",
@@ -1336,54 +1431,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-20T17:31:37.706896+00:00",
       "last_seen": "2026-10-22T20:41:59.826238+00:00"
-    },
-    {
-      "source": "6pm.com",
-      "source_tier": "T3",
-      "url": "https://www.6pm.com/product/7328321",
-      "title": "Old Skool V",
-      "brand": "Vans",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/71HGzgHeS7L._AC_SR255,340_.jpg",
-      "price_current": 15.99,
-      "price_list": 80.0,
-      "price_baseline": 80.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": 5.0,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 21205,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.6pm.com/product/7328321",
-      "discount_pct": 80.0,
-      "score": 72,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-22T16:21:45.055186+00:00",
-      "last_seen": "2026-10-22T18:32:14.313667+00:00"
     },
     {
       "source": "zappos.com",
@@ -1431,7 +1478,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-21T22:21:11.097388+00:00",
-      "last_seen": "2026-10-22T18:01:57.750799+00:00"
+      "last_seen": "2026-10-22T22:51:47.758360+00:00"
     },
     {
       "source": "zappos.com",
@@ -1622,7 +1669,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-15T18:37:52.122016+00:00",
-      "last_seen": "2026-10-22T20:41:59.826238+00:00"
+      "last_seen": "2026-10-22T22:52:44.111824+00:00"
     },
     {
       "source": "dealnews",
@@ -1719,7 +1766,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-21T19:41:24.921170+00:00",
-      "last_seen": "2026-10-22T22:15:33.858916+00:00"
+      "last_seen": "2026-10-22T22:51:47.758360+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1767,7 +1814,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T17:21:16.973115+00:00",
-      "last_seen": "2026-10-22T22:15:33.858916+00:00"
+      "last_seen": "2026-10-22T22:51:47.758360+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10058747",
+      "title": "Chaney",
+      "brand": "Calvin Klein",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/61yFCsykbDL._AC_SR255,340_.jpg",
+      "price_current": 35.7,
+      "price_list": 119.0,
+      "price_baseline": 119.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 47343,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10058747",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-22T12:41:12.107318+00:00",
+      "last_seen": "2026-10-22T22:51:47.758360+00:00"
     },
     {
       "source": "zappos.com",
@@ -1816,54 +1911,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-22T16:41:20.577689+00:00",
       "last_seen": "2026-10-22T22:15:33.858916+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10058747",
-      "title": "Chaney",
-      "brand": "Calvin Klein",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61yFCsykbDL._AC_SR255,340_.jpg",
-      "price_current": 35.7,
-      "price_list": 119.0,
-      "price_baseline": 119.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 47343,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10058747",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-22T12:41:12.107318+00:00",
-      "last_seen": "2026-10-22T12:41:37.129172+00:00"
     },
     {
       "source": "zappos.com",
@@ -2008,54 +2055,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-22T08:21:16.227941+00:00",
       "last_seen": "2026-10-22T08:21:34.560112+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10063583",
-      "title": "Truthful",
-      "brand": "Steve Madden",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/81v2MY5-VML._AC_SR255,340_.jpg",
-      "price_current": 32.98,
-      "price_list": 109.95,
-      "price_baseline": 109.95,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 43770,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10063583",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-18T19:37:39.161056+00:00",
-      "last_seen": "2026-10-21T22:21:32.951107+00:00"
     },
     {
       "source": "zappos.com",
@@ -2631,8 +2630,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-22T22:15:14.241288+00:00",
-      "last_seen": "2026-10-22T22:15:33.858916+00:00"
+      "detected_at": "2026-10-22T22:51:26.459957+00:00",
+      "last_seen": "2026-10-22T22:51:47.758360+00:00"
     },
     {
       "source": "dealnews",
@@ -2680,8 +2679,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-22T22:15:14.244512+00:00",
-      "last_seen": "2026-10-22T22:15:33.858916+00:00"
+      "detected_at": "2026-10-22T22:51:26.465224+00:00",
+      "last_seen": "2026-10-22T22:51:47.758360+00:00"
     },
     {
       "source": "dealnews",
@@ -2729,8 +2728,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-22T22:15:14.246658+00:00",
-      "last_seen": "2026-10-22T22:15:33.858916+00:00"
+      "detected_at": "2026-10-22T22:51:26.469117+00:00",
+      "last_seen": "2026-10-22T22:51:47.758360+00:00"
     },
     {
       "source": "dealnews",
@@ -2779,7 +2778,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-22T20:31:34.942596+00:00",
-      "last_seen": "2026-10-22T22:15:33.858916+00:00"
+      "last_seen": "2026-10-22T22:51:47.758360+00:00"
     },
     {
       "source": "dealnews",
@@ -2828,7 +2827,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-22T20:31:34.942596+00:00",
-      "last_seen": "2026-10-22T22:15:33.858916+00:00"
+      "last_seen": "2026-10-22T22:51:47.758360+00:00"
     },
     {
       "source": "dealnews",
@@ -2877,7 +2876,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-22T19:51:37.177925+00:00",
-      "last_seen": "2026-10-22T22:15:33.858916+00:00"
+      "last_seen": "2026-10-22T22:51:47.758360+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2925,7 +2924,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T17:24:58.440683+00:00",
-      "last_seen": "2026-10-22T22:15:33.858916+00:00"
+      "last_seen": "2026-10-22T22:51:47.758360+00:00"
     },
     {
       "source": "techbargains:ebay",
@@ -2973,8 +2972,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-22T22:15:14.542145+00:00",
-      "last_seen": "2026-10-22T22:15:33.858916+00:00"
+      "detected_at": "2026-10-22T22:51:26.654668+00:00",
+      "last_seen": "2026-10-22T22:51:47.758360+00:00"
     },
     {
       "source": "dealnews",
@@ -4842,13 +4841,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-22T22:50:27+00:00",
-      "T2": "2026-10-22T22:14:58+00:00",
-      "T3": "2026-10-22T20:41:01+00:00",
+      "T2": "2026-10-22T22:51:15+00:00",
+      "T3": "2026-10-22T22:51:48+00:00",
       "T4": "2026-10-22T18:21:06+00:00"
     },
     "recent_gaps_min": [
-      11,
-      1,
       9,
       11,
       8,
@@ -4876,7 +4873,9 @@
       5,
       11,
       10,
-      10
+      10,
+      1,
+      1
     ]
   },
   "email_monitor": {
