@@ -96,7 +96,7 @@ def build_text(d: dict, seen_kst: dt.datetime) -> tuple[str, str]:
     now, was, pct = d["price_current"], d.get("price_list"), d.get("discount_pct")
     brand, title = (d.get("brand") or "").strip(), (d.get("title") or "").strip()
     head = K.headline_name(brand, title)
-    g = K.gender(title, d.get("url") or "")
+    g = K.gender(title, d.get("url") or "", d.get("gender") or "")
     lines = [f"{head}, {money(was)} → {money(now)}" if was else f"{head} {money(now)}", ""]
     lines.append(f"{store_name(d)}에서 {round(pct)}% 할인 중이에요." if pct else f"{store_name(d)} 판매가예요.")
     if g:
@@ -106,7 +106,7 @@ def build_text(d: dict, seen_kst: dt.datetime) -> tuple[str, str]:
         lim = "150" if "$150" in duty else "200"
         lines.append(f"${lim} 이하라 관부가세 없고, 배대지 배송비만 더하면 돼요.")
     else:
-        lines.append(duty.replace("관부가세 포함 예상", "관부가세 포함하면 약") + ", 배대지 배송비는 별도예요.")
+        lines.append(duty.replace("관부가세 포함 예상", "관부가세 포함하면") + ", 배대지 배송비는 별도예요.")
     kr, krw = d.get("kr_lowest_price"), d.get("krw_effective")
     if kr and krw and kr > krw:
         lines.append(f"국내 최저가는 ₩{int(kr):,}(네이버 쇼핑)이에요.")

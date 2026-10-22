@@ -241,7 +241,17 @@ def build_deal(url: str, hint: dict) -> tuple[dict | None, list[str], dt.datetim
         title = title[len(brand):].lstrip(" -·,").strip()
     price = hint.get("price_current") or page.get("price_current")
     if not price or not title:
-        return None, [page.get("error") or "상품명·가격을 찾지 못했어요"], now
+        # 가격만 물어보면 되도록, 읽어낸 상품명·사진은 남겨 둔다(답장이 오면 다시 열지 않는다)
+        if title:
+            hint["title"] = f"{brand} {title}".strip()
+        for k in ("image", "gender"):
+            if page.get(k):
+                hint[k] = page[k]
+        if page.get("blocked"):
+            msg = "이 사이트는 자동 접속을 막아서 가격을 읽을 수 없어요."
+        else:
+            msg = page.get("error") or "상품명·가격을 찾지 못했어요"
+        return None, [msg], now
     if (page.get("currency") or "USD").upper() != "USD" and not hint.get("price_current"):
         notes.append(f"통화가 {page.get('currency')}예요. 가격을 확인하세요.")
     if page.get("in_stock") is False:
@@ -260,7 +270,7 @@ def build_deal(url: str, hint: dict) -> tuple[dict | None, list[str], dt.datetim
     d = {"url": url, "source": dom, "store_name": store, "title": title, "brand": brand,
          "category": PP.category_of(f"{brand} {title}"),
          "price_current": price, "price_list": hint.get("price_list") or page.get("price_list"),
-         "image": page.get("image")}
+         "image": page.get("image") or hint.get("image"), "gender": page.get("gender") or hint.get("gender")}
     try:
         import affiliate
         d["buy_url"] = affiliate.wrap(url, dom)
@@ -345,8 +355,10 @@ def new_draft(st: dict, chat: str, url: str, hint: dict, reply_to: int) -> str |
         st["drafts"][did] = {"created": dt.datetime.now(KST).isoformat(timespec="seconds"), "url": url,
                              "hint": hint, "status": "waiting_price"}
         m = tg("sendMessage", chat_id=chat, reply_to_message_id=reply_to, disable_web_page_preview=True,
-               text=f"🔎 {notes[0]}\n{url}\n\n이 메시지에 답장으로 판매가와 정가를 보내주세요.\n예) 19.99 495"
-                    + ("" if hint.get("title") else "\n상품명도 함께 쓰려면 둘째 줄에 적어주세요."))
+               text=f"🔎 {notes[0]}\n"
+                    + (f"상품명은 읽었어요: {hint['title']}\n" if hint.get("title") else "")
+                    + f"{url}\n\n이 메시지에 답장으로 판매가와 정가만 보내주세요. 바로 미리보기를 만들어드려요.\n예) 19.99 495"
+                    + ("" if hint.get("title") else "\n상품명도 쓰려면 둘째 줄에 적어주세요."))
         st["drafts"][did]["msg"] = m["message_id"]
         return did
     text, reply = TD.build_text(d, seen)
@@ -517,6 +529,14 @@ def peek() -> int:
         ups = _get_updates(None, 0)
         has = any(relevant(u) for u in ups)
         if ups and not has:      # 남의 대화 등 처리할 필요 없는 것만 있으면 확인 처리해 비운다
+            for u in ups:
+                ch = (u.get("message") or {}).get("chat") or {}
+                if ch.get("type") == "private":
+                    # 등록 안 된 개인 대화: 운영자가 다른 계정으로 보낸 경우 바로 알 수 있게 대화 ID를 알려준다
+                    print("  등록되지 않은 개인 대화:", ch.get("id"))
+                    tg_safe("sendMessage", chat_id=ch["id"],
+                            text=f"이 대화는 딜온도 스레드 접수함에 등록돼 있지 않아요.\n운영자라면 GitHub 시크릿 "
+                                 f"TELEGRAM_OWNER_ID 에 {ch['id']} 를 넣어주세요.")
             _get_updates(ups[-1]["update_id"] + 1, 0)
         print(f"새 업데이트 {len(ups)}건 · 처리할 것 {'있음' if has else '없음'}")
     except Exception as e:
