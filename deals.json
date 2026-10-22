@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T01:27:12.100190+00:00",
+  "generated_at": "2026-10-22T01:28:04.505028+00:00",
   "count": 101,
   "deals": [
     {
@@ -24,7 +24,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 23756,
+      "krw_effective": 23738,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-13T14:42:59.272489+00:00",
-      "last_seen": "2026-10-21T23:22:02.454888+00:00"
+      "last_seen": "2026-10-22T01:28:04.475402+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1360,7 +1360,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 21500,
+      "krw_effective": 21484,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -1384,7 +1384,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-20T17:31:37.706896+00:00",
-      "last_seen": "2026-10-21T23:22:02.454888+00:00"
+      "last_seen": "2026-10-22T01:28:04.475402+00:00"
     },
     {
       "source": "zappos.com",
@@ -1696,7 +1696,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 19908,
+      "krw_effective": 19892,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -1719,7 +1719,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-15T18:37:52.122016+00:00",
-      "last_seen": "2026-10-21T23:22:02.454888+00:00"
+      "last_seen": "2026-10-22T01:28:04.475402+00:00"
     },
     {
       "source": "dealnews",
@@ -4887,11 +4887,10 @@
     "tier_last_run": {
       "T1": "2026-10-22T01:20:32+00:00",
       "T2": "2026-10-22T01:01:20+00:00",
-      "T3": "2026-10-21T23:21:02+00:00",
+      "T3": "2026-10-22T01:27:13+00:00",
       "T4": "2026-10-21T23:51:07+00:00"
     },
     "recent_gaps_min": [
-      12,
       7,
       11,
       1,
@@ -4920,7 +4919,8 @@
       1,
       9,
       10,
-      6
+      6,
+      1
     ]
   },
   "email_monitor": {
