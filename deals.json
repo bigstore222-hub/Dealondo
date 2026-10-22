@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T18:21:04.132386+00:00",
+  "generated_at": "2026-10-22T18:24:20.778606+00:00",
   "count": 99,
   "deals": [
     {
@@ -4794,10 +4794,9 @@
       "T1": "2026-10-22T18:20:27+00:00",
       "T2": "2026-10-22T18:01:23+00:00",
       "T3": "2026-10-22T16:21:12+00:00",
-      "T4": "2026-10-22T12:10:28+00:00"
+      "T4": "2026-10-22T18:21:06+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       10,
@@ -4826,7 +4825,8 @@
       10,
       1,
       9,
-      10
+      10,
+      3
     ]
   },
   "email_monitor": {
@@ -4838,13 +4838,28 @@
         "deals": 24
       },
       "newsletter": {
-        "at": "2026-10-22T12:15:35+00:00",
+        "at": "2026-10-22T18:24:02+00:00",
         "state": "정상",
-        "mails": 32,
-        "deals": 3
+        "mails": 52,
+        "deals": 5
       }
     },
     "recent": [
+      {
+        "url": "https://click.email.bloomingdales.com/",
+        "source": "bloomingdales.com",
+        "title": "High-performance sneakers",
+        "price": 75.0,
+        "list_price": 100.0,
+        "discount_pct": 25.0,
+        "krw": 99461,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-10-22T18:24:20+00:00",
+        "last_seen": "2026-10-22T18:24:20+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20191437",
         "source": "slickdeals:amazon.com",
@@ -5053,7 +5068,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T06:05:48+00:00",
-        "last_seen": "2026-10-22T12:15:55+00:00"
+        "last_seen": "2026-10-22T18:24:20+00:00"
       },
       {
         "url": "https://link.email.newbalance.com/u/nrd.php",
@@ -5068,7 +5083,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T06:05:48+00:00",
-        "last_seen": "2026-10-22T12:15:55+00:00"
+        "last_seen": "2026-10-22T18:24:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20189865",
@@ -5263,7 +5278,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-21T17:44:49+00:00",
-        "last_seen": "2026-10-22T12:15:55+00:00"
+        "last_seen": "2026-10-22T18:24:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20181471",
@@ -5942,7 +5957,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 73,
+      "collected_72h": 74,
       "published_72h": 2
     }
   }
