@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T00:21:24.822643+00:00",
-  "count": 99,
+  "generated_at": "2026-10-23T00:32:24.141675+00:00",
+  "count": 98,
   "deals": [
     {
       "source": "6pm.com",
@@ -1044,7 +1044,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-22T23:51:00.029034+00:00",
-      "last_seen": "2026-10-23T00:21:23.453500+00:00"
+      "last_seen": "2026-10-23T00:32:24.129607+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1093,7 +1093,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-22T23:51:00.029034+00:00",
-      "last_seen": "2026-10-23T00:21:23.453500+00:00"
+      "last_seen": "2026-10-23T00:32:24.129607+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -2296,54 +2296,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-21T03:11:05.647848+00:00",
       "last_seen": "2026-10-21T03:11:28.333067+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10042093",
-      "title": "East Side Cardigan",
-      "brand": "Free People",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/81uFQ9GVWvL._AC_SR255,340_.jpg",
-      "price_current": 38.4,
-      "price_list": 128.0,
-      "price_baseline": 128.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 51103,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10042093",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-19T18:11:19.637845+00:00",
-      "last_seen": "2026-10-21T00:31:47.925295+00:00"
     },
     {
       "source": "zappos.com",
@@ -4793,7 +4745,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-23T00:20:26+00:00",
+      "T1": "2026-10-23T00:30:36+00:00",
       "T2": "2026-10-23T00:04:47+00:00",
       "T3": "2026-10-22T22:51:48+00:00",
       "T4": "2026-10-22T18:21:06+00:00"
@@ -4827,16 +4779,17 @@
       7,
       1,
       5,
+      11,
       11
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-23T00:21:01+00:00",
+        "at": "2026-10-23T00:32:00+00:00",
         "state": "정상",
-        "mails": 25,
-        "deals": 25
+        "mails": 26,
+        "deals": 26
       },
       "newsletter": {
         "at": "2026-10-22T18:24:02+00:00",
@@ -4846,6 +4799,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20191575",
+        "source": "slickdeals:amazon.com",
+        "title": "133-Pc LEGO Botanicals Daisies Building Kit (11508) for $9.90 at Amazon",
+        "price": 9.9,
+        "list_price": 14.99,
+        "discount_pct": 34.0,
+        "krw": 13129,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-10-23T00:32:24+00:00",
+        "last_seen": "2026-10-23T00:32:24+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20194035",
         "source": "slickdeals:costcowholesale",
@@ -4859,7 +4827,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T00:21:23+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20193660",
@@ -4874,7 +4842,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T22:41:23+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20190165",
@@ -4889,7 +4857,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T19:51:25+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20189607",
@@ -4904,7 +4872,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T19:12:29+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://click.email.bloomingdales.com/",
@@ -4934,7 +4902,7 @@
         "published": false,
         "reject_reason": "H8: 할인 12% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-22T18:21:04+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20188476",
@@ -4949,7 +4917,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-22T16:21:11+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20188533",
@@ -4964,7 +4932,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-22T16:01:57+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20188866",
@@ -4979,7 +4947,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T15:51:05+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20189142",
@@ -4994,7 +4962,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-22T14:31:14+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191683",
@@ -5009,7 +4977,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T14:31:14+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20180580",
@@ -5024,7 +4992,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T14:01:26+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191656",
@@ -5039,7 +5007,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-22T13:31:08+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191593",
@@ -5054,7 +5022,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-22T12:41:01+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191338",
@@ -5069,7 +5037,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T12:41:01+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191455",
@@ -5084,7 +5052,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T10:10:59+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20177442",
@@ -5099,7 +5067,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T07:01:11+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20189883",
@@ -5114,7 +5082,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T06:11:00+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://www.adorama.com",
@@ -5159,7 +5127,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-22T04:11:08+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20188443",
@@ -5174,7 +5142,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T03:51:21+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20189511",
@@ -5189,7 +5157,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-22T03:51:21+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20180049",
@@ -5204,7 +5172,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T03:10:52+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20187504",
@@ -5219,7 +5187,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-22T02:31:19+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20170230",
@@ -5234,7 +5202,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T02:20:52+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20187795",
@@ -5384,7 +5352,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-21T16:01:18+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178168",
@@ -5429,7 +5397,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-21T13:31:15+00:00",
-        "last_seen": "2026-10-23T00:21:23+00:00"
+        "last_seen": "2026-10-23T00:32:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20182740",
@@ -5898,7 +5866,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 70,
+      "collected_72h": 71,
       "published_72h": 2
     }
   }
