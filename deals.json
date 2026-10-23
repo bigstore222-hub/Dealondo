@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T08:21:49.131973+00:00",
+  "generated_at": "2026-10-23T08:31:20.390800+00:00",
   "count": 105,
   "deals": [
     {
@@ -1086,6 +1086,54 @@
       "urgency": "HOT",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
       "last_seen": "2026-10-23T08:21:46.230167+00:00"
+    },
+    {
+      "source": "slickdeals:dickssportinggoods",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20193765",
+      "title": "Nike Men's Par Dri-FIT Golf Polo Shirt (Work Blue) for $18.75 at Dick's Sporting Goods",
+      "brand": "Nike",
+      "category": "premium_fashion",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20193765&t=15",
+      "price_current": 18.75,
+      "price_list": 100.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 24843,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20193765",
+      "discount_pct": 81.2,
+      "score": 76,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-22T17:50:47.029176+00:00",
+      "last_seen": "2026-10-23T08:31:20.383151+00:00"
     },
     {
       "source": "6pm.com",
@@ -5022,64 +5070,16 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-20T23:52:43.995848+00:00",
       "last_seen": "2026-10-21T08:31:38.964894+00:00"
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/nike-sportswear-club-fleece-joggers/6681320",
-      "title": "Sportswear Club Fleece Joggers",
-      "brand": "Nike",
-      "category": "sports_outdoor",
-      "image": "https://n.nordstrommedia.com/it/6a126ba7-c4b9-4c9d-a4e1-0649f929d532.jpeg?h=368&w=240&dpr=2",
-      "price_current": 14.99,
-      "price_list": 65.0,
-      "price_baseline": 65.0,
-      "price_alltime_low": 12.49,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 19861,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/nike-sportswear-club-fleece-joggers/6681320",
-      "discount_pct": 76.9,
-      "score": 53,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 0,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-13T14:41:31.853740+00:00",
-      "last_seen": "2026-10-23T08:21:46.230167+00:00"
     }
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-23T08:20:28+00:00",
+      "T1": "2026-10-23T08:30:35+00:00",
       "T2": "2026-10-23T08:21:14+00:00",
       "T3": "2026-10-23T07:22:16+00:00",
       "T4": "2026-10-23T06:41:56+00:00"
     },
     "recent_gaps_min": [
-      9,
       10,
       1,
       9,
@@ -5108,13 +5108,14 @@
       10,
       10,
       10,
-      1
+      1,
+      10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-23T08:20:54+00:00",
+        "at": "2026-10-23T08:30:59+00:00",
         "state": "정상",
         "mails": 13,
         "deals": 13
@@ -5140,7 +5141,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T07:51:41+00:00",
-        "last_seen": "2026-10-23T08:21:13+00:00"
+        "last_seen": "2026-10-23T08:31:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20189853",
@@ -5155,7 +5156,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T06:41:55+00:00",
-        "last_seen": "2026-10-23T08:21:13+00:00"
+        "last_seen": "2026-10-23T08:31:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20188773",
@@ -5170,7 +5171,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-23T06:31:56+00:00",
-        "last_seen": "2026-10-23T08:21:13+00:00"
+        "last_seen": "2026-10-23T08:31:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20195187",
@@ -5185,7 +5186,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T05:51:40+00:00",
-        "last_seen": "2026-10-23T08:21:13+00:00"
+        "last_seen": "2026-10-23T08:31:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20185782",
@@ -5200,7 +5201,7 @@
         "published": false,
         "reject_reason": "H7: Adidas 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-23T05:32:26+00:00",
-        "last_seen": "2026-10-23T08:21:13+00:00"
+        "last_seen": "2026-10-23T08:31:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20187528",
@@ -5215,7 +5216,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-23T05:01:43+00:00",
-        "last_seen": "2026-10-23T08:21:13+00:00"
+        "last_seen": "2026-10-23T08:31:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20193570",
@@ -5230,7 +5231,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T04:31:13+00:00",
-        "last_seen": "2026-10-23T08:21:13+00:00"
+        "last_seen": "2026-10-23T08:31:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20193765",
@@ -5245,7 +5246,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-23T04:21:14+00:00",
-        "last_seen": "2026-10-23T08:21:13+00:00"
+        "last_seen": "2026-10-23T08:31:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20194425",
@@ -5260,7 +5261,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T02:50:56+00:00",
-        "last_seen": "2026-10-23T08:21:13+00:00"
+        "last_seen": "2026-10-23T08:31:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20189496",
@@ -5275,7 +5276,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:20:56+00:00",
-        "last_seen": "2026-10-23T08:21:13+00:00"
+        "last_seen": "2026-10-23T08:31:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20184651",
@@ -5290,7 +5291,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-23T08:21:13+00:00"
+        "last_seen": "2026-10-23T08:31:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178192",
@@ -5305,7 +5306,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-23T08:21:13+00:00"
+        "last_seen": "2026-10-23T08:31:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191575",
@@ -5860,7 +5861,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-21T16:01:18+00:00",
-        "last_seen": "2026-10-23T08:21:13+00:00"
+        "last_seen": "2026-10-23T08:31:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178168",
