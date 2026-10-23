@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T02:41:32.678497+00:00",
+  "generated_at": "2026-10-23T02:50:56.074359+00:00",
   "count": 105,
   "deals": [
     {
@@ -1014,7 +1014,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 31,
+      "community_votes": 37,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -1044,7 +1044,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T00:40:34.528769+00:00",
-      "last_seen": "2026-10-23T02:40:53.605106+00:00"
+      "last_seen": "2026-10-23T02:50:56.063831+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1063,7 +1063,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 40,
+      "community_votes": 52,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -1093,7 +1093,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-22T23:51:00.029034+00:00",
-      "last_seen": "2026-10-23T02:40:53.605106+00:00"
+      "last_seen": "2026-10-23T02:50:56.063831+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -5081,13 +5081,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-23T02:40:25+00:00",
+      "T1": "2026-10-23T02:50:26+00:00",
       "T2": "2026-10-23T02:40:55+00:00",
       "T3": "2026-10-23T01:01:07+00:00",
       "T4": "2026-10-23T00:32:25+00:00"
     },
     "recent_gaps_min": [
-      11,
       11,
       1,
       7,
@@ -5116,16 +5115,17 @@
       10,
       10,
       10,
-      1
+      1,
+      9
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-23T02:40:33+00:00",
+        "at": "2026-10-23T02:50:37+00:00",
         "state": "정상",
-        "mails": 4,
-        "deals": 4
+        "mails": 5,
+        "deals": 5
       },
       "newsletter": {
         "at": "2026-10-23T00:35:10+00:00",
@@ -5135,6 +5135,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20194425",
+        "source": "slickdeals:amazon.com",
+        "title": "Prime Members: Anker Nano 45W USB-C Smart Display Charger for iPhones for $26 at Amazon",
+        "price": 26.0,
+        "list_price": 39.99,
+        "discount_pct": 35.0,
+        "krw": 34449,
+        "kr_lowest": null,
+        "score": 31,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-10-23T02:50:56+00:00",
+        "last_seen": "2026-10-23T02:50:56+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20189496",
         "source": "slickdeals:amazon.com",
@@ -5148,7 +5163,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:20:56+00:00",
-        "last_seen": "2026-10-23T02:40:53+00:00"
+        "last_seen": "2026-10-23T02:50:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20184651",
@@ -5163,7 +5178,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-23T02:40:53+00:00"
+        "last_seen": "2026-10-23T02:50:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178192",
@@ -5178,7 +5193,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-23T02:40:53+00:00"
+        "last_seen": "2026-10-23T02:50:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191575",
@@ -5733,7 +5748,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-21T16:01:18+00:00",
-        "last_seen": "2026-10-23T02:40:53+00:00"
+        "last_seen": "2026-10-23T02:50:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178168",
@@ -6247,7 +6262,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 74,
+      "collected_72h": 75,
       "published_72h": 2
     }
   }
