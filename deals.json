@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T05:41:10.354546+00:00",
+  "generated_at": "2026-10-23T05:51:40.185453+00:00",
   "count": 104,
   "deals": [
     {
@@ -1230,7 +1230,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T05:11:11.170958+00:00",
-      "last_seen": "2026-10-23T05:41:08.921900+00:00"
+      "last_seen": "2026-10-23T05:51:39.520035+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1249,7 +1249,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 18,
+      "community_votes": 20,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -1279,7 +1279,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-21T18:10:37.605834+00:00",
-      "last_seen": "2026-10-23T05:41:08.921900+00:00"
+      "last_seen": "2026-10-23T05:51:39.520035+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -5027,7 +5027,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-23T05:40:28+00:00",
+      "T1": "2026-10-23T05:50:25+00:00",
       "T2": "2026-10-23T05:11:34+00:00",
       "T3": "2026-10-23T05:21:00+00:00",
       "T4": "2026-10-23T00:32:25+00:00"
@@ -5061,16 +5061,17 @@
       9,
       1,
       10,
-      9
+      9,
+      10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-23T05:40:43+00:00",
+        "at": "2026-10-23T05:51:17+00:00",
         "state": "정상",
-        "mails": 9,
-        "deals": 9
+        "mails": 10,
+        "deals": 10
       },
       "newsletter": {
         "at": "2026-10-23T00:35:10+00:00",
@@ -5080,6 +5081,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20195187",
+        "source": "slickdeals:amazon.com",
+        "title": "JBL 305P MkII 5\" Powered Studio Monitor (Black, Single) for $99 at Amazon",
+        "price": 99.0,
+        "list_price": 199.0,
+        "discount_pct": 50.3,
+        "krw": 131170,
+        "kr_lowest": null,
+        "score": 44,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-10-23T05:51:40+00:00",
+        "last_seen": "2026-10-23T05:51:40+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20185782",
         "source": "slickdeals:shopsimon",
@@ -5093,7 +5109,7 @@
         "published": false,
         "reject_reason": "H7: Adidas 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-23T05:32:26+00:00",
-        "last_seen": "2026-10-23T05:41:08+00:00"
+        "last_seen": "2026-10-23T05:51:40+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20187528",
@@ -5108,7 +5124,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-23T05:01:43+00:00",
-        "last_seen": "2026-10-23T05:41:08+00:00"
+        "last_seen": "2026-10-23T05:51:40+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20193570",
@@ -5123,7 +5139,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T04:31:13+00:00",
-        "last_seen": "2026-10-23T05:41:08+00:00"
+        "last_seen": "2026-10-23T05:51:40+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20193765",
@@ -5138,7 +5154,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-23T04:21:14+00:00",
-        "last_seen": "2026-10-23T05:41:08+00:00"
+        "last_seen": "2026-10-23T05:51:40+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20194425",
@@ -5153,7 +5169,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T02:50:56+00:00",
-        "last_seen": "2026-10-23T05:41:08+00:00"
+        "last_seen": "2026-10-23T05:51:40+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20189496",
@@ -5168,7 +5184,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:20:56+00:00",
-        "last_seen": "2026-10-23T05:41:08+00:00"
+        "last_seen": "2026-10-23T05:51:40+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20184651",
@@ -5183,7 +5199,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-23T05:41:08+00:00"
+        "last_seen": "2026-10-23T05:51:40+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178192",
@@ -5198,7 +5214,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-23T05:41:08+00:00"
+        "last_seen": "2026-10-23T05:51:40+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191575",
@@ -5753,7 +5769,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-21T16:01:18+00:00",
-        "last_seen": "2026-10-23T05:41:08+00:00"
+        "last_seen": "2026-10-23T05:51:40+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178168",
@@ -6252,7 +6268,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 78,
+      "collected_72h": 79,
       "published_72h": 3
     }
   }
