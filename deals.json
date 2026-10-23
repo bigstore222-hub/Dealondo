@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T04:21:16.287586+00:00",
+  "generated_at": "2026-10-23T04:31:13.143655+00:00",
   "count": 104,
   "deals": [
     {
@@ -1136,7 +1136,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T00:40:34.528769+00:00",
-      "last_seen": "2026-10-23T04:21:14.248612+00:00"
+      "last_seen": "2026-10-23T04:31:13.136776+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1185,7 +1185,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T04:00:49.979931+00:00",
-      "last_seen": "2026-10-23T04:21:14.248612+00:00"
+      "last_seen": "2026-10-23T04:31:13.136776+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1234,7 +1234,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T04:00:49.979931+00:00",
-      "last_seen": "2026-10-23T04:21:14.248612+00:00"
+      "last_seen": "2026-10-23T04:31:13.136776+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -5029,7 +5029,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-23T04:20:24+00:00",
+      "T1": "2026-10-23T04:30:34+00:00",
       "T2": "2026-10-23T04:01:13+00:00",
       "T3": "2026-10-23T03:10:54+00:00",
       "T4": "2026-10-23T00:32:25+00:00"
@@ -5063,16 +5063,17 @@
       10,
       1,
       10,
+      10,
       10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-23T04:20:51+00:00",
+        "at": "2026-10-23T04:30:53+00:00",
         "state": "정상",
-        "mails": 6,
-        "deals": 6
+        "mails": 7,
+        "deals": 7
       },
       "newsletter": {
         "at": "2026-10-23T00:35:10+00:00",
@@ -5082,6 +5083,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20193570",
+        "source": "slickdeals:amazon.com",
+        "title": "269-Pc LEGO Speed Champions McLaren F1 Team MCL38 Race Car for $15.40 at Amazon",
+        "price": 15.4,
+        "list_price": 26.99,
+        "discount_pct": 42.9,
+        "krw": 20404,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-10-23T04:31:13+00:00",
+        "last_seen": "2026-10-23T04:31:13+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20193765",
         "source": "slickdeals:dickssportinggoods",
@@ -5095,7 +5111,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-23T04:21:14+00:00",
-        "last_seen": "2026-10-23T04:21:14+00:00"
+        "last_seen": "2026-10-23T04:31:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20194425",
@@ -5110,7 +5126,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T02:50:56+00:00",
-        "last_seen": "2026-10-23T04:21:14+00:00"
+        "last_seen": "2026-10-23T04:31:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20189496",
@@ -5125,7 +5141,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:20:56+00:00",
-        "last_seen": "2026-10-23T04:21:14+00:00"
+        "last_seen": "2026-10-23T04:31:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20184651",
@@ -5140,7 +5156,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-23T04:21:14+00:00"
+        "last_seen": "2026-10-23T04:31:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178192",
@@ -5155,7 +5171,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-23T04:21:14+00:00"
+        "last_seen": "2026-10-23T04:31:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191575",
@@ -5706,11 +5722,11 @@
         "discount_pct": 20.5,
         "krw": 5507584,
         "kr_lowest": null,
-        "score": 0,
+        "score": 40,
         "published": false,
-        "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
+        "reject_reason": "",
         "first_seen": "2026-10-21T16:01:18+00:00",
-        "last_seen": "2026-10-23T04:21:14+00:00"
+        "last_seen": "2026-10-23T04:31:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178168",
@@ -6209,7 +6225,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 75,
+      "collected_72h": 76,
       "published_72h": 3
     }
   }
