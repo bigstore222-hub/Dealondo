@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T02:31:14.719099+00:00",
-  "count": 98,
+  "generated_at": "2026-10-23T02:40:53.610636+00:00",
+  "count": 97,
   "deals": [
     {
       "source": "6pm.com",
@@ -902,54 +902,6 @@
       "last_seen": "2026-10-21T14:21:39.284659+00:00"
     },
     {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/steve-madden-multi-keeper-faux-leather-belt/9027875",
-      "title": "Multi Keeper Faux Leather Belt",
-      "brand": "Steve Madden",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/2b1f30da-3790-4266-8768-cb9e05fec378.jpeg?h=368&w=240&dpr=2",
-      "price_current": 4.99,
-      "price_list": 45.0,
-      "price_baseline": 45.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 6623,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/steve-madden-multi-keeper-faux-leather-belt/9027875",
-      "discount_pct": 88.9,
-      "score": 76,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-20T23:52:43.995848+00:00",
-      "last_seen": "2026-10-21T02:31:42.001688+00:00"
-    },
-    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20192943",
@@ -996,7 +948,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T00:40:34.528769+00:00",
-      "last_seen": "2026-10-23T02:31:13.215083+00:00"
+      "last_seen": "2026-10-23T02:40:53.605106+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1045,7 +997,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-22T23:51:00.029034+00:00",
-      "last_seen": "2026-10-23T02:31:13.215083+00:00"
+      "last_seen": "2026-10-23T02:40:53.605106+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1094,7 +1046,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-22T23:51:00.029034+00:00",
-      "last_seen": "2026-10-23T02:31:13.215083+00:00"
+      "last_seen": "2026-10-23T02:40:53.605106+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -4745,7 +4697,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-23T02:30:38+00:00",
+      "T1": "2026-10-23T02:40:25+00:00",
       "T2": "2026-10-23T02:01:15+00:00",
       "T3": "2026-10-23T01:01:07+00:00",
       "T4": "2026-10-23T00:32:25+00:00"
@@ -4779,13 +4731,14 @@
       1,
       9,
       10,
+      10,
       10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-23T02:30:54+00:00",
+        "at": "2026-10-23T02:40:33+00:00",
         "state": "정상",
         "mails": 4,
         "deals": 4
@@ -4811,7 +4764,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:20:56+00:00",
-        "last_seen": "2026-10-23T02:31:13+00:00"
+        "last_seen": "2026-10-23T02:40:53+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20184651",
@@ -4826,7 +4779,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-23T02:31:13+00:00"
+        "last_seen": "2026-10-23T02:40:53+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178192",
@@ -4841,7 +4794,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-23T02:31:13+00:00"
+        "last_seen": "2026-10-23T02:40:53+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191575",
@@ -5396,7 +5349,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-21T16:01:18+00:00",
-        "last_seen": "2026-10-23T02:31:13+00:00"
+        "last_seen": "2026-10-23T02:40:53+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178168",
