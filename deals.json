@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T04:52:35.198537+00:00",
+  "generated_at": "2026-10-23T05:01:43.408889+00:00",
   "count": 105,
   "deals": [
     {
@@ -1230,7 +1230,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T00:40:34.528769+00:00",
-      "last_seen": "2026-10-23T04:52:33.715838+00:00"
+      "last_seen": "2026-10-23T05:01:43.395855+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1279,7 +1279,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T04:00:49.979931+00:00",
-      "last_seen": "2026-10-23T04:52:33.715838+00:00"
+      "last_seen": "2026-10-23T05:01:43.395855+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1328,7 +1328,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T04:00:49.979931+00:00",
-      "last_seen": "2026-10-23T04:52:33.715838+00:00"
+      "last_seen": "2026-10-23T05:01:43.395855+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -5075,7 +5075,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-23T04:50:25+00:00",
+      "T1": "2026-10-23T05:00:44+00:00",
       "T2": "2026-10-23T04:40:02+00:00",
       "T3": "2026-10-23T03:10:54+00:00",
       "T4": "2026-10-23T00:32:25+00:00"
@@ -5109,16 +5109,17 @@
       10,
       9,
       1,
-      12
+      12,
+      9
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-23T04:52:11+00:00",
+        "at": "2026-10-23T05:01:25+00:00",
         "state": "정상",
-        "mails": 7,
-        "deals": 7
+        "mails": 8,
+        "deals": 8
       },
       "newsletter": {
         "at": "2026-10-23T00:35:10+00:00",
@@ -5128,6 +5129,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20187528",
+        "source": "slickdeals:nike.com",
+        "title": "Nike Women's Uplift SC Shoes (White/Grey/Wolf, Various) for $43 at Nike",
+        "price": 43.0,
+        "list_price": 70.0,
+        "discount_pct": 38.6,
+        "krw": 56973,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
+        "first_seen": "2026-10-23T05:01:43+00:00",
+        "last_seen": "2026-10-23T05:01:43+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20193570",
         "source": "slickdeals:amazon.com",
@@ -5141,7 +5157,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T04:31:13+00:00",
-        "last_seen": "2026-10-23T04:52:33+00:00"
+        "last_seen": "2026-10-23T05:01:43+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20193765",
@@ -5156,7 +5172,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-23T04:21:14+00:00",
-        "last_seen": "2026-10-23T04:52:33+00:00"
+        "last_seen": "2026-10-23T05:01:43+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20194425",
@@ -5171,7 +5187,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T02:50:56+00:00",
-        "last_seen": "2026-10-23T04:52:33+00:00"
+        "last_seen": "2026-10-23T05:01:43+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20189496",
@@ -5186,7 +5202,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:20:56+00:00",
-        "last_seen": "2026-10-23T04:52:33+00:00"
+        "last_seen": "2026-10-23T05:01:43+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20184651",
@@ -5201,7 +5217,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-23T04:52:33+00:00"
+        "last_seen": "2026-10-23T05:01:43+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178192",
@@ -5216,7 +5232,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-23T04:52:33+00:00"
+        "last_seen": "2026-10-23T05:01:43+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191575",
@@ -5771,7 +5787,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-21T16:01:18+00:00",
-        "last_seen": "2026-10-23T04:52:33+00:00"
+        "last_seen": "2026-10-23T05:01:43+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178168",
@@ -6270,7 +6286,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 76,
+      "collected_72h": 77,
       "published_72h": 3
     }
   }
