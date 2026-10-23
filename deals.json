@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T02:01:13.110307+00:00",
+  "generated_at": "2026-10-23T02:01:51.853957+00:00",
   "count": 99,
   "deals": [
     {
@@ -381,7 +381,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-23T01:21:31.923733+00:00"
+      "last_seen": "2026-10-23T02:01:51.206727+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -428,7 +428,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T19:37:39.161056+00:00",
-      "last_seen": "2026-10-23T01:21:31.923733+00:00"
+      "last_seen": "2026-10-23T02:01:51.206727+00:00"
     },
     {
       "source": "zappos.com",
@@ -475,7 +475,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-15T18:36:38.505009+00:00",
-      "last_seen": "2026-10-23T01:21:31.923733+00:00"
+      "last_seen": "2026-10-23T02:01:51.206727+00:00"
     },
     {
       "source": "zappos.com",
@@ -851,7 +851,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-23T01:21:31.923733+00:00"
+      "last_seen": "2026-10-23T02:01:51.206727+00:00"
     },
     {
       "source": "6pm.com",
@@ -1719,7 +1719,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-21T19:41:24.921170+00:00",
-      "last_seen": "2026-10-23T01:21:31.923733+00:00"
+      "last_seen": "2026-10-23T02:01:51.206727+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1767,7 +1767,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T17:21:16.973115+00:00",
-      "last_seen": "2026-10-23T01:21:31.923733+00:00"
+      "last_seen": "2026-10-23T02:01:51.206727+00:00"
     },
     {
       "source": "zappos.com",
@@ -2584,7 +2584,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T00:05:01.078832+00:00",
-      "last_seen": "2026-10-23T01:21:31.923733+00:00"
+      "last_seen": "2026-10-23T02:01:51.206727+00:00"
     },
     {
       "source": "dealnews",
@@ -2632,8 +2632,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-23T01:21:08.314930+00:00",
-      "last_seen": "2026-10-23T01:21:31.923733+00:00"
+      "detected_at": "2026-10-23T02:01:29.777851+00:00",
+      "last_seen": "2026-10-23T02:01:51.206727+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2681,7 +2681,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T17:24:58.440683+00:00",
-      "last_seen": "2026-10-23T01:21:31.923733+00:00"
+      "last_seen": "2026-10-23T02:01:51.206727+00:00"
     },
     {
       "source": "techbargains:ebay",
@@ -2729,8 +2729,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-23T01:21:08.490425+00:00",
-      "last_seen": "2026-10-23T01:21:31.923733+00:00"
+      "detected_at": "2026-10-23T02:01:30.007551+00:00",
+      "last_seen": "2026-10-23T02:01:51.206727+00:00"
     },
     {
       "source": "dealnews",
@@ -4794,12 +4794,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-23T02:00:41+00:00",
-      "T2": "2026-10-23T01:21:00+00:00",
+      "T2": "2026-10-23T02:01:15+00:00",
       "T3": "2026-10-23T01:01:07+00:00",
       "T4": "2026-10-23T00:32:25+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       1,
       1,
@@ -4828,7 +4827,8 @@
       9,
       10,
       10,
-      10
+      10,
+      1
     ]
   },
   "email_monitor": {
