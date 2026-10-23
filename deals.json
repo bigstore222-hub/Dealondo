@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T12:11:15.039787+00:00",
-  "count": 97,
+  "generated_at": "2026-10-23T12:11:52.927585+00:00",
+  "count": 98,
   "deals": [
     {
       "source": "nordstromrack.com",
@@ -474,7 +474,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-23T11:31:58.118058+00:00"
+      "last_seen": "2026-10-23T12:11:50.671600+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -521,7 +521,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T19:37:39.161056+00:00",
-      "last_seen": "2026-10-23T11:31:58.118058+00:00"
+      "last_seen": "2026-10-23T12:11:50.671600+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -803,7 +803,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T19:37:39.161056+00:00",
-      "last_seen": "2026-10-23T11:31:58.118058+00:00"
+      "last_seen": "2026-10-23T12:11:50.671600+00:00"
     },
     {
       "source": "zappos.com",
@@ -1038,7 +1038,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-23T11:31:58.118058+00:00"
+      "last_seen": "2026-10-23T12:11:50.671600+00:00"
     },
     {
       "source": "slickdeals:dickssportinggoods",
@@ -1229,7 +1229,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-23T11:31:58.118058+00:00"
+      "last_seen": "2026-10-23T12:11:50.671600+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -2002,7 +2002,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-20T17:21:16.973115+00:00",
-      "last_seen": "2026-10-23T11:31:58.118058+00:00"
+      "last_seen": "2026-10-23T12:11:50.671600+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2050,7 +2050,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-23T11:31:58.118058+00:00"
+      "last_seen": "2026-10-23T12:11:50.671600+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2727,6 +2727,55 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
+      "url": "https://www.dealnews.com/lululemon-Mens-Shorts-Specials-Up-to-56-off-free-shipping/22307714.html?iref=rss",
+      "title": "lululemon Men's Shorts Specials: Up to 56% off + free shipping",
+      "brand": "Lululemon",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1792757088-lm7bxqs_076994_1.webp?h=250&w=208",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/lululemon-Mens-Shorts-Specials-Up-to-56-off-free-shipping/22307714.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-23T12:11:29.913218+00:00",
+      "last_seen": "2026-10-23T12:11:50.671600+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
       "url": "https://www.dealnews.com/adidas-Mens-Gazelle-Spikeless-Golf-Shoes-for-34-free-shipping/22307685.html?iref=rss",
       "title": "adidas Men's Gazelle Spikeless Golf Shoes for $34 + free shipping",
       "brand": "Adidas",
@@ -2771,7 +2820,56 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T11:31:36.507747+00:00",
-      "last_seen": "2026-10-23T11:31:58.118058+00:00"
+      "last_seen": "2026-10-23T12:11:50.671600+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-84-off-free-shipping/22307503.html?iref=rss",
+      "title": "lululemon We Made Too Much Event: Up to 84% off + free shipping",
+      "brand": "Lululemon",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1792231761-imglululemon_yogo_rgb_blk-1658424320863.png?h=200&w=200",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-84-off-free-shipping/22307503.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-23T12:11:29.918251+00:00",
+      "last_seen": "2026-10-23T12:11:50.671600+00:00"
     },
     {
       "source": "dealnews",
@@ -2820,17 +2918,17 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T11:31:36.507747+00:00",
-      "last_seen": "2026-10-23T11:31:58.118058+00:00"
+      "last_seen": "2026-10-23T12:11:50.671600+00:00"
     },
     {
-      "source": "dealnews",
+      "source": "techbargains:amazon",
       "source_tier": "T2",
-      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-84-off-free-shipping/22307503.html?iref=rss",
-      "title": "lululemon We Made Too Much Event: Up to 84% off + free shipping",
-      "brand": "Lululemon",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1792231761-imglululemon_yogo_rgb_blk-1658424320863.png?h=200&w=200",
-      "price_current": null,
+      "url": "https://www.amazon.com/gp/product/B0053HBJBE/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+      "title": "Casio F108WH Illuminator Men's Digital Watch $16.17",
+      "brand": "Casio",
+      "category": "watch_misc",
+      "image": "https://www.techbargains.com/imagery/deals/273058.1792756107.fit_lim.size_125x125.jpg",
+      "price_current": 16.17,
       "price_list": null,
       "price_baseline": null,
       "price_alltime_low": null,
@@ -2844,7 +2942,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": null,
+      "krw_effective": 21425,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -2852,24 +2950,24 @@
       "collection_method": "rss",
       "frontpage": false,
       "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-84-off-free-shipping/22307503.html?iref=rss",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/gp/product/B0053HBJBE/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
       "discount_pct": null,
       "score": 55,
       "score_breakdown": {
         "discount_depth": 0,
         "price_history": null,
-        "category": 17,
+        "category": 10,
         "bonus": 0,
-        "brand": 12,
+        "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
         "curated": "DealNews 엄선 → 하한 55"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-23T11:31:36.252017+00:00",
-      "last_seen": "2026-10-23T11:31:58.118058+00:00"
+      "detected_at": "2026-10-23T12:11:30.192525+00:00",
+      "last_seen": "2026-10-23T12:11:50.671600+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -3851,55 +3949,6 @@
       "last_seen": "2026-10-22T13:22:05.219973+00:00"
     },
     {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/lululemon-Everywhere-22-L-Backpack-for-59-free-shipping/22304616.html?iref=rss",
-      "title": "lululemon Everywhere 22L Backpack for $59 + free shipping",
-      "brand": "Lululemon",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1792672586-lu9by6s_031382_1.webp?h=250&w=208",
-      "price_current": 59.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 78242,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/lululemon-Everywhere-22-L-Backpack-for-59-free-shipping/22304616.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-22T12:41:12.107318+00:00",
-      "last_seen": "2026-10-22T13:22:05.219973+00:00"
-    },
-    {
       "source": "techbargains:walmart",
       "source_tier": "T2",
       "url": "https://www.walmart.com/ip/seort/16446970112",
@@ -4687,12 +4736,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-23T12:10:29+00:00",
-      "T2": "2026-10-23T11:31:24+00:00",
+      "T2": "2026-10-23T12:11:16+00:00",
       "T3": "2026-10-23T11:41:06+00:00",
       "T4": "2026-10-23T06:41:56+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       10,
       1,
@@ -4721,7 +4769,8 @@
       1,
       9,
       10,
-      10
+      10,
+      1
     ]
   },
   "email_monitor": {
