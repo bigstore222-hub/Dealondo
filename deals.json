@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T10:11:42.169449+00:00",
+  "generated_at": "2026-10-23T10:21:03.982279+00:00",
   "count": 100,
   "deals": [
     {
@@ -1086,7 +1086,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-22T17:50:47.029176+00:00",
-      "last_seen": "2026-10-23T10:11:07.167795+00:00"
+      "last_seen": "2026-10-23T10:21:03.971842+00:00"
     },
     {
       "source": "6pm.com",
@@ -4831,13 +4831,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-23T10:10:28+00:00",
+      "T1": "2026-10-23T10:20:26+00:00",
       "T2": "2026-10-23T10:11:08+00:00",
       "T3": "2026-10-23T09:31:29+00:00",
       "T4": "2026-10-23T06:41:56+00:00"
     },
     "recent_gaps_min": [
-      6,
       10,
       10,
       1,
@@ -4866,13 +4865,14 @@
       10,
       10,
       10,
-      1
+      1,
+      9
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-23T10:10:44+00:00",
+        "at": "2026-10-23T10:20:45+00:00",
         "state": "정상",
         "mails": 13,
         "deals": 13
@@ -4898,7 +4898,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T07:51:41+00:00",
-        "last_seen": "2026-10-23T10:11:07+00:00"
+        "last_seen": "2026-10-23T10:21:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20189853",
@@ -4913,7 +4913,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T06:41:55+00:00",
-        "last_seen": "2026-10-23T10:11:07+00:00"
+        "last_seen": "2026-10-23T10:21:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20188773",
@@ -4928,7 +4928,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-23T06:31:56+00:00",
-        "last_seen": "2026-10-23T10:11:07+00:00"
+        "last_seen": "2026-10-23T10:21:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20195187",
@@ -4943,7 +4943,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T05:51:40+00:00",
-        "last_seen": "2026-10-23T10:11:07+00:00"
+        "last_seen": "2026-10-23T10:21:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20185782",
@@ -4958,7 +4958,7 @@
         "published": false,
         "reject_reason": "H7: Adidas 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-23T05:32:26+00:00",
-        "last_seen": "2026-10-23T10:11:07+00:00"
+        "last_seen": "2026-10-23T10:21:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20187528",
@@ -4973,7 +4973,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-23T05:01:43+00:00",
-        "last_seen": "2026-10-23T10:11:07+00:00"
+        "last_seen": "2026-10-23T10:21:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20193570",
@@ -4988,7 +4988,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T04:31:13+00:00",
-        "last_seen": "2026-10-23T10:11:07+00:00"
+        "last_seen": "2026-10-23T10:21:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20193765",
@@ -5003,7 +5003,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-23T04:21:14+00:00",
-        "last_seen": "2026-10-23T10:11:07+00:00"
+        "last_seen": "2026-10-23T10:21:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20194425",
@@ -5018,7 +5018,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T02:50:56+00:00",
-        "last_seen": "2026-10-23T10:11:07+00:00"
+        "last_seen": "2026-10-23T10:21:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20189496",
@@ -5033,7 +5033,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:20:56+00:00",
-        "last_seen": "2026-10-23T10:11:07+00:00"
+        "last_seen": "2026-10-23T10:21:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20184651",
@@ -5048,7 +5048,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-23T10:11:07+00:00"
+        "last_seen": "2026-10-23T10:21:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178192",
@@ -5063,7 +5063,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-23T10:11:07+00:00"
+        "last_seen": "2026-10-23T10:21:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191575",
@@ -5618,7 +5618,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-21T16:01:18+00:00",
-        "last_seen": "2026-10-23T10:11:07+00:00"
+        "last_seen": "2026-10-23T10:21:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178168",
@@ -6054,40 +6054,10 @@
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-20T12:01:16+00:00",
         "last_seen": "2026-10-21T00:51:21+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20179911",
-        "source": "slickdeals:amazon.com",
-        "title": "16.2\" Apple MacBook Pro Laptop: M5 Pro Chip w/ 18/20-Core, 24GB RAM, 1TB SSD for $2429 at Amazon",
-        "price": 2429.0,
-        "list_price": 2999.0,
-        "discount_pct": 19.0,
-        "krw": 3829752,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H8: 할인 19% < 25% (허접 할인 제외)",
-        "first_seen": "2026-10-20T10:20:56+00:00",
-        "last_seen": "2026-10-21T00:51:21+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20179128",
-        "source": "slickdeals:amazon.com",
-        "title": "4-Port wegear 140W GaN USB-C Wall Charger w/ Touch Smart Display & 5' 240W Cable for $33 at Amazon",
-        "price": 33.0,
-        "list_price": 69.99,
-        "discount_pct": 52.9,
-        "krw": 43797,
-        "kr_lowest": null,
-        "score": 31,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-10-20T10:11:47+00:00",
-        "last_seen": "2026-10-21T00:51:21+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 80,
+      "collected_72h": 78,
       "published_72h": 3
     }
   }
