@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T04:01:51.001632+00:00",
+  "generated_at": "2026-10-23T04:11:22.913981+00:00",
   "count": 104,
   "deals": [
     {
@@ -1136,7 +1136,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T00:40:34.528769+00:00",
-      "last_seen": "2026-10-23T04:01:10.970245+00:00"
+      "last_seen": "2026-10-23T04:11:22.904280+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1185,7 +1185,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T04:00:49.979931+00:00",
-      "last_seen": "2026-10-23T04:01:10.970245+00:00"
+      "last_seen": "2026-10-23T04:11:22.904280+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1234,7 +1234,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T04:00:49.979931+00:00",
-      "last_seen": "2026-10-23T04:01:10.970245+00:00"
+      "last_seen": "2026-10-23T04:11:22.904280+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -5029,13 +5029,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-23T04:00:42+00:00",
+      "T1": "2026-10-23T04:10:28+00:00",
       "T2": "2026-10-23T04:01:13+00:00",
       "T3": "2026-10-23T03:10:54+00:00",
       "T4": "2026-10-23T00:32:25+00:00"
     },
     "recent_gaps_min": [
-      3,
       5,
       1,
       9,
@@ -5064,13 +5063,14 @@
       9,
       10,
       10,
-      1
+      1,
+      10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-23T04:00:49+00:00",
+        "at": "2026-10-23T04:11:02+00:00",
         "state": "정상",
         "mails": 5,
         "deals": 5
@@ -5096,7 +5096,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T02:50:56+00:00",
-        "last_seen": "2026-10-23T04:01:12+00:00"
+        "last_seen": "2026-10-23T04:11:22+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20189496",
@@ -5111,7 +5111,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:20:56+00:00",
-        "last_seen": "2026-10-23T04:01:12+00:00"
+        "last_seen": "2026-10-23T04:11:22+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20184651",
@@ -5126,7 +5126,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-23T04:01:12+00:00"
+        "last_seen": "2026-10-23T04:11:22+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178192",
@@ -5141,7 +5141,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-23T04:01:12+00:00"
+        "last_seen": "2026-10-23T04:11:22+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191575",
@@ -5696,7 +5696,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-21T16:01:18+00:00",
-        "last_seen": "2026-10-23T04:01:12+00:00"
+        "last_seen": "2026-10-23T04:11:22+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178168",
@@ -6192,25 +6192,10 @@
         "reject_reason": "",
         "first_seen": "2026-10-20T06:50:56+00:00",
         "last_seen": "2026-10-21T00:51:21+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20179506",
-        "source": "slickdeals:microcenter",
-        "title": "Apple MacBook Pro Laptop: 14.2\", M5 Pro (18C/20C), 64GB RAM, 2TB SSD for $3300 at Micro Center",
-        "price": 3300.0,
-        "list_price": 4199.0,
-        "discount_pct": 21.4,
-        "krw": 5203038,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H8: 할인 21% < 25% (허접 할인 제외)",
-        "first_seen": "2026-10-20T04:10:59+00:00",
-        "last_seen": "2026-10-21T00:51:21+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 75,
+      "collected_72h": 74,
       "published_72h": 2
     }
   }
