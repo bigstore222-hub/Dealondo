@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T06:32:30.928899+00:00",
+  "generated_at": "2026-10-23T06:41:55.321328+00:00",
   "count": 104,
   "deals": [
     {
@@ -1184,53 +1184,6 @@
       "last_seen": "2026-10-21T14:21:39.284659+00:00"
     },
     {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/ugg-goldenstar-clog-women/7245083",
-      "title": "Goldenstar Clog",
-      "brand": "Ugg",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/d4264a73-4411-4b9a-9381-0f056e5fcf66.jpeg?h=368&w=240&dpr=2",
-      "price_current": 59.97,
-      "price_list": 135.0,
-      "price_baseline": 135.0,
-      "price_alltime_low": 59.97,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 79457,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/ugg-goldenstar-clog-women/7245083",
-      "discount_pct": 55.6,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-23T06:32:30.415678+00:00"
-    },
-    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20188806",
@@ -1277,7 +1230,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T05:11:11.170958+00:00",
-      "last_seen": "2026-10-23T06:31:56.556134+00:00"
+      "last_seen": "2026-10-23T06:41:55.313642+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1326,7 +1279,54 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-21T18:10:37.605834+00:00",
-      "last_seen": "2026-10-23T06:31:56.556134+00:00"
+      "last_seen": "2026-10-23T06:41:55.313642+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/ugg-goldenstar-clog-women/7245083",
+      "title": "Goldenstar Clog",
+      "brand": "Ugg",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/d4264a73-4411-4b9a-9381-0f056e5fcf66.jpeg?h=368&w=240&dpr=2",
+      "price_current": 59.97,
+      "price_list": 135.0,
+      "price_baseline": 135.0,
+      "price_alltime_low": 59.97,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 79457,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.nordstromrack.com/s/ugg-goldenstar-clog-women/7245083",
+      "discount_pct": 55.6,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-18T10:09:31.697522+00:00",
+      "last_seen": "2026-10-23T06:32:30.415678+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -5027,13 +5027,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-23T06:30:32+00:00",
+      "T1": "2026-10-23T06:40:28+00:00",
       "T2": "2026-10-23T06:31:57+00:00",
       "T3": "2026-10-23T05:21:00+00:00",
       "T4": "2026-10-23T00:32:25+00:00"
     },
     "recent_gaps_min": [
-      11,
       9,
       1,
       9,
@@ -5062,16 +5061,17 @@
       9,
       11,
       10,
-      1
+      1,
+      9
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-23T06:31:35+00:00",
+        "at": "2026-10-23T06:41:33+00:00",
         "state": "정상",
-        "mails": 11,
-        "deals": 11
+        "mails": 12,
+        "deals": 12
       },
       "newsletter": {
         "at": "2026-10-23T00:35:10+00:00",
@@ -5081,6 +5081,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20189853",
+        "source": "slickdeals:bestbuy.com",
+        "title": "Greenworks Electric Cold Water Pressure Washer, up to 1900 PSI at 1.2GPM for $100 at Best Buy",
+        "price": 100.0,
+        "list_price": 199.99,
+        "discount_pct": 50.0,
+        "krw": 132495,
+        "kr_lowest": null,
+        "score": 31,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-10-23T06:41:55+00:00",
+        "last_seen": "2026-10-23T06:41:55+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20188773",
         "source": "slickdeals:amazon.com",
@@ -5094,7 +5109,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-23T06:31:56+00:00",
-        "last_seen": "2026-10-23T06:31:56+00:00"
+        "last_seen": "2026-10-23T06:41:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20195187",
@@ -5109,7 +5124,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T05:51:40+00:00",
-        "last_seen": "2026-10-23T06:31:56+00:00"
+        "last_seen": "2026-10-23T06:41:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20185782",
@@ -5124,7 +5139,7 @@
         "published": false,
         "reject_reason": "H7: Adidas 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-23T05:32:26+00:00",
-        "last_seen": "2026-10-23T06:31:56+00:00"
+        "last_seen": "2026-10-23T06:41:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20187528",
@@ -5139,7 +5154,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-23T05:01:43+00:00",
-        "last_seen": "2026-10-23T06:31:56+00:00"
+        "last_seen": "2026-10-23T06:41:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20193570",
@@ -5154,7 +5169,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T04:31:13+00:00",
-        "last_seen": "2026-10-23T06:31:56+00:00"
+        "last_seen": "2026-10-23T06:41:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20193765",
@@ -5169,7 +5184,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-23T04:21:14+00:00",
-        "last_seen": "2026-10-23T06:31:56+00:00"
+        "last_seen": "2026-10-23T06:41:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20194425",
@@ -5184,7 +5199,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T02:50:56+00:00",
-        "last_seen": "2026-10-23T06:31:56+00:00"
+        "last_seen": "2026-10-23T06:41:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20189496",
@@ -5199,7 +5214,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:20:56+00:00",
-        "last_seen": "2026-10-23T06:31:56+00:00"
+        "last_seen": "2026-10-23T06:41:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20184651",
@@ -5214,7 +5229,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-23T06:31:56+00:00"
+        "last_seen": "2026-10-23T06:41:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178192",
@@ -5229,7 +5244,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-23T06:31:56+00:00"
+        "last_seen": "2026-10-23T06:41:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191575",
@@ -5784,7 +5799,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-21T16:01:18+00:00",
-        "last_seen": "2026-10-23T06:31:56+00:00"
+        "last_seen": "2026-10-23T06:41:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178168",
@@ -6264,21 +6279,6 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-20T08:50:58+00:00",
-        "last_seen": "2026-10-21T00:51:21+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20173797",
-        "source": "slickdeals:amazon.com",
-        "title": "Olight Sphere Smart Night Light for $14 at Amazon",
-        "price": 14.0,
-        "list_price": 19.99,
-        "discount_pct": 30.0,
-        "krw": 18580,
-        "kr_lowest": null,
-        "score": 17,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-10-20T06:50:56+00:00",
         "last_seen": "2026-10-21T00:51:21+00:00"
       }
     ],
