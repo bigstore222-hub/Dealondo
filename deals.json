@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T19:01:17.996662+00:00",
-  "count": 89,
+  "generated_at": "2026-10-23T19:05:18.793305+00:00",
+  "count": 88,
   "deals": [
     {
       "source": "nordstromrack.com",
@@ -4244,55 +4244,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-21T19:41:24.716063+00:00",
       "last_seen": "2026-10-21T19:41:42.477761+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Polo-Ralph-Lauren-Mens-Classic-Fit-Cotton-Polo-Shirt-for-40-free-shipping/22302542.html?iref=rss",
-      "title": "Polo Ralph Lauren Men's Classic-Fit Cotton Polo Shirt for $40 + free shipping",
-      "brand": "Polo Ralph Lauren",
-      "category": "premium_fashion",
-      "image": "https://d.dlnws.com/64599/1792604142-product-trimmed.jpg?h=250&w=233",
-      "price_current": 40.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 53087,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/Polo-Ralph-Lauren-Mens-Classic-Fit-Cotton-Polo-Shirt-for-40-free-shipping/22302542.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-21T17:41:24.526282+00:00",
-      "last_seen": "2026-10-21T19:01:58.433432+00:00"
     }
   ],
   "pipeline": {
@@ -4300,10 +4251,9 @@
       "T1": "2026-10-23T19:00:42+00:00",
       "T2": "2026-10-23T18:41:00+00:00",
       "T3": "2026-10-23T18:11:12+00:00",
-      "T4": "2026-10-23T12:52:08+00:00"
+      "T4": "2026-10-23T19:01:19+00:00"
     },
     "recent_gaps_min": [
-      1,
       6,
       11,
       11,
@@ -4332,7 +4282,8 @@
       1,
       4,
       6,
-      10
+      10,
+      4
     ]
   },
   "email_monitor": {
@@ -4344,9 +4295,9 @@
         "deals": 24
       },
       "newsletter": {
-        "at": "2026-10-23T12:54:47+00:00",
+        "at": "2026-10-23T19:04:54+00:00",
         "state": "정상",
-        "mails": 27,
+        "mails": 48,
         "deals": 2
       }
     },
@@ -4994,7 +4945,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-22T06:05:48+00:00",
-        "last_seen": "2026-10-23T12:55:08+00:00"
+        "last_seen": "2026-10-23T19:05:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20189865",
@@ -5189,7 +5140,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-21T17:44:49+00:00",
-        "last_seen": "2026-10-23T12:55:08+00:00"
+        "last_seen": "2026-10-23T19:05:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20181471",
@@ -5535,25 +5486,10 @@
         "reject_reason": "",
         "first_seen": "2026-10-20T19:10:59+00:00",
         "last_seen": "2026-10-21T00:51:21+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20157807",
-        "source": "slickdeals:amazon.com",
-        "title": "OREiN Motion Sensor Waterproof Hardwired Outdoor Flood Light 42W 6500LM for $19 at Amazon",
-        "price": 19.0,
-        "list_price": 39.99,
-        "discount_pct": 52.5,
-        "krw": 25216,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
-        "first_seen": "2026-10-20T19:02:00+00:00",
-        "last_seen": "2026-10-21T00:51:21+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 80,
+      "collected_72h": 79,
       "published_72h": 5
     }
   }
