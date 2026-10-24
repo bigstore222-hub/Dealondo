@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T19:51:00.136099+00:00",
+  "generated_at": "2026-10-24T20:01:35.449070+00:00",
   "count": 87,
   "deals": [
     {
@@ -1279,6 +1279,55 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20202075",
+      "title": "$19.99 Now – Women's Wide Leg Pants with Pockets",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/3/3/1/3/9/6/4/0/300x300/22075881.thumb",
+      "price_current": 19.99,
+      "price_list": 39.98,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "G4AGE8VP",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 5,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 26481,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20202075",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 G4AGE8VP → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-24T18:30:44.101981+00:00",
+      "last_seen": "2026-10-24T20:01:35.439275+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
       "url": "https://slickdeals.net/f/20201349",
       "title": "2-Pack Tughlax Rechargeable LED Flashlights w/ LCD Battery Display & Zoomable Beam $18",
       "brand": "",
@@ -1323,55 +1372,6 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-24T14:40:43.228012+00:00",
-      "last_seen": "2026-10-24T19:50:58.746504+00:00"
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20202075",
-      "title": "$19.99 Now – Women's Wide Leg Pants with Pockets",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/3/3/1/3/9/6/4/0/300x300/22075881.thumb",
-      "price_current": 19.99,
-      "price_list": 39.98,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "G4AGE8VP",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 2,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 26481,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20202075",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 G4AGE8VP → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-24T18:30:44.101981+00:00",
       "last_seen": "2026-10-24T19:50:58.746504+00:00"
     },
     {
@@ -2335,7 +2335,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T02:50:37.029906+00:00",
-      "last_seen": "2026-10-24T19:50:58.746504+00:00"
+      "last_seen": "2026-10-24T20:01:35.439275+00:00"
     },
     {
       "source": "slickdeals:amazon.com",
@@ -4196,7 +4196,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-24T19:50:24+00:00",
+      "T1": "2026-10-24T20:00:37+00:00",
       "T2": "2026-10-24T19:20:59+00:00",
       "T3": "2026-10-24T18:01:43+00:00",
       "T4": "2026-10-24T19:31:06+00:00"
@@ -4230,13 +4230,14 @@
       4,
       3,
       7,
-      10
+      10,
+      11
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-24T19:50:33+00:00",
+        "at": "2026-10-24T20:01:13+00:00",
         "state": "정상",
         "mails": 16,
         "deals": 16
@@ -4262,7 +4263,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-24T19:41:00+00:00",
-        "last_seen": "2026-10-24T19:50:58+00:00"
+        "last_seen": "2026-10-24T20:01:35+00:00"
       },
       {
         "url": "https://click.emails.underarmour.com/",
@@ -4292,7 +4293,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T18:21:05+00:00",
-        "last_seen": "2026-10-24T19:50:58+00:00"
+        "last_seen": "2026-10-24T20:01:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20197200",
@@ -4307,7 +4308,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T17:21:01+00:00",
-        "last_seen": "2026-10-24T19:50:58+00:00"
+        "last_seen": "2026-10-24T20:01:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20201580",
@@ -4322,7 +4323,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T16:23:16+00:00",
-        "last_seen": "2026-10-24T19:50:58+00:00"
+        "last_seen": "2026-10-24T20:01:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20195316",
@@ -4337,7 +4338,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-24T14:10:58+00:00",
-        "last_seen": "2026-10-24T19:50:58+00:00"
+        "last_seen": "2026-10-24T20:01:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20195544",
@@ -4352,7 +4353,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-24T08:51:43+00:00",
-        "last_seen": "2026-10-24T19:50:58+00:00"
+        "last_seen": "2026-10-24T20:01:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20198493",
@@ -4367,7 +4368,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T07:11:07+00:00",
-        "last_seen": "2026-10-24T19:50:58+00:00"
+        "last_seen": "2026-10-24T20:01:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20196219",
@@ -4382,7 +4383,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-24T07:11:07+00:00",
-        "last_seen": "2026-10-24T19:50:58+00:00"
+        "last_seen": "2026-10-24T20:01:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20198127",
@@ -4397,7 +4398,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-24T06:31:22+00:00",
-        "last_seen": "2026-10-24T19:50:58+00:00"
+        "last_seen": "2026-10-24T20:01:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20197521",
@@ -4412,7 +4413,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T06:11:00+00:00",
-        "last_seen": "2026-10-24T19:50:58+00:00"
+        "last_seen": "2026-10-24T20:01:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20197989",
@@ -4427,7 +4428,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T04:30:28+00:00",
-        "last_seen": "2026-10-24T19:50:58+00:00"
+        "last_seen": "2026-10-24T20:01:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20190423",
@@ -4442,7 +4443,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T02:31:02+00:00",
-        "last_seen": "2026-10-24T19:50:58+00:00"
+        "last_seen": "2026-10-24T20:01:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20192088",
@@ -4457,7 +4458,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T02:21:05+00:00",
-        "last_seen": "2026-10-24T19:50:58+00:00"
+        "last_seen": "2026-10-24T20:01:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20198316",
@@ -4607,7 +4608,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-10-23T16:02:13+00:00",
-        "last_seen": "2026-10-24T19:50:58+00:00"
+        "last_seen": "2026-10-24T20:01:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20183223",
@@ -4847,7 +4848,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-24T19:50:58+00:00"
+        "last_seen": "2026-10-24T20:01:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178192",
@@ -4862,7 +4863,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-24T19:50:58+00:00"
+        "last_seen": "2026-10-24T20:01:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191575",
