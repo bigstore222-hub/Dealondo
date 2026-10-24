@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T04:21:09.243331+00:00",
+  "generated_at": "2026-10-24T04:30:28.975047+00:00",
   "count": 92,
   "deals": [
     {
@@ -1322,7 +1322,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-24T02:40:31.780532+00:00",
-      "last_seen": "2026-10-24T04:21:07.897541+00:00"
+      "last_seen": "2026-10-24T04:30:28.966559+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1371,7 +1371,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-24T02:40:31.780532+00:00",
-      "last_seen": "2026-10-24T04:21:07.897541+00:00"
+      "last_seen": "2026-10-24T04:30:28.966559+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -4439,7 +4439,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-24T04:20:33+00:00",
+      "T1": "2026-10-24T04:30:01+00:00",
       "T2": "2026-10-24T04:01:10+00:00",
       "T3": "2026-10-24T02:51:10+00:00",
       "T4": "2026-10-24T01:11:02+00:00"
@@ -4473,16 +4473,17 @@
       10,
       1,
       9,
-      10
+      10,
+      9
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-24T04:20:48+00:00",
+        "at": "2026-10-24T04:30:09+00:00",
         "state": "정상",
-        "mails": 5,
-        "deals": 5
+        "mails": 6,
+        "deals": 6
       },
       "newsletter": {
         "at": "2026-10-24T01:13:36+00:00",
@@ -4492,6 +4493,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20197989",
+        "source": "slickdeals:crocs",
+        "title": "Crocs: Extra 50% Off Select Styles: Men’s Saturday Slide $12.50, Women's Rio Flip for $10 at Crocs",
+        "price": 10.0,
+        "list_price": 20.0,
+        "discount_pct": 50.0,
+        "krw": 13247,
+        "kr_lowest": null,
+        "score": 31,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-10-24T04:30:28+00:00",
+        "last_seen": "2026-10-24T04:30:28+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20190423",
         "source": "slickdeals:amazon.com",
@@ -4505,7 +4521,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T02:31:02+00:00",
-        "last_seen": "2026-10-24T04:21:07+00:00"
+        "last_seen": "2026-10-24T04:30:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20192088",
@@ -4520,7 +4536,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T02:21:05+00:00",
-        "last_seen": "2026-10-24T04:21:07+00:00"
+        "last_seen": "2026-10-24T04:30:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20198316",
@@ -4670,7 +4686,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-10-23T16:02:13+00:00",
-        "last_seen": "2026-10-24T04:21:07+00:00"
+        "last_seen": "2026-10-24T04:30:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20183223",
@@ -4910,7 +4926,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-24T04:21:07+00:00"
+        "last_seen": "2026-10-24T04:30:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178192",
@@ -4925,7 +4941,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-24T04:21:07+00:00"
+        "last_seen": "2026-10-24T04:30:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191575",
@@ -5604,7 +5620,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 74,
+      "collected_72h": 75,
       "published_72h": 6
     }
   }
