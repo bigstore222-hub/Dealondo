@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T01:20:58.392230+00:00",
+  "generated_at": "2026-10-24T01:21:33.271249+00:00",
   "count": 91,
   "deals": [
     {
@@ -425,7 +425,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-20T17:21:16.973115+00:00",
-      "last_seen": "2026-10-24T00:41:56.141281+00:00"
+      "last_seen": "2026-10-24T01:21:32.426073+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -472,7 +472,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T19:37:39.161056+00:00",
-      "last_seen": "2026-10-24T00:41:56.141281+00:00"
+      "last_seen": "2026-10-24T01:21:32.426073+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -519,7 +519,101 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-24T00:41:56.141281+00:00"
+      "last_seen": "2026-10-24T01:21:32.426073+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10055736",
+      "title": "Lileta",
+      "brand": "Calvin Klein",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/71-XJ80wRtL._AC_SR255,340_.jpg",
+      "price_current": 25.5,
+      "price_list": 85.0,
+      "price_baseline": 85.0,
+      "price_alltime_low": 25.5,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 33780,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10055736",
+      "discount_pct": 70.0,
+      "score": 81,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-15T18:36:38.505009+00:00",
+      "last_seen": "2026-10-24T01:21:32.426073+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10058891",
+      "title": "Findings Footbed",
+      "brand": "Free People",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/61isNBM4D1L._AC_SR255,340_.jpg",
+      "price_current": 44.4,
+      "price_list": 148.0,
+      "price_baseline": 148.0,
+      "price_alltime_low": 44.4,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 58817,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10058891",
+      "discount_pct": 70.0,
+      "score": 81,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-18T19:37:39.161056+00:00",
+      "last_seen": "2026-10-24T01:21:32.426073+00:00"
     },
     {
       "source": "zappos.com",
@@ -566,53 +660,6 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-14T21:43:15.113265+00:00",
-      "last_seen": "2026-10-24T00:02:02.590955+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10055736",
-      "title": "Lileta",
-      "brand": "Calvin Klein",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/71-XJ80wRtL._AC_SR255,340_.jpg",
-      "price_current": 25.5,
-      "price_list": 85.0,
-      "price_baseline": 85.0,
-      "price_alltime_low": 25.5,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 33786,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10055736",
-      "discount_pct": 70.0,
-      "score": 81,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-15T18:36:38.505009+00:00",
       "last_seen": "2026-10-24T00:02:02.590955+00:00"
     },
     {
@@ -851,53 +898,6 @@
       "last_seen": "2026-10-22T22:51:47.758360+00:00"
     },
     {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10058891",
-      "title": "Findings Footbed",
-      "brand": "Free People",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61isNBM4D1L._AC_SR255,340_.jpg",
-      "price_current": 44.4,
-      "price_list": 148.0,
-      "price_baseline": 148.0,
-      "price_alltime_low": 44.4,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 58881,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10058891",
-      "discount_pct": 70.0,
-      "score": 81,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-18T19:37:39.161056+00:00",
-      "last_seen": "2026-10-22T21:12:41.542751+00:00"
-    },
-    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/vans-old-skool-two-tone-sneaker-women/8479942",
@@ -942,7 +942,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T19:37:39.161056+00:00",
-      "last_seen": "2026-10-24T00:41:56.141281+00:00"
+      "last_seen": "2026-10-24T01:21:32.426073+00:00"
     },
     {
       "source": "zappos.com",
@@ -1177,7 +1177,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-24T00:41:56.141281+00:00"
+      "last_seen": "2026-10-24T01:21:32.426073+00:00"
     },
     {
       "source": "slickdeals:dickssportinggoods",
@@ -1226,6 +1226,53 @@
       "urgency": "HOT",
       "detected_at": "2026-10-22T17:50:47.029176+00:00",
       "last_seen": "2026-10-24T00:51:11.137937+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/ugg-goldenstar-clog-women/7245083",
+      "title": "Goldenstar Clog",
+      "brand": "Ugg",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/d4264a73-4411-4b9a-9381-0f056e5fcf66.jpeg?h=368&w=240&dpr=2",
+      "price_current": 59.97,
+      "price_list": 135.0,
+      "price_baseline": 135.0,
+      "price_alltime_low": 59.97,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 79442,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.nordstromrack.com/s/ugg-goldenstar-clog-women/7245083",
+      "discount_pct": 55.6,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-18T10:09:31.697522+00:00",
+      "last_seen": "2026-10-24T01:21:32.426073+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1373,53 +1420,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-21T03:40:37.185322+00:00",
       "last_seen": "2026-10-24T01:20:58.381324+00:00"
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/ugg-goldenstar-clog-women/7245083",
-      "title": "Goldenstar Clog",
-      "brand": "Ugg",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/d4264a73-4411-4b9a-9381-0f056e5fcf66.jpeg?h=368&w=240&dpr=2",
-      "price_current": 59.97,
-      "price_list": 135.0,
-      "price_baseline": 135.0,
-      "price_alltime_low": 59.97,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 79442,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/ugg-goldenstar-clog-women/7245083",
-      "discount_pct": 55.6,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-24T00:41:56.141281+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1901,7 +1901,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-24T00:41:56.141281+00:00"
+      "last_seen": "2026-10-24T01:21:32.426073+00:00"
     },
     {
       "source": "zappos.com",
@@ -2573,8 +2573,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-24T00:41:35.897621+00:00",
-      "last_seen": "2026-10-24T00:41:56.141281+00:00"
+      "detected_at": "2026-10-24T01:21:14.408204+00:00",
+      "last_seen": "2026-10-24T01:21:32.426073+00:00"
     },
     {
       "source": "dealnews",
@@ -2622,8 +2622,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-24T00:41:35.910666+00:00",
-      "last_seen": "2026-10-24T00:41:56.141281+00:00"
+      "detected_at": "2026-10-24T01:21:14.412580+00:00",
+      "last_seen": "2026-10-24T01:21:32.426073+00:00"
     },
     {
       "source": "dealnews",
@@ -2671,8 +2671,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-24T00:41:35.911439+00:00",
-      "last_seen": "2026-10-24T00:41:56.141281+00:00"
+      "detected_at": "2026-10-24T01:21:14.414910+00:00",
+      "last_seen": "2026-10-24T01:21:32.426073+00:00"
     },
     {
       "source": "dealnews",
@@ -2721,7 +2721,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T19:21:23.797755+00:00",
-      "last_seen": "2026-10-24T00:41:56.141281+00:00"
+      "last_seen": "2026-10-24T01:21:32.426073+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2769,7 +2769,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T17:24:58.440683+00:00",
-      "last_seen": "2026-10-24T00:41:56.141281+00:00"
+      "last_seen": "2026-10-24T01:21:32.426073+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2818,7 +2818,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T19:21:23.797755+00:00",
-      "last_seen": "2026-10-24T00:41:56.141281+00:00"
+      "last_seen": "2026-10-24T01:21:32.426073+00:00"
     },
     {
       "source": "techbargains:adidas",
@@ -2866,8 +2866,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-24T00:41:36.146536+00:00",
-      "last_seen": "2026-10-24T00:41:56.141281+00:00"
+      "detected_at": "2026-10-24T01:21:14.635230+00:00",
+      "last_seen": "2026-10-24T01:21:32.426073+00:00"
     },
     {
       "source": "dealnews",
@@ -4392,12 +4392,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-24T01:20:30+00:00",
-      "T2": "2026-10-24T00:41:20+00:00",
+      "T2": "2026-10-24T01:20:59+00:00",
       "T3": "2026-10-24T00:41:56+00:00",
       "T4": "2026-10-24T01:11:02+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       10,
@@ -4426,7 +4425,8 @@
       11,
       9,
       3,
-      7
+      7,
+      1
     ]
   },
   "email_monitor": {
