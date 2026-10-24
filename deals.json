@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T14:31:07.393987+00:00",
+  "generated_at": "2026-10-24T14:41:03.966637+00:00",
   "count": 85,
   "deals": [
     {
@@ -1276,6 +1276,55 @@
       "last_seen": "2026-10-24T00:51:11.137937+00:00"
     },
     {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20201349",
+      "title": "2-Pack Tughlax Rechargeable LED Flashlights w/ LCD Battery Display & Zoomable Beam $17.99 ($8.99 each) + Free Shipping w/ Prime or on $35+",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/2/0/3/1/1/5/0/300x300/22073967.thumb",
+      "price_current": 35.0,
+      "price_list": 70.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "TIDZINOB",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 9,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 46365,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20201349",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 TIDZINOB → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-24T14:40:43.228012+00:00",
+      "last_seen": "2026-10-24T14:41:03.317756+00:00"
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/ugg-goldenstar-clog-women/7245083",
@@ -1609,55 +1658,6 @@
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
         "code_deal": "공개코드 HLUXJGLD → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-24T02:50:46.345729+00:00",
-      "last_seen": "2026-10-24T03:31:09.312013+00:00"
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20199939",
-      "title": "24-Pack HSHFAMIIY Christmas Money Holder Cards w/ Envelopes & Sealing Stickers $4.49 + Free Shipping w/ Prime or on $35+",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/9/3/0/4/6/1/9/300x300/22071309.thumb",
-      "price_current": 35.0,
-      "price_list": 70.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "Q6JLDKSZ",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 1,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 46365,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20199939",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 Q6JLDKSZ → 하한 75"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
@@ -2334,7 +2334,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T02:50:37.029906+00:00",
-      "last_seen": "2026-10-24T14:31:05.861168+00:00"
+      "last_seen": "2026-10-24T14:41:03.317756+00:00"
     },
     {
       "source": "slickdeals:amazon.com",
@@ -4098,7 +4098,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-24T14:30:34+00:00",
+      "T1": "2026-10-24T14:40:28+00:00",
       "T2": "2026-10-24T14:01:11+00:00",
       "T3": "2026-10-24T13:41:02+00:00",
       "T4": "2026-10-24T13:27:32+00:00"
@@ -4132,13 +4132,14 @@
       1,
       9,
       10,
+      10,
       10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-24T14:30:45+00:00",
+        "at": "2026-10-24T14:40:43+00:00",
         "state": "정상",
         "mails": 12,
         "deals": 12
@@ -4164,7 +4165,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-24T14:10:58+00:00",
-        "last_seen": "2026-10-24T14:31:05+00:00"
+        "last_seen": "2026-10-24T14:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20195544",
@@ -4179,7 +4180,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-24T08:51:43+00:00",
-        "last_seen": "2026-10-24T14:31:05+00:00"
+        "last_seen": "2026-10-24T14:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20198493",
@@ -4194,7 +4195,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T07:11:07+00:00",
-        "last_seen": "2026-10-24T14:31:05+00:00"
+        "last_seen": "2026-10-24T14:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20196219",
@@ -4209,7 +4210,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-24T07:11:07+00:00",
-        "last_seen": "2026-10-24T14:31:05+00:00"
+        "last_seen": "2026-10-24T14:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20198127",
@@ -4224,7 +4225,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-24T06:31:22+00:00",
-        "last_seen": "2026-10-24T14:31:05+00:00"
+        "last_seen": "2026-10-24T14:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20197521",
@@ -4239,7 +4240,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T06:11:00+00:00",
-        "last_seen": "2026-10-24T14:31:05+00:00"
+        "last_seen": "2026-10-24T14:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20197989",
@@ -4254,7 +4255,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T04:30:28+00:00",
-        "last_seen": "2026-10-24T14:31:05+00:00"
+        "last_seen": "2026-10-24T14:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20190423",
@@ -4269,7 +4270,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T02:31:02+00:00",
-        "last_seen": "2026-10-24T14:31:05+00:00"
+        "last_seen": "2026-10-24T14:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20192088",
@@ -4284,7 +4285,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T02:21:05+00:00",
-        "last_seen": "2026-10-24T14:31:05+00:00"
+        "last_seen": "2026-10-24T14:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20198316",
@@ -4434,7 +4435,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-10-23T16:02:13+00:00",
-        "last_seen": "2026-10-24T14:31:05+00:00"
+        "last_seen": "2026-10-24T14:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20183223",
@@ -4674,7 +4675,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-24T14:31:05+00:00"
+        "last_seen": "2026-10-24T14:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178192",
@@ -4689,7 +4690,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-24T14:31:05+00:00"
+        "last_seen": "2026-10-24T14:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191575",
@@ -5260,25 +5261,10 @@
         "reject_reason": "",
         "first_seen": "2026-10-21T15:01:20+00:00",
         "last_seen": "2026-10-22T00:51:00+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20181834",
-        "source": "slickdeals:walmart.com",
-        "title": "290-Pc LEGO Disney Princess Advent Calendar 2026 Building Set for $30 at Walmart",
-        "price": 30.0,
-        "list_price": 44.99,
-        "discount_pct": 33.3,
-        "krw": 39784,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
-        "first_seen": "2026-10-21T14:41:02+00:00",
-        "last_seen": "2026-10-22T00:51:00+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 75,
+      "collected_72h": 74,
       "published_72h": 7
     }
   }
