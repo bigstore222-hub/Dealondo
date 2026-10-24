@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T02:10:56.333890+00:00",
+  "generated_at": "2026-10-24T02:21:05.740314+00:00",
   "count": 91,
   "deals": [
     {
@@ -1274,7 +1274,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-24T00:22:07.814935+00:00",
-      "last_seen": "2026-10-24T02:10:54.918306+00:00"
+      "last_seen": "2026-10-24T02:21:04.874939+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1323,7 +1323,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-24T00:22:07.814935+00:00",
-      "last_seen": "2026-10-24T02:10:54.918306+00:00"
+      "last_seen": "2026-10-24T02:21:04.874939+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -4391,7 +4391,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-24T02:10:27+00:00",
+      "T1": "2026-10-24T02:20:26+00:00",
       "T2": "2026-10-24T02:01:07+00:00",
       "T3": "2026-10-24T00:41:56+00:00",
       "T4": "2026-10-24T01:11:02+00:00"
@@ -4425,16 +4425,17 @@
       10,
       10,
       1,
-      9
+      9,
+      10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-24T02:10:32+00:00",
+        "at": "2026-10-24T02:20:43+00:00",
         "state": "정상",
-        "mails": 3,
-        "deals": 3
+        "mails": 4,
+        "deals": 4
       },
       "newsletter": {
         "at": "2026-10-24T01:13:36+00:00",
@@ -4444,6 +4445,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20192088",
+        "source": "slickdeals:homedepot.com",
+        "title": "Home Accents 8\" Halloween Classics Battery Operated LED Skull for $7 at Home Depot",
+        "price": 7.0,
+        "list_price": 12.98,
+        "discount_pct": 46.1,
+        "krw": 9273,
+        "kr_lowest": null,
+        "score": 31,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-10-24T02:21:05+00:00",
+        "last_seen": "2026-10-24T02:21:05+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20198316",
         "source": "slickdeals:bestbuy.com",
@@ -4592,7 +4608,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-10-23T16:02:13+00:00",
-        "last_seen": "2026-10-24T02:10:54+00:00"
+        "last_seen": "2026-10-24T02:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20183223",
@@ -4832,7 +4848,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-24T02:10:54+00:00"
+        "last_seen": "2026-10-24T02:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178192",
@@ -4847,7 +4863,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-24T02:10:54+00:00"
+        "last_seen": "2026-10-24T02:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191575",
@@ -5541,7 +5557,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 73,
+      "collected_72h": 74,
       "published_72h": 6
     }
   }
