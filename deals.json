@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24T23:31:14.021606+00:00",
-  "count": 83,
+  "generated_at": "2026-10-24T23:41:11.581276+00:00",
+  "count": 82,
   "deals": [
     {
       "source": "nordstromrack.com",
@@ -2098,7 +2098,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T02:50:37.029906+00:00",
-      "last_seen": "2026-10-24T23:31:12.558136+00:00"
+      "last_seen": "2026-10-24T23:41:11.569390+00:00"
     },
     {
       "source": "zappos.com",
@@ -2290,7 +2290,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T13:01:26.324712+00:00",
-      "last_seen": "2026-10-24T23:31:12.558136+00:00"
+      "last_seen": "2026-10-24T23:41:11.569390+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -3953,60 +3953,11 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-23T00:05:00.903535+00:00",
       "last_seen": "2026-10-23T00:05:19.181625+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Under-Armour-Mens-UA-Edge-Leather-Training-Shoes-for-33-free-shipping-w-50/22305157.html?iref=rss",
-      "title": "Under Armour Men's UA Edge Leather Training Shoes for $33 + free shipping w/ $50",
-      "brand": "Under Armour",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1792699009-product-trimmed.jpg?h=250&w=224",
-      "price_current": 33.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 43763,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Under-Armour-Mens-UA-Edge-Leather-Training-Shoes-for-33-free-shipping-w-50/22305157.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-22T20:31:34.942596+00:00",
-      "last_seen": "2026-10-22T23:33:07.491325+00:00"
     }
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-24T23:30:35+00:00",
+      "T1": "2026-10-24T23:40:29+00:00",
       "T2": "2026-10-24T23:20:58+00:00",
       "T3": "2026-10-24T22:20:59+00:00",
       "T4": "2026-10-24T19:31:06+00:00"
@@ -4040,13 +3991,14 @@
       10,
       10,
       1,
+      10,
       10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-24T23:30:53+00:00",
+        "at": "2026-10-24T23:40:51+00:00",
         "state": "정상",
         "mails": 21,
         "deals": 21
@@ -4072,7 +4024,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T23:20:57+00:00",
-        "last_seen": "2026-10-24T23:31:12+00:00"
+        "last_seen": "2026-10-24T23:41:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20196831",
@@ -4087,7 +4039,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-24T23:01:14+00:00",
-        "last_seen": "2026-10-24T23:31:12+00:00"
+        "last_seen": "2026-10-24T23:41:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20180997",
@@ -4102,7 +4054,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-24T21:02:25+00:00",
-        "last_seen": "2026-10-24T23:31:12+00:00"
+        "last_seen": "2026-10-24T23:41:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20199135",
@@ -4117,7 +4069,7 @@
         "published": false,
         "reject_reason": "H8: 할인 11% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-24T20:50:58+00:00",
-        "last_seen": "2026-10-24T23:31:12+00:00"
+        "last_seen": "2026-10-24T23:41:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20200515",
@@ -4132,7 +4084,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-24T20:50:58+00:00",
-        "last_seen": "2026-10-24T23:31:12+00:00"
+        "last_seen": "2026-10-24T23:41:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20195022",
@@ -4147,7 +4099,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-24T19:41:00+00:00",
-        "last_seen": "2026-10-24T23:31:12+00:00"
+        "last_seen": "2026-10-24T23:41:11+00:00"
       },
       {
         "url": "https://click.emails.underarmour.com/",
@@ -4177,7 +4129,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T18:21:05+00:00",
-        "last_seen": "2026-10-24T23:31:12+00:00"
+        "last_seen": "2026-10-24T23:41:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20197200",
@@ -4192,7 +4144,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T17:21:01+00:00",
-        "last_seen": "2026-10-24T23:31:12+00:00"
+        "last_seen": "2026-10-24T23:41:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20201580",
@@ -4207,7 +4159,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T16:23:16+00:00",
-        "last_seen": "2026-10-24T23:31:12+00:00"
+        "last_seen": "2026-10-24T23:41:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20195316",
@@ -4222,7 +4174,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-24T14:10:58+00:00",
-        "last_seen": "2026-10-24T23:31:12+00:00"
+        "last_seen": "2026-10-24T23:41:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20195544",
@@ -4237,7 +4189,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-24T08:51:43+00:00",
-        "last_seen": "2026-10-24T23:31:12+00:00"
+        "last_seen": "2026-10-24T23:41:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20198493",
@@ -4252,7 +4204,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T07:11:07+00:00",
-        "last_seen": "2026-10-24T23:31:12+00:00"
+        "last_seen": "2026-10-24T23:41:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20196219",
@@ -4267,7 +4219,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-24T07:11:07+00:00",
-        "last_seen": "2026-10-24T23:31:12+00:00"
+        "last_seen": "2026-10-24T23:41:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20198127",
@@ -4282,7 +4234,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-24T06:31:22+00:00",
-        "last_seen": "2026-10-24T23:31:12+00:00"
+        "last_seen": "2026-10-24T23:41:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20197521",
@@ -4297,7 +4249,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T06:11:00+00:00",
-        "last_seen": "2026-10-24T23:31:12+00:00"
+        "last_seen": "2026-10-24T23:41:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20197989",
@@ -4312,7 +4264,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T04:30:28+00:00",
-        "last_seen": "2026-10-24T23:31:12+00:00"
+        "last_seen": "2026-10-24T23:41:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20190423",
@@ -4327,7 +4279,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T02:31:02+00:00",
-        "last_seen": "2026-10-24T23:31:12+00:00"
+        "last_seen": "2026-10-24T23:41:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20192088",
@@ -4342,7 +4294,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T02:21:05+00:00",
-        "last_seen": "2026-10-24T23:31:12+00:00"
+        "last_seen": "2026-10-24T23:41:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20198316",
@@ -4492,7 +4444,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-10-23T16:02:13+00:00",
-        "last_seen": "2026-10-24T23:31:12+00:00"
+        "last_seen": "2026-10-24T23:41:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20183223",
@@ -4732,7 +4684,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-24T23:31:12+00:00"
+        "last_seen": "2026-10-24T23:41:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178192",
@@ -4747,7 +4699,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-24T23:31:12+00:00"
+        "last_seen": "2026-10-24T23:41:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191575",
