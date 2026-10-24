@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T19:31:05.407732+00:00",
+  "generated_at": "2026-10-24T19:34:13.443887+00:00",
   "count": 87,
   "deals": [
     {
@@ -4199,10 +4199,9 @@
       "T1": "2026-10-24T19:30:33+00:00",
       "T2": "2026-10-24T19:20:59+00:00",
       "T3": "2026-10-24T18:01:43+00:00",
-      "T4": "2026-10-24T13:27:32+00:00"
+      "T4": "2026-10-24T19:31:06+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       12,
@@ -4231,7 +4230,8 @@
       10,
       1,
       6,
-      4
+      4,
+      3
     ]
   },
   "email_monitor": {
@@ -4243,13 +4243,28 @@
         "deals": 15
       },
       "newsletter": {
-        "at": "2026-10-24T13:30:27+00:00",
+        "at": "2026-10-24T19:33:54+00:00",
         "state": "정상",
-        "mails": 28,
+        "mails": 37,
         "deals": 2
       }
     },
     "recent": [
+      {
+        "url": "https://click.emails.underarmour.com/",
+        "source": "underarmour.com",
+        "title": "[범위미확인 코드] Extra 30% off UA Outlet starts now",
+        "price": 70.0,
+        "list_price": 100.0,
+        "discount_pct": 30.0,
+        "krw": 92729,
+        "kr_lowest": null,
+        "score": 38,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-10-24T19:34:13+00:00",
+        "last_seen": "2026-10-24T19:34:13+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20201361",
         "source": "slickdeals:walmart.com",
@@ -4923,7 +4938,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-22T18:24:20+00:00",
-        "last_seen": "2026-10-24T13:30:46+00:00"
+        "last_seen": "2026-10-24T19:34:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191437",
@@ -5332,7 +5347,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 72,
+      "collected_72h": 73,
       "published_72h": 7
     }
   }
