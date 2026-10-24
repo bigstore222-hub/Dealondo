@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24T09:22:32.428770+00:00",
-  "count": 90,
+  "generated_at": "2026-10-24T09:33:15.877578+00:00",
+  "count": 88,
   "deals": [
     {
       "source": "nordstromrack.com",
@@ -4239,115 +4239,16 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-22T09:01:35.368539+00:00",
       "last_seen": "2026-10-22T10:11:31.211177+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Arcteryx-Mens-Cormac-Hoody-for-45-free-shipping-w-100/22302905.html?iref=rss",
-      "title": "Arc'teryx Men's Cormac Hoody for $45 + free shipping w/ $100",
-      "brand": "Arc'teryx",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1792631834-569af230-dab8-4f2a-a405-eff5e2575a4c.jpeg?h=250&w=250",
-      "price_current": 45.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 59676,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/Arcteryx-Mens-Cormac-Hoody-for-45-free-shipping-w-100/22302905.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-22T01:41:06.110373+00:00",
-      "last_seen": "2026-10-22T09:32:41.374700+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Carhartt-Black-Friday-Deals-Up-to-50-off-free-shipping/22302838.html?iref=rss",
-      "title": "Carhartt Black Friday Deals: Up to 50% off + free shipping",
-      "brand": "Carhartt",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1792627450-product-trimmed.png?h=121&w=250",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Carhartt-Black-Friday-Deals-Up-to-50-off-free-shipping/22302838.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-22T09:32:21.785391+00:00",
-      "last_seen": "2026-10-22T09:32:41.374700+00:00"
     }
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-24T09:20:25+00:00",
+      "T1": "2026-10-24T09:30:33+00:00",
       "T2": "2026-10-24T09:20:56+00:00",
       "T3": "2026-10-24T09:21:32+00:00",
       "T4": "2026-10-24T07:21:37+00:00"
     },
     "recent_gaps_min": [
-      11,
       1,
       9,
       10,
@@ -4376,13 +4277,14 @@
       9,
       10,
       1,
-      1
+      1,
+      11
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-24T09:20:31+00:00",
+        "at": "2026-10-24T09:32:57+00:00",
         "state": "정상",
         "mails": 11,
         "deals": 11
@@ -4408,7 +4310,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-24T08:51:43+00:00",
-        "last_seen": "2026-10-24T09:20:54+00:00"
+        "last_seen": "2026-10-24T09:33:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20198493",
@@ -4423,7 +4325,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T07:11:07+00:00",
-        "last_seen": "2026-10-24T09:20:54+00:00"
+        "last_seen": "2026-10-24T09:33:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20196219",
@@ -4438,7 +4340,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-24T07:11:07+00:00",
-        "last_seen": "2026-10-24T09:20:54+00:00"
+        "last_seen": "2026-10-24T09:33:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20198127",
@@ -4453,7 +4355,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-24T06:31:22+00:00",
-        "last_seen": "2026-10-24T09:20:54+00:00"
+        "last_seen": "2026-10-24T09:33:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20197521",
@@ -4468,7 +4370,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T06:11:00+00:00",
-        "last_seen": "2026-10-24T09:20:54+00:00"
+        "last_seen": "2026-10-24T09:33:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20197989",
@@ -4483,7 +4385,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T04:30:28+00:00",
-        "last_seen": "2026-10-24T09:20:54+00:00"
+        "last_seen": "2026-10-24T09:33:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20190423",
@@ -4498,7 +4400,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T02:31:02+00:00",
-        "last_seen": "2026-10-24T09:20:54+00:00"
+        "last_seen": "2026-10-24T09:33:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20192088",
@@ -4513,7 +4415,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T02:21:05+00:00",
-        "last_seen": "2026-10-24T09:20:54+00:00"
+        "last_seen": "2026-10-24T09:33:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20198316",
@@ -4663,7 +4565,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-10-23T16:02:13+00:00",
-        "last_seen": "2026-10-24T09:20:54+00:00"
+        "last_seen": "2026-10-24T09:33:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20183223",
@@ -4903,7 +4805,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-24T09:20:54+00:00"
+        "last_seen": "2026-10-24T09:33:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178192",
@@ -4918,7 +4820,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-24T09:20:54+00:00"
+        "last_seen": "2026-10-24T09:33:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191575",
