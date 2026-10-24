@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T08:42:02.972158+00:00",
+  "generated_at": "2026-10-24T08:51:43.288513+00:00",
   "count": 91,
   "deals": [
     {
@@ -1323,53 +1323,6 @@
       "last_seen": "2026-10-24T00:51:11.137937+00:00"
     },
     {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/ugg-goldenstar-clog-women/7245083",
-      "title": "Goldenstar Clog",
-      "brand": "Ugg",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/d4264a73-4411-4b9a-9381-0f056e5fcf66.jpeg?h=368&w=240&dpr=2",
-      "price_current": 59.97,
-      "price_list": 135.0,
-      "price_baseline": 135.0,
-      "price_alltime_low": 59.97,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 79442,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/ugg-goldenstar-clog-women/7245083",
-      "discount_pct": 55.6,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-24T08:42:02.231087+00:00"
-    },
-    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20197314",
@@ -1416,7 +1369,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-24T05:31:27.710399+00:00",
-      "last_seen": "2026-10-24T08:41:22.927883+00:00"
+      "last_seen": "2026-10-24T08:51:42.094013+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1465,7 +1418,54 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-24T04:30:09.425096+00:00",
-      "last_seen": "2026-10-24T08:41:22.927883+00:00"
+      "last_seen": "2026-10-24T08:51:42.094013+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/ugg-goldenstar-clog-women/7245083",
+      "title": "Goldenstar Clog",
+      "brand": "Ugg",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/d4264a73-4411-4b9a-9381-0f056e5fcf66.jpeg?h=368&w=240&dpr=2",
+      "price_current": 59.97,
+      "price_list": 135.0,
+      "price_baseline": 135.0,
+      "price_alltime_low": 59.97,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 79442,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.nordstromrack.com/s/ugg-goldenstar-clog-women/7245083",
+      "discount_pct": 55.6,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-18T10:09:31.697522+00:00",
+      "last_seen": "2026-10-24T08:42:02.231087+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -4391,13 +4391,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-24T08:40:24+00:00",
+      "T1": "2026-10-24T08:50:24+00:00",
       "T2": "2026-10-24T08:41:24+00:00",
       "T3": "2026-10-24T07:11:08+00:00",
       "T4": "2026-10-24T07:21:37+00:00"
     },
     "recent_gaps_min": [
-      9,
       10,
       1,
       10,
@@ -4426,16 +4425,17 @@
       10,
       10,
       10,
-      1
+      1,
+      10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-24T08:41:03+00:00",
+        "at": "2026-10-24T08:51:21+00:00",
         "state": "정상",
-        "mails": 10,
-        "deals": 10
+        "mails": 11,
+        "deals": 11
       },
       "newsletter": {
         "at": "2026-10-24T07:24:23+00:00",
@@ -4445,6 +4445,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20195544",
+        "source": "slickdeals:dickssportinggoods",
+        "title": "Nike Kids' Mercurial Vapor 16 Academy Vini Jr. Indoor Soccer Shoes (Red/Royal) for $21 at Dick's Sporting Goods",
+        "price": 21.0,
+        "list_price": 69.99,
+        "discount_pct": 70.0,
+        "krw": 27819,
+        "kr_lowest": null,
+        "score": 61,
+        "published": true,
+        "reject_reason": "",
+        "first_seen": "2026-10-24T08:51:43+00:00",
+        "last_seen": "2026-10-24T08:51:43+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20198493",
         "source": "slickdeals:slickdeals.net",
@@ -4458,7 +4473,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T07:11:07+00:00",
-        "last_seen": "2026-10-24T08:41:22+00:00"
+        "last_seen": "2026-10-24T08:51:43+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20196219",
@@ -4473,7 +4488,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-24T07:11:07+00:00",
-        "last_seen": "2026-10-24T08:41:22+00:00"
+        "last_seen": "2026-10-24T08:51:43+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20198127",
@@ -4488,7 +4503,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-24T06:31:22+00:00",
-        "last_seen": "2026-10-24T08:41:22+00:00"
+        "last_seen": "2026-10-24T08:51:43+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20197521",
@@ -4503,7 +4518,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T06:11:00+00:00",
-        "last_seen": "2026-10-24T08:41:22+00:00"
+        "last_seen": "2026-10-24T08:51:43+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20197989",
@@ -4518,7 +4533,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T04:30:28+00:00",
-        "last_seen": "2026-10-24T08:41:22+00:00"
+        "last_seen": "2026-10-24T08:51:43+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20190423",
@@ -4533,7 +4548,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T02:31:02+00:00",
-        "last_seen": "2026-10-24T08:41:22+00:00"
+        "last_seen": "2026-10-24T08:51:43+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20192088",
@@ -4548,7 +4563,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T02:21:05+00:00",
-        "last_seen": "2026-10-24T08:41:22+00:00"
+        "last_seen": "2026-10-24T08:51:43+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20198316",
@@ -4698,7 +4713,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-10-23T16:02:13+00:00",
-        "last_seen": "2026-10-24T08:41:22+00:00"
+        "last_seen": "2026-10-24T08:51:43+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20183223",
@@ -4938,7 +4953,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-24T08:41:22+00:00"
+        "last_seen": "2026-10-24T08:51:43+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20178192",
@@ -4953,7 +4968,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-24T08:41:22+00:00"
+        "last_seen": "2026-10-24T08:51:43+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191575",
@@ -5557,8 +5572,8 @@
       }
     ],
     "totals": {
-      "collected_72h": 74,
-      "published_72h": 6
+      "collected_72h": 75,
+      "published_72h": 7
     }
   }
 }
