@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T06:31:04.294183+00:00",
-  "count": 72,
+  "generated_at": "2026-10-25T06:40:56.779124+00:00",
+  "count": 71,
   "deals": [
     {
       "source": "zappos.com",
@@ -995,7 +995,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-24T21:20:39.893068+00:00",
-      "last_seen": "2026-10-25T06:31:02.874485+00:00"
+      "last_seen": "2026-10-25T06:40:56.766476+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1044,7 +1044,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-25T04:10:39.500454+00:00",
-      "last_seen": "2026-10-25T06:31:02.874485+00:00"
+      "last_seen": "2026-10-25T06:40:56.766476+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1768,7 +1768,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-24T20:01:13.744423+00:00",
-      "last_seen": "2026-10-25T06:31:02.874485+00:00"
+      "last_seen": "2026-10-25T06:40:56.766476+00:00"
     },
     {
       "source": "slickdeals:dickssportinggoods",
@@ -1816,7 +1816,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T02:50:37.029906+00:00",
-      "last_seen": "2026-10-25T06:31:02.874485+00:00"
+      "last_seen": "2026-10-25T06:40:56.766476+00:00"
     },
     {
       "source": "zappos.com",
@@ -1960,7 +1960,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T13:01:26.324712+00:00",
-      "last_seen": "2026-10-25T06:31:02.874485+00:00"
+      "last_seen": "2026-10-25T06:40:56.766476+00:00"
     },
     {
       "source": "dealnews",
@@ -3427,60 +3427,11 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-23T07:11:33.772001+00:00",
       "last_seen": "2026-10-23T07:11:51.733366+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Clarks-Clearance-Up-to-60-off-free-shipping-w-75/22305172.html?iref=rss",
-      "title": "Clarks Clearance: Up to 60% off + free shipping w/ $75",
-      "brand": "Clarks",
-      "category": "premium_fashion",
-      "image": "https://d.dlnws.com/64599/1792699678-product-trimmed.png?h=250&w=200",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Clarks-Clearance-Up-to-60-off-free-shipping-w-75/22305172.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-23T06:32:09.524466+00:00",
-      "last_seen": "2026-10-23T06:32:30.415678+00:00"
     }
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-25T06:30:32+00:00",
+      "T1": "2026-10-25T06:40:27+00:00",
       "T2": "2026-10-25T06:01:30+00:00",
       "T3": "2026-10-25T04:50:59+00:00",
       "T4": "2026-10-25T01:40:54+00:00"
@@ -3514,13 +3465,14 @@
       1,
       9,
       10,
+      10,
       10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-25T06:30:40+00:00",
+        "at": "2026-10-25T06:40:37+00:00",
         "state": "정상",
         "mails": 11,
         "deals": 11
@@ -3546,7 +3498,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T04:31:06+00:00",
-        "last_seen": "2026-10-25T06:31:02+00:00"
+        "last_seen": "2026-10-25T06:40:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20183883",
@@ -3561,7 +3513,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T04:11:01+00:00",
-        "last_seen": "2026-10-25T06:31:02+00:00"
+        "last_seen": "2026-10-25T06:40:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202228",
@@ -3576,7 +3528,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T04:01:07+00:00",
-        "last_seen": "2026-10-25T06:31:02+00:00"
+        "last_seen": "2026-10-25T06:40:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202480",
@@ -3591,7 +3543,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T04:01:07+00:00",
-        "last_seen": "2026-10-25T06:31:02+00:00"
+        "last_seen": "2026-10-25T06:40:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202318",
@@ -3606,7 +3558,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-25T03:41:03+00:00",
-        "last_seen": "2026-10-25T06:31:02+00:00"
+        "last_seen": "2026-10-25T06:40:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20149293",
@@ -3621,7 +3573,7 @@
         "published": false,
         "reject_reason": "H7: Champion 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T03:01:11+00:00",
-        "last_seen": "2026-10-25T06:31:02+00:00"
+        "last_seen": "2026-10-25T06:40:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20195052",
@@ -3636,7 +3588,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T01:10:54+00:00",
-        "last_seen": "2026-10-25T06:31:02+00:00"
+        "last_seen": "2026-10-25T06:40:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202201",
@@ -3651,7 +3603,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-25T00:21:00+00:00",
-        "last_seen": "2026-10-25T06:31:02+00:00"
+        "last_seen": "2026-10-25T06:40:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191122",
@@ -3681,7 +3633,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-24T23:01:14+00:00",
-        "last_seen": "2026-10-25T06:31:02+00:00"
+        "last_seen": "2026-10-25T06:40:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20180997",
@@ -3831,7 +3783,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-24T08:51:43+00:00",
-        "last_seen": "2026-10-25T06:31:02+00:00"
+        "last_seen": "2026-10-25T06:40:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20198493",
@@ -4086,7 +4038,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-10-23T16:02:13+00:00",
-        "last_seen": "2026-10-25T06:31:02+00:00"
+        "last_seen": "2026-10-25T06:40:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20183223",
