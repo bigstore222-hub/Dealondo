@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T11:20:58.203586+00:00",
-  "count": 73,
+  "generated_at": "2026-10-25T11:22:35.842324+00:00",
+  "count": 74,
   "deals": [
     {
       "source": "zappos.com",
@@ -142,7 +142,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T18:11:48.075953+00:00",
-      "last_seen": "2026-10-25T09:12:03.432505+00:00"
+      "last_seen": "2026-10-25T11:22:35.813917+00:00"
     },
     {
       "source": "6pm.com",
@@ -237,7 +237,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-20T17:21:16.973115+00:00",
-      "last_seen": "2026-10-25T10:41:37.503125+00:00"
+      "last_seen": "2026-10-25T11:21:36.418618+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -284,7 +284,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-25T10:41:37.503125+00:00"
+      "last_seen": "2026-10-25T11:21:36.418618+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -331,7 +331,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T19:37:39.161056+00:00",
-      "last_seen": "2026-10-25T10:41:37.503125+00:00"
+      "last_seen": "2026-10-25T11:21:36.418618+00:00"
     },
     {
       "source": "zappos.com",
@@ -707,7 +707,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T19:37:39.161056+00:00",
-      "last_seen": "2026-10-25T10:41:37.503125+00:00"
+      "last_seen": "2026-10-25T11:21:36.418618+00:00"
     },
     {
       "source": "zappos.com",
@@ -848,7 +848,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-25T10:41:37.503125+00:00"
+      "last_seen": "2026-10-25T11:21:36.418618+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -896,7 +896,55 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-10-25T10:41:37.503125+00:00"
+      "last_seen": "2026-10-25T11:21:36.418618+00:00"
+    },
+    {
+      "source": "6pm.com",
+      "source_tier": "T3",
+      "url": "https://www.6pm.com/product/9978986",
+      "title": "Dollie",
+      "brand": "Steve Madden",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/81kQ8uI3P1L._AC_SR255,340_.jpg",
+      "price_current": 35.99,
+      "price_list": 179.95,
+      "price_baseline": 179.95,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": 4.0,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 47680,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.6pm.com/product/9978986",
+      "discount_pct": 80.0,
+      "score": 76,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-24T02:51:48.272137+00:00",
+      "last_seen": "2026-10-25T11:22:35.813917+00:00"
     },
     {
       "source": "6pm.com",
@@ -945,54 +993,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-24T18:02:19.501087+00:00",
       "last_seen": "2026-10-25T09:12:03.432505+00:00"
-    },
-    {
-      "source": "6pm.com",
-      "source_tier": "T3",
-      "url": "https://www.6pm.com/product/9978986",
-      "title": "Dollie",
-      "brand": "Steve Madden",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/81kQ8uI3P1L._AC_SR255,340_.jpg",
-      "price_current": 35.99,
-      "price_list": 179.95,
-      "price_baseline": 179.95,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": 4.0,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 47680,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.6pm.com/product/9978986",
-      "discount_pct": 80.0,
-      "score": 76,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-24T02:51:48.272137+00:00",
-      "last_seen": "2026-10-25T07:02:21.822805+00:00"
     },
     {
       "source": "slickdeals:dickssportinggoods",
@@ -1573,7 +1573,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-15T18:37:52.122016+00:00",
-      "last_seen": "2026-10-25T09:12:03.432505+00:00"
+      "last_seen": "2026-10-25T11:22:35.813917+00:00"
     },
     {
       "source": "dealnews",
@@ -1627,6 +1627,54 @@
     {
       "source": "zappos.com",
       "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10050220",
+      "title": "Longer Days Tank",
+      "brand": "Free People",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/71WslBn7z+L._AC_SR255,340_.jpg",
+      "price_current": 11.4,
+      "price_list": 38.0,
+      "price_baseline": 38.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 15103,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10050220",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-23T20:01:44.192907+00:00",
+      "last_seen": "2026-10-25T11:21:36.418618+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
       "url": "https://www.zappos.com/product/10050416",
       "title": "XX Chino Authentic RLX",
       "brand": "Levi's&#174;",
@@ -1671,54 +1719,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-22T12:02:45.504506+00:00",
       "last_seen": "2026-10-25T10:41:37.503125+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10046424",
-      "title": "Martha Workwear Jacket",
-      "brand": "Free People",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/71MUHpTaZSL._AC_SR255,340_.jpg",
-      "price_current": 50.4,
-      "price_list": 168.0,
-      "price_baseline": 168.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 66771,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10046424",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-25T06:41:15.925436+00:00",
-      "last_seen": "2026-10-25T06:41:34.647680+00:00"
     },
     {
       "source": "zappos.com",
@@ -2150,7 +2150,56 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T00:41:10.285714+00:00",
-      "last_seen": "2026-10-25T10:41:37.503125+00:00"
+      "last_seen": "2026-10-25T11:21:36.418618+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Carhartt-Mens-Cuffed-Script-Patch-Beanie-for-14-free-shipping-w-49/22313164.html?iref=rss",
+      "title": "Carhartt Men's Cuffed Script Patch Beanie for $14 + free shipping w/ $49",
+      "brand": "Carhartt",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1792925715-25cttamcffdscrptpacc_black.webp?h=250&w=226",
+      "price_current": 14.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 18547,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Carhartt-Mens-Cuffed-Script-Patch-Beanie-for-14-free-shipping-w-49/22313164.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-25T11:21:16.163608+00:00",
+      "last_seen": "2026-10-25T11:21:36.418618+00:00"
     },
     {
       "source": "dealnews",
@@ -2199,7 +2248,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-25T10:41:19.655834+00:00",
-      "last_seen": "2026-10-25T10:41:37.503125+00:00"
+      "last_seen": "2026-10-25T11:21:36.418618+00:00"
     },
     {
       "source": "dealnews",
@@ -2248,7 +2297,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-25T10:41:19.655834+00:00",
-      "last_seen": "2026-10-25T10:41:37.503125+00:00"
+      "last_seen": "2026-10-25T11:21:36.418618+00:00"
     },
     {
       "source": "dealnews",
@@ -2297,56 +2346,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-25T10:41:19.655834+00:00",
-      "last_seen": "2026-10-25T10:41:37.503125+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-84-off-free-shipping/22307503.html?iref=rss",
-      "title": "lululemon We Made Too Much Event: Up to 84% off + free shipping",
-      "brand": "Lululemon",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1792231761-imglululemon_yogo_rgb_blk-1658424320863.png?h=200&w=200",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-84-off-free-shipping/22307503.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-25T10:41:19.395121+00:00",
-      "last_seen": "2026-10-25T10:41:37.503125+00:00"
+      "last_seen": "2026-10-25T11:21:36.418618+00:00"
     },
     {
       "source": "dealnews",
@@ -2394,7 +2394,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-21T07:51:32.988638+00:00",
-      "last_seen": "2026-10-25T10:41:37.503125+00:00"
+      "last_seen": "2026-10-25T11:21:36.418618+00:00"
     },
     {
       "source": "techbargains:adidas",
@@ -2442,8 +2442,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-25T10:41:19.569210+00:00",
-      "last_seen": "2026-10-25T10:41:37.503125+00:00"
+      "detected_at": "2026-10-25T11:21:16.054917+00:00",
+      "last_seen": "2026-10-25T11:21:36.418618+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2491,7 +2491,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-18T17:24:58.440683+00:00",
-      "last_seen": "2026-10-25T10:41:37.503125+00:00"
+      "last_seen": "2026-10-25T11:21:36.418618+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2540,6 +2540,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T19:21:23.797755+00:00",
+      "last_seen": "2026-10-25T11:21:36.418618+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-84-off-free-shipping/22307503.html?iref=rss",
+      "title": "lululemon We Made Too Much Event: Up to 84% off + free shipping",
+      "brand": "Lululemon",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1792231761-imglululemon_yogo_rgb_blk-1658424320863.png?h=200&w=200",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-84-off-free-shipping/22307503.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-25T10:41:19.395121+00:00",
       "last_seen": "2026-10-25T10:41:37.503125+00:00"
     },
     {
@@ -3526,13 +3575,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-25T11:20:26+00:00",
-      "T2": "2026-10-25T10:41:04+00:00",
-      "T3": "2026-10-25T09:11:04+00:00",
+      "T2": "2026-10-25T11:20:59+00:00",
+      "T3": "2026-10-25T11:21:37+00:00",
       "T4": "2026-10-25T07:51:00+00:00"
     },
     "recent_gaps_min": [
-      10,
-      4,
       7,
       1,
       9,
@@ -3560,7 +3607,9 @@
       10,
       10,
       9,
-      10
+      10,
+      1,
+      1
     ]
   },
   "email_monitor": {
