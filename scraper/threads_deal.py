@@ -81,7 +81,16 @@ def duty_line(d: dict) -> str:
     return f"관부가세 포함 예상 약 ₩{krw:,}" if krw else "면세한도 초과 — 관부가세 확인 필요"
 
 
-def topic_tag(now: dt.datetime | None = None) -> str:
+def topic_tag(now: dt.datetime | None = None) -> str | None:
+    """
+    주제 태그. 10/22 기본 태그를 켠 뒤 조회수가 떨어져 기본은 '태그 없음'.
+    THREADS_TOPIC_TAG=auto 면 평소 #해외직구 · 블프 기간 #블랙프라이데이, 다른 값이면 그 태그.
+    """
+    v = (os.environ.get("THREADS_TOPIC_TAG") or "").strip()
+    if not v:
+        return None
+    if v != "auto":
+        return v
     n = now or dt.datetime.now(KST)
     (m1, d1), (m2, d2) = BF_WINDOW
     return "블랙프라이데이" if (m1, d1) <= (n.month, n.day) <= (m2, d2) else "해외직구"
@@ -152,10 +161,11 @@ def post_deal(uid: str, token: str, text: str, card_url: str, product_img: str |
     tag = topic_tag()
     if product_img and image_ok(product_img):
         try:
-            return T.publish_post(uid, token, text, topic_tag=tag, images=[product_img, card_url]), f"사진+카드 · #{tag}"
+            return T.publish_post(uid, token, text, topic_tag=tag, images=[product_img, card_url]), \
+                "사진+카드" + (f" · #{tag}" if tag else "")
         except T.ThreadsError as e:
             print("  [타임딜] 캐러셀 실패 → 카드 한 장으로:", e)
-    return T.publish_post(uid, token, text, card_url, topic_tag=tag), f"카드 · #{tag}"
+    return T.publish_post(uid, token, text, card_url, topic_tag=tag), "카드" + (f" · #{tag}" if tag else "")
 
 
 def render_card(d: dict, seen_kst: dt.datetime, out: Path) -> None:

@@ -156,6 +156,9 @@ def urls_in(msg: dict) -> list[str]:
         if not u.lower().startswith("http"):
             u = "https://" + u
         if u not in seen and "t.me/" not in u and "threads.com" not in u:
+            p = urllib.parse.urlparse(u)
+            if p.path.strip("/") == "" and not p.query:      # 알림 머리줄의 'nordstromrack.com' 같은 몰 주소는 상품이 아님
+                continue
             seen.add(u); res.append(u)
     return res
 
@@ -306,7 +309,8 @@ def preview_text(dr: dict) -> str:
         warn.append(f"국내 최저가(₩{int(kr):,})가 직구 예상가(₩{int(krw):,})보다 싸요. 올릴지 다시 생각해보세요.")
     if warn:
         parts += ["", *("⚠️ " + w for w in warn)]
-    parts += ["", f"주제 태그 #{TD.topic_tag()} · 본문 {len(dr['text'])}/500자 · 답장으로 \"19.99 495\" → 가격 수정, 다른 글 → 본문 교체"]
+    tag = TD.topic_tag()
+    parts += ["", (f"주제 태그 #{tag} · " if tag else "") + f"본문 {len(dr['text'])}/500자 · 답장으로 \"19.99 495\" → 가격 수정, 다른 글 → 본문 교체"]
     return "\n".join(parts)[:4000]
 
 
@@ -519,15 +523,88 @@ def handle(st: dict, u: dict, dry: bool) -> None:
                     text=f"⚠️ 미리보기를 만들지 못했어요: {type(e).__name__}: {str(e)[:200]}\n{url}")
 
 
+# ── 추천 딜 (하루 두 번, 딜보드에서 골라 미리보기를 먼저 보낸다 → ✅ 만 누르면 게시) ────────────
+# 예약 글은 저녁 1개뿐이라 노출 기회가 적다. 조회수가 잘 나오는 '상품 사진 + 큰 할인' 글을
+# 점심·저녁 전에 하나씩 더 올릴 수 있게, 딜보드의 가장 좋은 딜을 골라 승인 요청을 보낸다.
+PICK_SLOTS = [("점심", (11, 40), (13, 0)), ("저녁", (18, 30), (19, 50))]
+
+
+def pick_due(st: dict) -> str | None:
+    now = dt.datetime.now(KST)
+    for name, a, b in PICK_SLOTS:
+        if dt.time(*a) <= now.time() < dt.time(*b):
+            key = f"{now:%Y-%m-%d}-{name}"
+            if key not in st.get("picks", {}):
+                return key
+    return None
+
+
+def choose_deal(st: dict) -> dict | None:
+    import kr_names as K
+    try:
+        data = json.loads(TD.BOARD.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+    now = dt.datetime.now(KST)
+    used = set(st.get("picked_urls", []))
+    cands = []
+    for d in data.get("deals", []):
+        url = d.get("url") or ""
+        try:
+            seen = dt.datetime.fromisoformat(d.get("last_seen") or d.get("detected_at"))
+        except Exception:
+            continue
+        p, pct = d.get("price_current"), d.get("discount_pct") or 0
+        if (now - seen).total_seconds() > 3 * 3600 or not p or pct < 50 or not d.get("image"):
+            continue
+        if d.get("brand_tier") not in ("premium", "known"):
+            continue
+        if any(x in url for x in ("slickdeals.net", "dealnews.com", "dealsofamerica", "/search", "/sale")):
+            continue      # 상품 페이지가 아닌 딜 글·세일 목록
+        limit = 150 if PP.WIRELESS.search(f"{d.get('brand') or ''} {d.get('title') or ''}") else 200
+        if p > limit:     # 면세한도 안쪽만 — '관부가세 없음'이 한 줄로 설명되는 딜이 반응이 좋다
+            continue
+        if TD.norm(url) in used or TD.already_posted(url):
+            continue
+        cands.append(d)
+    # 첫 줄이 한국어로 또렷한 상품(품목을 아는 것) 우선, 그다음 딜보드 점수(프리미엄 브랜드 +10)·할인율
+    cands.sort(key=lambda d: (bool(K.item_kr(d.get("title") or "")),
+                              (d.get("score") or 0) + (10 if d.get("brand_tier") == "premium" else 0),
+                              d.get("discount_pct") or 0), reverse=True)
+    return cands[0] if cands else None
+
+
+def make_pick(st: dict, key: str) -> str | None:
+    chat = re.sub(r"\s", "", os.environ.get("TELEGRAM_CHAT_ID") or "") or next(iter(ALLOWED))
+    st.setdefault("picks", {})
+    d = choose_deal(st)
+    if not d:
+        st["picks"][key] = "후보 없음"
+        print("[추천 딜] 조건에 맞는 딜이 없어 건너뜀")
+        return None
+    st.setdefault("picked_urls", []).append(TD.norm(d["url"]))
+    st["picked_urls"] = st["picked_urls"][-300:]
+    slot = key.rsplit("-", 1)[-1]
+    tg_safe("sendMessage", chat_id=chat, disable_web_page_preview=True,
+            text=f"🔥 {slot} 추천 딜 — 딜보드 점수 {d.get('score', '?')}점 · {round(d.get('discount_pct') or 0)}% 할인\n"
+                 "괜찮으면 아래 미리보기에서 ✅ 만 누르세요. 넘기려면 ❌.")
+    did = new_draft(st, chat, d["url"], {}, None)
+    st["picks"][key] = did or "실패"
+    return did
+
+
 def relevant(u: dict) -> bool:
     return chat_of(u) in ALLOWED
 
 
 def peek() -> int:
-    has = False
+    has, due = False, None
     try:
         ups = _get_updates(None, 0)
         has = any(relevant(u) for u in ups)
+        due = pick_due(load_state())
+        if due:
+            print("추천 딜 보낼 시간:", due)
         if ups and not has:      # 남의 대화 등 처리할 필요 없는 것만 있으면 확인 처리해 비운다
             for u in ups:
                 ch = (u.get("message") or {}).get("chat") or {}
@@ -544,7 +621,7 @@ def peek() -> int:
     out = os.environ.get("GITHUB_OUTPUT")
     if out:
         with open(out, "a") as f:
-            f.write(f"has_work={'true' if has else 'false'}\n")
+            f.write(f"has_work={'true' if (has or due) else 'false'}\n")
     return 0
 
 
@@ -556,6 +633,16 @@ def serve(minutes: float, dry: bool) -> int:
     last = time.time()
     offset = None
     mine: set[str] = set()
+    key = pick_due(st)
+    if key:
+        try:
+            did = make_pick(st, key)
+            if did:
+                mine.add(did)
+        except Exception as e:
+            print("[추천 딜] 실패:", repr(e))
+            st.setdefault("picks", {})[key] = "실패"
+        save_state(st)
     while True:
         left = deadline - time.time()
         waiting = [k for k in mine if st["drafts"].get(k, {}).get("status") in ("waiting", "waiting_price")]

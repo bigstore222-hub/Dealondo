@@ -30,6 +30,9 @@ th{font-size:12px;color:var(--muted);font-weight:600}td.num{text-align:right;whi
 <div class="cards" id="pipe"></div>
 <h2 style="font-size:15px;margin:8px 0">스레드 자동 게시</h2>
 <div class="cards" id="threads"></div>
+<h2 style="font-size:15px;margin:8px 0">스레드 글별 성과</h2>
+<p class="sub" id="insAt"></p>
+<div class="wrap" style="margin-bottom:16px"><table><thead><tr><th>게시</th><th>글 첫 줄</th><th>형식</th><th>조회</th><th>좋아요</th><th>답글</th><th>리포스트</th><th>공유</th></tr></thead><tbody id="ins"></tbody></table></div>
 <h2 style="font-size:15px;margin:8px 0">메일 수집</h2>
 <div class="cards" id="cards"></div>
 <div class="wrap"><table><thead><tr><th>처음 본 시각</th><th>출처</th><th>딜</th><th>가격</th><th>할인</th><th>점수</th><th>딜보드</th></tr></thead><tbody id="rows"></tbody></table></div>
@@ -64,6 +67,10 @@ Promise.all([fetch('deals.json',{cache:'no-store'}).then(r=>r.json()),
   if(!hist.length){th='<div class="card"><h2>최근 시도</h2><div class="big warn">기록 없음</div><div class="why">매일 20:20 이후 게시 시도 때 기록돼요</div></div>';}
   else{th=hist.slice(0,6).map(x=>`<div class="card"><h2>${kst(x.at)}</h2><div class="big ${tcls(x.result)}">${esc(x.result)}</div><div class="why">${esc(x.item)}${x.date?' · 예정 '+esc(x.date):''}</div>${x.detail?`<div class="why">${esc(x.detail)}</div>`:''}${x.link?`<div class="why"><a href="${esc(x.link)}" target="_blank" rel="noopener">글 보기</a></div>`:''}</div>`).join('');}
   document.getElementById('threads').innerHTML=th;
+  const ins=tm.insights||{};const ip=ins.posts||[];
+  document.getElementById('insAt').textContent=ins.at?('수집 '+kst(ins.at)+(ins.error?' · 오류: '+ins.error:'')):'아직 수집 전이에요(다음 저녁 게시 때 수집)';
+  const MT={IMAGE:'이미지',TEXT_POST:'글만',CAROUSEL_ALBUM:'사진 여러 장',VIDEO:'영상'};
+  document.getElementById('ins').innerHTML=ip.map(r=>`<tr><td>${kst(r.at)}</td><td>${r.link?`<a href="${esc(r.link)}" target="_blank" rel="noopener">${esc(r.first_line)}</a>`:esc(r.first_line)}<div class="why">${esc(r.kind||'')}${r.tag?' · #'+esc(r.tag):''}</div></td><td>${esc(MT[r.media]||r.media||'')}</td><td class="num">${r.views??''}</td><td class="num">${r.likes??''}</td><td class="num">${r.replies??''}</td><td class="num">${r.reposts??''}</td><td class="num">${r.shares??''}</td></tr>`).join('')||'<tr><td colspan="8" class="why">기록 없음</td></tr>';
   const rows=(m.recent||[]).map(r=>`<tr><td>${kst(r.first_seen)}</td><td>${esc((r.source||'').replace('slickdeals:','SD · '))}</td>
    <td><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>${r.reject_reason?`<div class="why">${esc(r.reject_reason)}</div>`:''}</td>
    <td class="num">${r.price!=null?'$'+r.price:''}${r.list_price!=null?`<div class="why">$${r.list_price}</div>`:''}</td>

@@ -70,12 +70,12 @@ def _save_status(result: str, detail: str, it: dict | None, link: str = "") -> N
         print("  상태 기록 실패:", e)
 
 
-def topic_of(it: dict) -> str:
-    """글마다 주제 태그 1개. 일정 파일에 "topic" 이 있으면 그것을, 없으면 내용으로 고른다."""
-    if it.get("topic"):
-        return it["topic"]
-    t = it.get("text") or ""
-    return "블랙프라이데이" if ("블프" in t or "블랙프라이데이" in t) else "해외직구"
+def topic_of(it: dict) -> str | None:
+    """
+    주제 태그. 10/22 기본 태그(#해외직구)를 붙이기 시작한 뒤 조회수가 떨어져, 기본값은 '태그 없음'으로 되돌렸다.
+    일정 파일의 글에 "topic" 을 적은 글에만 붙는다(비교 실험용). 전체를 다시 켜려면 THREADS_TOPIC_TAG 환경변수.
+    """
+    return it.get("topic") or os.environ.get("THREADS_TOPIC_TAG") or None
 
 
 def today_kst() -> dt.date:
@@ -208,6 +208,10 @@ def run_post(dry: bool, force: bool) -> int:
     if not ready:
         print("올릴 글이 없습니다.")
         save_status("올릴 글 없음", "", None)
+        if token and uid and not dry:
+            collect_insights(uid, token)
+            if not QUIET["on"] or QUIET.get("first"):
+                gap_alert(items, today)
         return 0
     it = ready[0]
     img = (IMAGE_BASE + it["image"]) if it.get("image") else None
@@ -251,8 +255,61 @@ def run_post(dry: bool, force: bool) -> int:
         nxt_txt = (f"\n\n📝 다음 글({when}): {label(n)}\n{n['text'][:180]}"
                    f"{'…' if len(n['text']) > 180 else ''}\n고칠 곳이 있으면 data/threads_schedule.json 수정 후 커밋")
     save_status("게시 완료", reply_note, it, link)
+    try:
+        gap_alert(items, today + dt.timedelta(days=1))
+        collect_insights(uid, token)
+    except Exception as e:
+        print("[성과] 수집 실패:", e)
     tg(f"✅ 스레드 게시 완료: {label(it)}\n{link}\n{reply_note}{nxt_txt}")
     return 0
+
+
+INSIGHT_METRICS = "views,likes,replies,reposts,quotes,shares"
+
+
+def collect_insights(uid: str, token: str, limit: int = 20) -> None:
+    """
+    최근 글의 조회수·좋아요·답글·리포스트·공유를 threads_status.json 'insights' 에 남긴다(monitor.html 표).
+    무엇이 조회수를 올리고 내리는지(이미지·태그·주제·시간) 감이 아니라 숫자로 보기 위함.
+    토큰에 threads_manage_insights 권한이 없으면 그 사실만 기록한다.
+    """
+    rows, err = [], ""
+    try:
+        posts = [p for p in T.my_posts(uid, token, limit=limit) if p.get("text")]
+    except T.ThreadsError as e:
+        posts, err = [], str(e)[:200]
+    sched = {first_line(it["text"]): it for it in load_schedule()}
+    for p in posts:
+        try:
+            res = T._req("GET", f"{T.VER}/{p['id']}/insights", {"metric": INSIGHT_METRICS, "access_token": token})
+        except T.ThreadsError as e:
+            err = str(e)[:200]
+            break
+        m = {}
+        for d in res.get("data", []):
+            v = d.get("values") or [{}]
+            m[d.get("name")] = (d.get("total_value") or {}).get("value", v[0].get("value", 0))
+        fl = first_line(p.get("text", ""))
+        it = sched.get(fl)
+        rows.append({"at": p.get("timestamp"), "first_line": fl[:60], "link": p.get("permalink"),
+                     "media": p.get("media_type"), "kind": "예약 글" if it else "딜",
+                     "tag": (it.get("topic") if it else None), **m})
+    try:
+        mon = json.loads(STATUS_JSON.read_text(encoding="utf-8"))
+    except Exception:
+        mon = {}
+    mon["insights"] = {"at": dt.datetime.now(KST).isoformat(timespec="seconds"), "error": err, "posts": rows}
+    STATUS_JSON.write_text(json.dumps(mon, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"[성과] {len(rows)}개 글 수집" + (f" · 오류: {err}" if err else ""))
+
+
+def gap_alert(items: list, today: dt.date) -> None:
+    """앞으로 3일 안에 올릴 예약 글이 비어 있으면 미리 알린다(10/25처럼 예약이 비어 조용히 넘어가는 일 방지)."""
+    days = {it["_date"] for it in items}
+    empty = [today + dt.timedelta(days=i) for i in range(0, 4) if today + dt.timedelta(days=i) not in days]
+    if empty:
+        tg("📭 스레드 예약 글이 비어 있는 날이 있어요: " + ", ".join(d.strftime("%m/%d") for d in empty)
+           + "\ndata/threads_schedule.json 에 글을 채워야 그날 글이 올라가요.")
 
 
 def run_refresh() -> int:
