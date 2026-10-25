@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T00:31:22.936089+00:00",
+  "generated_at": "2026-10-25T00:32:27.494313+00:00",
   "count": 81,
   "deals": [
     {
@@ -1039,6 +1039,54 @@
       "last_seen": "2026-10-25T00:01:48.676641+00:00"
     },
     {
+      "source": "6pm.com",
+      "source_tier": "T3",
+      "url": "https://www.6pm.com/product/9978986",
+      "title": "Dollie",
+      "brand": "Steve Madden",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/81kQ8uI3P1L._AC_SR255,340_.jpg",
+      "price_current": 35.99,
+      "price_list": 179.95,
+      "price_baseline": 179.95,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": 4.0,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 47676,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.6pm.com/product/9978986",
+      "discount_pct": 80.0,
+      "score": 76,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-24T02:51:48.272137+00:00",
+      "last_seen": "2026-10-25T00:32:27.476065+00:00"
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/circus-ny-by-sam-edelman-vivian-mary-jane-pump-women/8662789",
@@ -1085,54 +1133,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
       "last_seen": "2026-10-25T00:01:48.676641+00:00"
-    },
-    {
-      "source": "6pm.com",
-      "source_tier": "T3",
-      "url": "https://www.6pm.com/product/9978986",
-      "title": "Dollie",
-      "brand": "Steve Madden",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/81kQ8uI3P1L._AC_SR255,340_.jpg",
-      "price_current": 35.99,
-      "price_list": 179.95,
-      "price_baseline": 179.95,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": 4.0,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 47676,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.6pm.com/product/9978986",
-      "discount_pct": 80.0,
-      "score": 76,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-24T02:51:48.272137+00:00",
-      "last_seen": "2026-10-24T18:02:40.934882+00:00"
     },
     {
       "source": "6pm.com",
@@ -1761,7 +1761,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-15T18:37:52.122016+00:00",
-      "last_seen": "2026-10-24T22:22:00.657688+00:00"
+      "last_seen": "2026-10-25T00:32:27.476065+00:00"
     },
     {
       "source": "dealnews",
@@ -3909,11 +3909,10 @@
     "tier_last_run": {
       "T1": "2026-10-25T00:30:35+00:00",
       "T2": "2026-10-25T00:01:18+00:00",
-      "T3": "2026-10-24T22:20:59+00:00",
+      "T3": "2026-10-25T00:31:24+00:00",
       "T4": "2026-10-24T19:31:06+00:00"
     },
     "recent_gaps_min": [
-      9,
       11,
       9,
       10,
@@ -3942,7 +3941,8 @@
       9,
       6,
       4,
-      10
+      10,
+      1
     ]
   },
   "email_monitor": {
