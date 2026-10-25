@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T22:40:56.974790+00:00",
+  "generated_at": "2026-10-25T22:51:10.208498+00:00",
   "count": 71,
   "deals": [
     {
@@ -1909,7 +1909,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-24T20:01:13.744423+00:00",
-      "last_seen": "2026-10-25T22:40:55.660063+00:00"
+      "last_seen": "2026-10-25T22:51:10.192707+00:00"
     },
     {
       "source": "zappos.com",
@@ -2101,7 +2101,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T13:01:26.324712+00:00",
-      "last_seen": "2026-10-25T22:40:55.660063+00:00"
+      "last_seen": "2026-10-25T22:51:10.192707+00:00"
     },
     {
       "source": "dealnews",
@@ -3425,7 +3425,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-25T22:40:23+00:00",
+      "T1": "2026-10-25T22:50:24+00:00",
       "T2": "2026-10-25T22:31:26+00:00",
       "T3": "2026-10-25T22:11:05+00:00",
       "T4": "2026-10-25T20:02:22+00:00"
@@ -3459,16 +3459,17 @@
       1,
       9,
       11,
-      9
+      9,
+      10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-25T22:40:33+00:00",
+        "at": "2026-10-25T22:50:47+00:00",
         "state": "정상",
-        "mails": 25,
-        "deals": 25
+        "mails": 26,
+        "deals": 26
       },
       "newsletter": {
         "at": "2026-10-25T20:05:05+00:00",
@@ -3478,6 +3479,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20200311",
+        "source": "slickdeals:amazon.com",
+        "title": "DeWALT 20V MAX Cordless Compact 100 CFM Jobsite Blower (Tool Only) for $99 at Amazon",
+        "price": 99.0,
+        "list_price": 179.0,
+        "discount_pct": 44.7,
+        "krw": 131157,
+        "kr_lowest": null,
+        "score": 31,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-10-25T22:51:10+00:00",
+        "last_seen": "2026-10-25T22:51:10+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20204904",
         "source": "slickdeals:amazon.com",
@@ -3491,7 +3507,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T22:40:55+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20197329",
@@ -3506,7 +3522,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T22:40:55+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204643",
@@ -3521,7 +3537,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T20:51:21+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://click.email.bloomingdales.com/",
@@ -3551,7 +3567,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T19:31:15+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20194017",
@@ -3566,7 +3582,7 @@
         "published": false,
         "reject_reason": "H8: 할인 22% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-25T18:41:04+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20203668",
@@ -3581,7 +3597,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T18:11:10+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204517",
@@ -3596,7 +3612,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T17:31:03+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204004",
@@ -3611,7 +3627,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T17:01:10+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20184246",
@@ -3626,7 +3642,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T16:31:09+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20203509",
@@ -3641,7 +3657,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T16:20:59+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20203596",
@@ -3656,7 +3672,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T16:20:59+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20201757",
@@ -3671,7 +3687,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T15:11:01+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://www.asos.com",
@@ -3701,7 +3717,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T08:21:50+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://link.email.newbalance.com/u/nrd.php",
@@ -3731,7 +3747,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T06:50:59+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20200629",
@@ -3746,7 +3762,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T04:31:06+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20183883",
@@ -3761,7 +3777,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T04:11:01+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202228",
@@ -3776,7 +3792,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T04:01:07+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202480",
@@ -3791,7 +3807,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T04:01:07+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202318",
@@ -3806,7 +3822,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-25T03:41:03+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20149293",
@@ -3821,7 +3837,7 @@
         "published": false,
         "reject_reason": "H7: Champion 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T03:01:11+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20195052",
@@ -3836,7 +3852,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T01:10:54+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202201",
@@ -3851,7 +3867,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-25T00:21:00+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191122",
@@ -3881,7 +3897,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-24T23:01:14+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20180997",
@@ -4031,7 +4047,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-24T08:51:43+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20198493",
@@ -4286,7 +4302,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-10-23T16:02:13+00:00",
-        "last_seen": "2026-10-25T22:40:55+00:00"
+        "last_seen": "2026-10-25T22:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20183223",
@@ -4572,21 +4588,6 @@
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T00:21:23+00:00",
         "last_seen": "2026-10-23T00:51:04+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20193660",
-        "source": "slickdeals:amazon.com",
-        "title": "Invitation Only: Pokémon TCG 30th Celebration Elite Trainer Box for $60 at Amazon",
-        "price": 60.0,
-        "list_price": 89.99,
-        "discount_pct": 33.3,
-        "krw": 79482,
-        "kr_lowest": null,
-        "score": 17,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-10-22T22:41:23+00:00",
-        "last_seen": "2026-10-24T00:51:11+00:00"
       }
     ],
     "totals": {
