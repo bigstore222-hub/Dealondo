@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T02:50:56.385487+00:00",
+  "generated_at": "2026-10-25T03:01:11.896676+00:00",
   "count": 82,
   "deals": [
     {
@@ -1277,7 +1277,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T18:30:48.165497+00:00",
-      "last_seen": "2026-10-25T02:50:54.892574+00:00"
+      "last_seen": "2026-10-25T03:01:11.883908+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1326,7 +1326,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-25T00:40:41.901189+00:00",
-      "last_seen": "2026-10-25T02:50:54.892574+00:00"
+      "last_seen": "2026-10-25T03:01:11.883908+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2194,7 +2194,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-24T20:01:13.744423+00:00",
-      "last_seen": "2026-10-25T02:50:54.892574+00:00"
+      "last_seen": "2026-10-25T03:01:11.883908+00:00"
     },
     {
       "source": "slickdeals:dickssportinggoods",
@@ -2242,7 +2242,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T02:50:37.029906+00:00",
-      "last_seen": "2026-10-25T02:50:54.892574+00:00"
+      "last_seen": "2026-10-25T03:01:11.883908+00:00"
     },
     {
       "source": "zappos.com",
@@ -2434,7 +2434,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T13:01:26.324712+00:00",
-      "last_seen": "2026-10-25T02:50:54.892574+00:00"
+      "last_seen": "2026-10-25T03:01:11.883908+00:00"
     },
     {
       "source": "zappos.com",
@@ -3955,7 +3955,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-25T02:50:26+00:00",
+      "T1": "2026-10-25T03:00:42+00:00",
       "T2": "2026-10-25T02:40:56+00:00",
       "T3": "2026-10-25T02:41:34+00:00",
       "T4": "2026-10-25T01:40:54+00:00"
@@ -3989,16 +3989,17 @@
       10,
       1,
       1,
-      8
+      8,
+      10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-25T02:50:32+00:00",
+        "at": "2026-10-25T03:00:50+00:00",
         "state": "정상",
-        "mails": 5,
-        "deals": 5
+        "mails": 6,
+        "deals": 6
       },
       "newsletter": {
         "at": "2026-10-25T01:43:30+00:00",
@@ -4008,6 +4009,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20149293",
+        "source": "slickdeals:costcowholesale",
+        "title": "Costco Members: 2-Pc Champion Kids' Hoodie/Jogger Set for $15 at Costco Wholesale",
+        "price": 15.0,
+        "list_price": null,
+        "discount_pct": null,
+        "krw": 19872,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: Champion 할인 0% < 60% (유명 브랜드 최소 할인)",
+        "first_seen": "2026-10-25T03:01:11+00:00",
+        "last_seen": "2026-10-25T03:01:11+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20195052",
         "source": "slickdeals:walmart.com",
@@ -4021,7 +4037,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T01:10:54+00:00",
-        "last_seen": "2026-10-25T02:50:54+00:00"
+        "last_seen": "2026-10-25T03:01:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202201",
@@ -4036,7 +4052,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-25T00:21:00+00:00",
-        "last_seen": "2026-10-25T02:50:54+00:00"
+        "last_seen": "2026-10-25T03:01:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191122",
@@ -4066,7 +4082,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-24T23:01:14+00:00",
-        "last_seen": "2026-10-25T02:50:54+00:00"
+        "last_seen": "2026-10-25T03:01:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20180997",
@@ -4216,7 +4232,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-24T08:51:43+00:00",
-        "last_seen": "2026-10-25T02:50:54+00:00"
+        "last_seen": "2026-10-25T03:01:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20198493",
@@ -4471,7 +4487,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-10-23T16:02:13+00:00",
-        "last_seen": "2026-10-25T02:50:54+00:00"
+        "last_seen": "2026-10-25T03:01:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20183223",
@@ -5105,7 +5121,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 73,
+      "collected_72h": 74,
       "published_72h": 9
     }
   }
