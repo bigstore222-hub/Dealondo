@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T20:02:19.991786+00:00",
+  "generated_at": "2026-10-25T20:05:27.012233+00:00",
   "count": 73,
   "deals": [
     {
@@ -3530,10 +3530,9 @@
       "T1": "2026-10-25T20:00:10+00:00",
       "T2": "2026-10-25T19:51:03+00:00",
       "T3": "2026-10-25T20:01:07+00:00",
-      "T4": "2026-10-25T13:58:51+00:00"
+      "T4": "2026-10-25T20:02:22+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       10,
@@ -3562,7 +3561,8 @@
       10,
       10,
       1,
-      11
+      11,
+      3
     ]
   },
   "email_monitor": {
@@ -3574,13 +3574,28 @@
         "deals": 22
       },
       "newsletter": {
-        "at": "2026-10-25T14:01:33+00:00",
+        "at": "2026-10-25T20:05:05+00:00",
         "state": "정상",
-        "mails": 31,
+        "mails": 42,
         "deals": 3
       }
     },
     "recent": [
+      {
+        "url": "https://click.email.bloomingdales.com/",
+        "source": "bloomingdales.com",
+        "title": "Last day to shop this sale!",
+        "price": 75.0,
+        "list_price": 100.0,
+        "discount_pct": 25.0,
+        "krw": 99362,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-10-25T20:05:27+00:00",
+        "last_seen": "2026-10-25T20:05:27+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20204118",
         "source": "slickdeals:amazon.com",
@@ -3729,7 +3744,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-25T14:01:56+00:00",
-        "last_seen": "2026-10-25T14:01:56+00:00"
+        "last_seen": "2026-10-25T20:05:27+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20200533",
@@ -3759,7 +3774,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T07:54:35+00:00",
-        "last_seen": "2026-10-25T14:01:56+00:00"
+        "last_seen": "2026-10-25T20:05:27+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20197395",
@@ -4633,7 +4648,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 70,
+      "collected_72h": 71,
       "published_72h": 8
     }
   }
