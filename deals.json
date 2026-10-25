@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T07:50:58.690177+00:00",
+  "generated_at": "2026-10-25T07:54:35.103698+00:00",
   "count": 69,
   "deals": [
     {
@@ -3337,10 +3337,9 @@
       "T1": "2026-10-25T07:50:25+00:00",
       "T2": "2026-10-25T07:21:00+00:00",
       "T3": "2026-10-25T07:01:18+00:00",
-      "T4": "2026-10-25T01:40:54+00:00"
+      "T4": "2026-10-25T07:51:00+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       10,
       1,
@@ -3369,7 +3368,8 @@
       1,
       9,
       10,
-      10
+      10,
+      4
     ]
   },
   "email_monitor": {
@@ -3381,13 +3381,28 @@
         "deals": 12
       },
       "newsletter": {
-        "at": "2026-10-25T01:43:30+00:00",
+        "at": "2026-10-25T07:54:10+00:00",
         "state": "정상",
-        "mails": 11,
-        "deals": 0
+        "mails": 21,
+        "deals": 1
       }
     },
     "recent": [
+      {
+        "url": "https://link.email.newbalance.com/u/nrd.php",
+        "source": "newbalance.com",
+        "title": "The Crimson Fog Pack",
+        "price": 75.0,
+        "list_price": 100.0,
+        "discount_pct": 25.0,
+        "krw": 99362,
+        "kr_lowest": null,
+        "score": 38,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-10-25T07:54:35+00:00",
+        "last_seen": "2026-10-25T07:54:35+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20197395",
         "source": "slickdeals:amazon.com",
@@ -4470,7 +4485,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 72,
+      "collected_72h": 73,
       "published_72h": 9
     }
   }
