@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T20:41:04.362539+00:00",
-  "count": 73,
+  "generated_at": "2026-10-25T20:51:21.416419+00:00",
+  "count": 72,
   "deals": [
     {
       "source": "zappos.com",
@@ -1768,7 +1768,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-24T20:01:13.744423+00:00",
-      "last_seen": "2026-10-25T20:41:02.881601+00:00"
+      "last_seen": "2026-10-25T20:51:21.405163+00:00"
     },
     {
       "source": "slickdeals:dickssportinggoods",
@@ -1816,7 +1816,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T02:50:37.029906+00:00",
-      "last_seen": "2026-10-25T20:41:02.881601+00:00"
+      "last_seen": "2026-10-25T20:51:21.405163+00:00"
     },
     {
       "source": "zappos.com",
@@ -2056,7 +2056,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T13:01:26.324712+00:00",
-      "last_seen": "2026-10-25T20:41:02.881601+00:00"
+      "last_seen": "2026-10-25T20:51:21.405163+00:00"
     },
     {
       "source": "dealnews",
@@ -3474,60 +3474,11 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-23T19:21:23.797755+00:00",
       "last_seen": "2026-10-23T22:01:54.052673+00:00"
-    },
-    {
-      "source": "techbargains:amazon",
-      "source_tier": "T2",
-      "url": "https://www.amazon.com/gp/product/B0053HBJBE/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
-      "title": "Casio F108WH Illuminator Men's Digital Watch $16.17",
-      "brand": "Casio",
-      "category": "watch_misc",
-      "image": "https://www.techbargains.com/imagery/deals/273058.1792756107.fit_lim.size_125x125.jpg",
-      "price_current": 16.17,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 21425,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/gp/product/B0053HBJBE/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 10,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-23T12:11:30.192525+00:00",
-      "last_seen": "2026-10-23T20:41:51.366893+00:00"
     }
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-25T20:40:27+00:00",
+      "T1": "2026-10-25T20:50:32+00:00",
       "T2": "2026-10-25T20:31:11+00:00",
       "T3": "2026-10-25T20:01:07+00:00",
       "T4": "2026-10-25T20:02:22+00:00"
@@ -3561,16 +3512,17 @@
       10,
       10,
       1,
-      9
+      9,
+      10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-25T20:40:42+00:00",
+        "at": "2026-10-25T20:51:02+00:00",
         "state": "정상",
-        "mails": 22,
-        "deals": 22
+        "mails": 23,
+        "deals": 23
       },
       "newsletter": {
         "at": "2026-10-25T20:05:05+00:00",
@@ -3580,6 +3532,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20204643",
+        "source": "slickdeals:amazon.com",
+        "title": "$299.99* | Dyson Hot+Cool™ HF1 Rapid React heater fan (White/Silver) at Amazon",
+        "price": 299.99,
+        "list_price": 499.99,
+        "discount_pct": 40.0,
+        "krw": 472150,
+        "kr_lowest": null,
+        "score": 31,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-10-25T20:51:21+00:00",
+        "last_seen": "2026-10-25T20:51:21+00:00"
+      },
       {
         "url": "https://click.email.bloomingdales.com/",
         "source": "bloomingdales.com",
@@ -3608,7 +3575,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T19:31:15+00:00",
-        "last_seen": "2026-10-25T20:41:02+00:00"
+        "last_seen": "2026-10-25T20:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20194017",
@@ -3623,7 +3590,7 @@
         "published": false,
         "reject_reason": "H8: 할인 22% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-25T18:41:04+00:00",
-        "last_seen": "2026-10-25T20:41:02+00:00"
+        "last_seen": "2026-10-25T20:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20203668",
@@ -3638,7 +3605,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T18:11:10+00:00",
-        "last_seen": "2026-10-25T20:41:02+00:00"
+        "last_seen": "2026-10-25T20:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204517",
@@ -3653,7 +3620,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T17:31:03+00:00",
-        "last_seen": "2026-10-25T20:41:02+00:00"
+        "last_seen": "2026-10-25T20:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204004",
@@ -3668,7 +3635,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T17:01:10+00:00",
-        "last_seen": "2026-10-25T20:41:02+00:00"
+        "last_seen": "2026-10-25T20:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20184246",
@@ -3683,7 +3650,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T16:31:09+00:00",
-        "last_seen": "2026-10-25T20:41:02+00:00"
+        "last_seen": "2026-10-25T20:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20203509",
@@ -3698,7 +3665,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T16:20:59+00:00",
-        "last_seen": "2026-10-25T20:41:02+00:00"
+        "last_seen": "2026-10-25T20:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20203596",
@@ -3713,7 +3680,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T16:20:59+00:00",
-        "last_seen": "2026-10-25T20:41:02+00:00"
+        "last_seen": "2026-10-25T20:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20201757",
@@ -3728,7 +3695,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T15:11:01+00:00",
-        "last_seen": "2026-10-25T20:41:02+00:00"
+        "last_seen": "2026-10-25T20:51:21+00:00"
       },
       {
         "url": "https://www.asos.com",
@@ -3758,7 +3725,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T08:21:50+00:00",
-        "last_seen": "2026-10-25T20:41:02+00:00"
+        "last_seen": "2026-10-25T20:51:21+00:00"
       },
       {
         "url": "https://link.email.newbalance.com/u/nrd.php",
@@ -3788,7 +3755,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T06:50:59+00:00",
-        "last_seen": "2026-10-25T20:41:02+00:00"
+        "last_seen": "2026-10-25T20:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20200629",
@@ -3803,7 +3770,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T04:31:06+00:00",
-        "last_seen": "2026-10-25T20:41:02+00:00"
+        "last_seen": "2026-10-25T20:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20183883",
@@ -3818,7 +3785,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T04:11:01+00:00",
-        "last_seen": "2026-10-25T20:41:02+00:00"
+        "last_seen": "2026-10-25T20:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202228",
@@ -3833,7 +3800,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T04:01:07+00:00",
-        "last_seen": "2026-10-25T20:41:02+00:00"
+        "last_seen": "2026-10-25T20:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202480",
@@ -3848,7 +3815,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T04:01:07+00:00",
-        "last_seen": "2026-10-25T20:41:02+00:00"
+        "last_seen": "2026-10-25T20:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202318",
@@ -3863,7 +3830,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-25T03:41:03+00:00",
-        "last_seen": "2026-10-25T20:41:02+00:00"
+        "last_seen": "2026-10-25T20:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20149293",
@@ -3878,7 +3845,7 @@
         "published": false,
         "reject_reason": "H7: Champion 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T03:01:11+00:00",
-        "last_seen": "2026-10-25T20:41:02+00:00"
+        "last_seen": "2026-10-25T20:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20195052",
@@ -3893,7 +3860,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T01:10:54+00:00",
-        "last_seen": "2026-10-25T20:41:02+00:00"
+        "last_seen": "2026-10-25T20:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202201",
@@ -3908,7 +3875,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-25T00:21:00+00:00",
-        "last_seen": "2026-10-25T20:41:02+00:00"
+        "last_seen": "2026-10-25T20:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191122",
@@ -3938,7 +3905,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-24T23:01:14+00:00",
-        "last_seen": "2026-10-25T20:41:02+00:00"
+        "last_seen": "2026-10-25T20:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20180997",
@@ -4088,7 +4055,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-24T08:51:43+00:00",
-        "last_seen": "2026-10-25T20:41:02+00:00"
+        "last_seen": "2026-10-25T20:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20198493",
@@ -4343,7 +4310,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-10-23T16:02:13+00:00",
-        "last_seen": "2026-10-25T20:41:02+00:00"
+        "last_seen": "2026-10-25T20:51:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20183223",
@@ -4647,7 +4614,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 71,
+      "collected_72h": 72,
       "published_72h": 8
     }
   }
