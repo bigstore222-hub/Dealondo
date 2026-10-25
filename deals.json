@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T07:21:37.159661+00:00",
+  "generated_at": "2026-10-25T07:31:05.640488+00:00",
   "count": 70,
   "deals": [
     {
@@ -995,7 +995,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-24T21:20:39.893068+00:00",
-      "last_seen": "2026-10-25T07:20:59.352446+00:00"
+      "last_seen": "2026-10-25T07:31:05.627871+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1723,54 +1723,6 @@
       "last_seen": "2026-10-23T07:42:35.907238+00:00"
     },
     {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10033556",
-      "title": "Sportswear Club Fleece Boxy Crew Neck Sweatshirt (Little Kid/Big Kid)",
-      "brand": "Nike",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/717x3P0mYpL._AC_SR255,340_.jpg",
-      "price_current": 16.5,
-      "price_list": 55.0,
-      "price_baseline": 55.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 21860,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10033556",
-      "discount_pct": 70.0,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-25T07:21:16.652294+00:00",
-      "last_seen": "2026-10-25T07:21:35.548701+00:00"
-    },
-    {
       "source": "slickdeals:zappos.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20202201",
@@ -1816,7 +1768,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-24T20:01:13.744423+00:00",
-      "last_seen": "2026-10-25T07:20:59.352446+00:00"
+      "last_seen": "2026-10-25T07:31:05.627871+00:00"
+    },
+    {
+      "source": "slickdeals:dickssportinggoods",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20195544",
+      "title": "Nike Kids' Mercurial Vapor 16 Academy Vini Jr. Indoor Soccer Shoes (Red/Royal) for $21 at Dick's Sporting Goods",
+      "brand": "Nike",
+      "category": "sports_outdoor",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20195544&t=15",
+      "price_current": 21.0,
+      "price_list": 69.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 27821,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20195544",
+      "discount_pct": 70.0,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-23T02:50:37.029906+00:00",
+      "last_seen": "2026-10-25T07:31:05.627871+00:00"
     },
     {
       "source": "zappos.com",
@@ -1960,7 +1960,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T13:01:26.324712+00:00",
-      "last_seen": "2026-10-25T07:20:59.352446+00:00"
+      "last_seen": "2026-10-25T07:31:05.627871+00:00"
     },
     {
       "source": "dealnews",
@@ -3382,13 +3382,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-25T07:20:26+00:00",
+      "T1": "2026-10-25T07:30:34+00:00",
       "T2": "2026-10-25T07:21:00+00:00",
       "T3": "2026-10-25T07:01:18+00:00",
       "T4": "2026-10-25T01:40:54+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       10,
@@ -3417,13 +3416,14 @@
       1,
       9,
       10,
-      1
+      1,
+      9
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-25T07:20:38+00:00",
+        "at": "2026-10-25T07:30:41+00:00",
         "state": "정상",
         "mails": 12,
         "deals": 12
@@ -3449,7 +3449,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T06:50:59+00:00",
-        "last_seen": "2026-10-25T07:20:59+00:00"
+        "last_seen": "2026-10-25T07:31:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20200629",
@@ -3464,7 +3464,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T04:31:06+00:00",
-        "last_seen": "2026-10-25T07:20:59+00:00"
+        "last_seen": "2026-10-25T07:31:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20183883",
@@ -3479,7 +3479,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T04:11:01+00:00",
-        "last_seen": "2026-10-25T07:20:59+00:00"
+        "last_seen": "2026-10-25T07:31:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202228",
@@ -3494,7 +3494,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T04:01:07+00:00",
-        "last_seen": "2026-10-25T07:20:59+00:00"
+        "last_seen": "2026-10-25T07:31:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202480",
@@ -3509,7 +3509,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T04:01:07+00:00",
-        "last_seen": "2026-10-25T07:20:59+00:00"
+        "last_seen": "2026-10-25T07:31:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202318",
@@ -3524,7 +3524,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-25T03:41:03+00:00",
-        "last_seen": "2026-10-25T07:20:59+00:00"
+        "last_seen": "2026-10-25T07:31:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20149293",
@@ -3539,7 +3539,7 @@
         "published": false,
         "reject_reason": "H7: Champion 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T03:01:11+00:00",
-        "last_seen": "2026-10-25T07:20:59+00:00"
+        "last_seen": "2026-10-25T07:31:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20195052",
@@ -3554,7 +3554,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T01:10:54+00:00",
-        "last_seen": "2026-10-25T07:20:59+00:00"
+        "last_seen": "2026-10-25T07:31:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202201",
@@ -3569,7 +3569,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-25T00:21:00+00:00",
-        "last_seen": "2026-10-25T07:20:59+00:00"
+        "last_seen": "2026-10-25T07:31:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191122",
@@ -3599,7 +3599,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-24T23:01:14+00:00",
-        "last_seen": "2026-10-25T07:20:59+00:00"
+        "last_seen": "2026-10-25T07:31:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20180997",
@@ -3749,7 +3749,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-24T08:51:43+00:00",
-        "last_seen": "2026-10-25T07:20:59+00:00"
+        "last_seen": "2026-10-25T07:31:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20198493",
@@ -4004,7 +4004,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-10-23T16:02:13+00:00",
-        "last_seen": "2026-10-25T07:20:59+00:00"
+        "last_seen": "2026-10-25T07:31:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20183223",
