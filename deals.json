@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T03:50:59.110885+00:00",
+  "generated_at": "2026-10-25T04:01:07.526000+00:00",
   "count": 74,
   "deals": [
     {
@@ -1089,7 +1089,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T22:31:06.981688+00:00",
-      "last_seen": "2026-10-25T03:50:57.733234+00:00"
+      "last_seen": "2026-10-25T04:01:07.513457+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1862,7 +1862,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-24T20:01:13.744423+00:00",
-      "last_seen": "2026-10-25T03:50:57.733234+00:00"
+      "last_seen": "2026-10-25T04:01:07.513457+00:00"
     },
     {
       "source": "slickdeals:dickssportinggoods",
@@ -1910,7 +1910,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T02:50:37.029906+00:00",
-      "last_seen": "2026-10-25T03:50:57.733234+00:00"
+      "last_seen": "2026-10-25T04:01:07.513457+00:00"
     },
     {
       "source": "zappos.com",
@@ -2054,7 +2054,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T13:01:26.324712+00:00",
-      "last_seen": "2026-10-25T03:50:57.733234+00:00"
+      "last_seen": "2026-10-25T04:01:07.513457+00:00"
     },
     {
       "source": "zappos.com",
@@ -3575,7 +3575,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-25T03:50:26+00:00",
+      "T1": "2026-10-25T04:00:40+00:00",
       "T2": "2026-10-25T03:20:57+00:00",
       "T3": "2026-10-25T02:41:34+00:00",
       "T4": "2026-10-25T01:40:54+00:00"
@@ -3609,16 +3609,17 @@
       1,
       9,
       10,
+      10,
       10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-25T03:50:35+00:00",
+        "at": "2026-10-25T04:00:48+00:00",
         "state": "정상",
-        "mails": 7,
-        "deals": 7
+        "mails": 9,
+        "deals": 9
       },
       "newsletter": {
         "at": "2026-10-25T01:43:30+00:00",
@@ -3628,6 +3629,36 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20202228",
+        "source": "slickdeals:zappos.com",
+        "title": "Nike Women's In-season Trainer 14 Shoes (Rose Gold/Metallic Rose Gold/Soft Pearl/Pearl White) for $36 at Zappos",
+        "price": 36.0,
+        "list_price": 80.0,
+        "discount_pct": 55.0,
+        "krw": 47694,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
+        "first_seen": "2026-10-25T04:01:07+00:00",
+        "last_seen": "2026-10-25T04:01:07+00:00"
+      },
+      {
+        "url": "https://slickdeals.net/f/20202480",
+        "source": "slickdeals:amazon.com",
+        "title": "808-Pc LEGO Speed Champions Mercedes-AMG G 63 & SL 63 Building Toys for $27 at Amazon",
+        "price": 27.0,
+        "list_price": 44.99,
+        "discount_pct": 40.0,
+        "krw": 35770,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-10-25T04:01:07+00:00",
+        "last_seen": "2026-10-25T04:01:07+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20202318",
         "source": "slickdeals:lowes.com",
@@ -3641,7 +3672,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-25T03:41:03+00:00",
-        "last_seen": "2026-10-25T03:50:57+00:00"
+        "last_seen": "2026-10-25T04:01:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20149293",
@@ -3656,7 +3687,7 @@
         "published": false,
         "reject_reason": "H7: Champion 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T03:01:11+00:00",
-        "last_seen": "2026-10-25T03:50:57+00:00"
+        "last_seen": "2026-10-25T04:01:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20195052",
@@ -3671,7 +3702,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T01:10:54+00:00",
-        "last_seen": "2026-10-25T03:50:57+00:00"
+        "last_seen": "2026-10-25T04:01:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202201",
@@ -3686,7 +3717,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-25T00:21:00+00:00",
-        "last_seen": "2026-10-25T03:50:57+00:00"
+        "last_seen": "2026-10-25T04:01:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191122",
@@ -3716,7 +3747,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-24T23:01:14+00:00",
-        "last_seen": "2026-10-25T03:50:57+00:00"
+        "last_seen": "2026-10-25T04:01:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20180997",
@@ -3866,7 +3897,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-24T08:51:43+00:00",
-        "last_seen": "2026-10-25T03:50:57+00:00"
+        "last_seen": "2026-10-25T04:01:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20198493",
@@ -4121,7 +4152,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-10-23T16:02:13+00:00",
-        "last_seen": "2026-10-25T03:50:57+00:00"
+        "last_seen": "2026-10-25T04:01:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20183223",
@@ -4706,36 +4737,6 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-22T04:11:08+00:00",
-        "last_seen": "2026-10-23T00:51:04+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20188443",
-        "source": "slickdeals:amazon.com",
-        "title": "TT Nature 1.5L Solar Smart Bird Feeder w/ 1080P AI Camera for $30 at Amazon",
-        "price": 30.0,
-        "list_price": 99.99,
-        "discount_pct": 70.0,
-        "krw": 39749,
-        "kr_lowest": null,
-        "score": 47,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-10-22T03:51:21+00:00",
-        "last_seen": "2026-10-23T00:51:04+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20189511",
-        "source": "slickdeals:amazon.com",
-        "title": "JBL Professional 306P MkII 6\" 2-Way Powered Active Monitor Speaker for $119 at Amazon",
-        "price": 119.0,
-        "list_price": null,
-        "discount_pct": null,
-        "krw": 157669,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
-        "first_seen": "2026-10-22T03:51:21+00:00",
         "last_seen": "2026-10-23T00:51:04+00:00"
       }
     ],
