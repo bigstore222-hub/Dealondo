@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T13:10:57.866195+00:00",
+  "generated_at": "2026-10-26T13:21:10.442057+00:00",
   "count": 82,
   "deals": [
     {
@@ -1555,7 +1555,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T13:01:26.324712+00:00",
-      "last_seen": "2026-10-26T13:10:55.809473+00:00"
+      "last_seen": "2026-10-26T13:21:09.745673+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1700,6 +1700,55 @@
       "urgency": "HOT",
       "detected_at": "2026-10-24T18:02:19.501087+00:00",
       "last_seen": "2026-10-25T09:12:03.432505+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20203374",
+      "title": "4-Pk M&G 16.5\" x 12\" Magnetic Dry Erase Whiteboard Calendar Set for Fridge $7.50",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/2/0/5/3/8/1/8/4/300x300/22078065.thumb",
+      "price_current": 7.5,
+      "price_list": 15.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "YPZNWPHG",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 24,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 9929,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20203374",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 YPZNWPHG → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-25T04:30:41.066551+00:00",
+      "last_seen": "2026-10-26T13:21:09.745673+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1990,54 +2039,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-26T01:00:50.170047+00:00",
       "last_seen": "2026-10-26T03:11:10.277675+00:00"
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20189307",
-      "title": "2-Pk Dinosoo RGB Wireless Controllers for Switch/PC (Black) $19.50 + Free S&H",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/0/6/6/9/4/300x300/22084281.thumb",
-      "price_current": 19.5,
-      "price_list": 39.0,
-      "price_baseline": null,
-      "price_alltime_low": 19.5,
-      "currency": "USD",
-      "coupon_code": "ZV7FC0YQ",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 84,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 25816,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20189307",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": 25,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "code_deal": "공개코드 ZV7FC0YQ → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-22T20:30:57.078189+00:00",
-      "last_seen": "2026-10-26T01:40:56.304667+00:00"
     },
     {
       "source": "zappos.com",
@@ -3940,7 +3941,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-26T13:10:24+00:00",
+      "T1": "2026-10-26T13:20:29+00:00",
       "T2": "2026-10-26T12:50:59+00:00",
       "T3": "2026-10-26T11:11:01+00:00",
       "T4": "2026-10-26T08:22:58+00:00"
@@ -3974,13 +3975,14 @@
       10,
       1,
       10,
-      9
+      9,
+      10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-26T13:10:33+00:00",
+        "at": "2026-10-26T13:20:49+00:00",
         "state": "정상",
         "mails": 13,
         "deals": 13
@@ -4006,7 +4008,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-26T06:11:14+00:00",
-        "last_seen": "2026-10-26T13:10:56+00:00"
+        "last_seen": "2026-10-26T13:21:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20206317",
@@ -4021,7 +4023,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T04:31:07+00:00",
-        "last_seen": "2026-10-26T13:10:56+00:00"
+        "last_seen": "2026-10-26T13:21:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204196",
@@ -4036,7 +4038,7 @@
         "published": false,
         "reject_reason": "H8: 할인 22% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-26T04:31:07+00:00",
-        "last_seen": "2026-10-26T13:10:56+00:00"
+        "last_seen": "2026-10-26T13:21:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20203875",
@@ -4051,7 +4053,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T03:41:11+00:00",
-        "last_seen": "2026-10-26T13:10:56+00:00"
+        "last_seen": "2026-10-26T13:21:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20205957",
@@ -4066,7 +4068,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T02:30:59+00:00",
-        "last_seen": "2026-10-26T13:10:56+00:00"
+        "last_seen": "2026-10-26T13:21:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204571",
@@ -4081,7 +4083,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 45% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-26T01:50:57+00:00",
-        "last_seen": "2026-10-26T13:10:56+00:00"
+        "last_seen": "2026-10-26T13:21:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20206563",
@@ -4096,7 +4098,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T01:50:57+00:00",
-        "last_seen": "2026-10-26T13:10:56+00:00"
+        "last_seen": "2026-10-26T13:21:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20205711",
@@ -4231,7 +4233,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T19:31:15+00:00",
-        "last_seen": "2026-10-26T13:10:56+00:00"
+        "last_seen": "2026-10-26T13:21:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20194017",
@@ -4276,7 +4278,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T17:31:03+00:00",
-        "last_seen": "2026-10-26T13:10:56+00:00"
+        "last_seen": "2026-10-26T13:21:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204004",
@@ -4456,7 +4458,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T04:01:07+00:00",
-        "last_seen": "2026-10-26T13:10:56+00:00"
+        "last_seen": "2026-10-26T13:21:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202480",
@@ -4471,7 +4473,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T04:01:07+00:00",
-        "last_seen": "2026-10-26T13:10:56+00:00"
+        "last_seen": "2026-10-26T13:21:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202318",
@@ -4531,7 +4533,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-25T00:21:00+00:00",
-        "last_seen": "2026-10-26T13:10:56+00:00"
+        "last_seen": "2026-10-26T13:21:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191122",
@@ -4561,7 +4563,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-24T23:01:14+00:00",
-        "last_seen": "2026-10-26T13:10:56+00:00"
+        "last_seen": "2026-10-26T13:21:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20180997",
