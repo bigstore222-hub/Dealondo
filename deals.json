@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T14:31:04.878322+00:00",
+  "generated_at": "2026-10-26T14:34:43.389569+00:00",
   "count": 81,
   "deals": [
     {
@@ -3895,10 +3895,9 @@
       "T1": "2026-10-26T14:30:33+00:00",
       "T2": "2026-10-26T14:11:31+00:00",
       "T3": "2026-10-26T13:21:12+00:00",
-      "T4": "2026-10-26T08:22:58+00:00"
+      "T4": "2026-10-26T14:31:06+00:00"
     },
     "recent_gaps_min": [
-      1,
       9,
       1,
       9,
@@ -3927,7 +3926,8 @@
       10,
       1,
       9,
-      10
+      10,
+      4
     ]
   },
   "email_monitor": {
@@ -3939,9 +3939,9 @@
         "deals": 13
       },
       "newsletter": {
-        "at": "2026-10-26T08:25:48+00:00",
+        "at": "2026-10-26T14:34:21+00:00",
         "state": "정상",
-        "mails": 22,
+        "mails": 31,
         "deals": 0
       }
     },
@@ -4950,41 +4950,11 @@
         "reject_reason": "",
         "first_seen": "2026-10-23T14:52:22+00:00",
         "last_seen": "2026-10-24T00:51:11+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20191632",
-        "source": "slickdeals:amazon.com",
-        "title": "Blink Mini Pan-Tilt Camera for $24 at Amazon",
-        "price": 24.0,
-        "list_price": 39.99,
-        "discount_pct": 40.0,
-        "krw": 31793,
-        "kr_lowest": null,
-        "score": 31,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-10-23T14:31:20+00:00",
-        "last_seen": "2026-10-24T00:51:11+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20195538",
-        "source": "slickdeals:amazon.com",
-        "title": "adidas Kids' Adizero Impact Spider-Man Turf Baseball Shoes (Red/White) for $17.25 at Amazon",
-        "price": 17.25,
-        "list_price": 59.99,
-        "discount_pct": 71.2,
-        "krw": 22851,
-        "kr_lowest": null,
-        "score": 61,
-        "published": true,
-        "reject_reason": "",
-        "first_seen": "2026-10-23T14:31:20+00:00",
-        "last_seen": "2026-10-24T00:51:11+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 69,
-      "published_72h": 6
+      "collected_72h": 67,
+      "published_72h": 5
     }
   }
 }
