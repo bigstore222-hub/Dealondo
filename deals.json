@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T17:40:34.075491+00:00",
-  "count": 83,
+  "generated_at": "2026-10-26T17:41:32.766886+00:00",
+  "count": 84,
   "deals": [
     {
       "source": "nordstromrack.com",
@@ -377,6 +377,54 @@
       "urgency": "FLASH",
       "detected_at": "2026-10-17T09:24:16.062988+00:00",
       "last_seen": "2026-10-26T03:51:36.114654+00:00"
+    },
+    {
+      "source": "6pm.com",
+      "source_tier": "T3",
+      "url": "https://www.6pm.com/product/10055713",
+      "title": "Cern Top",
+      "brand": "AllSaints",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/81kovWQPXQL._AC_SR255,340_.jpg",
+      "price_current": 47.8,
+      "price_list": 239.0,
+      "price_baseline": 239.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 63283,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.6pm.com/product/10055713",
+      "discount_pct": 80.0,
+      "score": 83,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-26T17:41:13.891140+00:00",
+      "last_seen": "2026-10-26T17:41:32.740068+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -3989,11 +4037,10 @@
     "tier_last_run": {
       "T1": "2026-10-26T17:39:55+00:00",
       "T2": "2026-10-26T17:20:29+00:00",
-      "T3": "2026-10-26T15:31:45+00:00",
+      "T3": "2026-10-26T17:40:35+00:00",
       "T4": "2026-10-26T14:31:06+00:00"
     },
     "recent_gaps_min": [
-      9,
       10,
       11,
       10,
@@ -4022,7 +4069,8 @@
       8,
       1,
       10,
-      9
+      9,
+      1
     ]
   },
   "email_monitor": {
