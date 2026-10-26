@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T02:20:56.816497+00:00",
+  "generated_at": "2026-10-26T02:30:59.712581+00:00",
   "count": 74,
   "deals": [
     {
@@ -1185,7 +1185,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-26T01:00:50.170047+00:00",
-      "last_seen": "2026-10-26T02:20:55.401781+00:00"
+      "last_seen": "2026-10-26T02:30:59.703403+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1954,7 +1954,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-24T20:01:13.744423+00:00",
-      "last_seen": "2026-10-26T02:20:55.401781+00:00"
+      "last_seen": "2026-10-26T02:30:59.703403+00:00"
     },
     {
       "source": "zappos.com",
@@ -2098,7 +2098,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-23T13:01:26.324712+00:00",
-      "last_seen": "2026-10-26T02:20:55.401781+00:00"
+      "last_seen": "2026-10-26T02:30:59.703403+00:00"
     },
     {
       "source": "dealnews",
@@ -3571,7 +3571,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-26T02:20:27+00:00",
+      "T1": "2026-10-26T02:30:31+00:00",
       "T2": "2026-10-26T01:50:58+00:00",
       "T3": "2026-10-26T00:21:03+00:00",
       "T4": "2026-10-26T02:10:59+00:00"
@@ -3605,16 +3605,17 @@
       10,
       10,
       3,
-      7
+      7,
+      10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-26T02:20:36+00:00",
+        "at": "2026-10-26T02:30:39+00:00",
         "state": "정상",
-        "mails": 8,
-        "deals": 8
+        "mails": 9,
+        "deals": 9
       },
       "newsletter": {
         "at": "2026-10-26T02:13:38+00:00",
@@ -3624,6 +3625,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20205957",
+        "source": "slickdeals:amazon.com",
+        "title": "1050J SUPERDANNY 8-in-1 Surge Protector Power Strip w/ 3' Flat Cord for $10 at Amazon",
+        "price": 10.0,
+        "list_price": 19.99,
+        "discount_pct": 50.0,
+        "krw": 13239,
+        "kr_lowest": null,
+        "score": 31,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-10-26T02:30:59+00:00",
+        "last_seen": "2026-10-26T02:30:59+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20204571",
         "source": "slickdeals:zappos.com",
@@ -3637,7 +3653,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 45% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-26T01:50:57+00:00",
-        "last_seen": "2026-10-26T02:20:55+00:00"
+        "last_seen": "2026-10-26T02:30:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20206563",
@@ -3652,7 +3668,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T01:50:57+00:00",
-        "last_seen": "2026-10-26T02:20:55+00:00"
+        "last_seen": "2026-10-26T02:30:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20205711",
@@ -3787,7 +3803,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T19:31:15+00:00",
-        "last_seen": "2026-10-26T02:20:55+00:00"
+        "last_seen": "2026-10-26T02:30:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20194017",
@@ -3832,7 +3848,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T17:31:03+00:00",
-        "last_seen": "2026-10-26T02:20:55+00:00"
+        "last_seen": "2026-10-26T02:30:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204004",
@@ -4012,7 +4028,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T04:01:07+00:00",
-        "last_seen": "2026-10-26T02:20:55+00:00"
+        "last_seen": "2026-10-26T02:30:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202480",
@@ -4027,7 +4043,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T04:01:07+00:00",
-        "last_seen": "2026-10-26T02:20:55+00:00"
+        "last_seen": "2026-10-26T02:30:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202318",
@@ -4087,7 +4103,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-25T00:21:00+00:00",
-        "last_seen": "2026-10-26T02:20:55+00:00"
+        "last_seen": "2026-10-26T02:30:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191122",
@@ -4117,7 +4133,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-24T23:01:14+00:00",
-        "last_seen": "2026-10-26T02:20:55+00:00"
+        "last_seen": "2026-10-26T02:30:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20180997",
@@ -4736,7 +4752,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 74,
+      "collected_72h": 75,
       "published_72h": 8
     }
   }
