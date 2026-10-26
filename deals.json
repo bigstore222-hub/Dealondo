@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T17:41:53.981668+00:00",
+  "generated_at": "2026-10-26T17:51:01.519137+00:00",
   "count": 84,
   "deals": [
     {
@@ -1650,7 +1650,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T13:01:26.324712+00:00",
-      "last_seen": "2026-10-26T17:40:34.060174+00:00"
+      "last_seen": "2026-10-26T17:51:01.504124+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1795,7 +1795,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-24T21:20:39.893068+00:00",
-      "last_seen": "2026-10-26T17:40:34.060174+00:00"
+      "last_seen": "2026-10-26T17:51:01.504124+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1844,7 +1844,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-26T16:20:41.067271+00:00",
-      "last_seen": "2026-10-26T17:40:34.060174+00:00"
+      "last_seen": "2026-10-26T17:51:01.504124+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1892,7 +1892,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T14:30:55.898379+00:00",
-      "last_seen": "2026-10-26T17:40:34.060174+00:00"
+      "last_seen": "2026-10-26T17:51:01.504124+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1941,7 +1941,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-26T16:10:54.690255+00:00",
-      "last_seen": "2026-10-26T17:40:34.060174+00:00"
+      "last_seen": "2026-10-26T17:51:01.504124+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -4035,7 +4035,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-26T17:39:55+00:00",
+      "T1": "2026-10-26T17:50:30+00:00",
       "T2": "2026-10-26T17:20:29+00:00",
       "T3": "2026-10-26T17:40:35+00:00",
       "T4": "2026-10-26T14:31:06+00:00"
@@ -4069,13 +4069,14 @@
       8,
       1,
       10,
-      11
+      11,
+      9
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-26T17:40:15+00:00",
+        "at": "2026-10-26T17:50:42+00:00",
         "state": "정상",
         "mails": 18,
         "deals": 18
@@ -4101,7 +4102,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-26T17:40:34+00:00",
-        "last_seen": "2026-10-26T17:40:34+00:00"
+        "last_seen": "2026-10-26T17:51:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20205765",
@@ -4116,7 +4117,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T17:31:14+00:00",
-        "last_seen": "2026-10-26T17:40:34+00:00"
+        "last_seen": "2026-10-26T17:51:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20207586",
@@ -4131,7 +4132,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T15:41:00+00:00",
-        "last_seen": "2026-10-26T17:40:34+00:00"
+        "last_seen": "2026-10-26T17:51:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20208768",
@@ -4146,7 +4147,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T15:41:00+00:00",
-        "last_seen": "2026-10-26T17:40:34+00:00"
+        "last_seen": "2026-10-26T17:51:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20207481",
@@ -4161,7 +4162,7 @@
         "published": false,
         "reject_reason": "H8: 할인 21% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-26T14:51:06+00:00",
-        "last_seen": "2026-10-26T17:40:34+00:00"
+        "last_seen": "2026-10-26T17:51:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20205057",
@@ -4176,7 +4177,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-26T06:11:14+00:00",
-        "last_seen": "2026-10-26T17:40:34+00:00"
+        "last_seen": "2026-10-26T17:51:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20206317",
@@ -4191,7 +4192,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T04:31:07+00:00",
-        "last_seen": "2026-10-26T17:40:34+00:00"
+        "last_seen": "2026-10-26T17:51:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204196",
@@ -4206,7 +4207,7 @@
         "published": false,
         "reject_reason": "H8: 할인 22% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-26T04:31:07+00:00",
-        "last_seen": "2026-10-26T17:40:34+00:00"
+        "last_seen": "2026-10-26T17:51:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20203875",
@@ -4221,7 +4222,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T03:41:11+00:00",
-        "last_seen": "2026-10-26T17:40:34+00:00"
+        "last_seen": "2026-10-26T17:51:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20205957",
@@ -4236,7 +4237,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T02:30:59+00:00",
-        "last_seen": "2026-10-26T17:40:34+00:00"
+        "last_seen": "2026-10-26T17:51:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204571",
@@ -4251,7 +4252,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 45% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-26T01:50:57+00:00",
-        "last_seen": "2026-10-26T17:40:34+00:00"
+        "last_seen": "2026-10-26T17:51:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20206563",
@@ -4266,7 +4267,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T01:50:57+00:00",
-        "last_seen": "2026-10-26T17:40:34+00:00"
+        "last_seen": "2026-10-26T17:51:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20205711",
@@ -4401,7 +4402,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T19:31:15+00:00",
-        "last_seen": "2026-10-26T17:40:34+00:00"
+        "last_seen": "2026-10-26T17:51:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20194017",
@@ -4446,7 +4447,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T17:31:03+00:00",
-        "last_seen": "2026-10-26T17:40:34+00:00"
+        "last_seen": "2026-10-26T17:51:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204004",
@@ -4626,7 +4627,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T04:01:07+00:00",
-        "last_seen": "2026-10-26T17:40:34+00:00"
+        "last_seen": "2026-10-26T17:51:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202480",
@@ -4641,7 +4642,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T04:01:07+00:00",
-        "last_seen": "2026-10-26T17:40:34+00:00"
+        "last_seen": "2026-10-26T17:51:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202318",
@@ -4701,7 +4702,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-25T00:21:00+00:00",
-        "last_seen": "2026-10-26T17:40:34+00:00"
+        "last_seen": "2026-10-26T17:51:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191122",
@@ -4731,7 +4732,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-24T23:01:14+00:00",
-        "last_seen": "2026-10-26T17:40:34+00:00"
+        "last_seen": "2026-10-26T17:51:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20180997",
