@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T18:31:10.333589+00:00",
+  "generated_at": "2026-10-26T18:41:19.658892+00:00",
   "count": 84,
   "deals": [
     {
@@ -1650,7 +1650,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T13:01:26.324712+00:00",
-      "last_seen": "2026-10-26T18:31:08.931539+00:00"
+      "last_seen": "2026-10-26T18:41:19.645090+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1795,7 +1795,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-26T18:00:59.828745+00:00",
-      "last_seen": "2026-10-26T18:31:08.931539+00:00"
+      "last_seen": "2026-10-26T18:41:19.645090+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1843,7 +1843,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-22T20:21:20.297209+00:00",
-      "last_seen": "2026-10-26T18:31:08.931539+00:00"
+      "last_seen": "2026-10-26T18:41:19.645090+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1856,7 +1856,7 @@
       "price_current": 35.0,
       "price_list": 70.0,
       "price_baseline": null,
-      "price_alltime_low": null,
+      "price_alltime_low": 35.0,
       "currency": "USD",
       "coupon_code": "CWZMFU5R",
       "coupon_stackable": false,
@@ -1881,18 +1881,17 @@
       "score": 75,
       "score_breakdown": {
         "discount_depth": 18,
-        "price_history": null,
+        "price_history": 25,
         "category": 5,
         "bonus": 0,
         "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
         "code_deal": "공개코드 CWZMFU5R → 하한 75"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T18:30:48.165497+00:00",
-      "last_seen": "2026-10-26T18:31:08.931539+00:00"
+      "last_seen": "2026-10-26T18:41:19.645090+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1941,7 +1940,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-24T21:20:39.893068+00:00",
-      "last_seen": "2026-10-26T18:31:08.931539+00:00"
+      "last_seen": "2026-10-26T18:41:19.645090+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1990,7 +1989,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-26T16:20:41.067271+00:00",
-      "last_seen": "2026-10-26T18:31:08.931539+00:00"
+      "last_seen": "2026-10-26T18:41:19.645090+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -4035,7 +4034,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-26T18:30:35+00:00",
+      "T1": "2026-10-26T18:40:28+00:00",
       "T2": "2026-10-26T18:01:23+00:00",
       "T3": "2026-10-26T17:40:35+00:00",
       "T4": "2026-10-26T14:31:06+00:00"
@@ -4069,16 +4068,17 @@
       1,
       9,
       10,
+      10,
       10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-26T18:30:44+00:00",
+        "at": "2026-10-26T18:40:59+00:00",
         "state": "정상",
-        "mails": 19,
-        "deals": 19
+        "mails": 20,
+        "deals": 20
       },
       "newsletter": {
         "at": "2026-10-26T14:34:21+00:00",
@@ -4088,6 +4088,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20208615",
+        "source": "slickdeals:nike.com",
+        "title": "Nike Men's Air Force 1 '07 LX Vibram Shoes (2 Colors) for $80 at Nike",
+        "price": 80.0,
+        "list_price": 140.0,
+        "discount_pct": 42.9,
+        "krw": 105912,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
+        "first_seen": "2026-10-26T18:41:19+00:00",
+        "last_seen": "2026-10-26T18:41:19+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20203155",
         "source": "slickdeals:bestbuy.com",
@@ -4101,7 +4116,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T18:31:08+00:00",
-        "last_seen": "2026-10-26T18:31:08+00:00"
+        "last_seen": "2026-10-26T18:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20189367",
@@ -4116,7 +4131,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-26T17:40:34+00:00",
-        "last_seen": "2026-10-26T18:31:08+00:00"
+        "last_seen": "2026-10-26T18:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20205765",
@@ -4131,7 +4146,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T17:31:14+00:00",
-        "last_seen": "2026-10-26T18:31:08+00:00"
+        "last_seen": "2026-10-26T18:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20207586",
@@ -4146,7 +4161,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T15:41:00+00:00",
-        "last_seen": "2026-10-26T18:31:08+00:00"
+        "last_seen": "2026-10-26T18:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20208768",
@@ -4161,7 +4176,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T15:41:00+00:00",
-        "last_seen": "2026-10-26T18:31:08+00:00"
+        "last_seen": "2026-10-26T18:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20207481",
@@ -4176,7 +4191,7 @@
         "published": false,
         "reject_reason": "H8: 할인 21% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-26T14:51:06+00:00",
-        "last_seen": "2026-10-26T18:31:08+00:00"
+        "last_seen": "2026-10-26T18:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20205057",
@@ -4191,7 +4206,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-26T06:11:14+00:00",
-        "last_seen": "2026-10-26T18:31:08+00:00"
+        "last_seen": "2026-10-26T18:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20206317",
@@ -4206,7 +4221,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T04:31:07+00:00",
-        "last_seen": "2026-10-26T18:31:08+00:00"
+        "last_seen": "2026-10-26T18:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204196",
@@ -4221,7 +4236,7 @@
         "published": false,
         "reject_reason": "H8: 할인 22% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-26T04:31:07+00:00",
-        "last_seen": "2026-10-26T18:31:08+00:00"
+        "last_seen": "2026-10-26T18:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20203875",
@@ -4236,7 +4251,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T03:41:11+00:00",
-        "last_seen": "2026-10-26T18:31:08+00:00"
+        "last_seen": "2026-10-26T18:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20205957",
@@ -4251,7 +4266,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T02:30:59+00:00",
-        "last_seen": "2026-10-26T18:31:08+00:00"
+        "last_seen": "2026-10-26T18:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204571",
@@ -4266,7 +4281,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 45% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-26T01:50:57+00:00",
-        "last_seen": "2026-10-26T18:31:08+00:00"
+        "last_seen": "2026-10-26T18:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20206563",
@@ -4281,7 +4296,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T01:50:57+00:00",
-        "last_seen": "2026-10-26T18:31:08+00:00"
+        "last_seen": "2026-10-26T18:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20205711",
@@ -4416,7 +4431,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T19:31:15+00:00",
-        "last_seen": "2026-10-26T18:31:08+00:00"
+        "last_seen": "2026-10-26T18:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20194017",
@@ -4461,7 +4476,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T17:31:03+00:00",
-        "last_seen": "2026-10-26T18:31:08+00:00"
+        "last_seen": "2026-10-26T18:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204004",
@@ -4641,7 +4656,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T04:01:07+00:00",
-        "last_seen": "2026-10-26T18:31:08+00:00"
+        "last_seen": "2026-10-26T18:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202480",
@@ -4656,7 +4671,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T04:01:07+00:00",
-        "last_seen": "2026-10-26T18:31:08+00:00"
+        "last_seen": "2026-10-26T18:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202318",
@@ -4716,7 +4731,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-25T00:21:00+00:00",
-        "last_seen": "2026-10-26T18:31:08+00:00"
+        "last_seen": "2026-10-26T18:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191122",
@@ -4746,7 +4761,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-24T23:01:14+00:00",
-        "last_seen": "2026-10-26T18:31:08+00:00"
+        "last_seen": "2026-10-26T18:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20180997",
@@ -5091,21 +5106,6 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-23T18:51:05+00:00",
-        "last_seen": "2026-10-24T00:51:11+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20197065",
-        "source": "slickdeals:amazon.com",
-        "title": "Zdkll Magnetic Electric Rechargeable Hand Warmers for $8 at Amazon",
-        "price": 8.0,
-        "list_price": 13.99,
-        "discount_pct": 42.8,
-        "krw": 10598,
-        "kr_lowest": null,
-        "score": 31,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-10-23T18:31:13+00:00",
         "last_seen": "2026-10-24T00:51:11+00:00"
       }
     ],
