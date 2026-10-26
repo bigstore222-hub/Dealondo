@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T00:21:02.297577+00:00",
+  "generated_at": "2026-10-26T00:22:02.604762+00:00",
   "count": 71,
   "deals": [
     {
@@ -97,6 +97,54 @@
       "last_seen": "2026-10-25T19:51:35.710865+00:00"
     },
     {
+      "source": "6pm.com",
+      "source_tier": "T3",
+      "url": "https://www.6pm.com/product/9961271",
+      "title": "Bryony Dress",
+      "brand": "AllSaints",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/61n-jd35QEL._AC_SR255,340_.jpg",
+      "price_current": 43.8,
+      "price_list": 219.0,
+      "price_baseline": 219.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 58027,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.6pm.com/product/9961271",
+      "discount_pct": 80.0,
+      "score": 83,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-23T18:11:48.075953+00:00",
+      "last_seen": "2026-10-26T00:22:02.033682+00:00"
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/ferragamo-gancini-55mm-rectangular-sunglasses/6807226",
@@ -143,54 +191,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-25T12:41:22.333980+00:00",
       "last_seen": "2026-10-25T23:51:40.640826+00:00"
-    },
-    {
-      "source": "6pm.com",
-      "source_tier": "T3",
-      "url": "https://www.6pm.com/product/9961271",
-      "title": "Bryony Dress",
-      "brand": "AllSaints",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61n-jd35QEL._AC_SR255,340_.jpg",
-      "price_current": 43.8,
-      "price_list": 219.0,
-      "price_baseline": 219.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 58027,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.6pm.com/product/9961271",
-      "discount_pct": 80.0,
-      "score": 83,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-23T18:11:48.075953+00:00",
-      "last_seen": "2026-10-25T22:11:58.947415+00:00"
     },
     {
       "source": "6pm.com",
@@ -1668,7 +1668,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-25T17:52:37.704267+00:00",
-      "last_seen": "2026-10-25T20:02:06.223575+00:00"
+      "last_seen": "2026-10-26T00:22:02.033682+00:00"
     },
     {
       "source": "dealnews",
@@ -3427,11 +3427,10 @@
     "tier_last_run": {
       "T1": "2026-10-26T00:20:26+00:00",
       "T2": "2026-10-25T23:51:07+00:00",
-      "T3": "2026-10-25T22:11:05+00:00",
+      "T3": "2026-10-26T00:21:03+00:00",
       "T4": "2026-10-25T20:02:22+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       10,
@@ -3460,7 +3459,8 @@
       1,
       10,
       11,
-      9
+      9,
+      1
     ]
   },
   "email_monitor": {
@@ -4588,25 +4588,10 @@
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T00:32:24+00:00",
         "last_seen": "2026-10-23T00:51:04+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20194035",
-        "source": "slickdeals:costcowholesale",
-        "title": "LEGO Netflix ONE PIECE: 1705-Pc Garp's Marine Battleship + 577-Pc Tony Tony Chopper for $159.95 at Costco Wholesale",
-        "price": 159.95,
-        "list_price": 249.98,
-        "discount_pct": 36.0,
-        "krw": 211926,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
-        "first_seen": "2026-10-23T00:21:23+00:00",
-        "last_seen": "2026-10-23T00:51:04+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 75,
+      "collected_72h": 74,
       "published_72h": 8
     }
   }
