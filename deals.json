@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T16:01:21.999400+00:00",
+  "generated_at": "2026-10-26T16:11:16.287114+00:00",
   "count": 82,
   "deals": [
     {
@@ -1602,7 +1602,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T13:01:26.324712+00:00",
-      "last_seen": "2026-10-26T16:01:20.223470+00:00"
+      "last_seen": "2026-10-26T16:11:16.279950+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1746,7 +1746,56 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T14:30:55.898379+00:00",
-      "last_seen": "2026-10-26T16:01:20.223470+00:00"
+      "last_seen": "2026-10-26T16:11:16.279950+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20210946",
+      "title": "VOLISUN 3-Light K9 Crystal Bathroom Vanity Light Fixture $22.19 + Free Shipping w/ Prime or on $35+",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/9/3/0/4/6/1/9/300x300/22095096.thumb",
+      "price_current": 35.0,
+      "price_list": 70.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "PPFKD0YC",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 0,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 46337,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20210946",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 PPFKD0YC → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-26T16:10:54.690255+00:00",
+      "last_seen": "2026-10-26T16:11:16.279950+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1941,55 +1990,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-26T04:30:42.305414+00:00",
       "last_seen": "2026-10-26T09:01:43.292740+00:00"
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20201865",
-      "title": "4-Pk EXF 33' Solar Outdoor Christmas Lights (Multicolor) $20 + Free S&H",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/2/4/9/0/7/0/8/300x300/22075368.thumb",
-      "price_current": 20.0,
-      "price_list": 40.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "G7LDRJEO",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 27,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 26478,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20201865",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 G7LDRJEO → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-26T03:20:37.902066+00:00",
-      "last_seen": "2026-10-26T06:20:55.745345+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -3938,7 +3938,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-26T16:00:44+00:00",
+      "T1": "2026-10-26T16:10:30+00:00",
       "T2": "2026-10-26T15:31:10+00:00",
       "T3": "2026-10-26T15:31:45+00:00",
       "T4": "2026-10-26T14:31:06+00:00"
@@ -3972,13 +3972,14 @@
       25,
       5,
       10,
+      10,
       10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-26T16:01:00+00:00",
+        "at": "2026-10-26T16:10:54+00:00",
         "state": "정상",
         "mails": 16,
         "deals": 16
@@ -4004,7 +4005,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T15:41:00+00:00",
-        "last_seen": "2026-10-26T16:01:20+00:00"
+        "last_seen": "2026-10-26T16:11:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20208768",
@@ -4019,7 +4020,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T15:41:00+00:00",
-        "last_seen": "2026-10-26T16:01:20+00:00"
+        "last_seen": "2026-10-26T16:11:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20207481",
@@ -4034,7 +4035,7 @@
         "published": false,
         "reject_reason": "H8: 할인 21% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-26T14:51:06+00:00",
-        "last_seen": "2026-10-26T16:01:20+00:00"
+        "last_seen": "2026-10-26T16:11:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20205057",
@@ -4049,7 +4050,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-26T06:11:14+00:00",
-        "last_seen": "2026-10-26T16:01:20+00:00"
+        "last_seen": "2026-10-26T16:11:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20206317",
@@ -4064,7 +4065,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T04:31:07+00:00",
-        "last_seen": "2026-10-26T16:01:20+00:00"
+        "last_seen": "2026-10-26T16:11:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204196",
@@ -4079,7 +4080,7 @@
         "published": false,
         "reject_reason": "H8: 할인 22% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-26T04:31:07+00:00",
-        "last_seen": "2026-10-26T16:01:20+00:00"
+        "last_seen": "2026-10-26T16:11:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20203875",
@@ -4094,7 +4095,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T03:41:11+00:00",
-        "last_seen": "2026-10-26T16:01:20+00:00"
+        "last_seen": "2026-10-26T16:11:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20205957",
@@ -4109,7 +4110,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T02:30:59+00:00",
-        "last_seen": "2026-10-26T16:01:20+00:00"
+        "last_seen": "2026-10-26T16:11:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204571",
@@ -4124,7 +4125,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 45% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-26T01:50:57+00:00",
-        "last_seen": "2026-10-26T16:01:20+00:00"
+        "last_seen": "2026-10-26T16:11:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20206563",
@@ -4139,7 +4140,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T01:50:57+00:00",
-        "last_seen": "2026-10-26T16:01:20+00:00"
+        "last_seen": "2026-10-26T16:11:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20205711",
@@ -4274,7 +4275,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T19:31:15+00:00",
-        "last_seen": "2026-10-26T16:01:20+00:00"
+        "last_seen": "2026-10-26T16:11:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20194017",
@@ -4319,7 +4320,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T17:31:03+00:00",
-        "last_seen": "2026-10-26T16:01:20+00:00"
+        "last_seen": "2026-10-26T16:11:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204004",
@@ -4499,7 +4500,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T04:01:07+00:00",
-        "last_seen": "2026-10-26T16:01:20+00:00"
+        "last_seen": "2026-10-26T16:11:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202480",
@@ -4514,7 +4515,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T04:01:07+00:00",
-        "last_seen": "2026-10-26T16:01:20+00:00"
+        "last_seen": "2026-10-26T16:11:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202318",
@@ -4574,7 +4575,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-25T00:21:00+00:00",
-        "last_seen": "2026-10-26T16:01:20+00:00"
+        "last_seen": "2026-10-26T16:11:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191122",
@@ -4604,7 +4605,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-24T23:01:14+00:00",
-        "last_seen": "2026-10-26T16:01:20+00:00"
+        "last_seen": "2026-10-26T16:11:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20180997",
@@ -4995,25 +4996,10 @@
         "reject_reason": "",
         "first_seen": "2026-10-23T17:31:17+00:00",
         "last_seen": "2026-10-24T00:51:11+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20191023",
-        "source": "slickdeals:slickdeals.net",
-        "title": "(Open Box Pristine) Apple Magic Keyboard Case for 13\" iPad Pro (M4 & M5) for $199",
-        "price": 199.0,
-        "list_price": null,
-        "discount_pct": null,
-        "krw": 263639,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
-        "first_seen": "2026-10-23T16:02:13+00:00",
-        "last_seen": "2026-10-25T23:51:05+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 68,
+      "collected_72h": 67,
       "published_72h": 5
     }
   }
