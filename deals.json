@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T02:10:57.858741+00:00",
+  "generated_at": "2026-10-26T02:14:02.749160+00:00",
   "count": 74,
   "deals": [
     {
@@ -3574,10 +3574,9 @@
       "T1": "2026-10-26T02:10:26+00:00",
       "T2": "2026-10-26T01:50:58+00:00",
       "T3": "2026-10-26T00:21:03+00:00",
-      "T4": "2026-10-25T20:02:22+00:00"
+      "T4": "2026-10-26T02:10:59+00:00"
     },
     "recent_gaps_min": [
-      11,
       9,
       10,
       10,
@@ -3606,7 +3605,8 @@
       10,
       1,
       10,
-      10
+      10,
+      3
     ]
   },
   "email_monitor": {
@@ -3618,10 +3618,10 @@
         "deals": 8
       },
       "newsletter": {
-        "at": "2026-10-25T20:05:05+00:00",
+        "at": "2026-10-26T02:13:38+00:00",
         "state": "정상",
-        "mails": 42,
-        "deals": 3
+        "mails": 16,
+        "deals": 0
       }
     },
     "recent": [
@@ -4749,40 +4749,10 @@
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-23T02:20:56+00:00",
         "last_seen": "2026-10-24T00:51:11+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20184651",
-        "source": "slickdeals:amazon.com",
-        "title": "Prime Members: 2-Pk JOYROOM 2-Port up to 125W Car Charger for $11 at Amazon",
-        "price": 11.0,
-        "list_price": 18.99,
-        "discount_pct": 42.1,
-        "krw": 14572,
-        "kr_lowest": null,
-        "score": 31,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-24T23:51:04+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20178192",
-        "source": "slickdeals:amazon.com",
-        "title": "153-Pc LEGO Creator 3-in-1 Wild Animals (Spider, Scorpion, & Snake) for $7.20 at Amazon",
-        "price": 7.2,
-        "list_price": 12.99,
-        "discount_pct": 44.6,
-        "krw": 9538,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
-        "first_seen": "2026-10-23T02:11:02+00:00",
-        "last_seen": "2026-10-24T23:51:04+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 77,
+      "collected_72h": 75,
       "published_72h": 8
     }
   }
