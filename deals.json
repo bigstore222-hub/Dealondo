@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T13:31:41.892273+00:00",
+  "generated_at": "2026-10-26T13:40:58.616495+00:00",
   "count": 82,
   "deals": [
     {
@@ -1511,6 +1511,53 @@
       "last_seen": "2026-10-26T03:51:36.114654+00:00"
     },
     {
+      "source": "slickdeals:crocs",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20196831",
+      "title": "Crocs Classic Clogs (Various): Kids' Sizes $15, Toddler Sizes for $12.50 at Crocs",
+      "brand": "Crocs",
+      "category": "kids",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20196831&t=15",
+      "price_current": 12.5,
+      "price_list": 34.99,
+      "price_baseline": null,
+      "price_alltime_low": 12.5,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 16549,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20196831",
+      "discount_pct": 64.3,
+      "score": 76,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 15,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-23T13:01:26.324712+00:00",
+      "last_seen": "2026-10-26T13:40:58.604274+00:00"
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/circus-ny-by-sam-edelman-vivian-mary-jane-pump-women/8662789",
@@ -1557,53 +1604,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
       "last_seen": "2026-10-26T13:31:40.398130+00:00"
-    },
-    {
-      "source": "slickdeals:crocs",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20196831",
-      "title": "Crocs Classic Clogs (Various): Kids' Sizes $15, Toddler Sizes for $12.50 at Crocs",
-      "brand": "Crocs",
-      "category": "kids",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20196831&t=15",
-      "price_current": 12.5,
-      "price_list": 34.99,
-      "price_baseline": null,
-      "price_alltime_low": 12.5,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 16549,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20196831",
-      "discount_pct": 64.3,
-      "score": 76,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 15,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-23T13:01:26.324712+00:00",
-      "last_seen": "2026-10-26T13:31:07.772890+00:00"
     },
     {
       "source": "6pm.com",
@@ -1748,7 +1748,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-25T04:30:41.066551+00:00",
-      "last_seen": "2026-10-26T13:31:07.772890+00:00"
+      "last_seen": "2026-10-26T13:40:58.604274+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -3941,13 +3941,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-26T13:30:33+00:00",
+      "T1": "2026-10-26T13:40:27+00:00",
       "T2": "2026-10-26T13:31:09+00:00",
       "T3": "2026-10-26T13:21:12+00:00",
       "T4": "2026-10-26T08:22:58+00:00"
     },
     "recent_gaps_min": [
-      9,
       10,
       1,
       10,
@@ -3976,13 +3975,14 @@
       10,
       1,
       9,
-      1
+      1,
+      9
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-26T13:30:44+00:00",
+        "at": "2026-10-26T13:40:39+00:00",
         "state": "정상",
         "mails": 13,
         "deals": 13
@@ -4008,7 +4008,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-26T06:11:14+00:00",
-        "last_seen": "2026-10-26T13:31:07+00:00"
+        "last_seen": "2026-10-26T13:40:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20206317",
@@ -4023,7 +4023,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T04:31:07+00:00",
-        "last_seen": "2026-10-26T13:31:07+00:00"
+        "last_seen": "2026-10-26T13:40:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204196",
@@ -4038,7 +4038,7 @@
         "published": false,
         "reject_reason": "H8: 할인 22% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-26T04:31:07+00:00",
-        "last_seen": "2026-10-26T13:31:07+00:00"
+        "last_seen": "2026-10-26T13:40:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20203875",
@@ -4053,7 +4053,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T03:41:11+00:00",
-        "last_seen": "2026-10-26T13:31:07+00:00"
+        "last_seen": "2026-10-26T13:40:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20205957",
@@ -4068,7 +4068,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T02:30:59+00:00",
-        "last_seen": "2026-10-26T13:31:07+00:00"
+        "last_seen": "2026-10-26T13:40:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204571",
@@ -4083,7 +4083,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 45% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-26T01:50:57+00:00",
-        "last_seen": "2026-10-26T13:31:07+00:00"
+        "last_seen": "2026-10-26T13:40:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20206563",
@@ -4098,7 +4098,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T01:50:57+00:00",
-        "last_seen": "2026-10-26T13:31:07+00:00"
+        "last_seen": "2026-10-26T13:40:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20205711",
@@ -4233,7 +4233,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T19:31:15+00:00",
-        "last_seen": "2026-10-26T13:31:07+00:00"
+        "last_seen": "2026-10-26T13:40:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20194017",
@@ -4278,7 +4278,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T17:31:03+00:00",
-        "last_seen": "2026-10-26T13:31:07+00:00"
+        "last_seen": "2026-10-26T13:40:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204004",
@@ -4458,7 +4458,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T04:01:07+00:00",
-        "last_seen": "2026-10-26T13:31:07+00:00"
+        "last_seen": "2026-10-26T13:40:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202480",
@@ -4473,7 +4473,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T04:01:07+00:00",
-        "last_seen": "2026-10-26T13:31:07+00:00"
+        "last_seen": "2026-10-26T13:40:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20202318",
@@ -4533,7 +4533,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-25T00:21:00+00:00",
-        "last_seen": "2026-10-26T13:31:07+00:00"
+        "last_seen": "2026-10-26T13:40:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20191122",
@@ -4563,7 +4563,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-24T23:01:14+00:00",
-        "last_seen": "2026-10-26T13:31:07+00:00"
+        "last_seen": "2026-10-26T13:40:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20180997",
