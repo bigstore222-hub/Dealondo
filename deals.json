@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T11:11:12.833765+00:00",
-  "count": 82,
+  "generated_at": "2026-10-27T11:11:47.911967+00:00",
+  "count": 83,
   "deals": [
     {
       "source": "6pm.com",
@@ -472,7 +472,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-27T10:31:44.423185+00:00"
+      "last_seen": "2026-10-27T11:11:45.738594+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -519,7 +519,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-27T10:31:44.423185+00:00"
+      "last_seen": "2026-10-27T11:11:45.738594+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -566,7 +566,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-27T10:31:44.423185+00:00"
+      "last_seen": "2026-10-27T11:11:45.738594+00:00"
     },
     {
       "source": "zappos.com",
@@ -613,7 +613,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T22:01:32.514123+00:00",
-      "last_seen": "2026-10-27T10:31:44.423185+00:00"
+      "last_seen": "2026-10-27T11:11:45.738594+00:00"
     },
     {
       "source": "zappos.com",
@@ -1461,7 +1461,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-27T10:31:44.423185+00:00"
+      "last_seen": "2026-10-27T11:11:45.738594+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1556,7 +1556,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-10-27T10:31:44.423185+00:00"
+      "last_seen": "2026-10-27T11:11:45.738594+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2328,6 +2328,54 @@
       "last_seen": "2026-10-26T15:32:50.348613+00:00"
     },
     {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10037862",
+      "title": "Wescot",
+      "brand": "Steve Madden",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/7180-z-TZXL._AC_SR255,340_.jpg",
+      "price_current": 74.98,
+      "price_list": 249.95,
+      "price_baseline": 249.95,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 99362,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10037862",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-27T11:11:24.520960+00:00",
+      "last_seen": "2026-10-27T11:11:45.738594+00:00"
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/sam-edelman-giana-ankle-strap-pump-women/8662793",
@@ -2424,6 +2472,54 @@
       "last_seen": "2026-10-26T01:11:35.711096+00:00"
     },
     {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/vans-classic-slip-on-women/2880146",
+      "title": "Classic Slip-On",
+      "brand": "Vans",
+      "category": "sports_outdoor",
+      "image": "https://n.nordstrommedia.com/it/afca2f1a-f9b7-46a2-8fc0-57560405d217.jpeg?h=368&w=240&dpr=2",
+      "price_current": 23.96,
+      "price_list": 65.0,
+      "price_baseline": 65.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 31751,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/vans-classic-slip-on-women/2880146",
+      "discount_pct": 63.1,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-27T07:21:06.913659+00:00",
+      "last_seen": "2026-10-27T11:11:45.738594+00:00"
+    },
+    {
       "source": "6pm.com",
       "source_tier": "T3",
       "url": "https://www.6pm.com/product/9824708",
@@ -2470,54 +2566,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-27T02:12:09.750591+00:00",
       "last_seen": "2026-10-27T10:52:08.600648+00:00"
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/vans-classic-slip-on-women/2880146",
-      "title": "Classic Slip-On",
-      "brand": "Vans",
-      "category": "sports_outdoor",
-      "image": "https://n.nordstrommedia.com/it/afca2f1a-f9b7-46a2-8fc0-57560405d217.jpeg?h=368&w=240&dpr=2",
-      "price_current": 23.96,
-      "price_list": 65.0,
-      "price_baseline": 65.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 31751,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/vans-classic-slip-on-women/2880146",
-      "discount_pct": 63.1,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-27T07:21:06.913659+00:00",
-      "last_seen": "2026-10-27T10:31:44.423185+00:00"
     },
     {
       "source": "zappos.com",
@@ -2757,8 +2805,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-27T10:31:25.670056+00:00",
-      "last_seen": "2026-10-27T10:31:44.423185+00:00"
+      "detected_at": "2026-10-27T11:11:24.470248+00:00",
+      "last_seen": "2026-10-27T11:11:45.738594+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2807,7 +2855,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-25T18:31:23.570238+00:00",
-      "last_seen": "2026-10-27T10:31:44.423185+00:00"
+      "last_seen": "2026-10-27T11:11:45.738594+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2856,7 +2904,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-25T17:51:35.943621+00:00",
-      "last_seen": "2026-10-27T10:31:44.423185+00:00"
+      "last_seen": "2026-10-27T11:11:45.738594+00:00"
     },
     {
       "source": "dealnews",
@@ -3938,12 +3986,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-27T11:10:27+00:00",
-      "T2": "2026-10-27T10:31:09+00:00",
+      "T2": "2026-10-27T11:11:14+00:00",
       "T3": "2026-10-27T10:51:02+00:00",
       "T4": "2026-10-27T09:01:14+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       11,
       1,
@@ -3972,7 +4019,8 @@
       10,
       1,
       9,
-      10
+      10,
+      1
     ]
   },
   "email_monitor": {
