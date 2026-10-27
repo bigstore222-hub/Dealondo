@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T15:11:07.164187+00:00",
+  "generated_at": "2026-10-27T15:16:08.275400+00:00",
   "count": 82,
   "deals": [
     {
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-23T18:11:48.075953+00:00",
-      "last_seen": "2026-10-27T10:52:08.600648+00:00"
+      "last_seen": "2026-10-27T15:12:13.138283+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2331,6 +2331,54 @@
       "last_seen": "2026-10-26T01:11:35.711096+00:00"
     },
     {
+      "source": "6pm.com",
+      "source_tier": "T3",
+      "url": "https://www.6pm.com/product/9824708",
+      "title": "Velocity MP",
+      "brand": "Saucony",
+      "category": "sports_outdoor",
+      "image": "https://m.media-amazon.com/images/I/71Wzcy+eA4L._AC_SR255,340_.jpg",
+      "price_current": 16.36,
+      "price_list": 80.0,
+      "price_baseline": 80.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 21680,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.6pm.com/product/9824708",
+      "discount_pct": 79.5,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-27T02:12:09.750591+00:00",
+      "last_seen": "2026-10-27T15:12:13.138283+00:00"
+    },
+    {
       "source": "slickdeals:zappos.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20210346",
@@ -2473,54 +2521,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-27T07:21:06.913659+00:00",
       "last_seen": "2026-10-27T13:41:31.322233+00:00"
-    },
-    {
-      "source": "6pm.com",
-      "source_tier": "T3",
-      "url": "https://www.6pm.com/product/9824708",
-      "title": "Velocity MP",
-      "brand": "Saucony",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/71Wzcy+eA4L._AC_SR255,340_.jpg",
-      "price_current": 16.36,
-      "price_list": 80.0,
-      "price_baseline": 80.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 21680,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.6pm.com/product/9824708",
-      "discount_pct": 79.5,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-27T02:12:09.750591+00:00",
-      "last_seen": "2026-10-27T13:02:47.304313+00:00"
     },
     {
       "source": "zappos.com",
@@ -3942,12 +3942,10 @@
     "tier_last_run": {
       "T1": "2026-10-27T15:10:34+00:00",
       "T2": "2026-10-27T15:02:11+00:00",
-      "T3": "2026-10-27T13:01:51+00:00",
-      "T4": "2026-10-27T09:01:14+00:00"
+      "T3": "2026-10-27T15:11:09+00:00",
+      "T4": "2026-10-27T15:12:13+00:00"
     },
     "recent_gaps_min": [
-      11,
-      1,
       7,
       11,
       10,
@@ -3975,7 +3973,9 @@
       10,
       11,
       1,
-      8
+      8,
+      1,
+      4
     ]
   },
   "email_monitor": {
@@ -3987,10 +3987,10 @@
         "deals": 17
       },
       "newsletter": {
-        "at": "2026-10-27T09:03:56+00:00",
+        "at": "2026-10-27T15:15:44+00:00",
         "state": "정상",
-        "mails": 30,
-        "deals": 0
+        "mails": 41,
+        "deals": 2
       }
     },
     "recent": [
@@ -4552,17 +4552,17 @@
       {
         "url": "https://click.email.bloomingdales.com/",
         "source": "bloomingdales.com",
-        "title": "Last day to shop this sale!",
-        "price": 75.0,
+        "title": "Up to 40% off new markdowns",
+        "price": 60.0,
         "list_price": 100.0,
-        "discount_pct": 25.0,
-        "krw": 99362,
+        "discount_pct": 40.0,
+        "krw": 79511,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T20:05:27+00:00",
-        "last_seen": "2026-10-25T20:05:27+00:00"
+        "last_seen": "2026-10-27T15:16:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204118",
@@ -4972,17 +4972,17 @@
       {
         "url": "https://click.emails.underarmour.com/",
         "source": "underarmour.com",
-        "title": "[범위미확인 코드] Extra 30% off UA Outlet starts now",
+        "title": "[범위미확인 코드] Your Holiday gift guide just landed",
         "price": 70.0,
         "list_price": 100.0,
         "discount_pct": 30.0,
-        "krw": 92729,
+        "krw": 92763,
         "kr_lowest": null,
         "score": 38,
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-24T19:34:13+00:00",
-        "last_seen": "2026-10-24T19:34:13+00:00"
+        "last_seen": "2026-10-27T15:16:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20201361",
