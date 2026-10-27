@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T16:21:00.090989+00:00",
+  "generated_at": "2026-10-27T16:21:38.181501+00:00",
   "count": 82,
   "deals": [
     {
@@ -141,7 +141,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-19T16:51:24.907746+00:00",
-      "last_seen": "2026-10-27T12:21:59.427334+00:00"
+      "last_seen": "2026-10-27T16:21:37.206945+00:00"
     },
     {
       "source": "zappos.com",
@@ -434,7 +434,7 @@
       "title": "Gibi Knee High Boot",
       "brand": "Vince Camuto",
       "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/8b449e5d-3fb0-4c8a-abad-b9ef63e768c0.jpeg?h=368&w=240&dpr=2",
+      "image": "https://n.nordstrommedia.com/it/f8282cdd-ceaf-45a4-bdd5-32f72fe6345a.jpeg?h=368&w=240&dpr=2",
       "price_current": 64.99,
       "price_list": 239.0,
       "price_baseline": 239.0,
@@ -472,7 +472,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-27T15:41:36.888505+00:00"
+      "last_seen": "2026-10-27T16:21:37.206945+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -519,7 +519,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-27T15:41:36.888505+00:00"
+      "last_seen": "2026-10-27T16:21:37.206945+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -566,7 +566,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-27T15:41:36.888505+00:00"
+      "last_seen": "2026-10-27T16:21:37.206945+00:00"
     },
     {
       "source": "zappos.com",
@@ -613,7 +613,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T22:01:32.514123+00:00",
-      "last_seen": "2026-10-27T15:41:36.888505+00:00"
+      "last_seen": "2026-10-27T16:21:37.206945+00:00"
     },
     {
       "source": "zappos.com",
@@ -1320,7 +1320,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-27T15:41:36.888505+00:00"
+      "last_seen": "2026-10-27T16:21:37.206945+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1415,7 +1415,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-10-27T15:41:36.888505+00:00"
+      "last_seen": "2026-10-27T16:21:37.206945+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -3941,12 +3941,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-27T16:20:26+00:00",
-      "T2": "2026-10-27T15:41:01+00:00",
+      "T2": "2026-10-27T16:21:03+00:00",
       "T3": "2026-10-27T15:11:09+00:00",
       "T4": "2026-10-27T15:12:13+00:00"
     },
     "recent_gaps_min": [
-      5,
       10,
       1,
       1,
@@ -3975,7 +3974,8 @@
       9,
       11,
       9,
-      10
+      10,
+      1
     ]
   },
   "email_monitor": {
