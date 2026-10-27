@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T03:51:12.521356+00:00",
-  "count": 90,
+  "generated_at": "2026-10-27T04:01:45.727050+00:00",
+  "count": 88,
   "deals": [
     {
       "source": "6pm.com",
@@ -1841,7 +1841,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-27T03:40:36.852380+00:00",
-      "last_seen": "2026-10-27T03:51:11.101079+00:00"
+      "last_seen": "2026-10-27T04:01:45.718349+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -4225,109 +4225,11 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-25T09:21:18.870770+00:00",
       "last_seen": "2026-10-25T09:21:37.196566+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Papillio-by-Birkenstock-Womens-Arizona-Chunky-Birko-Flor-Sandals-for-51-ends-today-free-shipping/22310622.html?iref=rss",
-      "title": "Papillio by Birkenstock Women's Arizona Chunky Birko-Flor Sandals for $51, ends today + free shipping",
-      "brand": "Birkenstock",
-      "category": "premium_fashion",
-      "image": "https://d.dlnws.com/64599/1792855762-21birwwrznchnkyblfot_baby_blue.webp?h=154&w=250",
-      "price_current": 51.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 67566,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/Papillio-by-Birkenstock-Womens-Arizona-Chunky-Birko-Flor-Sandals-for-51-ends-today-free-shipping/22310622.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-24T16:01:45.129143+00:00",
-      "last_seen": "2026-10-25T04:01:40.204856+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/HOKA-Clearance-Deals-at-Dicks-Sporting-Goods-Extra-25-off-ending-today-free-shipping-w-49/22310620.html?iref=rss",
-      "title": "HOKA Clearance Deals at Dick's Sporting Goods: Extra 25% off, ending today + free shipping w/ $49",
-      "brand": "Hoka",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1792855837-26hokmcasumch7lbstzay_varsity_navy_faded_navy.webp?h=112&w=250",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/HOKA-Clearance-Deals-at-Dicks-Sporting-Goods-Extra-25-off-ending-today-free-shipping-w-49/22310620.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-25T04:01:22.165782+00:00",
-      "last_seen": "2026-10-25T04:01:40.204856+00:00"
     }
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-27T03:50:25+00:00",
+      "T1": "2026-10-27T04:00:39+00:00",
       "T2": "2026-10-27T03:40:58+00:00",
       "T3": "2026-10-27T02:11:24+00:00",
       "T4": "2026-10-27T02:51:02+00:00"
@@ -4361,13 +4263,14 @@
       10,
       10,
       1,
-      10
+      10,
+      11
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-27T03:50:46+00:00",
+        "at": "2026-10-27T04:01:23+00:00",
         "state": "정상",
         "mails": 12,
         "deals": 12
@@ -4393,7 +4296,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-27T03:40:57+00:00",
-        "last_seen": "2026-10-27T03:51:11+00:00"
+        "last_seen": "2026-10-27T04:01:45+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20182095",
@@ -4408,7 +4311,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-27T03:31:05+00:00",
-        "last_seen": "2026-10-27T03:51:11+00:00"
+        "last_seen": "2026-10-27T04:01:45+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20187573",
@@ -4423,7 +4326,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 37% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-27T03:31:05+00:00",
-        "last_seen": "2026-10-27T03:51:11+00:00"
+        "last_seen": "2026-10-27T04:01:45+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20211615",
@@ -4438,7 +4341,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-27T01:11:01+00:00",
-        "last_seen": "2026-10-27T03:51:11+00:00"
+        "last_seen": "2026-10-27T04:01:45+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20207475",
@@ -4453,7 +4356,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-27T01:01:08+00:00",
-        "last_seen": "2026-10-27T03:51:11+00:00"
+        "last_seen": "2026-10-27T04:01:45+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20210346",
@@ -4468,7 +4371,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-27T01:01:08+00:00",
-        "last_seen": "2026-10-27T03:51:11+00:00"
+        "last_seen": "2026-10-27T04:01:45+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20206500",
@@ -4513,7 +4416,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-26T21:01:31+00:00",
-        "last_seen": "2026-10-27T03:51:11+00:00"
+        "last_seen": "2026-10-27T04:01:45+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20195874",
@@ -4543,7 +4446,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-26T19:01:25+00:00",
-        "last_seen": "2026-10-27T03:51:11+00:00"
+        "last_seen": "2026-10-27T04:01:45+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20208615",
@@ -4558,7 +4461,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-26T18:41:19+00:00",
-        "last_seen": "2026-10-27T03:51:11+00:00"
+        "last_seen": "2026-10-27T04:01:45+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20203155",
@@ -4678,7 +4581,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T04:31:07+00:00",
-        "last_seen": "2026-10-27T03:51:11+00:00"
+        "last_seen": "2026-10-27T04:01:45+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204196",
@@ -4888,7 +4791,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T19:31:15+00:00",
-        "last_seen": "2026-10-27T03:51:11+00:00"
+        "last_seen": "2026-10-27T04:01:45+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20194017",
@@ -4933,7 +4836,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T17:31:03+00:00",
-        "last_seen": "2026-10-27T03:51:11+00:00"
+        "last_seen": "2026-10-27T04:01:45+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204004",
