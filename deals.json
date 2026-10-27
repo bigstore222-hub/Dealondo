@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T10:51:00.841768+00:00",
+  "generated_at": "2026-10-27T10:52:08.628806+00:00",
   "count": 82,
   "deals": [
     {
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-23T18:11:48.075953+00:00",
-      "last_seen": "2026-10-27T08:43:56.260520+00:00"
+      "last_seen": "2026-10-27T10:52:08.600648+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2424,6 +2424,54 @@
       "last_seen": "2026-10-26T01:11:35.711096+00:00"
     },
     {
+      "source": "6pm.com",
+      "source_tier": "T3",
+      "url": "https://www.6pm.com/product/9824708",
+      "title": "Velocity MP",
+      "brand": "Saucony",
+      "category": "sports_outdoor",
+      "image": "https://m.media-amazon.com/images/I/71Wzcy+eA4L._AC_SR255,340_.jpg",
+      "price_current": 16.36,
+      "price_list": 80.0,
+      "price_baseline": 80.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 21680,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.6pm.com/product/9824708",
+      "discount_pct": 79.5,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-27T02:12:09.750591+00:00",
+      "last_seen": "2026-10-27T10:52:08.600648+00:00"
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/vans-classic-slip-on-women/2880146",
@@ -2518,54 +2566,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-27T09:51:13.589041+00:00",
       "last_seen": "2026-10-27T09:51:33.139076+00:00"
-    },
-    {
-      "source": "6pm.com",
-      "source_tier": "T3",
-      "url": "https://www.6pm.com/product/9824708",
-      "title": "Velocity MP",
-      "brand": "Saucony",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/71Wzcy+eA4L._AC_SR255,340_.jpg",
-      "price_current": 16.36,
-      "price_list": 80.0,
-      "price_baseline": 80.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 21680,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.6pm.com/product/9824708",
-      "discount_pct": 79.5,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-27T02:12:09.750591+00:00",
-      "last_seen": "2026-10-27T08:43:56.260520+00:00"
     },
     {
       "source": "zappos.com",
@@ -3939,11 +3939,10 @@
     "tier_last_run": {
       "T1": "2026-10-27T10:50:25+00:00",
       "T2": "2026-10-27T10:31:09+00:00",
-      "T3": "2026-10-27T08:42:53+00:00",
+      "T3": "2026-10-27T10:51:02+00:00",
       "T4": "2026-10-27T09:01:14+00:00"
     },
     "recent_gaps_min": [
-      9,
       1,
       10,
       10,
@@ -3972,7 +3971,8 @@
       10,
       1,
       9,
-      10
+      10,
+      1
     ]
   },
   "email_monitor": {
