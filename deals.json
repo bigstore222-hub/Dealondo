@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T15:02:09.279111+00:00",
-  "count": 81,
+  "generated_at": "2026-10-27T15:02:50.971310+00:00",
+  "count": 82,
   "deals": [
     {
       "source": "6pm.com",
@@ -472,7 +472,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-27T14:21:35.901127+00:00"
+      "last_seen": "2026-10-27T15:02:50.332327+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -519,7 +519,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-27T14:21:35.901127+00:00"
+      "last_seen": "2026-10-27T15:02:50.332327+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -566,7 +566,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-27T14:21:35.901127+00:00"
+      "last_seen": "2026-10-27T15:02:50.332327+00:00"
     },
     {
       "source": "zappos.com",
@@ -613,7 +613,54 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T22:01:32.514123+00:00",
-      "last_seen": "2026-10-27T14:21:35.901127+00:00"
+      "last_seen": "2026-10-27T15:02:50.332327+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10058747",
+      "title": "Chaney",
+      "brand": "Calvin Klein",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/61yFCsykbDL._AC_SR255,340_.jpg",
+      "price_current": 35.7,
+      "price_list": 119.0,
+      "price_baseline": 119.0,
+      "price_alltime_low": 35.7,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 47309,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10058747",
+      "discount_pct": 70.0,
+      "score": 81,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-22T12:41:12.107318+00:00",
+      "last_seen": "2026-10-27T15:02:50.332327+00:00"
     },
     {
       "source": "zappos.com",
@@ -660,7 +707,54 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T19:37:39.161056+00:00",
-      "last_seen": "2026-10-27T07:21:30.251923+00:00"
+      "last_seen": "2026-10-27T15:02:50.332327+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10063583",
+      "title": "Truthful",
+      "brand": "Steve Madden",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/81v2MY5-VML._AC_SR255,340_.jpg",
+      "price_current": 32.98,
+      "price_list": 109.95,
+      "price_baseline": 109.95,
+      "price_alltime_low": 32.98,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 43705,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10063583",
+      "discount_pct": 70.0,
+      "score": 81,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-18T19:37:39.161056+00:00",
+      "last_seen": "2026-10-27T15:02:50.332327+00:00"
     },
     {
       "source": "zappos.com",
@@ -754,53 +848,6 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-22T12:02:45.504506+00:00",
-      "last_seen": "2026-10-26T20:02:08.116778+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10058747",
-      "title": "Chaney",
-      "brand": "Calvin Klein",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61yFCsykbDL._AC_SR255,340_.jpg",
-      "price_current": 35.7,
-      "price_list": 119.0,
-      "price_baseline": 119.0,
-      "price_alltime_low": 35.7,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 47263,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10058747",
-      "discount_pct": 70.0,
-      "score": 81,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-22T12:41:12.107318+00:00",
       "last_seen": "2026-10-26T20:02:08.116778+00:00"
     },
     {
@@ -1273,7 +1320,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-27T14:21:35.901127+00:00"
+      "last_seen": "2026-10-27T15:02:50.332327+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1368,7 +1415,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-10-27T14:21:35.901127+00:00"
+      "last_seen": "2026-10-27T15:02:50.332327+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1416,7 +1463,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-10-27T14:21:35.901127+00:00"
+      "last_seen": "2026-10-27T15:02:50.332327+00:00"
     },
     {
       "source": "slickdeals:crocs",
@@ -2714,7 +2761,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-27T14:21:13.775848+00:00",
-      "last_seen": "2026-10-27T14:21:35.901127+00:00"
+      "last_seen": "2026-10-27T15:02:50.332327+00:00"
     },
     {
       "source": "dealnews",
@@ -2762,8 +2809,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-27T14:21:13.543038+00:00",
-      "last_seen": "2026-10-27T14:21:35.901127+00:00"
+      "detected_at": "2026-10-27T15:02:30.914799+00:00",
+      "last_seen": "2026-10-27T15:02:50.332327+00:00"
     },
     {
       "source": "dealnews",
@@ -2812,7 +2859,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-27T13:41:13.617539+00:00",
-      "last_seen": "2026-10-27T14:21:35.901127+00:00"
+      "last_seen": "2026-10-27T15:02:50.332327+00:00"
     },
     {
       "source": "dealnews",
@@ -2860,8 +2907,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-27T14:21:13.549449+00:00",
-      "last_seen": "2026-10-27T14:21:35.901127+00:00"
+      "detected_at": "2026-10-27T15:02:30.919149+00:00",
+      "last_seen": "2026-10-27T15:02:50.332327+00:00"
     },
     {
       "source": "techbargains:adidas",
@@ -3894,12 +3941,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-27T15:00:56+00:00",
-      "T2": "2026-10-27T14:21:02+00:00",
+      "T2": "2026-10-27T15:02:11+00:00",
       "T3": "2026-10-27T13:01:51+00:00",
       "T4": "2026-10-27T09:01:14+00:00"
     },
     "recent_gaps_min": [
-      9,
       10,
       11,
       1,
@@ -3928,7 +3974,8 @@
       10,
       9,
       10,
-      11
+      11,
+      1
     ]
   },
   "email_monitor": {
