@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T21:21:10.445069+00:00",
+  "generated_at": "2026-10-27T21:24:28.534786+00:00",
   "count": 82,
   "deals": [
     {
@@ -3945,10 +3945,9 @@
       "T1": "2026-10-27T21:20:27+00:00",
       "T2": "2026-10-27T20:51:01+00:00",
       "T3": "2026-10-27T19:21:20+00:00",
-      "T4": "2026-10-27T15:12:13+00:00"
+      "T4": "2026-10-27T21:21:12+00:00"
     },
     "recent_gaps_min": [
-      1,
       9,
       11,
       9,
@@ -3977,7 +3976,8 @@
       1,
       10,
       10,
-      10
+      10,
+      3
     ]
   },
   "email_monitor": {
@@ -3989,13 +3989,28 @@
         "deals": 0
       },
       "newsletter": {
-        "at": "2026-10-27T15:15:44+00:00",
+        "at": "2026-10-27T21:24:09+00:00",
         "state": "정상",
-        "mails": 41,
-        "deals": 2
+        "mails": 58,
+        "deals": 3
       }
     },
     "recent": [
+      {
+        "url": "https://click.emails.underarmour.com/",
+        "source": "underarmour.com",
+        "title": "[범위미확인 코드] Your Holiday gift guide just landed",
+        "price": 70.0,
+        "list_price": 100.0,
+        "discount_pct": 30.0,
+        "krw": 92763,
+        "kr_lowest": null,
+        "score": 38,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-10-27T21:24:28+00:00",
+        "last_seen": "2026-10-27T21:24:28+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20214435",
         "source": "slickdeals:bestbuy.com",
@@ -4749,17 +4764,17 @@
       {
         "url": "https://click.email.bloomingdales.com/",
         "source": "bloomingdales.com",
-        "title": "Up to 40% off new markdowns",
-        "price": 60.0,
+        "title": "3 days only on our app: 25% off",
+        "price": 75.0,
         "list_price": 100.0,
-        "discount_pct": 40.0,
-        "krw": 79511,
+        "discount_pct": 25.0,
+        "krw": 99389,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-25T20:05:27+00:00",
-        "last_seen": "2026-10-27T15:16:08+00:00"
+        "last_seen": "2026-10-27T21:24:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204118",
@@ -5108,7 +5123,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 74,
+      "collected_72h": 75,
       "published_72h": 6
     }
   }
