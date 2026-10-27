@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T00:31:51.366493+00:00",
+  "generated_at": "2026-10-27T00:41:03.715574+00:00",
   "count": 89,
   "deals": [
     {
@@ -1816,7 +1816,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 6620,
+      "krw_effective": 6626,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -1841,7 +1841,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-26T18:00:59.828745+00:00",
-      "last_seen": "2026-10-27T00:31:10.140847+00:00"
+      "last_seen": "2026-10-27T00:41:03.704870+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1865,7 +1865,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 31443,
+      "krw_effective": 31473,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -1890,7 +1890,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-26T23:20:40.176313+00:00",
-      "last_seen": "2026-10-27T00:31:10.140847+00:00"
+      "last_seen": "2026-10-27T00:41:03.704870+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -4279,13 +4279,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-27T00:30:32+00:00",
+      "T1": "2026-10-27T00:40:28+00:00",
       "T2": "2026-10-27T00:31:11+00:00",
       "T3": "2026-10-27T00:01:17+00:00",
       "T4": "2026-10-26T20:41:42+00:00"
     },
     "recent_gaps_min": [
-      9,
       10,
       1,
       10,
@@ -4314,13 +4313,14 @@
       9,
       10,
       10,
-      1
+      1,
+      9
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-27T00:30:50+00:00",
+        "at": "2026-10-27T00:40:44+00:00",
         "state": "정상",
         "mails": 21,
         "deals": 21
@@ -4340,13 +4340,13 @@
         "price": 10.55,
         "list_price": 24.99,
         "discount_pct": 57.8,
-        "krw": 13967,
+        "krw": 13981,
         "kr_lowest": null,
         "score": 31,
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T22:41:07+00:00",
-        "last_seen": "2026-10-27T00:31:10+00:00"
+        "last_seen": "2026-10-27T00:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20203692",
@@ -4355,13 +4355,13 @@
         "price": 60.0,
         "list_price": 89.99,
         "discount_pct": 33.3,
-        "krw": 79434,
+        "krw": 79511,
         "kr_lowest": null,
         "score": 31,
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T21:11:01+00:00",
-        "last_seen": "2026-10-27T00:31:10+00:00"
+        "last_seen": "2026-10-27T00:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20206467",
@@ -4370,13 +4370,13 @@
         "price": 45.0,
         "list_price": 115.0,
         "discount_pct": 60.9,
-        "krw": 59576,
+        "krw": 59633,
         "kr_lowest": null,
         "score": 61,
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-26T21:01:31+00:00",
-        "last_seen": "2026-10-27T00:31:10+00:00"
+        "last_seen": "2026-10-27T00:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20195874",
@@ -4385,13 +4385,13 @@
         "price": 680.0,
         "list_price": 799.99,
         "discount_pct": 15.0,
-        "krw": 1069503,
+        "krw": 1070538,
         "kr_lowest": null,
         "score": 30,
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T20:31:17+00:00",
-        "last_seen": "2026-10-27T00:31:10+00:00"
+        "last_seen": "2026-10-27T00:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20210427",
@@ -4400,13 +4400,13 @@
         "price": 40.0,
         "list_price": 80.0,
         "discount_pct": 50.0,
-        "krw": 52956,
+        "krw": 53007,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-26T19:01:25+00:00",
-        "last_seen": "2026-10-27T00:31:10+00:00"
+        "last_seen": "2026-10-27T00:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20208615",
@@ -4415,13 +4415,13 @@
         "price": 80.0,
         "list_price": 140.0,
         "discount_pct": 42.9,
-        "krw": 105912,
+        "krw": 106015,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-26T18:41:19+00:00",
-        "last_seen": "2026-10-27T00:31:10+00:00"
+        "last_seen": "2026-10-27T00:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20203155",
@@ -4430,13 +4430,13 @@
         "price": 115.0,
         "list_price": 229.95,
         "discount_pct": 50.0,
-        "krw": 152249,
+        "krw": 152396,
         "kr_lowest": null,
         "score": 44,
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T18:31:08+00:00",
-        "last_seen": "2026-10-27T00:31:10+00:00"
+        "last_seen": "2026-10-27T00:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20189367",
@@ -4445,13 +4445,13 @@
         "price": 9.9,
         "list_price": 22.99,
         "discount_pct": 56.9,
-        "krw": 13107,
+        "krw": 13119,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-26T17:40:34+00:00",
-        "last_seen": "2026-10-27T00:31:10+00:00"
+        "last_seen": "2026-10-27T00:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20205765",
@@ -4460,13 +4460,13 @@
         "price": 4.7,
         "list_price": 6.46,
         "discount_pct": 27.2,
-        "krw": 6222,
+        "krw": 6228,
         "kr_lowest": null,
         "score": 17,
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T17:31:14+00:00",
-        "last_seen": "2026-10-27T00:31:10+00:00"
+        "last_seen": "2026-10-27T00:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20207586",
@@ -4475,13 +4475,13 @@
         "price": 90.0,
         "list_price": 241.99,
         "discount_pct": 62.8,
-        "krw": 119151,
+        "krw": 119267,
         "kr_lowest": null,
         "score": 47,
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T15:41:00+00:00",
-        "last_seen": "2026-10-27T00:31:10+00:00"
+        "last_seen": "2026-10-27T00:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20208768",
@@ -4490,13 +4490,13 @@
         "price": 300.0,
         "list_price": 799.99,
         "discount_pct": 62.5,
-        "krw": 471839,
+        "krw": 472296,
         "kr_lowest": null,
         "score": 47,
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T15:41:00+00:00",
-        "last_seen": "2026-10-27T00:31:10+00:00"
+        "last_seen": "2026-10-27T00:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20207481",
@@ -4505,13 +4505,13 @@
         "price": 23.0,
         "list_price": 29.0,
         "discount_pct": 20.7,
-        "krw": 30450,
+        "krw": 30479,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H8: 할인 21% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-26T14:51:06+00:00",
-        "last_seen": "2026-10-27T00:31:10+00:00"
+        "last_seen": "2026-10-27T00:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20205057",
@@ -4520,13 +4520,13 @@
         "price": 27.95,
         "list_price": 34.99,
         "discount_pct": 20.1,
-        "krw": 37003,
+        "krw": 37039,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-26T06:11:14+00:00",
-        "last_seen": "2026-10-27T00:31:10+00:00"
+        "last_seen": "2026-10-27T00:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20206317",
@@ -4535,13 +4535,13 @@
         "price": 150.0,
         "list_price": 249.0,
         "discount_pct": 39.8,
-        "krw": 198586,
+        "krw": 198778,
         "kr_lowest": null,
         "score": 31,
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T04:31:07+00:00",
-        "last_seen": "2026-10-27T00:31:10+00:00"
+        "last_seen": "2026-10-27T00:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204196",
@@ -4550,13 +4550,13 @@
         "price": 15.0,
         "list_price": 19.29,
         "discount_pct": 22.2,
-        "krw": 19859,
+        "krw": 19878,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H8: 할인 22% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-26T04:31:07+00:00",
-        "last_seen": "2026-10-27T00:31:10+00:00"
+        "last_seen": "2026-10-27T00:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20203875",
@@ -4565,13 +4565,13 @@
         "price": 68.75,
         "list_price": 109.99,
         "discount_pct": 37.5,
-        "krw": 91018,
+        "krw": 91107,
         "kr_lowest": null,
         "score": 17,
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T03:41:11+00:00",
-        "last_seen": "2026-10-27T00:31:10+00:00"
+        "last_seen": "2026-10-27T00:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20205957",
@@ -4580,13 +4580,13 @@
         "price": 10.0,
         "list_price": 19.99,
         "discount_pct": 50.0,
-        "krw": 13239,
+        "krw": 13252,
         "kr_lowest": null,
         "score": 31,
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T02:30:59+00:00",
-        "last_seen": "2026-10-27T00:31:10+00:00"
+        "last_seen": "2026-10-27T00:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204571",
@@ -4595,13 +4595,13 @@
         "price": 41.25,
         "list_price": 75.0,
         "discount_pct": 45.0,
-        "krw": 54611,
+        "krw": 54664,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: Nike 할인 45% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-26T01:50:57+00:00",
-        "last_seen": "2026-10-27T00:31:10+00:00"
+        "last_seen": "2026-10-27T00:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20206563",
@@ -4610,13 +4610,13 @@
         "price": 20.0,
         "list_price": 45.99,
         "discount_pct": 56.5,
-        "krw": 26478,
+        "krw": 26504,
         "kr_lowest": null,
         "score": 44,
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T01:50:57+00:00",
-        "last_seen": "2026-10-27T00:31:10+00:00"
+        "last_seen": "2026-10-27T00:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20205711",
@@ -4745,13 +4745,13 @@
         "price": 59.0,
         "list_price": 79.0,
         "discount_pct": 25.3,
-        "krw": 78110,
+        "krw": 78186,
         "kr_lowest": null,
         "score": 31,
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T19:31:15+00:00",
-        "last_seen": "2026-10-27T00:31:10+00:00"
+        "last_seen": "2026-10-27T00:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20194017",
@@ -4790,13 +4790,13 @@
         "price": 45.0,
         "list_price": 100.0,
         "discount_pct": 55.0,
-        "krw": 59576,
+        "krw": 59633,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T17:31:03+00:00",
-        "last_seen": "2026-10-27T00:31:10+00:00"
+        "last_seen": "2026-10-27T00:41:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204004",
