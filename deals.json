@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T05:32:10.815932+00:00",
+  "generated_at": "2026-10-27T05:41:08.168920+00:00",
   "count": 88,
   "deals": [
     {
@@ -1841,7 +1841,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-27T03:40:36.852380+00:00",
-      "last_seen": "2026-10-27T05:31:38.364976+00:00"
+      "last_seen": "2026-10-27T05:41:08.162552+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -4229,13 +4229,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-27T05:30:32+00:00",
+      "T1": "2026-10-27T05:40:25+00:00",
       "T2": "2026-10-27T05:31:39+00:00",
       "T3": "2026-10-27T04:21:33+00:00",
       "T4": "2026-10-27T02:51:02+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       10,
       1,
@@ -4264,16 +4263,17 @@
       10,
       11,
       10,
-      1
+      1,
+      9
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-27T05:31:16+00:00",
+        "at": "2026-10-27T05:40:46+00:00",
         "state": "정상",
-        "mails": 13,
-        "deals": 13
+        "mails": 14,
+        "deals": 14
       },
       "newsletter": {
         "at": "2026-10-27T02:53:49+00:00",
@@ -4283,6 +4283,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20207943",
+        "source": "slickdeals:amazon.com",
+        "title": "INIU Qi2 Magnetic Wireless Charging Pad w/ 20W PD Adapter & 4.9' Cable for $9.80 at Amazon",
+        "price": 9.8,
+        "list_price": 21.99,
+        "discount_pct": 55.4,
+        "krw": 12987,
+        "kr_lowest": null,
+        "score": 31,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-10-27T05:41:08+00:00",
+        "last_seen": "2026-10-27T05:41:08+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20187615",
         "source": "slickdeals:walmart.com",
@@ -4296,7 +4311,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-27T04:11:01+00:00",
-        "last_seen": "2026-10-27T05:31:38+00:00"
+        "last_seen": "2026-10-27T05:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20186622",
@@ -4311,7 +4326,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-27T03:40:57+00:00",
-        "last_seen": "2026-10-27T05:31:38+00:00"
+        "last_seen": "2026-10-27T05:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20182095",
@@ -4326,7 +4341,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-27T03:31:05+00:00",
-        "last_seen": "2026-10-27T05:31:38+00:00"
+        "last_seen": "2026-10-27T05:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20187573",
@@ -4341,7 +4356,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 37% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-27T03:31:05+00:00",
-        "last_seen": "2026-10-27T05:31:38+00:00"
+        "last_seen": "2026-10-27T05:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20211615",
@@ -4356,7 +4371,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-27T01:11:01+00:00",
-        "last_seen": "2026-10-27T05:31:38+00:00"
+        "last_seen": "2026-10-27T05:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20207475",
@@ -4371,7 +4386,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-27T01:01:08+00:00",
-        "last_seen": "2026-10-27T05:31:38+00:00"
+        "last_seen": "2026-10-27T05:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20210346",
@@ -4386,7 +4401,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-27T01:01:08+00:00",
-        "last_seen": "2026-10-27T05:31:38+00:00"
+        "last_seen": "2026-10-27T05:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20206500",
@@ -4431,7 +4446,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-26T21:01:31+00:00",
-        "last_seen": "2026-10-27T05:31:38+00:00"
+        "last_seen": "2026-10-27T05:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20195874",
@@ -4461,7 +4476,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-26T19:01:25+00:00",
-        "last_seen": "2026-10-27T05:31:38+00:00"
+        "last_seen": "2026-10-27T05:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20208615",
@@ -4476,7 +4491,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-26T18:41:19+00:00",
-        "last_seen": "2026-10-27T05:31:38+00:00"
+        "last_seen": "2026-10-27T05:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20203155",
@@ -4596,7 +4611,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T04:31:07+00:00",
-        "last_seen": "2026-10-27T05:31:38+00:00"
+        "last_seen": "2026-10-27T05:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204196",
@@ -4806,7 +4821,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T19:31:15+00:00",
-        "last_seen": "2026-10-27T05:31:38+00:00"
+        "last_seen": "2026-10-27T05:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20194017",
@@ -4851,7 +4866,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T17:31:03+00:00",
-        "last_seen": "2026-10-27T05:31:38+00:00"
+        "last_seen": "2026-10-27T05:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204004",
@@ -5350,7 +5365,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 71,
+      "collected_72h": 72,
       "published_72h": 6
     }
   }
