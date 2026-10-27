@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T08:51:13.795284+00:00",
+  "generated_at": "2026-10-27T09:01:13.069435+00:00",
   "count": 91,
   "deals": [
     {
@@ -4372,7 +4372,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-27T08:50:29+00:00",
+      "T1": "2026-10-27T09:00:41+00:00",
       "T2": "2026-10-27T08:42:18+00:00",
       "T3": "2026-10-27T08:42:53+00:00",
       "T4": "2026-10-27T02:51:02+00:00"
@@ -4406,16 +4406,17 @@
       10,
       1,
       1,
-      7
+      7,
+      10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-27T08:50:53+00:00",
-        "state": "로그인 실패",
-        "mails": 0,
-        "deals": 0
+        "at": "2026-10-27T09:00:50+00:00",
+        "state": "정상",
+        "mails": 14,
+        "deals": 14
       },
       "newsletter": {
         "at": "2026-10-27T02:53:49+00:00",
@@ -4438,7 +4439,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-27T05:41:08+00:00",
-        "last_seen": "2026-10-27T08:42:16+00:00"
+        "last_seen": "2026-10-27T09:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20187615",
@@ -4453,7 +4454,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-27T04:11:01+00:00",
-        "last_seen": "2026-10-27T08:42:16+00:00"
+        "last_seen": "2026-10-27T09:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20186622",
@@ -4468,7 +4469,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-27T03:40:57+00:00",
-        "last_seen": "2026-10-27T08:42:16+00:00"
+        "last_seen": "2026-10-27T09:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20182095",
@@ -4483,7 +4484,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-27T03:31:05+00:00",
-        "last_seen": "2026-10-27T08:42:16+00:00"
+        "last_seen": "2026-10-27T09:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20187573",
@@ -4498,7 +4499,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 37% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-27T03:31:05+00:00",
-        "last_seen": "2026-10-27T08:42:16+00:00"
+        "last_seen": "2026-10-27T09:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20211615",
@@ -4513,7 +4514,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-27T01:11:01+00:00",
-        "last_seen": "2026-10-27T08:42:16+00:00"
+        "last_seen": "2026-10-27T09:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20207475",
@@ -4528,7 +4529,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-27T01:01:08+00:00",
-        "last_seen": "2026-10-27T08:42:16+00:00"
+        "last_seen": "2026-10-27T09:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20210346",
@@ -4543,7 +4544,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-27T01:01:08+00:00",
-        "last_seen": "2026-10-27T08:42:16+00:00"
+        "last_seen": "2026-10-27T09:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20206500",
@@ -4588,7 +4589,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-26T21:01:31+00:00",
-        "last_seen": "2026-10-27T08:42:16+00:00"
+        "last_seen": "2026-10-27T09:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20195874",
@@ -4618,7 +4619,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-26T19:01:25+00:00",
-        "last_seen": "2026-10-27T08:42:16+00:00"
+        "last_seen": "2026-10-27T09:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20208615",
@@ -4633,7 +4634,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-26T18:41:19+00:00",
-        "last_seen": "2026-10-27T08:42:16+00:00"
+        "last_seen": "2026-10-27T09:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20203155",
@@ -4753,7 +4754,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-26T04:31:07+00:00",
-        "last_seen": "2026-10-27T08:42:16+00:00"
+        "last_seen": "2026-10-27T09:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204196",
@@ -4963,7 +4964,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-25T19:31:15+00:00",
-        "last_seen": "2026-10-27T08:42:16+00:00"
+        "last_seen": "2026-10-27T09:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20194017",
@@ -5008,7 +5009,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-25T17:31:03+00:00",
-        "last_seen": "2026-10-27T08:42:16+00:00"
+        "last_seen": "2026-10-27T09:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20204004",
@@ -5429,26 +5430,11 @@
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-24T14:10:58+00:00",
         "last_seen": "2026-10-25T00:51:09+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20195544",
-        "source": "slickdeals:dickssportinggoods",
-        "title": "Nike Kids' Mercurial Vapor 16 Academy Vini Jr. Indoor Soccer Shoes (Red/Royal) for $21 at Dick's Sporting Goods",
-        "price": 21.0,
-        "list_price": 69.99,
-        "discount_pct": 70.0,
-        "krw": 27821,
-        "kr_lowest": null,
-        "score": 61,
-        "published": true,
-        "reject_reason": "",
-        "first_seen": "2026-10-24T08:51:43+00:00",
-        "last_seen": "2026-10-25T23:51:05+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 68,
-      "published_72h": 6
+      "collected_72h": 67,
+      "published_72h": 5
     }
   }
 }
