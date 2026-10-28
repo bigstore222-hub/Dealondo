@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T03:52:30.821302+00:00",
+  "generated_at": "2026-10-28T04:01:29.271221+00:00",
   "count": 80,
   "deals": [
     {
@@ -1370,7 +1370,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-27T21:01:01.947615+00:00",
-      "last_seen": "2026-10-28T03:51:26.515463+00:00"
+      "last_seen": "2026-10-28T04:01:29.259585+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -3854,13 +3854,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-28T03:50:38+00:00",
+      "T1": "2026-10-28T04:00:40+00:00",
       "T2": "2026-10-28T03:31:15+00:00",
       "T3": "2026-10-28T03:51:28+00:00",
       "T4": "2026-10-28T03:31:50+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       10,
       1,
@@ -3889,16 +3888,17 @@
       3,
       6,
       10,
-      1
+      1,
+      9
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-28T03:51:00+00:00",
-        "state": "정상",
-        "mails": 32,
-        "deals": 32
+        "at": "2026-10-28T04:01:02+00:00",
+        "state": "로그인 실패",
+        "mails": 0,
+        "deals": 0
       },
       "newsletter": {
         "at": "2026-10-28T03:34:42+00:00",
@@ -4987,40 +4987,10 @@
         "reject_reason": "",
         "first_seen": "2026-10-25T04:11:01+00:00",
         "last_seen": "2026-10-26T00:51:05+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20202228",
-        "source": "slickdeals:zappos.com",
-        "title": "Nike Women's In-season Trainer 14 Shoes (Rose Gold/Metallic Rose Gold/Soft Pearl/Pearl White) for $36 at Zappos",
-        "price": 36.0,
-        "list_price": 80.0,
-        "discount_pct": 55.0,
-        "krw": 47661,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H7: Nike 할인 55% < 60% (유명 브랜드 최소 할인)",
-        "first_seen": "2026-10-25T04:01:07+00:00",
-        "last_seen": "2026-10-26T23:51:02+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20202480",
-        "source": "slickdeals:amazon.com",
-        "title": "808-Pc LEGO Speed Champions Mercedes-AMG G 63 & SL 63 Building Toys for $27 at Amazon",
-        "price": 27.0,
-        "list_price": 44.99,
-        "discount_pct": 40.0,
-        "krw": 35745,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
-        "first_seen": "2026-10-25T04:01:07+00:00",
-        "last_seen": "2026-10-26T23:51:02+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 74,
+      "collected_72h": 72,
       "published_72h": 4
     }
   }
