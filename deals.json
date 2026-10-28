@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-28T17:41:16.262192+00:00",
-  "count": 77,
+  "generated_at": "2026-10-28T17:41:54.264963+00:00",
+  "count": 79,
   "deals": [
     {
       "source": "6pm.com",
@@ -141,7 +141,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-10-28T17:02:03.739805+00:00"
+      "last_seen": "2026-10-28T17:41:53.520530+00:00"
     },
     {
       "source": "zappos.com",
@@ -330,7 +330,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-28T17:02:03.739805+00:00"
+      "last_seen": "2026-10-28T17:41:53.520530+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -377,7 +377,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-28T17:02:03.739805+00:00"
+      "last_seen": "2026-10-28T17:41:53.520530+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -424,7 +424,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-28T17:02:03.739805+00:00"
+      "last_seen": "2026-10-28T17:41:53.520530+00:00"
     },
     {
       "source": "zappos.com",
@@ -894,7 +894,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T19:37:39.161056+00:00",
-      "last_seen": "2026-10-28T17:02:03.739805+00:00"
+      "last_seen": "2026-10-28T17:41:53.520530+00:00"
     },
     {
       "source": "zappos.com",
@@ -1612,7 +1612,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T00:41:10.285714+00:00",
-      "last_seen": "2026-10-28T17:02:03.739805+00:00"
+      "last_seen": "2026-10-28T17:41:53.520530+00:00"
     },
     {
       "source": "zappos.com",
@@ -2236,7 +2236,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-10-28T17:02:03.739805+00:00"
+      "last_seen": "2026-10-28T17:41:53.520530+00:00"
     },
     {
       "source": "6pm.com",
@@ -2289,6 +2289,104 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
+      "url": "https://www.dealnews.com/adidas-Clothing-Shoe-Deals-Up-to-50-off-extra-15-off-Free-shipping/22322222.html?iref=rss",
+      "title": "adidas Clothing & Shoe Deals: Up to 50% off + extra 15% off + Free shipping",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1793208992-product-trimmed.jpg?h=159&w=250",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/adidas-Clothing-Shoe-Deals-Up-to-50-off-extra-15-off-Free-shipping/22322222.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-28T17:41:35.322973+00:00",
+      "last_seen": "2026-10-28T17:41:53.520530+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Michael-Kors-Jet-Set-Travel-Extra-Large-Signature-Logo-Weekender-Bag-for-119-free-shipping/22322219.html?iref=rss",
+      "title": "Michael Kors Jet Set Travel Extra-Large Signature Logo Weekender Bag for $119 + free shipping",
+      "brand": "Michael Kors",
+      "category": "premium_fashion",
+      "image": "https://d.dlnws.com/64599/1793208747-product-trimmed.png?h=219&w=250",
+      "price_current": 119.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 157890,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/Michael-Kors-Jet-Set-Travel-Extra-Large-Signature-Logo-Weekender-Bag-for-119-free-shipping/22322219.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-28T17:41:35.595457+00:00",
+      "last_seen": "2026-10-28T17:41:53.520530+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
       "url": "https://www.dealnews.com/Samsonite-Better-Than-Basic-18-Backpack-for-56-free-shipping/22322110.html?iref=rss",
       "title": "Samsonite Better Than Basic 18\" Backpack for $56 + free shipping",
       "brand": "Samsonite",
@@ -2333,7 +2431,56 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-28T16:21:52.193390+00:00",
-      "last_seen": "2026-10-28T17:02:03.739805+00:00"
+      "last_seen": "2026-10-28T17:41:53.520530+00:00"
+    },
+    {
+      "source": "techbargains:amazon",
+      "source_tier": "T2",
+      "url": "https://www.amazon.com/gp/product/B0CN9VK1C6/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+      "title": "The North Face Recon 30L Everyday Laptop Backpack $62.43",
+      "brand": "The North Face",
+      "category": "premium_fashion",
+      "image": "https://www.techbargains.com/imagery/deals/269200.1793208784.fit_lim.size_125x125.jpg",
+      "price_current": 62.43,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 82833,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.amazon.com/gp/product/B0CN9VK1C6/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-28T17:41:35.595457+00:00",
+      "last_seen": "2026-10-28T17:41:53.520530+00:00"
     },
     {
       "source": "techbargains:adidas",
@@ -2381,8 +2528,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-28T17:01:45.660864+00:00",
-      "last_seen": "2026-10-28T17:02:03.739805+00:00"
+      "detected_at": "2026-10-28T17:41:35.503254+00:00",
+      "last_seen": "2026-10-28T17:41:53.520530+00:00"
     },
     {
       "source": "dealnews",
@@ -2921,55 +3068,6 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-28T01:31:26.290137+00:00",
-      "last_seen": "2026-10-28T09:51:42.975308+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/adidas-Mens-Squadra-21-Goalkeeper-Jersey-XL-only-for-13-free-shipping/22319002.html?iref=rss",
-      "title": "adidas Men's Squadra 21 Goalkeeper Jersey (XL only) for $13 + free shipping",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1793147916-s-l1600.jpg?h=250&w=250",
-      "price_current": 13.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 17248,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/adidas-Mens-Squadra-21-Goalkeeper-Jersey-XL-only-for-13-free-shipping/22319002.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-28T00:51:18.384660+00:00",
       "last_seen": "2026-10-28T09:51:42.975308+00:00"
     },
     {
@@ -3711,12 +3809,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-28T17:40:32+00:00",
-      "T2": "2026-10-28T17:01:29+00:00",
+      "T2": "2026-10-28T17:41:19+00:00",
       "T3": "2026-10-28T16:41:08+00:00",
       "T4": "2026-10-28T15:51:48+00:00"
     },
     "recent_gaps_min": [
-      11,
       1,
       9,
       1,
@@ -3745,7 +3842,8 @@
       9,
       11,
       10,
-      10
+      10,
+      1
     ]
   },
   "email_monitor": {
