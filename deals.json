@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-28T04:51:12.984171+00:00",
-  "count": 79,
+  "generated_at": "2026-10-28T04:51:48.052323+00:00",
+  "count": 80,
   "deals": [
     {
       "source": "6pm.com",
@@ -284,7 +284,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-28T04:12:31.556427+00:00"
+      "last_seen": "2026-10-28T04:51:47.103160+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -331,7 +331,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-28T04:12:31.556427+00:00"
+      "last_seen": "2026-10-28T04:51:47.103160+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -378,7 +378,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-28T04:12:31.556427+00:00"
+      "last_seen": "2026-10-28T04:51:47.103160+00:00"
     },
     {
       "source": "zappos.com",
@@ -425,7 +425,101 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T22:01:32.514123+00:00",
-      "last_seen": "2026-10-28T04:12:31.556427+00:00"
+      "last_seen": "2026-10-28T04:51:47.103160+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10017189",
+      "title": "Oakland",
+      "brand": "Anne Klein",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/719QmDgyBnL._AC_SR255,340_.jpg",
+      "price_current": 23.7,
+      "price_list": 79.0,
+      "price_baseline": 79.0,
+      "price_alltime_low": 23.7,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 31445,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10017189",
+      "discount_pct": 70.0,
+      "score": 81,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-19T18:11:19.637845+00:00",
+      "last_seen": "2026-10-28T04:51:47.103160+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10042127",
+      "title": "Tied With Joy Midi",
+      "brand": "Free People",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/61uEQwZNBXL._AC_SR255,340_.jpg",
+      "price_current": 59.4,
+      "price_list": 198.0,
+      "price_baseline": 198.0,
+      "price_alltime_low": 59.4,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 78812,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10042127",
+      "discount_pct": 70.0,
+      "score": 81,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-20T03:11:20.308134+00:00",
+      "last_seen": "2026-10-28T04:51:47.103160+00:00"
     },
     {
       "source": "zappos.com",
@@ -473,53 +567,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-19T18:11:19.637845+00:00",
       "last_seen": "2026-10-27T19:41:31.855271+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10042127",
-      "title": "Tied With Joy Midi",
-      "brand": "Free People",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61uEQwZNBXL._AC_SR255,340_.jpg",
-      "price_current": 59.4,
-      "price_list": 198.0,
-      "price_baseline": 198.0,
-      "price_alltime_low": 59.4,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 78716,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10042127",
-      "discount_pct": 70.0,
-      "score": 81,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-20T03:11:20.308134+00:00",
-      "last_seen": "2026-10-27T19:01:54.290297+00:00"
     },
     {
       "source": "zappos.com",
@@ -759,6 +806,53 @@
     {
       "source": "zappos.com",
       "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10042074",
+      "title": "Ultra Pro Firm, Artificial Ground Soccer Cleats (Little Kid/Big Kid)",
+      "brand": "PUMA",
+      "category": "sports_outdoor",
+      "image": "https://m.media-amazon.com/images/I/71Qxb232mbL._AC_SR255,340_.jpg",
+      "price_current": 34.5,
+      "price_list": 115.0,
+      "price_baseline": 115.0,
+      "price_alltime_low": 34.5,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 45775,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10042074",
+      "discount_pct": 70.0,
+      "score": 78,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-19T23:58:18.762314+00:00",
+      "last_seen": "2026-10-28T04:51:47.103160+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
       "url": "https://www.zappos.com/product/10046600",
       "title": "Porsche Legacy Lifestyle Crew Striped Knit Top",
       "brand": "PUMA",
@@ -849,53 +943,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-23T16:42:25.825959+00:00",
       "last_seen": "2026-10-27T21:31:49.637724+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10042074",
-      "title": "Ultra Pro Firm, Artificial Ground Soccer Cleats (Little Kid/Big Kid)",
-      "brand": "PUMA",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/71Qxb232mbL._AC_SR255,340_.jpg",
-      "price_current": 34.5,
-      "price_list": 115.0,
-      "price_baseline": 115.0,
-      "price_alltime_low": 34.5,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 45719,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10042074",
-      "discount_pct": 70.0,
-      "score": 78,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-19T23:58:18.762314+00:00",
-      "last_seen": "2026-10-27T19:01:54.290297+00:00"
     },
     {
       "source": "zappos.com",
@@ -1130,7 +1177,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-18T10:09:31.697522+00:00",
-      "last_seen": "2026-10-28T04:12:31.556427+00:00"
+      "last_seen": "2026-10-28T04:51:47.103160+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1178,7 +1225,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-10-28T04:12:31.556427+00:00"
+      "last_seen": "2026-10-28T04:51:47.103160+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2430,7 +2477,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-28T01:31:26.290137+00:00",
-      "last_seen": "2026-10-28T04:12:31.556427+00:00"
+      "last_seen": "2026-10-28T04:51:47.103160+00:00"
     },
     {
       "source": "dealnews",
@@ -2479,7 +2526,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-28T00:51:18.384660+00:00",
-      "last_seen": "2026-10-28T04:12:31.556427+00:00"
+      "last_seen": "2026-10-28T04:51:47.103160+00:00"
     },
     {
       "source": "dealnews",
@@ -2528,7 +2575,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-28T00:11:27.576574+00:00",
-      "last_seen": "2026-10-28T04:12:31.556427+00:00"
+      "last_seen": "2026-10-28T04:51:47.103160+00:00"
     },
     {
       "source": "dealnews",
@@ -2577,7 +2624,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-27T23:31:34.502421+00:00",
-      "last_seen": "2026-10-28T04:12:31.556427+00:00"
+      "last_seen": "2026-10-28T04:51:47.103160+00:00"
     },
     {
       "source": "dealnews",
@@ -2626,7 +2673,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-27T22:52:23.175802+00:00",
-      "last_seen": "2026-10-28T04:12:31.556427+00:00"
+      "last_seen": "2026-10-28T04:51:47.103160+00:00"
     },
     {
       "source": "dealnews",
@@ -2675,7 +2722,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-27T22:12:08.780810+00:00",
-      "last_seen": "2026-10-28T04:12:31.556427+00:00"
+      "last_seen": "2026-10-28T04:51:47.103160+00:00"
     },
     {
       "source": "techbargains:adidas",
@@ -2723,8 +2770,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-28T04:12:07.392223+00:00",
-      "last_seen": "2026-10-28T04:12:31.556427+00:00"
+      "detected_at": "2026-10-28T04:51:27.820900+00:00",
+      "last_seen": "2026-10-28T04:51:47.103160+00:00"
     },
     {
       "source": "dealnews",
@@ -3807,12 +3854,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-28T04:50:26+00:00",
-      "T2": "2026-10-28T04:11:56+00:00",
+      "T2": "2026-10-28T04:51:14+00:00",
       "T3": "2026-10-28T03:51:28+00:00",
       "T4": "2026-10-28T03:31:50+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       7,
@@ -3841,7 +3887,8 @@
       9,
       10,
       10,
-      10
+      10,
+      1
     ]
   },
   "email_monitor": {
