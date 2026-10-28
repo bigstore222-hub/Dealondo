@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T22:01:18.628044+00:00",
+  "generated_at": "2026-10-28T22:04:47.993678+00:00",
   "count": 77,
   "deals": [
     {
@@ -3720,10 +3720,9 @@
       "T1": "2026-10-28T22:00:39+00:00",
       "T2": "2026-10-28T21:41:07+00:00",
       "T3": "2026-10-28T21:02:10+00:00",
-      "T4": "2026-10-28T15:51:48+00:00"
+      "T4": "2026-10-28T22:01:19+00:00"
     },
     "recent_gaps_min": [
-      9,
       10,
       10,
       1,
@@ -3752,7 +3751,8 @@
       9,
       1,
       9,
-      10
+      10,
+      3
     ]
   },
   "email_monitor": {
@@ -3764,13 +3764,43 @@
         "deals": 40
       },
       "newsletter": {
-        "at": "2026-10-28T15:55:43+00:00",
+        "at": "2026-10-28T22:04:23+00:00",
         "state": "정상",
-        "mails": 88,
-        "deals": 4
+        "mails": 105,
+        "deals": 7
       }
     },
     "recent": [
+      {
+        "url": "https://click.email.bloomingdales.com/",
+        "source": "bloomingdales.com",
+        "title": "Kids’ shoes they’ll love",
+        "price": 60.0,
+        "list_price": 100.0,
+        "discount_pct": 40.0,
+        "krw": 79608,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-10-28T22:04:47+00:00",
+        "last_seen": "2026-10-28T22:04:47+00:00"
+      },
+      {
+        "url": "https://click.woot.com/f/a/6-hnkHtBOirNyFe33h_qBw~~/AAQRxRA~/hOfdd3kFDnYor92Qml3d8QR2pnBel0TxCH-wKmrq89SEz28oE9lKV7DGWwyt3ZgGKnJnPnIjOF1BSzH1Jnb51boQP49gyEnUMKmTxTj76Q2QM65plAFKZWMvHI6QNQE1EXVKv6NR07ZBJwro1fFuSHb_w903AQ8mMqf-R0o3sLRKFqsLGdwu9OIqu3tGDntjEojl1K7gN1b88vrrj3Z9v3Ww232wsX368nSx0P46wVZnogO",
+        "source": "woot.com",
+        "title": "Toy Takeover! Buy 6+  Get 60% Off! ",
+        "price": 40.0,
+        "list_price": 100.0,
+        "discount_pct": 60.0,
+        "krw": 53072,
+        "kr_lowest": null,
+        "score": 47,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-10-28T22:04:47+00:00",
+        "last_seen": "2026-10-28T22:04:47+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20219781",
         "source": "slickdeals:nordstrom.com",
@@ -4189,7 +4219,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-27T21:24:28+00:00",
-        "last_seen": "2026-10-28T15:56:02+00:00"
+        "last_seen": "2026-10-28T22:04:47+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20214435",
@@ -4928,7 +4958,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 77,
+      "collected_72h": 79,
       "published_72h": 6
     }
   }
