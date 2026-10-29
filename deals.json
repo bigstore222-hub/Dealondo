@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T07:20:30.090924+00:00",
-  "count": 82,
+  "generated_at": "2026-10-29T07:31:07.416026+00:00",
+  "count": 81,
   "deals": [
     {
       "source": "6pm.com",
@@ -1179,7 +1179,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T04:20:40.932615+00:00",
-      "last_seen": "2026-10-29T07:13:15.520915+00:00"
+      "last_seen": "2026-10-29T07:31:07.397708+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1228,7 +1228,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T04:20:40.932615+00:00",
-      "last_seen": "2026-10-29T07:13:15.520915+00:00"
+      "last_seen": "2026-10-29T07:31:07.397708+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1277,7 +1277,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T04:20:40.932615+00:00",
-      "last_seen": "2026-10-29T07:13:15.520915+00:00"
+      "last_seen": "2026-10-29T07:31:07.397708+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -3907,60 +3907,11 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-26T23:11:25.102168+00:00",
       "last_seen": "2026-10-27T08:42:52.607585+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/DKNY-Mens-Modern-Fit-Nested-Fall-2-Piece-Suit-for-120-free-shipping/22316257.html?iref=rss",
-      "title": "DKNY Men's Modern-Fit Nested Fall 2-Piece Suit for $120 + free shipping",
-      "brand": "DKNY",
-      "category": "premium_fashion",
-      "image": "https://d.dlnws.com/64599/1793049185-32067159_fpx.jpeg?h=250&w=205",
-      "price_current": 120.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 159022,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/DKNY-Mens-Modern-Fit-Nested-Fall-2-Piece-Suit-for-120-free-shipping/22316257.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-26T21:21:15.439264+00:00",
-      "last_seen": "2026-10-27T07:21:30.251923+00:00"
     }
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-29T07:10:25+00:00",
+      "T1": "2026-10-29T07:30:37+00:00",
       "T2": "2026-10-29T06:51:05+00:00",
       "T3": "2026-10-29T05:41:28+00:00",
       "T4": "2026-10-29T04:11:38+00:00"
@@ -3994,16 +3945,17 @@
       1,
       10,
       12,
-      7
+      7,
+      11
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-29T07:12:51+00:00",
-        "state": "읽기 오류",
+        "at": "2026-10-29T07:30:48+00:00",
+        "state": "정상",
         "mails": 14,
-        "deals": 5
+        "deals": 14
       },
       "newsletter": {
         "at": "2026-10-29T04:14:23+00:00",
@@ -4026,7 +3978,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-29T04:01:18+00:00",
-        "last_seen": "2026-10-29T07:13:15+00:00"
+        "last_seen": "2026-10-29T07:31:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20210610",
@@ -4041,7 +3993,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-29T03:01:24+00:00",
-        "last_seen": "2026-10-29T07:13:15+00:00"
+        "last_seen": "2026-10-29T07:31:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20223495",
@@ -4056,7 +4008,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 41% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T23:41:05+00:00",
-        "last_seen": "2026-10-29T07:13:15+00:00"
+        "last_seen": "2026-10-29T07:31:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20210031",
@@ -4146,7 +4098,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 48% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T21:11:28+00:00",
-        "last_seen": "2026-10-29T07:13:15+00:00"
+        "last_seen": "2026-10-29T07:31:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217345",
@@ -4191,7 +4143,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 44% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T19:11:31+00:00",
-        "last_seen": "2026-10-29T07:13:15+00:00"
+        "last_seen": "2026-10-29T07:31:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20211873",
@@ -4236,7 +4188,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-28T17:21:52+00:00",
-        "last_seen": "2026-10-29T07:01:30+00:00"
+        "last_seen": "2026-10-29T07:31:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217552",
@@ -4296,7 +4248,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T15:51:46+00:00",
-        "last_seen": "2026-10-29T07:01:30+00:00"
+        "last_seen": "2026-10-29T07:31:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20216952",
@@ -4356,7 +4308,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 45% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T14:32:12+00:00",
-        "last_seen": "2026-10-29T07:01:30+00:00"
+        "last_seen": "2026-10-29T07:31:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20220813",
@@ -4416,7 +4368,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-28T09:41:07+00:00",
-        "last_seen": "2026-10-29T07:01:30+00:00"
+        "last_seen": "2026-10-29T07:31:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217555",
@@ -4431,7 +4383,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T05:41:06+00:00",
-        "last_seen": "2026-10-29T07:01:30+00:00"
+        "last_seen": "2026-10-29T07:31:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20219331",
@@ -4446,7 +4398,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-28T05:41:06+00:00",
-        "last_seen": "2026-10-29T07:01:30+00:00"
+        "last_seen": "2026-10-29T07:31:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217045",
@@ -4476,7 +4428,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T01:31:13+00:00",
-        "last_seen": "2026-10-29T07:01:30+00:00"
+        "last_seen": "2026-10-29T07:31:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20203899",
@@ -4506,7 +4458,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-27T23:31:14+00:00",
-        "last_seen": "2026-10-29T07:01:30+00:00"
+        "last_seen": "2026-10-29T07:31:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20213175",
@@ -4716,7 +4668,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-27T17:12:21+00:00",
-        "last_seen": "2026-10-29T07:01:30+00:00"
+        "last_seen": "2026-10-29T07:31:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20135715",
