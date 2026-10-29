@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T13:41:08.802604+00:00",
-  "count": 81,
+  "generated_at": "2026-10-29T13:51:02.148863+00:00",
+  "count": 80,
   "deals": [
     {
       "source": "6pm.com",
@@ -1227,7 +1227,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T13:40:44.376698+00:00",
-      "last_seen": "2026-10-29T13:41:06.041919+00:00"
+      "last_seen": "2026-10-29T13:51:02.133134+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1276,7 +1276,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T13:40:44.376698+00:00",
-      "last_seen": "2026-10-29T13:41:06.041919+00:00"
+      "last_seen": "2026-10-29T13:51:02.133134+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -2097,54 +2097,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-28T21:41:24.617043+00:00",
       "last_seen": "2026-10-28T21:41:43.671792+00:00"
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/vans-classic-slip-on-women/2880146",
-      "title": "Classic Slip-On",
-      "brand": "Vans",
-      "category": "sports_outdoor",
-      "image": "https://n.nordstrommedia.com/it/afca2f1a-f9b7-46a2-8fc0-57560405d217.jpeg?h=368&w=240&dpr=2",
-      "price_current": 23.96,
-      "price_list": 65.0,
-      "price_baseline": 65.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 31751,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/vans-classic-slip-on-women/2880146",
-      "discount_pct": 63.1,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-27T07:21:06.913659+00:00",
-      "last_seen": "2026-10-27T13:41:31.322233+00:00"
     },
     {
       "source": "dealnews",
@@ -3911,7 +3863,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-29T13:40:26+00:00",
+      "T1": "2026-10-29T13:50:24+00:00",
       "T2": "2026-10-29T13:21:42+00:00",
       "T3": "2026-10-29T12:11:30+00:00",
       "T4": "2026-10-29T10:21:24+00:00"
@@ -3945,13 +3897,14 @@
       11,
       1,
       8,
+      10,
       10
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-29T13:40:44+00:00",
+        "at": "2026-10-29T13:50:36+00:00",
         "state": "정상",
         "mails": 16,
         "deals": 16
@@ -3977,7 +3930,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 48% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-29T13:30:17+00:00",
-        "last_seen": "2026-10-29T13:41:07+00:00"
+        "last_seen": "2026-10-29T13:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20218044",
@@ -3992,7 +3945,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 36% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-29T13:30:17+00:00",
-        "last_seen": "2026-10-29T13:41:07+00:00"
+        "last_seen": "2026-10-29T13:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20224665",
@@ -4007,7 +3960,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-29T04:01:18+00:00",
-        "last_seen": "2026-10-29T13:41:07+00:00"
+        "last_seen": "2026-10-29T13:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20210610",
@@ -4022,7 +3975,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-29T03:01:24+00:00",
-        "last_seen": "2026-10-29T13:41:07+00:00"
+        "last_seen": "2026-10-29T13:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20223495",
@@ -4037,7 +3990,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 41% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T23:41:05+00:00",
-        "last_seen": "2026-10-29T13:41:07+00:00"
+        "last_seen": "2026-10-29T13:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20210031",
@@ -4127,7 +4080,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 48% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T21:11:28+00:00",
-        "last_seen": "2026-10-29T13:41:07+00:00"
+        "last_seen": "2026-10-29T13:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217345",
@@ -4172,7 +4125,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 44% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T19:11:31+00:00",
-        "last_seen": "2026-10-29T13:41:07+00:00"
+        "last_seen": "2026-10-29T13:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20211873",
@@ -4217,7 +4170,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-28T17:21:52+00:00",
-        "last_seen": "2026-10-29T13:41:07+00:00"
+        "last_seen": "2026-10-29T13:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217552",
@@ -4277,7 +4230,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T15:51:46+00:00",
-        "last_seen": "2026-10-29T13:41:07+00:00"
+        "last_seen": "2026-10-29T13:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20216952",
@@ -4337,7 +4290,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 45% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T14:32:12+00:00",
-        "last_seen": "2026-10-29T13:41:07+00:00"
+        "last_seen": "2026-10-29T13:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20220813",
@@ -4397,7 +4350,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-28T09:41:07+00:00",
-        "last_seen": "2026-10-29T13:41:07+00:00"
+        "last_seen": "2026-10-29T13:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217555",
@@ -4412,7 +4365,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T05:41:06+00:00",
-        "last_seen": "2026-10-29T13:41:07+00:00"
+        "last_seen": "2026-10-29T13:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20219331",
@@ -4427,7 +4380,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-28T05:41:06+00:00",
-        "last_seen": "2026-10-29T13:41:07+00:00"
+        "last_seen": "2026-10-29T13:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217045",
@@ -4457,7 +4410,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T01:31:13+00:00",
-        "last_seen": "2026-10-29T13:41:07+00:00"
+        "last_seen": "2026-10-29T13:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20203899",
@@ -4487,7 +4440,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-27T23:31:14+00:00",
-        "last_seen": "2026-10-29T13:41:07+00:00"
+        "last_seen": "2026-10-29T13:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20213175",
@@ -4697,7 +4650,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-27T17:12:21+00:00",
-        "last_seen": "2026-10-29T13:41:07+00:00"
+        "last_seen": "2026-10-29T13:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20135715",
