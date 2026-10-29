@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T14:21:11.028735+00:00",
+  "generated_at": "2026-10-29T14:22:13.538221+00:00",
   "count": 80,
   "deals": [
     {
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-23T18:11:48.075953+00:00",
-      "last_seen": "2026-10-29T10:02:46.677954+00:00"
+      "last_seen": "2026-10-29T14:22:13.504368+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -240,6 +240,54 @@
     {
       "source": "6pm.com",
       "source_tier": "T3",
+      "url": "https://www.6pm.com/product/10055713",
+      "title": "Cern Top",
+      "brand": "AllSaints",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/81kovWQPXQL._AC_SR255,340_.jpg",
+      "price_current": 47.8,
+      "price_list": 239.0,
+      "price_baseline": 239.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 64064,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.6pm.com/product/10055713",
+      "discount_pct": 80.0,
+      "score": 83,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-26T17:41:13.891140+00:00",
+      "last_seen": "2026-10-29T14:22:13.504368+00:00"
+    },
+    {
+      "source": "6pm.com",
+      "source_tier": "T3",
       "url": "https://www.6pm.com/product/10018021",
       "title": "Paloma Tee",
       "brand": "AllSaints",
@@ -284,54 +332,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-29T12:12:09.762249+00:00",
       "last_seen": "2026-10-29T12:12:29.923430+00:00"
-    },
-    {
-      "source": "6pm.com",
-      "source_tier": "T3",
-      "url": "https://www.6pm.com/product/10055713",
-      "title": "Cern Top",
-      "brand": "AllSaints",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/81kovWQPXQL._AC_SR255,340_.jpg",
-      "price_current": 47.8,
-      "price_list": 239.0,
-      "price_baseline": 239.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 64064,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.6pm.com/product/10055713",
-      "discount_pct": 80.0,
-      "score": 83,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-26T17:41:13.891140+00:00",
-      "last_seen": "2026-10-29T05:42:26.478595+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -3865,11 +3865,10 @@
     "tier_last_run": {
       "T1": "2026-10-29T14:20:26+00:00",
       "T2": "2026-10-29T14:01:22+00:00",
-      "T3": "2026-10-29T12:11:30+00:00",
+      "T3": "2026-10-29T14:21:12+00:00",
       "T4": "2026-10-29T10:21:24+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       11,
@@ -3898,7 +3897,8 @@
       10,
       1,
       9,
-      10
+      10,
+      1
     ]
   },
   "email_monitor": {
