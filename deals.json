@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T03:32:38.007956+00:00",
-  "count": 79,
+  "generated_at": "2026-10-29T03:43:15.631568+00:00",
+  "count": 78,
   "deals": [
     {
       "source": "6pm.com",
@@ -991,53 +991,6 @@
       "last_seen": "2026-10-28T04:51:47.103160+00:00"
     },
     {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10064480",
-      "title": "Showtime Track Jacket - Soccer 2026 (Big Kid)",
-      "brand": "PUMA",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/81T27I+i0HL._AC_SR255,340_.jpg",
-      "price_current": 13.8,
-      "price_list": 46.0,
-      "price_baseline": 46.0,
-      "price_alltime_low": 13.8,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 18288,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10064480",
-      "discount_pct": 70.0,
-      "score": 78,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-19T20:44:20.685534+00:00",
-      "last_seen": "2026-10-27T03:41:35.306610+00:00"
-    },
-    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/circus-ny-by-sam-edelman-gisella-sandal-women/8662784",
@@ -1132,7 +1085,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T03:10:37.364717+00:00",
-      "last_seen": "2026-10-29T03:31:09.183128+00:00"
+      "last_seen": "2026-10-29T03:43:15.618203+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1181,7 +1134,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T01:10:35.198804+00:00",
-      "last_seen": "2026-10-29T03:31:09.183128+00:00"
+      "last_seen": "2026-10-29T03:43:15.618203+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1230,7 +1183,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T03:01:05.121682+00:00",
-      "last_seen": "2026-10-29T03:31:09.183128+00:00"
+      "last_seen": "2026-10-29T03:43:15.618203+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1279,7 +1232,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T03:01:05.121682+00:00",
-      "last_seen": "2026-10-29T03:31:09.183128+00:00"
+      "last_seen": "2026-10-29T03:43:15.618203+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -3817,13 +3770,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-29T03:30:37+00:00",
+      "T1": "2026-10-29T03:42:41+00:00",
       "T2": "2026-10-29T03:31:12+00:00",
       "T3": "2026-10-29T03:31:46+00:00",
       "T4": "2026-10-28T22:01:19+00:00"
     },
     "recent_gaps_min": [
-      10,
       7,
       1,
       2,
@@ -3852,13 +3804,14 @@
       10,
       10,
       1,
-      1
+      1,
+      11
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-29T03:30:49+00:00",
+        "at": "2026-10-29T03:42:51+00:00",
         "state": "정상",
         "mails": 13,
         "deals": 13
@@ -3884,7 +3837,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-29T03:01:24+00:00",
-        "last_seen": "2026-10-29T03:31:09+00:00"
+        "last_seen": "2026-10-29T03:43:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20223495",
@@ -3899,7 +3852,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 41% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T23:41:05+00:00",
-        "last_seen": "2026-10-29T03:31:09+00:00"
+        "last_seen": "2026-10-29T03:43:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20210031",
@@ -3989,7 +3942,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 48% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T21:11:28+00:00",
-        "last_seen": "2026-10-29T03:31:09+00:00"
+        "last_seen": "2026-10-29T03:43:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217345",
@@ -4034,7 +3987,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 44% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T19:11:31+00:00",
-        "last_seen": "2026-10-29T03:31:09+00:00"
+        "last_seen": "2026-10-29T03:43:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20211873",
@@ -4079,7 +4032,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-28T17:21:52+00:00",
-        "last_seen": "2026-10-29T03:31:09+00:00"
+        "last_seen": "2026-10-29T03:43:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217552",
@@ -4139,7 +4092,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T15:51:46+00:00",
-        "last_seen": "2026-10-29T03:31:09+00:00"
+        "last_seen": "2026-10-29T03:43:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20216952",
@@ -4199,7 +4152,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 45% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T14:32:12+00:00",
-        "last_seen": "2026-10-29T03:31:09+00:00"
+        "last_seen": "2026-10-29T03:43:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20220813",
@@ -4259,7 +4212,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-28T09:41:07+00:00",
-        "last_seen": "2026-10-29T03:31:09+00:00"
+        "last_seen": "2026-10-29T03:43:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217555",
@@ -4274,7 +4227,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T05:41:06+00:00",
-        "last_seen": "2026-10-29T03:31:09+00:00"
+        "last_seen": "2026-10-29T03:43:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20219331",
@@ -4289,7 +4242,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-28T05:41:06+00:00",
-        "last_seen": "2026-10-29T03:31:09+00:00"
+        "last_seen": "2026-10-29T03:43:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217045",
@@ -4319,7 +4272,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T01:31:13+00:00",
-        "last_seen": "2026-10-29T03:31:09+00:00"
+        "last_seen": "2026-10-29T03:43:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20203899",
@@ -4349,7 +4302,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-27T23:31:14+00:00",
-        "last_seen": "2026-10-29T03:31:09+00:00"
+        "last_seen": "2026-10-29T03:43:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20213175",
@@ -4559,7 +4512,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-27T17:12:21+00:00",
-        "last_seen": "2026-10-29T03:31:09+00:00"
+        "last_seen": "2026-10-29T03:43:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20135715",
@@ -4980,25 +4933,10 @@
         "reject_reason": "H8: 할인 22% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-26T04:31:07+00:00",
         "last_seen": "2026-10-27T00:51:19+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20203875",
-        "source": "slickdeals:amazon.com",
-        "title": "GIGABYTE H610M D3W WIFI6 Intel LGA 1700 Micro ATX Motherboard for $68.75 at Amazon",
-        "price": 68.75,
-        "list_price": 109.99,
-        "discount_pct": 37.5,
-        "krw": 91107,
-        "kr_lowest": null,
-        "score": 17,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-10-26T03:41:11+00:00",
-        "last_seen": "2026-10-27T00:51:19+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 75,
+      "collected_72h": 74,
       "published_72h": 6
     }
   }
