@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T06:51:03.995433+00:00",
+  "generated_at": "2026-10-29T06:51:38.239959+00:00",
   "count": 82,
   "deals": [
     {
@@ -141,7 +141,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-10-29T06:11:22.805714+00:00"
+      "last_seen": "2026-10-29T06:51:37.604591+00:00"
     },
     {
       "source": "zappos.com",
@@ -330,7 +330,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-29T06:11:22.805714+00:00"
+      "last_seen": "2026-10-29T06:51:37.604591+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -377,7 +377,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-29T06:11:22.805714+00:00"
+      "last_seen": "2026-10-29T06:51:37.604591+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -424,7 +424,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-29T06:11:22.805714+00:00"
+      "last_seen": "2026-10-29T06:51:37.604591+00:00"
     },
     {
       "source": "zappos.com",
@@ -2192,7 +2192,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-10-29T06:11:22.805714+00:00"
+      "last_seen": "2026-10-29T06:51:37.604591+00:00"
     },
     {
       "source": "6pm.com",
@@ -2289,7 +2289,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T00:18:40.484224+00:00",
-      "last_seen": "2026-10-29T06:11:22.805714+00:00"
+      "last_seen": "2026-10-29T06:51:37.604591+00:00"
     },
     {
       "source": "dealnews",
@@ -2338,7 +2338,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-28T23:41:23.030738+00:00",
-      "last_seen": "2026-10-29T06:11:22.805714+00:00"
+      "last_seen": "2026-10-29T06:51:37.604591+00:00"
     },
     {
       "source": "dealnews",
@@ -2387,7 +2387,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-28T23:41:23.030738+00:00",
-      "last_seen": "2026-10-29T06:11:22.805714+00:00"
+      "last_seen": "2026-10-29T06:51:37.604591+00:00"
     },
     {
       "source": "dealnews",
@@ -2436,7 +2436,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-28T21:01:44.491337+00:00",
-      "last_seen": "2026-10-29T06:11:22.805714+00:00"
+      "last_seen": "2026-10-29T06:51:37.604591+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2485,7 +2485,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-28T19:41:23.008010+00:00",
-      "last_seen": "2026-10-29T06:11:22.805714+00:00"
+      "last_seen": "2026-10-29T06:51:37.604591+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2534,7 +2534,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-28T17:41:35.595457+00:00",
-      "last_seen": "2026-10-29T06:11:22.805714+00:00"
+      "last_seen": "2026-10-29T06:51:37.604591+00:00"
     },
     {
       "source": "techbargains:adidas",
@@ -2582,8 +2582,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-29T06:11:01.712042+00:00",
-      "last_seen": "2026-10-29T06:11:22.805714+00:00"
+      "detected_at": "2026-10-29T06:51:17.604211+00:00",
+      "last_seen": "2026-10-29T06:51:37.604591+00:00"
     },
     {
       "source": "dealnews",
@@ -3961,12 +3961,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-29T06:50:25+00:00",
-      "T2": "2026-10-29T06:10:49+00:00",
+      "T2": "2026-10-29T06:51:05+00:00",
       "T3": "2026-10-29T05:41:28+00:00",
       "T4": "2026-10-29T04:11:38+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       10,
       1,
@@ -3995,7 +3994,8 @@
       10,
       10,
       10,
-      10
+      10,
+      1
     ]
   },
   "email_monitor": {
