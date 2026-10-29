@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T16:02:45.515598+00:00",
+  "generated_at": "2026-10-29T16:03:20.286825+00:00",
   "count": 79,
   "deals": [
     {
@@ -378,7 +378,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-29T15:21:50.598384+00:00"
+      "last_seen": "2026-10-29T16:03:19.304496+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -425,7 +425,54 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-29T15:21:50.598384+00:00"
+      "last_seen": "2026-10-29T16:03:19.304496+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10058747",
+      "title": "Chaney",
+      "brand": "Calvin Klein",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/61yFCsykbDL._AC_SR255,340_.jpg",
+      "price_current": 35.7,
+      "price_list": 119.0,
+      "price_baseline": 119.0,
+      "price_alltime_low": 35.7,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 47847,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10058747",
+      "discount_pct": 70.0,
+      "score": 81,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-22T12:41:12.107318+00:00",
+      "last_seen": "2026-10-29T16:03:19.304496+00:00"
     },
     {
       "source": "zappos.com",
@@ -614,53 +661,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-19T17:31:48.316423+00:00",
       "last_seen": "2026-10-29T05:31:39.083610+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10058747",
-      "title": "Chaney",
-      "brand": "Calvin Klein",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61yFCsykbDL._AC_SR255,340_.jpg",
-      "price_current": 35.7,
-      "price_list": 119.0,
-      "price_baseline": 119.0,
-      "price_alltime_low": 35.7,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 47847,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10058747",
-      "discount_pct": 70.0,
-      "score": 81,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-22T12:41:12.107318+00:00",
-      "last_seen": "2026-10-29T04:11:36.771254+00:00"
     },
     {
       "source": "zappos.com",
@@ -1663,7 +1663,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-10-29T15:21:50.598384+00:00"
+      "last_seen": "2026-10-29T16:03:19.304496+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10048253",
+      "title": "Summer Printed Blouse",
+      "brand": "Free People",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/81KEs5+buML._AC_SR255,340_.jpg",
+      "price_current": 29.4,
+      "price_list": 98.0,
+      "price_baseline": 98.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 39403,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10048253",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-28T20:21:53.433295+00:00",
+      "last_seen": "2026-10-29T16:03:19.304496+00:00"
     },
     {
       "source": "zappos.com",
@@ -1712,54 +1760,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-27T11:11:24.520960+00:00",
       "last_seen": "2026-10-29T08:41:43.816036+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10052183",
-      "title": "Spring Break Sleep Set Printed",
-      "brand": "Free People",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/71O01+8E00L._AC_SR255,340_.jpg",
-      "price_current": 38.4,
-      "price_list": 128.0,
-      "price_baseline": 128.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 51465,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10052183",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-29T04:51:06.495686+00:00",
-      "last_seen": "2026-10-29T04:51:30.842560+00:00"
     },
     {
       "source": "zappos.com",
@@ -1903,7 +1903,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-10-29T15:21:50.598384+00:00"
+      "last_seen": "2026-10-29T16:03:19.304496+00:00"
     },
     {
       "source": "6pm.com",
@@ -2192,7 +2192,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T15:21:26.942307+00:00",
-      "last_seen": "2026-10-29T15:21:50.598384+00:00"
+      "last_seen": "2026-10-29T16:03:19.304496+00:00"
     },
     {
       "source": "dealnews",
@@ -2240,8 +2240,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-29T15:21:26.682120+00:00",
-      "last_seen": "2026-10-29T15:21:50.598384+00:00"
+      "detected_at": "2026-10-29T16:02:55.861298+00:00",
+      "last_seen": "2026-10-29T16:03:19.304496+00:00"
     },
     {
       "source": "dealnews",
@@ -2289,8 +2289,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-29T15:21:26.685153+00:00",
-      "last_seen": "2026-10-29T15:21:50.598384+00:00"
+      "detected_at": "2026-10-29T16:02:55.864712+00:00",
+      "last_seen": "2026-10-29T16:03:19.304496+00:00"
     },
     {
       "source": "dealnews",
@@ -2339,7 +2339,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T14:01:40.086795+00:00",
-      "last_seen": "2026-10-29T15:21:50.598384+00:00"
+      "last_seen": "2026-10-29T16:03:19.304496+00:00"
     },
     {
       "source": "dealnews",
@@ -2388,56 +2388,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T14:01:40.086795+00:00",
-      "last_seen": "2026-10-29T15:21:50.598384+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22324692.html?iref=rss",
-      "title": "lululemon We Made Too Much Specials: Up to 84% off + free shipping",
-      "brand": "Lululemon",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1792231761-imglululemon_yogo_rgb_blk-1658424320863.png?h=200&w=200",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22324692.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-29T15:21:26.702342+00:00",
-      "last_seen": "2026-10-29T15:21:50.598384+00:00"
+      "last_seen": "2026-10-29T16:03:19.304496+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2486,7 +2437,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T13:21:53.773294+00:00",
-      "last_seen": "2026-10-29T15:21:50.598384+00:00"
+      "last_seen": "2026-10-29T16:03:19.304496+00:00"
     },
     {
       "source": "techbargains:macy's",
@@ -2535,7 +2486,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-10-29T15:21:50.598384+00:00"
+      "last_seen": "2026-10-29T16:03:19.304496+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2584,6 +2535,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-28T17:41:35.595457+00:00",
+      "last_seen": "2026-10-29T16:03:19.304496+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22324692.html?iref=rss",
+      "title": "lululemon We Made Too Much Specials: Up to 84% off + free shipping",
+      "brand": "Lululemon",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1792231761-imglululemon_yogo_rgb_blk-1658424320863.png?h=200&w=200",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22324692.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-29T15:21:26.702342+00:00",
       "last_seen": "2026-10-29T15:21:50.598384+00:00"
     },
     {
@@ -3815,12 +3815,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-29T16:00:46+00:00",
-      "T2": "2026-10-29T15:21:17+00:00",
+      "T2": "2026-10-29T16:02:47+00:00",
       "T3": "2026-10-29T14:21:12+00:00",
       "T4": "2026-10-29T10:21:24+00:00"
     },
     "recent_gaps_min": [
-      1,
       8,
       10,
       10,
@@ -3849,7 +3848,8 @@
       9,
       10,
       10,
-      12
+      12,
+      1
     ]
   },
   "email_monitor": {
