@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T04:10:59.593959+00:00",
-  "count": 78,
+  "generated_at": "2026-10-29T04:14:44.853573+00:00",
+  "count": 79,
   "deals": [
     {
       "source": "6pm.com",
@@ -141,7 +141,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-10-29T03:31:45.791080+00:00"
+      "last_seen": "2026-10-29T04:11:36.771254+00:00"
     },
     {
       "source": "zappos.com",
@@ -330,7 +330,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-19T20:11:12.756067+00:00",
-      "last_seen": "2026-10-29T03:31:45.791080+00:00"
+      "last_seen": "2026-10-29T04:11:36.771254+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -377,7 +377,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-29T03:31:45.791080+00:00"
+      "last_seen": "2026-10-29T04:11:36.771254+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -424,7 +424,54 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-29T03:31:45.791080+00:00"
+      "last_seen": "2026-10-29T04:11:36.771254+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10058747",
+      "title": "Chaney",
+      "brand": "Calvin Klein",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/61yFCsykbDL._AC_SR255,340_.jpg",
+      "price_current": 35.7,
+      "price_list": 119.0,
+      "price_baseline": 119.0,
+      "price_alltime_low": 35.7,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 47847,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10058747",
+      "discount_pct": 70.0,
+      "score": 81,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-22T12:41:12.107318+00:00",
+      "last_seen": "2026-10-29T04:11:36.771254+00:00"
     },
     {
       "source": "zappos.com",
@@ -660,53 +707,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-19T18:11:19.637845+00:00",
       "last_seen": "2026-10-27T19:41:31.855271+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10058747",
-      "title": "Chaney",
-      "brand": "Calvin Klein",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61yFCsykbDL._AC_SR255,340_.jpg",
-      "price_current": 35.7,
-      "price_list": 119.0,
-      "price_baseline": 119.0,
-      "price_alltime_low": 35.7,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 47309,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10058747",
-      "discount_pct": 70.0,
-      "score": 81,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-22T12:41:12.107318+00:00",
-      "last_seen": "2026-10-27T15:02:50.332327+00:00"
     },
     {
       "source": "zappos.com",
@@ -1527,6 +1527,54 @@
     {
       "source": "zappos.com",
       "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10058734",
+      "title": "Wendine",
+      "brand": "Calvin Klein",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/61GiPQFz6WL._AC_SR255,340_.jpg",
+      "price_current": 29.7,
+      "price_list": 99.0,
+      "price_baseline": 99.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 39805,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10058734",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-29T04:11:15.447192+00:00",
+      "last_seen": "2026-10-29T04:11:36.771254+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
       "url": "https://www.zappos.com/product/10048253",
       "title": "Summer Printed Blouse",
       "brand": "Free People",
@@ -2002,7 +2050,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-10-29T03:31:45.791080+00:00"
+      "last_seen": "2026-10-29T04:11:36.771254+00:00"
     },
     {
       "source": "6pm.com",
@@ -2099,7 +2147,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T00:18:40.484224+00:00",
-      "last_seen": "2026-10-29T03:31:45.791080+00:00"
+      "last_seen": "2026-10-29T04:11:36.771254+00:00"
     },
     {
       "source": "dealnews",
@@ -2148,7 +2196,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-28T23:41:23.030738+00:00",
-      "last_seen": "2026-10-29T03:31:45.791080+00:00"
+      "last_seen": "2026-10-29T04:11:36.771254+00:00"
     },
     {
       "source": "dealnews",
@@ -2197,7 +2245,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-28T23:41:23.030738+00:00",
-      "last_seen": "2026-10-29T03:31:45.791080+00:00"
+      "last_seen": "2026-10-29T04:11:36.771254+00:00"
     },
     {
       "source": "dealnews",
@@ -2246,7 +2294,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-28T21:01:44.491337+00:00",
-      "last_seen": "2026-10-29T03:31:45.791080+00:00"
+      "last_seen": "2026-10-29T04:11:36.771254+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2295,7 +2343,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-28T19:41:23.008010+00:00",
-      "last_seen": "2026-10-29T03:31:45.791080+00:00"
+      "last_seen": "2026-10-29T04:11:36.771254+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2344,7 +2392,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-28T17:41:35.595457+00:00",
-      "last_seen": "2026-10-29T03:31:45.791080+00:00"
+      "last_seen": "2026-10-29T04:11:36.771254+00:00"
     },
     {
       "source": "techbargains:adidas",
@@ -2392,8 +2440,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-29T03:31:28.068946+00:00",
-      "last_seen": "2026-10-29T03:31:45.791080+00:00"
+      "detected_at": "2026-10-29T04:11:15.388766+00:00",
+      "last_seen": "2026-10-29T04:11:36.771254+00:00"
     },
     {
       "source": "dealnews",
@@ -3771,13 +3819,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-29T04:10:28+00:00",
-      "T2": "2026-10-29T03:31:12+00:00",
+      "T2": "2026-10-29T04:11:01+00:00",
       "T3": "2026-10-29T03:31:46+00:00",
-      "T4": "2026-10-28T22:01:19+00:00"
+      "T4": "2026-10-29T04:11:38+00:00"
     },
     "recent_gaps_min": [
-      10,
-      10,
       10,
       1,
       10,
@@ -3805,7 +3851,9 @@
       11,
       7,
       11,
-      10
+      10,
+      1,
+      3
     ]
   },
   "email_monitor": {
@@ -3817,10 +3865,10 @@
         "deals": 14
       },
       "newsletter": {
-        "at": "2026-10-28T22:04:23+00:00",
+        "at": "2026-10-29T04:14:23+00:00",
         "state": "정상",
-        "mails": 105,
-        "deals": 7
+        "mails": 44,
+        "deals": 2
       }
     },
     "recent": [
@@ -3917,17 +3965,17 @@
       {
         "url": "https://click.email.bloomingdales.com/",
         "source": "bloomingdales.com",
-        "title": "Kids’ shoes they’ll love",
+        "title": "Up to 40% off new markdowns",
         "price": 60.0,
         "list_price": 100.0,
         "discount_pct": 40.0,
-        "krw": 79608,
+        "krw": 80414,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-28T22:04:47+00:00",
-        "last_seen": "2026-10-28T22:04:47+00:00"
+        "last_seen": "2026-10-29T04:14:44+00:00"
       },
       {
         "url": "https://click.woot.com/f/a/6-hnkHtBOirNyFe33h_qBw~~/AAQRxRA~/hOfdd3kFDnYor92Qml3d8QR2pnBel0TxCH-wKmrq89SEz28oE9lKV7DGWwyt3ZgGKnJnPnIjOF1BSzH1Jnb51boQP49gyEnUMKmTxTj76Q2QM65plAFKZWMvHI6QNQE1EXVKv6NR07ZBJwro1fFuSHb_w903AQ8mMqf-R0o3sLRKFqsLGdwu9OIqu3tGDntjEojl1K7gN1b88vrrj3Z9v3Ww232wsX368nSx0P46wVZnogO",
@@ -4356,13 +4404,13 @@
         "price": 70.0,
         "list_price": 100.0,
         "discount_pct": 30.0,
-        "krw": 92876,
+        "krw": 93817,
         "kr_lowest": null,
         "score": 38,
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-27T21:24:28+00:00",
-        "last_seen": "2026-10-28T22:04:47+00:00"
+        "last_seen": "2026-10-29T04:14:44+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20214435",
