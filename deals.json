@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T13:22:18.370010+00:00",
+  "generated_at": "2026-10-29T13:30:17.666436+00:00",
   "count": 81,
   "deals": [
     {
@@ -1227,7 +1227,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T11:50:34.349151+00:00",
-      "last_seen": "2026-10-29T13:21:39.838291+00:00"
+      "last_seen": "2026-10-29T13:30:17.650631+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -3911,13 +3911,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-29T13:20:23+00:00",
+      "T1": "2026-10-29T13:29:47+00:00",
       "T2": "2026-10-29T13:21:42+00:00",
       "T3": "2026-10-29T12:11:30+00:00",
       "T4": "2026-10-29T10:21:24+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       1,
       8,
@@ -3946,16 +3945,17 @@
       10,
       10,
       11,
-      1
+      1,
+      8
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-29T13:21:15+00:00",
+        "at": "2026-10-29T13:29:58+00:00",
         "state": "정상",
-        "mails": 14,
-        "deals": 14
+        "mails": 16,
+        "deals": 16
       },
       "newsletter": {
         "at": "2026-10-29T10:24:14+00:00",
@@ -3965,6 +3965,36 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20224050",
+        "source": "slickdeals:nordstrom.com",
+        "title": "Nike Pegasus 42 Men's Road Running Sneakers (Sapphire Summit White) for $75.40 at Nordstrom",
+        "price": 75.4,
+        "list_price": 145.0,
+        "discount_pct": 48.0,
+        "krw": 101054,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: Nike 할인 48% < 60% (유명 브랜드 최소 할인)",
+        "first_seen": "2026-10-29T13:30:17+00:00",
+        "last_seen": "2026-10-29T13:30:17+00:00"
+      },
+      {
+        "url": "https://slickdeals.net/f/20218044",
+        "source": "slickdeals:nike.com",
+        "title": "Nike Big Kids'/Little Kids' Classic Dunk Low Shoes (various colors) for From $46 at Nike",
+        "price": 46.0,
+        "list_price": 72.0,
+        "discount_pct": 36.1,
+        "krw": 61651,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: Nike 할인 36% < 60% (유명 브랜드 최소 할인)",
+        "first_seen": "2026-10-29T13:30:17+00:00",
+        "last_seen": "2026-10-29T13:30:17+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20224665",
         "source": "slickdeals:amazon.com",
@@ -3978,7 +4008,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-29T04:01:18+00:00",
-        "last_seen": "2026-10-29T13:21:39+00:00"
+        "last_seen": "2026-10-29T13:30:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20210610",
@@ -3993,7 +4023,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-29T03:01:24+00:00",
-        "last_seen": "2026-10-29T13:21:39+00:00"
+        "last_seen": "2026-10-29T13:30:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20223495",
@@ -4008,7 +4038,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 41% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T23:41:05+00:00",
-        "last_seen": "2026-10-29T13:21:39+00:00"
+        "last_seen": "2026-10-29T13:30:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20210031",
@@ -4098,7 +4128,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 48% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T21:11:28+00:00",
-        "last_seen": "2026-10-29T13:21:39+00:00"
+        "last_seen": "2026-10-29T13:30:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217345",
@@ -4143,7 +4173,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 44% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T19:11:31+00:00",
-        "last_seen": "2026-10-29T13:21:39+00:00"
+        "last_seen": "2026-10-29T13:30:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20211873",
@@ -4188,7 +4218,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-28T17:21:52+00:00",
-        "last_seen": "2026-10-29T13:21:39+00:00"
+        "last_seen": "2026-10-29T13:30:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217552",
@@ -4248,7 +4278,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T15:51:46+00:00",
-        "last_seen": "2026-10-29T13:21:39+00:00"
+        "last_seen": "2026-10-29T13:30:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20216952",
@@ -4308,7 +4338,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 45% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T14:32:12+00:00",
-        "last_seen": "2026-10-29T13:21:39+00:00"
+        "last_seen": "2026-10-29T13:30:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20220813",
@@ -4368,7 +4398,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-28T09:41:07+00:00",
-        "last_seen": "2026-10-29T13:21:39+00:00"
+        "last_seen": "2026-10-29T13:30:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217555",
@@ -4383,7 +4413,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T05:41:06+00:00",
-        "last_seen": "2026-10-29T13:21:39+00:00"
+        "last_seen": "2026-10-29T13:30:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20219331",
@@ -4398,7 +4428,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-28T05:41:06+00:00",
-        "last_seen": "2026-10-29T13:21:39+00:00"
+        "last_seen": "2026-10-29T13:30:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217045",
@@ -4428,7 +4458,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T01:31:13+00:00",
-        "last_seen": "2026-10-29T13:21:39+00:00"
+        "last_seen": "2026-10-29T13:30:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20203899",
@@ -4458,7 +4488,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-27T23:31:14+00:00",
-        "last_seen": "2026-10-29T13:21:39+00:00"
+        "last_seen": "2026-10-29T13:30:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20213175",
@@ -4668,7 +4698,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-27T17:12:21+00:00",
-        "last_seen": "2026-10-29T13:21:39+00:00"
+        "last_seen": "2026-10-29T13:30:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20135715",
@@ -5047,7 +5077,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 72,
+      "collected_72h": 74,
       "published_72h": 6
     }
   }
