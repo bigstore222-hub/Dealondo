@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T07:42:38.026310+00:00",
+  "generated_at": "2026-10-30T07:51:35.324050+00:00",
   "count": 89,
   "deals": [
     {
@@ -663,6 +663,53 @@
       "last_seen": "2026-10-29T06:51:37.604591+00:00"
     },
     {
+      "source": "slickdeals:dickssportinggoods",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20214093",
+      "title": "Nike Women's Sportswear Varsity Jacket (Black) for $26 at Dick's Sporting Goods",
+      "brand": "Nike",
+      "category": "sports_outdoor",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20214093&t=15",
+      "price_current": 26.0,
+      "price_list": 120.0,
+      "price_baseline": null,
+      "price_alltime_low": 26.0,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 34789,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20214093",
+      "discount_pct": 78.3,
+      "score": 78,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-27T04:20:37.439913+00:00",
+      "last_seen": "2026-10-30T07:51:35.311356+00:00"
+    },
+    {
       "source": "6pm.com",
       "source_tier": "T3",
       "url": "https://www.6pm.com/product/9824708",
@@ -708,53 +755,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-27T02:12:09.750591+00:00",
       "last_seen": "2026-10-30T07:42:36.582182+00:00"
-    },
-    {
-      "source": "slickdeals:dickssportinggoods",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20214093",
-      "title": "Nike Women's Sportswear Varsity Jacket (Black) for $26 at Dick's Sporting Goods",
-      "brand": "Nike",
-      "category": "sports_outdoor",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20214093&t=15",
-      "price_current": 26.0,
-      "price_list": 120.0,
-      "price_baseline": null,
-      "price_alltime_low": 26.0,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 34789,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20214093",
-      "discount_pct": 78.3,
-      "score": 78,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-27T04:20:37.439913+00:00",
-      "last_seen": "2026-10-30T07:40:57.914941+00:00"
     },
     {
       "source": "zappos.com",
@@ -992,7 +992,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-30T06:31:10.035581+00:00",
-      "last_seen": "2026-10-30T07:40:57.914941+00:00"
+      "last_seen": "2026-10-30T07:51:35.311356+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1041,7 +1041,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-28T16:51:04.588459+00:00",
-      "last_seen": "2026-10-30T07:40:57.914941+00:00"
+      "last_seen": "2026-10-30T07:51:35.311356+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1090,7 +1090,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-30T03:20:37.414456+00:00",
-      "last_seen": "2026-10-30T07:40:57.914941+00:00"
+      "last_seen": "2026-10-30T07:51:35.311356+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -4305,13 +4305,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-30T07:40:24+00:00",
+      "T1": "2026-10-30T07:50:23+00:00",
       "T2": "2026-10-30T07:40:59+00:00",
       "T3": "2026-10-30T07:41:38+00:00",
       "T4": "2026-10-30T04:51:08+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       10,
       10,
@@ -4340,13 +4339,14 @@
       10,
       9,
       1,
-      1
+      1,
+      9
     ]
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-30T07:40:33+00:00",
+        "at": "2026-10-30T07:51:13+00:00",
         "state": "정상",
         "mails": 17,
         "deals": 17
@@ -4372,7 +4372,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T07:40:58+00:00",
-        "last_seen": "2026-10-30T07:40:58+00:00"
+        "last_seen": "2026-10-30T07:51:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20218506",
@@ -4387,7 +4387,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-30T07:11:03+00:00",
-        "last_seen": "2026-10-30T07:40:58+00:00"
+        "last_seen": "2026-10-30T07:51:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20226348",
@@ -4402,7 +4402,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-30T04:41:32+00:00",
-        "last_seen": "2026-10-30T07:40:58+00:00"
+        "last_seen": "2026-10-30T07:51:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20228721",
@@ -4417,7 +4417,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-30T04:10:57+00:00",
-        "last_seen": "2026-10-30T07:40:58+00:00"
+        "last_seen": "2026-10-30T07:51:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20222331",
@@ -4432,7 +4432,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T04:01:26+00:00",
-        "last_seen": "2026-10-30T07:40:58+00:00"
+        "last_seen": "2026-10-30T07:51:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20230023",
@@ -4447,7 +4447,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T03:41:00+00:00",
-        "last_seen": "2026-10-30T07:40:58+00:00"
+        "last_seen": "2026-10-30T07:51:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20195256",
@@ -4462,7 +4462,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-30T02:10:58+00:00",
-        "last_seen": "2026-10-30T07:40:58+00:00"
+        "last_seen": "2026-10-30T07:51:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20197074",
@@ -4477,7 +4477,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-30T02:10:58+00:00",
-        "last_seen": "2026-10-30T07:40:58+00:00"
+        "last_seen": "2026-10-30T07:51:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20198304",
@@ -4492,7 +4492,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T01:50:56+00:00",
-        "last_seen": "2026-10-30T07:40:58+00:00"
+        "last_seen": "2026-10-30T07:51:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20225718",
@@ -4552,7 +4552,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 56% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-29T17:32:16+00:00",
-        "last_seen": "2026-10-30T07:40:58+00:00"
+        "last_seen": "2026-10-30T07:51:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217096",
@@ -4597,7 +4597,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-29T15:31:10+00:00",
-        "last_seen": "2026-10-30T07:40:58+00:00"
+        "last_seen": "2026-10-30T07:51:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20214339",
@@ -4627,7 +4627,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 48% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-29T13:30:17+00:00",
-        "last_seen": "2026-10-30T07:40:58+00:00"
+        "last_seen": "2026-10-30T07:51:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20218044",
@@ -4642,7 +4642,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 36% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-29T13:30:17+00:00",
-        "last_seen": "2026-10-30T07:40:58+00:00"
+        "last_seen": "2026-10-30T07:51:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20224665",
@@ -4687,7 +4687,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 41% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T23:41:05+00:00",
-        "last_seen": "2026-10-30T07:40:58+00:00"
+        "last_seen": "2026-10-30T07:51:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20210031",
@@ -4777,7 +4777,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 48% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T21:11:28+00:00",
-        "last_seen": "2026-10-30T07:40:58+00:00"
+        "last_seen": "2026-10-30T07:51:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217345",
@@ -4822,7 +4822,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 44% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T19:11:31+00:00",
-        "last_seen": "2026-10-30T07:40:58+00:00"
+        "last_seen": "2026-10-30T07:51:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20211873",
@@ -4867,7 +4867,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-28T17:21:52+00:00",
-        "last_seen": "2026-10-30T07:40:58+00:00"
+        "last_seen": "2026-10-30T07:51:35+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217552",
