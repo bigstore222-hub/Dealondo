@@ -20,6 +20,7 @@ pricing.py — 환율 정규화 · 관부가세 · 국내 최저가
 """
 from __future__ import annotations
 import os, json, re, time, urllib.request, urllib.parse, urllib.error
+from datetime import datetime, timezone
 
 UA = "HotdealRadar/0.1"
 
@@ -102,6 +103,7 @@ def landed_cost_krw(price_usd: float, category: str = "etc",
 # ---------------------------------------------------------------------------
 NAVER_API = "https://openapi.naver.com/v1/search/shop.json"
 _kr_cache: dict = {}
+NAVER_STATS: dict = {"keys": False, "queried": 0, "matched": 0, "errors": 0, "at": ""}
 _NAVER_DELAY = 0.25   # 초당 4회 이하로 제한
 
 _TAG = re.compile(r"<[^>]+>")
@@ -127,8 +129,9 @@ def kr_lowest_price(brand: str, title: str, display: int = 10) -> float | None:
     네이버 쇼핑에서 국내 최저가(원). 못 찾으면 None.
     None이면 H2 판정을 건너뛴다 — 확신 없이 탈락시키지 않는다.
     """
-    cid = os.environ.get("NAVER_CLIENT_ID")
-    secret = os.environ.get("NAVER_CLIENT_SECRET")
+    cid = re.sub(r"\s", "", os.environ.get("NAVER_CLIENT_ID") or "")
+    secret = re.sub(r"\s", "", os.environ.get("NAVER_CLIENT_SECRET") or "")
+    NAVER_STATS["keys"] = bool(cid and secret)
     if not (cid and secret):
         return None
 
@@ -159,12 +162,17 @@ def kr_lowest_price(brand: str, title: str, display: int = 10) -> float | None:
                     items = json.loads(r.read()).get("items", [])
             except Exception:
                 print(f"[pricing] 네이버 호출 초과 q={q[:40]}")
+                NAVER_STATS["errors"] += 1
                 return None
         else:
             print(f"[pricing] 네이버 조회 실패(HTTP {e.code}) q={q[:40]}")
+            NAVER_STATS["errors"] += 1
+            NAVER_STATS["last_error"] = f"HTTP {e.code}"
             return None
     except Exception as e:
         print(f"[pricing] 네이버 조회 실패({type(e).__name__}) q={q[:40]}")
+        NAVER_STATS["errors"] += 1
+        NAVER_STATS["last_error"] = type(e).__name__
         return None
 
     prices = []
@@ -214,15 +222,23 @@ def enrich(deals: list, lookup_kr: bool = True, kr_limit: int = 25) -> list:
     if not lookup_kr:
         return deals
 
-    # 점수 높은 순으로 제한된 수만 국내가 조회
+    # 할인율 높은 순으로 제한된 수만 국내가 조회.
+    # 주의: 이 단계는 점수 계산 전이라 discount_pct 가 아직 비어 있다(예전엔 그래서 아무 25건이나 조회됐다).
+    # 정가·평시가로 할인율을 직접 계산해 정렬하고, 브랜드를 모르는 잡화는 뒤로 미룬다.
+    def _pct(x):
+        base = getattr(x, "price_baseline", None) or getattr(x, "price_list", None)
+        return (1 - x.price_current / base) * 100 if base and x.price_current and base > 0 else 0
     ranked = sorted([d for d in deals if d.price_current],
-                    key=lambda x: -(x.discount_pct or 0))[:kr_limit]
+                    key=lambda x: (bool(getattr(x, "brand", "")), _pct(x)), reverse=True)[:kr_limit]
     hit = 0
     for d in ranked:
         kr = kr_lowest_price(d.brand, d.title)
+        NAVER_STATS["queried"] += 1
         if kr:
             d.kr_lowest_price = kr
             hit += 1
+            NAVER_STATS["matched"] += 1
+    NAVER_STATS["at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
     if hit:
         print(f"[pricing] 국내 최저가 조회 {hit}/{len(ranked)}건 매칭")
     return deals

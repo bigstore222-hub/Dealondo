@@ -60,6 +60,9 @@ Promise.all([fetch('deals.json',{cache:'no-store'}).then(r=>r.json()),
   let ph=`<div class="card"><h2>딜보드 마지막 갱신</h2><div class="big ${pc}">${ago(d.generated_at)}</div><div class="why">30분 안이면 정상</div></div>`;
   for(const k of ['T1','T2','T3','T4']){if(tr[k])ph+=`<div class="card"><h2>${TN[k]}</h2><div class="big">${ago(tr[k])}</div></div>`}
   if(gaps.length){const mx=Math.max(...gaps);ph+=`<div class="card"><h2>최근 갱신 간격(최대)</h2><div class="big ${mx<=30?'ok':(mx<=60?'warn':'bad')}">${mx}분</div><div class="why">최근 ${gaps.length}회 · 평균 ${Math.round(gaps.reduce((a,b)=>a+b,0)/gaps.length)}분</div></div>`}
+  const nv=pl.naver;
+  if(nv){const st=!nv.keys?['bad','키 없음']:(nv.matched>0?['ok','정상']:(nv.errors>0?['bad','조회 실패']:['warn','매칭 0건']));
+    ph+=`<div class="card"><h2>국내 최저가 조회(네이버)</h2><div class="big ${st[0]}">${st[1]}</div><div class="why">최근 실행 ${nv.queried||0}건 조회 → ${nv.matched||0}건 매칭${nv.last_error?' · '+esc(nv.last_error):''}</div></div>`}
   document.getElementById('pipe').innerHTML=ph;
   const tm=window.__threads||{};const hist=tm.history||[];
   const tcls=r=>r==='게시 완료'?'ok':(r==='실패'?'bad':'warn');

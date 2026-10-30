@@ -228,6 +228,14 @@ def dispatch(fresh: list, con, pending: list, force: bool = False) -> list:
     except Exception as e:
         print(f"[큐레이션] 알림 정리 오류: {type(e).__name__}: {e}")
 
+    # 텔레그램은 '구매 가치'가 있는 딜만 — 세일 공지·할인율 모름·무명 잡화·브랜드 오인식·저가 단품 제외,
+    # 70점 이상만, 같은 브랜드 2건까지, 한 번에 최대 8건 (alert_gate.py). 딜보드는 지금처럼 넓게 둔다.
+    try:
+        import alert_gate
+        fresh = alert_gate.select(fresh)
+    except Exception as e:
+        print(f"[알림 게이트] 오류 — 이번 실행은 게이트 없이 진행: {type(e).__name__}: {e}")
+
     flash = [d for d in fresh if d.urgency == "FLASH"]
     rest = [d for d in fresh if d.urgency != "FLASH"]
 
@@ -254,6 +262,17 @@ BOARD_TTL_HOURS = int(os.environ.get("RADAR_BOARD_TTL_HOURS", "48"))
 # '처음 본 지' 이 일수를 넘긴 딜은 오래된 딜로 보고 딜보드에서 제외한다(신선도).
 # DoA·리테일러가 같은 딜을 몇 주씩 걸어둬도, 오래된 건 안 보이게 한다.
 BOARD_STALE_DAYS = float(os.environ.get("RADAR_BOARD_STALE_DAYS", "10"))
+
+
+def _naver_stats(pipe_old: dict) -> dict:
+    """국내 최저가(네이버) 조회가 실제로 되는지 — 키 누락·호출 실패를 딜보드 파일에서 바로 보이게."""
+    try:
+        st = dict(pricing.NAVER_STATS)
+    except Exception:
+        st = {}
+    if not st.get("queried") and pipe_old.get("naver"):
+        return pipe_old["naver"]          # 이번 실행에서 조회가 없었으면 직전 기록 유지
+    return st
 
 
 def _deal_id(d: dict) -> str:
@@ -396,7 +415,8 @@ def write_board(all_deals: list) -> None:
     if gap_min is not None and gap_min > 0:
         gaps.append(gap_min)
     payload = {"generated_at": now.isoformat(), "count": len(deals), "deals": deals,
-               "pipeline": {"tier_last_run": tier_runs, "recent_gaps_min": gaps},
+               "pipeline": {"tier_last_run": tier_runs, "recent_gaps_min": gaps,
+                            "naver": _naver_stats(pipe_old)},
                "email_monitor": _email_monitor(all_deals, old if isinstance(old, dict) else {}, now)}
     os.makedirs(os.path.dirname(WEB_JSON), exist_ok=True)
     tmp = WEB_JSON + ".tmp"
