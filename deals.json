@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T01:50:56.087167+00:00",
+  "generated_at": "2026-10-30T01:51:31.790128+00:00",
   "count": 81,
   "deals": [
     {
@@ -425,7 +425,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-30T01:11:29.613829+00:00"
+      "last_seen": "2026-10-30T01:51:31.092602+00:00"
     },
     {
       "source": "zappos.com",
@@ -1355,7 +1355,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 80012,
+      "krw_effective": 79881,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -1378,7 +1378,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T00:41:10.285714+00:00",
-      "last_seen": "2026-10-30T00:31:47.506653+00:00"
+      "last_seen": "2026-10-30T01:51:31.092602+00:00"
     },
     {
       "source": "zappos.com",
@@ -1570,7 +1570,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-10-30T01:11:29.613829+00:00"
+      "last_seen": "2026-10-30T01:51:31.092602+00:00"
     },
     {
       "source": "zappos.com",
@@ -1858,7 +1858,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-10-30T01:11:29.613829+00:00"
+      "last_seen": "2026-10-30T01:51:31.092602+00:00"
     },
     {
       "source": "6pm.com",
@@ -2146,8 +2146,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-30T01:11:09.371486+00:00",
-      "last_seen": "2026-10-30T01:11:29.613829+00:00"
+      "detected_at": "2026-10-30T01:51:10.554080+00:00",
+      "last_seen": "2026-10-30T01:51:31.092602+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2196,7 +2196,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T16:02:56.075376+00:00",
-      "last_seen": "2026-10-30T01:11:29.613829+00:00"
+      "last_seen": "2026-10-30T01:51:31.092602+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2245,7 +2245,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T13:21:53.773294+00:00",
-      "last_seen": "2026-10-30T01:11:29.613829+00:00"
+      "last_seen": "2026-10-30T01:51:31.092602+00:00"
     },
     {
       "source": "dealnews",
@@ -3917,12 +3917,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-30T01:50:25+00:00",
-      "T2": "2026-10-30T01:10:56+00:00",
+      "T2": "2026-10-30T01:50:57+00:00",
       "T3": "2026-10-30T01:11:30+00:00",
       "T4": "2026-10-29T22:41:26+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       10,
       4,
@@ -3951,7 +3950,8 @@
       8,
       10,
       10,
-      10
+      10,
+      1
     ]
   },
   "email_monitor": {
