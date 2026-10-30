@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T23:31:06.440905+00:00",
+  "generated_at": "2026-10-30T23:31:47.077220+00:00",
   "count": 93,
   "deals": [
     {
@@ -188,7 +188,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-10-30T22:51:34.921616+00:00"
+      "last_seen": "2026-10-30T23:31:46.033774+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -235,7 +235,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-10-30T22:51:34.921616+00:00"
+      "last_seen": "2026-10-30T23:31:46.033774+00:00"
     },
     {
       "source": "zappos.com",
@@ -472,7 +472,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-30T22:51:34.921616+00:00"
+      "last_seen": "2026-10-30T23:31:46.033774+00:00"
     },
     {
       "source": "zappos.com",
@@ -1573,7 +1573,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T03:01:32.539718+00:00",
-      "last_seen": "2026-10-30T22:51:34.921616+00:00"
+      "last_seen": "2026-10-30T23:31:46.033774+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1621,7 +1621,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-10-30T22:51:34.921616+00:00"
+      "last_seen": "2026-10-30T23:31:46.033774+00:00"
     },
     {
       "source": "zappos.com",
@@ -2485,8 +2485,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-30T22:51:14.615937+00:00",
-      "last_seen": "2026-10-30T22:51:34.921616+00:00"
+      "detected_at": "2026-10-30T23:31:26.150682+00:00",
+      "last_seen": "2026-10-30T23:31:46.033774+00:00"
     },
     {
       "source": "dealnews",
@@ -2534,8 +2534,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-30T22:51:14.624596+00:00",
-      "last_seen": "2026-10-30T22:51:34.921616+00:00"
+      "detected_at": "2026-10-30T23:31:26.162952+00:00",
+      "last_seen": "2026-10-30T23:31:46.033774+00:00"
     },
     {
       "source": "dealnews",
@@ -2584,7 +2584,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T19:31:29.862577+00:00",
-      "last_seen": "2026-10-30T22:51:34.921616+00:00"
+      "last_seen": "2026-10-30T23:31:46.033774+00:00"
     },
     {
       "source": "dealnews",
@@ -2632,8 +2632,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-30T22:51:14.629652+00:00",
-      "last_seen": "2026-10-30T22:51:34.921616+00:00"
+      "detected_at": "2026-10-30T23:31:26.172645+00:00",
+      "last_seen": "2026-10-30T23:31:46.033774+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2682,7 +2682,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-28T17:41:35.595457+00:00",
-      "last_seen": "2026-10-30T22:51:34.921616+00:00"
+      "last_seen": "2026-10-30T23:31:46.033774+00:00"
     },
     {
       "source": "techbargains:adidas",
@@ -2730,8 +2730,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-30T22:51:14.844525+00:00",
-      "last_seen": "2026-10-30T22:51:34.921616+00:00"
+      "detected_at": "2026-10-30T23:31:26.367073+00:00",
+      "last_seen": "2026-10-30T23:31:46.033774+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2780,7 +2780,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T14:51:21.015637+00:00",
-      "last_seen": "2026-10-30T22:51:34.921616+00:00"
+      "last_seen": "2026-10-30T23:31:46.033774+00:00"
     },
     {
       "source": "dealnews",
@@ -4500,12 +4500,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-30T23:30:33+00:00",
-      "T2": "2026-10-30T22:51:02+00:00",
+      "T2": "2026-10-30T23:31:07+00:00",
       "T3": "2026-10-30T22:51:35+00:00",
       "T4": "2026-10-30T23:21:05+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       10,
       10,
@@ -4534,14 +4533,15 @@
       10,
       10,
       3,
-      7
+      7,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-10-30T23:31:06+00:00",
+      "at": "2026-10-30T23:31:45+00:00",
       "last_error": "HTTP 404"
     }
   },
@@ -5490,25 +5490,10 @@
         "reject_reason": "",
         "first_seen": "2026-10-28T00:11:08+00:00",
         "last_seen": "2026-10-29T00:51:10+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20210109",
-        "source": "slickdeals:zappos.com",
-        "title": "Nike Women's Court Vision Low Next Nature Shoes (Hemp/White) for $42.50 at Zappos",
-        "price": 42.5,
-        "list_price": 85.0,
-        "discount_pct": 50.0,
-        "krw": 56960,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
-        "first_seen": "2026-10-27T23:31:14+00:00",
-        "last_seen": "2026-10-29T23:51:10+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 63,
+      "collected_72h": 62,
       "published_72h": 4
     }
   }
