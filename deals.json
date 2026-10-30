@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T23:21:03.677460+00:00",
+  "generated_at": "2026-10-30T23:24:19.925206+00:00",
   "count": 93,
   "deals": [
     {
@@ -4502,10 +4502,9 @@
       "T1": "2026-10-30T23:20:26+00:00",
       "T2": "2026-10-30T22:51:02+00:00",
       "T3": "2026-10-30T22:51:35+00:00",
-      "T4": "2026-10-30T17:11:32+00:00"
+      "T4": "2026-10-30T23:21:05+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       10,
       1,
@@ -4534,14 +4533,15 @@
       1,
       9,
       10,
-      10
+      10,
+      3
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-10-30T23:21:03+00:00",
+      "at": "2026-10-30T23:24:19+00:00",
       "last_error": "HTTP 404"
     }
   },
@@ -4554,13 +4554,28 @@
         "deals": 27
       },
       "newsletter": {
-        "at": "2026-10-30T17:14:53+00:00",
+        "at": "2026-10-30T23:24:01+00:00",
         "state": "정상",
-        "mails": 44,
-        "deals": 1
+        "mails": 55,
+        "deals": 2
       }
     },
     "recent": [
+      {
+        "url": "https://click.woot.com/f/a/oXUEUw75TYM1dO_7aK3M2w~~/AAQRxRA~/lIyErbp4s8QYjT2ZMrR2ZLG7zub-Rc8oQFW54ZOXViTGpFfQnMa-3TnygPNDEr9by4GzwV5Cl8bs42ra51tms0yathKCL--CSaYxMzWD4D9-5L7J16CtGkjw8DN0x8F0Au7S1KVFDNsFWMdcyVu-b47pIiWDYXhCO7jWzNHsxKS6jsM8QR9clBYUtRhMhOkOFyNSvDhNmONOkgT9Hdo9RY35Vyle5JVzI_DdZcP5T6Tde8L",
+        "source": "woot.com",
+        "title": "Today only! 20% off select daily deals!",
+        "price": 80.0,
+        "list_price": 100.0,
+        "discount_pct": 20.0,
+        "krw": 107043,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
+        "first_seen": "2026-10-30T23:24:19+00:00",
+        "last_seen": "2026-10-30T23:24:19+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20229018",
         "source": "slickdeals:amazon.com",
@@ -5099,7 +5114,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-28T22:04:47+00:00",
-        "last_seen": "2026-10-30T17:15:15+00:00"
+        "last_seen": "2026-10-30T23:24:19+00:00"
       },
       {
         "url": "https://click.woot.com/f/a/6-hnkHtBOirNyFe33h_qBw~~/AAQRxRA~/hOfdd3kFDnYor92Qml3d8QR2pnBel0TxCH-wKmrq89SEz28oE9lKV7DGWwyt3ZgGKnJnPnIjOF1BSzH1Jnb51boQP49gyEnUMKmTxTj76Q2QM65plAFKZWMvHI6QNQE1EXVKv6NR07ZBJwro1fFuSHb_w903AQ8mMqf-R0o3sLRKFqsLGdwu9OIqu3tGDntjEojl1K7gN1b88vrrj3Z9v3Ww232wsX368nSx0P46wVZnogO",
@@ -5493,7 +5508,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 62,
+      "collected_72h": 63,
       "published_72h": 4
     }
   }
