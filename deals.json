@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T17:11:30.840636+00:00",
+  "generated_at": "2026-10-30T17:15:15.698405+00:00",
   "count": 90,
   "deals": [
     {
@@ -4354,10 +4354,9 @@
       "T1": "2026-10-30T17:10:25+00:00",
       "T2": "2026-10-30T16:51:06+00:00",
       "T3": "2026-10-30T16:21:21+00:00",
-      "T4": "2026-10-30T11:00:42+00:00"
+      "T4": "2026-10-30T17:11:32+00:00"
     },
     "recent_gaps_min": [
-      8,
       10,
       10,
       9,
@@ -4386,14 +4385,15 @@
       9,
       1,
       10,
-      10
+      10,
+      4
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-10-30T17:11:30+00:00",
+      "at": "2026-10-30T17:15:15+00:00",
       "last_error": "HTTP 404"
     }
   },
@@ -4406,10 +4406,10 @@
         "deals": 24
       },
       "newsletter": {
-        "at": "2026-10-30T11:04:13+00:00",
+        "at": "2026-10-30T17:14:53+00:00",
         "state": "정상",
-        "mails": 29,
-        "deals": 0
+        "mails": 44,
+        "deals": 1
       }
     },
     "recent": [
@@ -4896,17 +4896,17 @@
       {
         "url": "https://click.email.bloomingdales.com/",
         "source": "bloomingdales.com",
-        "title": "Ends Today! 25% off only on our app",
-        "price": 75.0,
+        "title": "The One Day Home Sale starts now!",
+        "price": 30.0,
         "list_price": 100.0,
-        "discount_pct": 25.0,
-        "krw": 100518,
+        "discount_pct": 70.0,
+        "krw": 40141,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-28T22:04:47+00:00",
-        "last_seen": "2026-10-29T22:45:12+00:00"
+        "last_seen": "2026-10-30T17:15:15+00:00"
       },
       {
         "url": "https://click.woot.com/f/a/6-hnkHtBOirNyFe33h_qBw~~/AAQRxRA~/hOfdd3kFDnYor92Qml3d8QR2pnBel0TxCH-wKmrq89SEz28oE9lKV7DGWwyt3ZgGKnJnPnIjOF1BSzH1Jnb51boQP49gyEnUMKmTxTj76Q2QM65plAFKZWMvHI6QNQE1EXVKv6NR07ZBJwro1fFuSHb_w903AQ8mMqf-R0o3sLRKFqsLGdwu9OIqu3tGDntjEojl1K7gN1b88vrrj3Z9v3Ww232wsX368nSx0P46wVZnogO",
@@ -5477,41 +5477,11 @@
         "reject_reason": "H8: 할인 9% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-27T17:21:10+00:00",
         "last_seen": "2026-10-29T00:51:10+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20211897",
-        "source": "slickdeals:walmart.com",
-        "title": "Apple AirTag (2nd Generation) for $23 at Walmart",
-        "price": 23.0,
-        "list_price": 28.0,
-        "discount_pct": 17.9,
-        "krw": 30517,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H8: 할인 18% < 25% (허접 할인 제외)",
-        "first_seen": "2026-10-27T17:12:21+00:00",
-        "last_seen": "2026-10-28T23:31:10+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20212290",
-        "source": "slickdeals:zappos.com",
-        "title": "Nike Women's Air Max Portal Shoes (Wolf Grey/Sail/Photon Dust) for $46 at Zappos",
-        "price": 46.0,
-        "list_price": 115.0,
-        "discount_pct": 60.0,
-        "krw": 61651,
-        "kr_lowest": null,
-        "score": 61,
-        "published": true,
-        "reject_reason": "",
-        "first_seen": "2026-10-27T17:12:21+00:00",
-        "last_seen": "2026-10-29T23:51:10+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 73,
-      "published_72h": 5
+      "collected_72h": 71,
+      "published_72h": 4
     }
   }
 }
