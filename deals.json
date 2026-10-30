@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-30T07:40:58.450741+00:00",
-  "count": 87,
+  "generated_at": "2026-10-30T07:42:38.026310+00:00",
+  "count": 89,
   "deals": [
     {
       "source": "6pm.com",
@@ -188,7 +188,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-10-30T07:02:10.531443+00:00"
+      "last_seen": "2026-10-30T07:41:35.693482+00:00"
     },
     {
       "source": "zappos.com",
@@ -330,7 +330,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T16:32:13.679676+00:00",
-      "last_seen": "2026-10-30T05:32:03.680381+00:00"
+      "last_seen": "2026-10-30T07:42:36.582182+00:00"
     },
     {
       "source": "6pm.com",
@@ -354,7 +354,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 45300,
+      "krw_effective": 45226,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -378,7 +378,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T12:12:09.762249+00:00",
-      "last_seen": "2026-10-29T12:12:29.923430+00:00"
+      "last_seen": "2026-10-30T07:42:36.582182+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -425,7 +425,54 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-30T07:02:10.531443+00:00"
+      "last_seen": "2026-10-30T07:41:35.693482+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10058747",
+      "title": "Chaney",
+      "brand": "Calvin Klein",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/71+JzIiwiiL._AC_SR255,340_.jpg",
+      "price_current": 35.7,
+      "price_list": 119.0,
+      "price_baseline": 119.0,
+      "price_alltime_low": 35.7,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 47768,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10058747",
+      "discount_pct": 70.0,
+      "score": 81,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-22T12:41:12.107318+00:00",
+      "last_seen": "2026-10-30T07:41:35.693482+00:00"
     },
     {
       "source": "zappos.com",
@@ -524,53 +571,6 @@
     {
       "source": "zappos.com",
       "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10058747",
-      "title": "Chaney",
-      "brand": "Calvin Klein",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61yFCsykbDL._AC_SR255,340_.jpg",
-      "price_current": 35.7,
-      "price_list": 119.0,
-      "price_baseline": 119.0,
-      "price_alltime_low": 35.7,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 47847,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10058747",
-      "discount_pct": 70.0,
-      "score": 81,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-22T12:41:12.107318+00:00",
-      "last_seen": "2026-10-29T16:03:19.304496+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
       "url": "https://www.zappos.com/product/10046424",
       "title": "Martha Workwear Jacket",
       "brand": "Free People",
@@ -663,6 +663,53 @@
       "last_seen": "2026-10-29T06:51:37.604591+00:00"
     },
     {
+      "source": "6pm.com",
+      "source_tier": "T3",
+      "url": "https://www.6pm.com/product/9824708",
+      "title": "Velocity MP",
+      "brand": "Saucony",
+      "category": "sports_outdoor",
+      "image": "https://m.media-amazon.com/images/I/71Wzcy+eA4L._AC_SR255,340_.jpg",
+      "price_current": 16.19,
+      "price_list": 80.0,
+      "price_baseline": 80.0,
+      "price_alltime_low": 16.19,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 21663,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.6pm.com/product/9824708",
+      "discount_pct": 79.8,
+      "score": 78,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-27T02:12:09.750591+00:00",
+      "last_seen": "2026-10-30T07:42:36.582182+00:00"
+    },
+    {
       "source": "slickdeals:dickssportinggoods",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20214093",
@@ -708,53 +755,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-27T04:20:37.439913+00:00",
       "last_seen": "2026-10-30T07:40:57.914941+00:00"
-    },
-    {
-      "source": "6pm.com",
-      "source_tier": "T3",
-      "url": "https://www.6pm.com/product/9824708",
-      "title": "Velocity MP",
-      "brand": "Saucony",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/71Wzcy+eA4L._AC_SR255,340_.jpg",
-      "price_current": 16.19,
-      "price_list": 80.0,
-      "price_baseline": 80.0,
-      "price_alltime_low": 16.19,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 21663,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.6pm.com/product/9824708",
-      "discount_pct": 79.8,
-      "score": 78,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-27T02:12:09.750591+00:00",
-      "last_seen": "2026-10-30T05:32:03.680381+00:00"
     },
     {
       "source": "zappos.com",
@@ -943,7 +943,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-10-30T07:02:10.531443+00:00"
+      "last_seen": "2026-10-30T07:41:35.693482+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1525,7 +1525,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T03:01:32.539718+00:00",
-      "last_seen": "2026-10-30T07:02:10.531443+00:00"
+      "last_seen": "2026-10-30T07:41:35.693482+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1573,7 +1573,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-10-30T07:02:10.531443+00:00"
+      "last_seen": "2026-10-30T07:41:35.693482+00:00"
     },
     {
       "source": "zappos.com",
@@ -2005,7 +2005,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-30T05:32:03.680381+00:00"
+      "last_seen": "2026-10-30T07:42:36.582182+00:00"
     },
     {
       "source": "ashford.com",
@@ -2053,7 +2053,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-30T05:32:03.680381+00:00"
+      "last_seen": "2026-10-30T07:42:36.582182+00:00"
     },
     {
       "source": "ashford.com",
@@ -2101,7 +2101,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-30T05:32:03.680381+00:00"
+      "last_seen": "2026-10-30T07:42:36.582182+00:00"
     },
     {
       "source": "ashford.com",
@@ -2149,7 +2149,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-30T05:32:03.680381+00:00"
+      "last_seen": "2026-10-30T07:42:36.582182+00:00"
     },
     {
       "source": "ashford.com",
@@ -2197,7 +2197,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-30T05:32:03.680381+00:00"
+      "last_seen": "2026-10-30T07:42:36.582182+00:00"
     },
     {
       "source": "ashford.com",
@@ -2245,7 +2245,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-30T05:32:03.680381+00:00"
+      "last_seen": "2026-10-30T07:42:36.582182+00:00"
     },
     {
       "source": "dealnews",
@@ -2390,7 +2390,105 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T18:41:36.970137+00:00",
-      "last_seen": "2026-10-30T07:02:10.531443+00:00"
+      "last_seen": "2026-10-30T07:41:35.693482+00:00"
+    },
+    {
+      "source": "techbargains:amazon",
+      "source_tier": "T2",
+      "url": "https://www.amazon.com/gp/product/B000NWDSAE/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+      "title": "Neutrogena 4.2oz Oil-Free Daily Acne Face Scrub $4.55",
+      "brand": "Acne Studios",
+      "category": "premium_fashion",
+      "image": "https://www.techbargains.com/imagery/deals/273464.1793345065.fit_lim.size_125x125.jpg",
+      "price_current": 4.55,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 6088,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.amazon.com/gp/product/B000NWDSAE/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-30T07:41:12.329840+00:00",
+      "last_seen": "2026-10-30T07:41:35.693482+00:00"
+    },
+    {
+      "source": "techbargains:amazon",
+      "source_tier": "T2",
+      "url": "https://www.amazon.com/gp/product/B016UG6PWE/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+      "title": "NOCO Boost GB70 2000A 12V Jump Starter (Up to 8L gas, 6L diesel) $139.99",
+      "brand": "Diesel",
+      "category": "premium_fashion",
+      "image": "https://www.techbargains.com/imagery/deals/119023.1793344243.fit_lim.size_125x125.jpg",
+      "price_current": 139.99,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 187312,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/gp/product/B016UG6PWE/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-30T07:41:12.329840+00:00",
+      "last_seen": "2026-10-30T07:41:35.693482+00:00"
     },
     {
       "source": "techbargains:adidas",
@@ -2438,8 +2536,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-30T07:01:51.471350+00:00",
-      "last_seen": "2026-10-30T07:02:10.531443+00:00"
+      "detected_at": "2026-10-30T07:41:12.259211+00:00",
+      "last_seen": "2026-10-30T07:41:35.693482+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2488,7 +2586,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T16:02:56.075376+00:00",
-      "last_seen": "2026-10-30T07:02:10.531443+00:00"
+      "last_seen": "2026-10-30T07:41:35.693482+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2537,7 +2635,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T13:21:53.773294+00:00",
-      "last_seen": "2026-10-30T07:02:10.531443+00:00"
+      "last_seen": "2026-10-30T07:41:35.693482+00:00"
     },
     {
       "source": "dealnews",
@@ -4208,14 +4306,12 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-30T07:40:24+00:00",
-      "T2": "2026-10-30T07:01:31+00:00",
-      "T3": "2026-10-30T05:31:03+00:00",
+      "T2": "2026-10-30T07:40:59+00:00",
+      "T3": "2026-10-30T07:41:38+00:00",
       "T4": "2026-10-30T04:51:08+00:00"
     },
     "recent_gaps_min": [
       10,
-      9,
-      10,
       1,
       10,
       10,
@@ -4242,7 +4338,9 @@
       9,
       10,
       10,
-      9
+      9,
+      1,
+      1
     ]
   },
   "email_monitor": {
