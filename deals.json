@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-31T11:50:58.709241+00:00",
-  "count": 89,
+  "generated_at": "2026-10-31T11:51:33.438130+00:00",
+  "count": 90,
   "deals": [
     {
       "source": "6pm.com",
@@ -188,7 +188,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-10-31T11:11:39.219702+00:00"
+      "last_seen": "2026-10-31T11:51:32.391780+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -235,7 +235,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-10-31T11:11:39.219702+00:00"
+      "last_seen": "2026-10-31T11:51:32.391780+00:00"
     },
     {
       "source": "zappos.com",
@@ -472,7 +472,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-31T11:11:39.219702+00:00"
+      "last_seen": "2026-10-31T11:51:32.391780+00:00"
     },
     {
       "source": "zappos.com",
@@ -1476,7 +1476,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T03:01:32.539718+00:00",
-      "last_seen": "2026-10-31T11:11:39.219702+00:00"
+      "last_seen": "2026-10-31T11:51:32.391780+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1524,7 +1524,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-10-31T11:11:39.219702+00:00"
+      "last_seen": "2026-10-31T11:51:32.391780+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10018053",
+      "title": "Maddie Printed Tunic",
+      "brand": "Free People",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/81RFVziA91L._AC_SR255,340_.jpg",
+      "price_current": 32.4,
+      "price_list": 108.0,
+      "price_baseline": 108.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 43238,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10018053",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-31T04:11:07.098999+00:00",
+      "last_seen": "2026-10-31T11:51:32.391780+00:00"
     },
     {
       "source": "zappos.com",
@@ -1669,54 +1717,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-31T09:12:43.257438+00:00",
       "last_seen": "2026-10-31T09:13:04.206588+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10018053",
-      "title": "Maddie Printed Tunic",
-      "brand": "Free People",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/81RFVziA91L._AC_SR255,340_.jpg",
-      "price_current": 32.4,
-      "price_list": 108.0,
-      "price_baseline": 108.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 43238,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10018053",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-31T04:11:07.098999+00:00",
-      "last_seen": "2026-10-31T04:11:30.055619+00:00"
     },
     {
       "source": "zappos.com",
@@ -2441,6 +2441,104 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
+      "url": "https://www.dealnews.com/adidas-Terrex-Hikster-LT-Hiking-Shoes-for-31-free-shipping/22330369.html?iref=rss",
+      "title": "adidas Terrex Hikster LT Hiking Shoes for $31 + free shipping",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1793447091-product-trimmed.png?h=141&w=250",
+      "price_current": 31.0,
+      "price_list": 51.67,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 41370,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/adidas-Terrex-Hikster-LT-Hiking-Shoes-for-31-free-shipping/22330369.html?iref=rss",
+      "discount_pct": 40.0,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-31T11:51:08.991142+00:00",
+      "last_seen": "2026-10-31T11:51:32.391780+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/adidas-Response-Runner-Shoes-for-25-50-free-shipping/22327524.html?iref=rss",
+      "title": "adidas Response Runner Shoes for $25.50 + free shipping",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1793361191-product-trimmed.png?h=126&w=250",
+      "price_current": 25.5,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 34030,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/adidas-Response-Runner-Shoes-for-25-50-free-shipping/22327524.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-30T12:11:43.372785+00:00",
+      "last_seen": "2026-10-31T11:51:32.391780+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
       "url": "https://www.dealnews.com/Cole-Haan-Mens-Original-Grand-Shortwing-Oxford-Shoes-for-54-for-new-customers-free-shipping-w-Prime/22330289.html?iref=rss",
       "title": "Cole Haan Men's Original Grand Shortwing Oxford Shoes for $54 for new customers + free shipping w/ Prime",
       "brand": "Cole Haan",
@@ -2485,7 +2583,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T10:31:28.834611+00:00",
-      "last_seen": "2026-10-31T11:11:39.219702+00:00"
+      "last_seen": "2026-10-31T11:51:32.391780+00:00"
     },
     {
       "source": "dealnews",
@@ -2533,8 +2631,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-31T11:11:20.890142+00:00",
-      "last_seen": "2026-10-31T11:11:39.219702+00:00"
+      "detected_at": "2026-10-31T11:51:08.829244+00:00",
+      "last_seen": "2026-10-31T11:51:32.391780+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2583,56 +2681,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-28T17:41:35.595457+00:00",
-      "last_seen": "2026-10-31T11:11:39.219702+00:00"
-    },
-    {
-      "source": "techbargains:adidas",
-      "source_tier": "T2",
-      "url": "https://www.adidas.com/us/sale",
-      "title": "Adidas Fall Favorites: Up to 40% off + Extra 15% Off Select Sale & Full Priced Shoes and Clothing",
-      "brand": "Adidas",
-      "category": "premium_fashion",
-      "image": "https://www.techbargains.com/imagery/deals/216156.1793369857.fit_lim.size_125x125.jpg",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.adidas.com/us/sale",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-31T11:11:21.092261+00:00",
-      "last_seen": "2026-10-31T11:11:39.219702+00:00"
+      "last_seen": "2026-10-31T11:51:32.391780+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2681,7 +2730,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T14:51:21.015637+00:00",
-      "last_seen": "2026-10-31T11:11:39.219702+00:00"
+      "last_seen": "2026-10-31T11:51:32.391780+00:00"
     },
     {
       "source": "dealnews",
@@ -4303,12 +4352,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-31T11:50:24+00:00",
-      "T2": "2026-10-31T11:11:04+00:00",
+      "T2": "2026-10-31T11:51:00+00:00",
       "T3": "2026-10-31T11:41:15+00:00",
       "T4": "2026-10-31T11:42:08+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       10,
       1,
@@ -4337,14 +4385,15 @@
       10,
       1,
       3,
-      6
+      6,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-10-31T11:50:58+00:00",
+      "at": "2026-10-31T11:51:32+00:00",
       "last_error": "HTTP 404"
     }
   },
