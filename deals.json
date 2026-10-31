@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T22:21:04.535609+00:00",
+  "generated_at": "2026-10-31T22:21:44.465419+00:00",
   "count": 89,
   "deals": [
     {
@@ -188,7 +188,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-10-31T21:43:12.624552+00:00"
+      "last_seen": "2026-10-31T22:21:43.624133+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -235,7 +235,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-10-31T21:43:12.624552+00:00"
+      "last_seen": "2026-10-31T22:21:43.624133+00:00"
     },
     {
       "source": "6pm.com",
@@ -378,7 +378,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-31T21:43:12.624552+00:00"
+      "last_seen": "2026-10-31T22:21:43.624133+00:00"
     },
     {
       "source": "zappos.com",
@@ -1287,7 +1287,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-10-31T21:43:12.624552+00:00"
+      "last_seen": "2026-10-31T22:21:43.624133+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1335,7 +1335,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T21:11:21.533925+00:00",
-      "last_seen": "2026-10-31T21:43:12.624552+00:00"
+      "last_seen": "2026-10-31T22:21:43.624133+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1383,7 +1383,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T21:11:21.533925+00:00",
-      "last_seen": "2026-10-31T21:43:12.624552+00:00"
+      "last_seen": "2026-10-31T22:21:43.624133+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2488,7 +2488,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T21:11:21.533925+00:00",
-      "last_seen": "2026-10-31T21:43:12.624552+00:00"
+      "last_seen": "2026-10-31T22:21:43.624133+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2536,7 +2536,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-28T17:41:35.595457+00:00",
-      "last_seen": "2026-10-31T21:43:12.624552+00:00"
+      "last_seen": "2026-10-31T22:21:43.624133+00:00"
     },
     {
       "source": "dealnews",
@@ -2584,8 +2584,57 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-31T21:42:49.934748+00:00",
-      "last_seen": "2026-10-31T21:43:12.624552+00:00"
+      "detected_at": "2026-10-31T22:21:24.075288+00:00",
+      "last_seen": "2026-10-31T22:21:43.624133+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22327334.html?iref=rss",
+      "title": "lululemon We Made Too Much Specials: Up to 84% off + free shipping",
+      "brand": "Lululemon",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1792231761-imglululemon_yogo_rgb_blk-1658424320863.png?h=200&w=200",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22327334.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-31T22:21:24.080811+00:00",
+      "last_seen": "2026-10-31T22:21:43.624133+00:00"
     },
     {
       "source": "dealnews",
@@ -2634,7 +2683,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T13:51:31.095134+00:00",
-      "last_seen": "2026-10-31T21:43:12.624552+00:00"
+      "last_seen": "2026-10-31T22:21:43.624133+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2683,7 +2732,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T18:31:16.158272+00:00",
-      "last_seen": "2026-10-31T21:43:12.624552+00:00"
+      "last_seen": "2026-10-31T22:21:43.624133+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2732,56 +2781,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T14:51:21.015637+00:00",
-      "last_seen": "2026-10-31T21:43:12.624552+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22327334.html?iref=rss",
-      "title": "lululemon We Made Too Much Specials: Up to 84% off + free shipping",
-      "brand": "Lululemon",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1792231761-imglululemon_yogo_rgb_blk-1658424320863.png?h=200&w=200",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22327334.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-31T21:11:21.352434+00:00",
-      "last_seen": "2026-10-31T21:11:42.565120+00:00"
+      "last_seen": "2026-10-31T22:21:43.624133+00:00"
     },
     {
       "source": "dealnews",
@@ -4249,7 +4249,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T21:11:21.533925+00:00",
-      "last_seen": "2026-10-31T21:43:12.624552+00:00"
+      "last_seen": "2026-10-31T22:21:43.624133+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -4303,12 +4303,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-31T22:20:28+00:00",
-      "T2": "2026-10-31T21:42:37+00:00",
+      "T2": "2026-10-31T22:21:06+00:00",
       "T3": "2026-10-31T20:21:03+00:00",
       "T4": "2026-10-31T17:52:27+00:00"
     },
     "recent_gaps_min": [
-      9,
       10,
       10,
       10,
@@ -4337,14 +4336,15 @@
       7,
       11,
       10,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-10-31T22:21:04+00:00",
+      "at": "2026-10-31T22:21:43+00:00",
       "last_error": "HTTP 404"
     }
   },
@@ -5128,25 +5128,10 @@
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-28T22:31:25+00:00",
         "last_seen": "2026-10-29T00:51:10+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20212074",
-        "source": "slickdeals:amazon.com",
-        "title": "4-Pack Linkind Matter BR30 1200LM Smart LED Light Bulbs (Color Changing) for $30 at Amazon",
-        "price": 30.0,
-        "list_price": 59.99,
-        "discount_pct": 50.0,
-        "krw": 40207,
-        "kr_lowest": null,
-        "score": 31,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-10-28T22:21:16+00:00",
-        "last_seen": "2026-10-29T00:51:10+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 52,
+      "collected_72h": 51,
       "published_72h": 3
     }
   }
