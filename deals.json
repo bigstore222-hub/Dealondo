@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T04:40:56.986931+00:00",
+  "generated_at": "2026-10-31T04:51:00.235126+00:00",
   "count": 93,
   "deals": [
     {
@@ -4497,7 +4497,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-31T04:40:22+00:00",
+      "T1": "2026-10-31T04:50:29+00:00",
       "T2": "2026-10-31T04:10:58+00:00",
       "T3": "2026-10-31T03:01:11+00:00",
       "T4": "2026-10-30T23:21:05+00:00"
@@ -4531,6 +4531,7 @@
       1,
       9,
       10,
+      10,
       10
     ],
     "naver": {
@@ -4538,17 +4539,17 @@
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-10-31T04:40:55+00:00",
+      "at": "2026-10-31T04:51:00+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-31T04:40:29+00:00",
+        "at": "2026-10-31T04:50:39+00:00",
         "state": "정상",
-        "mails": 11,
-        "deals": 10
+        "mails": 12,
+        "deals": 11
       },
       "newsletter": {
         "at": "2026-10-30T23:24:01+00:00",
@@ -4558,6 +4559,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20227518",
+        "source": "slickdeals:amazon.com",
+        "title": "48-Ct JusArt Dual Tip Acrylic Paint Pen Markers (White Barrel) for $11.15 at Amazon",
+        "price": 11.15,
+        "list_price": 18.59,
+        "discount_pct": 40.0,
+        "krw": 14880,
+        "kr_lowest": null,
+        "score": 31,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-10-31T04:51:00+00:00",
+        "last_seen": "2026-10-31T04:51:00+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20207628",
         "source": "slickdeals:amazon.com",
@@ -4571,7 +4587,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T04:40:55+00:00",
-        "last_seen": "2026-10-31T04:40:55+00:00"
+        "last_seen": "2026-10-31T04:51:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20234550",
@@ -4586,7 +4602,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T02:40:54+00:00",
-        "last_seen": "2026-10-31T04:40:55+00:00"
+        "last_seen": "2026-10-31T04:51:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20230581",
@@ -4601,7 +4617,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-31T02:10:54+00:00",
-        "last_seen": "2026-10-31T04:40:55+00:00"
+        "last_seen": "2026-10-31T04:51:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20228967",
@@ -4616,7 +4632,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-31T01:20:54+00:00",
-        "last_seen": "2026-10-31T04:40:55+00:00"
+        "last_seen": "2026-10-31T04:51:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20222568",
@@ -4781,7 +4797,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T10:41:06+00:00",
-        "last_seen": "2026-10-31T04:40:55+00:00"
+        "last_seen": "2026-10-31T04:51:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231253",
@@ -4796,7 +4812,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T09:31:12+00:00",
-        "last_seen": "2026-10-31T04:40:55+00:00"
+        "last_seen": "2026-10-31T04:51:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217726",
@@ -4811,7 +4827,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T07:40:58+00:00",
-        "last_seen": "2026-10-31T04:40:55+00:00"
+        "last_seen": "2026-10-31T04:51:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20218506",
@@ -4901,7 +4917,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-30T02:10:58+00:00",
-        "last_seen": "2026-10-31T04:40:55+00:00"
+        "last_seen": "2026-10-31T04:51:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20197074",
@@ -4991,7 +5007,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 56% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-29T17:32:16+00:00",
-        "last_seen": "2026-10-31T04:40:55+00:00"
+        "last_seen": "2026-10-31T04:51:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217096",
@@ -5036,7 +5052,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-29T15:31:10+00:00",
-        "last_seen": "2026-10-31T04:40:55+00:00"
+        "last_seen": "2026-10-31T04:51:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20214339",
@@ -5535,7 +5551,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 65,
+      "collected_72h": 66,
       "published_72h": 4
     }
   }
