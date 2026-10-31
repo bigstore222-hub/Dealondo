@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T23:51:23.909028+00:00",
+  "generated_at": "2026-10-31T00:01:18.350459+00:00",
   "count": 92,
   "deals": [
     {
@@ -1040,7 +1040,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-30T22:40:34.381333+00:00",
-      "last_seen": "2026-10-30T23:51:22.393415+00:00"
+      "last_seen": "2026-10-31T00:01:18.326723+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1089,7 +1089,56 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-30T19:50:47.225947+00:00",
-      "last_seen": "2026-10-30T23:51:22.393415+00:00"
+      "last_seen": "2026-10-31T00:01:18.326723+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20234304",
+      "title": "2-Pack Eqquorva Deformable Scew-in 220W LED Garage Ceiling Lights $22.99 + Shipping is free w/ Prime or on 35+.",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/9/3/0/4/6/1/9/300x300/22156170.thumb",
+      "price_current": 22.99,
+      "price_list": 45.98,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "MPJOH4ED",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 1,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 30762,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20234304",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 MPJOH4ED → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-31T00:00:54.714458+00:00",
+      "last_seen": "2026-10-31T00:01:18.326723+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1187,55 +1236,6 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-30T18:40:39.173600+00:00",
-      "last_seen": "2026-10-30T22:31:06.856080+00:00"
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20233755",
-      "title": "3-Pc Bedsure Queen Ruffle Comforter Set (Pink) $22.49 + Free Shipping w/ Prime or on $35+",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/3/1/1/9/6/7/1/6/300x300/22155030.thumb",
-      "price_current": 35.0,
-      "price_list": 70.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "9T7LTH2P",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 2,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 46831,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20233755",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 9T7LTH2P → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-30T21:10:49.809788+00:00",
       "last_seen": "2026-10-30T22:31:06.856080+00:00"
     },
     {
@@ -4450,7 +4450,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-30T23:50:26+00:00",
+      "T1": "2026-10-31T00:00:40+00:00",
       "T2": "2026-10-30T23:31:07+00:00",
       "T3": "2026-10-30T22:51:35+00:00",
       "T4": "2026-10-30T23:21:05+00:00"
@@ -4484,6 +4484,7 @@
       7,
       1,
       9,
+      10,
       10
     ],
     "naver": {
@@ -4491,17 +4492,17 @@
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-10-30T23:51:22+00:00",
+      "at": "2026-10-31T00:01:18+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-30T23:51:00+00:00",
+        "at": "2026-10-31T00:00:54+00:00",
         "state": "정상",
-        "mails": 27,
-        "deals": 27
+        "mails": 21,
+        "deals": 21
       },
       "newsletter": {
         "at": "2026-10-30T23:24:01+00:00",
@@ -4539,7 +4540,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T23:01:15+00:00",
-        "last_seen": "2026-10-30T23:51:22+00:00"
+        "last_seen": "2026-10-31T00:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20222475",
@@ -4554,7 +4555,7 @@
         "published": false,
         "reject_reason": "H7: Adidas 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-30T20:41:05+00:00",
-        "last_seen": "2026-10-30T23:51:22+00:00"
+        "last_seen": "2026-10-31T00:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20226498",
@@ -4569,7 +4570,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-30T18:51:03+00:00",
-        "last_seen": "2026-10-30T23:51:22+00:00"
+        "last_seen": "2026-10-31T00:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20229570",
@@ -4584,7 +4585,7 @@
         "published": false,
         "reject_reason": "H8: 할인 5% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-30T16:01:17+00:00",
-        "last_seen": "2026-10-30T23:51:22+00:00"
+        "last_seen": "2026-10-31T00:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20226699",
@@ -4599,7 +4600,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-30T15:31:32+00:00",
-        "last_seen": "2026-10-30T23:51:22+00:00"
+        "last_seen": "2026-10-31T00:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20225913",
@@ -4614,7 +4615,7 @@
         "published": false,
         "reject_reason": "H8: 할인 16% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-30T14:21:13+00:00",
-        "last_seen": "2026-10-30T23:51:22+00:00"
+        "last_seen": "2026-10-31T00:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20226684",
@@ -4629,7 +4630,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-30T12:31:18+00:00",
-        "last_seen": "2026-10-30T23:51:22+00:00"
+        "last_seen": "2026-10-31T00:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20220183",
@@ -4644,7 +4645,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T12:31:18+00:00",
-        "last_seen": "2026-10-30T23:51:22+00:00"
+        "last_seen": "2026-10-31T00:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231412",
@@ -4659,7 +4660,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T10:41:06+00:00",
-        "last_seen": "2026-10-30T23:51:22+00:00"
+        "last_seen": "2026-10-31T00:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231253",
@@ -4674,7 +4675,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T09:31:12+00:00",
-        "last_seen": "2026-10-30T23:51:22+00:00"
+        "last_seen": "2026-10-31T00:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217726",
@@ -4689,7 +4690,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T07:40:58+00:00",
-        "last_seen": "2026-10-30T23:51:22+00:00"
+        "last_seen": "2026-10-31T00:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20218506",
@@ -4704,7 +4705,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-30T07:11:03+00:00",
-        "last_seen": "2026-10-30T23:51:22+00:00"
+        "last_seen": "2026-10-31T00:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20226348",
@@ -4719,7 +4720,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-30T04:41:32+00:00",
-        "last_seen": "2026-10-30T23:51:22+00:00"
+        "last_seen": "2026-10-31T00:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20228721",
@@ -4734,7 +4735,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-30T04:10:57+00:00",
-        "last_seen": "2026-10-30T23:51:22+00:00"
+        "last_seen": "2026-10-31T00:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20222331",
@@ -4749,7 +4750,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T04:01:26+00:00",
-        "last_seen": "2026-10-30T23:51:22+00:00"
+        "last_seen": "2026-10-31T00:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20230023",
@@ -4764,7 +4765,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T03:41:00+00:00",
-        "last_seen": "2026-10-30T23:51:22+00:00"
+        "last_seen": "2026-10-31T00:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20195256",
@@ -4779,7 +4780,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-30T02:10:58+00:00",
-        "last_seen": "2026-10-30T23:51:22+00:00"
+        "last_seen": "2026-10-31T00:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20197074",
@@ -4794,7 +4795,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-30T02:10:58+00:00",
-        "last_seen": "2026-10-30T23:51:22+00:00"
+        "last_seen": "2026-10-31T00:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20198304",
@@ -4809,7 +4810,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T01:50:56+00:00",
-        "last_seen": "2026-10-30T23:51:22+00:00"
+        "last_seen": "2026-10-31T00:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20225718",
@@ -4869,7 +4870,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 56% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-29T17:32:16+00:00",
-        "last_seen": "2026-10-30T23:51:22+00:00"
+        "last_seen": "2026-10-31T00:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217096",
@@ -4914,7 +4915,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-29T15:31:10+00:00",
-        "last_seen": "2026-10-30T23:51:22+00:00"
+        "last_seen": "2026-10-31T00:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20214339",
