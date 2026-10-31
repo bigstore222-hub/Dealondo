@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-31T18:31:06.199522+00:00",
-  "count": 89,
+  "generated_at": "2026-10-31T18:31:40.883983+00:00",
+  "count": 90,
   "deals": [
     {
       "source": "6pm.com",
@@ -188,7 +188,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-10-31T17:52:26.291141+00:00"
+      "last_seen": "2026-10-31T18:31:39.782507+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -235,7 +235,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-10-31T17:52:26.291141+00:00"
+      "last_seen": "2026-10-31T18:31:39.782507+00:00"
     },
     {
       "source": "6pm.com",
@@ -378,7 +378,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-31T17:52:26.291141+00:00"
+      "last_seen": "2026-10-31T18:31:39.782507+00:00"
     },
     {
       "source": "zappos.com",
@@ -1335,7 +1335,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T03:01:32.539718+00:00",
-      "last_seen": "2026-10-31T17:52:26.291141+00:00"
+      "last_seen": "2026-10-31T18:31:39.782507+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1383,7 +1383,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-10-31T17:52:26.291141+00:00"
+      "last_seen": "2026-10-31T18:31:39.782507+00:00"
     },
     {
       "source": "zappos.com",
@@ -1820,54 +1820,6 @@
     {
       "source": "zappos.com",
       "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10069736",
-      "title": "Showtime Mesh T-Shirt (Little Kid)",
-      "brand": "PUMA",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/61roNu+F-FL._AC_SR255,340_.jpg",
-      "price_current": 6.6,
-      "price_list": 22.0,
-      "price_baseline": 22.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 8808,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10069736",
-      "discount_pct": 70.0,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-31T16:31:22.823170+00:00",
-      "last_seen": "2026-10-31T16:31:43.623222+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
       "url": "https://www.zappos.com/product/10024412",
       "title": "FIGC Italy Alphaskin Hoodie (Little Kid/Big Kid)",
       "brand": "adidas",
@@ -1911,7 +1863,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T06:41:13.552751+00:00",
-      "last_seen": "2026-10-31T13:51:51.632446+00:00"
+      "last_seen": "2026-10-31T18:31:39.782507+00:00"
     },
     {
       "source": "zappos.com",
@@ -1959,7 +1911,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T16:51:20.542706+00:00",
-      "last_seen": "2026-10-31T13:51:51.632446+00:00"
+      "last_seen": "2026-10-31T18:31:39.782507+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10069736",
+      "title": "Showtime Mesh T-Shirt (Little Kid)",
+      "brand": "PUMA",
+      "category": "sports_outdoor",
+      "image": "https://m.media-amazon.com/images/I/61roNu+F-FL._AC_SR255,340_.jpg",
+      "price_current": 6.6,
+      "price_list": 22.0,
+      "price_baseline": 22.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 8808,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10069736",
+      "discount_pct": 70.0,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-31T16:31:22.823170+00:00",
+      "last_seen": "2026-10-31T16:31:43.623222+00:00"
     },
     {
       "source": "dealnews",
@@ -2440,8 +2440,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-31T17:52:08.315569+00:00",
-      "last_seen": "2026-10-31T17:52:26.291141+00:00"
+      "detected_at": "2026-10-31T18:31:15.922666+00:00",
+      "last_seen": "2026-10-31T18:31:39.782507+00:00"
     },
     {
       "source": "dealnews",
@@ -2489,8 +2489,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-31T17:52:08.321169+00:00",
-      "last_seen": "2026-10-31T17:52:26.291141+00:00"
+      "detected_at": "2026-10-31T18:31:15.931249+00:00",
+      "last_seen": "2026-10-31T18:31:39.782507+00:00"
     },
     {
       "source": "dealnews",
@@ -2539,7 +2539,56 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T13:51:31.095134+00:00",
-      "last_seen": "2026-10-31T17:52:26.291141+00:00"
+      "last_seen": "2026-10-31T18:31:39.782507+00:00"
+    },
+    {
+      "source": "techbargains:amazon",
+      "source_tier": "T2",
+      "url": "https://www.amazon.com/gp/product/B0989TNQMW/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+      "title": "Carhartt Men's Leather Metal Finish Buckle Anvil Belt $18.34",
+      "brand": "Carhartt",
+      "category": "premium_fashion",
+      "image": "https://www.techbargains.com/imagery/deals/273561.1793470990.fit_lim.size_125x125.png",
+      "price_current": 18.34,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 24475,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/gp/product/B0989TNQMW/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-31T18:31:16.158272+00:00",
+      "last_seen": "2026-10-31T18:31:39.782507+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2588,7 +2637,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T14:51:21.015637+00:00",
-      "last_seen": "2026-10-31T17:52:26.291141+00:00"
+      "last_seen": "2026-10-31T18:31:39.782507+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -4307,12 +4356,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-31T18:30:33+00:00",
-      "T2": "2026-10-31T17:51:52+00:00",
+      "T2": "2026-10-31T18:31:07+00:00",
       "T3": "2026-10-31T18:11:01+00:00",
       "T4": "2026-10-31T17:52:27+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       10,
@@ -4341,14 +4389,15 @@
       10,
       1,
       9,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-10-31T18:31:06+00:00",
+      "at": "2026-10-31T18:31:39+00:00",
       "last_error": "HTTP 404"
     }
   },
@@ -5237,25 +5286,10 @@
         "reject_reason": "H7: Nike 할인 44% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-28T19:11:31+00:00",
         "last_seen": "2026-10-30T23:51:22+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20211873",
-        "source": "slickdeals:bhphotovideo",
-        "title": "13.6\" Apple MacBook Air Laptop (2026): M5 10-Core Chip, 32GB RAM, 512GB SSD for $1549 at B&H Photo Video",
-        "price": 1549.0,
-        "list_price": 1699.0,
-        "discount_pct": 8.8,
-        "krw": 2466327,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H8: 할인 9% < 25% (허접 할인 제외)",
-        "first_seen": "2026-10-28T18:31:23+00:00",
-        "last_seen": "2026-10-29T00:51:10+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 59,
+      "collected_72h": 58,
       "published_72h": 3
     }
   }
