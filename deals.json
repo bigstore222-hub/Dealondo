@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T09:21:01.741010+00:00",
+  "generated_at": "2026-10-31T09:31:24.936381+00:00",
   "count": 91,
   "deals": [
     {
@@ -1190,6 +1190,54 @@
       "last_seen": "2026-10-30T05:41:32.412326+00:00"
     },
     {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20232186",
+      "title": "Kingdom Come Deliverance: Royal Edition (Switch Digital Download) $5",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/3/5/9/4/0/2/8/300x300/22159242.thumb",
+      "price_current": 5.0,
+      "price_list": 50.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 51,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 6673,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20232186",
+      "discount_pct": 90.0,
+      "score": 73,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-30T13:31:44.602150+00:00",
+      "last_seen": "2026-10-31T09:31:24.922210+00:00"
+    },
+    {
       "source": "dealsofamerica",
       "source_tier": "T2",
       "url": "https://www.dealsofamerica.com/neutrogena-face-scrub/845504.htm",
@@ -1333,53 +1381,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-29T20:31:29.948807+00:00",
       "last_seen": "2026-10-29T20:31:50.438648+00:00"
-    },
-    {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/Apple-iPhone-13-5G-256GB-Unlocked-Smartphone/688695.htm",
-      "title": "Apple iPhone 13 6.1\" A15 Bionic Unlocked 5G Smartphone Refurb (256GB)",
-      "brand": "",
-      "category": "electronics",
-      "image": "https://i.ebayimg.com/images/g/DDcAAOSwEjhjcrCI/s-l200.webp",
-      "price_current": 250.86,
-      "price_list": 899.99,
-      "price_baseline": null,
-      "price_alltime_low": 250.86,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 368252,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.dealsofamerica.com/Apple-iPhone-13-5G-256GB-Unlocked-Smartphone/688695.htm",
-      "discount_pct": 72.1,
-      "score": 70,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 15,
-        "bonus": 0,
-        "brand": 0
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-21T16:21:20.746912+00:00",
-      "last_seen": "2026-10-31T09:13:04.206588+00:00"
     },
     {
       "source": "6pm.com",
@@ -4399,7 +4400,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-31T09:20:27+00:00",
+      "T1": "2026-10-31T09:30:35+00:00",
       "T2": "2026-10-31T09:12:22+00:00",
       "T3": "2026-10-31T07:21:40+00:00",
       "T4": "2026-10-31T05:31:05+00:00"
@@ -4433,24 +4434,25 @@
       10,
       11,
       1,
-      8
+      8,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-10-31T09:21:00+00:00",
+      "at": "2026-10-31T09:31:24+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-31T09:20:40+00:00",
+        "at": "2026-10-31T09:31:02+00:00",
         "state": "정상",
-        "mails": 17,
-        "deals": 16
+        "mails": 18,
+        "deals": 17
       },
       "newsletter": {
         "at": "2026-10-31T05:34:05+00:00",
@@ -4460,6 +4462,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20230620",
+        "source": "slickdeals:walmart.com",
+        "title": "NASCAR Boys Baseball Jersey & Matching Shorts Set for $6.85 at Walmart",
+        "price": 6.85,
+        "list_price": 16.98,
+        "discount_pct": 59.7,
+        "krw": 9141,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-10-31T09:31:24+00:00",
+        "last_seen": "2026-10-31T09:31:24+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20232726",
         "source": "slickdeals:bestbuy.com",
@@ -4473,7 +4490,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T07:02:54+00:00",
-        "last_seen": "2026-10-31T09:21:00+00:00"
+        "last_seen": "2026-10-31T09:31:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231625",
@@ -4488,7 +4505,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T05:51:07+00:00",
-        "last_seen": "2026-10-31T09:21:00+00:00"
+        "last_seen": "2026-10-31T09:31:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20230251",
@@ -4503,7 +4520,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T05:41:11+00:00",
-        "last_seen": "2026-10-31T09:21:00+00:00"
+        "last_seen": "2026-10-31T09:31:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20226924",
@@ -4518,7 +4535,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-31T05:01:12+00:00",
-        "last_seen": "2026-10-31T09:21:00+00:00"
+        "last_seen": "2026-10-31T09:31:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20233740",
@@ -4533,7 +4550,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T05:01:12+00:00",
-        "last_seen": "2026-10-31T09:21:00+00:00"
+        "last_seen": "2026-10-31T09:31:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20227518",
@@ -4548,7 +4565,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T04:51:00+00:00",
-        "last_seen": "2026-10-31T09:21:00+00:00"
+        "last_seen": "2026-10-31T09:31:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20207628",
@@ -4563,7 +4580,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T04:40:55+00:00",
-        "last_seen": "2026-10-31T09:21:00+00:00"
+        "last_seen": "2026-10-31T09:31:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20234550",
@@ -4578,7 +4595,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T02:40:54+00:00",
-        "last_seen": "2026-10-31T09:21:00+00:00"
+        "last_seen": "2026-10-31T09:31:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20230581",
@@ -4593,7 +4610,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-31T02:10:54+00:00",
-        "last_seen": "2026-10-31T09:21:00+00:00"
+        "last_seen": "2026-10-31T09:31:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20228967",
@@ -4608,7 +4625,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-31T01:20:54+00:00",
-        "last_seen": "2026-10-31T09:21:00+00:00"
+        "last_seen": "2026-10-31T09:31:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20222568",
@@ -4773,7 +4790,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T10:41:06+00:00",
-        "last_seen": "2026-10-31T09:21:00+00:00"
+        "last_seen": "2026-10-31T09:31:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231253",
@@ -4788,7 +4805,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T09:31:12+00:00",
-        "last_seen": "2026-10-31T09:21:00+00:00"
+        "last_seen": "2026-10-31T09:31:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217726",
@@ -4803,7 +4820,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T07:40:58+00:00",
-        "last_seen": "2026-10-31T09:21:00+00:00"
+        "last_seen": "2026-10-31T09:31:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20218506",
@@ -4893,7 +4910,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-30T02:10:58+00:00",
-        "last_seen": "2026-10-31T09:21:00+00:00"
+        "last_seen": "2026-10-31T09:31:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20197074",
@@ -4983,7 +5000,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 56% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-29T17:32:16+00:00",
-        "last_seen": "2026-10-31T09:21:00+00:00"
+        "last_seen": "2026-10-31T09:31:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217096",
@@ -5028,7 +5045,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-29T15:31:10+00:00",
-        "last_seen": "2026-10-31T09:21:00+00:00"
+        "last_seen": "2026-10-31T09:31:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20214339",
@@ -5482,7 +5499,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 68,
+      "collected_72h": 69,
       "published_72h": 5
     }
   }
