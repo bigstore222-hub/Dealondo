@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T13:51:15.842827+00:00",
+  "generated_at": "2026-10-31T13:52:51.199384+00:00",
   "count": 91,
   "deals": [
     {
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-26T17:41:13.891140+00:00",
-      "last_seen": "2026-10-31T07:22:41.554729+00:00"
+      "last_seen": "2026-10-31T13:52:51.178869+00:00"
     },
     {
       "source": "6pm.com",
@@ -94,7 +94,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-23T18:11:48.075953+00:00",
-      "last_seen": "2026-10-31T03:02:13.430200+00:00"
+      "last_seen": "2026-10-31T13:52:51.178869+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -188,7 +188,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-10-31T13:11:32.980425+00:00"
+      "last_seen": "2026-10-31T13:51:51.632446+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -235,7 +235,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-10-31T13:11:32.980425+00:00"
+      "last_seen": "2026-10-31T13:51:51.632446+00:00"
     },
     {
       "source": "zappos.com",
@@ -472,7 +472,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-31T13:11:32.980425+00:00"
+      "last_seen": "2026-10-31T13:51:51.632446+00:00"
     },
     {
       "source": "zappos.com",
@@ -1427,7 +1427,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T16:32:13.679676+00:00",
-      "last_seen": "2026-10-31T11:42:07.513493+00:00"
+      "last_seen": "2026-10-31T13:52:51.178869+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1475,7 +1475,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T03:01:32.539718+00:00",
-      "last_seen": "2026-10-31T13:11:32.980425+00:00"
+      "last_seen": "2026-10-31T13:51:51.632446+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1523,7 +1523,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-10-31T13:11:32.980425+00:00"
+      "last_seen": "2026-10-31T13:51:51.632446+00:00"
     },
     {
       "source": "zappos.com",
@@ -1571,7 +1571,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-28T20:21:53.433295+00:00",
-      "last_seen": "2026-10-31T13:11:32.980425+00:00"
+      "last_seen": "2026-10-31T13:51:51.632446+00:00"
     },
     {
       "source": "zappos.com",
@@ -1960,6 +1960,54 @@
     {
       "source": "zappos.com",
       "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10024412",
+      "title": "FIGC Italy Alphaskin Hoodie (Little Kid/Big Kid)",
+      "brand": "adidas",
+      "category": "sports_outdoor",
+      "image": "https://m.media-amazon.com/images/I/614q33TO0UL._AC_SR255,340_.jpg",
+      "price_current": 16.5,
+      "price_list": 55.0,
+      "price_baseline": 55.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 22019,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10024412",
+      "discount_pct": 70.0,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-31T06:41:13.552751+00:00",
+      "last_seen": "2026-10-31T13:51:51.632446+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
       "url": "https://www.zappos.com/product/10024489",
       "title": "FMF Mexico Alphaskin Hoodie (Little Kid/Big Kid)",
       "brand": "adidas",
@@ -2003,7 +2051,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T16:51:20.542706+00:00",
-      "last_seen": "2026-10-31T13:11:32.980425+00:00"
+      "last_seen": "2026-10-31T13:51:51.632446+00:00"
     },
     {
       "source": "dealnews",
@@ -2103,54 +2151,6 @@
       "last_seen": "2026-10-31T10:31:47.891887+00:00"
     },
     {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10024412",
-      "title": "FIGC Italy Alphaskin Hoodie (Little Kid/Big Kid)",
-      "brand": "adidas",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/614q33TO0UL._AC_SR255,340_.jpg",
-      "price_current": 16.5,
-      "price_list": 55.0,
-      "price_baseline": 55.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 22019,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10024412",
-      "discount_pct": 70.0,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-31T06:41:13.552751+00:00",
-      "last_seen": "2026-10-31T06:41:33.567531+00:00"
-    },
-    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/new-balance-gender-inclusive-1906r-running-shoe/8170253",
@@ -2244,7 +2244,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-31T11:42:07.513493+00:00"
+      "last_seen": "2026-10-31T13:52:51.178869+00:00"
     },
     {
       "source": "ashford.com",
@@ -2292,7 +2292,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-31T11:42:07.513493+00:00"
+      "last_seen": "2026-10-31T13:52:51.178869+00:00"
     },
     {
       "source": "ashford.com",
@@ -2340,7 +2340,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-31T11:42:07.513493+00:00"
+      "last_seen": "2026-10-31T13:52:51.178869+00:00"
     },
     {
       "source": "ashford.com",
@@ -2388,7 +2388,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-31T11:42:07.513493+00:00"
+      "last_seen": "2026-10-31T13:52:51.178869+00:00"
     },
     {
       "source": "ashford.com",
@@ -2436,7 +2436,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-31T11:42:07.513493+00:00"
+      "last_seen": "2026-10-31T13:52:51.178869+00:00"
     },
     {
       "source": "ashford.com",
@@ -2484,7 +2484,56 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-31T11:42:07.513493+00:00"
+      "last_seen": "2026-10-31T13:52:51.178869+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/adidas-Mens-Adizero-ZG-Spikeless-Golf-Shoes-for-61-free-shipping/22330465.html?iref=rss",
+      "title": "adidas Men's Adizero ZG Spikeless Golf Shoes for $61 + free shipping",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1793453206-product-trimmed.png?h=186&w=250",
+      "price_current": 61.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 81405,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/adidas-Mens-Adizero-ZG-Spikeless-Golf-Shoes-for-61-free-shipping/22330465.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-31T13:51:31.095134+00:00",
+      "last_seen": "2026-10-31T13:51:51.632446+00:00"
     },
     {
       "source": "dealnews",
@@ -2533,7 +2582,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T13:11:14.885338+00:00",
-      "last_seen": "2026-10-31T13:11:32.980425+00:00"
+      "last_seen": "2026-10-31T13:51:51.632446+00:00"
     },
     {
       "source": "dealnews",
@@ -2582,7 +2631,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T13:11:14.885338+00:00",
-      "last_seen": "2026-10-31T13:11:32.980425+00:00"
+      "last_seen": "2026-10-31T13:51:51.632446+00:00"
     },
     {
       "source": "dealnews",
@@ -2631,7 +2680,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T12:31:16.870638+00:00",
-      "last_seen": "2026-10-31T13:11:32.980425+00:00"
+      "last_seen": "2026-10-31T13:51:51.632446+00:00"
     },
     {
       "source": "dealnews",
@@ -2679,8 +2728,106 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-31T13:11:14.600955+00:00",
-      "last_seen": "2026-10-31T13:11:32.980425+00:00"
+      "detected_at": "2026-10-31T13:51:30.840972+00:00",
+      "last_seen": "2026-10-31T13:51:51.632446+00:00"
+    },
+    {
+      "source": "techbargains:amazon",
+      "source_tier": "T2",
+      "url": "https://www.amazon.com/gp/product/B0CN9VK1C6/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+      "title": "The North Face Recon 30L Everyday Laptop Backpack $62.43",
+      "brand": "The North Face",
+      "category": "premium_fashion",
+      "image": "https://www.techbargains.com/imagery/deals/269200.1793392484.fit_lim.size_125x125.jpg",
+      "price_current": 62.43,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 83313,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.amazon.com/gp/product/B0CN9VK1C6/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-28T17:41:35.595457+00:00",
+      "last_seen": "2026-10-31T13:51:51.632446+00:00"
+    },
+    {
+      "source": "techbargains:amazon",
+      "source_tier": "T2",
+      "url": "https://www.amazon.com/gp/product/B0H3LC19TK/ref=ox_sc_act_title_1?smid=A1678NGPH4OQTW&psc=1",
+      "title": "Seesii 19.7ft 12V 13GPM Fuel Transfer Pump (For Diesel/Kerosene) $49.99",
+      "brand": "Diesel",
+      "category": "premium_fashion",
+      "image": "https://www.techbargains.com/imagery/deals/273494.1793369817.fit_lim.size_125x125.png",
+      "price_current": 49.99,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 66712,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/gp/product/B0H3LC19TK/ref=ox_sc_act_title_1?smid=A1678NGPH4OQTW&psc=1",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-30T14:51:21.015637+00:00",
+      "last_seen": "2026-10-31T13:51:51.632446+00:00"
     },
     {
       "source": "dealnews",
@@ -2777,153 +2924,6 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T13:11:14.601621+00:00",
-      "last_seen": "2026-10-31T13:11:32.980425+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/adidas-Terrex-Hikster-LT-Hiking-Shoes-for-31-free-shipping/22330369.html?iref=rss",
-      "title": "adidas Terrex Hikster LT Hiking Shoes for $31 + free shipping",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1793447091-product-trimmed.png?h=141&w=250",
-      "price_current": 31.0,
-      "price_list": 51.67,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 41370,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/adidas-Terrex-Hikster-LT-Hiking-Shoes-for-31-free-shipping/22330369.html?iref=rss",
-      "discount_pct": 40.0,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-31T11:51:08.991142+00:00",
-      "last_seen": "2026-10-31T13:11:32.980425+00:00"
-    },
-    {
-      "source": "techbargains:amazon",
-      "source_tier": "T2",
-      "url": "https://www.amazon.com/gp/product/B0CN9VK1C6/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
-      "title": "The North Face Recon 30L Everyday Laptop Backpack $62.43",
-      "brand": "The North Face",
-      "category": "premium_fashion",
-      "image": "https://www.techbargains.com/imagery/deals/269200.1793392484.fit_lim.size_125x125.jpg",
-      "price_current": 62.43,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 83313,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.amazon.com/gp/product/B0CN9VK1C6/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-28T17:41:35.595457+00:00",
-      "last_seen": "2026-10-31T13:11:32.980425+00:00"
-    },
-    {
-      "source": "techbargains:amazon",
-      "source_tier": "T2",
-      "url": "https://www.amazon.com/gp/product/B0H3LC19TK/ref=ox_sc_act_title_1?smid=A1678NGPH4OQTW&psc=1",
-      "title": "Seesii 19.7ft 12V 13GPM Fuel Transfer Pump (For Diesel/Kerosene) $49.99",
-      "brand": "Diesel",
-      "category": "premium_fashion",
-      "image": "https://www.techbargains.com/imagery/deals/273494.1793369817.fit_lim.size_125x125.png",
-      "price_current": 49.99,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 66712,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/gp/product/B0H3LC19TK/ref=ox_sc_act_title_1?smid=A1678NGPH4OQTW&psc=1",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-30T14:51:21.015637+00:00",
       "last_seen": "2026-10-31T13:11:32.980425+00:00"
     },
     {
@@ -4399,13 +4399,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-31T13:50:23+00:00",
-      "T2": "2026-10-31T13:10:58+00:00",
-      "T3": "2026-10-31T11:41:15+00:00",
+      "T2": "2026-10-31T13:51:17+00:00",
+      "T3": "2026-10-31T13:51:52+00:00",
       "T4": "2026-10-31T11:42:08+00:00"
     },
     "recent_gaps_min": [
-      10,
-      10,
       1,
       9,
       10,
@@ -4433,14 +4431,16 @@
       10,
       5,
       5,
-      10
+      10,
+      1,
+      1
     ],
     "naver": {
       "keys": true,
-      "queried": 25,
+      "queried": 50,
       "matched": 0,
-      "errors": 25,
-      "at": "2026-10-31T13:51:15+00:00",
+      "errors": 50,
+      "at": "2026-10-31T13:52:51+00:00",
       "last_error": "HTTP 404"
     }
   },
