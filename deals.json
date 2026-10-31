@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T13:11:33.823724+00:00",
+  "generated_at": "2026-10-31T13:21:02.502693+00:00",
   "count": 91,
   "deals": [
     {
@@ -949,6 +949,55 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20235903",
+      "title": "4-Piece Bedsure Queen Satin Sheet Set $9.99 + Free Shipping w/ Prime or on $35+",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/2/0/3/1/1/5/0/300x300/22160223.thumb",
+      "price_current": 35.0,
+      "price_list": 70.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "HDOW4SC7",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 2,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 46708,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20235903",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 HDOW4SC7 → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-31T13:20:40.333149+00:00",
+      "last_seen": "2026-10-31T13:21:02.482461+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
       "url": "https://slickdeals.net/f/20234763",
       "title": "Spinnaker SUPER SALE up to 50% OFF $149",
       "brand": "",
@@ -1188,54 +1237,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-23T00:41:10.285714+00:00",
       "last_seen": "2026-10-30T05:41:32.412326+00:00"
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20232186",
-      "title": "Kingdom Come Deliverance: Royal Edition (Switch Digital Download) $5",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/3/5/9/4/0/2/8/300x300/22159242.thumb",
-      "price_current": 5.0,
-      "price_list": 50.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 57,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 6673,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20232186",
-      "discount_pct": 90.0,
-      "score": 73,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-30T13:31:44.602150+00:00",
-      "last_seen": "2026-10-31T13:01:14.910598+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -4399,13 +4400,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-31T13:10:26+00:00",
+      "T1": "2026-10-31T13:20:25+00:00",
       "T2": "2026-10-31T13:10:58+00:00",
       "T3": "2026-10-31T11:41:15+00:00",
       "T4": "2026-10-31T11:42:08+00:00"
     },
     "recent_gaps_min": [
-      9,
       10,
       1,
       10,
@@ -4434,21 +4434,22 @@
       10,
       10,
       10,
-      1
+      1,
+      9
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-10-31T13:11:32+00:00",
+      "at": "2026-10-31T13:21:02+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-31T13:10:37+00:00",
+        "at": "2026-10-31T13:20:40+00:00",
         "state": "정상",
         "mails": 18,
         "deals": 17
@@ -4474,7 +4475,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-31T09:31:24+00:00",
-        "last_seen": "2026-10-31T13:10:57+00:00"
+        "last_seen": "2026-10-31T13:21:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20232726",
@@ -4489,7 +4490,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T07:02:54+00:00",
-        "last_seen": "2026-10-31T13:10:57+00:00"
+        "last_seen": "2026-10-31T13:21:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231625",
@@ -4504,7 +4505,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T05:51:07+00:00",
-        "last_seen": "2026-10-31T13:10:57+00:00"
+        "last_seen": "2026-10-31T13:21:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20230251",
@@ -4519,7 +4520,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T05:41:11+00:00",
-        "last_seen": "2026-10-31T13:10:57+00:00"
+        "last_seen": "2026-10-31T13:21:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20226924",
@@ -4534,7 +4535,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-31T05:01:12+00:00",
-        "last_seen": "2026-10-31T13:10:57+00:00"
+        "last_seen": "2026-10-31T13:21:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20233740",
@@ -4549,7 +4550,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T05:01:12+00:00",
-        "last_seen": "2026-10-31T13:10:57+00:00"
+        "last_seen": "2026-10-31T13:21:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20227518",
@@ -4564,7 +4565,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T04:51:00+00:00",
-        "last_seen": "2026-10-31T13:10:57+00:00"
+        "last_seen": "2026-10-31T13:21:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20207628",
@@ -4579,7 +4580,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T04:40:55+00:00",
-        "last_seen": "2026-10-31T13:10:57+00:00"
+        "last_seen": "2026-10-31T13:21:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20234550",
@@ -4594,7 +4595,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T02:40:54+00:00",
-        "last_seen": "2026-10-31T13:10:57+00:00"
+        "last_seen": "2026-10-31T13:21:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20230581",
@@ -4609,7 +4610,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-31T02:10:54+00:00",
-        "last_seen": "2026-10-31T13:10:57+00:00"
+        "last_seen": "2026-10-31T13:21:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20228967",
@@ -4624,7 +4625,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-31T01:20:54+00:00",
-        "last_seen": "2026-10-31T13:10:57+00:00"
+        "last_seen": "2026-10-31T13:21:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20222568",
@@ -4789,7 +4790,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T10:41:06+00:00",
-        "last_seen": "2026-10-31T13:10:57+00:00"
+        "last_seen": "2026-10-31T13:21:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231253",
@@ -4804,7 +4805,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T09:31:12+00:00",
-        "last_seen": "2026-10-31T13:10:57+00:00"
+        "last_seen": "2026-10-31T13:21:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217726",
@@ -4819,7 +4820,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T07:40:58+00:00",
-        "last_seen": "2026-10-31T13:10:57+00:00"
+        "last_seen": "2026-10-31T13:21:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20218506",
@@ -4909,7 +4910,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-30T02:10:58+00:00",
-        "last_seen": "2026-10-31T13:10:57+00:00"
+        "last_seen": "2026-10-31T13:21:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20197074",
@@ -4999,7 +5000,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 56% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-29T17:32:16+00:00",
-        "last_seen": "2026-10-31T13:10:57+00:00"
+        "last_seen": "2026-10-31T13:21:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217096",
@@ -5044,7 +5045,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-29T15:31:10+00:00",
-        "last_seen": "2026-10-31T13:10:57+00:00"
+        "last_seen": "2026-10-31T13:21:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20214339",
