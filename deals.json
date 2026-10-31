@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T11:41:13.766550+00:00",
+  "generated_at": "2026-10-31T11:45:11.759877+00:00",
   "count": 89,
   "deals": [
     {
@@ -756,7 +756,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-27T02:12:09.750591+00:00",
-      "last_seen": "2026-10-31T09:32:25.040285+00:00"
+      "last_seen": "2026-10-31T11:42:07.513493+00:00"
     },
     {
       "source": "zappos.com",
@@ -1428,7 +1428,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T16:32:13.679676+00:00",
-      "last_seen": "2026-10-31T09:32:25.040285+00:00"
+      "last_seen": "2026-10-31T11:42:07.513493+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2196,7 +2196,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-31T09:32:25.040285+00:00"
+      "last_seen": "2026-10-31T11:42:07.513493+00:00"
     },
     {
       "source": "ashford.com",
@@ -2244,7 +2244,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-31T09:32:25.040285+00:00"
+      "last_seen": "2026-10-31T11:42:07.513493+00:00"
     },
     {
       "source": "ashford.com",
@@ -2292,7 +2292,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-31T09:32:25.040285+00:00"
+      "last_seen": "2026-10-31T11:42:07.513493+00:00"
     },
     {
       "source": "ashford.com",
@@ -2340,7 +2340,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-31T09:32:25.040285+00:00"
+      "last_seen": "2026-10-31T11:42:07.513493+00:00"
     },
     {
       "source": "ashford.com",
@@ -2388,7 +2388,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-31T09:32:25.040285+00:00"
+      "last_seen": "2026-10-31T11:42:07.513493+00:00"
     },
     {
       "source": "ashford.com",
@@ -2436,7 +2436,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-31T09:32:25.040285+00:00"
+      "last_seen": "2026-10-31T11:42:07.513493+00:00"
     },
     {
       "source": "dealnews",
@@ -4304,12 +4304,10 @@
     "tier_last_run": {
       "T1": "2026-10-31T11:40:41+00:00",
       "T2": "2026-10-31T11:11:04+00:00",
-      "T3": "2026-10-31T09:31:26+00:00",
-      "T4": "2026-10-31T05:31:05+00:00"
+      "T3": "2026-10-31T11:41:15+00:00",
+      "T4": "2026-10-31T11:42:08+00:00"
     },
     "recent_gaps_min": [
-      10,
-      1,
       9,
       10,
       10,
@@ -4337,14 +4335,16 @@
       1,
       9,
       10,
-      10
+      10,
+      1,
+      3
     ],
     "naver": {
       "keys": true,
-      "queried": 25,
+      "queried": 50,
       "matched": 0,
-      "errors": 25,
-      "at": "2026-10-31T11:41:13+00:00",
+      "errors": 50,
+      "at": "2026-10-31T11:45:11+00:00",
       "last_error": "HTTP 404"
     }
   },
@@ -4357,9 +4357,9 @@
         "deals": 17
       },
       "newsletter": {
-        "at": "2026-10-31T05:34:05+00:00",
+        "at": "2026-10-31T11:44:53+00:00",
         "state": "정상",
-        "mails": 23,
+        "mails": 31,
         "deals": 1
       }
     },
@@ -5097,7 +5097,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-28T22:04:47+00:00",
-        "last_seen": "2026-10-31T05:34:28+00:00"
+        "last_seen": "2026-10-31T11:45:11+00:00"
       },
       {
         "url": "https://click.woot.com/f/a/6-hnkHtBOirNyFe33h_qBw~~/AAQRxRA~/hOfdd3kFDnYor92Qml3d8QR2pnBel0TxCH-wKmrq89SEz28oE9lKV7DGWwyt3ZgGKnJnPnIjOF1BSzH1Jnb51boQP49gyEnUMKmTxTj76Q2QM65plAFKZWMvHI6QNQE1EXVKv6NR07ZBJwro1fFuSHb_w903AQ8mMqf-R0o3sLRKFqsLGdwu9OIqu3tGDntjEojl1K7gN1b88vrrj3Z9v3Ww232wsX368nSx0P46wVZnogO",
