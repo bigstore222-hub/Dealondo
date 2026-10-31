@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T02:11:32.523408+00:00",
+  "generated_at": "2026-10-31T02:20:52.525487+00:00",
   "count": 93,
   "deals": [
     {
@@ -996,6 +996,55 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20234763",
+      "title": "Spinnaker SUPER SALE up to 50% OFF $149",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/4/9/2/5/6/2/300x300/22157466.thumb",
+      "price_current": 149.0,
+      "price_list": 298.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "SP10",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 2,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 198842,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20234763",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 SP10 → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-31T02:20:33.737236+00:00",
+      "last_seen": "2026-10-31T02:20:52.506156+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
       "url": "https://slickdeals.net/f/20229525",
       "title": "Toughergun Men's Slim RFID-Blocking Wallet w/ Money Clip $5",
       "brand": "",
@@ -1188,55 +1237,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-30T19:50:47.225947+00:00",
       "last_seen": "2026-10-31T00:01:18.326723+00:00"
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20234214",
-      "title": "ZOOI Bluetooth Beanie Hat w/ Light $9.99 + Free Shipping w/ Prime or on $35+",
-      "brand": "",
-      "category": "electronics",
-      "image": "https://static.slickdealscdn.com/attachment/8/3/9/2/300x300/22156008.thumb",
-      "price_current": 35.0,
-      "price_list": 70.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "CT0J61N2",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 1,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 46831,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20234214",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 CT0J61N2 → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-30T22:40:34.381333+00:00",
-      "last_seen": "2026-10-30T23:51:22.393415+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -4498,13 +4498,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-31T02:10:26+00:00",
+      "T1": "2026-10-31T02:20:25+00:00",
       "T2": "2026-10-31T02:10:56+00:00",
       "T3": "2026-10-31T00:55:49+00:00",
       "T4": "2026-10-30T23:21:05+00:00"
     },
     "recent_gaps_min": [
-      1,
       1,
       9,
       10,
@@ -4533,21 +4532,22 @@
       10,
       10,
       10,
-      1
+      1,
+      9
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-10-31T02:11:30+00:00",
+      "at": "2026-10-31T02:20:52+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-31T02:10:33+00:00",
+        "at": "2026-10-31T02:20:33+00:00",
         "state": "정상",
         "mails": 8,
         "deals": 8
@@ -4573,7 +4573,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-31T02:10:54+00:00",
-        "last_seen": "2026-10-31T02:10:54+00:00"
+        "last_seen": "2026-10-31T02:20:52+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20228967",
@@ -4588,7 +4588,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-31T01:20:54+00:00",
-        "last_seen": "2026-10-31T02:10:54+00:00"
+        "last_seen": "2026-10-31T02:20:52+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20222568",
@@ -4753,7 +4753,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T10:41:06+00:00",
-        "last_seen": "2026-10-31T02:10:54+00:00"
+        "last_seen": "2026-10-31T02:20:52+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231253",
@@ -4768,7 +4768,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T09:31:12+00:00",
-        "last_seen": "2026-10-31T02:10:54+00:00"
+        "last_seen": "2026-10-31T02:20:52+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217726",
@@ -4783,7 +4783,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T07:40:58+00:00",
-        "last_seen": "2026-10-31T02:10:54+00:00"
+        "last_seen": "2026-10-31T02:20:52+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20218506",
@@ -4873,7 +4873,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-30T02:10:58+00:00",
-        "last_seen": "2026-10-31T02:10:54+00:00"
+        "last_seen": "2026-10-31T02:20:52+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20197074",
@@ -4963,7 +4963,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 56% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-29T17:32:16+00:00",
-        "last_seen": "2026-10-31T02:10:54+00:00"
+        "last_seen": "2026-10-31T02:20:52+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217096",
@@ -5008,7 +5008,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-29T15:31:10+00:00",
-        "last_seen": "2026-10-31T02:10:54+00:00"
+        "last_seen": "2026-10-31T02:20:52+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20214339",
