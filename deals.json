@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-31T16:41:00.181167+00:00",
-  "count": 92,
+  "generated_at": "2026-10-31T16:51:03.594808+00:00",
+  "count": 90,
   "deals": [
     {
       "source": "6pm.com",
@@ -285,53 +285,6 @@
       "last_seen": "2026-10-29T17:21:40.428028+00:00"
     },
     {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10054922",
-      "title": "Harmony Flat Sandals",
-      "brand": "Kate Spade New York",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/51VfAWcJiDL._AC_SR255,340_.jpg",
-      "price_current": 49.99,
-      "price_list": 168.0,
-      "price_baseline": 168.0,
-      "price_alltime_low": 49.99,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 66999,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.zappos.com/product/10054922",
-      "discount_pct": 70.2,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-10-25T01:21:04.225373+00:00",
-      "last_seen": "2026-10-29T16:41:38.837703+00:00"
-    },
-    {
       "source": "6pm.com",
       "source_tier": "T3",
       "url": "https://www.6pm.com/product/10018021",
@@ -567,53 +520,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-25T21:11:29.820969+00:00",
       "last_seen": "2026-10-31T00:11:43.236259+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/8787889",
-      "title": "Hazel",
-      "brand": "Sam Edelman",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61pbvGu1XIL._AC_SR255,340_.jpg",
-      "price_current": 45.0,
-      "price_list": 150.0,
-      "price_baseline": 150.0,
-      "price_alltime_low": 45.0,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": 5.0,
-      "review_count": 2178,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 60311,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/8787889",
-      "discount_pct": 70.0,
-      "score": 81,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-22T08:21:16.227941+00:00",
-      "last_seen": "2026-10-29T16:41:38.837703+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -993,7 +899,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-31T15:30:41.307232+00:00",
-      "last_seen": "2026-10-31T16:40:58.764438+00:00"
+      "last_seen": "2026-10-31T16:51:03.567933+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -4447,7 +4353,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-31T16:40:24+00:00",
+      "T1": "2026-10-31T16:50:25+00:00",
       "T2": "2026-10-31T16:31:11+00:00",
       "T3": "2026-10-31T16:01:14+00:00",
       "T4": "2026-10-31T11:42:08+00:00"
@@ -4481,21 +4387,22 @@
       10,
       10,
       1,
-      9
+      9,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-10-31T16:40:58+00:00",
+      "at": "2026-10-31T16:51:03+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-31T16:40:33+00:00",
+        "at": "2026-10-31T16:50:37+00:00",
         "state": "정상",
         "mails": 21,
         "deals": 20
@@ -4521,7 +4428,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T15:31:06+00:00",
-        "last_seen": "2026-10-31T16:40:58+00:00"
+        "last_seen": "2026-10-31T16:51:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20234511",
@@ -4536,7 +4443,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-31T14:21:03+00:00",
-        "last_seen": "2026-10-31T16:40:58+00:00"
+        "last_seen": "2026-10-31T16:51:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20235504",
@@ -4551,7 +4458,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T13:41:00+00:00",
-        "last_seen": "2026-10-31T16:40:58+00:00"
+        "last_seen": "2026-10-31T16:51:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20230620",
@@ -4566,7 +4473,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-31T09:31:24+00:00",
-        "last_seen": "2026-10-31T16:40:58+00:00"
+        "last_seen": "2026-10-31T16:51:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20232726",
@@ -4581,7 +4488,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T07:02:54+00:00",
-        "last_seen": "2026-10-31T16:40:58+00:00"
+        "last_seen": "2026-10-31T16:51:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231625",
@@ -4596,7 +4503,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T05:51:07+00:00",
-        "last_seen": "2026-10-31T16:40:58+00:00"
+        "last_seen": "2026-10-31T16:51:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20230251",
@@ -4611,7 +4518,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T05:41:11+00:00",
-        "last_seen": "2026-10-31T16:40:58+00:00"
+        "last_seen": "2026-10-31T16:51:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20226924",
@@ -4626,7 +4533,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-31T05:01:12+00:00",
-        "last_seen": "2026-10-31T16:40:58+00:00"
+        "last_seen": "2026-10-31T16:51:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20233740",
@@ -4641,7 +4548,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T05:01:12+00:00",
-        "last_seen": "2026-10-31T16:40:58+00:00"
+        "last_seen": "2026-10-31T16:51:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20227518",
@@ -4656,7 +4563,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T04:51:00+00:00",
-        "last_seen": "2026-10-31T16:40:58+00:00"
+        "last_seen": "2026-10-31T16:51:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20207628",
@@ -4671,7 +4578,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T04:40:55+00:00",
-        "last_seen": "2026-10-31T16:40:58+00:00"
+        "last_seen": "2026-10-31T16:51:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20234550",
@@ -4686,7 +4593,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T02:40:54+00:00",
-        "last_seen": "2026-10-31T16:40:58+00:00"
+        "last_seen": "2026-10-31T16:51:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20230581",
@@ -4701,7 +4608,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-31T02:10:54+00:00",
-        "last_seen": "2026-10-31T16:40:58+00:00"
+        "last_seen": "2026-10-31T16:51:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20228967",
@@ -4716,7 +4623,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-31T01:20:54+00:00",
-        "last_seen": "2026-10-31T16:40:58+00:00"
+        "last_seen": "2026-10-31T16:51:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20222568",
@@ -4881,7 +4788,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T10:41:06+00:00",
-        "last_seen": "2026-10-31T16:40:58+00:00"
+        "last_seen": "2026-10-31T16:51:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231253",
@@ -4896,7 +4803,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T09:31:12+00:00",
-        "last_seen": "2026-10-31T16:40:58+00:00"
+        "last_seen": "2026-10-31T16:51:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217726",
@@ -4911,7 +4818,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T07:40:58+00:00",
-        "last_seen": "2026-10-31T16:40:58+00:00"
+        "last_seen": "2026-10-31T16:51:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20218506",
@@ -5001,7 +4908,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-30T02:10:58+00:00",
-        "last_seen": "2026-10-31T16:40:58+00:00"
+        "last_seen": "2026-10-31T16:51:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20197074",
@@ -5091,7 +4998,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 56% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-29T17:32:16+00:00",
-        "last_seen": "2026-10-31T16:40:58+00:00"
+        "last_seen": "2026-10-31T16:51:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217096",
@@ -5136,7 +5043,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-29T15:31:10+00:00",
-        "last_seen": "2026-10-31T16:40:58+00:00"
+        "last_seen": "2026-10-31T16:51:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20214339",
@@ -5422,40 +5329,10 @@
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-28T17:01:26+00:00",
         "last_seen": "2026-10-29T00:51:10+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20215530",
-        "source": "slickdeals:amazon.com",
-        "title": "Prime Members: Addtam 7-in-1 Cruise Power Strip w/ 3 AC, 4 USB & 1' Retractable Cord for from $10 at Amazon",
-        "price": 10.0,
-        "list_price": 11.99,
-        "discount_pct": 16.6,
-        "krw": 13402,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H8: 할인 17% < 25% (허접 할인 제외)",
-        "first_seen": "2026-10-28T16:41:07+00:00",
-        "last_seen": "2026-10-29T00:51:10+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20206455",
-        "source": "slickdeals:amazon.com",
-        "title": "DJI Power 2000 Portable Power Station w/ 2048Wh LFP Battery for $750 at Amazon",
-        "price": 750.0,
-        "list_price": 1299.0,
-        "discount_pct": 42.3,
-        "krw": 1194155,
-        "kr_lowest": null,
-        "score": 44,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-10-28T16:41:07+00:00",
-        "last_seen": "2026-10-29T00:51:10+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 63,
+      "collected_72h": 61,
       "published_72h": 4
     }
   }
