@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T09:01:13.728631+00:00",
+  "generated_at": "2026-10-31T09:12:21.276018+00:00",
   "count": 90,
   "deals": [
     {
@@ -710,53 +710,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-22T04:20:32.852802+00:00",
       "last_seen": "2026-10-30T18:31:26.880298+00:00"
-    },
-    {
-      "source": "amazon.com",
-      "source_tier": "T1",
-      "url": "https://www.amazon.com/Cancelling-Bluetooth-Transparency-Headphones-Earphones/dp/B0HGXTDJF8",
-      "title": "Hybrid Active Noise Cancelling Wireless Ear Buds 80 Hrs Playtime Hi-Res Stereo Quality Bluetooth Earbuds with Transparen",
-      "brand": "",
-      "category": "electronics",
-      "image": "https://m.media-amazon.com/images/I/71A-GJ3iNWL._AC_SR255,340_.jpg",
-      "price_current": 49.99,
-      "price_list": 199.99,
-      "price_baseline": 199.99,
-      "price_alltime_low": 49.99,
-      "currency": "USD",
-      "coupon_code": "쿠폰 50% 추가할인",
-      "coupon_stackable": true,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 66712,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.amazon.com/Cancelling-Bluetooth-Transparency-Headphones-Earphones/dp/B0HGXTDJF8",
-      "discount_pct": 75.0,
-      "score": 78,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 15,
-        "bonus": 8,
-        "brand": 0
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-26T12:30:46.305071+00:00",
-      "last_seen": "2026-10-31T07:41:01.901517+00:00"
     },
     {
       "source": "6pm.com",
@@ -2100,6 +2053,54 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-28T03:31:26.316041+00:00",
       "last_seen": "2026-10-29T10:01:52.354576+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20232186",
+      "title": "Kingdom Come Deliverance: Royal Edition (Switch Digital Download) $5",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/3/5/9/4/0/2/8/300x300/22159242.thumb",
+      "price_current": 5.0,
+      "price_list": 50.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 49,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 6673,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20232186",
+      "discount_pct": 90.0,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-30T13:31:44.602150+00:00",
+      "last_seen": "2026-10-31T09:12:21.264012+00:00"
     },
     {
       "source": "ashford.com",
@@ -4351,7 +4352,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-10-31T09:00:38+00:00",
+      "T1": "2026-10-31T09:10:28+00:00",
       "T2": "2026-10-31T08:40:57+00:00",
       "T3": "2026-10-31T07:21:40+00:00",
       "T4": "2026-10-31T05:31:05+00:00"
@@ -4385,21 +4386,22 @@
       10,
       1,
       10,
-      10
+      10,
+      11
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-10-31T09:01:12+00:00",
+      "at": "2026-10-31T09:12:21+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-10-31T09:00:49+00:00",
+        "at": "2026-10-31T09:12:00+00:00",
         "state": "정상",
         "mails": 17,
         "deals": 16
@@ -4425,7 +4427,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T07:02:54+00:00",
-        "last_seen": "2026-10-31T09:01:12+00:00"
+        "last_seen": "2026-10-31T09:12:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231625",
@@ -4440,7 +4442,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T05:51:07+00:00",
-        "last_seen": "2026-10-31T09:01:12+00:00"
+        "last_seen": "2026-10-31T09:12:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20230251",
@@ -4455,7 +4457,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T05:41:11+00:00",
-        "last_seen": "2026-10-31T09:01:12+00:00"
+        "last_seen": "2026-10-31T09:12:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20226924",
@@ -4470,7 +4472,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-10-31T05:01:12+00:00",
-        "last_seen": "2026-10-31T09:01:12+00:00"
+        "last_seen": "2026-10-31T09:12:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20233740",
@@ -4485,7 +4487,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T05:01:12+00:00",
-        "last_seen": "2026-10-31T09:01:12+00:00"
+        "last_seen": "2026-10-31T09:12:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20227518",
@@ -4500,7 +4502,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T04:51:00+00:00",
-        "last_seen": "2026-10-31T09:01:12+00:00"
+        "last_seen": "2026-10-31T09:12:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20207628",
@@ -4515,7 +4517,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T04:40:55+00:00",
-        "last_seen": "2026-10-31T09:01:12+00:00"
+        "last_seen": "2026-10-31T09:12:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20234550",
@@ -4530,7 +4532,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T02:40:54+00:00",
-        "last_seen": "2026-10-31T09:01:12+00:00"
+        "last_seen": "2026-10-31T09:12:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20230581",
@@ -4545,7 +4547,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-31T02:10:54+00:00",
-        "last_seen": "2026-10-31T09:01:12+00:00"
+        "last_seen": "2026-10-31T09:12:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20228967",
@@ -4560,7 +4562,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-31T01:20:54+00:00",
-        "last_seen": "2026-10-31T09:01:12+00:00"
+        "last_seen": "2026-10-31T09:12:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20222568",
@@ -4725,7 +4727,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T10:41:06+00:00",
-        "last_seen": "2026-10-31T09:01:12+00:00"
+        "last_seen": "2026-10-31T09:12:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231253",
@@ -4740,7 +4742,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T09:31:12+00:00",
-        "last_seen": "2026-10-31T09:01:12+00:00"
+        "last_seen": "2026-10-31T09:12:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217726",
@@ -4755,7 +4757,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T07:40:58+00:00",
-        "last_seen": "2026-10-31T09:01:12+00:00"
+        "last_seen": "2026-10-31T09:12:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20218506",
@@ -4845,7 +4847,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-30T02:10:58+00:00",
-        "last_seen": "2026-10-31T09:01:12+00:00"
+        "last_seen": "2026-10-31T09:12:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20197074",
@@ -4935,7 +4937,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 56% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-29T17:32:16+00:00",
-        "last_seen": "2026-10-31T09:01:12+00:00"
+        "last_seen": "2026-10-31T09:12:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217096",
@@ -4980,7 +4982,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-29T15:31:10+00:00",
-        "last_seen": "2026-10-31T09:01:12+00:00"
+        "last_seen": "2026-10-31T09:12:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20214339",
