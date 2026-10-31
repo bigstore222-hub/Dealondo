@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T05:10:56.572101+00:00",
+  "generated_at": "2026-10-31T05:11:52.856034+00:00",
   "count": 93,
   "deals": [
     {
@@ -353,7 +353,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 45226,
+      "krw_effective": 45106,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -377,7 +377,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T12:12:09.762249+00:00",
-      "last_seen": "2026-10-31T00:56:51.916389+00:00"
+      "last_seen": "2026-10-31T05:11:52.830162+00:00"
     },
     {
       "source": "6pm.com",
@@ -803,7 +803,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-27T02:12:09.750591+00:00",
-      "last_seen": "2026-10-31T03:02:13.430200+00:00"
+      "last_seen": "2026-10-31T05:11:52.830162+00:00"
     },
     {
       "source": "zappos.com",
@@ -1452,7 +1452,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 80015,
+      "krw_effective": 79804,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -1476,7 +1476,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T16:32:13.679676+00:00",
-      "last_seen": "2026-10-31T00:56:51.916389+00:00"
+      "last_seen": "2026-10-31T05:11:52.830162+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2196,7 +2196,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-31T03:02:13.430200+00:00"
+      "last_seen": "2026-10-31T05:11:52.830162+00:00"
     },
     {
       "source": "ashford.com",
@@ -2244,7 +2244,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-31T03:02:13.430200+00:00"
+      "last_seen": "2026-10-31T05:11:52.830162+00:00"
     },
     {
       "source": "ashford.com",
@@ -2292,7 +2292,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-31T03:02:13.430200+00:00"
+      "last_seen": "2026-10-31T05:11:52.830162+00:00"
     },
     {
       "source": "ashford.com",
@@ -2340,7 +2340,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-31T03:02:13.430200+00:00"
+      "last_seen": "2026-10-31T05:11:52.830162+00:00"
     },
     {
       "source": "ashford.com",
@@ -2388,7 +2388,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-31T03:02:13.430200+00:00"
+      "last_seen": "2026-10-31T05:11:52.830162+00:00"
     },
     {
       "source": "ashford.com",
@@ -2436,7 +2436,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-10-31T03:02:13.430200+00:00"
+      "last_seen": "2026-10-31T05:11:52.830162+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -4499,11 +4499,10 @@
     "tier_last_run": {
       "T1": "2026-10-31T05:10:25+00:00",
       "T2": "2026-10-31T04:51:01+00:00",
-      "T3": "2026-10-31T03:01:11+00:00",
+      "T3": "2026-10-31T05:10:57+00:00",
       "T4": "2026-10-30T23:21:05+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       10,
@@ -4532,14 +4531,15 @@
       10,
       1,
       10,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-10-31T05:10:56+00:00",
+      "at": "2026-10-31T05:11:52+00:00",
       "last_error": "HTTP 404"
     }
   },
