@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T08:40:56.407097+00:00",
+  "generated_at": "2026-10-31T08:41:31.555184+00:00",
   "count": 91,
   "deals": [
     {
@@ -188,7 +188,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-10-31T08:01:44.303710+00:00"
+      "last_seen": "2026-10-31T08:41:30.816159+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -235,7 +235,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-10-31T08:01:44.303710+00:00"
+      "last_seen": "2026-10-31T08:41:30.816159+00:00"
     },
     {
       "source": "zappos.com",
@@ -472,7 +472,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-10-31T08:01:44.303710+00:00"
+      "last_seen": "2026-10-31T08:41:30.816159+00:00"
     },
     {
       "source": "zappos.com",
@@ -1475,7 +1475,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T03:01:32.539718+00:00",
-      "last_seen": "2026-10-31T08:01:44.303710+00:00"
+      "last_seen": "2026-10-31T08:41:30.816159+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1523,7 +1523,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-10-31T08:01:44.303710+00:00"
+      "last_seen": "2026-10-31T08:41:30.816159+00:00"
     },
     {
       "source": "zappos.com",
@@ -2483,8 +2483,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-31T08:01:25.800799+00:00",
-      "last_seen": "2026-10-31T08:01:44.303710+00:00"
+      "detected_at": "2026-10-31T08:41:09.496387+00:00",
+      "last_seen": "2026-10-31T08:41:30.816159+00:00"
     },
     {
       "source": "dealnews",
@@ -2532,8 +2532,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-31T08:01:25.819013+00:00",
-      "last_seen": "2026-10-31T08:01:44.303710+00:00"
+      "detected_at": "2026-10-31T08:41:09.509370+00:00",
+      "last_seen": "2026-10-31T08:41:30.816159+00:00"
     },
     {
       "source": "dealnews",
@@ -2582,7 +2582,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T19:31:29.862577+00:00",
-      "last_seen": "2026-10-31T08:01:44.303710+00:00"
+      "last_seen": "2026-10-31T08:41:30.816159+00:00"
     },
     {
       "source": "dealnews",
@@ -2630,8 +2630,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-31T08:01:25.826835+00:00",
-      "last_seen": "2026-10-31T08:01:44.303710+00:00"
+      "detected_at": "2026-10-31T08:41:09.514963+00:00",
+      "last_seen": "2026-10-31T08:41:30.816159+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2680,7 +2680,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-28T17:41:35.595457+00:00",
-      "last_seen": "2026-10-31T08:01:44.303710+00:00"
+      "last_seen": "2026-10-31T08:41:30.816159+00:00"
     },
     {
       "source": "techbargains:adidas",
@@ -2728,8 +2728,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-10-31T08:01:26.018766+00:00",
-      "last_seen": "2026-10-31T08:01:44.303710+00:00"
+      "detected_at": "2026-10-31T08:41:10.550813+00:00",
+      "last_seen": "2026-10-31T08:41:30.816159+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2778,7 +2778,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T14:51:21.015637+00:00",
-      "last_seen": "2026-10-31T08:01:44.303710+00:00"
+      "last_seen": "2026-10-31T08:41:30.816159+00:00"
     },
     {
       "source": "dealnews",
@@ -4400,12 +4400,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-10-31T08:40:25+00:00",
-      "T2": "2026-10-31T08:01:12+00:00",
+      "T2": "2026-10-31T08:40:57+00:00",
       "T3": "2026-10-31T07:21:40+00:00",
       "T4": "2026-10-31T05:31:05+00:00"
     },
     "recent_gaps_min": [
-      1,
       10,
       1,
       9,
@@ -4434,14 +4433,15 @@
       9,
       10,
       10,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-10-31T08:40:56+00:00",
+      "at": "2026-10-31T08:41:30+00:00",
       "last_error": "HTTP 404"
     }
   },
