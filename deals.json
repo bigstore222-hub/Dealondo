@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T05:41:28.204932+00:00",
-  "count": 88,
+  "generated_at": "2026-11-01T05:50:52.752855+00:00",
+  "count": 87,
   "deals": [
     {
       "source": "6pm.com",
@@ -1045,53 +1045,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-31T22:30:45.639917+00:00",
       "last_seen": "2026-11-01T00:21:02.927718+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10057200",
-      "title": "Niles Whip",
-      "brand": "Gentle Souls by Kenneth Cole",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/61BfhEbm4iL._AC_SR255,340_.jpg",
-      "price_current": 59.7,
-      "price_list": 199.0,
-      "price_baseline": 199.0,
-      "price_alltime_low": 59.7,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 79881,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10057200",
-      "discount_pct": 70.0,
-      "score": 74,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 13,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-23T00:41:10.285714+00:00",
-      "last_seen": "2026-10-30T05:41:32.412326+00:00"
     },
     {
       "source": "zappos.com",
@@ -4250,13 +4203,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-01T05:40:24+00:00",
+      "T1": "2026-11-01T05:50:28+00:00",
       "T2": "2026-11-01T05:40:55+00:00",
       "T3": "2026-11-01T05:01:56+00:00",
       "T4": "2026-11-01T00:01:15+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       1,
       10,
@@ -4285,21 +4237,22 @@
       10,
       10,
       10,
-      1
+      1,
+      9
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-01T05:41:27+00:00",
+      "at": "2026-11-01T05:50:52+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-01T05:40:30+00:00",
+        "at": "2026-11-01T05:50:34+00:00",
         "state": "정상",
         "mails": 5,
         "deals": 5
@@ -4325,7 +4278,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T05:40:53+00:00",
-        "last_seen": "2026-11-01T05:40:53+00:00"
+        "last_seen": "2026-11-01T05:50:52+00:00"
       },
       {
         "url": "https://click.email.bloomingdales.com/",
@@ -4355,7 +4308,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-31T23:11:02+00:00",
-        "last_seen": "2026-11-01T05:40:53+00:00"
+        "last_seen": "2026-11-01T05:50:52+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20227923",
@@ -4430,7 +4383,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T13:41:00+00:00",
-        "last_seen": "2026-11-01T05:40:53+00:00"
+        "last_seen": "2026-11-01T05:50:52+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20230620",
@@ -4460,7 +4413,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T07:02:54+00:00",
-        "last_seen": "2026-11-01T05:40:53+00:00"
+        "last_seen": "2026-11-01T05:50:52+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231625",
@@ -4760,7 +4713,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T10:41:06+00:00",
-        "last_seen": "2026-11-01T05:40:53+00:00"
+        "last_seen": "2026-11-01T05:50:52+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231253",
