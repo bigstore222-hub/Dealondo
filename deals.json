@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T00:01:13.687559+00:00",
+  "generated_at": "2026-11-01T00:04:27.539799+00:00",
   "count": 88,
   "deals": [
     {
@@ -4257,10 +4257,9 @@
       "T1": "2026-11-01T00:00:39+00:00",
       "T2": "2026-10-31T23:41:01+00:00",
       "T3": "2026-10-31T22:31:05+00:00",
-      "T4": "2026-10-31T17:52:27+00:00"
+      "T4": "2026-11-01T00:01:15+00:00"
     },
     "recent_gaps_min": [
-      9,
       1,
       9,
       10,
@@ -4289,14 +4288,15 @@
       10,
       1,
       9,
-      10
+      10,
+      3
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-01T00:01:13+00:00",
+      "at": "2026-11-01T00:04:27+00:00",
       "last_error": "HTTP 404"
     }
   },
@@ -4309,13 +4309,28 @@
         "deals": 17
       },
       "newsletter": {
-        "at": "2026-10-31T17:55:15+00:00",
+        "at": "2026-11-01T00:04:02+00:00",
         "state": "정상",
-        "mails": 46,
-        "deals": 3
+        "mails": 51,
+        "deals": 4
       }
     },
     "recent": [
+      {
+        "url": "https://click.email.bloomingdales.com/",
+        "source": "bloomingdales.com",
+        "title": "The One Day Home Sale ends today",
+        "price": 30.0,
+        "list_price": 100.0,
+        "discount_pct": 70.0,
+        "krw": 40035,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-11-01T00:04:27+00:00",
+        "last_seen": "2026-11-01T00:04:27+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20227578",
         "source": "slickdeals:nike.com",
@@ -4349,7 +4364,7 @@
       {
         "url": "https://click.emails.underarmour.com/",
         "source": "underarmour.com",
-        "title": "[범위미확인 코드] Ready to take on the weather?",
+        "title": "[범위미확인 코드] Best sellers you don't want to miss",
         "price": 70.0,
         "list_price": 100.0,
         "discount_pct": 30.0,
@@ -4359,7 +4374,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T17:55:33+00:00",
-        "last_seen": "2026-10-31T17:55:33+00:00"
+        "last_seen": "2026-11-01T00:04:27+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20235876",
@@ -5068,7 +5083,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 50,
+      "collected_72h": 51,
       "published_72h": 3
     }
   }
