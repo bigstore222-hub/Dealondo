@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T20:01:10.165417+00:00",
+  "generated_at": "2026-11-01T20:11:01.877441+00:00",
   "count": 74,
   "deals": [
     {
@@ -3566,7 +3566,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-01T20:00:41+00:00",
+      "T1": "2026-11-01T20:10:28+00:00",
       "T2": "2026-11-01T19:31:03+00:00",
       "T3": "2026-11-01T18:01:08+00:00",
       "T4": "2026-11-01T18:31:05+00:00"
@@ -3600,6 +3600,7 @@
       1,
       10,
       9,
+      10,
       10
     ],
     "naver": {
@@ -3607,14 +3608,14 @@
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-01T20:01:08+00:00",
+      "at": "2026-11-01T20:11:01+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-01T20:00:50+00:00",
+        "at": "2026-11-01T20:10:42+00:00",
         "state": "정상",
         "mails": 9,
         "deals": 9
@@ -3640,7 +3641,7 @@
         "published": false,
         "reject_reason": "H8: 할인 17% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T16:50:56+00:00",
-        "last_seen": "2026-11-01T20:01:08+00:00"
+        "last_seen": "2026-11-01T20:11:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20239098",
@@ -3655,7 +3656,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T16:21:02+00:00",
-        "last_seen": "2026-11-01T20:01:08+00:00"
+        "last_seen": "2026-11-01T20:11:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20236851",
@@ -3670,7 +3671,7 @@
         "published": false,
         "reject_reason": "H8: 할인 15% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T15:01:07+00:00",
-        "last_seen": "2026-11-01T20:01:08+00:00"
+        "last_seen": "2026-11-01T20:11:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238348",
@@ -3685,7 +3686,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T14:40:53+00:00",
-        "last_seen": "2026-11-01T20:01:08+00:00"
+        "last_seen": "2026-11-01T20:11:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238111",
@@ -3700,7 +3701,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T05:40:53+00:00",
-        "last_seen": "2026-11-01T20:01:08+00:00"
+        "last_seen": "2026-11-01T20:11:01+00:00"
       },
       {
         "url": "https://click.email.bloomingdales.com/",
@@ -3730,7 +3731,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-31T23:11:02+00:00",
-        "last_seen": "2026-11-01T20:01:08+00:00"
+        "last_seen": "2026-11-01T20:11:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20227923",
@@ -3805,7 +3806,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T13:41:00+00:00",
-        "last_seen": "2026-11-01T20:01:08+00:00"
+        "last_seen": "2026-11-01T20:11:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20230620",
@@ -3835,7 +3836,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T07:02:54+00:00",
-        "last_seen": "2026-11-01T20:01:08+00:00"
+        "last_seen": "2026-11-01T20:11:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231625",
@@ -4135,7 +4136,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T10:41:06+00:00",
-        "last_seen": "2026-11-01T20:01:08+00:00"
+        "last_seen": "2026-11-01T20:11:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231253",
@@ -4301,25 +4302,10 @@
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-10-29T20:31:10+00:00",
         "last_seen": "2026-10-30T00:50:58+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20226018",
-        "source": "slickdeals:amazon.com",
-        "title": "13.6\" Apple MacBook Air M5: 16GB/1TB $1399, 16GB/512GB for $1099 at Amazon",
-        "price": 1099.0,
-        "list_price": 1299.0,
-        "discount_pct": 15.4,
-        "krw": 1746963,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H8: 할인 15% < 25% (허접 할인 제외)",
-        "first_seen": "2026-10-29T20:10:59+00:00",
-        "last_seen": "2026-10-30T00:50:58+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 46,
+      "collected_72h": 45,
       "published_72h": 3
     }
   }
