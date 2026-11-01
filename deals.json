@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T04:10:54.899238+00:00",
-  "count": 88,
+  "generated_at": "2026-11-01T04:20:51.659662+00:00",
+  "count": 87,
   "deals": [
     {
       "source": "6pm.com",
@@ -567,55 +567,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-25T21:11:29.820969+00:00",
       "last_seen": "2026-10-31T00:11:43.236259+00:00"
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20187969",
-      "title": "Pudolla Men's Stretch Golf Pants w/ Pockets (Select Sizes & Colors) $15",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/2/8/9/1/1/300x300/22152696.thumb",
-      "price_current": 15.0,
-      "price_list": 30.0,
-      "price_baseline": null,
-      "price_alltime_low": 15.0,
-      "currency": "USD",
-      "coupon_code": "CVX76TUT",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 282,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 20071,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20187969",
-      "discount_pct": 50.0,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": 25,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "code_deal": "공개코드 CVX76TUT → 하한 75",
-        "community": "투표 282+할인50% → 하한 80"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-22T04:20:32.852802+00:00",
-      "last_seen": "2026-10-30T18:31:26.880298+00:00"
     },
     {
       "source": "zappos.com",
@@ -4252,7 +4203,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-01T04:10:24+00:00",
+      "T1": "2026-11-01T04:20:24+00:00",
       "T2": "2026-11-01T03:40:54+00:00",
       "T3": "2026-11-01T02:50:53+00:00",
       "T4": "2026-11-01T00:01:15+00:00"
@@ -4286,6 +4237,7 @@
       1,
       9,
       10,
+      10,
       10
     ],
     "naver": {
@@ -4293,14 +4245,14 @@
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-01T04:10:53+00:00",
+      "at": "2026-11-01T04:20:51+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-01T04:10:30+00:00",
+        "at": "2026-11-01T04:20:29+00:00",
         "state": "정상",
         "mails": 4,
         "deals": 4
@@ -4341,7 +4293,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-31T23:11:02+00:00",
-        "last_seen": "2026-11-01T04:10:53+00:00"
+        "last_seen": "2026-11-01T04:20:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20227923",
@@ -4416,7 +4368,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T13:41:00+00:00",
-        "last_seen": "2026-11-01T04:10:53+00:00"
+        "last_seen": "2026-11-01T04:20:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20230620",
@@ -4446,7 +4398,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T07:02:54+00:00",
-        "last_seen": "2026-11-01T04:10:53+00:00"
+        "last_seen": "2026-11-01T04:20:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231625",
@@ -4746,7 +4698,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T10:41:06+00:00",
-        "last_seen": "2026-11-01T04:10:53+00:00"
+        "last_seen": "2026-11-01T04:20:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231253",
