@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T11:40:51.671759+00:00",
-  "count": 84,
+  "generated_at": "2026-11-01T11:41:27.143054+00:00",
+  "count": 85,
   "deals": [
     {
       "source": "6pm.com",
@@ -188,7 +188,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-11-01T11:01:42.744506+00:00"
+      "last_seen": "2026-11-01T11:41:26.500247+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -235,7 +235,54 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-11-01T11:01:42.744506+00:00"
+      "last_seen": "2026-11-01T11:41:26.500247+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10054922",
+      "title": "Harmony Flat Sandals",
+      "brand": "Kate Spade New York",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/51VfAWcJiDL._AC_SR255,340_.jpg",
+      "price_current": 49.99,
+      "price_list": 168.0,
+      "price_baseline": 168.0,
+      "price_alltime_low": 49.99,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 66726,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.zappos.com/product/10054922",
+      "discount_pct": 70.2,
+      "score": 87,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-10-25T01:21:04.225373+00:00",
+      "last_seen": "2026-11-01T11:41:26.500247+00:00"
     },
     {
       "source": "6pm.com",
@@ -330,7 +377,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-11-01T11:01:42.744506+00:00"
+      "last_seen": "2026-11-01T11:41:26.500247+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1187,7 +1234,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-26T14:51:26.030844+00:00",
-      "last_seen": "2026-11-01T11:01:42.744506+00:00"
+      "last_seen": "2026-11-01T11:41:26.500247+00:00"
     },
     {
       "source": "6pm.com",
@@ -1236,6 +1283,54 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-29T16:32:13.679676+00:00",
       "last_seen": "2026-10-31T16:02:05.643416+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10040891",
+      "title": "Vivera",
+      "brand": "Calvin Klein",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/616bLKho2HL._AC_SR255,340_.jpg",
+      "price_current": 44.7,
+      "price_list": 149.0,
+      "price_baseline": 149.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 59665,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10040891",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-31T00:51:23.196713+00:00",
+      "last_seen": "2026-11-01T11:41:26.500247+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1332,54 +1427,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-31T21:11:21.533925+00:00",
       "last_seen": "2026-11-01T03:01:46.522046+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10040891",
-      "title": "Vivera",
-      "brand": "Calvin Klein",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/616bLKho2HL._AC_SR255,340_.jpg",
-      "price_current": 44.7,
-      "price_list": 149.0,
-      "price_baseline": 149.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 59665,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10040891",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-31T00:51:23.196713+00:00",
-      "last_seen": "2026-11-01T01:41:39.271549+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2292,7 +2339,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-28T17:41:35.595457+00:00",
-      "last_seen": "2026-11-01T11:01:42.744506+00:00"
+      "last_seen": "2026-11-01T11:41:26.500247+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2388,8 +2435,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-01T11:01:24.145046+00:00",
-      "last_seen": "2026-11-01T11:01:42.744506+00:00"
+      "detected_at": "2026-11-01T11:41:05.950401+00:00",
+      "last_seen": "2026-11-01T11:41:26.500247+00:00"
     },
     {
       "source": "dealnews",
@@ -2437,8 +2484,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-01T11:01:24.150542+00:00",
-      "last_seen": "2026-11-01T11:01:42.744506+00:00"
+      "detected_at": "2026-11-01T11:41:05.950923+00:00",
+      "last_seen": "2026-11-01T11:41:26.500247+00:00"
     },
     {
       "source": "dealnews",
@@ -2486,8 +2533,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-01T11:01:24.150681+00:00",
-      "last_seen": "2026-11-01T11:01:42.744506+00:00"
+      "detected_at": "2026-11-01T11:41:05.956307+00:00",
+      "last_seen": "2026-11-01T11:41:26.500247+00:00"
     },
     {
       "source": "dealnews",
@@ -2536,7 +2583,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-01T09:41:30.053999+00:00",
-      "last_seen": "2026-11-01T11:01:42.744506+00:00"
+      "last_seen": "2026-11-01T11:41:26.500247+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2585,7 +2632,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T18:31:16.158272+00:00",
-      "last_seen": "2026-11-01T11:01:42.744506+00:00"
+      "last_seen": "2026-11-01T11:41:26.500247+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2634,7 +2681,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T14:51:21.015637+00:00",
-      "last_seen": "2026-11-01T11:01:42.744506+00:00"
+      "last_seen": "2026-11-01T11:41:26.500247+00:00"
     },
     {
       "source": "dealnews",
@@ -4059,14 +4106,13 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-01T11:40:23+00:00",
-      "T2": "2026-11-01T11:01:08+00:00",
+      "T2": "2026-11-01T11:40:53+00:00",
       "T3": "2026-11-01T11:30:59+00:00",
       "T4": "2026-11-01T06:10:59+00:00"
     },
     "recent_gaps_min": [
       10,
       10,
-      10,
       1,
       9,
       10,
@@ -4093,14 +4139,15 @@
       10,
       10,
       1,
-      9
+      9,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-01T11:40:51+00:00",
+      "at": "2026-11-01T11:41:26+00:00",
       "last_error": "HTTP 404"
     }
   },
