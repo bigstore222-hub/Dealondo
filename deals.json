@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T01:01:04.379291+00:00",
+  "generated_at": "2026-11-01T01:01:40.254628+00:00",
   "count": 89,
   "deals": [
     {
@@ -188,7 +188,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-11-01T00:21:39.893456+00:00"
+      "last_seen": "2026-11-01T01:01:39.040459+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -235,7 +235,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-11-01T00:21:39.893456+00:00"
+      "last_seen": "2026-11-01T01:01:39.040459+00:00"
     },
     {
       "source": "6pm.com",
@@ -378,7 +378,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-11-01T00:21:39.893456+00:00"
+      "last_seen": "2026-11-01T01:01:39.040459+00:00"
     },
     {
       "source": "zappos.com",
@@ -1381,7 +1381,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-11-01T00:21:39.893456+00:00"
+      "last_seen": "2026-11-01T01:01:39.040459+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1429,7 +1429,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T21:11:21.533925+00:00",
-      "last_seen": "2026-11-01T00:21:39.893456+00:00"
+      "last_seen": "2026-11-01T01:01:39.040459+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1477,7 +1477,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T21:11:21.533925+00:00",
-      "last_seen": "2026-11-01T00:21:39.893456+00:00"
+      "last_seen": "2026-11-01T01:01:39.040459+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1866,6 +1866,54 @@
     {
       "source": "zappos.com",
       "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10069736",
+      "title": "Showtime Mesh T-Shirt (Little Kid)",
+      "brand": "PUMA",
+      "category": "sports_outdoor",
+      "image": "https://m.media-amazon.com/images/I/61roNu+F-FL._AC_SR255,340_.jpg",
+      "price_current": 6.6,
+      "price_list": 22.0,
+      "price_baseline": 22.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 8808,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10069736",
+      "discount_pct": 70.0,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-31T16:31:22.823170+00:00",
+      "last_seen": "2026-11-01T01:01:39.040459+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
       "url": "https://www.zappos.com/product/10024489",
       "title": "FMF Mexico Alphaskin Hoodie (Little Kid/Big Kid)",
       "brand": "adidas",
@@ -1958,54 +2006,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-31T06:41:13.552751+00:00",
       "last_seen": "2026-10-31T20:31:46.206192+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10069736",
-      "title": "Showtime Mesh T-Shirt (Little Kid)",
-      "brand": "PUMA",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/61roNu+F-FL._AC_SR255,340_.jpg",
-      "price_current": 6.6,
-      "price_list": 22.0,
-      "price_baseline": 22.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 8808,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10069736",
-      "discount_pct": 70.0,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-31T16:31:22.823170+00:00",
-      "last_seen": "2026-10-31T16:31:43.623222+00:00"
     },
     {
       "source": "dealnews",
@@ -2486,7 +2486,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T21:11:21.533925+00:00",
-      "last_seen": "2026-11-01T00:21:39.893456+00:00"
+      "last_seen": "2026-11-01T01:01:39.040459+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2534,7 +2534,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-28T17:41:35.595457+00:00",
-      "last_seen": "2026-11-01T00:21:39.893456+00:00"
+      "last_seen": "2026-11-01T01:01:39.040459+00:00"
     },
     {
       "source": "dealnews",
@@ -2582,57 +2582,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-01T00:21:21.384644+00:00",
-      "last_seen": "2026-11-01T00:21:39.893456+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22327334.html?iref=rss",
-      "title": "lululemon We Made Too Much Specials: Up to 84% off + free shipping",
-      "brand": "Lululemon",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1792231761-imglululemon_yogo_rgb_blk-1658424320863.png?h=200&w=200",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22327334.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-01T00:21:21.390619+00:00",
-      "last_seen": "2026-11-01T00:21:39.893456+00:00"
+      "detected_at": "2026-11-01T01:01:17.329541+00:00",
+      "last_seen": "2026-11-01T01:01:39.040459+00:00"
     },
     {
       "source": "dealnews",
@@ -2681,7 +2632,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T13:51:31.095134+00:00",
-      "last_seen": "2026-11-01T00:21:39.893456+00:00"
+      "last_seen": "2026-11-01T01:01:39.040459+00:00"
     },
     {
       "source": "dealnews",
@@ -2730,7 +2681,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T13:11:14.885338+00:00",
-      "last_seen": "2026-11-01T00:21:39.893456+00:00"
+      "last_seen": "2026-11-01T01:01:39.040459+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2779,7 +2730,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T18:31:16.158272+00:00",
-      "last_seen": "2026-11-01T00:21:39.893456+00:00"
+      "last_seen": "2026-11-01T01:01:39.040459+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2828,6 +2779,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T14:51:21.015637+00:00",
+      "last_seen": "2026-11-01T01:01:39.040459+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22327334.html?iref=rss",
+      "title": "lululemon We Made Too Much Specials: Up to 84% off + free shipping",
+      "brand": "Lululemon",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1792231761-imglululemon_yogo_rgb_blk-1658424320863.png?h=200&w=200",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22327334.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-01T00:21:21.390619+00:00",
       "last_seen": "2026-11-01T00:21:39.893456+00:00"
     },
     {
@@ -4247,7 +4247,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T21:11:21.533925+00:00",
-      "last_seen": "2026-11-01T00:21:39.893456+00:00"
+      "last_seen": "2026-11-01T01:01:39.040459+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -4301,12 +4301,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-01T01:00:37+00:00",
-      "T2": "2026-11-01T00:21:04+00:00",
+      "T2": "2026-11-01T01:01:05+00:00",
       "T3": "2026-11-01T00:40:59+00:00",
       "T4": "2026-11-01T00:01:15+00:00"
     },
     "recent_gaps_min": [
-      11,
       1,
       7,
       11,
@@ -4335,14 +4334,15 @@
       10,
       1,
       9,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-01T01:01:04+00:00",
+      "at": "2026-11-01T01:01:38+00:00",
       "last_error": "HTTP 404"
     }
   },
