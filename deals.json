@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T13:31:03.509556+00:00",
-  "count": 83,
+  "generated_at": "2026-11-01T13:40:58.973325+00:00",
+  "count": 81,
   "deals": [
     {
       "source": "6pm.com",
@@ -1139,55 +1139,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-31T16:31:22.823170+00:00",
       "last_seen": "2026-11-01T09:41:49.652818+00:00"
-    },
-    {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/neutrogena-face-scrub/845504.htm",
-      "title": "Neutrogena 4.2oz Oil-Free Daily Acne Face Scrub  (외 1종)",
-      "brand": "Acne Studios",
-      "category": "premium_fashion",
-      "image": "https://d16f00g4zitf8i.cloudfront.net/images/neutrogena-face-scrub2.jpg",
-      "price_current": 4.55,
-      "price_list": 11.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 6088,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealsofamerica.com/neutrogena-face-scrub/845504.htm",
-      "discount_pct": 62.1,
-      "score": 71,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-30T08:21:37.581618+00:00",
-      "last_seen": "2026-10-30T13:32:39.363004+00:00",
-      "variant_count": 2
     },
     {
       "source": "dealsofamerica",
@@ -3908,55 +3859,6 @@
       "last_seen": "2026-10-30T14:51:39.458160+00:00"
     },
     {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Cole-Haan-Ecco-Footwear-Deals-at-Woot-Up-to-66-off-extra-20-to-30-off-free-shipping-w-Prime/22327522.html?iref=rss",
-      "title": "Cole Haan & Ecco Footwear Deals at Woot: Up to 66% off + extra 20% to 30% off + free shipping w/ Prime",
-      "brand": "Cole Haan",
-      "category": "premium_fashion",
-      "image": "https://d.dlnws.com/64599/1793360878-product-trimmed.jpg?h=206&w=250",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/Cole-Haan-Ecco-Footwear-Deals-at-Woot-Up-to-66-off-extra-20-to-30-off-free-shipping-w-Prime/22327522.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-30T13:32:20.699013+00:00",
-      "last_seen": "2026-10-30T13:32:39.363004+00:00"
-    },
-    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/fjallraven-knken-water-resistant-backpack/3833666",
@@ -4007,7 +3909,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-01T13:30:35+00:00",
+      "T1": "2026-11-01T13:40:24+00:00",
       "T2": "2026-11-01T13:01:09+00:00",
       "T3": "2026-11-01T11:30:59+00:00",
       "T4": "2026-11-01T12:21:35+00:00"
@@ -4041,6 +3943,7 @@
       1,
       9,
       10,
+      10,
       10
     ],
     "naver": {
@@ -4048,14 +3951,14 @@
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-01T13:31:02+00:00",
+      "at": "2026-11-01T13:40:58+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-01T13:30:42+00:00",
+        "at": "2026-11-01T13:40:28+00:00",
         "state": "정상",
         "mails": 5,
         "deals": 5
@@ -4081,7 +3984,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T05:40:53+00:00",
-        "last_seen": "2026-11-01T13:31:02+00:00"
+        "last_seen": "2026-11-01T13:40:58+00:00"
       },
       {
         "url": "https://click.email.bloomingdales.com/",
@@ -4111,7 +4014,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-31T23:11:02+00:00",
-        "last_seen": "2026-11-01T13:31:02+00:00"
+        "last_seen": "2026-11-01T13:40:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20227923",
@@ -4186,7 +4089,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T13:41:00+00:00",
-        "last_seen": "2026-11-01T13:31:02+00:00"
+        "last_seen": "2026-11-01T13:40:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20230620",
@@ -4216,7 +4119,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T07:02:54+00:00",
-        "last_seen": "2026-11-01T13:31:02+00:00"
+        "last_seen": "2026-11-01T13:40:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231625",
@@ -4516,7 +4419,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T10:41:06+00:00",
-        "last_seen": "2026-11-01T13:31:02+00:00"
+        "last_seen": "2026-11-01T13:40:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231253",
