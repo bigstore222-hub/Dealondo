@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T09:50:55.204798+00:00",
-  "count": 84,
+  "generated_at": "2026-11-01T10:01:09.114345+00:00",
+  "count": 83,
   "deals": [
     {
       "source": "6pm.com",
@@ -284,54 +284,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-29T12:12:09.762249+00:00",
       "last_seen": "2026-11-01T09:21:58.916682+00:00"
-    },
-    {
-      "source": "6pm.com",
-      "source_tier": "T3",
-      "url": "https://www.6pm.com/product/9977412",
-      "title": "Sapphire Suede Loafer",
-      "brand": "AllSaints",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/71bGdhOScFL._AC_SR255,340_.jpg",
-      "price_current": 69.8,
-      "price_list": 349.0,
-      "price_baseline": 349.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 93395,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.6pm.com/product/9977412",
-      "discount_pct": 80.0,
-      "score": 83,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-29T16:32:13.679676+00:00",
-      "last_seen": "2026-10-30T09:51:57.528246+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -4057,7 +4009,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-01T09:50:25+00:00",
+      "T1": "2026-11-01T10:00:40+00:00",
       "T2": "2026-11-01T09:41:10+00:00",
       "T3": "2026-11-01T09:21:01+00:00",
       "T4": "2026-11-01T06:10:59+00:00"
@@ -4091,21 +4043,22 @@
       9,
       10,
       1,
-      9
+      9,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-01T09:50:53+00:00",
+      "at": "2026-11-01T10:01:09+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-01T09:50:30+00:00",
+        "at": "2026-11-01T10:00:44+00:00",
         "state": "정상",
         "mails": 5,
         "deals": 5
@@ -4131,7 +4084,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T05:40:53+00:00",
-        "last_seen": "2026-11-01T09:50:53+00:00"
+        "last_seen": "2026-11-01T10:01:09+00:00"
       },
       {
         "url": "https://click.email.bloomingdales.com/",
@@ -4161,7 +4114,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-31T23:11:02+00:00",
-        "last_seen": "2026-11-01T09:50:53+00:00"
+        "last_seen": "2026-11-01T10:01:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20227923",
@@ -4236,7 +4189,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T13:41:00+00:00",
-        "last_seen": "2026-11-01T09:50:53+00:00"
+        "last_seen": "2026-11-01T10:01:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20230620",
@@ -4266,7 +4219,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T07:02:54+00:00",
-        "last_seen": "2026-11-01T09:50:53+00:00"
+        "last_seen": "2026-11-01T10:01:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231625",
@@ -4566,7 +4519,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T10:41:06+00:00",
-        "last_seen": "2026-11-01T09:50:53+00:00"
+        "last_seen": "2026-11-01T10:01:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231253",
