@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T12:24:35.518299+00:00",
+  "generated_at": "2026-11-01T12:31:03.602548+00:00",
   "count": 83,
   "deals": [
     {
@@ -4007,13 +4007,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-01T12:20:24+00:00",
+      "T1": "2026-11-01T12:30:32+00:00",
       "T2": "2026-11-01T12:21:02+00:00",
       "T3": "2026-11-01T11:30:59+00:00",
       "T4": "2026-11-01T12:21:35+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       10,
@@ -4042,21 +4041,22 @@
       10,
       10,
       1,
-      3
+      3,
+      6
     ],
     "naver": {
       "keys": true,
-      "queried": 50,
+      "queried": 25,
       "matched": 0,
-      "errors": 50,
-      "at": "2026-11-01T12:24:35+00:00",
+      "errors": 25,
+      "at": "2026-11-01T12:31:03+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-01T12:20:36+00:00",
+        "at": "2026-11-01T12:30:40+00:00",
         "state": "정상",
         "mails": 5,
         "deals": 5
@@ -4082,7 +4082,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T05:40:53+00:00",
-        "last_seen": "2026-11-01T12:21:01+00:00"
+        "last_seen": "2026-11-01T12:31:03+00:00"
       },
       {
         "url": "https://click.email.bloomingdales.com/",
@@ -4112,7 +4112,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-31T23:11:02+00:00",
-        "last_seen": "2026-11-01T12:21:01+00:00"
+        "last_seen": "2026-11-01T12:31:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20227923",
@@ -4187,7 +4187,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T13:41:00+00:00",
-        "last_seen": "2026-11-01T12:21:01+00:00"
+        "last_seen": "2026-11-01T12:31:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20230620",
@@ -4217,7 +4217,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T07:02:54+00:00",
-        "last_seen": "2026-11-01T12:21:01+00:00"
+        "last_seen": "2026-11-01T12:31:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231625",
@@ -4517,7 +4517,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T10:41:06+00:00",
-        "last_seen": "2026-11-01T12:21:01+00:00"
+        "last_seen": "2026-11-01T12:31:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231253",
