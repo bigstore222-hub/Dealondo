@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T18:52:32.016560+00:00",
+  "generated_at": "2026-11-01T18:53:13.570805+00:00",
   "count": 73,
   "deals": [
     {
@@ -235,7 +235,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-11-01T18:21:34.614577+00:00"
+      "last_seen": "2026-11-01T18:53:12.889379+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -282,7 +282,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-11-01T18:21:34.614577+00:00"
+      "last_seen": "2026-11-01T18:53:12.889379+00:00"
     },
     {
       "source": "zappos.com",
@@ -423,7 +423,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-11-01T18:21:34.614577+00:00"
+      "last_seen": "2026-11-01T18:53:12.889379+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -470,7 +470,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-11-01T18:21:34.614577+00:00"
+      "last_seen": "2026-11-01T18:53:12.889379+00:00"
     },
     {
       "source": "zappos.com",
@@ -1187,7 +1187,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-01T17:41:17.681788+00:00",
-      "last_seen": "2026-11-01T18:21:34.614577+00:00"
+      "last_seen": "2026-11-01T18:53:12.889379+00:00"
     },
     {
       "source": "zappos.com",
@@ -1768,6 +1768,54 @@
     {
       "source": "zappos.com",
       "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10024489",
+      "title": "FMF Mexico Alphaskin Hoodie (Little Kid/Big Kid)",
+      "brand": "adidas",
+      "category": "sports_outdoor",
+      "image": "https://m.media-amazon.com/images/I/61FhahbBN4L._AC_SR255,340_.jpg",
+      "price_current": 16.5,
+      "price_list": 55.0,
+      "price_baseline": 55.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 22024,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10024489",
+      "discount_pct": 70.0,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-30T16:51:20.542706+00:00",
+      "last_seen": "2026-11-01T18:53:12.889379+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
       "url": "https://www.zappos.com/product/10069736",
       "title": "Showtime Mesh T-Shirt (Little Kid)",
       "brand": "PUMA",
@@ -1812,54 +1860,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-31T16:31:22.823170+00:00",
       "last_seen": "2026-11-01T04:21:25.866513+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10024489",
-      "title": "FMF Mexico Alphaskin Hoodie (Little Kid/Big Kid)",
-      "brand": "adidas",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/61FhahbBN4L._AC_SR255,340_.jpg",
-      "price_current": 16.5,
-      "price_list": 55.0,
-      "price_baseline": 55.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 22019,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10024489",
-      "discount_pct": 70.0,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-30T16:51:20.542706+00:00",
-      "last_seen": "2026-11-01T00:21:39.893456+00:00"
     },
     {
       "source": "zappos.com",
@@ -2436,8 +2436,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-01T18:21:16.607458+00:00",
-      "last_seen": "2026-11-01T18:21:34.614577+00:00"
+      "detected_at": "2026-11-01T18:52:48.502290+00:00",
+      "last_seen": "2026-11-01T18:53:12.889379+00:00"
     },
     {
       "source": "dealnews",
@@ -2485,8 +2485,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-01T18:21:16.613203+00:00",
-      "last_seen": "2026-11-01T18:21:34.614577+00:00"
+      "detected_at": "2026-11-01T18:52:48.509093+00:00",
+      "last_seen": "2026-11-01T18:53:12.889379+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2535,7 +2535,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-01T16:21:11.872133+00:00",
-      "last_seen": "2026-11-01T18:21:34.614577+00:00"
+      "last_seen": "2026-11-01T18:53:12.889379+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2584,7 +2584,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T19:11:09.706383+00:00",
-      "last_seen": "2026-11-01T18:21:34.614577+00:00"
+      "last_seen": "2026-11-01T18:53:12.889379+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2633,7 +2633,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T18:31:16.158272+00:00",
-      "last_seen": "2026-11-01T18:21:34.614577+00:00"
+      "last_seen": "2026-11-01T18:53:12.889379+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2682,7 +2682,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T14:51:21.015637+00:00",
-      "last_seen": "2026-11-01T18:21:34.614577+00:00"
+      "last_seen": "2026-11-01T18:53:12.889379+00:00"
     },
     {
       "source": "dealnews",
@@ -3519,12 +3519,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-01T18:50:24+00:00",
-      "T2": "2026-11-01T18:20:56+00:00",
+      "T2": "2026-11-01T18:52:33+00:00",
       "T3": "2026-11-01T18:01:08+00:00",
       "T4": "2026-11-01T18:31:05+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       1,
       9,
@@ -3553,14 +3552,15 @@
       3,
       7,
       10,
-      2
+      2,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-01T18:50:56+00:00",
+      "at": "2026-11-01T18:53:12+00:00",
       "last_error": "HTTP 404"
     }
   },
