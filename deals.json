@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T04:50:55.984519+00:00",
+  "generated_at": "2026-11-01T05:01:08.444830+00:00",
   "count": 88,
   "deals": [
     {
@@ -569,6 +569,53 @@
       "last_seen": "2026-10-31T00:11:43.236259+00:00"
     },
     {
+      "source": "amazon.com",
+      "source_tier": "T1",
+      "url": "https://www.amazon.com/Cancelling-Bluetooth-Transparency-Headphones-Earphones/dp/B0HGXTDJF8",
+      "title": "Hybrid Active Noise Cancelling Wireless Ear Buds 80 Hrs Playtime Hi-Res Stereo Quality Bluetooth Earbuds with Transparen",
+      "brand": "",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/71A-GJ3iNWL._AC_SR255,340_.jpg",
+      "price_current": 49.99,
+      "price_list": 199.99,
+      "price_baseline": 199.99,
+      "price_alltime_low": 49.99,
+      "currency": "USD",
+      "coupon_code": "쿠폰 50% 추가할인",
+      "coupon_stackable": true,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 66726,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.amazon.com/Cancelling-Bluetooth-Transparency-Headphones-Earphones/dp/B0HGXTDJF8",
+      "discount_pct": 75.0,
+      "score": 78,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 15,
+        "bonus": 8,
+        "brand": 0
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-26T12:30:46.305071+00:00",
+      "last_seen": "2026-11-01T05:01:08.434213+00:00"
+    },
+    {
       "source": "zappos.com",
       "source_tier": "T2",
       "url": "https://www.zappos.com/product/10043175",
@@ -661,53 +708,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-27T02:12:09.750591+00:00",
       "last_seen": "2026-10-31T22:32:02.953013+00:00"
-    },
-    {
-      "source": "amazon.com",
-      "source_tier": "T1",
-      "url": "https://www.amazon.com/Cancelling-Bluetooth-Transparency-Headphones-Earphones/dp/B0HGXTDJF8",
-      "title": "Hybrid Active Noise Cancelling Wireless Ear Buds 80 Hrs Playtime Hi-Res Stereo Quality Bluetooth Earbuds with Transparen",
-      "brand": "",
-      "category": "electronics",
-      "image": "https://m.media-amazon.com/images/I/71A-GJ3iNWL._AC_SR255,340_.jpg",
-      "price_current": 49.99,
-      "price_list": 199.99,
-      "price_baseline": 199.99,
-      "price_alltime_low": 49.99,
-      "currency": "USD",
-      "coupon_code": "쿠폰 50% 추가할인",
-      "coupon_stackable": true,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 66712,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.amazon.com/Cancelling-Bluetooth-Transparency-Headphones-Earphones/dp/B0HGXTDJF8",
-      "discount_pct": 75.0,
-      "score": 78,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 15,
-        "bonus": 8,
-        "brand": 0
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-26T12:30:46.305071+00:00",
-      "last_seen": "2026-10-31T13:41:00.506083+00:00"
     },
     {
       "source": "zappos.com",
@@ -4250,7 +4250,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-01T04:50:26+00:00",
+      "T1": "2026-11-01T05:00:39+00:00",
       "T2": "2026-11-01T04:20:52+00:00",
       "T3": "2026-11-01T02:50:53+00:00",
       "T4": "2026-11-01T00:01:15+00:00"
@@ -4284,6 +4284,7 @@
       1,
       10,
       10,
+      10,
       10
     ],
     "naver": {
@@ -4291,14 +4292,14 @@
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-01T04:50:54+00:00",
+      "at": "2026-11-01T05:01:08+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-01T04:50:32+00:00",
+        "at": "2026-11-01T05:00:46+00:00",
         "state": "정상",
         "mails": 4,
         "deals": 4
@@ -4339,7 +4340,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-31T23:11:02+00:00",
-        "last_seen": "2026-11-01T04:50:54+00:00"
+        "last_seen": "2026-11-01T05:01:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20227923",
@@ -4414,7 +4415,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T13:41:00+00:00",
-        "last_seen": "2026-11-01T04:50:54+00:00"
+        "last_seen": "2026-11-01T05:01:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20230620",
@@ -4444,7 +4445,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T07:02:54+00:00",
-        "last_seen": "2026-11-01T04:50:54+00:00"
+        "last_seen": "2026-11-01T05:01:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231625",
@@ -4744,7 +4745,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T10:41:06+00:00",
-        "last_seen": "2026-11-01T04:50:54+00:00"
+        "last_seen": "2026-11-01T05:01:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231253",
