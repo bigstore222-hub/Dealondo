@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T02:21:28.468288+00:00",
-  "count": 89,
+  "generated_at": "2026-11-01T02:31:00.132167+00:00",
+  "count": 88,
   "deals": [
     {
       "source": "6pm.com",
@@ -946,7 +946,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-01T02:00:43.491074+00:00",
-      "last_seen": "2026-11-01T02:20:53.716866+00:00"
+      "last_seen": "2026-11-01T02:31:00.118880+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -2103,54 +2103,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-27T09:51:13.589041+00:00",
       "last_seen": "2026-10-31T10:31:47.891887+00:00"
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/new-balance-gender-inclusive-1906r-running-shoe/8170253",
-      "title": "Gender Inclusive 1906R Running Shoe",
-      "brand": "New Balance",
-      "category": "sports_outdoor",
-      "image": "https://n.nordstrommedia.com/it/36663eaa-13b0-46ba-bd2f-4420cf912092.jpeg?h=368&w=240&dpr=2",
-      "price_current": 59.98,
-      "price_list": 159.99,
-      "price_baseline": 159.99,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 80256,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/new-balance-gender-inclusive-1906r-running-shoe/8170253",
-      "discount_pct": 62.5,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-10-30T02:23:16.190668+00:00"
     },
     {
       "source": "ashford.com",
@@ -4300,13 +4252,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-01T02:20:28+00:00",
+      "T1": "2026-11-01T02:30:33+00:00",
       "T2": "2026-11-01T02:20:55+00:00",
       "T3": "2026-11-01T00:40:59+00:00",
       "T4": "2026-11-01T00:01:15+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       10,
@@ -4335,21 +4286,22 @@
       10,
       10,
       10,
-      1
+      1,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-01T02:21:27+00:00",
+      "at": "2026-11-01T02:31:00+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-01T02:20:34+00:00",
+        "at": "2026-11-01T02:30:39+00:00",
         "state": "정상",
         "mails": 4,
         "deals": 4
@@ -4390,7 +4342,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-31T23:11:02+00:00",
-        "last_seen": "2026-11-01T02:20:53+00:00"
+        "last_seen": "2026-11-01T02:31:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20227923",
@@ -4465,7 +4417,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T13:41:00+00:00",
-        "last_seen": "2026-11-01T02:20:53+00:00"
+        "last_seen": "2026-11-01T02:31:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20230620",
@@ -4495,7 +4447,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T07:02:54+00:00",
-        "last_seen": "2026-11-01T02:20:53+00:00"
+        "last_seen": "2026-11-01T02:31:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231625",
@@ -4795,7 +4747,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T10:41:06+00:00",
-        "last_seen": "2026-11-01T02:20:53+00:00"
+        "last_seen": "2026-11-01T02:31:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231253",
