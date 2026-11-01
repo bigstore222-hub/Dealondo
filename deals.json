@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T18:41:10.260968+00:00",
+  "generated_at": "2026-11-01T18:50:56.151101+00:00",
   "count": 74,
   "deals": [
     {
@@ -848,7 +848,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-01T17:10:40.145008+00:00",
-      "last_seen": "2026-11-01T18:41:08.739701+00:00"
+      "last_seen": "2026-11-01T18:50:56.123600+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -897,7 +897,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-01T17:10:40.145008+00:00",
-      "last_seen": "2026-11-01T18:41:08.739701+00:00"
+      "last_seen": "2026-11-01T18:50:56.123600+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -946,7 +946,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-01T17:10:40.145008+00:00",
-      "last_seen": "2026-11-01T18:41:08.739701+00:00"
+      "last_seen": "2026-11-01T18:50:56.123600+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -3567,7 +3567,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-01T18:40:26+00:00",
+      "T1": "2026-11-01T18:50:24+00:00",
       "T2": "2026-11-01T18:20:56+00:00",
       "T3": "2026-11-01T18:01:08+00:00",
       "T4": "2026-11-01T18:31:05+00:00"
@@ -3601,21 +3601,22 @@
       1,
       9,
       3,
-      7
+      7,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-01T18:41:08+00:00",
+      "at": "2026-11-01T18:50:56+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-01T18:40:49+00:00",
+        "at": "2026-11-01T18:50:31+00:00",
         "state": "정상",
         "mails": 9,
         "deals": 9
@@ -3641,7 +3642,7 @@
         "published": false,
         "reject_reason": "H8: 할인 17% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T16:50:56+00:00",
-        "last_seen": "2026-11-01T18:41:08+00:00"
+        "last_seen": "2026-11-01T18:50:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20239098",
@@ -3656,7 +3657,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T16:21:02+00:00",
-        "last_seen": "2026-11-01T18:41:08+00:00"
+        "last_seen": "2026-11-01T18:50:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20236851",
@@ -3671,7 +3672,7 @@
         "published": false,
         "reject_reason": "H8: 할인 15% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T15:01:07+00:00",
-        "last_seen": "2026-11-01T18:41:08+00:00"
+        "last_seen": "2026-11-01T18:50:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238348",
@@ -3686,7 +3687,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T14:40:53+00:00",
-        "last_seen": "2026-11-01T18:41:08+00:00"
+        "last_seen": "2026-11-01T18:50:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238111",
@@ -3701,7 +3702,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T05:40:53+00:00",
-        "last_seen": "2026-11-01T18:41:08+00:00"
+        "last_seen": "2026-11-01T18:50:56+00:00"
       },
       {
         "url": "https://click.email.bloomingdales.com/",
@@ -3731,7 +3732,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-31T23:11:02+00:00",
-        "last_seen": "2026-11-01T18:41:08+00:00"
+        "last_seen": "2026-11-01T18:50:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20227923",
@@ -3806,7 +3807,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T13:41:00+00:00",
-        "last_seen": "2026-11-01T18:41:08+00:00"
+        "last_seen": "2026-11-01T18:50:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20230620",
@@ -3836,7 +3837,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T07:02:54+00:00",
-        "last_seen": "2026-11-01T18:41:08+00:00"
+        "last_seen": "2026-11-01T18:50:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231625",
@@ -4136,7 +4137,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T10:41:06+00:00",
-        "last_seen": "2026-11-01T18:41:08+00:00"
+        "last_seen": "2026-11-01T18:50:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231253",
@@ -4317,25 +4318,10 @@
         "reject_reason": "H8: 할인 15% < 25% (허접 할인 제외)",
         "first_seen": "2026-10-29T20:10:59+00:00",
         "last_seen": "2026-10-30T00:50:58+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20224572",
-        "source": "slickdeals:nike.com",
-        "title": "Nike Men's Ava Edge Shoes (College Grey/Dark Smoke Grey/Total Orange/Black) for $87 at Nike",
-        "price": 87.0,
-        "list_price": 155.0,
-        "discount_pct": 43.9,
-        "krw": 116410,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H7: Nike 할인 44% < 60% (유명 브랜드 최소 할인)",
-        "first_seen": "2026-10-29T18:41:23+00:00",
-        "last_seen": "2026-10-30T00:50:58+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 47,
+      "collected_72h": 46,
       "published_72h": 3
     }
   }
