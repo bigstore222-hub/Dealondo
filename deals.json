@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T17:31:08.730147+00:00",
-  "count": 71,
+  "generated_at": "2026-11-01T17:40:55.838780+00:00",
+  "count": 70,
   "deals": [
     {
       "source": "6pm.com",
@@ -849,7 +849,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-01T17:10:40.145008+00:00",
-      "last_seen": "2026-11-01T17:31:07.368776+00:00"
+      "last_seen": "2026-11-01T17:40:55.810978+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -898,7 +898,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-01T17:10:40.145008+00:00",
-      "last_seen": "2026-11-01T17:31:07.368776+00:00"
+      "last_seen": "2026-11-01T17:40:55.810978+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -947,7 +947,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-01T17:10:40.145008+00:00",
-      "last_seen": "2026-11-01T17:31:07.368776+00:00"
+      "last_seen": "2026-11-01T17:40:55.810978+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -3328,55 +3328,6 @@
       "last_seen": "2026-10-30T18:11:44.669077+00:00"
     },
     {
-      "source": "techbargains:amazon",
-      "source_tier": "T2",
-      "url": "https://www.amazon.com/gp/product/B016UG6PWE/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
-      "title": "NOCO Boost GB70 2000A 12V Jump Starter (Up to 8L gas, 6L diesel) $139.99",
-      "brand": "Diesel",
-      "category": "premium_fashion",
-      "image": "https://www.techbargains.com/imagery/deals/119023.1793344243.fit_lim.size_125x125.jpg",
-      "price_current": 139.99,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 187312,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/gp/product/B016UG6PWE/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-30T07:41:12.329840+00:00",
-      "last_seen": "2026-10-30T17:32:01.275551+00:00"
-    },
-    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/fjallraven-knken-water-resistant-backpack/3833666",
@@ -3427,7 +3378,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-01T17:30:33+00:00",
+      "T1": "2026-11-01T17:40:26+00:00",
       "T2": "2026-11-01T17:01:35+00:00",
       "T3": "2026-11-01T15:50:55+00:00",
       "T4": "2026-11-01T12:21:35+00:00"
@@ -3461,6 +3412,7 @@
       1,
       9,
       10,
+      10,
       10
     ],
     "naver": {
@@ -3468,14 +3420,14 @@
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-01T17:31:07+00:00",
+      "at": "2026-11-01T17:40:55+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-01T17:30:43+00:00",
+        "at": "2026-11-01T17:40:36+00:00",
         "state": "정상",
         "mails": 9,
         "deals": 9
@@ -3501,7 +3453,7 @@
         "published": false,
         "reject_reason": "H8: 할인 17% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T16:50:56+00:00",
-        "last_seen": "2026-11-01T17:31:07+00:00"
+        "last_seen": "2026-11-01T17:40:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20239098",
@@ -3516,7 +3468,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T16:21:02+00:00",
-        "last_seen": "2026-11-01T17:31:07+00:00"
+        "last_seen": "2026-11-01T17:40:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20236851",
@@ -3531,7 +3483,7 @@
         "published": false,
         "reject_reason": "H8: 할인 15% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T15:01:07+00:00",
-        "last_seen": "2026-11-01T17:31:07+00:00"
+        "last_seen": "2026-11-01T17:40:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238348",
@@ -3546,7 +3498,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T14:40:53+00:00",
-        "last_seen": "2026-11-01T17:31:07+00:00"
+        "last_seen": "2026-11-01T17:40:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238111",
@@ -3561,7 +3513,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T05:40:53+00:00",
-        "last_seen": "2026-11-01T17:31:07+00:00"
+        "last_seen": "2026-11-01T17:40:55+00:00"
       },
       {
         "url": "https://click.email.bloomingdales.com/",
@@ -3591,7 +3543,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-31T23:11:02+00:00",
-        "last_seen": "2026-11-01T17:31:07+00:00"
+        "last_seen": "2026-11-01T17:40:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20227923",
@@ -3666,7 +3618,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T13:41:00+00:00",
-        "last_seen": "2026-11-01T17:31:07+00:00"
+        "last_seen": "2026-11-01T17:40:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20230620",
@@ -3696,7 +3648,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T07:02:54+00:00",
-        "last_seen": "2026-11-01T17:31:07+00:00"
+        "last_seen": "2026-11-01T17:40:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231625",
@@ -3996,7 +3948,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T10:41:06+00:00",
-        "last_seen": "2026-11-01T17:31:07+00:00"
+        "last_seen": "2026-11-01T17:40:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231253",
@@ -4192,25 +4144,10 @@
         "reject_reason": "H7: Nike 할인 44% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-29T18:41:23+00:00",
         "last_seen": "2026-10-30T00:50:58+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20218950",
-        "source": "slickdeals:nike.com",
-        "title": "Nike Shox TL Women's Shoes (Metallic Platinum/Pink Foam, size 6 - 9) for $80 at Nike",
-        "price": 80.0,
-        "list_price": 180.0,
-        "discount_pct": 55.6,
-        "krw": 106761,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H7: Nike 할인 56% < 60% (유명 브랜드 최소 할인)",
-        "first_seen": "2026-10-29T17:32:16+00:00",
-        "last_seen": "2026-10-31T23:50:59+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 48,
+      "collected_72h": 47,
       "published_72h": 3
     }
   }
