@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T22:45:48.344933+00:00",
+  "generated_at": "2026-11-01T22:50:59.596435+00:00",
   "count": 73,
   "deals": [
     {
@@ -3516,13 +3516,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-01T22:40:25+00:00",
+      "T1": "2026-11-01T22:50:24+00:00",
       "T2": "2026-11-01T22:45:10+00:00",
       "T3": "2026-11-01T22:21:03+00:00",
       "T4": "2026-11-01T18:31:05+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       1,
       10,
@@ -3551,24 +3550,25 @@
       9,
       10,
       4,
-      1
+      1,
+      5
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-01T22:45:47+00:00",
+      "at": "2026-11-01T22:50:59+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-01T22:40:36+00:00",
+        "at": "2026-11-01T22:50:36+00:00",
         "state": "정상",
-        "mails": 13,
-        "deals": 13
+        "mails": 14,
+        "deals": 14
       },
       "newsletter": {
         "at": "2026-11-01T18:33:53+00:00",
@@ -3578,6 +3578,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20237640",
+        "source": "slickdeals:slickdeals.net",
+        "title": "US Treasury Series I Savings Bonds Inflation Rate Earnings (Nov '26 - Apr '27) for 5.51% Interest (Annualized for 6 Mont",
+        "price": null,
+        "list_price": null,
+        "discount_pct": null,
+        "krw": null,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
+        "first_seen": "2026-11-01T22:50:59+00:00",
+        "last_seen": "2026-11-01T22:50:59+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20239164",
         "source": "slickdeals:aliexpress",
@@ -3591,7 +3606,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T22:21:01+00:00",
-        "last_seen": "2026-11-01T22:40:56+00:00"
+        "last_seen": "2026-11-01T22:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20232570",
@@ -3606,7 +3621,7 @@
         "published": false,
         "reject_reason": "H8: 할인 23% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T22:10:57+00:00",
-        "last_seen": "2026-11-01T22:40:56+00:00"
+        "last_seen": "2026-11-01T22:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20239614",
@@ -3621,7 +3636,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T22:01:06+00:00",
-        "last_seen": "2026-11-01T22:40:56+00:00"
+        "last_seen": "2026-11-01T22:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20239821",
@@ -3636,7 +3651,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T21:51:15+00:00",
-        "last_seen": "2026-11-01T22:40:56+00:00"
+        "last_seen": "2026-11-01T22:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20236578",
@@ -3651,7 +3666,7 @@
         "published": false,
         "reject_reason": "H8: 할인 17% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T16:50:56+00:00",
-        "last_seen": "2026-11-01T22:40:56+00:00"
+        "last_seen": "2026-11-01T22:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20239098",
@@ -3666,7 +3681,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T16:21:02+00:00",
-        "last_seen": "2026-11-01T22:40:56+00:00"
+        "last_seen": "2026-11-01T22:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20236851",
@@ -3681,7 +3696,7 @@
         "published": false,
         "reject_reason": "H8: 할인 15% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T15:01:07+00:00",
-        "last_seen": "2026-11-01T22:40:56+00:00"
+        "last_seen": "2026-11-01T22:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238348",
@@ -3696,7 +3711,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T14:40:53+00:00",
-        "last_seen": "2026-11-01T22:40:56+00:00"
+        "last_seen": "2026-11-01T22:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238111",
@@ -3711,7 +3726,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T05:40:53+00:00",
-        "last_seen": "2026-11-01T22:40:56+00:00"
+        "last_seen": "2026-11-01T22:50:59+00:00"
       },
       {
         "url": "https://click.email.bloomingdales.com/",
@@ -3741,7 +3756,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-31T23:11:02+00:00",
-        "last_seen": "2026-11-01T22:40:56+00:00"
+        "last_seen": "2026-11-01T22:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20227923",
@@ -3816,7 +3831,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T13:41:00+00:00",
-        "last_seen": "2026-11-01T22:40:56+00:00"
+        "last_seen": "2026-11-01T22:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20230620",
@@ -3846,7 +3861,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T07:02:54+00:00",
-        "last_seen": "2026-11-01T22:40:56+00:00"
+        "last_seen": "2026-11-01T22:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231625",
@@ -4146,7 +4161,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-30T10:41:06+00:00",
-        "last_seen": "2026-11-01T22:40:56+00:00"
+        "last_seen": "2026-11-01T22:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231253",
@@ -4300,7 +4315,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 48,
+      "collected_72h": 49,
       "published_72h": 3
     }
   }
