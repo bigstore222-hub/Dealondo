@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T19:31:02.243761+00:00",
-  "count": 73,
+  "generated_at": "2026-11-01T19:31:42.639565+00:00",
+  "count": 74,
   "deals": [
     {
       "source": "6pm.com",
@@ -235,7 +235,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-11-01T18:53:12.889379+00:00"
+      "last_seen": "2026-11-01T19:31:41.550860+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -282,7 +282,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-11-01T18:53:12.889379+00:00"
+      "last_seen": "2026-11-01T19:31:41.550860+00:00"
     },
     {
       "source": "zappos.com",
@@ -423,7 +423,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-11-01T18:53:12.889379+00:00"
+      "last_seen": "2026-11-01T19:31:41.550860+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -470,7 +470,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-11-01T18:53:12.889379+00:00"
+      "last_seen": "2026-11-01T19:31:41.550860+00:00"
     },
     {
       "source": "zappos.com",
@@ -1187,7 +1187,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-01T17:41:17.681788+00:00",
-      "last_seen": "2026-11-01T18:53:12.889379+00:00"
+      "last_seen": "2026-11-01T19:31:41.550860+00:00"
     },
     {
       "source": "zappos.com",
@@ -1286,6 +1286,102 @@
       "last_seen": "2026-10-31T16:02:05.643416+00:00"
     },
     {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/sam-edelman-onia-pointed-toe-slingback-pump-women/8367678",
+      "title": "Onia Pointed Toe Slingback Pump",
+      "brand": "Sam Edelman",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/d56a6323-08d2-42bb-9743-48c43db057a7.jpeg?h=368&w=240&dpr=2",
+      "price_current": 49.99,
+      "price_list": 165.0,
+      "price_baseline": 165.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 66726,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/sam-edelman-onia-pointed-toe-slingback-pump-women/8367678",
+      "discount_pct": 69.7,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-31T21:11:21.533925+00:00",
+      "last_seen": "2026-11-01T19:31:41.550860+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10040891",
+      "title": "Vivera",
+      "brand": "Calvin Klein",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/616bLKho2HL._AC_SR255,340_.jpg",
+      "price_current": 44.7,
+      "price_list": 149.0,
+      "price_baseline": 149.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 59665,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10040891",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-31T00:51:23.196713+00:00",
+      "last_seen": "2026-11-01T19:31:41.550860+00:00"
+    },
+    {
       "source": "zappos.com",
       "source_tier": "T2",
       "url": "https://www.zappos.com/product/10057242",
@@ -1380,102 +1476,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-11-01T17:41:17.681788+00:00",
       "last_seen": "2026-11-01T17:41:36.848808+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10040891",
-      "title": "Vivera",
-      "brand": "Calvin Klein",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/616bLKho2HL._AC_SR255,340_.jpg",
-      "price_current": 44.7,
-      "price_list": 149.0,
-      "price_baseline": 149.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 59665,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10040891",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-31T00:51:23.196713+00:00",
-      "last_seen": "2026-11-01T11:41:26.500247+00:00"
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/sam-edelman-onia-pointed-toe-slingback-pump-women/8367678",
-      "title": "Onia Pointed Toe Slingback Pump",
-      "brand": "Sam Edelman",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/d56a6323-08d2-42bb-9743-48c43db057a7.jpeg?h=368&w=240&dpr=2",
-      "price_current": 49.99,
-      "price_list": 165.0,
-      "price_baseline": 165.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 66726,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/sam-edelman-onia-pointed-toe-slingback-pump-women/8367678",
-      "discount_pct": 69.7,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-31T21:11:21.533925+00:00",
-      "last_seen": "2026-11-01T06:21:38.688290+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2391,6 +2391,54 @@
       "last_seen": "2026-11-01T06:21:38.688290+00:00"
     },
     {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/9974891",
+      "title": "Brooklyn 4U Low Wedges",
+      "brand": "Crocs",
+      "category": "sports_outdoor",
+      "image": "https://m.media-amazon.com/images/I/613V-xN5LkL._AC_SR255,340_.jpg",
+      "price_current": 16.48,
+      "price_list": 54.95,
+      "price_baseline": 54.95,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": 4.0,
+      "review_count": 155,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 21997,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/9974891",
+      "discount_pct": 70.0,
+      "score": 56,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 13,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-01T19:31:20.955223+00:00",
+      "last_seen": "2026-11-01T19:31:41.550860+00:00"
+    },
+    {
       "source": "dealnews",
       "source_tier": "T2",
       "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22327334.html?iref=rss",
@@ -2436,8 +2484,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-01T18:52:48.502290+00:00",
-      "last_seen": "2026-11-01T18:53:12.889379+00:00"
+      "detected_at": "2026-11-01T19:31:20.674479+00:00",
+      "last_seen": "2026-11-01T19:31:41.550860+00:00"
     },
     {
       "source": "dealnews",
@@ -2485,8 +2533,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-01T18:52:48.509093+00:00",
-      "last_seen": "2026-11-01T18:53:12.889379+00:00"
+      "detected_at": "2026-11-01T19:31:20.684980+00:00",
+      "last_seen": "2026-11-01T19:31:41.550860+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2535,7 +2583,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-01T16:21:11.872133+00:00",
-      "last_seen": "2026-11-01T18:53:12.889379+00:00"
+      "last_seen": "2026-11-01T19:31:41.550860+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2584,7 +2632,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T19:11:09.706383+00:00",
-      "last_seen": "2026-11-01T18:53:12.889379+00:00"
+      "last_seen": "2026-11-01T19:31:41.550860+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2633,7 +2681,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T18:31:16.158272+00:00",
-      "last_seen": "2026-11-01T18:53:12.889379+00:00"
+      "last_seen": "2026-11-01T19:31:41.550860+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -3519,12 +3567,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-01T19:30:33+00:00",
-      "T2": "2026-11-01T18:52:33+00:00",
+      "T2": "2026-11-01T19:31:03+00:00",
       "T3": "2026-11-01T18:01:08+00:00",
       "T4": "2026-11-01T18:31:05+00:00"
     },
     "recent_gaps_min": [
-      9,
       10,
       10,
       1,
@@ -3553,14 +3600,15 @@
       8,
       10,
       10,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-01T19:31:02+00:00",
+      "at": "2026-11-01T19:31:41+00:00",
       "last_error": "HTTP 404"
     }
   },
