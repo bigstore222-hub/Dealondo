@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T14:31:35.707572+00:00",
+  "generated_at": "2026-11-02T14:32:15.708702+00:00",
   "count": 63,
   "deals": [
     {
@@ -235,7 +235,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-11-02T13:51:50.464977+00:00"
+      "last_seen": "2026-11-02T14:32:14.518080+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -282,7 +282,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-11-02T13:51:50.464977+00:00"
+      "last_seen": "2026-11-02T14:32:14.518080+00:00"
     },
     {
       "source": "zappos.com",
@@ -423,7 +423,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-11-02T13:51:50.464977+00:00"
+      "last_seen": "2026-11-02T14:32:14.518080+00:00"
     },
     {
       "source": "zappos.com",
@@ -1613,7 +1613,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T21:11:21.533925+00:00",
-      "last_seen": "2026-11-02T13:51:50.464977+00:00"
+      "last_seen": "2026-11-02T14:32:14.518080+00:00"
     },
     {
       "source": "dealnews",
@@ -2046,7 +2046,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-02T13:51:26.362296+00:00",
-      "last_seen": "2026-11-02T13:51:50.464977+00:00"
+      "last_seen": "2026-11-02T14:32:14.518080+00:00"
     },
     {
       "source": "zappos.com",
@@ -2285,7 +2285,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T21:11:21.533925+00:00",
-      "last_seen": "2026-11-02T13:51:50.464977+00:00"
+      "last_seen": "2026-11-02T14:32:14.518080+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2386,6 +2386,55 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
+      "url": "https://www.dealnews.com/adidas-Mens-Week-of-Deals-Up-to-60-off-extra-15-off-Free-shipping/22336452.html?iref=rss",
+      "title": "adidas Men's Week of Deals: Up to 60% off + extra 15% off + Free shipping",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1793629286-essentials_3-stripes_open_hem_fleece_pants_black_kx6329_21_model.avif?h=250&w=250",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/adidas-Mens-Week-of-Deals-Up-to-60-off-extra-15-off-Free-shipping/22336452.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-02T14:31:50.377923+00:00",
+      "last_seen": "2026-11-02T14:32:14.518080+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
       "url": "https://www.dealnews.com/Samsonite-Omni-20-PC-Hardside-Expandable-Carry-On-Spinner-Luggage-for-82-free-shipping/22336363.html?iref=rss",
       "title": "Samsonite Omni 20\" PC Hardside Expandable Carry-On Spinner Luggage for $82 + free shipping",
       "brand": "Samsonite",
@@ -2430,105 +2479,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-02T13:51:26.362296+00:00",
-      "last_seen": "2026-11-02T13:51:50.464977+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22327334.html?iref=rss",
-      "title": "lululemon We Made Too Much Specials: Up to 84% off + free shipping",
-      "brand": "Lululemon",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1792231761-imglululemon_yogo_rgb_blk-1658424320863.png?h=200&w=200",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22327334.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-02T13:51:26.144367+00:00",
-      "last_seen": "2026-11-02T13:51:50.464977+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/adidas-Mens-VL-Court-3-0-Shoes-for-22-free-shipping/22336228.html?iref=rss",
-      "title": "adidas Men's VL Court 3.0 Shoes for $22 + free shipping",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1793619601-s-l1600.jpg?h=250&w=250",
-      "price_current": 22.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 29321,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/adidas-Mens-VL-Court-3-0-Shoes-for-22-free-shipping/22336228.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-02T11:51:15.888825+00:00",
-      "last_seen": "2026-11-02T13:51:50.464977+00:00"
+      "last_seen": "2026-11-02T14:32:14.518080+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2577,7 +2528,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-01T16:21:11.872133+00:00",
-      "last_seen": "2026-11-02T13:51:50.464977+00:00"
+      "last_seen": "2026-11-02T14:32:14.518080+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2626,7 +2577,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T19:11:09.706383+00:00",
-      "last_seen": "2026-11-02T13:51:50.464977+00:00"
+      "last_seen": "2026-11-02T14:32:14.518080+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2675,6 +2626,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T18:31:16.158272+00:00",
+      "last_seen": "2026-11-02T14:32:14.518080+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22327334.html?iref=rss",
+      "title": "lululemon We Made Too Much Specials: Up to 84% off + free shipping",
+      "brand": "Lululemon",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1792231761-imglululemon_yogo_rgb_blk-1658424320863.png?h=200&w=200",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22327334.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-02T13:51:26.144367+00:00",
       "last_seen": "2026-11-02T13:51:50.464977+00:00"
     },
     {
@@ -3023,12 +3023,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-02T14:30:44+00:00",
-      "T2": "2026-11-02T13:51:16+00:00",
+      "T2": "2026-11-02T14:31:37+00:00",
       "T3": "2026-11-02T13:21:36+00:00",
       "T4": "2026-11-02T13:01:30+00:00"
     },
     "recent_gaps_min": [
-      11,
       10,
       1,
       1,
@@ -3057,14 +3056,15 @@
       9,
       10,
       10,
-      11
+      11,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-02T14:31:35+00:00",
+      "at": "2026-11-02T14:32:14+00:00",
       "last_error": "HTTP 404"
     }
   },
