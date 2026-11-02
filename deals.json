@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T12:31:34.986578+00:00",
+  "generated_at": "2026-11-02T12:32:11.002343+00:00",
   "count": 62,
   "deals": [
     {
@@ -235,7 +235,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-11-02T11:51:39.571392+00:00"
+      "last_seen": "2026-11-02T12:32:09.648159+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -282,7 +282,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-11-02T11:51:39.571392+00:00"
+      "last_seen": "2026-11-02T12:32:09.648159+00:00"
     },
     {
       "source": "zappos.com",
@@ -423,7 +423,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-11-02T11:51:39.571392+00:00"
+      "last_seen": "2026-11-02T12:32:09.648159+00:00"
     },
     {
       "source": "zappos.com",
@@ -1474,6 +1474,54 @@
       "last_seen": "2026-10-31T16:02:05.643416+00:00"
     },
     {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10027631",
+      "title": "Elegant",
+      "brand": "Steve Madden",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/71YWLIQNq0L._AC_SR255,340_.jpg",
+      "price_current": 38.98,
+      "price_list": 129.95,
+      "price_baseline": 129.95,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 51951,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10027631",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-02T12:31:51.584516+00:00",
+      "last_seen": "2026-11-02T12:32:09.648159+00:00"
+    },
+    {
       "source": "dealnews",
       "source_tier": "T2",
       "url": "https://www.dealnews.com/Free-People-Womens-Swim-Too-Deep-Oversized-Turtleneck-Sweater-for-50-free-shipping/22336214.html?iref=rss",
@@ -1520,7 +1568,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-02T11:51:15.888825+00:00",
-      "last_seen": "2026-11-02T11:51:39.571392+00:00"
+      "last_seen": "2026-11-02T12:32:09.648159+00:00"
     },
     {
       "source": "zappos.com",
@@ -2290,56 +2338,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-02T11:51:15.888825+00:00",
-      "last_seen": "2026-11-02T11:51:39.571392+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22327334.html?iref=rss",
-      "title": "lululemon We Made Too Much Specials: Up to 84% off + free shipping",
-      "brand": "Lululemon",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1792231761-imglululemon_yogo_rgb_blk-1658424320863.png?h=200&w=200",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22327334.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-02T11:51:15.708157+00:00",
-      "last_seen": "2026-11-02T11:51:39.571392+00:00"
+      "last_seen": "2026-11-02T12:32:09.648159+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2388,7 +2387,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T19:11:09.706383+00:00",
-      "last_seen": "2026-11-02T11:51:39.571392+00:00"
+      "last_seen": "2026-11-02T12:32:09.648159+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2437,6 +2436,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T18:31:16.158272+00:00",
+      "last_seen": "2026-11-02T12:32:09.648159+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22327334.html?iref=rss",
+      "title": "lululemon We Made Too Much Specials: Up to 84% off + free shipping",
+      "brand": "Lululemon",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1792231761-imglululemon_yogo_rgb_blk-1658424320863.png?h=200&w=200",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22327334.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-02T11:51:15.708157+00:00",
       "last_seen": "2026-11-02T11:51:39.571392+00:00"
     },
     {
@@ -2880,55 +2928,6 @@
       "last_seen": "2026-10-31T13:11:32.980425+00:00"
     },
     {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Cole-Haan-Mens-Original-Grand-Shortwing-Oxford-Shoes-for-54-for-new-customers-free-shipping-w-Prime/22330289.html?iref=rss",
-      "title": "Cole Haan Men's Original Grand Shortwing Oxford Shoes for $54 for new customers + free shipping w/ Prime",
-      "brand": "Cole Haan",
-      "category": "premium_fashion",
-      "image": "https://d.dlnws.com/64599/1793440825-b7b9962b-82f3-42ec-8370-ff4b8a0fe804.jpg?h=188&w=250",
-      "price_current": 54.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 72063,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/Cole-Haan-Mens-Original-Grand-Shortwing-Oxford-Shoes-for-54-for-new-customers-free-shipping-w-Prime/22330289.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-31T10:31:28.834611+00:00",
-      "last_seen": "2026-10-31T12:31:39.545764+00:00"
-    },
-    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/fjallraven-knken-water-resistant-backpack/3833666",
@@ -2980,12 +2979,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-02T12:30:34+00:00",
-      "T2": "2026-11-02T11:51:07+00:00",
+      "T2": "2026-11-02T12:31:36+00:00",
       "T3": "2026-11-02T11:11:55+00:00",
       "T4": "2026-11-02T06:51:01+00:00"
     },
     "recent_gaps_min": [
-      12,
       1,
       7,
       1,
@@ -3014,14 +3012,15 @@
       10,
       9,
       10,
-      11
+      11,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-02T12:31:34+00:00",
+      "at": "2026-11-02T12:32:09+00:00",
       "last_error": "HTTP 404"
     }
   },
