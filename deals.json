@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T11:51:05.725097+00:00",
+  "generated_at": "2026-11-02T11:51:40.582066+00:00",
   "count": 62,
   "deals": [
     {
@@ -235,7 +235,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-11-02T11:11:54.571421+00:00"
+      "last_seen": "2026-11-02T11:51:39.571392+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -282,7 +282,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-11-02T11:11:54.571421+00:00"
+      "last_seen": "2026-11-02T11:51:39.571392+00:00"
     },
     {
       "source": "zappos.com",
@@ -423,7 +423,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-11-02T11:11:54.571421+00:00"
+      "last_seen": "2026-11-02T11:51:39.571392+00:00"
     },
     {
       "source": "zappos.com",
@@ -1093,7 +1093,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-01T17:41:17.681788+00:00",
-      "last_seen": "2026-11-02T11:11:54.571421+00:00"
+      "last_seen": "2026-11-02T11:51:39.571392+00:00"
     },
     {
       "source": "zappos.com",
@@ -1474,6 +1474,55 @@
       "last_seen": "2026-10-31T16:02:05.643416+00:00"
     },
     {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Free-People-Womens-Swim-Too-Deep-Oversized-Turtleneck-Sweater-for-50-free-shipping/22336214.html?iref=rss",
+      "title": "Free People Women's Swim Too Deep Oversized Turtleneck Sweater for $50 + free shipping",
+      "brand": "Free People",
+      "category": "premium_fashion",
+      "image": "https://d.dlnws.com/64599/1793618934-39086825_fpx.jpeg?h=250&w=205",
+      "price_current": 50.0,
+      "price_list": 128.21,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 66638,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Free-People-Womens-Swim-Too-Deep-Oversized-Turtleneck-Sweater-for-50-free-shipping/22336214.html?iref=rss",
+      "discount_pct": 61.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-02T11:51:15.888825+00:00",
+      "last_seen": "2026-11-02T11:51:39.571392+00:00"
+    },
+    {
       "source": "zappos.com",
       "source_tier": "T2",
       "url": "https://www.zappos.com/product/10058739",
@@ -1697,54 +1746,6 @@
       "code_kind": "",
       "brand_tier": "known",
       "buy_url": "https://www.zappos.com/product/10057242",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-01T17:41:17.681788+00:00",
-      "last_seen": "2026-11-01T17:41:36.848808+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10057246",
-      "title": "Lady Tulip Mini Skirt",
-      "brand": "Free People",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61Vcl1ZpKeL._AC_SR255,340_.jpg",
-      "price_current": 29.4,
-      "price_list": 98.0,
-      "price_baseline": 98.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 39243,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10057246",
       "discount_pct": 70.0,
       "score": 64,
       "score_breakdown": {
@@ -2245,6 +2246,55 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
+      "url": "https://www.dealnews.com/adidas-Mens-VL-Court-3-0-Shoes-for-22-free-shipping/22336228.html?iref=rss",
+      "title": "adidas Men's VL Court 3.0 Shoes for $22 + free shipping",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1793619601-s-l1600.jpg?h=250&w=250",
+      "price_current": 22.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 29321,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/adidas-Mens-VL-Court-3-0-Shoes-for-22-free-shipping/22336228.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-02T11:51:15.888825+00:00",
+      "last_seen": "2026-11-02T11:51:39.571392+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
       "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Specials-Up-to-84-off-free-shipping/22327334.html?iref=rss",
       "title": "lululemon We Made Too Much Specials: Up to 84% off + free shipping",
       "brand": "Lululemon",
@@ -2288,57 +2338,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-02T11:11:35.623261+00:00",
-      "last_seen": "2026-11-02T11:11:54.571421+00:00"
-    },
-    {
-      "source": "techbargains:amazon",
-      "source_tier": "T2",
-      "url": "https://www.amazon.com/gp/product/B0B3NDV3WD/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
-      "title": "Adidas 3.3oz Men's Dynamic Pulse Aftershave Fragrance $5.64",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://www.techbargains.com/imagery/deals/217653.1793610174.fit_lim.size_125x125.png",
-      "price_current": 5.64,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 7517,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/gp/product/B0B3NDV3WD/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-01T16:21:11.872133+00:00",
-      "last_seen": "2026-11-02T11:11:54.571421+00:00"
+      "detected_at": "2026-11-02T11:51:15.708157+00:00",
+      "last_seen": "2026-11-02T11:51:39.571392+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2387,7 +2388,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T19:11:09.706383+00:00",
-      "last_seen": "2026-11-02T11:11:54.571421+00:00"
+      "last_seen": "2026-11-02T11:51:39.571392+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2436,7 +2437,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T18:31:16.158272+00:00",
-      "last_seen": "2026-11-02T11:11:54.571421+00:00"
+      "last_seen": "2026-11-02T11:51:39.571392+00:00"
     },
     {
       "source": "dealnews",
@@ -2979,12 +2980,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-02T11:50:24+00:00",
-      "T2": "2026-11-02T11:11:21+00:00",
+      "T2": "2026-11-02T11:51:07+00:00",
       "T3": "2026-11-02T11:11:55+00:00",
       "T4": "2026-11-02T06:51:01+00:00"
     },
     "recent_gaps_min": [
-      7,
       13,
       1,
       6,
@@ -3013,14 +3013,15 @@
       8,
       10,
       10,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-02T11:51:05+00:00",
+      "at": "2026-11-02T11:51:39+00:00",
       "last_error": "HTTP 404"
     }
   },
