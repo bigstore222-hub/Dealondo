@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T06:31:10.259147+00:00",
+  "generated_at": "2026-11-02T06:31:47.000575+00:00",
   "count": 67,
   "deals": [
     {
@@ -235,7 +235,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-11-02T05:51:38.386124+00:00"
+      "last_seen": "2026-11-02T06:31:45.826043+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -282,7 +282,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-11-02T05:51:38.386124+00:00"
+      "last_seen": "2026-11-02T06:31:45.826043+00:00"
     },
     {
       "source": "zappos.com",
@@ -423,7 +423,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-11-02T05:51:38.386124+00:00"
+      "last_seen": "2026-11-02T06:31:45.826043+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -470,7 +470,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-23T08:21:28.111039+00:00",
-      "last_seen": "2026-11-02T05:51:38.386124+00:00"
+      "last_seen": "2026-11-02T06:31:45.826043+00:00"
     },
     {
       "source": "zappos.com",
@@ -1098,54 +1098,6 @@
       "last_seen": "2026-10-31T16:02:05.643416+00:00"
     },
     {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/sam-edelman-onia-pointed-toe-slingback-pump-women/8367678",
-      "title": "Onia Pointed Toe Slingback Pump",
-      "brand": "Sam Edelman",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/d56a6323-08d2-42bb-9743-48c43db057a7.jpeg?h=368&w=240&dpr=2",
-      "price_current": 49.99,
-      "price_list": 165.0,
-      "price_baseline": 165.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 66625,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/sam-edelman-onia-pointed-toe-slingback-pump-women/8367678",
-      "discount_pct": 69.7,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-31T21:11:21.533925+00:00",
-      "last_seen": "2026-11-02T05:11:41.333543+00:00"
-    },
-    {
       "source": "zappos.com",
       "source_tier": "T2",
       "url": "https://www.zappos.com/product/10040891",
@@ -1191,6 +1143,54 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T00:51:23.196713+00:00",
+      "last_seen": "2026-11-02T06:31:45.826043+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/sam-edelman-onia-pointed-toe-slingback-pump-women/8367678",
+      "title": "Onia Pointed Toe Slingback Pump",
+      "brand": "Sam Edelman",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/d56a6323-08d2-42bb-9743-48c43db057a7.jpeg?h=368&w=240&dpr=2",
+      "price_current": 49.99,
+      "price_list": 165.0,
+      "price_baseline": 165.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 66625,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/sam-edelman-onia-pointed-toe-slingback-pump-women/8367678",
+      "discount_pct": 69.7,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-31T21:11:21.533925+00:00",
       "last_seen": "2026-11-02T05:11:41.333543+00:00"
     },
     {
@@ -2248,7 +2248,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T21:11:21.533925+00:00",
-      "last_seen": "2026-11-02T05:51:38.386124+00:00"
+      "last_seen": "2026-11-02T06:31:45.826043+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2392,8 +2392,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-02T05:51:18.633710+00:00",
-      "last_seen": "2026-11-02T05:51:38.386124+00:00"
+      "detected_at": "2026-11-02T06:31:22.968315+00:00",
+      "last_seen": "2026-11-02T06:31:45.826043+00:00"
     },
     {
       "source": "dealnews",
@@ -2441,8 +2441,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-02T05:51:18.634114+00:00",
-      "last_seen": "2026-11-02T05:51:38.386124+00:00"
+      "detected_at": "2026-11-02T06:31:22.969337+00:00",
+      "last_seen": "2026-11-02T06:31:45.826043+00:00"
     },
     {
       "source": "techbargains:adidas",
@@ -2490,8 +2490,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-02T05:51:18.859468+00:00",
-      "last_seen": "2026-11-02T05:51:38.386124+00:00"
+      "detected_at": "2026-11-02T06:31:23.074156+00:00",
+      "last_seen": "2026-11-02T06:31:45.826043+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2540,7 +2540,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T19:11:09.706383+00:00",
-      "last_seen": "2026-11-02T05:51:38.386124+00:00"
+      "last_seen": "2026-11-02T06:31:45.826043+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2589,7 +2589,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T18:31:16.158272+00:00",
-      "last_seen": "2026-11-02T05:51:38.386124+00:00"
+      "last_seen": "2026-11-02T06:31:45.826043+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -3230,12 +3230,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-02T06:30:34+00:00",
-      "T2": "2026-11-02T05:51:02+00:00",
+      "T2": "2026-11-02T06:31:11+00:00",
       "T3": "2026-11-02T04:50:57+00:00",
       "T4": "2026-11-02T00:41:31+00:00"
     },
     "recent_gaps_min": [
-      1,
       9,
       10,
       9,
@@ -3264,14 +3263,15 @@
       9,
       10,
       10,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-02T06:31:10+00:00",
+      "at": "2026-11-02T06:31:45+00:00",
       "last_error": "HTTP 404"
     }
   },
