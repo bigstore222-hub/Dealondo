@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T13:31:26.635781+00:00",
+  "generated_at": "2026-11-02T13:41:05.603172+00:00",
   "count": 62,
   "deals": [
     {
@@ -518,6 +518,53 @@
       "urgency": "HOT",
       "detected_at": "2026-10-28T20:21:53.433295+00:00",
       "last_seen": "2026-11-01T21:31:43.874429+00:00"
+    },
+    {
+      "source": "amazon.com",
+      "source_tier": "T1",
+      "url": "https://www.amazon.com/Cancelling-Bluetooth-Transparency-Headphones-Earphones/dp/B0HGXTDJF8",
+      "title": "Hybrid Active Noise Cancelling Wireless Ear Buds 80 Hrs Playtime Hi-Res Stereo Quality Bluetooth Earbuds with Transparen",
+      "brand": "",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/71A-GJ3iNWL._AC_SR255,340_.jpg",
+      "price_current": 49.99,
+      "price_list": 199.99,
+      "price_baseline": 199.99,
+      "price_alltime_low": 49.99,
+      "currency": "USD",
+      "coupon_code": "쿠폰 50% 추가할인",
+      "coupon_stackable": true,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 66625,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.amazon.com/Cancelling-Bluetooth-Transparency-Headphones-Earphones/dp/B0HGXTDJF8",
+      "discount_pct": 75.0,
+      "score": 78,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 15,
+        "bonus": 8,
+        "brand": 0
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-26T12:30:46.305071+00:00",
+      "last_seen": "2026-11-02T13:41:05.590063+00:00"
     },
     {
       "source": "6pm.com",
@@ -1377,53 +1424,6 @@
       "urgency": "HOT",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
       "last_seen": "2026-11-02T13:22:31.326485+00:00"
-    },
-    {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/otterbox-military-grade-case/845225.htm",
-      "title": "OtterBox Defender Series Pro XT Military-Grade iPhone Air Case",
-      "brand": "",
-      "category": "electronics",
-      "image": "https://d16f00g4zitf8i.cloudfront.net/images/otterbox-military-grade-case.jpg",
-      "price_current": 11.96,
-      "price_list": 41.99,
-      "price_baseline": null,
-      "price_alltime_low": 11.96,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 15940,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.dealsofamerica.com/otterbox-military-grade-case/845225.htm",
-      "discount_pct": 71.5,
-      "score": 70,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 15,
-        "bonus": 0,
-        "brand": 0
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-26T14:51:26.030844+00:00",
-      "last_seen": "2026-11-02T13:11:45.402751+00:00"
     },
     {
       "source": "6pm.com",
@@ -2977,7 +2977,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-02T13:30:35+00:00",
+      "T1": "2026-11-02T13:40:27+00:00",
       "T2": "2026-11-02T13:11:11+00:00",
       "T3": "2026-11-02T13:21:36+00:00",
       "T4": "2026-11-02T13:01:30+00:00"
@@ -3011,24 +3011,25 @@
       1,
       10,
       1,
-      9
+      9,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-02T13:31:24+00:00",
+      "at": "2026-11-02T13:41:05+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-02T13:31:05+00:00",
+        "at": "2026-11-02T13:40:42+00:00",
         "state": "정상",
-        "mails": 18,
-        "deals": 18
+        "mails": 19,
+        "deals": 19
       },
       "newsletter": {
         "at": "2026-11-02T13:05:34+00:00",
@@ -3038,6 +3039,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20243436",
+        "source": "slickdeals:walmart.com",
+        "title": "3-Pack Gerber Baby Cotton Caps (Grey, Newborn, 0-6 Months) for $2.65 at Walmart",
+        "price": 2.65,
+        "list_price": 5.98,
+        "discount_pct": 55.7,
+        "krw": 3532,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-11-02T13:41:05+00:00",
+        "last_seen": "2026-11-02T13:41:05+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20231937",
         "source": "slickdeals:dickssportinggoods",
@@ -3051,7 +3067,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-02T08:33:51+00:00",
-        "last_seen": "2026-11-02T13:31:24+00:00"
+        "last_seen": "2026-11-02T13:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20240277",
@@ -3066,7 +3082,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-02T07:50:57+00:00",
-        "last_seen": "2026-11-02T13:31:24+00:00"
+        "last_seen": "2026-11-02T13:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20242239",
@@ -3081,7 +3097,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-02T07:11:37+00:00",
-        "last_seen": "2026-11-02T13:31:24+00:00"
+        "last_seen": "2026-11-02T13:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20233983",
@@ -3096,7 +3112,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-02T04:01:27+00:00",
-        "last_seen": "2026-11-02T13:31:24+00:00"
+        "last_seen": "2026-11-02T13:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238375",
@@ -3111,7 +3127,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-02T03:10:57+00:00",
-        "last_seen": "2026-11-02T13:31:24+00:00"
+        "last_seen": "2026-11-02T13:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238528",
@@ -3126,7 +3142,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-02T01:31:04+00:00",
-        "last_seen": "2026-11-02T13:31:24+00:00"
+        "last_seen": "2026-11-02T13:41:05+00:00"
       },
       {
         "url": "https://www.amazon.com/alexa/shop-alexaplus-devices",
@@ -3156,7 +3172,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T23:01:19+00:00",
-        "last_seen": "2026-11-02T13:31:24+00:00"
+        "last_seen": "2026-11-02T13:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20237640",
@@ -3171,7 +3187,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T22:50:59+00:00",
-        "last_seen": "2026-11-02T13:31:24+00:00"
+        "last_seen": "2026-11-02T13:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20239164",
@@ -3186,7 +3202,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T22:21:01+00:00",
-        "last_seen": "2026-11-02T13:31:24+00:00"
+        "last_seen": "2026-11-02T13:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20232570",
@@ -3201,7 +3217,7 @@
         "published": false,
         "reject_reason": "H8: 할인 23% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T22:10:57+00:00",
-        "last_seen": "2026-11-02T13:31:24+00:00"
+        "last_seen": "2026-11-02T13:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20239614",
@@ -3216,7 +3232,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T22:01:06+00:00",
-        "last_seen": "2026-11-02T13:31:24+00:00"
+        "last_seen": "2026-11-02T13:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20239821",
@@ -3231,7 +3247,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T21:51:15+00:00",
-        "last_seen": "2026-11-02T13:31:24+00:00"
+        "last_seen": "2026-11-02T13:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20236578",
@@ -3246,7 +3262,7 @@
         "published": false,
         "reject_reason": "H8: 할인 17% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T16:50:56+00:00",
-        "last_seen": "2026-11-02T13:31:24+00:00"
+        "last_seen": "2026-11-02T13:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20239098",
@@ -3261,7 +3277,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T16:21:02+00:00",
-        "last_seen": "2026-11-02T13:31:24+00:00"
+        "last_seen": "2026-11-02T13:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20236851",
@@ -3276,7 +3292,7 @@
         "published": false,
         "reject_reason": "H8: 할인 15% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T15:01:07+00:00",
-        "last_seen": "2026-11-02T13:31:24+00:00"
+        "last_seen": "2026-11-02T13:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238348",
@@ -3291,7 +3307,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T14:40:53+00:00",
-        "last_seen": "2026-11-02T13:31:24+00:00"
+        "last_seen": "2026-11-02T13:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238111",
@@ -3306,7 +3322,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T05:40:53+00:00",
-        "last_seen": "2026-11-02T13:31:24+00:00"
+        "last_seen": "2026-11-02T13:41:05+00:00"
       },
       {
         "url": "https://click.email.bloomingdales.com/",
@@ -3336,7 +3352,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-31T23:11:02+00:00",
-        "last_seen": "2026-11-02T13:31:24+00:00"
+        "last_seen": "2026-11-02T13:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20227923",
@@ -3700,7 +3716,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 44,
+      "collected_72h": 45,
       "published_72h": 1
     }
   }
