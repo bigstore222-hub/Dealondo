@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-02T08:20:26.025591+00:00",
-  "count": 68,
+  "generated_at": "2026-11-02T08:33:51.244729+00:00",
+  "count": 67,
   "deals": [
     {
       "source": "6pm.com",
@@ -423,53 +423,6 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-11-02T07:51:33.606101+00:00"
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/vince-camuto-bailey-pointed-toe-mule-women/7862112",
-      "title": "Bailey Pointed Toe Mule",
-      "brand": "Vince Camuto",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/aff15d08-22e3-45ee-a0f2-d90dbfa2a92c.jpeg?h=368&w=240&dpr=2",
-      "price_current": 39.99,
-      "price_list": 149.0,
-      "price_baseline": 149.0,
-      "price_alltime_low": 39.99,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 53297,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/vince-camuto-bailey-pointed-toe-mule-women/7862112",
-      "discount_pct": 73.2,
-      "score": 81,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-23T08:21:28.111039+00:00",
       "last_seen": "2026-11-02T07:51:33.606101+00:00"
     },
     {
@@ -3270,7 +3223,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-02T08:10:30+00:00",
+      "T1": "2026-11-02T08:30:33+00:00",
       "T2": "2026-11-02T07:50:59+00:00",
       "T3": "2026-11-02T07:01:22+00:00",
       "T4": "2026-11-02T06:51:01+00:00"
@@ -3304,24 +3257,25 @@
       1,
       10,
       12,
-      7
+      7,
+      13
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-02T08:13:21+00:00",
+      "at": "2026-11-02T08:33:51+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-02T08:13:02+00:00",
-        "state": "정상",
-        "mails": 17,
-        "deals": 17
+        "at": "2026-11-02T08:33:29+00:00",
+        "state": "읽기 오류",
+        "mails": 18,
+        "deals": 8
       },
       "newsletter": {
         "at": "2026-11-02T06:53:44+00:00",
@@ -3331,6 +3285,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20231937",
+        "source": "slickdeals:dickssportinggoods",
+        "title": "Columbia Kids' Highland Pine Full-Zip Fleece Hoodie (Citron Haze) for $14 at Dick's Sporting Goods",
+        "price": 14.0,
+        "list_price": 50.0,
+        "discount_pct": 72.0,
+        "krw": 18659,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-11-02T08:33:51+00:00",
+        "last_seen": "2026-11-02T08:33:51+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20240277",
         "source": "slickdeals:costcowholesale",
@@ -3344,7 +3313,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-02T07:50:57+00:00",
-        "last_seen": "2026-11-02T08:13:21+00:00"
+        "last_seen": "2026-11-02T08:33:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20242239",
@@ -3359,7 +3328,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-02T07:11:37+00:00",
-        "last_seen": "2026-11-02T08:13:21+00:00"
+        "last_seen": "2026-11-02T08:33:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20233983",
@@ -3374,7 +3343,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-02T04:01:27+00:00",
-        "last_seen": "2026-11-02T08:13:21+00:00"
+        "last_seen": "2026-11-02T08:33:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238375",
@@ -3389,7 +3358,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-02T03:10:57+00:00",
-        "last_seen": "2026-11-02T08:13:21+00:00"
+        "last_seen": "2026-11-02T08:33:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238528",
@@ -3404,7 +3373,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-02T01:31:04+00:00",
-        "last_seen": "2026-11-02T08:13:21+00:00"
+        "last_seen": "2026-11-02T08:33:51+00:00"
       },
       {
         "url": "https://www.amazon.com/alexa/shop-alexaplus-devices",
@@ -3434,7 +3403,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T23:01:19+00:00",
-        "last_seen": "2026-11-02T08:13:21+00:00"
+        "last_seen": "2026-11-02T08:33:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20237640",
@@ -3449,7 +3418,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T22:50:59+00:00",
-        "last_seen": "2026-11-02T08:13:21+00:00"
+        "last_seen": "2026-11-02T08:33:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20239164",
@@ -4038,7 +4007,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 47,
+      "collected_72h": 48,
       "published_72h": 1
     }
   }
