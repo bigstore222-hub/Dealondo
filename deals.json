@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T22:11:01.160102+00:00",
+  "generated_at": "2026-11-02T22:21:08.270198+00:00",
   "count": 69,
   "deals": [
     {
@@ -757,53 +757,6 @@
       "last_seen": "2026-11-02T13:51:50.464977+00:00"
     },
     {
-      "source": "amazon.com",
-      "source_tier": "T1",
-      "url": "https://www.amazon.com/Cancelling-Bluetooth-Transparency-Headphones-Earphones/dp/B0HGXTDJF8",
-      "title": "Hybrid Active Noise Cancelling Wireless Ear Buds 80 Hrs Playtime Hi-Res Stereo Quality Bluetooth Earbuds with Transparen",
-      "brand": "",
-      "category": "electronics",
-      "image": "https://m.media-amazon.com/images/I/71A-GJ3iNWL._AC_SR255,340_.jpg",
-      "price_current": 49.99,
-      "price_list": 199.99,
-      "price_baseline": 199.99,
-      "price_alltime_low": 49.99,
-      "currency": "USD",
-      "coupon_code": "쿠폰 50% 추가할인",
-      "coupon_stackable": true,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 66625,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.amazon.com/Cancelling-Bluetooth-Transparency-Headphones-Earphones/dp/B0HGXTDJF8",
-      "discount_pct": 75.0,
-      "score": 78,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 15,
-        "bonus": 8,
-        "brand": 0
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-26T12:30:46.305071+00:00",
-      "last_seen": "2026-11-02T13:41:05.590063+00:00"
-    },
-    {
       "source": "zappos.com",
       "source_tier": "T2",
       "url": "https://www.zappos.com/product/10043556",
@@ -896,7 +849,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-30T19:50:47.225947+00:00",
-      "last_seen": "2026-11-02T22:10:59.469869+00:00"
+      "last_seen": "2026-11-02T22:21:08.254923+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1141,6 +1094,54 @@
       "urgency": "HOT",
       "detected_at": "2026-11-01T18:01:56.270434+00:00",
       "last_seen": "2026-11-02T19:52:44.643911+00:00"
+    },
+    {
+      "source": "amazon.com",
+      "source_tier": "T1",
+      "url": "https://www.amazon.com/Cancelling-Wireless-Bluetooth-Headphones-Playtime/dp/B0H68WX368",
+      "title": "Active Noise Cancelling Ear Buds Wireless Bluetooth Headphones 80H Playtime Display Charging Case 50dB ANC Over Ear Hook",
+      "brand": "",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/71JunErTWgL._AC_SR255,340_.jpg",
+      "price_current": 842.66,
+      "price_list": 3558.094722,
+      "price_baseline": 3558.094722,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "쿠폰 50% 추가할인",
+      "coupon_stackable": true,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 1334201,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.amazon.com/Cancelling-Wireless-Bluetooth-Headphones-Playtime/dp/B0H68WX368",
+      "discount_pct": 76.3,
+      "score": 71,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 8,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-02T22:20:46.004335+00:00",
+      "last_seen": "2026-11-02T22:21:08.254923+00:00"
     },
     {
       "source": "zappos.com",
@@ -3318,7 +3319,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-02T22:10:27+00:00",
+      "T1": "2026-11-02T22:20:31+00:00",
       "T2": "2026-11-02T21:51:06+00:00",
       "T3": "2026-11-02T22:01:27+00:00",
       "T4": "2026-11-02T19:11:47+00:00"
@@ -3352,21 +3353,22 @@
       1,
       10,
       1,
-      9
+      9,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-02T22:10:59+00:00",
+      "at": "2026-11-02T22:21:08+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-02T22:10:38+00:00",
+        "at": "2026-11-02T22:20:46+00:00",
         "state": "정상",
         "mails": 22,
         "deals": 22
@@ -3392,7 +3394,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-02T18:40:57+00:00",
-        "last_seen": "2026-11-02T22:10:59+00:00"
+        "last_seen": "2026-11-02T22:21:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20241552",
@@ -3407,7 +3409,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-02T17:51:01+00:00",
-        "last_seen": "2026-11-02T22:10:59+00:00"
+        "last_seen": "2026-11-02T22:21:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20241531",
@@ -3422,7 +3424,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 52% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-02T16:51:01+00:00",
-        "last_seen": "2026-11-02T22:10:59+00:00"
+        "last_seen": "2026-11-02T22:21:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20243436",
@@ -3437,7 +3439,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-02T13:41:05+00:00",
-        "last_seen": "2026-11-02T22:10:59+00:00"
+        "last_seen": "2026-11-02T22:21:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231937",
@@ -3452,7 +3454,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-02T08:33:51+00:00",
-        "last_seen": "2026-11-02T22:10:59+00:00"
+        "last_seen": "2026-11-02T22:21:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20240277",
@@ -3467,7 +3469,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-02T07:50:57+00:00",
-        "last_seen": "2026-11-02T22:10:59+00:00"
+        "last_seen": "2026-11-02T22:21:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20242239",
@@ -3482,7 +3484,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-02T07:11:37+00:00",
-        "last_seen": "2026-11-02T22:10:59+00:00"
+        "last_seen": "2026-11-02T22:21:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20233983",
@@ -3497,7 +3499,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-02T04:01:27+00:00",
-        "last_seen": "2026-11-02T22:10:59+00:00"
+        "last_seen": "2026-11-02T22:21:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238375",
@@ -3512,7 +3514,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-02T03:10:57+00:00",
-        "last_seen": "2026-11-02T22:10:59+00:00"
+        "last_seen": "2026-11-02T22:21:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238528",
@@ -3527,7 +3529,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-02T01:31:04+00:00",
-        "last_seen": "2026-11-02T22:10:59+00:00"
+        "last_seen": "2026-11-02T22:21:08+00:00"
       },
       {
         "url": "https://www.amazon.com/alexa/shop-alexaplus-devices",
@@ -3557,7 +3559,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T23:01:19+00:00",
-        "last_seen": "2026-11-02T22:10:59+00:00"
+        "last_seen": "2026-11-02T22:21:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20237640",
@@ -3572,7 +3574,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T22:50:59+00:00",
-        "last_seen": "2026-11-02T22:10:59+00:00"
+        "last_seen": "2026-11-02T22:21:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20239164",
@@ -3587,7 +3589,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T22:21:01+00:00",
-        "last_seen": "2026-11-02T22:10:59+00:00"
+        "last_seen": "2026-11-02T22:21:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20232570",
@@ -3602,7 +3604,7 @@
         "published": false,
         "reject_reason": "H8: 할인 23% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T22:10:57+00:00",
-        "last_seen": "2026-11-02T22:10:59+00:00"
+        "last_seen": "2026-11-02T22:21:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20239614",
@@ -3617,7 +3619,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T22:01:06+00:00",
-        "last_seen": "2026-11-02T22:10:59+00:00"
+        "last_seen": "2026-11-02T22:21:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20239821",
@@ -3632,7 +3634,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T21:51:15+00:00",
-        "last_seen": "2026-11-02T22:10:59+00:00"
+        "last_seen": "2026-11-02T22:21:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20236578",
@@ -3647,7 +3649,7 @@
         "published": false,
         "reject_reason": "H8: 할인 17% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T16:50:56+00:00",
-        "last_seen": "2026-11-02T22:10:59+00:00"
+        "last_seen": "2026-11-02T22:21:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20239098",
@@ -3662,7 +3664,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T16:21:02+00:00",
-        "last_seen": "2026-11-02T22:10:59+00:00"
+        "last_seen": "2026-11-02T22:21:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20236851",
@@ -3677,7 +3679,7 @@
         "published": false,
         "reject_reason": "H8: 할인 15% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T15:01:07+00:00",
-        "last_seen": "2026-11-02T22:10:59+00:00"
+        "last_seen": "2026-11-02T22:21:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238348",
@@ -3692,7 +3694,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T14:40:53+00:00",
-        "last_seen": "2026-11-02T22:10:59+00:00"
+        "last_seen": "2026-11-02T22:21:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238111",
@@ -3707,7 +3709,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T05:40:53+00:00",
-        "last_seen": "2026-11-02T22:10:59+00:00"
+        "last_seen": "2026-11-02T22:21:08+00:00"
       },
       {
         "url": "https://click.email.bloomingdales.com/",
@@ -3737,7 +3739,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-31T23:11:02+00:00",
-        "last_seen": "2026-11-02T22:10:59+00:00"
+        "last_seen": "2026-11-02T22:21:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20227923",
