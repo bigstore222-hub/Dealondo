@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T18:32:03.787759+00:00",
+  "generated_at": "2026-11-02T18:40:57.263403+00:00",
   "count": 68,
   "deals": [
     {
@@ -801,7 +801,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-02T18:31:06.991283+00:00",
-      "last_seen": "2026-11-02T18:31:25.515612+00:00"
+      "last_seen": "2026-11-02T18:40:57.245231+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -3271,13 +3271,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-02T18:30:36+00:00",
+      "T1": "2026-11-02T18:40:25+00:00",
       "T2": "2026-11-02T18:31:27+00:00",
       "T3": "2026-11-02T17:41:03+00:00",
       "T4": "2026-11-02T13:01:30+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       1,
       9,
@@ -3306,24 +3305,25 @@
       10,
       10,
       10,
-      1
+      1,
+      9
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-02T18:32:01+00:00",
+      "at": "2026-11-02T18:40:57+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-02T18:31:06+00:00",
+        "at": "2026-11-02T18:40:34+00:00",
         "state": "정상",
-        "mails": 21,
-        "deals": 21
+        "mails": 22,
+        "deals": 22
       },
       "newsletter": {
         "at": "2026-11-02T13:05:34+00:00",
@@ -3333,6 +3333,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20244966",
+        "source": "slickdeals:amazon.com",
+        "title": "Metapen A8 iPad Pencil for Apple iPads 2018-2026 for $7 at Amazon",
+        "price": 7.0,
+        "list_price": 25.0,
+        "discount_pct": 72.0,
+        "krw": 9329,
+        "kr_lowest": null,
+        "score": 60,
+        "published": true,
+        "reject_reason": "",
+        "first_seen": "2026-11-02T18:40:57+00:00",
+        "last_seen": "2026-11-02T18:40:57+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20241552",
         "source": "slickdeals:amazon.com",
@@ -3346,7 +3361,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-02T17:51:01+00:00",
-        "last_seen": "2026-11-02T18:31:25+00:00"
+        "last_seen": "2026-11-02T18:40:57+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20241531",
@@ -3361,7 +3376,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 52% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-02T16:51:01+00:00",
-        "last_seen": "2026-11-02T18:31:25+00:00"
+        "last_seen": "2026-11-02T18:40:57+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20243436",
@@ -3376,7 +3391,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-02T13:41:05+00:00",
-        "last_seen": "2026-11-02T18:31:25+00:00"
+        "last_seen": "2026-11-02T18:40:57+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231937",
@@ -3391,7 +3406,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-02T08:33:51+00:00",
-        "last_seen": "2026-11-02T18:31:25+00:00"
+        "last_seen": "2026-11-02T18:40:57+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20240277",
@@ -3406,7 +3421,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-02T07:50:57+00:00",
-        "last_seen": "2026-11-02T18:31:25+00:00"
+        "last_seen": "2026-11-02T18:40:57+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20242239",
@@ -3421,7 +3436,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-02T07:11:37+00:00",
-        "last_seen": "2026-11-02T18:31:25+00:00"
+        "last_seen": "2026-11-02T18:40:57+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20233983",
@@ -3436,7 +3451,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-02T04:01:27+00:00",
-        "last_seen": "2026-11-02T18:31:25+00:00"
+        "last_seen": "2026-11-02T18:40:57+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238375",
@@ -3451,7 +3466,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-02T03:10:57+00:00",
-        "last_seen": "2026-11-02T18:31:25+00:00"
+        "last_seen": "2026-11-02T18:40:57+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238528",
@@ -3466,7 +3481,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-02T01:31:04+00:00",
-        "last_seen": "2026-11-02T18:31:25+00:00"
+        "last_seen": "2026-11-02T18:40:57+00:00"
       },
       {
         "url": "https://www.amazon.com/alexa/shop-alexaplus-devices",
@@ -3496,7 +3511,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T23:01:19+00:00",
-        "last_seen": "2026-11-02T18:31:25+00:00"
+        "last_seen": "2026-11-02T18:40:57+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20237640",
@@ -3511,7 +3526,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T22:50:59+00:00",
-        "last_seen": "2026-11-02T18:31:25+00:00"
+        "last_seen": "2026-11-02T18:40:57+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20239164",
@@ -3526,7 +3541,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T22:21:01+00:00",
-        "last_seen": "2026-11-02T18:31:25+00:00"
+        "last_seen": "2026-11-02T18:40:57+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20232570",
@@ -3541,7 +3556,7 @@
         "published": false,
         "reject_reason": "H8: 할인 23% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T22:10:57+00:00",
-        "last_seen": "2026-11-02T18:31:25+00:00"
+        "last_seen": "2026-11-02T18:40:57+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20239614",
@@ -3556,7 +3571,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T22:01:06+00:00",
-        "last_seen": "2026-11-02T18:31:25+00:00"
+        "last_seen": "2026-11-02T18:40:57+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20239821",
@@ -3571,7 +3586,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T21:51:15+00:00",
-        "last_seen": "2026-11-02T18:31:25+00:00"
+        "last_seen": "2026-11-02T18:40:57+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20236578",
@@ -3586,7 +3601,7 @@
         "published": false,
         "reject_reason": "H8: 할인 17% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T16:50:56+00:00",
-        "last_seen": "2026-11-02T18:31:25+00:00"
+        "last_seen": "2026-11-02T18:40:57+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20239098",
@@ -3601,7 +3616,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T16:21:02+00:00",
-        "last_seen": "2026-11-02T18:31:25+00:00"
+        "last_seen": "2026-11-02T18:40:57+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20236851",
@@ -3616,7 +3631,7 @@
         "published": false,
         "reject_reason": "H8: 할인 15% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T15:01:07+00:00",
-        "last_seen": "2026-11-02T18:31:25+00:00"
+        "last_seen": "2026-11-02T18:40:57+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238348",
@@ -3631,7 +3646,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T14:40:53+00:00",
-        "last_seen": "2026-11-02T18:31:25+00:00"
+        "last_seen": "2026-11-02T18:40:57+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238111",
@@ -3646,7 +3661,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-01T05:40:53+00:00",
-        "last_seen": "2026-11-02T18:31:25+00:00"
+        "last_seen": "2026-11-02T18:40:57+00:00"
       },
       {
         "url": "https://click.email.bloomingdales.com/",
@@ -3676,7 +3691,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-10-31T23:11:02+00:00",
-        "last_seen": "2026-11-02T18:31:25+00:00"
+        "last_seen": "2026-11-02T18:40:57+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20227923",
@@ -3995,8 +4010,8 @@
       }
     ],
     "totals": {
-      "collected_72h": 44,
-      "published_72h": 1
+      "collected_72h": 45,
+      "published_72h": 2
     }
   }
 }
