@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-02T13:01:28.867886+00:00",
-  "count": 62,
+  "generated_at": "2026-11-02T13:05:56.593863+00:00",
+  "count": 63,
   "deals": [
     {
       "source": "6pm.com",
@@ -2148,6 +2148,53 @@
       "last_seen": "2026-10-31T13:11:32.980425+00:00"
     },
     {
+      "source": "als.com",
+      "source_tier": "T4",
+      "url": "https://www.als.com/dragon-pxv2-goggle-10367542/p?_fromSales=true",
+      "title": "1 more color",
+      "brand": "Als",
+      "category": "etc",
+      "image": "",
+      "price_current": 79.99,
+      "price_list": 250.0,
+      "price_baseline": 250.0,
+      "price_alltime_low": 79.99,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 106608,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.als.com/dragon-pxv2-goggle-10367542/p?_fromSales=true",
+      "discount_pct": 68.0,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-30T11:04:13.556750+00:00",
+      "last_seen": "2026-11-02T13:05:56.586213+00:00"
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/ugg-classic-streetscape-bootie-women/8481813",
@@ -2981,10 +3028,9 @@
       "T1": "2026-11-02T13:00:57+00:00",
       "T2": "2026-11-02T12:31:36+00:00",
       "T3": "2026-11-02T11:11:55+00:00",
-      "T4": "2026-11-02T06:51:01+00:00"
+      "T4": "2026-11-02T13:01:30+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       10,
@@ -3013,14 +3059,15 @@
       1,
       10,
       9,
-      10
+      10,
+      4
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-02T13:01:28+00:00",
+      "at": "2026-11-02T13:05:56+00:00",
       "last_error": "HTTP 404"
     }
   },
@@ -3033,10 +3080,10 @@
         "deals": 18
       },
       "newsletter": {
-        "at": "2026-11-02T06:53:44+00:00",
-        "state": "정상",
-        "mails": 35,
-        "deals": 3
+        "at": "2026-11-02T13:05:34+00:00",
+        "state": "읽기 오류",
+        "mails": 42,
+        "deals": 1
       }
     },
     "recent": [
@@ -3313,17 +3360,17 @@
       {
         "url": "https://click.email.bloomingdales.com/",
         "source": "bloomingdales.com",
-        "title": "Just extended! One Day Home Sale",
-        "price": 30.0,
+        "title": "Today only: 65% off fine jewelry",
+        "price": 35.0,
         "list_price": 100.0,
-        "discount_pct": 70.0,
-        "krw": 39983,
+        "discount_pct": 65.0,
+        "krw": 46647,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-01T00:04:27+00:00",
-        "last_seen": "2026-11-02T06:54:06+00:00"
+        "last_seen": "2026-11-02T13:05:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20227578",
