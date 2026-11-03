@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T13:20:57.672096+00:00",
+  "generated_at": "2026-11-03T13:31:11.503740+00:00",
   "count": 69,
   "deals": [
     {
@@ -803,7 +803,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-03T12:30:49.949433+00:00",
-      "last_seen": "2026-11-03T13:20:56.015937+00:00"
+      "last_seen": "2026-11-03T13:31:11.485631+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -3318,7 +3318,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-03T13:20:29+00:00",
+      "T1": "2026-11-03T13:30:36+00:00",
       "T2": "2026-11-03T13:01:19+00:00",
       "T3": "2026-11-03T13:10:59+00:00",
       "T4": "2026-11-03T07:31:03+00:00"
@@ -3352,24 +3352,25 @@
       1,
       9,
       1,
-      9
+      9,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-03T13:20:56+00:00",
+      "at": "2026-11-03T13:31:11+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-03T13:20:37+00:00",
+        "at": "2026-11-03T13:30:51+00:00",
         "state": "정상",
-        "mails": 4,
-        "deals": 4
+        "mails": 5,
+        "deals": 5
       },
       "newsletter": {
         "at": "2026-11-03T07:33:39+00:00",
@@ -3379,6 +3380,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20226846",
+        "source": "slickdeals:amazon.com",
+        "title": "LEXIVON 2-IN-1 Laser & Tape Measure (Tape 16', Laser 140') for $40 at Amazon",
+        "price": 40.0,
+        "list_price": 59.97,
+        "discount_pct": 33.3,
+        "krw": 53765,
+        "kr_lowest": null,
+        "score": 17,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-11-03T13:31:11+00:00",
+        "last_seen": "2026-11-03T13:31:11+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20237259",
         "source": "slickdeals:amazon.com",
@@ -3392,7 +3408,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-03T12:40:55+00:00",
-        "last_seen": "2026-11-03T13:20:56+00:00"
+        "last_seen": "2026-11-03T13:31:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20241462",
@@ -3407,7 +3423,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 52% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-03T04:40:55+00:00",
-        "last_seen": "2026-11-03T13:20:56+00:00"
+        "last_seen": "2026-11-03T13:31:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245338",
@@ -3422,7 +3438,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T03:51:01+00:00",
-        "last_seen": "2026-11-03T13:20:56+00:00"
+        "last_seen": "2026-11-03T13:31:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20246142",
@@ -3452,7 +3468,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-02T23:41:06+00:00",
-        "last_seen": "2026-11-03T13:20:56+00:00"
+        "last_seen": "2026-11-03T13:31:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245296",
@@ -3906,7 +3922,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 35,
+      "collected_72h": 36,
       "published_72h": 2
     }
   }
