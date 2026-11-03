@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T02:31:36.623855+00:00",
+  "generated_at": "2026-11-03T02:40:55.240469+00:00",
   "count": 71,
   "deals": [
     {
@@ -3413,13 +3413,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-03T02:30:36+00:00",
+      "T1": "2026-11-03T02:40:27+00:00",
       "T2": "2026-11-03T02:31:02+00:00",
       "T3": "2026-11-03T02:20:58+00:00",
       "T4": "2026-11-03T01:20:56+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       1,
       9,
@@ -3448,21 +3447,22 @@
       10,
       1,
       9,
-      1
+      1,
+      9
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-03T02:31:35+00:00",
+      "at": "2026-11-03T02:40:55+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-03T02:30:42+00:00",
+        "at": "2026-11-03T02:40:32+00:00",
         "state": "정상",
         "mails": 1,
         "deals": 1
@@ -3503,7 +3503,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-02T23:41:06+00:00",
-        "last_seen": "2026-11-03T02:31:01+00:00"
+        "last_seen": "2026-11-03T02:40:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245296",
@@ -4074,25 +4074,10 @@
         "reject_reason": "",
         "first_seen": "2026-10-31T04:40:55+00:00",
         "last_seen": "2026-11-01T00:50:57+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20234550",
-        "source": "slickdeals:walmart.com",
-        "title": "Select Accounts: 4-Pk Apple AirTag Tracking Device (2nd Generation) for $60 at Walmart",
-        "price": 60.0,
-        "list_price": 99.0,
-        "discount_pct": 39.4,
-        "krw": 80070,
-        "kr_lowest": null,
-        "score": 17,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-10-31T02:40:54+00:00",
-        "last_seen": "2026-11-01T00:50:57+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 41,
+      "collected_72h": 40,
       "published_72h": 3
     }
   }
