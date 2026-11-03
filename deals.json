@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T20:01:44.629983+00:00",
-  "count": 75,
+  "generated_at": "2026-11-03T20:11:12.370604+00:00",
+  "count": 74,
   "deals": [
     {
       "source": "6pm.com",
@@ -95,53 +95,6 @@
       "urgency": "FLASH",
       "detected_at": "2026-10-29T12:12:09.762249+00:00",
       "last_seen": "2026-11-03T02:21:58.311242+00:00"
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/circus-ny-by-sam-edelman-vivian-mary-jane-pump-women/8662789",
-      "title": "Vivian Mary Jane Pump",
-      "brand": "Circus Ny By Sam Edelman",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/cc2b41c8-f55d-450c-9d32-29209736e0ec.jpeg?h=368&w=240&dpr=2",
-      "price_current": 19.48,
-      "price_list": 109.95,
-      "price_baseline": 109.95,
-      "price_alltime_low": 19.48,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 26184,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/circus-ny-by-sam-edelman-vivian-mary-jane-pump-women/8662789",
-      "discount_pct": 82.3,
-      "score": 91,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-11-03T18:21:42.586572+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -897,7 +850,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-03T19:01:02.036124+00:00",
-      "last_seen": "2026-11-03T20:01:31.900291+00:00"
+      "last_seen": "2026-11-03T20:11:12.344630+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1190,7 +1143,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-03T18:50:39.727797+00:00",
-      "last_seen": "2026-11-03T20:01:31.900291+00:00"
+      "last_seen": "2026-11-03T20:11:12.344630+00:00"
     },
     {
       "source": "carhartt.com",
@@ -2337,7 +2290,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-03T14:50:42.110101+00:00",
-      "last_seen": "2026-11-03T20:01:31.900291+00:00"
+      "last_seen": "2026-11-03T20:11:12.344630+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -3607,7 +3560,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-03T20:00:54+00:00",
+      "T1": "2026-11-03T20:10:42+00:00",
       "T2": "2026-11-03T19:41:28+00:00",
       "T3": "2026-11-03T19:42:04+00:00",
       "T4": "2026-11-03T19:51:20+00:00"
@@ -3641,21 +3594,22 @@
       1,
       8,
       3,
-      7
+      7,
+      9
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-03T20:01:31+00:00",
+      "at": "2026-11-03T20:11:12+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-03T20:01:12+00:00",
+        "at": "2026-11-03T20:10:53+00:00",
         "state": "정상",
         "mails": 13,
         "deals": 13
@@ -3696,7 +3650,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T19:20:57+00:00",
-        "last_seen": "2026-11-03T20:01:31+00:00"
+        "last_seen": "2026-11-03T20:11:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238417",
@@ -3711,7 +3665,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T19:20:57+00:00",
-        "last_seen": "2026-11-03T20:01:31+00:00"
+        "last_seen": "2026-11-03T20:11:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20231409",
@@ -3726,7 +3680,7 @@
         "published": false,
         "reject_reason": "H7: Under Armour 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-03T18:50:57+00:00",
-        "last_seen": "2026-11-03T20:01:31+00:00"
+        "last_seen": "2026-11-03T20:11:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20243727",
@@ -3741,7 +3695,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-11-03T18:01:21+00:00",
-        "last_seen": "2026-11-03T20:01:31+00:00"
+        "last_seen": "2026-11-03T20:11:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20246217",
@@ -3756,7 +3710,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T17:31:11+00:00",
-        "last_seen": "2026-11-03T20:01:31+00:00"
+        "last_seen": "2026-11-03T20:11:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238240",
@@ -3771,7 +3725,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T15:31:04+00:00",
-        "last_seen": "2026-11-03T20:01:31+00:00"
+        "last_seen": "2026-11-03T20:11:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20244036",
@@ -3786,7 +3740,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-03T14:51:02+00:00",
-        "last_seen": "2026-11-03T20:01:31+00:00"
+        "last_seen": "2026-11-03T20:11:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20246913",
@@ -3801,7 +3755,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T14:01:11+00:00",
-        "last_seen": "2026-11-03T20:01:31+00:00"
+        "last_seen": "2026-11-03T20:11:12+00:00"
       },
       {
         "url": "https://www.amazon.com/amazonprime",
@@ -3831,7 +3785,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T13:31:11+00:00",
-        "last_seen": "2026-11-03T20:01:31+00:00"
+        "last_seen": "2026-11-03T20:11:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20237259",
@@ -3846,7 +3800,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-03T12:40:55+00:00",
-        "last_seen": "2026-11-03T20:01:31+00:00"
+        "last_seen": "2026-11-03T20:11:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20241462",
@@ -3861,7 +3815,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 52% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-03T04:40:55+00:00",
-        "last_seen": "2026-11-03T20:01:31+00:00"
+        "last_seen": "2026-11-03T20:11:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245338",
@@ -3876,7 +3830,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T03:51:01+00:00",
-        "last_seen": "2026-11-03T20:01:31+00:00"
+        "last_seen": "2026-11-03T20:11:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20246142",
@@ -3906,7 +3860,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-02T23:41:06+00:00",
-        "last_seen": "2026-11-03T20:01:31+00:00"
+        "last_seen": "2026-11-03T20:11:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245296",
