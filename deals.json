@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T14:51:03.840332+00:00",
+  "generated_at": "2026-11-03T15:01:18.336299+00:00",
   "count": 69,
   "deals": [
     {
@@ -803,7 +803,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-03T14:40:32.285345+00:00",
-      "last_seen": "2026-11-03T14:51:02.304681+00:00"
+      "last_seen": "2026-11-03T15:01:18.310148+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -852,7 +852,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-03T14:40:32.285345+00:00",
-      "last_seen": "2026-11-03T14:51:02.304681+00:00"
+      "last_seen": "2026-11-03T15:01:18.310148+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -2050,7 +2050,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-03T14:50:42.110101+00:00",
-      "last_seen": "2026-11-03T14:51:02.304681+00:00"
+      "last_seen": "2026-11-03T15:01:18.310148+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -3320,7 +3320,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-03T14:50:34+00:00",
+      "T1": "2026-11-03T15:00:47+00:00",
       "T2": "2026-11-03T14:20:59+00:00",
       "T3": "2026-11-03T13:10:59+00:00",
       "T4": "2026-11-03T13:41:36+00:00"
@@ -3354,6 +3354,7 @@
       1,
       10,
       10,
+      10,
       10
     ],
     "naver": {
@@ -3361,14 +3362,14 @@
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-03T14:51:02+00:00",
+      "at": "2026-11-03T15:01:18+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-03T14:50:42+00:00",
+        "at": "2026-11-03T15:00:58+00:00",
         "state": "정상",
         "mails": 7,
         "deals": 7
@@ -3394,7 +3395,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-03T14:51:02+00:00",
-        "last_seen": "2026-11-03T14:51:02+00:00"
+        "last_seen": "2026-11-03T15:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20246913",
@@ -3409,7 +3410,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T14:01:11+00:00",
-        "last_seen": "2026-11-03T14:51:02+00:00"
+        "last_seen": "2026-11-03T15:01:18+00:00"
       },
       {
         "url": "https://www.amazon.com/amazonprime",
@@ -3439,7 +3440,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T13:31:11+00:00",
-        "last_seen": "2026-11-03T14:51:02+00:00"
+        "last_seen": "2026-11-03T15:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20237259",
@@ -3454,7 +3455,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-03T12:40:55+00:00",
-        "last_seen": "2026-11-03T14:51:02+00:00"
+        "last_seen": "2026-11-03T15:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20241462",
@@ -3469,7 +3470,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 52% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-03T04:40:55+00:00",
-        "last_seen": "2026-11-03T14:51:02+00:00"
+        "last_seen": "2026-11-03T15:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245338",
@@ -3484,7 +3485,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T03:51:01+00:00",
-        "last_seen": "2026-11-03T14:51:02+00:00"
+        "last_seen": "2026-11-03T15:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20246142",
@@ -3514,7 +3515,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-02T23:41:06+00:00",
-        "last_seen": "2026-11-03T14:51:02+00:00"
+        "last_seen": "2026-11-03T15:01:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245296",
