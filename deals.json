@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T09:10:52.433196+00:00",
-  "count": 69,
+  "generated_at": "2026-11-03T09:11:28.565354+00:00",
+  "count": 70,
   "deals": [
     {
       "source": "6pm.com",
@@ -141,7 +141,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-11-03T08:31:38.719582+00:00"
+      "last_seen": "2026-11-03T09:11:26.593774+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -188,7 +188,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-11-03T08:31:38.719582+00:00"
+      "last_seen": "2026-11-03T09:11:26.593774+00:00"
     },
     {
       "source": "zappos.com",
@@ -212,7 +212,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 140154,
+      "krw_effective": 141133,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -235,7 +235,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-25T02:01:23.845146+00:00",
-      "last_seen": "2026-11-01T23:21:31.217332+00:00"
+      "last_seen": "2026-11-03T09:11:26.593774+00:00"
     },
     {
       "source": "zappos.com",
@@ -425,7 +425,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-11-03T08:31:38.719582+00:00"
+      "last_seen": "2026-11-03T09:11:26.593774+00:00"
     },
     {
       "source": "zappos.com",
@@ -1664,7 +1664,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-03T08:31:18.097836+00:00",
-      "last_seen": "2026-11-03T08:31:38.719582+00:00"
+      "last_seen": "2026-11-03T09:11:26.593774+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10056793",
+      "title": "We The Free Lemon Denim Jacket",
+      "brand": "Free People",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/81c2tFDNBLL._AC_SR255,340_.jpg",
+      "price_current": 44.4,
+      "price_list": 148.0,
+      "price_baseline": 148.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 59679,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10056793",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-03T09:11:07.877094+00:00",
+      "last_seen": "2026-11-03T09:11:26.593774+00:00"
     },
     {
       "source": "zappos.com",
@@ -1856,54 +1904,6 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-01T17:41:17.681788+00:00",
-      "last_seen": "2026-11-03T07:11:54.953633+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10057252",
-      "title": "Suns Out Bootcut Jumpsuit",
-      "brand": "Free People",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/715chSZiIAL._AC_SR255,340_.jpg",
-      "price_current": 59.4,
-      "price_list": 198.0,
-      "price_baseline": 198.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 79841,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10057252",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-03T00:31:53.833122+00:00",
       "last_seen": "2026-11-03T07:11:54.953633+00:00"
     },
     {
@@ -2436,12 +2436,12 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
-      "url": "https://www.dealnews.com/New-Balance-Footwear-Deals-at-New-Balance-Reconsidered-Extra-20-off-7-50-shipping/22337019.html?iref=rss",
-      "title": "New Balance Footwear Deals at New Balance Reconsidered: Extra 20% off + $7.50 shipping",
-      "brand": "New Balance",
+      "url": "https://www.dealnews.com/Carhartt-Crossbody-Zip-Bag-for-20-free-shipping-w-Prime/22341664.html?iref=rss",
+      "title": "Carhartt Crossbody Zip Bag for $20 + free shipping w/ Prime",
+      "brand": "Carhartt",
       "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1793654144-1ae36365-0c80-54ba-a65f-39422b724088.webp?h=250&w=250",
-      "price_current": null,
+      "image": "https://d.dlnws.com/64599/1793695076-product-trimmed.jpg?h=211&w=250",
+      "price_current": 20.0,
       "price_list": null,
       "price_baseline": null,
       "price_alltime_low": null,
@@ -2455,7 +2455,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": null,
+      "krw_effective": 26883,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -2464,7 +2464,7 @@
       "frontpage": false,
       "code_kind": "",
       "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/New-Balance-Footwear-Deals-at-New-Balance-Reconsidered-Extra-20-off-7-50-shipping/22337019.html?iref=rss",
+      "buy_url": "https://www.dealnews.com/Carhartt-Crossbody-Zip-Bag-for-20-free-shipping-w-Prime/22341664.html?iref=rss",
       "discount_pct": null,
       "score": 55,
       "score_breakdown": {
@@ -2479,8 +2479,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-03T08:31:17.818480+00:00",
-      "last_seen": "2026-11-03T08:31:38.719582+00:00"
+      "detected_at": "2026-11-03T09:11:07.877094+00:00",
+      "last_seen": "2026-11-03T09:11:26.593774+00:00"
     },
     {
       "source": "techbargains:adidas",
@@ -2528,8 +2528,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-03T08:31:18.062413+00:00",
-      "last_seen": "2026-11-03T08:31:38.719582+00:00"
+      "detected_at": "2026-11-03T09:11:07.818402+00:00",
+      "last_seen": "2026-11-03T09:11:26.593774+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2577,6 +2577,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T07:41:12.329840+00:00",
+      "last_seen": "2026-11-03T09:11:26.593774+00:00"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/New-Balance-Footwear-Deals-at-New-Balance-Reconsidered-Extra-20-off-7-50-shipping/22337019.html?iref=rss",
+      "title": "New Balance Footwear Deals at New Balance Reconsidered: Extra 20% off + $7.50 shipping",
+      "brand": "New Balance",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1793654144-1ae36365-0c80-54ba-a65f-39422b724088.webp?h=250&w=250",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/New-Balance-Footwear-Deals-at-New-Balance-Reconsidered-Extra-20-off-7-50-shipping/22337019.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-03T08:31:17.818480+00:00",
       "last_seen": "2026-11-03T08:31:38.719582+00:00"
     },
     {
@@ -3318,12 +3367,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-03T09:10:27+00:00",
-      "T2": "2026-11-03T08:31:05+00:00",
+      "T2": "2026-11-03T09:10:53+00:00",
       "T3": "2026-11-03T08:51:07+00:00",
       "T4": "2026-11-03T07:31:03+00:00"
     },
     "recent_gaps_min": [
-      9,
       10,
       1,
       10,
@@ -3352,14 +3400,15 @@
       10,
       1,
       9,
-      9
+      9,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-03T09:10:52+00:00",
+      "at": "2026-11-03T09:11:26+00:00",
       "last_error": "HTTP 404"
     }
   },
