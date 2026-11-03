@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T13:01:17.750419+00:00",
+  "generated_at": "2026-11-03T13:01:58.052831+00:00",
   "count": 69,
   "deals": [
     {
@@ -141,7 +141,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-11-03T12:21:30.190561+00:00"
+      "last_seen": "2026-11-03T13:01:56.572720+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -188,7 +188,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-11-03T09:51:29.063614+00:00"
+      "last_seen": "2026-11-03T13:01:56.572720+00:00"
     },
     {
       "source": "zappos.com",
@@ -378,7 +378,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-11-03T12:21:30.190561+00:00"
+      "last_seen": "2026-11-03T13:01:56.572720+00:00"
     },
     {
       "source": "zappos.com",
@@ -1100,6 +1100,54 @@
     {
       "source": "zappos.com",
       "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10055714",
+      "title": "Suniva Jumper",
+      "brand": "AllSaints",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/81y3ExTNrjL._AC_SR255,340_.jpg",
+      "price_current": 95.7,
+      "price_list": 319.0,
+      "price_baseline": 319.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 128633,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.zappos.com/product/10055714",
+      "discount_pct": 70.0,
+      "score": 71,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-01T17:41:17.681788+00:00",
+      "last_seen": "2026-11-03T13:01:56.572720+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
       "url": "https://www.zappos.com/product/10031124",
       "title": "Cotton Mesh Polo Shirt (Infant)",
       "brand": "Polo Ralph Lauren",
@@ -1194,17 +1242,17 @@
       "last_seen": "2026-11-02T23:11:46.369251+00:00"
     },
     {
-      "source": "zappos.com",
+      "source": "dealsofamerica",
       "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10055714",
-      "title": "Suniva Jumper",
-      "brand": "AllSaints",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/81y3ExTNrjL._AC_SR255,340_.jpg",
-      "price_current": 95.7,
-      "price_list": 319.0,
-      "price_baseline": 319.0,
-      "price_alltime_low": null,
+      "url": "https://www.dealsofamerica.com/otterbox-military-grade-case/845225.htm",
+      "title": "OtterBox Defender Series Pro XT Military-Grade iPhone Air Case",
+      "brand": "",
+      "category": "electronics",
+      "image": "https://d16f00g4zitf8i.cloudfront.net/images/otterbox-military-grade-case.jpg",
+      "price_current": 11.96,
+      "price_list": 41.99,
+      "price_baseline": null,
+      "price_alltime_low": 11.96,
       "currency": "USD",
       "coupon_code": "",
       "coupon_stackable": false,
@@ -1215,7 +1263,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 127545,
+      "krw_effective": 16076,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -1223,23 +1271,22 @@
       "collection_method": "scrape",
       "frontpage": false,
       "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.zappos.com/product/10055714",
-      "discount_pct": 70.0,
-      "score": 71,
+      "brand_tier": "",
+      "buy_url": "https://www.dealsofamerica.com/otterbox-military-grade-case/845225.htm",
+      "discount_pct": 71.5,
+      "score": 70,
       "score_breakdown": {
         "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
+        "price_history": 25,
+        "category": 15,
         "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
+        "brand": 0
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-11-01T17:41:17.681788+00:00",
-      "last_seen": "2026-11-02T17:12:48.750956+00:00"
+      "detected_at": "2026-10-26T14:51:26.030844+00:00",
+      "last_seen": "2026-11-03T13:01:56.572720+00:00"
     },
     {
       "source": "ashford.com",
@@ -1569,7 +1616,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-03T08:31:18.097836+00:00",
-      "last_seen": "2026-11-03T12:21:30.190561+00:00"
+      "last_seen": "2026-11-03T13:01:56.572720+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10056793",
+      "title": "We The Free Lemon Denim Jacket",
+      "brand": "Free People",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/81c2tFDNBLL._AC_SR255,340_.jpg",
+      "price_current": 44.4,
+      "price_list": 148.0,
+      "price_baseline": 148.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 59679,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10056793",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-03T09:11:07.877094+00:00",
+      "last_seen": "2026-11-03T13:01:56.572720+00:00"
     },
     {
       "source": "zappos.com",
@@ -1713,54 +1808,6 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-01T17:41:17.681788+00:00",
-      "last_seen": "2026-11-03T10:31:37.882260+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10057229",
-      "title": "We The Free Moxie Barrel Shorts",
-      "brand": "Free People",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/71x9tHGfYoL._AC_SR255,340_.jpg",
-      "price_current": 38.4,
-      "price_list": 128.0,
-      "price_baseline": 128.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 51614,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10057229",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-03T01:11:35.288801+00:00",
       "last_seen": "2026-11-03T10:31:37.882260+00:00"
     },
     {
@@ -2291,55 +2338,6 @@
       "last_seen": "2026-11-01T17:02:10.485613+00:00"
     },
     {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20235891",
-      "title": "Lyft Offer: One Ride to Any U.S. Polling Location on Election Day (Max $10 Off) 50% Off (Valid 11/3 Only)",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/8/6/6/3/0/300x300/22191384.thumb",
-      "price_current": 10.0,
-      "price_list": 20.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 47,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 13441,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20235891",
-      "discount_pct": 50.0,
-      "score": 56,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "community": "투표 47+할인50% → 하한 56"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-03T09:40:45.880418+00:00",
-      "last_seen": "2026-11-03T13:01:17.732855+00:00"
-    },
-    {
       "source": "zappos.com",
       "source_tier": "T2",
       "url": "https://www.zappos.com/product/9974891",
@@ -2434,7 +2432,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-03T12:21:11.484584+00:00",
-      "last_seen": "2026-11-03T12:21:30.190561+00:00"
+      "last_seen": "2026-11-03T13:01:56.572720+00:00"
     },
     {
       "source": "techbargains:adidas",
@@ -2482,8 +2480,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-03T12:21:11.402745+00:00",
-      "last_seen": "2026-11-03T12:21:30.190561+00:00"
+      "detected_at": "2026-11-03T13:01:35.372857+00:00",
+      "last_seen": "2026-11-03T13:01:56.572720+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2531,7 +2529,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T07:41:12.329840+00:00",
-      "last_seen": "2026-11-03T12:21:30.190561+00:00"
+      "last_seen": "2026-11-03T13:01:56.572720+00:00"
     },
     {
       "source": "dealnews",
@@ -3321,12 +3319,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-03T13:00:44+00:00",
-      "T2": "2026-11-03T12:20:55+00:00",
+      "T2": "2026-11-03T13:01:19+00:00",
       "T3": "2026-11-03T11:02:20+00:00",
       "T4": "2026-11-03T07:31:03+00:00"
     },
     "recent_gaps_min": [
-      10,
       6,
       4,
       10,
@@ -3355,14 +3352,15 @@
       10,
       10,
       10,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-03T13:01:17+00:00",
+      "at": "2026-11-03T13:01:56+00:00",
       "last_error": "HTTP 404"
     }
   },
