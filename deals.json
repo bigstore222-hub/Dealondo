@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T03:40:53.867738+00:00",
-  "count": 70,
+  "generated_at": "2026-11-03T03:51:01.961588+00:00",
+  "count": 69,
   "deals": [
     {
       "source": "6pm.com",
@@ -3266,55 +3266,6 @@
       "last_seen": "2026-11-01T09:41:49.652818+00:00"
     },
     {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Under-Armour-Hustle-Sport-Backpack-for-12-50-free-shipping-w-49/22330453.html?iref=rss",
-      "title": "Under Armour Hustle Sport Backpack for $12.50 + free shipping w/ $49",
-      "brand": "Under Armour",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1793452128-21uaruhstlsprtbcktrv_tech_blue_white.webp?h=250&w=171",
-      "price_current": 12.5,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 16685,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Under-Armour-Hustle-Sport-Backpack-for-12-50-free-shipping-w-49/22330453.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-10-31T13:11:14.885338+00:00",
-      "last_seen": "2026-11-01T03:41:32.203192+00:00"
-    },
-    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/fjallraven-knken-water-resistant-backpack/3833666",
@@ -3365,7 +3316,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-03T03:40:25+00:00",
+      "T1": "2026-11-03T03:50:26+00:00",
       "T2": "2026-11-03T03:11:07+00:00",
       "T3": "2026-11-03T02:20:58+00:00",
       "T4": "2026-11-03T01:20:56+00:00"
@@ -3399,24 +3350,25 @@
       1,
       9,
       11,
-      9
+      9,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-03T03:40:52+00:00",
+      "at": "2026-11-03T03:51:01+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-03T03:40:29+00:00",
+        "at": "2026-11-03T03:50:42+00:00",
         "state": "정상",
-        "mails": 1,
-        "deals": 1
+        "mails": 2,
+        "deals": 2
       },
       "newsletter": {
         "at": "2026-11-03T01:23:33+00:00",
@@ -3426,6 +3378,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20245338",
+        "source": "slickdeals:walmart.com",
+        "title": "Select Accounts: Apple AirPods 4 Wireless Earbud Headphones + Filler Item for $79.20 at Walmart",
+        "price": 79.2,
+        "list_price": 129.99,
+        "discount_pct": 39.1,
+        "krw": 106455,
+        "kr_lowest": null,
+        "score": 31,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-11-03T03:51:01+00:00",
+        "last_seen": "2026-11-03T03:51:01+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20246142",
         "source": "slickdeals:bestbuy.com",
@@ -3454,7 +3421,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-02T23:41:06+00:00",
-        "last_seen": "2026-11-03T03:40:52+00:00"
+        "last_seen": "2026-11-03T03:51:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245296",
@@ -4028,7 +3995,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 40,
+      "collected_72h": 41,
       "published_72h": 3
     }
   }
