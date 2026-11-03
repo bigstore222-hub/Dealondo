@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T17:21:04.796648+00:00",
+  "generated_at": "2026-11-03T17:31:11.370005+00:00",
   "count": 71,
   "deals": [
     {
@@ -850,7 +850,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-03T15:50:44.635000+00:00",
-      "last_seen": "2026-11-03T17:20:59.709005+00:00"
+      "last_seen": "2026-11-03T17:31:11.350366+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -2193,7 +2193,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-03T14:50:42.110101+00:00",
-      "last_seen": "2026-11-03T17:20:59.709005+00:00"
+      "last_seen": "2026-11-03T17:31:11.350366+00:00"
     },
     {
       "source": "dealsofamerica",
@@ -3415,7 +3415,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-03T17:20:30+00:00",
+      "T1": "2026-11-03T17:30:40+00:00",
       "T2": "2026-11-03T17:01:20+00:00",
       "T3": "2026-11-03T15:21:09+00:00",
       "T4": "2026-11-03T13:41:36+00:00"
@@ -3449,24 +3449,25 @@
       1,
       9,
       6,
-      4
+      4,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-03T17:20:59+00:00",
+      "at": "2026-11-03T17:31:11+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-03T17:20:39+00:00",
+        "at": "2026-11-03T17:30:49+00:00",
         "state": "정상",
-        "mails": 8,
-        "deals": 8
+        "mails": 9,
+        "deals": 9
       },
       "newsletter": {
         "at": "2026-11-03T13:44:16+00:00",
@@ -3476,6 +3477,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20246217",
+        "source": "slickdeals:amazon.com",
+        "title": "3-Port TALIX 12800mAh 125W TSA-Approved Portable Laptop Charger/Power Bank for $20 at Amazon",
+        "price": 20.0,
+        "list_price": 45.99,
+        "discount_pct": 56.5,
+        "krw": 26883,
+        "kr_lowest": null,
+        "score": 44,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-11-03T17:31:11+00:00",
+        "last_seen": "2026-11-03T17:31:11+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20238240",
         "source": "slickdeals:aliexpress",
@@ -3489,7 +3505,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T15:31:04+00:00",
-        "last_seen": "2026-11-03T17:20:59+00:00"
+        "last_seen": "2026-11-03T17:31:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20244036",
@@ -3504,7 +3520,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-03T14:51:02+00:00",
-        "last_seen": "2026-11-03T17:20:59+00:00"
+        "last_seen": "2026-11-03T17:31:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20246913",
@@ -3519,7 +3535,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T14:01:11+00:00",
-        "last_seen": "2026-11-03T17:20:59+00:00"
+        "last_seen": "2026-11-03T17:31:11+00:00"
       },
       {
         "url": "https://www.amazon.com/amazonprime",
@@ -3549,7 +3565,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T13:31:11+00:00",
-        "last_seen": "2026-11-03T17:20:59+00:00"
+        "last_seen": "2026-11-03T17:31:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20237259",
@@ -3564,7 +3580,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-03T12:40:55+00:00",
-        "last_seen": "2026-11-03T17:20:59+00:00"
+        "last_seen": "2026-11-03T17:31:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20241462",
@@ -3579,7 +3595,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 52% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-03T04:40:55+00:00",
-        "last_seen": "2026-11-03T17:20:59+00:00"
+        "last_seen": "2026-11-03T17:31:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245338",
@@ -3594,7 +3610,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T03:51:01+00:00",
-        "last_seen": "2026-11-03T17:20:59+00:00"
+        "last_seen": "2026-11-03T17:31:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20246142",
@@ -3624,7 +3640,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-02T23:41:06+00:00",
-        "last_seen": "2026-11-03T17:20:59+00:00"
+        "last_seen": "2026-11-03T17:31:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245296",
@@ -4033,7 +4049,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 37,
+      "collected_72h": 38,
       "published_72h": 3
     }
   }
