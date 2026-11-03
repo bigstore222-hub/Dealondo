@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T07:31:02.071088+00:00",
-  "count": 68,
+  "generated_at": "2026-11-03T07:33:57.765095+00:00",
+  "count": 69,
   "deals": [
     {
       "source": "6pm.com",
@@ -1094,6 +1094,55 @@
       "urgency": "HOT",
       "detected_at": "2026-11-03T06:01:08.136908+00:00",
       "last_seen": "2026-11-03T07:31:02.058653+00:00"
+    },
+    {
+      "source": "carhartt.com",
+      "source_tier": "T4",
+      "url": "https://www.carhartt.com/c/gift-guides",
+      "title": "arrow icon  (외 3종)",
+      "brand": "Carhartt",
+      "category": "sports_outdoor",
+      "image": "",
+      "price_current": 25.0,
+      "price_list": 150.0,
+      "price_baseline": 150.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 33603,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.carhartt.com/c/gift-guides",
+      "discount_pct": 83.3,
+      "score": 72,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-03T07:33:39.010307+00:00",
+      "last_seen": "2026-11-03T07:33:56.955381+00:00",
+      "variant_count": 4
     },
     {
       "source": "6pm.com",
@@ -2190,7 +2239,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T11:04:13.556750+00:00",
-      "last_seen": "2026-11-03T01:23:52.369035+00:00"
+      "last_seen": "2026-11-03T07:33:56.955381+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -3271,10 +3320,9 @@
       "T1": "2026-11-03T07:30:36+00:00",
       "T2": "2026-11-03T07:11:20+00:00",
       "T3": "2026-11-03T06:40:55+00:00",
-      "T4": "2026-11-03T01:20:56+00:00"
+      "T4": "2026-11-03T07:31:03+00:00"
     },
     "recent_gaps_min": [
-      1,
       9,
       10,
       10,
@@ -3303,14 +3351,15 @@
       10,
       1,
       9,
-      10
+      10,
+      3
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-03T07:31:02+00:00",
+      "at": "2026-11-03T07:33:56+00:00",
       "last_error": "HTTP 404"
     }
   },
@@ -3323,9 +3372,9 @@
         "deals": 3
       },
       "newsletter": {
-        "at": "2026-11-03T01:23:33+00:00",
+        "at": "2026-11-03T07:33:39+00:00",
         "state": "정상",
-        "mails": 9,
+        "mails": 14,
         "deals": 1
       }
     },
@@ -3793,7 +3842,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T17:55:33+00:00",
-        "last_seen": "2026-11-03T01:23:52+00:00"
+        "last_seen": "2026-11-03T07:33:57+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20235876",
