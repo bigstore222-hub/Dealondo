@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T06:31:08.670370+00:00",
+  "generated_at": "2026-11-03T06:31:51.388178+00:00",
   "count": 68,
   "deals": [
     {
@@ -141,7 +141,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-27T08:02:59.906860+00:00",
-      "last_seen": "2026-11-03T05:51:28.922493+00:00"
+      "last_seen": "2026-11-03T06:31:50.238802+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -188,7 +188,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-24T20:01:49.908260+00:00",
-      "last_seen": "2026-11-03T05:51:28.922493+00:00"
+      "last_seen": "2026-11-03T06:31:50.238802+00:00"
     },
     {
       "source": "zappos.com",
@@ -425,7 +425,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-11-03T05:51:28.922493+00:00"
+      "last_seen": "2026-11-03T06:31:50.238802+00:00"
     },
     {
       "source": "zappos.com",
@@ -1615,7 +1615,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T21:11:21.533925+00:00",
-      "last_seen": "2026-11-03T05:51:28.922493+00:00"
+      "last_seen": "2026-11-03T06:31:50.238802+00:00"
     },
     {
       "source": "zappos.com",
@@ -1954,54 +1954,6 @@
       "last_seen": "2026-11-02T07:51:33.606101+00:00"
     },
     {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/adidas-phnm-backpack/845681.htm",
-      "title": "Adidas PHNM 28L School Backpack",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://d16f00g4zitf8i.cloudfront.net/images/adidas-phnm-backpack.jpg",
-      "price_current": 27.63,
-      "price_list": 70.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 37138,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealsofamerica.com/adidas-phnm-backpack/845681.htm",
-      "discount_pct": 60.5,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-02T19:11:28.423012+00:00",
-      "last_seen": "2026-11-03T05:51:28.922493+00:00"
-    },
-    {
       "source": "zappos.com",
       "source_tier": "T2",
       "url": "https://www.zappos.com/product/10024412",
@@ -2047,7 +1999,55 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-31T06:41:13.552751+00:00",
-      "last_seen": "2026-11-03T02:31:35.467278+00:00"
+      "last_seen": "2026-11-03T06:31:50.238802+00:00"
+    },
+    {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/adidas-phnm-backpack/845681.htm",
+      "title": "Adidas PHNM 28L School Backpack",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://d16f00g4zitf8i.cloudfront.net/images/adidas-phnm-backpack.jpg",
+      "price_current": 27.63,
+      "price_list": 70.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 37138,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealsofamerica.com/adidas-phnm-backpack/845681.htm",
+      "discount_pct": 60.5,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-02T19:11:28.423012+00:00",
+      "last_seen": "2026-11-03T06:31:50.238802+00:00"
     },
     {
       "source": "zappos.com",
@@ -2382,8 +2382,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-03T05:51:10.437824+00:00",
-      "last_seen": "2026-11-03T05:51:28.922493+00:00"
+      "detected_at": "2026-11-03T06:31:30.363253+00:00",
+      "last_seen": "2026-11-03T06:31:50.238802+00:00"
     },
     {
       "source": "dealnews",
@@ -2431,8 +2431,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-03T05:51:10.447632+00:00",
-      "last_seen": "2026-11-03T05:51:28.922493+00:00"
+      "detected_at": "2026-11-03T06:31:30.372830+00:00",
+      "last_seen": "2026-11-03T06:31:50.238802+00:00"
     },
     {
       "source": "techbargains:adidas",
@@ -2480,8 +2480,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-03T05:51:10.568043+00:00",
-      "last_seen": "2026-11-03T05:51:28.922493+00:00"
+      "detected_at": "2026-11-03T06:31:30.671352+00:00",
+      "last_seen": "2026-11-03T06:31:50.238802+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -2529,7 +2529,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-10-30T07:41:12.329840+00:00",
-      "last_seen": "2026-11-03T05:51:28.922493+00:00"
+      "last_seen": "2026-11-03T06:31:50.238802+00:00"
     },
     {
       "source": "dealnews",
@@ -3269,12 +3269,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-03T06:30:36+00:00",
-      "T2": "2026-11-03T05:50:55+00:00",
+      "T2": "2026-11-03T06:31:10+00:00",
       "T3": "2026-11-03T04:32:40+00:00",
       "T4": "2026-11-03T01:20:56+00:00"
     },
     "recent_gaps_min": [
-      9,
       10,
       10,
       10,
@@ -3303,14 +3302,15 @@
       10,
       10,
       10,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-03T06:31:08+00:00",
+      "at": "2026-11-03T06:31:50+00:00",
       "last_error": "HTTP 404"
     }
   },
