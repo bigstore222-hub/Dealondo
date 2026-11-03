@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T04:33:42.001736+00:00",
+  "generated_at": "2026-11-03T04:40:55.689280+00:00",
   "count": 68,
   "deals": [
     {
@@ -3268,13 +3268,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-03T04:30:37+00:00",
+      "T1": "2026-11-03T04:40:31+00:00",
       "T2": "2026-11-03T04:32:03+00:00",
       "T3": "2026-11-03T04:32:40+00:00",
       "T4": "2026-11-03T01:20:56+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       1,
       9,
@@ -3303,24 +3302,25 @@
       10,
       11,
       1,
-      1
+      1,
+      7
     ],
     "naver": {
       "keys": true,
-      "queried": 50,
+      "queried": 25,
       "matched": 0,
-      "errors": 50,
-      "at": "2026-11-03T04:33:41+00:00",
+      "errors": 25,
+      "at": "2026-11-03T04:40:55+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-03T04:31:42+00:00",
+        "at": "2026-11-03T04:40:36+00:00",
         "state": "정상",
-        "mails": 2,
-        "deals": 2
+        "mails": 3,
+        "deals": 3
       },
       "newsletter": {
         "at": "2026-11-03T01:23:33+00:00",
@@ -3330,6 +3330,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20241462",
+        "source": "slickdeals:nordstromrack.com",
+        "title": "Nike Men's Air Max Bia Shoes (Linen Sail) for $45.60 at Nordstrom Rack",
+        "price": 45.6,
+        "list_price": 95.0,
+        "discount_pct": 52.0,
+        "krw": 61292,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: Nike 할인 52% < 60% (유명 브랜드 최소 할인)",
+        "first_seen": "2026-11-03T04:40:55+00:00",
+        "last_seen": "2026-11-03T04:40:55+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20245338",
         "source": "slickdeals:walmart.com",
@@ -3343,7 +3358,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T03:51:01+00:00",
-        "last_seen": "2026-11-03T04:32:01+00:00"
+        "last_seen": "2026-11-03T04:40:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20246142",
@@ -3373,7 +3388,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-02T23:41:06+00:00",
-        "last_seen": "2026-11-03T04:32:01+00:00"
+        "last_seen": "2026-11-03T04:40:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245296",
@@ -3928,21 +3943,6 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-10-31T04:51:00+00:00",
-        "last_seen": "2026-11-01T00:50:57+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20207628",
-        "source": "slickdeals:amazon.com",
-        "title": "JandCase LED Plug-In Dimmable Night Light (3000K, Black) for $5 at Amazon",
-        "price": 5.0,
-        "list_price": 11.99,
-        "discount_pct": 58.3,
-        "krw": 6673,
-        "kr_lowest": null,
-        "score": 48,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-10-31T04:40:55+00:00",
         "last_seen": "2026-11-01T00:50:57+00:00"
       }
     ],
