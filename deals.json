@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T05:41:00.988241+00:00",
+  "generated_at": "2026-11-03T05:50:54.006982+00:00",
   "count": 68,
   "deals": [
     {
@@ -3268,7 +3268,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-03T05:40:27+00:00",
+      "T1": "2026-11-03T05:50:28+00:00",
       "T2": "2026-11-03T05:10:55+00:00",
       "T3": "2026-11-03T04:32:40+00:00",
       "T4": "2026-11-03T01:20:56+00:00"
@@ -3302,21 +3302,22 @@
       1,
       9,
       11,
-      9
+      9,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-03T05:40:59+00:00",
+      "at": "2026-11-03T05:50:53+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-03T05:40:35+00:00",
+        "at": "2026-11-03T05:50:35+00:00",
         "state": "정상",
         "mails": 3,
         "deals": 3
@@ -3342,7 +3343,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 52% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-03T04:40:55+00:00",
-        "last_seen": "2026-11-03T05:40:59+00:00"
+        "last_seen": "2026-11-03T05:50:54+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245338",
@@ -3357,7 +3358,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T03:51:01+00:00",
-        "last_seen": "2026-11-03T05:40:59+00:00"
+        "last_seen": "2026-11-03T05:50:54+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20246142",
@@ -3387,7 +3388,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-02T23:41:06+00:00",
-        "last_seen": "2026-11-03T05:40:59+00:00"
+        "last_seen": "2026-11-03T05:50:54+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245296",
@@ -3883,25 +3884,10 @@
         "reject_reason": "",
         "first_seen": "2026-10-31T05:51:07+00:00",
         "last_seen": "2026-11-01T00:50:57+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20230251",
-        "source": "slickdeals:amazon.com",
-        "title": "3-Port wegear 100W GaN Slim USB-C Wall Charger w/ Foldable Plug for $20 at Amazon",
-        "price": 20.0,
-        "list_price": 39.99,
-        "discount_pct": 50.0,
-        "krw": 26690,
-        "kr_lowest": null,
-        "score": 31,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-10-31T05:41:11+00:00",
-        "last_seen": "2026-11-01T00:50:57+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 38,
+      "collected_72h": 37,
       "published_72h": 2
     }
   }
