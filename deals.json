@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T14:31:09.191439+00:00",
-  "count": 76,
+  "generated_at": "2026-11-04T14:41:08.330460+00:00",
+  "count": 74,
   "deals": [
     {
       "source": "6pm.com",
@@ -2194,7 +2194,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-03T14:50:42.110101+00:00",
-      "last_seen": "2026-11-04T14:31:07.541671+00:00"
+      "last_seen": "2026-11-04T14:41:08.310528+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2436,54 +2436,6 @@
       "urgency": "STEADY",
       "detected_at": "2026-10-31T06:41:13.552751+00:00",
       "last_seen": "2026-11-03T06:31:50.238802+00:00"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10018395",
-      "title": "Formula 1 Graphic Hoodie",
-      "brand": "PUMA",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/71+DFHXdfLL._AC_SR255,340_.jpg",
-      "price_current": 24.0,
-      "price_list": 80.0,
-      "price_baseline": 80.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 31986,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10018395",
-      "discount_pct": 70.0,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-02T13:51:26.362296+00:00",
-      "last_seen": "2026-11-02T14:32:14.518080+00:00"
     },
     {
       "source": "als.com",
@@ -3607,60 +3559,11 @@
       "urgency": "STEADY",
       "detected_at": "2026-11-02T15:51:49.786097+00:00",
       "last_seen": "2026-11-02T16:33:40.454464+00:00"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Samsonite-Omni-20-PC-Hardside-Expandable-Carry-On-Spinner-Luggage-for-82-free-shipping/22336363.html?iref=rss",
-      "title": "Samsonite Omni 20\" PC Hardside Expandable Carry-On Spinner Luggage for $82 + free shipping",
-      "brand": "Samsonite",
-      "category": "premium_fashion",
-      "image": "https://d.dlnws.com/64599/1793625533-product-trimmed.jpg?h=250&w=139",
-      "price_current": 82.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 109286,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Samsonite-Omni-20-PC-Hardside-Expandable-Carry-On-Spinner-Luggage-for-82-free-shipping/22336363.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-02T13:51:26.362296+00:00",
-      "last_seen": "2026-11-02T14:32:14.518080+00:00"
     }
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-04T14:30:37+00:00",
+      "T1": "2026-11-04T14:40:28+00:00",
       "T2": "2026-11-04T14:21:08+00:00",
       "T3": "2026-11-04T13:03:45+00:00",
       "T4": "2026-11-04T14:21:41+00:00"
@@ -3694,21 +3597,22 @@
       10,
       1,
       3,
-      6
+      6,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-04T14:31:07+00:00",
+      "at": "2026-11-04T14:41:08+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-04T14:30:44+00:00",
+        "at": "2026-11-04T14:40:42+00:00",
         "state": "정상",
         "mails": 12,
         "deals": 12
@@ -3734,7 +3638,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-04T14:31:07+00:00",
-        "last_seen": "2026-11-04T14:31:07+00:00"
+        "last_seen": "2026-11-04T14:41:08+00:00"
       },
       {
         "url": "https://www.asos.com",
@@ -3764,7 +3668,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-04T06:01:14+00:00",
-        "last_seen": "2026-11-04T14:31:07+00:00"
+        "last_seen": "2026-11-04T14:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20246583",
@@ -3779,7 +3683,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-04T05:50:55+00:00",
-        "last_seen": "2026-11-04T14:31:07+00:00"
+        "last_seen": "2026-11-04T14:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20224887",
@@ -3794,7 +3698,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-04T05:40:58+00:00",
-        "last_seen": "2026-11-04T14:31:07+00:00"
+        "last_seen": "2026-11-04T14:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238627",
@@ -3809,7 +3713,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-04T04:20:56+00:00",
-        "last_seen": "2026-11-04T14:31:07+00:00"
+        "last_seen": "2026-11-04T14:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20249196",
@@ -3824,7 +3728,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-04T02:50:54+00:00",
-        "last_seen": "2026-11-04T14:31:07+00:00"
+        "last_seen": "2026-11-04T14:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238471",
@@ -3869,7 +3773,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T23:41:03+00:00",
-        "last_seen": "2026-11-04T14:31:07+00:00"
+        "last_seen": "2026-11-04T14:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20248770",
@@ -4079,7 +3983,7 @@
         "published": false,
         "reject_reason": "H7: Under Armour 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-03T18:50:57+00:00",
-        "last_seen": "2026-11-04T14:31:07+00:00"
+        "last_seen": "2026-11-04T14:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20243727",
@@ -4139,7 +4043,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-03T14:51:02+00:00",
-        "last_seen": "2026-11-04T14:31:07+00:00"
+        "last_seen": "2026-11-04T14:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20246913",
@@ -4199,7 +4103,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-03T12:40:55+00:00",
-        "last_seen": "2026-11-04T14:31:07+00:00"
+        "last_seen": "2026-11-04T14:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20241462",
@@ -4214,7 +4118,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 52% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-03T04:40:55+00:00",
-        "last_seen": "2026-11-04T14:31:07+00:00"
+        "last_seen": "2026-11-04T14:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245338",
@@ -4259,7 +4163,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-02T23:41:06+00:00",
-        "last_seen": "2026-11-04T14:31:07+00:00"
+        "last_seen": "2026-11-04T14:41:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245296",
@@ -4575,25 +4479,10 @@
         "reject_reason": "H8: 할인 15% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-01T15:01:07+00:00",
         "last_seen": "2026-11-02T23:50:58+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20238348",
-        "source": "slickdeals:aliexpress",
-        "title": "Refurb: Bluetti Elite 300 2400W/3014Wh LiFePO4 Portable Power Station for $721.35 or less at AliExpress",
-        "price": 721.35,
-        "list_price": null,
-        "discount_pct": null,
-        "krw": 1142129,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
-        "first_seen": "2026-11-01T14:40:53+00:00",
-        "last_seen": "2026-11-02T23:50:58+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 58,
+      "collected_72h": 57,
       "published_72h": 3
     }
   }
