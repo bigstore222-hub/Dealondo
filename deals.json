@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T07:21:08.915702+00:00",
+  "generated_at": "2026-11-04T07:31:12.270727+00:00",
   "count": 78,
   "deals": [
     {
@@ -944,7 +944,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-04T06:00:55.026137+00:00",
-      "last_seen": "2026-11-04T07:21:07.423883+00:00"
+      "last_seen": "2026-11-04T07:31:12.247025+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -993,7 +993,56 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-04T05:50:32.444070+00:00",
-      "last_seen": "2026-11-04T07:21:07.423883+00:00"
+      "last_seen": "2026-11-04T07:31:12.247025+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20253450",
+      "title": "36\" x 15\" Homelove 580W Silicone Food Warming Mat $29.99 + Free Shipping w/ Prime or on $35+",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/4/0/4/0/3/4/4/300x300/22206633.thumb",
+      "price_current": 35.0,
+      "price_list": 70.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "1XJE2TUQ",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 3,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 47038,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20253450",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 1XJE2TUQ → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-04T07:30:51.640955+00:00",
+      "last_seen": "2026-11-04T07:31:12.247025+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1139,55 +1188,6 @@
       "urgency": "HOT",
       "detected_at": "2026-11-02T20:01:17.513770+00:00",
       "last_seen": "2026-11-04T05:40:58.339542+00:00"
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20252562",
-      "title": "6 Pack Solid Cologne for Men Perfume Gift Set – $4.99 (50% Off w/ Promo Code)",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/5/1/9/1/1/6/9/300x300/22203816.thumb",
-      "price_current": 4.99,
-      "price_list": 9.98,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "V6TIR2OA",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 1,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 6706,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20252562",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 V6TIR2OA → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-04T02:40:37.340679+00:00",
-      "last_seen": "2026-11-04T04:01:13.747067+00:00"
     },
     {
       "source": "6pm.com",
@@ -2382,7 +2382,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-03T14:50:42.110101+00:00",
-      "last_seen": "2026-11-04T07:21:07.423883+00:00"
+      "last_seen": "2026-11-04T07:31:12.247025+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -3750,7 +3750,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-04T07:20:28+00:00",
+      "T1": "2026-11-04T07:30:36+00:00",
       "T2": "2026-11-04T07:11:00+00:00",
       "T3": "2026-11-04T06:31:43+00:00",
       "T4": "2026-11-04T02:02:54+00:00"
@@ -3784,6 +3784,7 @@
       10,
       10,
       1,
+      10,
       10
     ],
     "naver": {
@@ -3791,14 +3792,14 @@
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-04T07:21:07+00:00",
+      "at": "2026-11-04T07:31:12+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-04T07:20:43+00:00",
+        "at": "2026-11-04T07:30:51+00:00",
         "state": "정상",
         "mails": 11,
         "deals": 11
@@ -3824,7 +3825,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-04T06:01:14+00:00",
-        "last_seen": "2026-11-04T07:21:07+00:00"
+        "last_seen": "2026-11-04T07:31:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20246583",
@@ -3839,7 +3840,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-04T05:50:55+00:00",
-        "last_seen": "2026-11-04T07:21:07+00:00"
+        "last_seen": "2026-11-04T07:31:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20224887",
@@ -3854,7 +3855,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-04T05:40:58+00:00",
-        "last_seen": "2026-11-04T07:21:07+00:00"
+        "last_seen": "2026-11-04T07:31:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238627",
@@ -3869,7 +3870,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-04T04:20:56+00:00",
-        "last_seen": "2026-11-04T07:21:07+00:00"
+        "last_seen": "2026-11-04T07:31:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20249196",
@@ -3884,7 +3885,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-04T02:50:54+00:00",
-        "last_seen": "2026-11-04T07:21:07+00:00"
+        "last_seen": "2026-11-04T07:31:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238471",
@@ -3929,7 +3930,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T23:41:03+00:00",
-        "last_seen": "2026-11-04T07:21:07+00:00"
+        "last_seen": "2026-11-04T07:31:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20248770",
@@ -4139,7 +4140,7 @@
         "published": false,
         "reject_reason": "H7: Under Armour 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-03T18:50:57+00:00",
-        "last_seen": "2026-11-04T07:21:07+00:00"
+        "last_seen": "2026-11-04T07:31:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20243727",
@@ -4199,7 +4200,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-03T14:51:02+00:00",
-        "last_seen": "2026-11-04T07:21:07+00:00"
+        "last_seen": "2026-11-04T07:31:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20246913",
@@ -4259,7 +4260,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-03T12:40:55+00:00",
-        "last_seen": "2026-11-04T07:21:07+00:00"
+        "last_seen": "2026-11-04T07:31:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20241462",
@@ -4274,7 +4275,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 52% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-03T04:40:55+00:00",
-        "last_seen": "2026-11-04T07:21:07+00:00"
+        "last_seen": "2026-11-04T07:31:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245338",
@@ -4319,7 +4320,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-02T23:41:06+00:00",
-        "last_seen": "2026-11-04T07:21:07+00:00"
+        "last_seen": "2026-11-04T07:31:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245296",
