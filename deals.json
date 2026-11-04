@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T20:31:20.049701+00:00",
+  "generated_at": "2026-11-04T20:34:27.947177+00:00",
   "count": 83,
   "deals": [
     {
@@ -1190,7 +1190,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-03T07:33:39.010307+00:00",
-      "last_seen": "2026-11-04T14:24:49.611488+00:00",
+      "last_seen": "2026-11-04T20:34:27.942304+00:00",
       "variant_count": 4
     },
     {
@@ -3997,10 +3997,9 @@
       "T1": "2026-11-04T20:30:36+00:00",
       "T2": "2026-11-04T20:21:04+00:00",
       "T3": "2026-11-04T19:31:11+00:00",
-      "T4": "2026-11-04T14:21:41+00:00"
+      "T4": "2026-11-04T20:31:21+00:00"
     },
     "recent_gaps_min": [
-      1,
       9,
       10,
       1,
@@ -4029,14 +4028,15 @@
       10,
       10,
       1,
-      10
+      10,
+      3
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-04T20:31:20+00:00",
+      "at": "2026-11-04T20:34:27+00:00",
       "last_error": "HTTP 404"
     }
   },
@@ -4049,13 +4049,28 @@
         "deals": 23
       },
       "newsletter": {
-        "at": "2026-11-04T14:24:27+00:00",
+        "at": "2026-11-04T20:34:06+00:00",
         "state": "정상",
-        "mails": 34,
-        "deals": 3
+        "mails": 50,
+        "deals": 4
       }
     },
     "recent": [
+      {
+        "url": "https://click.woot.com/f/a/48IrA66wJxW3evJJztxNuQ~~/AAQRxRA~/5WjNJYeopuEmsBQkhqFaQYk-duWQS_z3P5H_M31PziDgU31GQb77bWR0rWpplC5ErA7XwbOHmsZctaOKZVwrAyDkApDleaE9xAkxuIco_e3BFfKznNiAt8BtYBQm3fqsXLBPGTezFMxwu7Ft0Wd5WO3msv41E-ZRvb--oMKvUeBI9N4NYw_2NlP2oIhhcG_0pWoE2PxvwPIZRsAdR-XgwLq0AhVnmxL-SxAVb81RKILa92p",
+        "source": "woot.com",
+        "title": "Toybox Treasures! Buy 5+ Get 55% Off! ",
+        "price": 45.0,
+        "list_price": 100.0,
+        "discount_pct": 55.0,
+        "krw": 60477,
+        "kr_lowest": null,
+        "score": 31,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-11-04T20:34:27+00:00",
+        "last_seen": "2026-11-04T20:34:27+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20254989",
         "source": "slickdeals:amazon.com",
@@ -4249,7 +4264,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-04T14:24:49+00:00",
-        "last_seen": "2026-11-04T14:24:49+00:00"
+        "last_seen": "2026-11-04T20:34:27+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20252751",
@@ -4534,7 +4549,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T19:54:28+00:00",
-        "last_seen": "2026-11-04T14:24:49+00:00"
+        "last_seen": "2026-11-04T20:34:27+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245203",
@@ -4669,7 +4684,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T13:44:37+00:00",
-        "last_seen": "2026-11-04T14:24:49+00:00"
+        "last_seen": "2026-11-04T20:34:27+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20226846",
@@ -5033,7 +5048,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 65,
+      "collected_72h": 66,
       "published_72h": 3
     }
   }
