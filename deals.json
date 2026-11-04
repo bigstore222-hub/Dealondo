@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T08:11:00.265451+00:00",
+  "generated_at": "2026-11-04T08:14:11.765164+00:00",
   "count": 78,
   "deals": [
     {
@@ -1190,6 +1190,55 @@
       "last_seen": "2026-11-04T05:40:58.339542+00:00"
     },
     {
+      "source": "carhartt.com",
+      "source_tier": "T4",
+      "url": "https://www.carhartt.com/c/gift-guides",
+      "title": "arrow icon  (외 3종)",
+      "brand": "Carhartt",
+      "category": "sports_outdoor",
+      "image": "",
+      "price_current": 25.0,
+      "price_list": 150.0,
+      "price_baseline": 150.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 33598,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.carhartt.com/c/gift-guides",
+      "discount_pct": 83.3,
+      "score": 72,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-03T07:33:39.010307+00:00",
+      "last_seen": "2026-11-04T08:14:11.760804+00:00",
+      "variant_count": 4
+    },
+    {
       "source": "6pm.com",
       "source_tier": "T3",
       "url": "https://www.6pm.com/product/10017101",
@@ -1236,55 +1285,6 @@
       "urgency": "HOT",
       "detected_at": "2026-11-01T18:01:56.270434+00:00",
       "last_seen": "2026-11-04T06:32:43.864802+00:00"
-    },
-    {
-      "source": "carhartt.com",
-      "source_tier": "T4",
-      "url": "https://www.carhartt.com/c/gift-guides",
-      "title": "arrow icon  (외 3종)",
-      "brand": "Carhartt",
-      "category": "sports_outdoor",
-      "image": "",
-      "price_current": 25.0,
-      "price_list": 150.0,
-      "price_baseline": 150.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 33598,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.carhartt.com/c/gift-guides",
-      "discount_pct": 83.3,
-      "score": 72,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-03T07:33:39.010307+00:00",
-      "last_seen": "2026-11-04T02:05:53.821481+00:00",
-      "variant_count": 4
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -3753,10 +3753,9 @@
       "T1": "2026-11-04T08:10:25+00:00",
       "T2": "2026-11-04T07:51:17+00:00",
       "T3": "2026-11-04T06:31:43+00:00",
-      "T4": "2026-11-04T02:02:54+00:00"
+      "T4": "2026-11-04T08:11:01+00:00"
     },
     "recent_gaps_min": [
-      9,
       1,
       9,
       10,
@@ -3785,14 +3784,15 @@
       10,
       1,
       10,
-      10
+      10,
+      3
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-04T08:11:00+00:00",
+      "at": "2026-11-04T08:14:11+00:00",
       "last_error": "HTTP 404"
     }
   },
@@ -3805,9 +3805,9 @@
         "deals": 11
       },
       "newsletter": {
-        "at": "2026-11-04T02:05:30+00:00",
+        "at": "2026-11-04T08:13:50+00:00",
         "state": "정상",
-        "mails": 12,
+        "mails": 23,
         "deals": 2
       }
     },
@@ -4095,7 +4095,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T19:54:28+00:00",
-        "last_seen": "2026-11-04T02:05:53+00:00"
+        "last_seen": "2026-11-04T08:14:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245203",
@@ -4230,7 +4230,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T13:44:37+00:00",
-        "last_seen": "2026-11-04T02:05:53+00:00"
+        "last_seen": "2026-11-04T08:14:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20226846",
