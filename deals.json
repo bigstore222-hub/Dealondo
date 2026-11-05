@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T01:01:10.293926+00:00",
+  "generated_at": "2026-11-05T01:10:55.597724+00:00",
   "count": 86,
   "deals": [
     {
@@ -4136,7 +4136,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-05T01:00:42+00:00",
+      "T1": "2026-11-05T01:10:29+00:00",
       "T2": "2026-11-05T00:51:02+00:00",
       "T3": "2026-11-04T23:51:02+00:00",
       "T4": "2026-11-04T20:31:21+00:00"
@@ -4170,6 +4170,7 @@
       10,
       10,
       1,
+      10,
       10
     ],
     "naver": {
@@ -4177,14 +4178,14 @@
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-05T01:01:08+00:00",
+      "at": "2026-11-05T01:10:55+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-05T01:00:50+00:00",
+        "at": "2026-11-05T01:10:36+00:00",
         "state": "정상",
         "mails": 4,
         "deals": 4
@@ -4234,13 +4235,13 @@
         "price": 46.75,
         "list_price": 85.0,
         "discount_pct": 45.0,
-        "krw": 62829,
+        "krw": 62660,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: Nike 할인 45% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-04T21:51:00+00:00",
-        "last_seen": "2026-11-05T01:01:08+00:00"
+        "last_seen": "2026-11-05T01:10:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20251170",
@@ -4414,13 +4415,13 @@
         "price": 649.0,
         "list_price": 899.0,
         "discount_pct": 27.8,
-        "krw": 1036187,
+        "krw": 1033396,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-04T16:41:10+00:00",
-        "last_seen": "2026-11-05T01:01:08+00:00"
+        "last_seen": "2026-11-05T01:10:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245581",
@@ -4579,13 +4580,13 @@
         "price": 25.0,
         "list_price": 59.99,
         "discount_pct": 58.3,
-        "krw": 33598,
+        "krw": 33508,
         "kr_lowest": null,
         "score": 31,
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T23:41:03+00:00",
-        "last_seen": "2026-11-05T01:01:08+00:00"
+        "last_seen": "2026-11-05T01:10:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20248770",
@@ -4789,13 +4790,13 @@
         "price": 16.0,
         "list_price": null,
         "discount_pct": null,
-        "krw": 21503,
+        "krw": 21445,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: Under Armour 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-03T18:50:57+00:00",
-        "last_seen": "2026-11-05T01:01:08+00:00"
+        "last_seen": "2026-11-05T01:10:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20243727",
