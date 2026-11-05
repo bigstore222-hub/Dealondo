@@ -20,6 +20,7 @@ concurrency:
 
 permissions:
   contents: write              # deals.json 커밋/푸시 권한
+  actions: write               # 텔레그램 접수함 워크플로를 깨우기 위함(아래 첫 단계)
 
 env:
   # DB는 리포 안 data/ 에 두고 캐시로 유지
@@ -54,6 +55,14 @@ jobs:
     steps:
       - name: 체크아웃
         uses: actions/checkout@v4
+
+      # 텔레그램 접수함(✅ 스레드에 올리기 처리)은 GitHub 자체 예약에만 맡기면 몇 시간씩 안 돈다(11/3~4 실측:
+      # 3~8시간 간격). 10분마다 확실히 도는 이 워크플로가 매번 접수함을 깨워, ✅ 를 늦어도 10분 안에 처리한다.
+      # (GITHUB_TOKEN 으로 workflow_dispatch 를 부르는 것은 GitHub 이 허용하는 유일한 연쇄 실행 방식)
+      - name: 텔레그램 접수함 깨우기
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run telegram_inbox.yml --ref "${GITHUB_REF_NAME:-main}" || echo "접수함 깨우기 실패 — 다음 실행에서 다시"
 
       - name: 파이썬 준비
         uses: actions/setup-python@v5

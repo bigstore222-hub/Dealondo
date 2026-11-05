@@ -310,7 +310,8 @@ def preview_text(dr: dict) -> str:
     if warn:
         parts += ["", *("⚠️ " + w for w in warn)]
     tag = TD.topic_tag()
-    parts += ["", (f"주제 태그 #{tag} · " if tag else "") + f"본문 {len(dr['text'])}/500자 · 답장으로 \"19.99 495\" → 가격 수정, 다른 글 → 본문 교체"]
+    parts += ["", (f"주제 태그 #{tag} · " if tag else "") + f"본문 {len(dr['text'])}/500자 · 답장으로 \"19.99 495\" → 가격 수정, 다른 글 → 본문 교체",
+              "✅ 를 누르면 보통 바로, 늦어도 10분 안에 올라가요."]
     return "\n".join(parts)[:4000]
 
 
@@ -450,6 +451,16 @@ def handle(st: dict, u: dict, dry: bool) -> None:
         if act == "post":
             if dr.get("status") in ("posted", "posting"):
                 tg_safe("answerCallbackQuery", callback_query_id=cq["id"], text="이미 처리한 글이에요.")
+                return
+            age_h = (dt.datetime.now(KST) - dt.datetime.fromisoformat(dr["created"])).total_seconds() / 3600
+            if age_h > 12:
+                # 반나절 넘은 미리보기는 가격·재고가 바뀌었을 수 있어, 바로 올리지 않고 새 미리보기를 만든다
+                tg_safe("answerCallbackQuery", callback_query_id=cq["id"], text="오래된 미리보기라 새로 만들어요")
+                dr["status"] = "replaced"
+                tg_safe("editMessageReplyMarkup", chat_id=chat, message_id=dr["msg"], reply_markup={"inline_keyboard": []})
+                tg_safe("sendMessage", chat_id=chat, reply_to_message_id=dr["msg"],
+                        text=f"🔁 {age_h:.0f}시간 전 미리보기라 가격을 다시 확인해 새 미리보기를 보낼게요. 새 미리보기에서 ✅ 를 눌러주세요.")
+                new_draft(st, chat, dr["url"], dict(dr.get("hint") or {}), dr["msg"])
                 return
             tg_safe("answerCallbackQuery", callback_query_id=cq["id"], text="올리는 중…")
             publish(st, did, chat, dry)
