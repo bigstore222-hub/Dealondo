@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T23:52:05.665458+00:00",
+  "generated_at": "2026-11-05T00:01:24.223023+00:00",
   "count": 84,
   "deals": [
     {
@@ -898,7 +898,56 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-04T22:30:47.344883+00:00",
-      "last_seen": "2026-11-04T23:51:00.652908+00:00"
+      "last_seen": "2026-11-05T00:01:24.204552+00:00"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20257353",
+      "title": "2-Pack 24\" luxeflow Ceramic Table Lamps w/ Drum Shade $34.99 + Free Shipping",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/9/3/0/4/6/1/9/300x300/22218720.thumb",
+      "price_current": 34.99,
+      "price_list": 69.98,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "JNOKDYZV",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 0,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 47024,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20257353",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 JNOKDYZV → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-05T00:01:00.776875+00:00",
+      "last_seen": "2026-11-05T00:01:24.204552+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1093,55 +1142,6 @@
       "urgency": "HOT",
       "detected_at": "2026-11-04T19:00:54.959372+00:00",
       "last_seen": "2026-11-04T21:21:09.222419+00:00"
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20246562",
-      "title": "2-Pk ATFIXM Magnetic Under-Hood LED Work Light Bar w/ Wave Sensor $21.60 + Free S&H",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/9/3/0/4/6/1/9/300x300/22186143.thumb",
-      "price_current": 21.6,
-      "price_list": 43.2,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "AX1SV76M",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 18,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 29029,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20246562",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 AX1SV76M → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-04T18:20:36.847280+00:00",
-      "last_seen": "2026-11-04T20:31:20.025502+00:00"
     },
     {
       "source": "6pm.com",
@@ -4039,13 +4039,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-04T23:50:26+00:00",
+      "T1": "2026-11-05T00:00:49+00:00",
       "T2": "2026-11-04T23:36:37+00:00",
       "T3": "2026-11-04T23:51:02+00:00",
       "T4": "2026-11-04T20:31:21+00:00"
     },
     "recent_gaps_min": [
-      10,
       3,
       7,
       10,
@@ -4074,24 +4073,25 @@
       1,
       4,
       10,
-      1
+      1,
+      9
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-04T23:52:05+00:00",
+      "at": "2026-11-05T00:01:24+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-04T23:50:37+00:00",
+        "at": "2026-11-05T00:01:00+00:00",
         "state": "정상",
-        "mails": 27,
-        "deals": 27
+        "mails": 23,
+        "deals": 23
       },
       "newsletter": {
         "at": "2026-11-04T20:34:06+00:00",
@@ -4114,7 +4114,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-04T23:51:00+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
+        "last_seen": "2026-11-05T00:01:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20252565",
@@ -4129,7 +4129,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-04T22:51:03+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
+        "last_seen": "2026-11-05T00:01:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20250384",
@@ -4144,7 +4144,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 45% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-04T21:51:00+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
+        "last_seen": "2026-11-05T00:01:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20251170",
@@ -4159,7 +4159,7 @@
         "published": false,
         "reject_reason": "H8: 할인 24% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-04T21:51:00+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
+        "last_seen": "2026-11-05T00:01:24+00:00"
       },
       {
         "url": "https://click.woot.com/f/a/48IrA66wJxW3evJJztxNuQ~~/AAQRxRA~/5WjNJYeopuEmsBQkhqFaQYk-duWQS_z3P5H_M31PziDgU31GQb77bWR0rWpplC5ErA7XwbOHmsZctaOKZVwrAyDkApDleaE9xAkxuIco_e3BFfKznNiAt8BtYBQm3fqsXLBPGTezFMxwu7Ft0Wd5WO3msv41E-ZRvb--oMKvUeBI9N4NYw_2NlP2oIhhcG_0pWoE2PxvwPIZRsAdR-XgwLq0AhVnmxL-SxAVb81RKILa92p",
@@ -4189,7 +4189,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-04T20:21:02+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
+        "last_seen": "2026-11-05T00:01:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20250759",
@@ -4204,7 +4204,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-04T19:11:26+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
+        "last_seen": "2026-11-05T00:01:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20226975",
@@ -4219,7 +4219,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-04T18:41:03+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
+        "last_seen": "2026-11-05T00:01:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20247201",
@@ -4234,7 +4234,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-04T18:21:01+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
+        "last_seen": "2026-11-05T00:01:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20251980",
@@ -4249,7 +4249,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-04T17:51:14+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
+        "last_seen": "2026-11-05T00:01:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20243283",
@@ -4264,7 +4264,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-04T17:41:12+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
+        "last_seen": "2026-11-05T00:01:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20254065",
@@ -4279,7 +4279,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-04T17:31:15+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
+        "last_seen": "2026-11-05T00:01:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20253531",
@@ -4294,7 +4294,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-04T17:31:15+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
+        "last_seen": "2026-11-05T00:01:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20253657",
@@ -4309,7 +4309,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-04T17:21:04+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
+        "last_seen": "2026-11-05T00:01:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20254128",
@@ -4324,7 +4324,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-04T16:41:10+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
+        "last_seen": "2026-11-05T00:01:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245581",
@@ -4339,7 +4339,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-04T16:31:08+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
+        "last_seen": "2026-11-05T00:01:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20249646",
@@ -4354,7 +4354,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-04T14:31:07+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
+        "last_seen": "2026-11-05T00:01:24+00:00"
       },
       {
         "url": "https://www.asos.com",
@@ -4384,7 +4384,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-04T06:01:14+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
+        "last_seen": "2026-11-05T00:01:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20246583",
@@ -4399,7 +4399,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-04T05:50:55+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
+        "last_seen": "2026-11-05T00:01:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20224887",
@@ -4414,7 +4414,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-04T05:40:58+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
+        "last_seen": "2026-11-05T00:01:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238627",
@@ -4429,7 +4429,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-04T04:20:56+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
+        "last_seen": "2026-11-05T00:01:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20249196",
@@ -4444,7 +4444,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-04T02:50:54+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
+        "last_seen": "2026-11-05T00:01:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20238471",
@@ -4489,7 +4489,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T23:41:03+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
+        "last_seen": "2026-11-05T00:01:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20248770",
@@ -4699,7 +4699,7 @@
         "published": false,
         "reject_reason": "H7: Under Armour 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-03T18:50:57+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
+        "last_seen": "2026-11-05T00:01:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20243727",
