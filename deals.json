@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T05:31:44.521596+00:00",
+  "generated_at": "2026-11-05T05:41:19.281378+00:00",
   "count": 86,
   "deals": [
     {
@@ -852,53 +852,6 @@
       "last_seen": "2026-11-04T17:01:23.571196+00:00"
     },
     {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/ugg-classic-streetscape-bootie-women/8481813",
-      "title": "Classic StreetScape Bootie",
-      "brand": "Ugg",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/21bc5007-e229-45cd-9476-e8d0d9af6dbf.jpeg?h=368&w=240&dpr=2",
-      "price_current": 99.99,
-      "price_list": 200.0,
-      "price_baseline": 200.0,
-      "price_alltime_low": 99.99,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 134018,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/ugg-classic-streetscape-bootie-women/8481813",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-31T21:11:21.533925+00:00",
-      "last_seen": "2026-11-05T05:31:43.332790+00:00"
-    },
-    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20251515",
@@ -945,7 +898,54 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-03T21:10:39.563559+00:00",
-      "last_seen": "2026-11-05T05:31:05.967089+00:00"
+      "last_seen": "2026-11-05T05:41:19.258507+00:00"
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/ugg-classic-streetscape-bootie-women/8481813",
+      "title": "Classic StreetScape Bootie",
+      "brand": "Ugg",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/21bc5007-e229-45cd-9476-e8d0d9af6dbf.jpeg?h=368&w=240&dpr=2",
+      "price_current": 99.99,
+      "price_list": 200.0,
+      "price_baseline": 200.0,
+      "price_alltime_low": 99.99,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 134018,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.nordstromrack.com/s/ugg-classic-streetscape-bootie-women/8481813",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-31T21:11:21.533925+00:00",
+      "last_seen": "2026-11-05T05:31:43.332790+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -4135,13 +4135,12 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-05T05:30:36+00:00",
+      "T1": "2026-11-05T05:40:32+00:00",
       "T2": "2026-11-05T05:31:07+00:00",
       "T3": "2026-11-05T04:11:52+00:00",
       "T4": "2026-11-05T02:40:57+00:00"
     },
     "recent_gaps_min": [
-      9,
       1,
       9,
       10,
@@ -4170,21 +4169,22 @@
       10,
       10,
       10,
-      1
+      1,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-05T05:31:43+00:00",
+      "at": "2026-11-05T05:41:19+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-05T05:30:43+00:00",
+        "at": "2026-11-05T05:40:52+00:00",
         "state": "정상",
         "mails": 11,
         "deals": 11
@@ -4210,7 +4210,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-05T05:01:16+00:00",
-        "last_seen": "2026-11-05T05:31:05+00:00"
+        "last_seen": "2026-11-05T05:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20235795",
@@ -4225,7 +4225,7 @@
         "published": false,
         "reject_reason": "H8: 할인 15% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-05T04:40:55+00:00",
-        "last_seen": "2026-11-05T05:31:05+00:00"
+        "last_seen": "2026-11-05T05:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20208357",
@@ -4240,7 +4240,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-05T04:20:55+00:00",
-        "last_seen": "2026-11-05T05:31:05+00:00"
+        "last_seen": "2026-11-05T05:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20213640",
@@ -4255,7 +4255,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-05T03:50:55+00:00",
-        "last_seen": "2026-11-05T05:31:05+00:00"
+        "last_seen": "2026-11-05T05:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20235960",
@@ -4270,7 +4270,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-05T03:20:59+00:00",
-        "last_seen": "2026-11-05T05:31:05+00:00"
+        "last_seen": "2026-11-05T05:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20256759",
@@ -4285,7 +4285,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-05T03:10:59+00:00",
-        "last_seen": "2026-11-05T05:31:05+00:00"
+        "last_seen": "2026-11-05T05:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217498",
@@ -4300,7 +4300,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-05T01:40:55+00:00",
-        "last_seen": "2026-11-05T05:31:05+00:00"
+        "last_seen": "2026-11-05T05:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20254893",
@@ -4345,7 +4345,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 45% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-04T21:51:00+00:00",
-        "last_seen": "2026-11-05T05:31:05+00:00"
+        "last_seen": "2026-11-05T05:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20251170",
@@ -4525,7 +4525,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-04T16:41:10+00:00",
-        "last_seen": "2026-11-05T05:31:05+00:00"
+        "last_seen": "2026-11-05T05:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245581",
@@ -4690,7 +4690,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T23:41:03+00:00",
-        "last_seen": "2026-11-05T05:31:05+00:00"
+        "last_seen": "2026-11-05T05:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20248770",
@@ -4900,7 +4900,7 @@
         "published": false,
         "reject_reason": "H7: Under Armour 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-03T18:50:57+00:00",
-        "last_seen": "2026-11-05T05:31:05+00:00"
+        "last_seen": "2026-11-05T05:41:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20243727",
