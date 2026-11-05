@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T16:11:03.524151+00:00",
-  "count": 89,
+  "generated_at": "2026-11-05T16:11:39.368810+00:00",
+  "count": 91,
   "deals": [
     {
       "source": "6pm.com",
@@ -365,7 +365,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-01T17:41:17.681788+00:00",
-      "last_seen": "2026-11-05T15:32:06.297853+00:00",
+      "last_seen": "2026-11-05T16:11:38.125822+00:00",
       "posted_at": "",
       "signals": {},
       "id": "4fc7c03226",
@@ -1058,6 +1058,82 @@
     {
       "source": "zappos.com",
       "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10024489",
+      "title": "FMF Mexico Alphaskin Hoodie (Little Kid/Big Kid)",
+      "brand": "adidas",
+      "category": "sports_outdoor",
+      "image": "https://m.media-amazon.com/images/I/61FhahbBN4L._AC_SR255,340_.jpg",
+      "price_current": 16.5,
+      "price_list": 55.0,
+      "price_baseline": 55.0,
+      "price_alltime_low": 16.5,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 22115,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10024489",
+      "discount_pct": 70.0,
+      "score": 78,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-30T16:51:20.542706+00:00",
+      "last_seen": "2026-11-05T16:11:38.125822+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "2e7b956e2f",
+      "history": [
+        [
+          "2026-10-30",
+          16.5
+        ],
+        [
+          "2026-10-31",
+          16.5
+        ],
+        [
+          "2026-11-01",
+          16.5
+        ],
+        [
+          "2026-11-02",
+          16.5
+        ],
+        [
+          "2026-11-04",
+          16.5
+        ],
+        [
+          "2026-11-05",
+          16.5
+        ]
+      ]
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
       "url": "https://www.zappos.com/product/10043563",
       "title": "Essential Voyage 6\" Brief Lined Volley (Big Kid)",
       "brand": "Nike",
@@ -1256,17 +1332,17 @@
       ]
     },
     {
-      "source": "zappos.com",
+      "source": "nordstromrack.com",
       "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10024489",
-      "title": "FMF Mexico Alphaskin Hoodie (Little Kid/Big Kid)",
-      "brand": "adidas",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/61FhahbBN4L._AC_SR255,340_.jpg",
-      "price_current": 16.5,
-      "price_list": 55.0,
-      "price_baseline": 55.0,
-      "price_alltime_low": 16.5,
+      "url": "https://www.nordstromrack.com/s/ugg-classic-streetscape-bootie-women/8481813",
+      "title": "Classic StreetScape Bootie",
+      "brand": "Ugg",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/21bc5007-e229-45cd-9476-e8d0d9af6dbf.jpeg?h=368&w=240&dpr=2",
+      "price_current": 99.99,
+      "price_list": 200.0,
+      "price_baseline": 200.0,
+      "price_alltime_low": 99.99,
       "currency": "USD",
       "coupon_code": "",
       "coupon_stackable": false,
@@ -1277,7 +1353,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 22175,
+      "krw_effective": 134018,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -1285,43 +1361,49 @@
       "collection_method": "scrape",
       "frontpage": false,
       "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10024489",
-      "discount_pct": 70.0,
-      "score": 78,
+      "brand_tier": "premium",
+      "buy_url": "https://www.nordstromrack.com/s/ugg-classic-streetscape-bootie-women/8481813",
+      "discount_pct": 50.0,
+      "score": 75,
       "score_breakdown": {
-        "discount_depth": 30,
+        "discount_depth": 18,
         "price_history": 25,
-        "category": 17,
+        "category": 20,
         "bonus": 0,
-        "brand": 6
+        "brand": 12
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-10-30T16:51:20.542706+00:00",
-      "last_seen": "2026-11-04T17:41:49.540894+00:00",
-      "id": "2e7b956e2f",
+      "detected_at": "2026-10-31T21:11:21.533925+00:00",
+      "last_seen": "2026-11-05T16:11:38.125822+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "bfacc2b04a",
       "history": [
         [
-          "2026-10-30",
-          16.5
-        ],
-        [
           "2026-10-31",
-          16.5
+          99.99
         ],
         [
           "2026-11-01",
-          16.5
+          99.99
         ],
         [
           "2026-11-02",
-          16.5
+          99.99
+        ],
+        [
+          "2026-11-03",
+          99.99
         ],
         [
           "2026-11-04",
-          16.5
+          99.99
+        ],
+        [
+          "2026-11-05",
+          99.99
         ]
       ]
     },
@@ -1520,82 +1602,6 @@
         [
           "2026-11-05",
           29.99
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/ugg-classic-streetscape-bootie-women/8481813",
-      "title": "Classic StreetScape Bootie",
-      "brand": "Ugg",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/21bc5007-e229-45cd-9476-e8d0d9af6dbf.jpeg?h=368&w=240&dpr=2",
-      "price_current": 99.99,
-      "price_list": 200.0,
-      "price_baseline": 200.0,
-      "price_alltime_low": 99.99,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 134018,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/ugg-classic-streetscape-bootie-women/8481813",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-31T21:11:21.533925+00:00",
-      "last_seen": "2026-11-05T15:32:06.297853+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "bfacc2b04a",
-      "history": [
-        [
-          "2026-10-31",
-          99.99
-        ],
-        [
-          "2026-11-01",
-          99.99
-        ],
-        [
-          "2026-11-02",
-          99.99
-        ],
-        [
-          "2026-11-03",
-          99.99
-        ],
-        [
-          "2026-11-04",
-          99.99
-        ],
-        [
-          "2026-11-05",
-          99.99
         ]
       ]
     },
@@ -3147,7 +3153,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-03T08:31:18.097836+00:00",
-      "last_seen": "2026-11-05T15:32:06.297853+00:00",
+      "last_seen": "2026-11-05T16:11:38.125822+00:00",
       "posted_at": "",
       "signals": {},
       "id": "0209ff311b",
@@ -3212,7 +3218,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-05T06:11:17.077526+00:00",
-      "last_seen": "2026-11-05T15:32:06.297853+00:00",
+      "last_seen": "2026-11-05T16:11:38.125822+00:00",
       "posted_at": "",
       "signals": {},
       "id": "1a8d55d385",
@@ -3977,6 +3983,67 @@
     {
       "source": "zappos.com",
       "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10020896",
+      "title": "Woven Cargo Shorts Style Star (Big Kid)",
+      "brand": "Nike",
+      "category": "sports_outdoor",
+      "image": "https://m.media-amazon.com/images/I/71MLJrWSGiL._AC_SR255,340_.jpg",
+      "price_current": 12.0,
+      "price_list": 40.0,
+      "price_baseline": 40.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 16084,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10020896",
+      "discount_pct": 70.0,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-02T00:41:09.330559+00:00",
+      "last_seen": "2026-11-05T16:11:38.125822+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "4894113671",
+      "history": [
+        [
+          "2026-11-02",
+          12.0
+        ],
+        [
+          "2026-11-05",
+          12.0
+        ]
+      ]
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
       "url": "https://www.zappos.com/product/9816662",
       "title": "Ultraboost 1.0",
       "brand": "adidas",
@@ -4156,65 +4223,6 @@
       ]
     },
     {
-      "source": "slickdeals:dickssportinggoods",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20244036",
-      "title": "Nike Women's Sportswear Oversized High-Waisted Woven Pants for $22 at Dick's Sporting Goods",
-      "brand": "Nike",
-      "category": "sports_outdoor",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20244036&t=15",
-      "price_current": 22.0,
-      "price_list": 85.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 29566,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20244036",
-      "discount_pct": 74.1,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-03T14:50:42.110101+00:00",
-      "last_seen": "2026-11-04T23:51:00.652908+00:00",
-      "id": "ce3855a6c3",
-      "history": [
-        [
-          "2026-11-03",
-          22.0
-        ],
-        [
-          "2026-11-04",
-          22.0
-        ]
-      ]
-    },
-    {
       "source": "zappos.com",
       "source_tier": "T2",
       "url": "https://www.zappos.com/product/10046465",
@@ -4370,7 +4378,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-05T08:51:45.871724+00:00",
-      "last_seen": "2026-11-05T15:32:06.297853+00:00",
+      "last_seen": "2026-11-05T16:11:38.125822+00:00",
       "posted_at": "",
       "signals": {},
       "id": "b62cdde829",
@@ -4380,6 +4388,117 @@
           79.98
         ]
       ]
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Polo-Ralph-Lauren-Mens-Bedford-Leather-Suede-Sneakers-for-64-free-shipping/22351199.html?iref=rss",
+      "title": "Polo Ralph Lauren Men's Bedford Leather & Suede Sneakers for $64 + free shipping",
+      "brand": "Polo Ralph Lauren",
+      "category": "premium_fashion",
+      "image": "https://d.dlnws.com/64599/1793894771-product-trimmed.jpg?h=185&w=250",
+      "price_current": 64.0,
+      "price_list": 128.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 85780,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/Polo-Ralph-Lauren-Mens-Bedford-Leather-Suede-Sneakers-for-64-free-shipping/22351199.html?iref=rss",
+      "discount_pct": 50.0,
+      "score": 57,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-05T16:11:19.743801+00:00",
+      "last_seen": "2026-11-05T16:11:38.125822+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "711a02ba92",
+      "history": [
+        [
+          "2026-11-05",
+          64.0
+        ]
+      ]
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Clarks-Mens-Shoes-Flash-Sale-Deals-at-Macys-50-off-free-shipping-w-39/22351156.html?iref=rss",
+      "title": "Clarks Men's Shoes Flash Sale Deals at Macy's: 50% off + free shipping w/ $39",
+      "brand": "Clarks",
+      "category": "premium_fashion",
+      "image": "https://d.dlnws.com/64599/1793893326-product-trimmed.jpg?h=127&w=250",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Clarks-Mens-Shoes-Flash-Sale-Deals-at-Macys-50-off-free-shipping-w-39/22351156.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-05T16:11:19.494007+00:00",
+      "last_seen": "2026-11-05T16:11:38.125822+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "a067f1eea8",
+      "history": []
     },
     {
       "source": "dealnews",
@@ -4428,7 +4547,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-05T15:31:46.898186+00:00",
-      "last_seen": "2026-11-05T15:32:06.297853+00:00",
+      "last_seen": "2026-11-05T16:11:38.125822+00:00",
       "posted_at": "",
       "signals": {},
       "id": "1cb2c0b297",
@@ -4436,6 +4555,64 @@
         [
           "2026-11-05",
           30.0
+        ]
+      ]
+    },
+    {
+      "source": "techbargains:amazon",
+      "source_tier": "T2",
+      "url": "https://www.amazon.com/gp/product/B0F4LWBHFP/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+      "title": "New Balance Men's Lightweight Running Shoe $59.99",
+      "brand": "New Balance",
+      "category": "premium_fashion",
+      "image": "https://www.techbargains.com/imagery/deals/273751.1793871500.fit_lim.size_125x125.jpg",
+      "price_current": 59.99,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 80405,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/gp/product/B0F4LWBHFP/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-05T10:11:37.168245+00:00",
+      "last_seen": "2026-11-05T16:11:38.125822+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "eaed1522c3",
+      "history": [
+        [
+          "2026-11-05",
+          59.99
         ]
       ]
     },
@@ -4607,64 +4784,6 @@
       "signals": {},
       "id": "8539427d79",
       "history": []
-    },
-    {
-      "source": "techbargains:amazon",
-      "source_tier": "T2",
-      "url": "https://www.amazon.com/gp/product/B0F4LWBHFP/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
-      "title": "New Balance Men's Lightweight Running Shoe $59.99",
-      "brand": "New Balance",
-      "category": "premium_fashion",
-      "image": "https://www.techbargains.com/imagery/deals/273751.1793871500.fit_lim.size_125x125.jpg",
-      "price_current": 59.99,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 80405,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/gp/product/B0F4LWBHFP/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-05T10:11:37.168245+00:00",
-      "last_seen": "2026-11-05T15:32:06.297853+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "eaed1522c3",
-      "history": [
-        [
-          "2026-11-05",
-          59.99
-        ]
-      ]
     },
     {
       "source": "dealnews",
@@ -5572,12 +5691,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-05T16:10:33+00:00",
-      "T2": "2026-11-05T15:31:19+00:00",
+      "T2": "2026-11-05T16:11:05+00:00",
       "T3": "2026-11-05T15:02:05+00:00",
       "T4": "2026-11-05T15:03:06+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       1,
       1,
@@ -5606,14 +5724,15 @@
       9,
       10,
       10,
-      9
+      9,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-05T16:11:03+00:00",
+      "at": "2026-11-05T16:11:38+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -5622,7 +5741,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-05T16:11:03+00:00"
+      "at": "2026-11-05T16:11:38+00:00"
     }
   },
   "email_monitor": {
