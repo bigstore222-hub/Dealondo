@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T12:21:17.323255+00:00",
+  "generated_at": "2026-11-05T12:31:09.725223+00:00",
   "count": 86,
   "deals": [
     {
@@ -852,53 +852,6 @@
       "last_seen": "2026-11-04T17:41:49.540894+00:00"
     },
     {
-      "source": "amazon.com",
-      "source_tier": "T1",
-      "url": "https://www.amazon.com/Cancelling-Bluetooth-Transparency-Headphones-Earphones/dp/B0HGXTDJF8",
-      "title": "Hybrid Active Noise Cancelling Wireless Ear Buds 80 Hrs Playtime Hi-Res Stereo Quality Bluetooth Earbuds with Transparen",
-      "brand": "",
-      "category": "electronics",
-      "image": "https://m.media-amazon.com/images/I/71A-GJ3iNWL._AC_SR255,340_.jpg",
-      "price_current": 49.99,
-      "price_list": 199.99,
-      "price_baseline": 199.99,
-      "price_alltime_low": 49.99,
-      "currency": "USD",
-      "coupon_code": "쿠폰 50% 추가할인",
-      "coupon_stackable": true,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 67183,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.amazon.com/Cancelling-Bluetooth-Transparency-Headphones-Earphones/dp/B0HGXTDJF8",
-      "discount_pct": 75.0,
-      "score": 78,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 15,
-        "bonus": 8,
-        "brand": 0
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-26T12:30:46.305071+00:00",
-      "last_seen": "2026-11-04T17:01:23.571196+00:00"
-    },
-    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20260029",
@@ -945,7 +898,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-05T12:10:41.002156+00:00",
-      "last_seen": "2026-11-05T12:21:15.736869+00:00"
+      "last_seen": "2026-11-05T12:31:09.696323+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -1283,7 +1236,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-05T08:20:40.124066+00:00",
-      "last_seen": "2026-11-05T12:21:15.736869+00:00"
+      "last_seen": "2026-11-05T12:31:09.696323+00:00"
     },
     {
       "source": "6pm.com",
@@ -2910,7 +2863,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-05T06:20:35.814450+00:00",
-      "last_seen": "2026-11-05T12:21:15.736869+00:00"
+      "last_seen": "2026-11-05T12:31:09.696323+00:00"
     },
     {
       "source": "zappos.com",
@@ -3247,6 +3200,53 @@
       "urgency": "STEADY",
       "detected_at": "2026-11-03T21:41:38.644355+00:00",
       "last_seen": "2026-11-03T21:42:04.316537+00:00"
+    },
+    {
+      "source": "slickdeals:walmart.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20235960",
+      "title": "WHALL 20 Bar Touchscreen Espresso Machine & Coffee Maker (2 Colors) for $70 at Walmart",
+      "brand": "",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20235960&t=15",
+      "price_current": 70.0,
+      "price_list": 158.0,
+      "price_baseline": null,
+      "price_alltime_low": 70.0,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 93822,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20235960",
+      "discount_pct": 55.7,
+      "score": 58,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": 25,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-10-31T13:20:40.333149+00:00",
+      "last_seen": "2026-11-05T12:31:09.696323+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -4131,7 +4131,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-05T12:20:39+00:00",
+      "T1": "2026-11-05T12:30:39+00:00",
       "T2": "2026-11-05T12:11:06+00:00",
       "T3": "2026-11-05T10:41:11+00:00",
       "T4": "2026-11-05T08:52:04+00:00"
@@ -4165,21 +4165,22 @@
       10,
       10,
       1,
-      9
+      9,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-05T12:21:15+00:00",
+      "at": "2026-11-05T12:31:09+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-05T12:20:55+00:00",
+        "at": "2026-11-05T12:30:47+00:00",
         "state": "정상",
         "mails": 14,
         "deals": 14
@@ -4205,7 +4206,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-11-05T12:01:16+00:00",
-        "last_seen": "2026-11-05T12:21:15+00:00"
+        "last_seen": "2026-11-05T12:31:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20257404",
@@ -4220,7 +4221,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-05T07:10:58+00:00",
-        "last_seen": "2026-11-05T12:21:15+00:00"
+        "last_seen": "2026-11-05T12:31:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20258220",
@@ -4235,7 +4236,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-05T06:20:58+00:00",
-        "last_seen": "2026-11-05T12:21:15+00:00"
+        "last_seen": "2026-11-05T12:31:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20255058",
@@ -4250,7 +4251,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-05T05:01:16+00:00",
-        "last_seen": "2026-11-05T12:21:15+00:00"
+        "last_seen": "2026-11-05T12:31:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20235795",
@@ -4265,7 +4266,7 @@
         "published": false,
         "reject_reason": "H8: 할인 15% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-05T04:40:55+00:00",
-        "last_seen": "2026-11-05T12:21:15+00:00"
+        "last_seen": "2026-11-05T12:31:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20208357",
@@ -4280,7 +4281,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-05T04:20:55+00:00",
-        "last_seen": "2026-11-05T12:21:15+00:00"
+        "last_seen": "2026-11-05T12:31:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20213640",
@@ -4295,7 +4296,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-05T03:50:55+00:00",
-        "last_seen": "2026-11-05T12:21:15+00:00"
+        "last_seen": "2026-11-05T12:31:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20235960",
@@ -4310,7 +4311,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-05T03:20:59+00:00",
-        "last_seen": "2026-11-05T12:21:15+00:00"
+        "last_seen": "2026-11-05T12:31:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20256759",
@@ -4325,7 +4326,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-05T03:10:59+00:00",
-        "last_seen": "2026-11-05T12:21:15+00:00"
+        "last_seen": "2026-11-05T12:31:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217498",
@@ -4340,7 +4341,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-05T01:40:55+00:00",
-        "last_seen": "2026-11-05T12:21:15+00:00"
+        "last_seen": "2026-11-05T12:31:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20254893",
@@ -4385,7 +4386,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 45% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-04T21:51:00+00:00",
-        "last_seen": "2026-11-05T12:21:15+00:00"
+        "last_seen": "2026-11-05T12:31:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20251170",
@@ -4565,7 +4566,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-04T16:41:10+00:00",
-        "last_seen": "2026-11-05T12:21:15+00:00"
+        "last_seen": "2026-11-05T12:31:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245581",
@@ -4730,7 +4731,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T23:41:03+00:00",
-        "last_seen": "2026-11-05T12:21:15+00:00"
+        "last_seen": "2026-11-05T12:31:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20248770",
@@ -4940,7 +4941,7 @@
         "published": false,
         "reject_reason": "H7: Under Armour 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-03T18:50:57+00:00",
-        "last_seen": "2026-11-05T12:21:15+00:00"
+        "last_seen": "2026-11-05T12:31:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20243727",
