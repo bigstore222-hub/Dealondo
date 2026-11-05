@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T11:31:12.063993+00:00",
+  "generated_at": "2026-11-05T11:31:46.750934+00:00",
   "count": 86,
   "deals": [
     {
@@ -235,7 +235,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-01T17:41:17.681788+00:00",
-      "last_seen": "2026-11-05T08:11:38.336702+00:00"
+      "last_seen": "2026-11-05T11:31:45.969743+00:00"
     },
     {
       "source": "zappos.com",
@@ -943,7 +943,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-31T21:11:21.533925+00:00",
-      "last_seen": "2026-11-05T10:51:31.476242+00:00"
+      "last_seen": "2026-11-05T11:31:45.969743+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -2190,7 +2190,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-03T08:31:18.097836+00:00",
-      "last_seen": "2026-11-05T10:51:31.476242+00:00"
+      "last_seen": "2026-11-05T11:31:45.969743+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2238,7 +2238,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-05T06:11:17.077526+00:00",
-      "last_seen": "2026-11-05T10:51:31.476242+00:00"
+      "last_seen": "2026-11-05T11:31:45.969743+00:00"
     },
     {
       "source": "zappos.com",
@@ -2865,6 +2865,54 @@
       "last_seen": "2026-11-03T18:21:42.586572+00:00"
     },
     {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/9816662",
+      "title": "Ultraboost 1.0",
+      "brand": "adidas",
+      "category": "sports_outdoor",
+      "image": "https://m.media-amazon.com/images/I/61eesMd1+cL._AC_SR255,340_.jpg",
+      "price_current": 54.0,
+      "price_list": 180.0,
+      "price_baseline": 180.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": 5.0,
+      "review_count": 1452,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 72377,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/9816662",
+      "discount_pct": 70.0,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-04T15:41:22.252547+00:00",
+      "last_seen": "2026-11-05T11:31:45.969743+00:00"
+    },
+    {
       "source": "slickdeals:costcowholesale",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20258220",
@@ -3153,54 +3201,6 @@
       "last_seen": "2026-11-04T23:02:02.575042+00:00"
     },
     {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/9816662",
-      "title": "Ultraboost 1.0",
-      "brand": "adidas",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/61eesMd1+cL._AC_SR255,340_.jpg",
-      "price_current": 54.0,
-      "price_list": 180.0,
-      "price_baseline": 180.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": 5.0,
-      "review_count": 1451,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 72572,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/9816662",
-      "discount_pct": 70.0,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-04T15:41:22.252547+00:00",
-      "last_seen": "2026-11-04T18:21:37.158829+00:00"
-    },
-    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/skechers-go-run-supersonic-max-running-shoe-men/8577716",
@@ -3343,7 +3343,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-05T10:11:37.168245+00:00",
-      "last_seen": "2026-11-05T10:51:31.476242+00:00"
+      "last_seen": "2026-11-05T11:31:45.969743+00:00"
     },
     {
       "source": "dealnews",
@@ -4132,12 +4132,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-05T11:30:42+00:00",
-      "T2": "2026-11-05T10:51:00+00:00",
+      "T2": "2026-11-05T11:31:13+00:00",
       "T3": "2026-11-05T10:41:11+00:00",
       "T4": "2026-11-05T08:52:04+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       1,
       9,
@@ -4166,14 +4165,15 @@
       10,
       10,
       10,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-05T11:31:12+00:00",
+      "at": "2026-11-05T11:31:45+00:00",
       "last_error": "HTTP 404"
     }
   },
