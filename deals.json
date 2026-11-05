@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T14:51:41.922252+00:00",
-  "count": 89,
+  "generated_at": "2026-11-05T15:02:03.268588+00:00",
+  "count": 88,
   "deals": [
     {
       "source": "6pm.com",
@@ -391,68 +391,6 @@
       ]
     },
     {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10015252",
-      "title": "Jessa Two Band Sandals",
-      "brand": "Tory Burch",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61QHaMFgaFL._AC_SR255,340_.jpg",
-      "price_current": 112.5,
-      "price_list": 375.0,
-      "price_baseline": 375.0,
-      "price_alltime_low": 112.5,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 151214,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.zappos.com/product/10015252",
-      "discount_pct": 70.0,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-10-29T06:11:01.747478+00:00",
-      "last_seen": "2026-11-03T15:01:58.632612+00:00",
-      "id": "3f6e5a34d7",
-      "history": [
-        [
-          "2026-10-29",
-          112.5
-        ],
-        [
-          "2026-10-30",
-          112.5
-        ],
-        [
-          "2026-11-03",
-          112.5
-        ]
-      ]
-    },
-    {
       "source": "6pm.com",
       "source_tier": "T3",
       "url": "https://www.6pm.com/product/10034505",
@@ -677,16 +615,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-05T13:20:36.992825+00:00",
-      "last_seen": "2026-11-05T14:51:02.424800+00:00",
+      "last_seen": "2026-11-05T15:02:03.240055+00:00",
       "posted_at": "2026-11-05T13:08:01+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": false,
-        "sd_age_min": 103,
+        "sd_age_min": 114,
         "sd_votes": 14,
-        "sd_velocity": 8.2,
+        "sd_velocity": 7.4,
         "sd_fp_min": 53
       },
       "id": "1df99992a9",
@@ -1384,6 +1322,204 @@
       ]
     },
     {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20260599",
+      "title": "5 Pack Men's Sweatpants with Zipper Pockets $23.50",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/9/5/6/6/2/2/0/300x300/22226349.thumb",
+      "price_current": 23.5,
+      "price_list": 47.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "VYYJ0B2W",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 0,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 31497,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20260599",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 VYYJ0B2W → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-05T13:50:45.892728+00:00",
+      "last_seen": "2026-11-05T15:02:03.240055+00:00",
+      "posted_at": "2026-11-05T13:43:38+00:00",
+      "signals": {
+        "sd_feeds": [
+          "hotdeals"
+        ],
+        "sd_hot_origin": true,
+        "sd_age_min": 78,
+        "sd_votes": 0,
+        "sd_velocity": 0.0
+      },
+      "id": "0ad4fd03e9",
+      "history": [
+        [
+          "2026-11-05",
+          23.5
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20260587",
+      "title": "Wide Leg Yoga Pants for Women with Pockets High Waisted $18.50",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/9/5/6/6/2/2/0/300x300/22226295.thumb",
+      "price_current": 18.5,
+      "price_list": 37.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "CVA8MRA7",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 0,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 24796,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20260587",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 CVA8MRA7 → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-05T13:50:45.892728+00:00",
+      "last_seen": "2026-11-05T15:02:03.240055+00:00",
+      "posted_at": "2026-11-05T13:38:29+00:00",
+      "signals": {
+        "sd_feeds": [
+          "hotdeals"
+        ],
+        "sd_hot_origin": true,
+        "sd_age_min": 83,
+        "sd_votes": 0,
+        "sd_velocity": 0.0
+      },
+      "id": "85f510de9d",
+      "history": [
+        [
+          "2026-11-05",
+          18.5
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20260539",
+      "title": "Homelove Warming Mat for Food - Waterproof Food Warmer for Buffets, Parties $29.99",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/9/5/6/6/2/2/0/300x300/22226208.thumb",
+      "price_current": 29.99,
+      "price_list": 59.98,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "2T1PMD14",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 0,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 40196,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20260539",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 2T1PMD14 → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-05T13:50:45.892728+00:00",
+      "last_seen": "2026-11-05T15:02:03.240055+00:00",
+      "posted_at": "2026-11-05T13:29:16+00:00",
+      "signals": {
+        "sd_feeds": [
+          "hotdeals"
+        ],
+        "sd_hot_origin": true,
+        "sd_age_min": 92,
+        "sd_votes": 0,
+        "sd_velocity": 0.0
+      },
+      "id": "a964cb752d",
+      "history": [
+        [
+          "2026-11-05",
+          29.99
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/ugg-classic-streetscape-bootie-women/8481813",
@@ -1456,204 +1592,6 @@
         [
           "2026-11-05",
           99.99
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20260599",
-      "title": "5 Pack Men's Sweatpants with Zipper Pockets $23.50",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/9/5/6/6/2/2/0/300x300/22226349.thumb",
-      "price_current": 23.5,
-      "price_list": 47.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "VYYJ0B2W",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 0,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 31497,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20260599",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 VYYJ0B2W → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-05T13:50:45.892728+00:00",
-      "last_seen": "2026-11-05T14:51:02.424800+00:00",
-      "posted_at": "2026-11-05T13:43:38+00:00",
-      "signals": {
-        "sd_feeds": [
-          "hotdeals"
-        ],
-        "sd_hot_origin": true,
-        "sd_age_min": 67,
-        "sd_votes": 0,
-        "sd_velocity": 0.0
-      },
-      "id": "0ad4fd03e9",
-      "history": [
-        [
-          "2026-11-05",
-          23.5
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20260587",
-      "title": "Wide Leg Yoga Pants for Women with Pockets High Waisted $18.50",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/9/5/6/6/2/2/0/300x300/22226295.thumb",
-      "price_current": 18.5,
-      "price_list": 37.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "CVA8MRA7",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 0,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 24796,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20260587",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 CVA8MRA7 → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-05T13:50:45.892728+00:00",
-      "last_seen": "2026-11-05T14:51:02.424800+00:00",
-      "posted_at": "2026-11-05T13:38:29+00:00",
-      "signals": {
-        "sd_feeds": [
-          "hotdeals"
-        ],
-        "sd_hot_origin": true,
-        "sd_age_min": 72,
-        "sd_votes": 0,
-        "sd_velocity": 0.0
-      },
-      "id": "85f510de9d",
-      "history": [
-        [
-          "2026-11-05",
-          18.5
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20260539",
-      "title": "Homelove Warming Mat for Food - Waterproof Food Warmer for Buffets, Parties $29.99",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/9/5/6/6/2/2/0/300x300/22226208.thumb",
-      "price_current": 29.99,
-      "price_list": 59.98,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "2T1PMD14",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 0,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 40196,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20260539",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 2T1PMD14 → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-05T13:50:45.892728+00:00",
-      "last_seen": "2026-11-05T14:51:02.424800+00:00",
-      "posted_at": "2026-11-05T13:29:16+00:00",
-      "signals": {
-        "sd_feeds": [
-          "hotdeals"
-        ],
-        "sd_hot_origin": true,
-        "sd_age_min": 81,
-        "sd_votes": 0,
-        "sd_velocity": 0.0
-      },
-      "id": "a964cb752d",
-      "history": [
-        [
-          "2026-11-05",
-          29.99
         ]
       ]
     },
@@ -3069,7 +3007,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-05T06:20:35.814450+00:00",
-      "last_seen": "2026-11-05T14:51:02.424800+00:00",
+      "last_seen": "2026-11-05T15:02:03.240055+00:00",
       "posted_at": "",
       "signals": {},
       "id": "5af7b8d34a",
@@ -5551,13 +5489,12 @@
   "fx_usd_krw": 1340.3,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-05T14:50:33+00:00",
+      "T1": "2026-11-05T15:00:49+00:00",
       "T2": "2026-11-05T14:51:04+00:00",
       "T3": "2026-11-05T12:51:49+00:00",
       "T4": "2026-11-05T08:52:04+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       1,
       7,
@@ -5586,14 +5523,15 @@
       10,
       10,
       10,
-      1
+      1,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-05T14:51:40+00:00",
+      "at": "2026-11-05T15:02:03+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -5602,13 +5540,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-05T14:51:40+00:00"
+      "at": "2026-11-05T15:02:03+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-05T14:50:40+00:00",
+        "at": "2026-11-05T15:01:41+00:00",
         "state": "정상",
         "mails": 15,
         "deals": 15
@@ -5634,7 +5572,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 45% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-05T13:41:00+00:00",
-        "last_seen": "2026-11-05T14:51:02+00:00"
+        "last_seen": "2026-11-05T15:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20257035",
@@ -5649,7 +5587,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-11-05T12:01:16+00:00",
-        "last_seen": "2026-11-05T14:51:02+00:00"
+        "last_seen": "2026-11-05T15:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20257404",
@@ -5664,7 +5602,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-05T07:10:58+00:00",
-        "last_seen": "2026-11-05T14:51:02+00:00"
+        "last_seen": "2026-11-05T15:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20258220",
@@ -5679,7 +5617,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-05T06:20:58+00:00",
-        "last_seen": "2026-11-05T14:51:02+00:00"
+        "last_seen": "2026-11-05T15:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20255058",
@@ -5694,7 +5632,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-05T05:01:16+00:00",
-        "last_seen": "2026-11-05T14:51:02+00:00"
+        "last_seen": "2026-11-05T15:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20235795",
@@ -5709,7 +5647,7 @@
         "published": false,
         "reject_reason": "H8: 할인 15% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-05T04:40:55+00:00",
-        "last_seen": "2026-11-05T14:51:02+00:00"
+        "last_seen": "2026-11-05T15:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20208357",
@@ -5724,7 +5662,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-05T04:20:55+00:00",
-        "last_seen": "2026-11-05T14:51:02+00:00"
+        "last_seen": "2026-11-05T15:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20213640",
@@ -5739,7 +5677,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-05T03:50:55+00:00",
-        "last_seen": "2026-11-05T14:51:02+00:00"
+        "last_seen": "2026-11-05T15:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20235960",
@@ -5754,7 +5692,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-05T03:20:59+00:00",
-        "last_seen": "2026-11-05T14:51:02+00:00"
+        "last_seen": "2026-11-05T15:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20256759",
@@ -5769,7 +5707,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-05T03:10:59+00:00",
-        "last_seen": "2026-11-05T14:51:02+00:00"
+        "last_seen": "2026-11-05T15:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217498",
@@ -5784,7 +5722,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-05T01:40:55+00:00",
-        "last_seen": "2026-11-05T14:51:02+00:00"
+        "last_seen": "2026-11-05T15:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20254893",
@@ -5829,7 +5767,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 45% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-04T21:51:00+00:00",
-        "last_seen": "2026-11-05T14:51:02+00:00"
+        "last_seen": "2026-11-05T15:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20251170",
@@ -6009,7 +5947,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-04T16:41:10+00:00",
-        "last_seen": "2026-11-05T14:51:02+00:00"
+        "last_seen": "2026-11-05T15:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245581",
@@ -6174,7 +6112,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T23:41:03+00:00",
-        "last_seen": "2026-11-05T14:51:02+00:00"
+        "last_seen": "2026-11-05T15:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20248770",
@@ -6384,7 +6322,7 @@
         "published": false,
         "reject_reason": "H7: Under Armour 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-03T18:50:57+00:00",
-        "last_seen": "2026-11-05T14:51:02+00:00"
+        "last_seen": "2026-11-05T15:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20243727",
