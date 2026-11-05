@@ -115,6 +115,13 @@ def format_deal(d) -> str:
         tags.append("📉 역대최저")
     if d.expires_at:
         tags.append(f"⏰ ~{_esc(d.expires_at)[:16].replace('T', ' ')}")
+    sig = getattr(d, "signals", None) or {}
+    if sig.get("sd_age_min") is not None and "hotdeals" in (sig.get("sd_feeds") or []):
+        tags.append(f"⚡ Hot Deals {sig.get('sd_age_min')}분 전 · 추천 {sig.get('sd_votes', 0)}")
+    if getattr(d, "frontpage", False):
+        tags.append("🏠 프론트페이지")
+    if sig.get("reddit_low"):
+        tags.append(f"📊 레딧 과거 최저 ${sig['reddit_low']:,.2f} ({sig.get('reddit_count', 0)}건)")
     if tags:
         lines.append(" · ".join(tags))
 

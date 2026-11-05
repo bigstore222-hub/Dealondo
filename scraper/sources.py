@@ -20,6 +20,7 @@ from urllib.parse import urlparse
 from typing import Optional
 import xml.etree.ElementTree as ET
 import re
+from datetime import timezone
 
 # 어떤 네트워크 호출도 무한 대기하지 않도록 전역 소켓 타임아웃을 건다.
 # (타임아웃 인자를 깜빡한 호출이나 라이브러리 내부 호출까지 보호 → CI 행 방지)
@@ -530,10 +531,16 @@ def fetch_dealsofamerica(limit: int = 600, enrich_top: int = 10,
 #    frontpage = 커뮤니티가 투표로 검증한 '가장 뜨거운 딜' → 아마존 코드딜의 원천.
 #    링크는 슬릭딜 딜페이지로 되돌려 준다(피드의 본래 용도 존중 + 출처 표기).
 # ---------------------------------------------------------------------------
+# 순서가 곧 우선순위다.
+#  · hotdeals  = Hot Deals 포럼 새 글. 올라오자마자 잡히는 가장 빠른 경로(피드 25건 ≈ 최근 30분).
+#               해외직구는 품절 전에 사는 게 핵심이라 이걸 주 소스로 본다.
+#  · frontpage = 추천이 붙어 편집자가 올린 글. 이미 뜬 딜이라 늦을 수 있어 '확신을 높이는 신호'로 쓴다.
+#  (Popular 목록은 RSS 경로가 robots.txt 로 막혀 있어 쓰지 않는다 → 대신 추천 증가 속도로 인기를 잰다.)
 SLICKDEALS_FEEDS = [
+    ("hotdeals", "https://feeds.feedburner.com/SlickdealsnetForums-9"),
     ("frontpage", "https://feeds.feedburner.com/SlickdealsnetFP"),
-    ("popular", "https://feeds.feedburner.com/SlickdealsnetForums-9"),
 ]
+_SD_PUBDATE = re.compile(r"<pubDate>(.*?)</pubDate>", re.S)
 _SD_RETAILER = re.compile(r'<description>\s*https?://(?:www\.|m\.)?([^/<\s]+)', re.I)
 _SD_THUMB = re.compile(r'Thumb Score:\s*([+\-]?\d+)')
 _SD_IMG = re.compile(r'<img[^>]+src="([^"]+)"')
@@ -608,11 +615,12 @@ def parse_slickdeals_item(title: str, link: str, desc: str, content: str,
     )
 
 
-def fetch_slickdeals(limit: int = 50) -> list[Deal]:
-    """슬릭딜 공개 RSS(frontpage/popular)를 읽어 딜로 변환."""
-    import xml.etree.ElementTree as _ET
+def fetch_slickdeals(limit: int = 80) -> list[Deal]:
+    """슬릭딜 공개 RSS(Hot Deals 포럼 → 프론트페이지)를 읽어 딜로 변환."""
+    from email.utils import parsedate_to_datetime as _pd
     deals: list[Deal] = []
     seen: set[str] = set()
+    by_thread: dict[str, Deal] = {}
     for name, url in SLICKDEALS_FEEDS:
         try:
             raw = _http_get(url, timeout=12)
@@ -630,14 +638,31 @@ def fetch_slickdeals(limit: int = 50) -> list[Deal]:
             cm = re.search(r"<content:encoded>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</content:encoded>",
                            block, re.S)
             content = cm.group(1) if cm else ""
-            if not (title and link) or link in seen:
+            if not (title and link):
+                continue
+            key = slickdeals_canonical(link.split("?")[0])
+            if key in by_thread:                 # Hot Deals 에서 이미 잡은 글이 프론트페이지에도 올라옴 → 신호만 추가
+                d0 = by_thread[key]
+                d0.frontpage = d0.frontpage or name == "frontpage"
+                d0.signals.setdefault("sd_feeds", []).append(name)
+                continue
+            if link in seen:
                 continue
             seen.add(link)
-            deals.append(parse_slickdeals_item(title, link, desc, content,
-                                                frontpage=(name == "frontpage")))
+            d = parse_slickdeals_item(title, link, desc, content, frontpage=(name == "frontpage"))
+            pm = _SD_PUBDATE.search(block)
+            if pm:
+                try:
+                    d.posted_at = _pd(pm.group(1).strip()).astimezone(timezone.utc).isoformat()
+                except Exception:
+                    pass
+            d.signals["sd_feeds"] = [name]
+            by_thread[key] = d
+            deals.append(d)
             if len(deals) >= limit:
                 break
-    print(f"[slickdeals] RSS {len(deals)}건 수집 (frontpage/popular)")
+    hot = sum(1 for d in deals if "hotdeals" in d.signals.get("sd_feeds", []))
+    print(f"[slickdeals] RSS {len(deals)}건 수집 (Hot Deals {hot} · 프론트페이지 {len(deals) - hot})")
     return deals
 
 

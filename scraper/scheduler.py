@@ -186,10 +186,29 @@ def run_tier(tier: str, con) -> tuple[list, list]:
     store.record_prices(con, raw)
     raw = store.enrich_with_history(con, raw)
 
+    # 슬릭딜 추천 증가 속도(초기 반응) → 점수 신호
+    try:
+        k = store.track_slickdeals(con, raw)
+        if k:
+            print(f"[슬릭딜] 추천 추이 {k}건 갱신")
+    except Exception as e:
+        print(f"[슬릭딜] 추천 추이 오류: {type(e).__name__}: {e}")
+
     # 환율 정규화 + 관부가세 + 국내 최저가 → H2 하드필터 활성화
     raw = pricing.enrich(raw)
 
     scored = fe.process(raw)
+
+    # 레딧 과거 가격(보조 지표) — 아직 알림 안 간 유력 후보만 조회하고, 결과를 반영해 다시 채점한다.
+    try:
+        import reddit_price
+        cands = [d for d in scored if d.passed_hard_filter and d.score >= 60 and d.price_current]
+        cands = store.filter_new(con, cands)
+        if cands and reddit_price.annotate(cands):
+            ids = {id(d) for d in cands}
+            scored = [fe.score_deal(d) if id(d) in ids else d for d in scored]
+    except Exception as e:
+        print(f"[레딧] 과거 가격 조회 오류: {type(e).__name__}: {e}")
 
     # detected_at = '처음 본 시각', last_seen = '지금' 으로 설정 → 최신순 정렬과
     # 신선도(오래된 딜 제외)가 제대로 동작한다.
@@ -272,6 +291,17 @@ def _naver_stats(pipe_old: dict) -> dict:
         st = {}
     if not st.get("queried") and pipe_old.get("naver"):
         return pipe_old["naver"]          # 이번 실행에서 조회가 없었으면 직전 기록 유지
+    return st
+
+
+def _reddit_stats(pipe_old: dict) -> dict:
+    try:
+        import reddit_price
+        st = dict(reddit_price.STATS)
+    except Exception:
+        st = {}
+    if not st.get("queried") and pipe_old.get("reddit"):
+        return pipe_old["reddit"]
     return st
 
 
@@ -416,7 +446,8 @@ def write_board(all_deals: list) -> None:
         gaps.append(gap_min)
     payload = {"generated_at": now.isoformat(), "count": len(deals), "deals": deals,
                "pipeline": {"tier_last_run": tier_runs, "recent_gaps_min": gaps,
-                            "naver": _naver_stats(pipe_old)},
+                            "naver": _naver_stats(pipe_old),
+                            "reddit": _reddit_stats(pipe_old)},
                "email_monitor": _email_monitor(all_deals, old if isinstance(old, dict) else {}, now)}
     os.makedirs(os.path.dirname(WEB_JSON), exist_ok=True)
     tmp = WEB_JSON + ".tmp"

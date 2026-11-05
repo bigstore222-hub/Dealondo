@@ -432,6 +432,8 @@ def publish(st: dict, did: str, chat: str, dry: bool) -> None:
 # ── 업데이트 처리 ────────────────────────────────────────────────────────────
 def handle(st: dict, u: dict, dry: bool) -> None:
     chat = chat_of(u)
+    if chat not in ALLOWED and relevant(u):
+        chat = str(((u.get("callback_query") or {}).get("from") or {}).get("id", ""))
     if chat not in ALLOWED:
         print("  허용되지 않은 대화 — 무시:", chat)
         return
@@ -440,7 +442,16 @@ def handle(st: dict, u: dict, dry: bool) -> None:
         act, _, did = (cq.get("data") or "").partition(":")
         dr = st["drafts"].get(did)
         if not dr or dr.get("msg") != (cq.get("message") or {}).get("message_id"):
-            tg_safe("answerCallbackQuery", callback_query_id=cq["id"], text="만료됐거나 새 미리보기로 바뀐 글이에요.")
+            body = (cq.get("message") or {}).get("text") or ""
+            m = re.search(r"상품 링크:\s*(\S+)", body)
+            if act == "post" and m and (not dr or dr.get("status") not in ("posted", "posting")):
+                tg_safe("answerCallbackQuery", callback_query_id=cq["id"], text="기록을 다시 확인해 새 미리보기를 만들어요")
+                tg_safe("editMessageReplyMarkup", chat_id=chat, message_id=(cq.get("message") or {}).get("message_id"),
+                        reply_markup={"inline_keyboard": []})
+                tg_safe("sendMessage", chat_id=chat, text="🔁 이 미리보기 기록을 찾지 못해 가격을 다시 확인한 새 미리보기를 보낼게요. 새 미리보기에서 ✅ 를 눌러주세요.")
+                new_draft(st, chat, m.group(1), {}, None)
+                return
+            tg_safe("answerCallbackQuery", callback_query_id=cq["id"], text="이미 처리했거나 새 미리보기로 바뀐 글이에요.")
             return
         if act == "cancel":
             tg_safe("answerCallbackQuery", callback_query_id=cq["id"], text="취소했어요")
@@ -605,34 +616,42 @@ def make_pick(st: dict, key: str) -> str | None:
 
 
 def relevant(u: dict) -> bool:
-    return chat_of(u) in ALLOWED
+    if chat_of(u) in ALLOWED:
+        return True
+    # 오래된 메시지의 버튼은 message 가 비어 올 수 있다 → 누른 사람(from.id)으로 확인(개인 대화는 chat id == user id)
+    cq = u.get("callback_query") or {}
+    return str((cq.get("from") or {}).get("id", "")) in ALLOWED
 
 
 def peek() -> int:
-    has, due = False, None
+    """
+    새 메시지·버튼 신호가 있는지 '보기만' 한다(확인 처리하지 않음).
+    예전엔 처리할 게 없어 보이면 여기서 확인 처리해 비웠는데, 그 판단이 틀리면 ✅ 신호가 영영 사라졌다.
+    이제 확인 처리는 실제로 처리한 serve 단계에서만 한다. 조회가 실패해도 serve 를 돌려 다시 시도한다.
+    """
+    has, due, err = False, None, ""
+    for i in range(3):
+        try:
+            ups = _get_updates(None, 0)
+            has = any(relevant(u) for u in ups)
+            print(f"새 업데이트 {len(ups)}건 · 처리할 것 {'있음' if has else '없음'}"
+                  + "".join(f" · {('버튼' if 'callback_query' in u else '메시지')}" for u in ups[:10]))
+            err = ""
+            break
+        except Exception as e:
+            err = f"{type(e).__name__}: {e}"
+            print(f"::warning::텔레그램 확인 실패({i + 1}/3): {err}")
+            time.sleep(4)
     try:
-        ups = _get_updates(None, 0)
-        has = any(relevant(u) for u in ups)
         due = pick_due(load_state())
         if due:
             print("추천 딜 보낼 시간:", due)
-        if ups and not has:      # 남의 대화 등 처리할 필요 없는 것만 있으면 확인 처리해 비운다
-            for u in ups:
-                ch = (u.get("message") or {}).get("chat") or {}
-                if ch.get("type") == "private":
-                    # 등록 안 된 개인 대화: 운영자가 다른 계정으로 보낸 경우 바로 알 수 있게 대화 ID를 알려준다
-                    print("  등록되지 않은 개인 대화:", ch.get("id"))
-                    tg_safe("sendMessage", chat_id=ch["id"],
-                            text=f"이 대화는 딜온도 스레드 접수함에 등록돼 있지 않아요.\n운영자라면 GitHub 시크릿 "
-                                 f"TELEGRAM_OWNER_ID 에 {ch['id']} 를 넣어주세요.")
-            _get_updates(ups[-1]["update_id"] + 1, 0)
-        print(f"새 업데이트 {len(ups)}건 · 처리할 것 {'있음' if has else '없음'}")
     except Exception as e:
-        print("::warning::텔레그램 확인 실패:", e)
+        print("::warning::상태 파일 확인 실패:", e)
     out = os.environ.get("GITHUB_OUTPUT")
     if out:
         with open(out, "a") as f:
-            f.write(f"has_work={'true' if (has or due) else 'false'}\n")
+            f.write(f"has_work={'true' if (has or due or err) else 'false'}\n")
     return 0
 
 
@@ -644,6 +663,8 @@ def serve(minutes: float, dry: bool) -> int:
     last = time.time()
     offset = None
     mine: set[str] = set()
+    errors: list[str] = []
+    seen_n = conflicts = 0
     key = pick_due(st)
     if key:
         try:
@@ -661,11 +682,22 @@ def serve(minutes: float, dry: bool) -> int:
             break
         try:
             ups = _get_updates(offset, int(min(50, left - 6)))
+            conflicts = 0
         except TgError as e:
-            print("::error::", e); break
+            conflicts += 1
+            errors.append(str(e)[:120])
+            print("::warning::", e)
+            if "409" in str(e) and conflicts < 6:
+                time.sleep(5); continue
+            if conflicts == 6:
+                tg_safe("sendMessage", chat_id=next(iter(ALLOWED)),
+                        text="⚠️ 텔레그램 봇 메시지를 다른 곳에서 동시에 받고 있어요(409). "
+                             "같은 봇 토큰을 쓰는 다른 프로그램(PC의 봇 실행 등)을 꺼주세요. 그래야 ✅ 가 처리돼요.")
+            break
         except Exception as e:
             print("  getUpdates 재시도:", e); time.sleep(3); continue
         for u in ups:
+            seen_n += 1
             offset = u["update_id"] + 1
             if u["update_id"] in st["done_updates"]:
                 continue
@@ -683,6 +715,10 @@ def serve(minutes: float, dry: bool) -> int:
             _get_updates(offset, 0)      # 처리한 것까지 확인 처리
         except Exception:
             pass
+    # 실행 기록(최근 40회) — Actions 로그를 못 볼 때도 inbox.json 에서 무슨 일이 있었는지 보이게
+    st.setdefault("runs", []).append({"at": dt.datetime.now(KST).isoformat(timespec="seconds"),
+                                      "updates": seen_n, "errors": errors[-3:]})
+    st["runs"] = st["runs"][-40:]
     left_waiting = [k for k in mine if st["drafts"].get(k, {}).get("status") == "waiting"]
     if left_waiting:
         print(f"승인 대기 {len(left_waiting)}건 — 다음 실행에서 ✅ 를 받으면 게시합니다")

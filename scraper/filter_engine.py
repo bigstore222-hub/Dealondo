@@ -34,6 +34,28 @@ CURATED_FLOOR = int(os.environ.get("RADAR_CURATED_FLOOR", "55"))
 VOTE_FLOOR_MIN = int(os.environ.get("RADAR_VOTE_FLOOR_MIN", "30"))
 
 
+# 슬릭딜 Hot Deals 초기 반응 기준(시간당 추천 증가). 처음 값은 경험치 — deals.json 의 signals 로 보정해 간다.
+SD_RISE_VEL = float(os.environ.get("RADAR_SD_RISE_VEL", "12"))      # 급상승
+SD_SURGE_VEL = float(os.environ.get("RADAR_SD_SURGE_VEL", "30"))    # 폭발
+SD_RISE_MIN_VOTES = int(os.environ.get("RADAR_SD_RISE_MIN_VOTES", "5"))
+SD_RISE_MAX_AGE_MIN = int(os.environ.get("RADAR_SD_RISE_MAX_AGE_MIN", "180"))
+
+
+def sd_rising(deal) -> str:
+    """'surge' / 'rise' / '' — 올라온 지 3시간 안에 추천이 빠르게 붙는 슬릭딜 글인가."""
+    s = getattr(deal, "signals", None) or {}
+    if not s.get("sd_hot_origin"):
+        return ""
+    v, votes, age = s.get("sd_velocity") or 0, s.get("sd_votes") or 0, s.get("sd_age_min") or 9999
+    if votes < SD_RISE_MIN_VOTES or age > SD_RISE_MAX_AGE_MIN:
+        return ""
+    if v >= SD_SURGE_VEL:
+        return "surge"
+    if v >= SD_RISE_VEL:
+        return "rise"
+    return ""
+
+
 def is_curated(deal: Deal) -> bool:
     # source가 "techbargains:amazon" 처럼 벤더가 붙는 경우가 있어 접두 매칭한다.
     src = getattr(deal, "source", "")
@@ -98,6 +120,9 @@ class Deal:
     #   재수집돼도 갱신되지 않으므로 최신순 정렬·신선도 판단의 기준이 된다.
     detected_at: str = field(default_factory=lambda: datetime.now(timezone.utc).isoformat())
     last_seen: str = ""                # 마지막으로 관측한 시각(딜보드 활성 유지 판단용)
+    posted_at: str = ""                # 원 출처(슬릭딜 Hot Deals 등)에 글이 올라온 시각
+    # 판정 보조 신호: sd_velocity(시간당 추천 증가), sd_gain, sd_age_min, sd_feeds, reddit_low 등
+    signals: dict = field(default_factory=dict)
 
 
 # ---------------------------------------------------------------------------
@@ -181,7 +206,7 @@ def hard_filter(deal: Deal) -> tuple[bool, str]:
         floor = PREMIUM_MIN_DISCOUNT if t == "premium" else KNOWN_MIN_DISCOUNT
         # '강한 코드딜'(공개코드+50%↑) 과 큐레이션 소스(DealNews)만 할인 문턱 면제.
         # 20% 코드 딜은 면제 대상이 아니므로 유명 브랜드 최소 할인(60%)을 그대로 적용받는다.
-        if not strong_code_deal(deal) and not is_curated(deal):
+        if not strong_code_deal(deal) and not is_curated(deal) and not sd_rising(deal):
             pct = deal.discount_pct if deal.discount_pct is not None else compute_discount_pct(deal)
             if not (pct and pct >= floor):
                 return False, (f"H7: {deal.brand} 할인 {pct or 0:.0f}% < {floor:.0f}% "
@@ -192,7 +217,7 @@ def hard_filter(deal: Deal) -> tuple[bool, str]:
     #   원인이던 슬릭딜 '투표만 높은 저할인' 잡동사니(세제 5%, 중고 컨트롤러 8%)를
     #   점수 하한이 끌어올리기 전에 하드필터 단계에서 차단한다.
     #   예외 — 강한 코드딜(공개코드 50%+) / 큐레이션 유명브랜드 / 역대최저가 갱신.
-    if not strong_code_deal(deal) and not is_curated(deal):
+    if not strong_code_deal(deal) and not is_curated(deal) and not sd_rising(deal):
         pct = deal.discount_pct if deal.discount_pct is not None else compute_discount_pct(deal)
         at_low = bool(deal.price_alltime_low and deal.price_current
                       and deal.price_current <= deal.price_alltime_low)
@@ -455,6 +480,7 @@ def score_deal(deal: Deal) -> Deal:
 
     passed, reason = hard_filter(deal)
     deal.passed_hard_filter = passed
+    deal.reject_reason = ""
     if not passed:
         deal.reject_reason = reason
         deal.score = 0
@@ -506,6 +532,30 @@ def score_deal(deal: Deal) -> Deal:
         if vote_floor > deal.score:
             deal.score = vote_floor
             deal.score_breakdown["community"] = f"투표 {v}+할인{deal.discount_pct:.0f}% → 하한 {vote_floor}"
+
+    # 슬릭딜 신호 — Hot Deals 초기 반응이 빠르면 점수 하한을 올린다(해외직구는 품절 전 속도가 생명).
+    #   폭발(시간당 30표+) → 하한 86(FLASH 즉시) / 급상승(12표+) → 하한 74(HOT)
+    #   프론트페이지 진입 → +6 (이미 뜬 딜이라 '확신' 신호. 늦었을 수 있어 가점만)
+    r = sd_rising(deal)
+    sig = deal.signals or {}
+    if r:
+        floor_ = 86 if r == "surge" else 74
+        if deal.score < floor_:
+            deal.score = floor_
+        deal.score_breakdown["slickdeals"] = (f"Hot Deals {'폭발' if r == 'surge' else '급상승'} "
+                                              f"{sig.get('sd_votes')}표/{sig.get('sd_age_min')}분 → 하한 {floor_}")
+    if deal.frontpage:
+        deal.score = min(100, deal.score + 6)
+        deal.score_breakdown["frontpage"] = "+6"
+    # 레딧 과거 가격(보조): 기록 중 최저 이하 +8, 기록보다 25% 넘게 비싸면 −10. 기록이 없으면 손대지 않는다.
+    rl = sig.get("reddit_low")
+    if rl and deal.price_current:
+        if deal.price_current <= rl * 1.02:
+            deal.score = min(100, deal.score + 8)
+            deal.score_breakdown["reddit"] = f"레딧 기록 최저(${rl}) 이하 +8"
+        elif deal.price_current > rl * 1.25:
+            deal.score = max(0, deal.score - 10)
+            deal.score_breakdown["reddit"] = f"레딧 과거 ${rl} 보다 비쌈 −10"
 
     deal.urgency = classify_urgency(deal)
     return deal

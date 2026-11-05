@@ -63,6 +63,9 @@ Promise.all([fetch('deals.json',{cache:'no-store'}).then(r=>r.json()),
   const nv=pl.naver;
   if(nv){const st=!nv.keys?['bad','키 없음']:(nv.matched>0?['ok','정상']:(nv.errors>0?['bad','조회 실패']:['warn','매칭 0건']));
     ph+=`<div class="card"><h2>국내 최저가 조회(네이버)</h2><div class="big ${st[0]}">${st[1]}</div><div class="why">최근 실행 ${nv.queried||0}건 조회 → ${nv.matched||0}건 매칭${nv.last_error?' · '+esc(nv.last_error):''}</div></div>`}
+  const rd=pl.reddit;
+  if(rd){const st=rd.found>0?['ok','정상']:(rd.errors>0?['bad','막힘']:['warn','기록 없음']);
+    ph+=`<div class="card"><h2>레딧 과거 가격(보조)</h2><div class="big ${st[0]}">${st[1]}</div><div class="why">${esc(rd.mode||'')} · ${rd.queried||0}건 조회 → ${rd.found||0}건 찾음${rd.last_error?' · '+esc(rd.last_error):''}</div></div>`}
   document.getElementById('pipe').innerHTML=ph;
   const tm=window.__threads||{};const hist=tm.history||[];
   const tcls=r=>r==='게시 완료'?'ok':(r==='실패'?'bad':'warn');

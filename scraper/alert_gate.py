@@ -28,6 +28,7 @@ from __future__ import annotations
 import os, re
 
 import brands
+import filter_engine as fe
 
 MIN_SCORE = int(os.environ.get("RADAR_ALERT_MIN_SCORE", "70"))
 TECH_MIN = float(os.environ.get("RADAR_ALERT_TECH_MIN", "25"))
@@ -121,10 +122,12 @@ def worth_alert(d) -> tuple[bool, str]:
     if price < LOW_PRICE and not (pct and pct >= 80):
         return False, f"${price:.2f} 단품 — 배대지 배송비 대비 실익 적음"
     strong_code = bool(_g(d, "coupon_code")) and _g(d, "code_kind") == "public"
-    if not pct and not strong_code:
+    rising = fe.sd_rising(d) if not isinstance(d, dict) else ""
+    # 슬릭딜 Hot Deals 급상승 딜은 할인율을 몰라도·문턱이 낮아도 보낸다(커뮤니티가 실시간 검증 중)
+    if not pct and not strong_code and not rising:
         return False, "할인율 모름"
     floor = TECH_MIN if cat == "electronics" else (ETC_MIN if cat == "etc" else 0)
-    if pct and pct < floor:
+    if pct and pct < floor and not rising:
         return False, f"할인 {pct:.0f}% < {floor:.0f}%"
     ok, why = brand_ok(d)
     if not ok:

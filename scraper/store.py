@@ -68,6 +68,18 @@ CREATE TABLE IF NOT EXISTS promo_codes (
     seen_at    TEXT,
     PRIMARY KEY (retailer, code)
 );
+-- 슬릭딜 글별 추천(Thumb) 추이. Hot Deals 새 글이 몇 분 만에 얼마나 추천을 받는지(초기 반응 속도)를 잰다.
+CREATE TABLE IF NOT EXISTS sd_votes (
+    thread      TEXT PRIMARY KEY,
+    posted_at   TEXT,
+    first_seen  TEXT,
+    first_votes INTEGER,
+    last_seen   TEXT,
+    last_votes  INTEGER,
+    max_votes   INTEGER,
+    fp_seen     TEXT,                    -- 프론트페이지에서 처음 본 시각
+    first_feed  TEXT                     -- 처음 잡힌 경로(hotdeals/frontpage/email)
+);
 CREATE TABLE IF NOT EXISTS tier_runs (
     tier       TEXT PRIMARY KEY,         -- T1/T2/T3/T4
     last_run   REAL                      -- epoch seconds
@@ -151,6 +163,65 @@ def record_prices(con: sqlite3.Connection, deals: list) -> None:
          for d in deals if d.price_current],
     )
     con.commit()
+
+
+def track_slickdeals(con: sqlite3.Connection, deals: list) -> int:
+    """
+    슬릭딜 딜의 추천 수를 실행마다 기록하고, 딜에 반응 속도 신호를 붙인다.
+      sd_age_min  : 글이 올라온 지(또는 처음 본 지) 몇 분
+      sd_gain     : 처음 본 뒤 늘어난 추천 수 (처음 볼 때 이미 붙어 있던 것도 포함하도록, 첫 관측값이 아니라 0 기준)
+      sd_velocity : 시간당 추천 증가 = 현재 추천 / 경과 시간 (올라온 직후 빠르게 붙는 딜일수록 큼)
+      sd_fp_min   : Hot Deals 에 올라온 뒤 프론트페이지까지 걸린 분
+    10분마다 돌기 때문에 Hot Deals 피드에 머무는 30분 동안 2~3번 관측된다.
+    """
+    import re as _re
+    from datetime import datetime as _dt, timezone as _tz
+    now = _dt.now(_tz.utc)
+    n = 0
+    for d in deals:
+        if not str(getattr(d, "source", "")).startswith("slickdeals"):
+            continue
+        m = _re.search(r"slickdeals\.net/f/(\d+)", getattr(d, "url", "") or "")
+        votes = getattr(d, "community_votes", None)
+        if not m or votes is None:
+            continue
+        th = m.group(1)
+        feeds = (getattr(d, "signals", None) or {}).get("sd_feeds") or ["email"]
+        row = con.execute("SELECT posted_at, first_seen, first_votes, max_votes, fp_seen, first_feed "
+                          "FROM sd_votes WHERE thread=?", (th,)).fetchone()
+        posted = getattr(d, "posted_at", "") or (row[0] if row else "")
+        is_fp = bool(getattr(d, "frontpage", False))
+        if row is None:
+            con.execute("INSERT INTO sd_votes(thread, posted_at, first_seen, first_votes, last_seen, last_votes, "
+                        "max_votes, fp_seen, first_feed) VALUES (?,?,?,?,?,?,?,?,?)",
+                        (th, posted, now.isoformat(), votes, now.isoformat(), votes, votes,
+                         now.isoformat() if is_fp else None, feeds[0]))
+            first_seen, fp_seen, first_feed = now.isoformat(), (now.isoformat() if is_fp else None), feeds[0]
+        else:
+            first_seen, fp_seen, first_feed = row[1], row[4] or (now.isoformat() if is_fp else None), row[5]
+            con.execute("UPDATE sd_votes SET last_seen=?, last_votes=?, max_votes=MAX(max_votes, ?), "
+                        "fp_seen=COALESCE(fp_seen, ?), posted_at=COALESCE(NULLIF(posted_at,''), ?) WHERE thread=?",
+                        (now.isoformat(), votes, votes, now.isoformat() if is_fp else None, posted, th))
+        try:
+            start = _dt.fromisoformat(posted or first_seen)
+        except ValueError:
+            start = now
+        age_min = max((now - start).total_seconds() / 60, 1.0)
+        sig = d.signals if isinstance(getattr(d, "signals", None), dict) else {}
+        # 반응 속도는 Hot Deals 새 글로 처음 잡은 딜에만 의미가 있다
+        # (프론트페이지 글은 이미 추천이 쌓인 뒤라 속도가 부풀려진다)
+        sig["sd_hot_origin"] = first_feed == "hotdeals"
+        sig.update({"sd_age_min": round(age_min), "sd_votes": votes,
+                    "sd_velocity": round(max(votes, 0) / (max(age_min, 10) / 60), 1)})
+        if fp_seen and posted:
+            try:
+                sig["sd_fp_min"] = round((_dt.fromisoformat(fp_seen) - _dt.fromisoformat(posted)).total_seconds() / 60)
+            except ValueError:
+                pass
+        d.signals = sig
+        n += 1
+    con.commit()
+    return n
 
 
 def apply_first_seen(con: sqlite3.Connection, deals: list) -> None:
