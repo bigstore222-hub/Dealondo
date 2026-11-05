@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T23:41:03.287076+00:00",
+  "generated_at": "2026-11-05T23:42:08.407585+00:00",
   "count": 89,
   "deals": [
     {
@@ -121,7 +121,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-01T18:01:56.270434+00:00",
-      "last_seen": "2026-11-05T21:32:56.503681+00:00",
+      "last_seen": "2026-11-05T23:42:07.832451+00:00",
       "posted_at": "",
       "signals": {},
       "id": "c73118fa8c",
@@ -1796,7 +1796,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-05T19:21:47.909483+00:00",
-      "last_seen": "2026-11-05T21:32:56.503681+00:00",
+      "last_seen": "2026-11-05T23:42:07.832451+00:00",
       "posted_at": "",
       "signals": {},
       "id": "625e4c4e79",
@@ -2271,7 +2271,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-11-05T21:32:56.503681+00:00",
+      "last_seen": "2026-11-05T23:42:07.832451+00:00",
       "posted_at": "",
       "signals": {},
       "id": "c27865a1bf",
@@ -2351,7 +2351,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-11-05T21:32:56.503681+00:00",
+      "last_seen": "2026-11-05T23:42:07.832451+00:00",
       "posted_at": "",
       "signals": {},
       "id": "8359bf10d9",
@@ -2431,7 +2431,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-11-05T21:32:56.503681+00:00",
+      "last_seen": "2026-11-05T23:42:07.832451+00:00",
       "posted_at": "",
       "signals": {},
       "id": "4f61b767f7",
@@ -2511,7 +2511,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-11-05T21:32:56.503681+00:00",
+      "last_seen": "2026-11-05T23:42:07.832451+00:00",
       "posted_at": "",
       "signals": {},
       "id": "f9145ff670",
@@ -2591,7 +2591,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-11-05T21:32:56.503681+00:00",
+      "last_seen": "2026-11-05T23:42:07.832451+00:00",
       "posted_at": "",
       "signals": {},
       "id": "2a816f12b6",
@@ -2671,7 +2671,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-11-05T21:32:56.503681+00:00",
+      "last_seen": "2026-11-05T23:42:07.832451+00:00",
       "posted_at": "",
       "signals": {},
       "id": "be8982f778",
@@ -5524,11 +5524,10 @@
     "tier_last_run": {
       "T1": "2026-11-05T23:40:27+00:00",
       "T2": "2026-11-05T22:42:08+00:00",
-      "T3": "2026-11-05T21:31:55+00:00",
+      "T3": "2026-11-05T23:41:04+00:00",
       "T4": "2026-11-05T21:11:09+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       1,
       10,
@@ -5557,14 +5556,15 @@
       10,
       10,
       10,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-05T23:41:03+00:00",
+      "at": "2026-11-05T23:42:07+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -5573,7 +5573,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-05T23:41:03+00:00"
+      "at": "2026-11-05T23:42:07+00:00"
     }
   },
   "email_monitor": {
@@ -6701,25 +6701,10 @@
         "reject_reason": "",
         "first_seen": "2026-11-03T00:31:33+00:00",
         "last_seen": "2026-11-03T00:51:08+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20246709",
-        "source": "slickdeals:nike.com",
-        "title": "Nike Men's Vomero 18 Road Running Shoes (Grey Fog/Off White/Work Blue/Dark Obsidian) for $87.95 at Nike",
-        "price": 87.95,
-        "list_price": 155.0,
-        "discount_pct": 43.3,
-        "krw": 118199,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H7: Nike 할인 43% < 60% (유명 브랜드 최소 할인)",
-        "first_seen": "2026-11-02T23:41:06+00:00",
-        "last_seen": "2026-11-04T23:51:00+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 75,
+      "collected_72h": 74,
       "published_72h": 8
     }
   }
