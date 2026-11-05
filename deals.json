@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T07:31:04.968775+00:00",
-  "count": 86,
+  "generated_at": "2026-11-05T07:31:38.298418+00:00",
+  "count": 87,
   "deals": [
     {
       "source": "6pm.com",
@@ -235,7 +235,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-01T17:41:17.681788+00:00",
-      "last_seen": "2026-11-05T06:11:34.999607+00:00"
+      "last_seen": "2026-11-05T07:31:37.070388+00:00"
     },
     {
       "source": "zappos.com",
@@ -427,6 +427,53 @@
       "urgency": "HOT",
       "detected_at": "2026-11-04T17:41:31.358955+00:00",
       "last_seen": "2026-11-04T17:41:49.540894+00:00"
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/9981988",
+      "title": "V-Neck Tie Waist Maxi Dress",
+      "brand": "Vince Camuto",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/8178o45NHvL._AC_SR255,340_.jpg",
+      "price_current": 38.7,
+      "price_list": 129.0,
+      "price_baseline": 129.0,
+      "price_alltime_low": 38.7,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 51870,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/9981988",
+      "discount_pct": 70.0,
+      "score": 81,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-27T11:11:24.520960+00:00",
+      "last_seen": "2026-11-05T07:31:37.070388+00:00"
     },
     {
       "source": "zappos.com",
@@ -852,6 +899,53 @@
       "last_seen": "2026-11-04T17:01:23.571196+00:00"
     },
     {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/ugg-classic-streetscape-bootie-women/8481813",
+      "title": "Classic StreetScape Bootie",
+      "brand": "Ugg",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/21bc5007-e229-45cd-9476-e8d0d9af6dbf.jpeg?h=368&w=240&dpr=2",
+      "price_current": 99.99,
+      "price_list": 200.0,
+      "price_baseline": 200.0,
+      "price_alltime_low": 99.99,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 134018,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.nordstromrack.com/s/ugg-classic-streetscape-bootie-women/8481813",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-10-31T21:11:21.533925+00:00",
+      "last_seen": "2026-11-05T07:31:37.070388+00:00"
+    },
+    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20251029",
@@ -948,53 +1042,6 @@
       "urgency": "HOT",
       "detected_at": "2026-11-03T21:10:39.563559+00:00",
       "last_seen": "2026-11-05T07:31:04.942261+00:00"
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/ugg-classic-streetscape-bootie-women/8481813",
-      "title": "Classic StreetScape Bootie",
-      "brand": "Ugg",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/21bc5007-e229-45cd-9476-e8d0d9af6dbf.jpeg?h=368&w=240&dpr=2",
-      "price_current": 99.99,
-      "price_list": 200.0,
-      "price_baseline": 200.0,
-      "price_alltime_low": 99.99,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 134018,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/ugg-classic-streetscape-bootie-women/8481813",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-10-31T21:11:21.533925+00:00",
-      "last_seen": "2026-11-05T06:51:37.738570+00:00"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -2095,7 +2142,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-03T08:31:18.097836+00:00",
-      "last_seen": "2026-11-05T06:51:37.738570+00:00"
+      "last_seen": "2026-11-05T07:31:37.070388+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -2143,7 +2190,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-05T06:11:17.077526+00:00",
-      "last_seen": "2026-11-05T06:51:37.738570+00:00"
+      "last_seen": "2026-11-05T07:31:37.070388+00:00"
     },
     {
       "source": "zappos.com",
@@ -3247,7 +3294,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-05T00:51:15.692580+00:00",
-      "last_seen": "2026-11-05T06:51:37.738570+00:00"
+      "last_seen": "2026-11-05T07:31:37.070388+00:00"
     },
     {
       "source": "techbargains:amazon",
@@ -3296,7 +3343,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-04T11:51:11.915441+00:00",
-      "last_seen": "2026-11-05T06:51:37.738570+00:00"
+      "last_seen": "2026-11-05T07:31:37.070388+00:00"
     },
     {
       "source": "dealnews",
@@ -4134,12 +4181,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-05T07:30:36+00:00",
-      "T2": "2026-11-05T06:51:00+00:00",
+      "T2": "2026-11-05T07:31:06+00:00",
       "T3": "2026-11-05T06:20:59+00:00",
       "T4": "2026-11-05T02:40:57+00:00"
     },
     "recent_gaps_min": [
-      5,
       10,
       10,
       1,
@@ -4168,14 +4214,15 @@
       10,
       9,
       10,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-05T07:31:04+00:00",
+      "at": "2026-11-05T07:31:37+00:00",
       "last_error": "HTTP 404"
     }
   },
