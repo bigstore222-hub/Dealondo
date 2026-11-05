@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T04:31:10.699633+00:00",
+  "generated_at": "2026-11-05T04:40:55.531187+00:00",
   "count": 86,
   "deals": [
     {
@@ -898,7 +898,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-05T04:20:33.306139+00:00",
-      "last_seen": "2026-11-05T04:31:09.187476+00:00"
+      "last_seen": "2026-11-05T04:40:55.504657+00:00"
     },
     {
       "source": "nordstromrack.com",
@@ -4135,7 +4135,7 @@
   ],
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-05T04:30:39+00:00",
+      "T1": "2026-11-05T04:40:28+00:00",
       "T2": "2026-11-05T04:11:18+00:00",
       "T3": "2026-11-05T04:11:52+00:00",
       "T4": "2026-11-05T02:40:57+00:00"
@@ -4169,6 +4169,7 @@
       1,
       1,
       8,
+      10,
       10
     ],
     "naver": {
@@ -4176,17 +4177,17 @@
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-05T04:31:09+00:00",
+      "at": "2026-11-05T04:40:55+00:00",
       "last_error": "HTTP 404"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-05T04:30:47+00:00",
+        "at": "2026-11-05T04:40:36+00:00",
         "state": "정상",
-        "mails": 9,
-        "deals": 9
+        "mails": 10,
+        "deals": 10
       },
       "newsletter": {
         "at": "2026-11-05T02:43:36+00:00",
@@ -4196,6 +4197,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20235795",
+        "source": "slickdeals:amazon.com",
+        "title": "Apple MacBook Air 13.6\" Laptop (2026): M5 10-Core Chip, 16GB RAM, 512GB SSD for $1099 at Amazon",
+        "price": 1099.0,
+        "list_price": 1299.0,
+        "discount_pct": 15.4,
+        "krw": 1749927,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H8: 할인 15% < 25% (허접 할인 제외)",
+        "first_seen": "2026-11-05T04:40:55+00:00",
+        "last_seen": "2026-11-05T04:40:55+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20208357",
         "source": "slickdeals:slickdeals.net",
@@ -4209,7 +4225,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-05T04:20:55+00:00",
-        "last_seen": "2026-11-05T04:31:09+00:00"
+        "last_seen": "2026-11-05T04:40:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20213640",
@@ -4224,7 +4240,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-05T03:50:55+00:00",
-        "last_seen": "2026-11-05T04:31:09+00:00"
+        "last_seen": "2026-11-05T04:40:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20235960",
@@ -4239,7 +4255,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-05T03:20:59+00:00",
-        "last_seen": "2026-11-05T04:31:09+00:00"
+        "last_seen": "2026-11-05T04:40:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20256759",
@@ -4254,7 +4270,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-05T03:10:59+00:00",
-        "last_seen": "2026-11-05T04:31:09+00:00"
+        "last_seen": "2026-11-05T04:40:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20217498",
@@ -4269,7 +4285,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-05T01:40:55+00:00",
-        "last_seen": "2026-11-05T04:31:09+00:00"
+        "last_seen": "2026-11-05T04:40:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20254893",
@@ -4314,7 +4330,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 45% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-04T21:51:00+00:00",
-        "last_seen": "2026-11-05T04:31:09+00:00"
+        "last_seen": "2026-11-05T04:40:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20251170",
@@ -4494,7 +4510,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-04T16:41:10+00:00",
-        "last_seen": "2026-11-05T04:31:09+00:00"
+        "last_seen": "2026-11-05T04:40:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245581",
@@ -4659,7 +4675,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-03T23:41:03+00:00",
-        "last_seen": "2026-11-05T04:31:09+00:00"
+        "last_seen": "2026-11-05T04:40:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20248770",
@@ -4869,7 +4885,7 @@
         "published": false,
         "reject_reason": "H7: Under Armour 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-03T18:50:57+00:00",
-        "last_seen": "2026-11-05T04:31:09+00:00"
+        "last_seen": "2026-11-05T04:40:55+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20243727",
@@ -5173,7 +5189,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 65,
+      "collected_72h": 66,
       "published_72h": 4
     }
   }
