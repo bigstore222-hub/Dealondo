@@ -129,6 +129,15 @@
     font-size:13px;font-weight:600;padding:8px 16px;border-radius:980px;
     letter-spacing:-.01em;transition:background .18s,transform .12s}
   a.go:hover{background:var(--accent-h)}
+  a.buy{font-size:12px;color:var(--sub);text-decoration:none}
+  a.buy:hover{color:var(--txt)}
+  a.tlink{color:inherit;text-decoration:none}
+  a.tlink:hover{text-decoration:underline}
+  .duty{font-size:11px;font-weight:600;padding:3px 9px;border-radius:980px}
+  .duty.free{background:rgba(48,209,88,.15);color:#30d158}
+  .duty.tax{background:var(--track);color:var(--sub)}
+  .navlink{color:var(--accent);text-decoration:none;font-size:13px;font-weight:600;
+    background:var(--track);padding:8px 14px;border-radius:980px;white-space:nowrap}
   a.go:active{transform:scale(.96)}
 
   .bd{font-size:10.5px;color:var(--sub);display:flex;gap:10px;flex-wrap:wrap;
@@ -158,6 +167,7 @@
     <h1>딜온도</h1>
   </div>
   <span class="meta" id="meta">불러오는 중…</span>
+  <a class="navlink" href="calc.html">🧮 도착가 계산기</a>
   <span class="spacer"></span>
   <div class="toolbar" id="cats">
     <button data-c="ALL" class="active">전체</button>
@@ -174,6 +184,7 @@
     <button data-f="HOT">HOT</button>
     <button data-f="STEADY">STEADY</button>
     <button data-f="PREMIUM">프리미엄</button>
+    <button data-f="FREE">무관세만</button>
   </div>
   <div class="toolbar" id="sorts">
     <span class="lbl">정렬</span>
@@ -228,9 +239,14 @@ function dispCat(d){
   return 'etc';
 }
 
+// 미국발 면세한도: 무선 통신 기기 $150, 그 외 $200
+const WIRELESS=/\b(bluetooth|wireless|earbuds?|airpods|headphones?|smart ?watch|apple watch|galaxy watch|pixel watch|fitbit|garmin|tws|earphones?|wi-?fi|ipad|tablet|kindle|macbook|laptop|speaker)\b/i;
+function dutyFree(d){const lim=WIRELESS.test(`${d.brand||''} ${d.title||''}`)?150:200;return d.price_current!=null&&d.price_current<=lim;}
+function detailHref(d){return d.id?`deal.html?id=${encodeURIComponent(d.id)}`:`deal.html?u=${encodeURIComponent(d.url||'')}`;}
+
 function render(){
   const list=deals.filter(d=>
-    (filter==='ALL'||(filter==='PREMIUM'?d.brand_tier==='premium':d.urgency===filter))
+    (filter==='ALL'||(filter==='PREMIUM'?d.brand_tier==='premium':filter==='FREE'?dutyFree(d):d.urgency===filter))
     && (cat==='ALL'||dispCat(d)===cat));
   // 정렬: 점수순(기본) 또는 최신순(등록시각 detected_at 내림차순)
   if(sort==='recent'){
@@ -261,11 +277,12 @@ function render(){
         <span class="brand">${esc(d.brand)}</span>
         ${d.brand_tier?`<span class="btier ${d.brand_tier}">${({premium:'⭐ 프리미엄',known:'✓ 유명',unknown:'· 무명'})[d.brand_tier]||''}</span>`:''}
       </div>`:''}
-      <div class="title"${d.brand?'':' style="font-size:16px;font-weight:700"'}>${esc(d.title)}</div>
+      <div class="title"${d.brand?'':' style="font-size:16px;font-weight:700"'}><a class="tlink" href="${detailHref(d)}">${esc(d.title)}</a></div>
       <div class="price">
         <span class="now">${fmtPrice(d.price_current)}</span>
         ${d.price_list?`<span class="was">${fmtPrice(d.price_list)}</span>`:''}
         ${d.discount_pct?`<span class="off">${esc(d.discount_pct)}% OFF</span>`:''}
+        ${d.price_current!=null?(dutyFree(d)?'<span class="duty free">면세</span>':'<span class="duty tax">관부가세 있음</span>'):''}
       </div>
       ${d.krw_effective?`<div class="krw">≈ <b>${fmtKRW(d.krw_effective)}</b> · 관부가세 포함 추정 · 배대지 배송비 별도</div>`:''}
       ${d.coupon_code?`<div class="promo">🔥 결제창 코드 <code>${esc(d.coupon_code)}</code> 입력 시 ${fmtPrice(d.price_current)}</div>`:''}
@@ -274,7 +291,8 @@ function render(){
         <span class="src">${CAT_LABEL[dispCat(d)]||''}</span>
         ${d.detected_at?`<span class="src">🕒 ${timeAgo(d.detected_at)} 발견</span>`:''}
         ${d.last_seen?`<span class="src fresh${stale?' stale':''}">${stale?'⚠️ ':'🔄 '}${timeAgo(d.last_seen)} 확인${stale?' · 가격 변동 가능':''}</span>`:''}
-        ${href?`<a class="go" href="${esc(href)}" target="_blank" rel="noopener noreferrer sponsored">딜 보기 →</a>`:''}
+        ${href?`<a class="buy" href="${esc(href)}" target="_blank" rel="noopener noreferrer sponsored">바로 구매 ↗</a>`:''}
+        <a class="go" href="${detailHref(d)}">판정 보기 →</a>
       </div>
       <div class="bd">
         <span>할인 ${esc(b.discount_depth??0)}</span><span>이력 ${esc(b.price_history??0)}</span>

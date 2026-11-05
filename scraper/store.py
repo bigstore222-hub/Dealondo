@@ -278,6 +278,20 @@ def enrich_with_history(con: sqlite3.Connection, deals: list) -> list:
     return deals
 
 
+def history_series(con: sqlite3.Connection, row: dict, days: int = 30) -> list:
+    """딜 상세 페이지 그래프용: 최근 days 일의 '날짜별 최저가' [[YYYY-MM-DD, 가격], ...]"""
+    class _D:  # deal_key 는 속성 접근을 쓰므로 dict 를 감싼다
+        pass
+    d = _D()
+    d.url, d.source, d.title = row.get("url"), row.get("source"), row.get("title")
+    since = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+    rows = con.execute(
+        "SELECT substr(scraped_at,1,10) AS day, MIN(price) FROM price_history "
+        "WHERE deal_key=? AND scraped_at>=? AND price IS NOT NULL GROUP BY day ORDER BY day",
+        (deal_key(d), since)).fetchall()
+    return [[r[0], round(r[1], 2)] for r in rows if r[1]]
+
+
 def history_depth(con: sqlite3.Connection) -> tuple[int, int]:
     """(관측 건수, 축적 일수) — 콜드스타트 탈출 진행도 확인용."""
     n = con.execute("SELECT COUNT(*) FROM price_history").fetchone()[0]

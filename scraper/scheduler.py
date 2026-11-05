@@ -444,7 +444,21 @@ def write_board(all_deals: list) -> None:
     gaps = [g for g in (pipe_old.get("recent_gaps_min") or [])][-29:]
     if gap_min is not None and gap_min > 0:
         gaps.append(gap_min)
-    payload = {"generated_at": now.isoformat(), "count": len(deals), "deals": deals,
+    # 딜 상세 페이지(deal.html)용: 고정 id 와 최근 30일 가격 기록
+    try:
+        import hashlib
+        con_h = store.connect()
+        for r in deals:
+            r["id"] = hashlib.sha1(_deal_id(r).encode("utf-8")).hexdigest()[:10]
+            r["history"] = store.history_series(con_h, r)
+        con_h.close()
+    except Exception as e:
+        print(f"[딜보드] 가격 기록 첨부 오류: {type(e).__name__}: {e}")
+    try:
+        fx = round(pricing.usd_krw(), 1)
+    except Exception:
+        fx = None
+    payload = {"generated_at": now.isoformat(), "count": len(deals), "deals": deals, "fx_usd_krw": fx,
                "pipeline": {"tier_last_run": tier_runs, "recent_gaps_min": gaps,
                             "naver": _naver_stats(pipe_old),
                             "reddit": _reddit_stats(pipe_old)},

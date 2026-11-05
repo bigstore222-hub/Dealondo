@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>딜 판정 — 딜온도</title>
+<meta name="description" content="해외직구 딜의 한국 도착가, 면세 여부, 가격 기록으로 지금 사도 되는지 판정합니다.">
+<meta property="og:site_name" content="딜온도">
+<style>
+  :root{
+    --bg:#000;--card:#1c1c1e;--line:rgba(255,255,255,.09);--line-s:rgba(255,255,255,.16);
+    --txt:#f5f5f7;--sub:#86868b;--sub2:#a1a1a6;--accent:#2997ff;--accent-h:#0a84ff;
+    --deal:#ff9f0a;--deal-soft:rgba(255,159,10,.14);--good:#30d158;--good-soft:rgba(48,209,88,.14);
+    --bad:#ff453a;--bad-soft:rgba(255,69,58,.14);--track:rgba(255,255,255,.06);--glass:rgba(10,10,12,.72);
+  }
+  @media (prefers-color-scheme: light){:root{
+    --bg:#f5f5f7;--card:#fff;--line:rgba(0,0,0,.08);--line-s:rgba(0,0,0,.14);
+    --txt:#1d1d1f;--sub:#6e6e73;--sub2:#515154;--accent:#0071e3;--accent-h:#0077ed;
+    --deal:#bf5a00;--deal-soft:rgba(191,90,0,.10);--good:#248a3d;--good-soft:rgba(36,138,61,.10);
+    --bad:#d70015;--bad-soft:rgba(215,0,21,.08);--track:rgba(0,0,0,.05);--glass:rgba(245,245,247,.72);}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);line-height:1.5;letter-spacing:-.01em;
+    font-family:"SF Pro Text",-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI","Noto Sans KR",sans-serif;
+    -webkit-font-smoothing:antialiased}
+  header{position:sticky;top:0;z-index:10;background:var(--glass);backdrop-filter:saturate(180%) blur(20px);
+    -webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:.5px solid var(--line);
+    padding:14px 20px;display:flex;align-items:center;gap:14px}
+  header a{color:var(--txt);text-decoration:none;font-weight:600}
+  header .nav{margin-left:auto;display:flex;gap:14px;font-size:14px}
+  header .nav a{color:var(--sub2);font-weight:500}
+  .wrap{max-width:760px;margin:0 auto;padding:22px 20px 60px;display:flex;flex-direction:column;gap:16px}
+  .card{background:var(--card);border:.5px solid var(--line);border-radius:18px;padding:20px}
+  .thumb{width:100%;max-height:340px;object-fit:contain;background:#fff;border-radius:12px;display:block}
+  .brand{font-size:15px;font-weight:700;margin-top:14px}
+  h1{font-size:22px;line-height:1.35;margin:4px 0 0;font-weight:600;letter-spacing:-.02em}
+  .meta{color:var(--sub);font-size:13px;margin-top:8px;display:flex;gap:10px;flex-wrap:wrap}
+  .price{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-top:14px}
+  .now{font-size:32px;font-weight:700;letter-spacing:-.03em}
+  .was{color:var(--sub);text-decoration:line-through}
+  .off{color:var(--deal);background:var(--deal-soft);font-weight:600;font-size:13px;padding:3px 10px;border-radius:980px}
+  .verdict{border-radius:18px;padding:20px;border:.5px solid var(--line)}
+  .verdict.good{background:var(--good-soft);border-color:rgba(48,209,88,.35)}
+  .verdict.mid{background:var(--deal-soft);border-color:rgba(255,159,10,.35)}
+  .verdict.bad{background:var(--bad-soft);border-color:rgba(255,69,58,.35)}
+  .verdict .lbl{font-size:12px;color:var(--sub2);font-weight:600}
+  .verdict .head{font-size:21px;font-weight:700;margin-top:4px;letter-spacing:-.02em}
+  .verdict ul{margin:10px 0 0;padding-left:18px;font-size:14px;color:var(--sub2)}
+  .verdict li{margin:3px 0}
+  h2{font-size:15px;margin:0 0 12px;font-weight:600}
+  .rows{display:flex;flex-direction:column}
+  .r{display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-bottom:.5px solid var(--line);font-size:14px}
+  .r:last-child{border-bottom:none}
+  .r span{color:var(--sub2)}
+  .r b{font-weight:600;text-align:right}
+  .ok{color:var(--good)}.warn{color:var(--deal)}.ng{color:var(--bad)}
+  .btns{display:flex;gap:10px;flex-wrap:wrap}
+  .btn{flex:1 1 180px;text-align:center;text-decoration:none;font-size:14px;font-weight:600;padding:12px 16px;border-radius:980px;
+    background:var(--track);color:var(--txt)}
+  .btn.primary{background:var(--accent);color:#fff}
+  .note{font-size:11.5px;color:var(--sub);line-height:1.55}
+  svg text{fill:var(--sub);font-size:11px}
+  .empty{text-align:center;color:var(--sub);padding:60px 20px}
+  .chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+  .chip{font-size:12px;background:var(--track);color:var(--sub2);padding:4px 10px;border-radius:980px}
+</style>
+</head>
+<body>
+<header>
+  <a href="./">← 딜온도</a>
+  <div class="nav"><a href="./">딜보드</a><a href="calc.html">도착가 계산기</a></div>
+</header>
+<div class="wrap" id="app"><div class="empty">불러오는 중…</div></div>
+
+<script>
+const $app=document.getElementById('app');
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);}
+function safeUrl(u){u=String(u||'');return /^https?:\/\//i.test(u)?u:'';}
+function imgUrl(u){u=String(u||'').trim();if(!u||/null$|undefined$/i.test(u))return '';if(u.startsWith('//'))u='https:'+u;return safeUrl(u);}
+function usd(v){if(v==null)return '—';const n=+v;return '$'+n.toLocaleString('en-US',{minimumFractionDigits:Number.isInteger(n)?0:2,maximumFractionDigits:2});}
+function krw(v){return v==null?'—':'₩'+Math.round(v).toLocaleString('ko-KR');}
+function ago(iso){const t=Date.parse(iso||0);if(!t)return '';const m=Math.max(0,Math.floor((Date.now()-t)/60000));
+  if(m<1)return '방금';if(m<60)return m+'분 전';const h=Math.floor(m/60);if(h<24)return h+'시간 전';return Math.floor(h/24)+'일 전';}
+// 무선 통신 기능이 있는 기기는 미국발이어도 면세한도 $150, 그 외 $200 (목록통관 기준)
+const WIRELESS=/\b(bluetooth|wireless|earbuds?|airpods|headphones?|smart ?watch|apple watch|galaxy watch|pixel watch|fitbit|garmin|tws|earphones?|wi-?fi|ipad|tablet|kindle|macbook|laptop|speaker)\b/i;
+const STORES={'nordstromrack.com':'Nordstrom Rack','nordstrom.com':'Nordstrom','zappos.com':'Zappos','6pm.com':'6pm','amazon.com':'Amazon',
+  'woot.com':'Woot','bestbuy.com':'Best Buy','macys.com':"Macy's",'ebay.com':'eBay','walmart.com':'Walmart','target.com':'Target','ashford.com':'Ashford'};
+function store(d){const s=String(d.source||'');const k=s.split(':').pop();
+  if(s.startsWith('slickdeals'))return (STORES[k]||k||'')+' · 슬릭딜';if(s.startsWith('dealnews'))return 'DealNews';return STORES[k]||k;}
+const CATS={premium_fashion:'clothes',sports_outdoor:'clothes',kids:'clothes',watch_misc:'bags',electronics:'elec'};
+
+function chart(h){
+  if(!h||h.length<2)return '';
+  const W=360,H=170,P=26, ys=h.map(p=>p[1]);
+  const mn=Math.min(...ys), mx=Math.max(...ys), span=(mx-mn)||1;
+  const X=i=>P+(W-P*2)*i/(h.length-1), Y=v=>H-P-(H-P*2)*(v-mn)/span;
+  const pts=h.map((p,i)=>`${X(i).toFixed(1)},${Y(p[1]).toFixed(1)}`).join(' ');
+  const iMin=ys.indexOf(mn);
+  return `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="최근 가격 기록">
+    <polyline points="${pts}" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linejoin="round"/>
+    ${h.map((p,i)=>`<circle cx="${X(i)}" cy="${Y(p[1])}" r="${i===iMin?4.5:2.5}" fill="${i===iMin?'var(--good)':'var(--accent)'}"><title>${esc(p[0])} ${usd(p[1])}</title></circle>`).join('')}
+    <text x="${Math.min(Math.max(X(iMin),P+30),W-P-30)}" y="${Y(mn)-10}" text-anchor="middle" style="fill:var(--good);font-weight:600">최저 ${usd(mn)}</text>
+    <text x="${P}" y="${P-10}">${usd(mx)}</text>
+    <text x="${P}" y="${H-6}">${esc(h[0][0].slice(5))}</text><text x="${W-P}" y="${H-6}" text-anchor="end">${esc(h[h.length-1][0].slice(5))}</text>
+  </svg>`;
+}
+
+function judge(d){
+  const p=d.price_current, pct=d.discount_pct||0, sig=d.signals||{};
+  const limit=WIRELESS.test(`${d.brand||''} ${d.title||''}`)?150:200;
+  const dutyFree=p!=null&&p<=limit;
+  const hist=(d.history||[]).map(x=>x[1]); const histLow=hist.length?Math.min(...hist):null;
+  const atLow=(d.price_alltime_low!=null&&p<=d.price_alltime_low)||(histLow!=null&&hist.length>=3&&p<=histLow);
+  const kr=d.kr_lowest_price, eff=d.krw_effective;
+  const save=(kr&&eff)?Math.round((1-eff/kr)*100):null;
+  const points=[]; let cls='mid', head;
+  if(save!=null){
+    head= save>=30?`국내보다 ${save}% 싸요`: save>=15?`국내보다 ${save}% 싸요`: save>0?`국내와 ${save}% 차이 — 크지 않아요`:'국내가 더 싸거나 비슷해요';
+    cls= save>=15?'good':(save>0?'mid':'bad');
+  }else if(atLow){head='딜온도 기록 중 최저가예요';cls='good';}
+  else if(pct>=70){head=`정가 대비 ${Math.round(pct)}% — 할인 폭이 매우 커요`;cls='good';}
+  else if(pct>=50){head=`정가 대비 ${Math.round(pct)}% — 괜찮은 할인이에요`;cls='mid';}
+  else if(pct>0){head=`정가 대비 ${Math.round(pct)}% — 무난한 가격이에요`;cls='mid';}
+  else{head='할인 폭을 확인할 수 없는 딜이에요';cls='mid';}
+  points.push(dutyFree?`미국발 면세한도($${limit}) 안이라 관부가세가 없어요`:`면세한도 $${limit}을 넘어 관부가세가 붙어요`);
+  if(save==null)points.push('국내 최저가는 아래 버튼으로 직접 확인해 보세요');
+  if(atLow&&save!=null)points.push('딜온도가 기록한 가격 중 가장 낮아요');
+  if(sig.reddit_low){points.push(p<=sig.reddit_low*1.02?`레딧 과거 기록(최저 ${usd(sig.reddit_low)})보다 싸거나 같아요`
+                                                         :`레딧엔 ${usd(sig.reddit_low)}까지 내려간 기록이 있어요`);}
+  if(sig.sd_hot_origin&&sig.sd_votes!=null)points.push(`슬릭딜 Hot Deals에 ${sig.sd_age_min}분 전 올라와 추천 ${sig.sd_votes}개`);
+  if(d.frontpage)points.push('슬릭딜 프론트페이지에 오른 검증된 딜이에요');
+  const seenH=d.last_seen?(Date.now()-Date.parse(d.last_seen))/3600000:null;
+  if(seenH!=null&&seenH>6)points.push(`마지막 확인이 ${ago(d.last_seen)}라 품절됐을 수 있어요`);
+  return {head,cls,points,limit,dutyFree,save,histLow};
+}
+
+const DUTY={premium_fashion:.13,sports_outdoor:.13,kids:.13,watch_misc:.08,electronics:0,etc:.08};
+function arrival(d,fx,limit){
+  if(!fx||d.price_current==null)return d.krw_effective;
+  const g=d.price_current*fx; if(d.price_current<=limit)return g;
+  const r=DUTY[d.category]??.08, duty=g*r; return g+duty+(g+duty)*.10;
+}
+function render(d, fx){
+  const j=judge(d); const sig=d.signals||{};
+  const img=imgUrl(d.image), buy=safeUrl(d.buy_url)||safeUrl(d.url);
+  const orig=String(d.url||'').includes('slickdeals.net')?safeUrl(d.url):'';
+  const q=encodeURIComponent(`${d.brand||''} ${d.title||''}`.trim().split(/\s+/).slice(0,6).join(' '));
+  const calc=`calc.html?p=${encodeURIComponent(d.price_current||'')}&c=${CATS[d.category]||'etc'}${WIRELESS.test(`${d.brand||''} ${d.title||''}`)?'&w=1':''}`;
+  document.title=`${d.brand?d.brand+' ':''}${d.title} — 딜온도`;
+  $app.innerHTML=`
+  <div class="card">
+    ${img?`<img class="thumb" src="${esc(img)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:''}
+    ${d.brand?`<div class="brand">${esc(d.brand)}</div>`:''}
+    <h1>${esc(d.title)}</h1>
+    <div class="meta"><span>${esc(store(d))}</span>${d.detected_at?`<span>🕒 ${ago(d.detected_at)} 발견</span>`:''}${d.last_seen?`<span>🔄 ${ago(d.last_seen)} 확인</span>`:''}</div>
+    <div class="price"><span class="now">${usd(d.price_current)}</span>${d.price_list?`<span class="was">${usd(d.price_list)}</span>`:''}${d.discount_pct?`<span class="off">${Math.round(d.discount_pct)}% OFF</span>`:''}</div>
+    ${d.coupon_code?`<div class="chips"><span class="chip">결제창 코드 <b>${esc(d.coupon_code)}</b></span></div>`:''}
+  </div>
+
+  <div class="verdict ${j.cls}">
+    <div class="lbl">딜온도 판정</div>
+    <div class="head">${esc(j.head)}</div>
+    <ul>${j.points.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
+  </div>
+
+  <div class="card">
+    <h2>한국 도착가</h2>
+    <div class="rows">
+      <div class="r"><span>미국 판매가</span><b>${usd(d.price_current)}${fx&&d.price_current?` <small style="color:var(--sub)">≈ ${krw(d.price_current*fx)}</small>`:''}</b></div>
+      <div class="r"><span>면세 여부 (미국발 $${j.limit} 기준)</span><b class="${j.dutyFree?'ok':'warn'}">${j.dutyFree?'면세 · 관부가세 없음':'과세 · 관부가세 붙음'}</b></div>
+      <div class="r"><span>관부가세 포함 예상가</span><b>${krw(arrival(d,fx,j.limit))}</b></div>
+      <div class="r"><span>배대지 배송비</span><b>별도 <a href="${esc(calc)}" style="color:var(--accent);text-decoration:none">계산하기 →</a></b></div>
+      <div class="r"><span>국내 최저가</span><b>${d.kr_lowest_price?krw(d.kr_lowest_price)+(j.save!=null?` <span class="${j.save>=15?'ok':(j.save>0?'warn':'ng')}">(${j.save>0?j.save+'% 싸요':'국내가 더 쌈'})</span>`:''):'확인 전'}</b></div>
+    </div>
+  </div>
+
+  ${(d.history||[]).length>=2?`<div class="card"><h2>최근 가격 기록</h2>${chart(d.history)}
+    <div class="note">딜온도가 수집할 때마다 기록한 날짜별 최저가예요${j.histLow!=null?` · 기간 최저 ${usd(j.histLow)}`:''}.</div></div>`:''}
+
+  <div class="btns">
+    ${buy?`<a class="btn primary" href="${esc(buy)}" target="_blank" rel="noopener noreferrer sponsored">구매하러 가기 →</a>`:''}
+    ${orig?`<a class="btn" href="${esc(orig)}" target="_blank" rel="noopener noreferrer">슬릭딜 원본글 ↗</a>`:''}
+    <a class="btn" href="https://search.shopping.naver.com/search/all?query=${q}" target="_blank" rel="noopener noreferrer">네이버 국내가 확인 ↗</a>
+    <a class="btn" href="${esc(calc)}">도착가 계산기</a>
+  </div>
+  <div class="note">
+    구매 링크는 제휴 링크일 수 있으며, 구매 시 딜온도가 소정의 수수료를 받을 수 있어요(구매가는 같아요).
+    가격·재고는 수시로 바뀌니 결제 전 판매처에서 최종 가격을 확인하세요. 관부가세는 추정치로, 실제 세액은 관세청 과세환율·품목 세율에 따라 달라요.
+  </div>`;
+}
+
+const qs=new URLSearchParams(location.search), id=qs.get('id'), u=qs.get('u');
+fetch('deals.json',{cache:'no-store'}).then(r=>r.json()).then(data=>{
+  const d=(data.deals||[]).find(x=>(id&&x.id===id)||(u&&x.url===u));
+  if(!d){$app.innerHTML='<div class="empty">이 딜은 딜보드에서 내려갔어요. 품절됐거나 가격이 바뀌었을 수 있어요.<br><br><a href="./" style="color:var(--accent)">딜보드로 →</a></div>';return;}
+  render(d, data.fx_usd_krw);
+}).catch(()=>{$app.innerHTML='<div class="empty">딜 정보를 불러오지 못했어요.</div>';});
+</script>
+</body>
+</html>

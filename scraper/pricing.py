@@ -165,9 +165,15 @@ def kr_lowest_price(brand: str, title: str, display: int = 10) -> float | None:
                 NAVER_STATS["errors"] += 1
                 return None
         else:
-            print(f"[pricing] 네이버 조회 실패(HTTP {e.code}) q={q[:40]}")
+            try:
+                body = e.read().decode("utf-8", "replace")
+                j = json.loads(body)
+                detail = f"{j.get('errorCode', '')} {j.get('errorMessage', '')}".strip()
+            except Exception:
+                detail = ""
+            print(f"[pricing] 네이버 조회 실패(HTTP {e.code} {detail}) q={q[:40]}")
             NAVER_STATS["errors"] += 1
-            NAVER_STATS["last_error"] = f"HTTP {e.code}"
+            NAVER_STATS["last_error"] = f"HTTP {e.code} {detail}".strip()[:120]
             return None
     except Exception as e:
         print(f"[pricing] 네이버 조회 실패({type(e).__name__}) q={q[:40]}")

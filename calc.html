@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>직구 도착가 계산기 — 딜온도</title>
+<meta name="description" content="미국 직구 가격에 관부가세·배대지 배송비를 더한 한국 도착가와 면세 여부($200, 무선기기 $150)를 바로 계산합니다.">
+<meta property="og:site_name" content="딜온도">
+<meta property="og:title" content="직구 도착가 계산기 — 딜온도">
+<meta property="og:description" content="달러 가격만 넣으면 관부가세·배송비 포함 한국 도착가와 면세 여부를 계산해요">
+<style>
+  :root{
+    --bg:#000;--card:#1c1c1e;--line:rgba(255,255,255,.09);--txt:#f5f5f7;--sub:#86868b;--sub2:#a1a1a6;
+    --accent:#2997ff;--deal:#ff9f0a;--deal-soft:rgba(255,159,10,.14);--good:#30d158;--good-soft:rgba(48,209,88,.14);
+    --bad:#ff453a;--bad-soft:rgba(255,69,58,.14);--track:rgba(255,255,255,.06);--field:#2c2c2e;--glass:rgba(10,10,12,.72);
+  }
+  @media (prefers-color-scheme: light){:root{
+    --bg:#f5f5f7;--card:#fff;--line:rgba(0,0,0,.08);--txt:#1d1d1f;--sub:#6e6e73;--sub2:#515154;--accent:#0071e3;
+    --deal:#bf5a00;--deal-soft:rgba(191,90,0,.10);--good:#248a3d;--good-soft:rgba(36,138,61,.10);--bad:#d70015;
+    --bad-soft:rgba(215,0,21,.08);--track:rgba(0,0,0,.05);--field:#f2f2f4;--glass:rgba(245,245,247,.72);}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);line-height:1.5;letter-spacing:-.01em;
+    font-family:"SF Pro Text",-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI","Noto Sans KR",sans-serif;-webkit-font-smoothing:antialiased}
+  header{position:sticky;top:0;z-index:10;background:var(--glass);backdrop-filter:saturate(180%) blur(20px);
+    -webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:.5px solid var(--line);padding:14px 20px;display:flex;align-items:center;gap:14px}
+  header a{color:var(--txt);text-decoration:none;font-weight:600}
+  header .nav{margin-left:auto;display:flex;gap:14px;font-size:14px}
+  header .nav a{color:var(--sub2);font-weight:500}
+  .wrap{max-width:720px;margin:0 auto;padding:22px 20px 60px;display:flex;flex-direction:column;gap:16px}
+  h1{font-size:26px;margin:4px 0 0;letter-spacing:-.03em}
+  .lead{color:var(--sub);margin:4px 0 0;font-size:14px}
+  .card{background:var(--card);border:.5px solid var(--line);border-radius:18px;padding:20px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media (max-width:560px){.grid{grid-template-columns:1fr}}
+  label{display:flex;flex-direction:column;gap:6px;font-size:13px;color:var(--sub2);font-weight:500}
+  input,select{font:inherit;font-size:16px;color:var(--txt);background:var(--field);border:.5px solid var(--line);border-radius:12px;padding:11px 12px;width:100%}
+  .hint{font-size:11.5px;color:var(--sub);font-weight:400}
+  .check{flex-direction:row;align-items:center;gap:8px;grid-column:1/-1}
+  .check input{width:auto}
+  .result{border-radius:18px;padding:20px;border:.5px solid var(--line)}
+  .result.good{background:var(--good-soft)}.result.mid{background:var(--deal-soft)}.result.bad{background:var(--bad-soft)}
+  .result .lbl{font-size:12px;color:var(--sub2);font-weight:600}
+  .result .big{font-size:30px;font-weight:700;letter-spacing:-.03em;margin-top:2px}
+  .result .head{font-size:16px;font-weight:600;margin-top:4px}
+  .rows{margin-top:12px}
+  .r{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:.5px solid var(--line);font-size:14px}
+  .r:last-child{border-bottom:none}.r span{color:var(--sub2)}.r b{font-weight:600}
+  .ok{color:var(--good)}.warn{color:var(--deal)}
+  .note{font-size:12px;color:var(--sub);line-height:1.6}
+  .note li{margin:3px 0}
+</style>
+</head>
+<body>
+<header>
+  <a href="./">← 딜온도</a>
+  <div class="nav"><a href="./">딜보드</a><a href="calc.html">도착가 계산기</a></div>
+</header>
+<div class="wrap">
+  <div>
+    <h1>직구 도착가 계산기</h1>
+    <p class="lead">미국 가격만 넣으면 관부가세·배대지 배송비를 더한 한국 도착가와 면세 여부를 계산해요.</p>
+  </div>
+
+  <div class="card grid">
+    <label>상품 가격 (USD)<input id="p" type="number" inputmode="decimal" min="0" step="0.01" placeholder="예: 149.99"></label>
+    <label>미국 내 배송비·판매세 (USD)<input id="us" type="number" inputmode="decimal" min="0" step="0.01" value="0">
+      <span class="hint">면세 판단 금액에 함께 들어가요. 판매세 없는 주 배대지면 0</span></label>
+    <label>품목
+      <select id="c">
+        <option value="clothes">의류·신발 (관세 13%)</option>
+        <option value="bags">가방·지갑·시계·잡화 (관세 8%)</option>
+        <option value="elec">전자기기 (관세 대부분 0%)</option>
+        <option value="etc">기타 (관세 8%)</option>
+      </select></label>
+    <label>관세율 (%)<input id="rate" type="number" inputmode="decimal" min="0" step="0.1" value="13">
+      <span class="hint">품목별 정확한 세율은 관세청 관세율표에서 확인</span></label>
+    <label class="check"><input id="w" type="checkbox"> 블루투스·와이파이 등 무선 기능이 있어요 (이어폰·스마트워치·스피커·태블릿 등 → 면세한도 $150)</label>
+    <label>배대지 배송비 (원)<input id="ship" type="number" inputmode="numeric" min="0" step="100" placeholder="예: 15000">
+      <span class="hint">이용하는 배대지 요금표의 무게별 요금</span></label>
+    <label>환율 (원/USD)<input id="fx" type="number" inputmode="decimal" min="0" step="0.1">
+      <span class="hint" id="fxh">시장 환율 기준. 카드 결제는 수수료로 1% 안팎 더 나와요</span></label>
+    <label style="grid-column:1/-1">국내 최저가 (원, 선택)<input id="kr" type="number" inputmode="numeric" min="0" step="100" placeholder="비교하려면 입력">
+      <span class="hint">넣으면 직구가 얼마나 싼지 같이 보여줘요</span></label>
+  </div>
+
+  <div class="result mid" id="res"><div class="lbl">결과</div><div class="head">상품 가격을 넣어주세요</div></div>
+
+  <div class="card note">
+    <b>알아두면 좋은 점</b>
+    <ul>
+      <li>면세한도는 미국발 목록통관 기준 $200, 무선 기능이 있는 전자기기는 $150이에요. 넘으면 넘은 금액이 아니라 <b>전체 금액</b>에 세금이 붙어요.</li>
+      <li>세금이 붙을 때 과세 금액에는 상품가와 미국 내 비용에 <b>국제 배송비</b>까지 들어가요.</li>
+      <li>같은 날 한국에 도착한 물건은 합쳐서 면세 여부를 판단할 수 있어요(합산과세). 나눠 사도 도착일이 겹치면 주의하세요.</li>
+      <li>이 계산은 추정치예요. 실제 세액은 관세청 과세환율과 품목 세율, 일부 품목의 개별소비세에 따라 달라요.</li>
+    </ul>
+  </div>
+</div>
+
+<script>
+const RATE={clothes:13,bags:8,elec:0,etc:8};
+const $=id=>document.getElementById(id);
+const num=id=>{const v=parseFloat($(id).value);return isFinite(v)?v:0;};
+const krw=v=>'₩'+Math.round(v).toLocaleString('ko-KR');
+const usd=v=>'$'+(+v).toLocaleString('en-US',{maximumFractionDigits:2});
+
+function calc(){
+  const p=num('p'), us=num('us'), fx=num('fx')||1400, ship=num('ship'), kr=num('kr'), rate=num('rate')/100;
+  const res=$('res');
+  if(!p){res.className='result mid';res.innerHTML='<div class="lbl">결과</div><div class="head">상품 가격을 넣어주세요</div>';return;}
+  const limit=$('w').checked?150:200, goods=p+us, free=goods<=limit;
+  const goodsKrw=goods*fx;
+  let duty=0, vat=0;
+  if(!free){
+    const base=goodsKrw+ship;              // 과세가격 = 물품가(현지 비용 포함) + 국제 운임
+    duty=base*rate; vat=(base+duty)*0.10;
+  }
+  const total=goodsKrw+ship+duty+vat;
+  const save=kr?Math.round((1-total/kr)*100):null;
+  let cls='mid', head;
+  if(save!=null){ head= save>=20?`국내보다 ${save}% 싸요 — 직구할 만해요`: save>0?`국내보다 ${save}% 싸요 — 차이가 크지 않아요`:'국내가 더 싸거나 비슷해요';
+                  cls= save>=20?'good':(save>0?'mid':'bad'); }
+  else { head= free?`면세 — 관부가세 없이 받아요`:`면세한도 $${limit} 초과 — 관부가세 ${krw(duty+vat)} 붙어요`; cls= free?'good':'mid'; }
+  const over=free?limit-goods:null;
+  res.className='result '+cls;
+  res.innerHTML=`<div class="lbl">한국 도착가 (추정)</div><div class="big">${krw(total)}</div><div class="head">${head}</div>
+  <div class="rows">
+    <div class="r"><span>면세 판단 금액 (상품 + 미국 내 비용)</span><b class="${free?'ok':'warn'}">${usd(goods)} / 한도 $${limit}</b></div>
+    ${free&&over<20?`<div class="r"><span>한도까지 남은 금액</span><b class="warn">${usd(over)} — 아슬아슬해요</b></div>`:''}
+    <div class="r"><span>상품가 (원화)</span><b>${krw(goodsKrw)}</b></div>
+    <div class="r"><span>배대지 배송비</span><b>${ship?krw(ship):'입력 전'}</b></div>
+    <div class="r"><span>관세 (${(rate*100).toFixed(1).replace(/\.0$/,'')}%)</span><b>${free?'없음':krw(duty)}</b></div>
+    <div class="r"><span>부가세 (10%)</span><b>${free?'없음':krw(vat)}</b></div>
+    ${kr?`<div class="r"><span>국내 최저가</span><b>${krw(kr)}</b></div>`:''}
+  </div>`;
+}
+
+$('c').addEventListener('change',()=>{$('rate').value=RATE[$('c').value];calc();});
+['p','us','rate','w','ship','fx','kr'].forEach(id=>$(id).addEventListener('input',calc));
+
+// 딜 상세에서 넘어온 값 채우기 (?p=가격&c=품목&w=1)
+const qs=new URLSearchParams(location.search);
+if(qs.get('p'))$('p').value=qs.get('p');
+if(qs.get('c')&&RATE[qs.get('c')]!=null){$('c').value=qs.get('c');$('rate').value=RATE[qs.get('c')];}
+if(qs.get('w')==='1')$('w').checked=true;
+$('fx').value=1400;
+fetch('deals.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
+  if(d.fx_usd_krw){$('fx').value=d.fx_usd_krw;$('fxh').textContent=`오늘 시장 환율 ${d.fx_usd_krw}원 · 카드 결제는 수수료로 1% 안팎 더 나와요`;}
+  calc();
+}).catch(calc);
+calc();
+</script>
+</body>
+</html>
