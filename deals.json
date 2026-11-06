@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T02:40:58.451168+00:00",
+  "generated_at": "2026-11-06T02:41:44.840387+00:00",
   "count": 94,
   "deals": [
     {
@@ -1567,7 +1567,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-31T21:11:21.533925+00:00",
-      "last_seen": "2026-11-06T02:02:01.222616+00:00",
+      "last_seen": "2026-11-06T02:41:43.458263+00:00",
       "posted_at": "",
       "signals": {},
       "id": "bfacc2b04a",
@@ -3193,7 +3193,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-03T08:31:18.097836+00:00",
-      "last_seen": "2026-11-06T02:02:01.222616+00:00",
+      "last_seen": "2026-11-06T02:41:43.458263+00:00",
       "posted_at": "",
       "signals": {},
       "id": "0209ff311b",
@@ -3262,7 +3262,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-05T23:21:26.916466+00:00",
-      "last_seen": "2026-11-06T02:02:01.222616+00:00",
+      "last_seen": "2026-11-06T02:41:43.458263+00:00",
       "posted_at": "",
       "signals": {},
       "id": "956fa724d1",
@@ -4414,7 +4414,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 107198,
+      "krw_effective": 107789,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -4438,13 +4438,17 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-05T08:51:45.871724+00:00",
-      "last_seen": "2026-11-05T22:42:42.537549+00:00",
+      "last_seen": "2026-11-06T02:41:43.458263+00:00",
       "posted_at": "",
       "signals": {},
       "id": "b62cdde829",
       "history": [
         [
           "2026-11-05",
+          79.98
+        ],
+        [
+          "2026-11-06",
           79.98
         ]
       ]
@@ -4554,7 +4558,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-05T20:11:21.102448+00:00",
-      "last_seen": "2026-11-06T02:02:01.222616+00:00",
+      "last_seen": "2026-11-06T02:41:43.458263+00:00",
       "posted_at": "",
       "signals": {},
       "id": "4626d0fa0c",
@@ -4616,7 +4620,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-05T19:31:28.657739+00:00",
-      "last_seen": "2026-11-06T02:02:01.222616+00:00",
+      "last_seen": "2026-11-06T02:41:43.458263+00:00",
       "posted_at": "",
       "signals": {},
       "id": "781b4290c9",
@@ -4678,7 +4682,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-05T19:31:28.657739+00:00",
-      "last_seen": "2026-11-06T02:02:01.222616+00:00",
+      "last_seen": "2026-11-06T02:41:43.458263+00:00",
       "posted_at": "",
       "signals": {},
       "id": "17372f3806",
@@ -5924,12 +5928,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-06T02:40:30+00:00",
-      "T2": "2026-11-06T02:01:28+00:00",
+      "T2": "2026-11-06T02:41:00+00:00",
       "T3": "2026-11-06T01:50:59+00:00",
       "T4": "2026-11-05T21:11:09+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       10,
       10,
@@ -5958,14 +5961,15 @@
       9,
       10,
       10,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-06T02:40:58+00:00",
+      "at": "2026-11-06T02:41:43+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -5974,7 +5978,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-06T02:40:58+00:00"
+      "at": "2026-11-06T02:41:43+00:00"
     }
   },
   "email_monitor": {
