@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T12:01:54.053418+00:00",
+  "generated_at": "2026-11-06T12:11:11.996227+00:00",
   "count": 94,
   "deals": [
     {
@@ -1612,6 +1612,64 @@
       ]
     },
     {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20262882",
+      "title": "adidas Boys Adizero Aruku Shoes (Black) for $19.95 at Amazon",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20262882&t=15",
+      "price_current": 19.95,
+      "price_list": 110.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 26887,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20262882",
+      "discount_pct": 81.9,
+      "score": 78,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-06T07:43:01.582049+00:00",
+      "last_seen": "2026-11-06T12:11:11.970598+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "b247b87d78",
+      "history": [
+        [
+          "2026-11-06",
+          19.95
+        ]
+      ]
+    },
+    {
       "source": "zappos.com",
       "source_tier": "T2",
       "url": "https://www.zappos.com/product/10020971",
@@ -1672,64 +1730,6 @@
         [
           "2026-11-06",
           13.5
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20262882",
-      "title": "adidas Boys Adizero Aruku Shoes (Black) for $19.95 at Amazon",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20262882&t=15",
-      "price_current": 19.95,
-      "price_list": 110.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 26887,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20262882",
-      "discount_pct": 81.9,
-      "score": 78,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-06T07:43:01.582049+00:00",
-      "last_seen": "2026-11-06T12:01:17.608668+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "b247b87d78",
-      "history": [
-        [
-          "2026-11-06",
-          19.95
         ]
       ]
     },
@@ -5994,13 +5994,12 @@
   "fx_usd_krw": 1347.7,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-06T12:00:47+00:00",
+      "T1": "2026-11-06T12:10:36+00:00",
       "T2": "2026-11-06T12:01:18+00:00",
       "T3": "2026-11-06T10:31:23+00:00",
       "T4": "2026-11-06T09:31:12+00:00"
     },
     "recent_gaps_min": [
-      7,
       10,
       1,
       9,
@@ -6029,14 +6028,15 @@
       10,
       10,
       10,
-      1
+      1,
+      9
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-06T12:01:53+00:00",
+      "at": "2026-11-06T12:11:11+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -6045,13 +6045,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-06T12:01:53+00:00"
+      "at": "2026-11-06T12:11:11+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-06T12:00:57+00:00",
+        "at": "2026-11-06T12:10:52+00:00",
         "state": "정상",
         "mails": 15,
         "deals": 15
@@ -6077,7 +6077,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-06T09:31:10+00:00",
-        "last_seen": "2026-11-06T12:01:17+00:00"
+        "last_seen": "2026-11-06T12:11:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20262882",
@@ -6092,7 +6092,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-06T07:43:22+00:00",
-        "last_seen": "2026-11-06T12:01:17+00:00"
+        "last_seen": "2026-11-06T12:11:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20263005",
@@ -6107,7 +6107,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 38% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-06T07:01:14+00:00",
-        "last_seen": "2026-11-06T12:01:17+00:00"
+        "last_seen": "2026-11-06T12:11:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20258955",
@@ -6122,7 +6122,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-06T05:11:01+00:00",
-        "last_seen": "2026-11-06T12:01:17+00:00"
+        "last_seen": "2026-11-06T12:11:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20259906",
@@ -6137,7 +6137,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-06T04:50:59+00:00",
-        "last_seen": "2026-11-06T12:01:17+00:00"
+        "last_seen": "2026-11-06T12:11:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20263515",
@@ -6152,7 +6152,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-06T03:51:01+00:00",
-        "last_seen": "2026-11-06T12:01:17+00:00"
+        "last_seen": "2026-11-06T12:11:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20260698",
@@ -6167,7 +6167,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-06T03:20:57+00:00",
-        "last_seen": "2026-11-06T12:01:17+00:00"
+        "last_seen": "2026-11-06T12:11:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20263740",
@@ -6182,7 +6182,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-06T03:01:13+00:00",
-        "last_seen": "2026-11-06T12:01:17+00:00"
+        "last_seen": "2026-11-06T12:11:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20261877",
@@ -6197,7 +6197,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-06T02:51:00+00:00",
-        "last_seen": "2026-11-06T12:01:17+00:00"
+        "last_seen": "2026-11-06T12:11:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20263677",
@@ -6212,7 +6212,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-06T02:40:58+00:00",
-        "last_seen": "2026-11-06T12:01:17+00:00"
+        "last_seen": "2026-11-06T12:11:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20261895",
@@ -6257,7 +6257,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-05T23:21:04+00:00",
-        "last_seen": "2026-11-06T12:01:17+00:00"
+        "last_seen": "2026-11-06T12:11:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20258130",
@@ -6287,7 +6287,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-05T20:41:18+00:00",
-        "last_seen": "2026-11-06T12:01:17+00:00"
+        "last_seen": "2026-11-06T12:11:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20255517",
@@ -6452,7 +6452,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-11-05T12:01:16+00:00",
-        "last_seen": "2026-11-06T12:01:17+00:00"
+        "last_seen": "2026-11-06T12:11:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20257404",
@@ -6632,7 +6632,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 45% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-04T21:51:00+00:00",
-        "last_seen": "2026-11-06T12:01:17+00:00"
+        "last_seen": "2026-11-06T12:11:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20251170",
@@ -6812,7 +6812,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-04T16:41:10+00:00",
-        "last_seen": "2026-11-06T12:01:17+00:00"
+        "last_seen": "2026-11-06T12:11:11+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245581",
