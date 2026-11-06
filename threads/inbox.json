@@ -1658,8 +1658,95 @@
    "hint": {
     "at": 1793967825
    },
-   "status": "waiting_price",
+   "status": "replaced",
    "msg": 2990
+  },
+  "4bb5f052": {
+   "created": "2026-11-06T21:51:13+09:00",
+   "url": "https://www.zappos.com/product/10018395",
+   "deal": {
+    "source": "zappos.com",
+    "source_tier": "T2",
+    "url": "https://www.zappos.com/product/10018395",
+    "title": "Formula 1 Graphic Hoodie",
+    "brand": "PUMA",
+    "category": "sports_outdoor",
+    "image": "https://m.media-amazon.com/images/I/71+DFHXdfLL._AC_SR255,340_.jpg",
+    "price_current": 24.0,
+    "price_list": 80.0,
+    "price_baseline": 80.0,
+    "price_alltime_low": 24.0,
+    "currency": "USD",
+    "coupon_code": "",
+    "coupon_stackable": false,
+    "off_season": false,
+    "free_gift": false,
+    "community_votes": null,
+    "rating": null,
+    "review_count": null,
+    "ships_to_kr": true,
+    "forwarding_ok": true,
+    "krw_effective": 32345,
+    "kr_lowest_price": null,
+    "stock_status": "in_stock",
+    "is_refurbished": false,
+    "expires_at": null,
+    "collection_method": "scrape",
+    "frontpage": false,
+    "code_kind": "",
+    "brand_tier": "known",
+    "buy_url": "https://www.zappos.com/product/10018395",
+    "discount_pct": 70.0,
+    "score": 78,
+    "score_breakdown": {
+     "discount_depth": 30,
+     "price_history": 25,
+     "category": 17,
+     "bonus": 0,
+     "brand": 6
+    },
+    "passed_hard_filter": true,
+    "reject_reason": "",
+    "urgency": "HOT",
+    "detected_at": "2026-11-02T13:51:26.362296+00:00",
+    "last_seen": "2026-11-06T12:41:40.252604+00:00",
+    "posted_at": "",
+    "signals": {},
+    "id": "b08aae417c",
+    "history": [
+     [
+      "2026-11-02",
+      24.0
+     ],
+     [
+      "2026-11-06",
+      24.0
+     ]
+    ]
+   },
+   "seen": "2026-11-06T21:51:05.152188+09:00",
+   "text": "지금 주문하면 본격적인 추위 전에 받는 후드티.\n\nZappos · 70% 할인해서 $24 (정가 $80)\n$200 아래라 관부가세 없이 받아요.\n배대지를 거쳐도 보통 2주 안팎이면 받아요.\n\n겨울 후드티, 이 가격이면 하나 더 있어도 되겠죠?",
+   "reply": "상품 링크: https://www.zappos.com/product/10018395\n다른 사이즈·색상은 링크에서 확인하세요.",
+   "notes": [],
+   "angle": "season",
+   "already": false,
+   "img_ok": true,
+   "photo_msg": 2994,
+   "msg": 2995,
+   "status": "posted",
+   "link": "https://www.threads.com/@deal_ondo/post/DfZpkYhkWxc"
+  },
+  "ac84cd55": {
+   "created": "2026-11-06T21:52:41+09:00",
+   "url": "https://www.nordstromrack.com/s/uggfluff-mittens/9379635",
+   "hint": {
+    "at": 1793967825,
+    "price_current": 29.97,
+    "price_list": 68.0,
+    "typed": true
+   },
+   "status": "waiting_price",
+   "msg": 2998
   }
  },
  "done_updates": [
@@ -1748,7 +1835,10 @@
   303762581,
   303762584,
   303762585,
-  303762586
+  303762586,
+  303762587,
+  303762588,
+  303762589
  ],
  "picks": {
   "2026-10-30-점심": "3ffe07d9",
@@ -1857,6 +1947,11 @@
   {
    "at": "2026-11-06T21:40:01+09:00",
    "updates": 1,
+   "errors": []
+  },
+  {
+   "at": "2026-11-06T21:59:58+09:00",
+   "updates": 3,
    "errors": []
   }
  ]
