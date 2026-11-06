@@ -69,7 +69,7 @@ ITEM_KR = {
     "hoodie": "후드티", "sweatshirt": "맨투맨", "crewneck": "맨투맨", "sweatpants": "스웨트팬츠",
     "joggers": "조거팬츠", "jogger": "조거팬츠", "leggings": "레깅스", "jeans": "청바지",
     "jean": "청바지", "chinos": "치노팬츠", "trousers": "슬랙스", "pants": "바지", "pant": "바지",
-    "shorts": "반바지", "skirt": "스커트", "dress": "원피스", "jumpsuit": "점프수트",
+    "shorts": "반바지", "skirt": "스커트", "miniskirt": "미니스커트", "mini skirt": "미니스커트", "midi skirt": "미디스커트", "dress": "원피스", "jumpsuit": "점프수트",
     "polo shirt": "폴로셔츠", "polo": "폴로셔츠", "t-shirt": "티셔츠", "tee": "티셔츠",
     "button-down shirt": "셔츠", "shirt": "셔츠", "blouse": "블라우스", "top": "상의",
     "tank": "나시", "bodysuit": "바디수트", "pajama set": "잠옷 세트", "robe": "로브",

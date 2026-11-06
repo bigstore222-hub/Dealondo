@@ -96,7 +96,40 @@ def topic_tag(now: dt.datetime | None = None) -> str | None:
     return "블랙프라이데이" if (m1, d1) <= (n.month, n.day) <= (m2, d2) else "해외직구"
 
 
+def board_fx() -> float | None:
+    try:
+        return json.loads(BOARD.read_text(encoding="utf-8")).get("fx_usd_krw")
+    except Exception:
+        return None
+
+
+def recent_posts(n: int = 6) -> list[dict]:
+    try:
+        st = json.loads(TP.STATUS_JSON.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+    return [x for x in st.get("deals", []) if x.get("result") == "게시 완료"][:n]
+
+
+def compose_post(d: dict, seen_kst: dt.datetime | None = None, recent_drafts: list[dict] | None = None) -> dict:
+    """
+    상품 특성에 맞는 각도로 글을 쓴다(deal_writer). 최근 게시글·방금 만든 미리보기와 각도·첫 문장이 겹치지 않게.
+    recent_drafts: 최근 미리보기 [{'angle':…, 'text':…}] — 여러 링크를 연달아 보내도 같은 느낌이 안 나도록.
+    """
+    import deal_writer as W
+    rd = recent_drafts or []
+    rp = recent_posts()
+    angles = [x.get("angle") for x in rd if x.get("angle")] + [x.get("angle") for x in rp if x.get("angle")]
+    openers = [(x.get("text") or "").split("\n")[0] for x in rd] + [x.get("opener") for x in rp if x.get("opener")]
+    return W.compose(d, board_fx(), angles, openers)
+
+
 def build_text(d: dict, seen_kst: dt.datetime) -> tuple[str, str]:
+    r = compose_post(d, seen_kst)
+    return r["text"], r["reply"]
+
+
+def build_text_legacy(d: dict, seen_kst: dt.datetime) -> tuple[str, str]:
     """
     첫 줄 = 한국어로 '무엇인지' + 가격 변화 (피드에서 멈추게 하는 줄)
     본문은 짧게, 세부(관부가세·확인 시각)는 카드 이미지에 맡긴다.
@@ -213,6 +246,25 @@ def publish_image(path: Path) -> str:
     raise RuntimeError(f"카드 이미지 주소가 열리지 않음: {url}")
 
 
+def publish_images(paths: list[Path]) -> list[str]:
+    """카드 여러 장을 한 번에 커밋·푸시하고 raw 주소들을 돌려준다(모아보기 글용)."""
+    rels = [p.relative_to(ROOT).as_posix() for p in paths]
+    subprocess.run(["bash", str(ROOT / ".github/scripts/push_files.sh"), f"모아보기 카드 {len(rels)}장", *rels],
+                   cwd=ROOT, check=False)
+    sha = subprocess.run(["git", "rev-parse", "HEAD"], cwd=ROOT, capture_output=True, text=True).stdout.strip()
+    urls = [f"https://raw.githubusercontent.com/{REPO}/{sha}/{r}" for r in rels]
+    for u in urls:
+        for _ in range(10):
+            try:
+                with urllib.request.urlopen(urllib.request.Request(u, method="HEAD"), timeout=10) as r:
+                    if r.status == 200:
+                        break
+            except Exception:
+                pass
+            time.sleep(3)
+    return urls
+
+
 def already_posted(url: str) -> bool:
     try:
         st = json.loads(TP.STATUS_JSON.read_text(encoding="utf-8"))
@@ -222,13 +274,14 @@ def already_posted(url: str) -> bool:
         return False
 
 
-def record(url: str, result: str, detail: str, link: str = "") -> None:
+def record(url: str, result: str, detail: str, link: str = "", angle: str = "", opener: str = "") -> None:
     try:
         st = json.loads(TP.STATUS_JSON.read_text(encoding="utf-8"))
     except Exception:
         st = {}
     st.setdefault("deals", []).insert(0, {"at": dt.datetime.now(KST).isoformat(timespec="seconds"),
-                                          "url": url, "result": result, "detail": detail, "link": link})
+                                          "url": url, "result": result, "detail": detail, "link": link,
+                                          "angle": angle, "opener": opener})
     st["deals"] = st["deals"][:50]
     TP.STATUS_JSON.write_text(json.dumps(st, ensure_ascii=False, indent=2), encoding="utf-8")
 

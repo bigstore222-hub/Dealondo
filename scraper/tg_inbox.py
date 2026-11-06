@@ -310,9 +310,150 @@ def preview_text(dr: dict) -> str:
     if warn:
         parts += ["", *("⚠️ " + w for w in warn)]
     tag = TD.topic_tag()
+    if dr.get("angle"):
+        parts += ["", f"소개 방식: {ANGLE_KR.get(dr['angle'], dr['angle'])}"]
     parts += ["", (f"주제 태그 #{tag} · " if tag else "") + f"본문 {len(dr['text'])}/500자 · 답장으로 \"19.99 495\" → 가격 수정, 다른 글 → 본문 교체",
-              "✅ 를 누르면 보통 바로, 늦어도 10분 안에 올라가요."]
+              "✅ 를 누르면 바로 올려요." if GAP_H <= 0 and DAY_MAX <= 0 and not QUIET else
+              f"✅ 를 누르면 바로 올려요. 단, 딜 글 간격·하루 상한 안이면 순서를 기다렸다 올라가요."]
     return "\n".join(parts)[:4000]
+
+
+ANGLE_KR = {"speed": "속도(슬릭딜 반응)", "code": "결제 코드", "compare": "국내가 비교", "record": "기록 최저가",
+            "brand": "브랜드 가치", "season": "시즌·타이밍", "size": "사이즈 팁", "practical": "실용·면세", "basic": "기본",
+            "roundup": "모아보기"}
+# 딜 글 간격·하루 상한·쉬는 시간 — 11/6 새벽 20분 동안 같은 형식 6개가 올라가 노출이 0에 가까웠다
+# 사용자 결정(11/6): 간격·상한·쉬는 시간 없이 ✅ 누르면 바로 올린다(핫딜은 속도가 생명).
+# 다시 켜고 싶으면 환경변수로: THREADS_DEAL_GAP_H=2, THREADS_DEAL_DAY_MAX=3, THREADS_DEAL_QUIET=1-8
+GAP_H = float(os.environ.get("THREADS_DEAL_GAP_H", "0"))
+DAY_MAX = int(os.environ.get("THREADS_DEAL_DAY_MAX", "0"))          # 0 = 상한 없음
+_q = (os.environ.get("THREADS_DEAL_QUIET") or "").split("-")
+QUIET = (int(_q[0]), int(_q[1])) if len(_q) == 2 and all(x.strip().isdigit() for x in _q) else None
+
+
+def _posted_times() -> list[tuple[dt.datetime, str]]:
+    out = []
+    for x in TD.recent_posts(50):
+        try:
+            out.append((dt.datetime.fromisoformat(x["at"]), x.get("link") or x.get("url")))
+        except Exception:
+            pass
+    return out
+
+
+def next_slot(now: dt.datetime | None = None) -> dt.datetime:
+    """지금 올려도 되면 now, 아니면 올려도 되는 가장 빠른 시각."""
+    now = now or dt.datetime.now(KST)
+    posts = _posted_times()
+    t = now
+    if posts:
+        t = max(t, max(p[0] for p in posts) + dt.timedelta(hours=GAP_H))
+    if GAP_H <= 0 and DAY_MAX <= 0 and not QUIET:
+        return now                                   # 제한 없음 → 바로
+    if GAP_H <= 0:
+        t = now
+    wake = QUIET[1] if QUIET else 0
+    for _ in range(10):
+        if QUIET and QUIET[0] <= t.hour < QUIET[1]:
+            t = t.replace(hour=QUIET[1], minute=0, second=0, microsecond=0)
+        same_day = {link for at, link in posts if at.astimezone(KST).date() == t.date()}
+        if DAY_MAX <= 0 or len(same_day) < DAY_MAX:
+            return t
+        t = (t + dt.timedelta(days=1)).replace(hour=wake, minute=0, second=0, microsecond=0)
+    return t
+
+
+def queued_keyboard(did: str):
+    return {"inline_keyboard": [[{"text": "⚡ 지금 바로 올리기", "callback_data": f"now:{did}"},
+                                 {"text": "❌ 취소", "callback_data": f"cancel:{did}"}]]}
+
+
+def approve(st: dict, did: str, chat: str, dry: bool) -> None:
+    """✅ — 간격·상한·쉬는 시간 안이면 바로, 아니면 순서를 잡아 대기(그사이 승인된 딜은 모아보기로 묶는다)."""
+    dr = st["drafts"][did]
+    slot = next_slot()
+    if slot <= dt.datetime.now(KST) + dt.timedelta(minutes=1):
+        publish(st, did, chat, dry)
+        return
+    dr["status"] = "queued"
+    dr["post_after"] = slot.isoformat(timespec="minutes")
+    tg_safe("editMessageReplyMarkup", chat_id=chat, message_id=dr["msg"], reply_markup=queued_keyboard(did))
+    tg_safe("sendMessage", chat_id=chat, reply_to_message_id=dr["msg"],
+            text=f"⏰ {slot:%m/%d %H:%M}에 올릴게요.\n딜 글은 {GAP_H:g}시간 간격·하루 {DAY_MAX}개까지, 새벽(1~8시)엔 쉬어요. "
+                 "그사이 승인한 딜이 더 있으면 '모아보기' 글 하나로 묶어서 올려요.\n급하면 ⚡ 지금 바로 올리기를 누르세요.")
+
+
+def due_queue(st: dict) -> list[str]:
+    now = dt.datetime.now(KST)
+    return [k for k, v in st.get("drafts", {}).items()
+            if v.get("status") == "queued" and v.get("post_after")
+            and dt.datetime.fromisoformat(v["post_after"]) <= now]
+
+
+def process_queue(st: dict, dry: bool) -> None:
+    """올릴 시각이 된 대기 딜을 올린다. 2개 이상이면 모아보기 글 하나로."""
+    due = due_queue(st)
+    if not due:
+        return
+    chat = re.sub(r"\s", "", os.environ.get("TELEGRAM_CHAT_ID") or "") or next(iter(ALLOWED))
+    fresh, stale = [], []
+    for k in due:
+        made = dt.datetime.fromisoformat(st["drafts"][k]["created"])
+        (stale if (dt.datetime.now(KST) - made).total_seconds() > 36 * 3600 else fresh).append(k)
+    for k in stale:
+        st["drafts"][k]["status"] = "expired"
+        retire(chat, st["drafts"][k], "⌛ 승인한 지 오래돼 가격이 바뀌었을 수 있어 올리지 않았어요. 필요하면 링크를 다시 보내주세요.")
+    if len(fresh) == 1:
+        publish(st, fresh[0], chat, dry)
+    elif len(fresh) >= 2:
+        publish_roundup(st, fresh[:5], chat, dry)
+        for k in fresh[5:]:                       # 5개 넘으면 다음 순서로
+            st["drafts"][k]["post_after"] = next_slot().isoformat(timespec="minutes")
+    save_state(st)
+
+
+def publish_roundup(st: dict, ids: list[str], chat: str, dry: bool) -> None:
+    import deal_writer as W
+    drs = [st["drafts"][k] for k in ids]
+    for dr in drs:
+        dr["status"] = "posting"
+    save_state(st)
+    comp = W.roundup([dr["deal"] for dr in drs], TD.board_fx())
+    if dry:
+        for dr in drs:
+            dr["status"] = "dry"
+        tg_safe("sendMessage", chat_id=chat, text="🧪 (dry-run) 모아보기 글\n\n" + comp["text"])
+        return
+    token = re.sub(r"\s", "", os.environ.get("THREADS_ACCESS_TOKEN") or "")
+    uid = re.sub(r"\s", "", os.environ.get("THREADS_USER_ID") or "")
+    try:
+        cards = []
+        for k, dr in zip(ids, drs):
+            c = card_path(k)
+            if not c.exists():
+                TD.CARD_DIR.mkdir(parents=True, exist_ok=True)
+                TD.render_card(dr["deal"], dt.datetime.fromisoformat(dr["seen"]), c)
+            cards.append(c)
+        urls = TD.publish_images(cards)
+        pid = T.publish_post(uid, token, comp["text"], topic_tag=TD.topic_tag(), images=urls)
+        link = T.permalink(pid, token)
+        try:
+            T.publish_post(uid, token, comp["reply"], reply_to=pid)
+            note = f"모아보기 {len(ids)}개 · 첫 답글(링크) 완료"
+        except T.ThreadsError as e:
+            note = f"모아보기 {len(ids)}개 · 첫 답글 실패 ({e})"
+    except Exception as e:
+        msg = f"{type(e).__name__}: {str(e)[:300]}"
+        for k, dr in zip(ids, drs):
+            dr["status"] = "queued"
+            dr["post_after"] = (dt.datetime.now(KST) + dt.timedelta(minutes=30)).isoformat(timespec="minutes")
+        tg_safe("sendMessage", chat_id=chat, text=f"❌ 모아보기 게시 실패 — 30분 뒤 다시 시도해요\n{msg}")
+        return
+    for i, dr in enumerate(drs):
+        dr["status"] = "posted"
+        dr["link"] = link
+        TD.record(dr["url"], "게시 완료", note, link, angle="roundup", opener=comp["text"].split("\n")[0])
+        tg_safe("editMessageReplyMarkup", chat_id=chat, message_id=dr["msg"], reply_markup={"inline_keyboard": []})
+    tg_safe("sendMessage", chat_id=chat, text=f"✅ 대기 중이던 딜 {len(ids)}개를 모아보기 글로 올렸어요\n{link}\n{note}")
 
 
 def keyboard(did: str):
@@ -366,10 +507,14 @@ def new_draft(st: dict, chat: str, url: str, hint: dict, reply_to: int) -> str |
                     + ("" if hint.get("title") else "\n상품명도 쓰려면 둘째 줄에 적어주세요."))
         st["drafts"][did]["msg"] = m["message_id"]
         return did
-    text, reply = TD.build_text(d, seen)
+    recent_dr = sorted((v for v in st["drafts"].values() if v.get("angle")),
+                       key=lambda v: v.get("created", ""), reverse=True)[:3]
+    comp = TD.compose_post(d, seen, recent_dr)
+    text, reply = comp["text"], comp["reply"]
+    notes = list(notes) + [f"[품질] {p}" for p in comp.get("problems", [])]
     st["drafts"][did] = {"created": dt.datetime.now(KST).isoformat(timespec="seconds"), "url": url,
                          "deal": d, "seen": seen.isoformat(), "text": text, "reply": reply, "notes": notes,
-                         "already": TD.already_posted(url)}
+                         "angle": comp.get("angle", ""), "already": TD.already_posted(url)}
     if st["drafts"][did]["already"]:
         st["drafts"][did]["notes"].insert(0, "이미 스레드에 올린 적 있는 상품이에요.")
     send_preview(st, did, chat, reply_to)
@@ -425,7 +570,7 @@ def publish(st: dict, did: str, chat: str, dry: bool) -> None:
         return
     dr["status"] = "posted"
     dr["link"] = link
-    TD.record(dr["url"], "게시 완료", note, link)
+    TD.record(dr["url"], "게시 완료", note, link, angle=dr.get("angle", ""), opener=dr["text"].split("\n")[0])
     say(f"✅ 스레드에 올렸어요\n{link}\n{note}")
 
 
@@ -473,7 +618,16 @@ def handle(st: dict, u: dict, dry: bool) -> None:
                         text=f"🔁 {age_h:.0f}시간 전 미리보기라 가격을 다시 확인해 새 미리보기를 보낼게요. 새 미리보기에서 ✅ 를 눌러주세요.")
                 new_draft(st, chat, dr["url"], dict(dr.get("hint") or {}), dr["msg"])
                 return
-            tg_safe("answerCallbackQuery", callback_query_id=cq["id"], text="올리는 중…")
+            if dr.get("status") == "queued":
+                tg_safe("answerCallbackQuery", callback_query_id=cq["id"], text="이미 순서를 잡아 두었어요")
+                return
+            tg_safe("answerCallbackQuery", callback_query_id=cq["id"], text="확인 중…")
+            approve(st, did, chat, dry)
+        if act == "now":
+            if dr.get("status") in ("posted", "posting"):
+                tg_safe("answerCallbackQuery", callback_query_id=cq["id"], text="이미 처리한 글이에요.")
+                return
+            tg_safe("answerCallbackQuery", callback_query_id=cq["id"], text="지금 올려요")
             publish(st, did, chat, dry)
         return
 
@@ -588,6 +742,9 @@ def choose_deal(st: dict) -> dict | None:
             continue
         if TD.norm(url) in used or TD.already_posted(url):
             continue
+        import deal_writer as W
+        if W.problems(W.facts(d)):      # 가격이 안 내렸거나 무슨 상품인지 모르는 딜은 추천하지 않는다
+            continue
         cands.append(d)
     # 첫 줄이 한국어로 또렷한 상품(품목을 아는 것) 우선, 그다음 딜보드 점수(프리미엄 브랜드 +10)·할인율
     cands.sort(key=lambda d: (bool(K.item_kr(d.get("title") or "")),
@@ -643,9 +800,13 @@ def peek() -> int:
             print(f"::warning::텔레그램 확인 실패({i + 1}/3): {err}")
             time.sleep(4)
     try:
-        due = pick_due(load_state())
+        stx = load_state()
+        due = pick_due(stx)
         if due:
             print("추천 딜 보낼 시간:", due)
+        if due_queue(stx):
+            due = due or "queue"
+            print("올릴 시각이 된 대기 딜:", len(due_queue(stx)))
     except Exception as e:
         print("::warning::상태 파일 확인 실패:", e)
     out = os.environ.get("GITHUB_OUTPUT")
@@ -663,6 +824,10 @@ def serve(minutes: float, dry: bool) -> int:
     last = time.time()
     offset = None
     mine: set[str] = set()
+    try:
+        process_queue(st, dry)          # 올릴 시각이 된 대기 딜 먼저
+    except Exception as e:
+        print("[대기 딜] 처리 실패:", repr(e))
     errors: list[str] = []
     seen_n = conflicts = 0
     key = pick_due(st)
