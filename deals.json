@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T11:51:08.917058+00:00",
-  "count": 95,
+  "generated_at": "2026-11-06T12:01:17.626637+00:00",
+  "count": 93,
   "deals": [
     {
       "source": "6pm.com",
@@ -1658,7 +1658,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-06T07:43:01.582049+00:00",
-      "last_seen": "2026-11-06T11:51:07.456430+00:00",
+      "last_seen": "2026-11-06T12:01:17.608668+00:00",
       "posted_at": "",
       "signals": {},
       "id": "b247b87d78",
@@ -2746,61 +2746,6 @@
         [
           "2026-11-04",
           64.98
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/marc-jacobs-the-quilted-snapshot-pochette-bag/8351813",
-      "title": "The Quilted Snapshot Pochette Bag",
-      "brand": "Marc Jacobs",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/42644445-c1e1-4b19-965d-6ebd2dcaae57.jpeg?h=368&w=240&dpr=2",
-      "price_current": 39.98,
-      "price_list": 195.0,
-      "price_baseline": 195.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 53730,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/marc-jacobs-the-quilted-snapshot-pochette-bag/8351813",
-      "discount_pct": 79.5,
-      "score": 71,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-04T05:11:13.261361+00:00",
-      "last_seen": "2026-11-04T11:51:35.190604+00:00",
-      "id": "3cc99fc5fb",
-      "history": [
-        [
-          "2026-11-04",
-          39.98
         ]
       ]
     },
@@ -5987,68 +5932,12 @@
           19.92
         ]
       ]
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Guess-Shimmer-Small-Shoulder-Bag-for-40-free-shipping/22346249.html?iref=rss",
-      "title": "Guess Shimmer Small Shoulder Bag for $40 + free shipping",
-      "brand": "Guess",
-      "category": "premium_fashion",
-      "image": "https://d.dlnws.com/64599/1793788813-product-trimmed.jpg?h=250&w=163",
-      "price_current": 40.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 53757,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Guess-Shimmer-Small-Shoulder-Bag-for-40-free-shipping/22346249.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-04T11:11:19.074008+00:00",
-      "last_seen": "2026-11-04T11:51:35.190604+00:00",
-      "id": "a6876d4e34",
-      "history": [
-        [
-          "2026-11-04",
-          40.0
-        ]
-      ]
     }
   ],
   "fx_usd_krw": 1347.7,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-06T11:50:30+00:00",
+      "T1": "2026-11-06T12:00:47+00:00",
       "T2": "2026-11-06T11:21:02+00:00",
       "T3": "2026-11-06T10:31:23+00:00",
       "T4": "2026-11-06T09:31:12+00:00"
@@ -6082,6 +5971,7 @@
       1,
       10,
       10,
+      10,
       10
     ],
     "naver": {
@@ -6089,7 +5979,7 @@
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-06T11:51:07+00:00",
+      "at": "2026-11-06T12:01:17+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -6098,13 +5988,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-06T11:51:07+00:00"
+      "at": "2026-11-06T12:01:17+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-06T11:50:48+00:00",
+        "at": "2026-11-06T12:00:57+00:00",
         "state": "정상",
         "mails": 15,
         "deals": 15
@@ -6130,7 +6020,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-06T09:31:10+00:00",
-        "last_seen": "2026-11-06T11:51:07+00:00"
+        "last_seen": "2026-11-06T12:01:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20262882",
@@ -6145,7 +6035,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-06T07:43:22+00:00",
-        "last_seen": "2026-11-06T11:51:07+00:00"
+        "last_seen": "2026-11-06T12:01:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20263005",
@@ -6160,7 +6050,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 38% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-06T07:01:14+00:00",
-        "last_seen": "2026-11-06T11:51:07+00:00"
+        "last_seen": "2026-11-06T12:01:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20258955",
@@ -6175,7 +6065,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-06T05:11:01+00:00",
-        "last_seen": "2026-11-06T11:51:07+00:00"
+        "last_seen": "2026-11-06T12:01:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20259906",
@@ -6190,7 +6080,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-06T04:50:59+00:00",
-        "last_seen": "2026-11-06T11:51:07+00:00"
+        "last_seen": "2026-11-06T12:01:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20263515",
@@ -6205,7 +6095,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-06T03:51:01+00:00",
-        "last_seen": "2026-11-06T11:51:07+00:00"
+        "last_seen": "2026-11-06T12:01:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20260698",
@@ -6220,7 +6110,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-06T03:20:57+00:00",
-        "last_seen": "2026-11-06T11:51:07+00:00"
+        "last_seen": "2026-11-06T12:01:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20263740",
@@ -6235,7 +6125,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-06T03:01:13+00:00",
-        "last_seen": "2026-11-06T11:51:07+00:00"
+        "last_seen": "2026-11-06T12:01:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20261877",
@@ -6250,7 +6140,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-06T02:51:00+00:00",
-        "last_seen": "2026-11-06T11:51:07+00:00"
+        "last_seen": "2026-11-06T12:01:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20263677",
@@ -6265,7 +6155,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-06T02:40:58+00:00",
-        "last_seen": "2026-11-06T11:51:07+00:00"
+        "last_seen": "2026-11-06T12:01:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20261895",
@@ -6310,7 +6200,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-05T23:21:04+00:00",
-        "last_seen": "2026-11-06T11:51:07+00:00"
+        "last_seen": "2026-11-06T12:01:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20258130",
@@ -6340,7 +6230,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-05T20:41:18+00:00",
-        "last_seen": "2026-11-06T11:51:07+00:00"
+        "last_seen": "2026-11-06T12:01:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20255517",
@@ -6505,7 +6395,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-11-05T12:01:16+00:00",
-        "last_seen": "2026-11-06T11:51:07+00:00"
+        "last_seen": "2026-11-06T12:01:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20257404",
@@ -6685,7 +6575,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 45% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-04T21:51:00+00:00",
-        "last_seen": "2026-11-06T11:51:07+00:00"
+        "last_seen": "2026-11-06T12:01:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20251170",
@@ -6865,7 +6755,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-04T16:41:10+00:00",
-        "last_seen": "2026-11-06T11:51:07+00:00"
+        "last_seen": "2026-11-06T12:01:17+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20245581",
