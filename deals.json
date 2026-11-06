@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T08:41:46.883026+00:00",
+  "generated_at": "2026-11-06T08:51:15.502765+00:00",
   "count": 98,
   "deals": [
     {
@@ -1293,23 +1293,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 23표/91분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 23표/101분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-06T02:10:35.005009+00:00",
-      "last_seen": "2026-11-06T08:41:06.411782+00:00",
+      "last_seen": "2026-11-06T08:51:15.477097+00:00",
       "posted_at": "2026-11-06T07:09:52+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 91,
+        "sd_age_min": 101,
         "sd_votes": 23,
-        "sd_velocity": 15.2,
+        "sd_velocity": 13.7,
         "sd_fp_min": 11
       },
       "id": "91eb2fcd44",
@@ -1361,23 +1361,23 @@
         "bonus": 0,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 26표/107분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 26표/117분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-05T20:50:40.505258+00:00",
-      "last_seen": "2026-11-06T08:41:06.411782+00:00",
+      "last_seen": "2026-11-06T08:51:15.477097+00:00",
       "posted_at": "2026-11-06T06:54:00+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 107,
+        "sd_age_min": 117,
         "sd_votes": 26,
-        "sd_velocity": 14.6,
+        "sd_velocity": 13.3,
         "sd_fp_min": 27
       },
       "id": "f19df8724c",
@@ -1433,23 +1433,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 28표/125분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 28표/135분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-05T13:50:45.892728+00:00",
-      "last_seen": "2026-11-06T08:41:06.411782+00:00",
+      "last_seen": "2026-11-06T08:51:15.477097+00:00",
       "posted_at": "2026-11-06T06:36:00+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 125,
+        "sd_age_min": 135,
         "sd_votes": 28,
-        "sd_velocity": 13.5,
+        "sd_velocity": 12.5,
         "sd_fp_min": 45
       },
       "id": "73cf314da3",
@@ -6211,13 +6211,12 @@
   "fx_usd_krw": 1347.7,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-06T08:40:30+00:00",
+      "T1": "2026-11-06T08:50:30+00:00",
       "T2": "2026-11-06T08:41:07+00:00",
       "T3": "2026-11-06T08:22:51+00:00",
       "T4": "2026-11-06T03:21:32+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       10,
@@ -6246,14 +6245,15 @@
       1,
       7,
       10,
-      1
+      1,
+      9
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-06T08:41:44+00:00",
+      "at": "2026-11-06T08:51:15+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -6262,16 +6262,16 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-06T08:41:44+00:00"
+      "at": "2026-11-06T08:51:15+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-06T08:40:47+00:00",
-        "state": "정상",
-        "mails": 14,
-        "deals": 14
+        "at": "2026-11-06T08:50:52+00:00",
+        "state": "로그인 실패",
+        "mails": 0,
+        "deals": 0
       },
       "newsletter": {
         "at": "2026-11-06T03:24:11+00:00",
