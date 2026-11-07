@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T15:41:04.015158+00:00",
+  "generated_at": "2026-11-07T15:50:59.580823+00:00",
   "count": 93,
   "deals": [
     {
@@ -199,23 +199,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 19표/27분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 19표/37분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-07T12:30:44.572737+00:00",
-      "last_seen": "2026-11-07T15:41:02.605467+00:00",
+      "last_seen": "2026-11-07T15:50:59.540641+00:00",
       "posted_at": "2026-11-07T15:14:01+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 27,
+        "sd_age_min": 37,
         "sd_votes": 19,
-        "sd_velocity": 42.8,
+        "sd_velocity": 31.1,
         "sd_fp_min": 7
       },
       "id": "e689e164e7",
@@ -1402,23 +1402,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 16표/38분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 16표/48분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-07T13:40:35.813188+00:00",
-      "last_seen": "2026-11-07T15:41:02.605467+00:00",
+      "last_seen": "2026-11-07T15:50:59.540641+00:00",
       "posted_at": "2026-11-07T15:02:50+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 38,
+        "sd_age_min": 48,
         "sd_votes": 16,
-        "sd_velocity": 25.4,
+        "sd_velocity": 20.1,
         "sd_fp_min": 18
       },
       "id": "2a37318873",
@@ -1470,23 +1470,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 41표/95분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 41표/105분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-07T06:50:38.675705+00:00",
-      "last_seen": "2026-11-07T15:41:02.605467+00:00",
+      "last_seen": "2026-11-07T15:50:59.540641+00:00",
       "posted_at": "2026-11-07T14:06:04+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 95,
+        "sd_age_min": 105,
         "sd_votes": 41,
-        "sd_velocity": 26.0,
+        "sd_velocity": 23.5,
         "sd_fp_min": 15
       },
       "id": "ba231448c2",
@@ -1538,23 +1538,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 40표/134분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 40표/144분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-07T05:30:45.352453+00:00",
-      "last_seen": "2026-11-07T15:41:02.605467+00:00",
+      "last_seen": "2026-11-07T15:50:59.540641+00:00",
       "posted_at": "2026-11-07T13:27:10+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 134,
+        "sd_age_min": 144,
         "sd_votes": 40,
-        "sd_velocity": 18.0,
+        "sd_velocity": 16.7,
         "sd_fp_min": 13
       },
       "id": "911c913638",
@@ -3850,7 +3850,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-05T18:10:54.187133+00:00",
-      "last_seen": "2026-11-07T15:41:02.605467+00:00",
+      "last_seen": "2026-11-07T15:50:59.540641+00:00",
       "posted_at": "",
       "signals": {},
       "id": "f2e8a9db63",
@@ -6085,7 +6085,7 @@
   "fx_usd_krw": 1356.7,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-07T15:40:28+00:00",
+      "T1": "2026-11-07T15:50:29+00:00",
       "T2": "2026-11-07T15:11:00+00:00",
       "T3": "2026-11-07T14:31:53+00:00",
       "T4": "2026-11-07T10:11:58+00:00"
@@ -6119,14 +6119,15 @@
       1,
       9,
       11,
-      9
+      9,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-07T15:41:02+00:00",
+      "at": "2026-11-07T15:50:59+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -6135,16 +6136,16 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-07T15:41:02+00:00"
+      "at": "2026-11-07T15:50:59+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-07T15:40:40+00:00",
+        "at": "2026-11-07T15:50:40+00:00",
         "state": "정상",
-        "mails": 15,
-        "deals": 15
+        "mails": 16,
+        "deals": 16
       },
       "newsletter": {
         "at": "2026-11-07T10:14:40+00:00",
@@ -6154,6 +6155,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20270091",
+        "source": "slickdeals:slickdeals.net",
+        "title": "Dyson V15 Detect | Yellow/Nickel | Refurbished $299.99",
+        "price": 299.99,
+        "list_price": 849.99,
+        "discount_pct": 64.7,
+        "krw": 483503,
+        "kr_lowest": null,
+        "score": 47,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-11-07T15:50:59+00:00",
+        "last_seen": "2026-11-07T15:50:59+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20271258",
         "source": "slickdeals:amazon.com",
@@ -6167,7 +6183,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-07T14:51:01+00:00",
-        "last_seen": "2026-11-07T15:41:02+00:00"
+        "last_seen": "2026-11-07T15:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20262123",
@@ -6182,7 +6198,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-07T10:11:02+00:00",
-        "last_seen": "2026-11-07T15:41:02+00:00"
+        "last_seen": "2026-11-07T15:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20267970",
@@ -6197,7 +6213,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-07T07:41:05+00:00",
-        "last_seen": "2026-11-07T15:41:02+00:00"
+        "last_seen": "2026-11-07T15:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20267775",
@@ -6212,7 +6228,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-07T06:31:11+00:00",
-        "last_seen": "2026-11-07T15:41:02+00:00"
+        "last_seen": "2026-11-07T15:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20265513",
@@ -6227,7 +6243,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-07T06:21:00+00:00",
-        "last_seen": "2026-11-07T15:41:02+00:00"
+        "last_seen": "2026-11-07T15:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20265798",
@@ -6242,7 +6258,7 @@
         "published": false,
         "reject_reason": "H8: 할인 13% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-07T05:52:23+00:00",
-        "last_seen": "2026-11-07T15:41:02+00:00"
+        "last_seen": "2026-11-07T15:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20239260",
@@ -6257,7 +6273,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-07T05:41:01+00:00",
-        "last_seen": "2026-11-07T15:41:02+00:00"
+        "last_seen": "2026-11-07T15:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20268294",
@@ -6272,7 +6288,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-07T05:31:04+00:00",
-        "last_seen": "2026-11-07T15:41:02+00:00"
+        "last_seen": "2026-11-07T15:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20267574",
@@ -6362,7 +6378,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-06T17:21:09+00:00",
-        "last_seen": "2026-11-07T15:41:02+00:00"
+        "last_seen": "2026-11-07T15:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20267157",
@@ -6407,7 +6423,7 @@
         "published": false,
         "reject_reason": "H7: Under Armour 할인 57% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-06T14:01:56+00:00",
-        "last_seen": "2026-11-07T15:41:02+00:00"
+        "last_seen": "2026-11-07T15:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20262048",
@@ -6422,7 +6438,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-06T09:31:10+00:00",
-        "last_seen": "2026-11-07T15:41:02+00:00"
+        "last_seen": "2026-11-07T15:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20262882",
@@ -6497,7 +6513,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-06T03:51:01+00:00",
-        "last_seen": "2026-11-07T15:41:02+00:00"
+        "last_seen": "2026-11-07T15:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20260698",
@@ -6542,7 +6558,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-06T02:51:00+00:00",
-        "last_seen": "2026-11-07T15:41:02+00:00"
+        "last_seen": "2026-11-07T15:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20263677",
@@ -6602,7 +6618,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-05T23:21:04+00:00",
-        "last_seen": "2026-11-07T15:41:02+00:00"
+        "last_seen": "2026-11-07T15:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20258130",
@@ -6632,7 +6648,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-05T20:41:18+00:00",
-        "last_seen": "2026-11-07T15:41:02+00:00"
+        "last_seen": "2026-11-07T15:50:59+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20255517",
@@ -7176,7 +7192,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 68,
+      "collected_72h": 69,
       "published_72h": 14
     }
   }
