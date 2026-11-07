@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T13:55:53.963828+00:00",
+  "generated_at": "2026-11-07T13:56:32.651795+00:00",
   "count": 94,
   "deals": [
     {
@@ -1001,7 +1001,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-07T12:01:27.930140+00:00",
-      "last_seen": "2026-11-07T13:21:37.504505+00:00",
+      "last_seen": "2026-11-07T13:56:31.847759+00:00",
       "posted_at": "",
       "signals": {},
       "id": "114d71c748",
@@ -1114,7 +1114,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-03T08:31:18.097836+00:00",
-      "last_seen": "2026-11-07T13:21:37.504505+00:00",
+      "last_seen": "2026-11-07T13:56:31.847759+00:00",
       "posted_at": "",
       "signals": {},
       "id": "0209ff311b",
@@ -2165,7 +2165,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-11-07T13:21:37.504505+00:00",
+      "last_seen": "2026-11-07T13:56:31.847759+00:00",
       "posted_at": "",
       "signals": {},
       "id": "d7ccb9b681",
@@ -2494,7 +2494,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-07T09:21:12.154265+00:00",
-      "last_seen": "2026-11-07T13:21:37.504505+00:00",
+      "last_seen": "2026-11-07T13:56:31.847759+00:00",
       "posted_at": "",
       "signals": {},
       "id": "72c899ba30",
@@ -2551,7 +2551,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-05T23:21:26.916466+00:00",
-      "last_seen": "2026-11-07T13:21:37.504505+00:00",
+      "last_seen": "2026-11-07T13:56:31.847759+00:00",
       "posted_at": "",
       "signals": {},
       "id": "956fa724d1",
@@ -2801,7 +2801,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-01T19:31:20.955223+00:00",
-      "last_seen": "2026-11-07T06:42:46.849294+00:00",
+      "last_seen": "2026-11-07T13:56:31.847759+00:00",
       "posted_at": "",
       "signals": {},
       "id": "0491590a54",
@@ -3004,7 +3004,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-06T17:51:22.383049+00:00",
-      "last_seen": "2026-11-07T13:21:37.504505+00:00",
+      "last_seen": "2026-11-07T13:56:31.847759+00:00",
       "posted_at": "",
       "signals": {},
       "id": "8d1f404c14",
@@ -3016,6 +3016,71 @@
         [
           "2026-11-07",
           99.5
+        ]
+      ]
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10045516",
+      "title": "Lila Embos Sweat",
+      "brand": "AllSaints",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/61qdCtktIzL._AC_SR255,340_.jpg",
+      "price_current": 65.7,
+      "price_list": 219.0,
+      "price_baseline": 219.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 89134,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.zappos.com/product/10045516",
+      "discount_pct": 70.0,
+      "score": 71,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-05T17:31:30.887183+00:00",
+      "last_seen": "2026-11-07T13:56:31.847759+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "d135b31a39",
+      "history": [
+        [
+          "2026-11-05",
+          65.7
+        ],
+        [
+          "2026-11-06",
+          65.7
+        ],
+        [
+          "2026-11-07",
+          65.7
         ]
       ]
     },
@@ -3081,71 +3146,6 @@
         [
           "2026-11-07",
           49.99
-        ]
-      ]
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10045516",
-      "title": "Lila Embos Sweat",
-      "brand": "AllSaints",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61qdCtktIzL._AC_SR255,340_.jpg",
-      "price_current": 65.7,
-      "price_list": 219.0,
-      "price_baseline": 219.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 89134,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.zappos.com/product/10045516",
-      "discount_pct": 70.0,
-      "score": 71,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-05T17:31:30.887183+00:00",
-      "last_seen": "2026-11-07T06:42:46.849294+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "d135b31a39",
-      "history": [
-        [
-          "2026-11-05",
-          65.7
-        ],
-        [
-          "2026-11-06",
-          65.7
-        ],
-        [
-          "2026-11-07",
-          65.7
         ]
       ]
     },
@@ -3964,7 +3964,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-06T05:21:17.055634+00:00",
-      "last_seen": "2026-11-07T13:21:37.504505+00:00",
+      "last_seen": "2026-11-07T13:56:31.847759+00:00",
       "posted_at": "",
       "signals": {},
       "id": "f21456acff",
@@ -3986,7 +3986,7 @@
       "title": "Stage Slouch Boot",
       "brand": "Steve Madden",
       "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/b6efdc8e-dfde-46cf-8980-3037b6950cd7.jpeg?h=368&w=240&dpr=2",
+      "image": "https://n.nordstrommedia.com/it/19562675-e4df-427f-a80c-96ce4403c226.jpeg?h=368&w=240&dpr=2",
       "price_current": 43.86,
       "price_list": 179.0,
       "price_baseline": 179.0,
@@ -4025,7 +4025,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-04T17:41:31.358955+00:00",
-      "last_seen": "2026-11-07T13:21:37.504505+00:00",
+      "last_seen": "2026-11-07T13:56:31.847759+00:00",
       "posted_at": "",
       "signals": {},
       "id": "fbc4c9764e",
@@ -4086,7 +4086,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-05T06:11:17.077526+00:00",
-      "last_seen": "2026-11-07T13:21:37.504505+00:00",
+      "last_seen": "2026-11-07T13:56:31.847759+00:00",
       "posted_at": "",
       "signals": {},
       "id": "1a8d55d385",
@@ -4712,7 +4712,7 @@
       "source": "dealnews",
       "source_tier": "T2",
       "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-84-off-free-shipping/22350841.html?iref=rss",
-      "title": "lululemon We Made Too Much Event: Up to 84% off + free shipping  (외 1종)",
+      "title": "lululemon We Made Too Much Event: Up to 84% off + free shipping",
       "brand": "Lululemon",
       "category": "sports_outdoor",
       "image": "https://d.dlnws.com/64599/1792231761-imglululemon_yogo_rgb_blk-1658424320863.png?h=200&w=200",
@@ -4754,11 +4754,10 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-07T13:21:14.134239+00:00",
-      "last_seen": "2026-11-07T13:21:37.504505+00:00",
+      "detected_at": "2026-11-07T13:56:10.665257+00:00",
+      "last_seen": "2026-11-07T13:56:31.847759+00:00",
       "posted_at": "",
       "signals": {},
-      "variant_count": 2,
       "id": "d333d06726",
       "history": []
     },
@@ -4809,7 +4808,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-07T12:41:18.737634+00:00",
-      "last_seen": "2026-11-07T13:21:37.504505+00:00",
+      "last_seen": "2026-11-07T13:56:31.847759+00:00",
       "posted_at": "",
       "signals": {},
       "id": "e0b6c66b36",
@@ -4867,7 +4866,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-07T12:41:18.737634+00:00",
-      "last_seen": "2026-11-07T13:21:37.504505+00:00",
+      "last_seen": "2026-11-07T13:56:31.847759+00:00",
       "posted_at": "",
       "signals": {},
       "id": "4230d2c305",
@@ -4924,8 +4923,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-07T13:21:14.138662+00:00",
-      "last_seen": "2026-11-07T13:21:37.504505+00:00",
+      "detected_at": "2026-11-07T13:56:10.667846+00:00",
+      "last_seen": "2026-11-07T13:56:31.847759+00:00",
       "posted_at": "",
       "signals": {},
       "id": "cb18522085",
@@ -4978,7 +4977,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-07T12:01:27.930140+00:00",
-      "last_seen": "2026-11-07T13:21:37.504505+00:00",
+      "last_seen": "2026-11-07T13:56:31.847759+00:00",
       "posted_at": "",
       "signals": {},
       "id": "90c21a616f",
@@ -5036,7 +5035,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-07T11:21:17.184977+00:00",
-      "last_seen": "2026-11-07T13:21:37.504505+00:00",
+      "last_seen": "2026-11-07T13:56:31.847759+00:00",
       "posted_at": "",
       "signals": {},
       "id": "2f6dd21f80",
@@ -5093,8 +5092,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-07T13:21:14.293224+00:00",
-      "last_seen": "2026-11-07T13:21:37.504505+00:00",
+      "detected_at": "2026-11-07T13:56:10.835290+00:00",
+      "last_seen": "2026-11-07T13:56:31.847759+00:00",
       "posted_at": "",
       "signals": {},
       "id": "4b58cafbc6",
@@ -6140,12 +6139,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-07T13:50:32+00:00",
-      "T2": "2026-11-07T13:21:07+00:00",
+      "T2": "2026-11-07T13:55:55+00:00",
       "T3": "2026-11-07T12:21:41+00:00",
       "T4": "2026-11-07T10:11:58+00:00"
     },
     "recent_gaps_min": [
-      3,
       6,
       10,
       10,
@@ -6174,14 +6172,15 @@
       9,
       10,
       10,
-      5
+      5,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-07T13:51:01+00:00",
+      "at": "2026-11-07T13:56:31+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -6190,7 +6189,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-07T13:51:01+00:00"
+      "at": "2026-11-07T13:56:31+00:00"
     }
   },
   "email_monitor": {
