@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T02:10:59.724027+00:00",
+  "generated_at": "2026-11-07T02:11:33.058212+00:00",
   "count": 95,
   "deals": [
     {
@@ -416,7 +416,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-10-31T21:11:21.533925+00:00",
-      "last_seen": "2026-11-07T01:32:00.153708+00:00",
+      "last_seen": "2026-11-07T02:11:31.776009+00:00",
       "posted_at": "",
       "signals": {},
       "id": "bfacc2b04a",
@@ -500,7 +500,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-01T17:41:17.681788+00:00",
-      "last_seen": "2026-11-07T01:32:00.153708+00:00",
+      "last_seen": "2026-11-07T02:11:31.776009+00:00",
       "posted_at": "",
       "signals": {},
       "id": "4fc7c03226",
@@ -784,7 +784,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-03T08:31:18.097836+00:00",
-      "last_seen": "2026-11-07T01:32:00.153708+00:00",
+      "last_seen": "2026-11-07T02:11:31.776009+00:00",
       "posted_at": "",
       "signals": {},
       "id": "0209ff311b",
@@ -856,7 +856,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-31T21:11:21.533925+00:00",
-      "last_seen": "2026-11-07T01:32:00.153708+00:00",
+      "last_seen": "2026-11-07T02:11:31.776009+00:00",
       "posted_at": "",
       "signals": {},
       "id": "b485d05968",
@@ -1915,7 +1915,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-11-07T01:32:00.153708+00:00",
+      "last_seen": "2026-11-07T02:11:31.776009+00:00",
       "posted_at": "",
       "signals": {},
       "id": "d7ccb9b681",
@@ -2316,7 +2316,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-05T23:21:26.916466+00:00",
-      "last_seen": "2026-11-07T01:32:00.153708+00:00",
+      "last_seen": "2026-11-07T02:11:31.776009+00:00",
       "posted_at": "",
       "signals": {},
       "id": "956fa724d1",
@@ -2763,7 +2763,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-06T17:51:22.383049+00:00",
-      "last_seen": "2026-11-07T01:32:00.153708+00:00",
+      "last_seen": "2026-11-07T02:11:31.776009+00:00",
       "posted_at": "",
       "signals": {},
       "id": "8d1f404c14",
@@ -3775,7 +3775,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-06T05:21:17.055634+00:00",
-      "last_seen": "2026-11-07T01:32:00.153708+00:00",
+      "last_seen": "2026-11-07T02:11:31.776009+00:00",
       "posted_at": "",
       "signals": {},
       "id": "226749952c",
@@ -3836,7 +3836,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-06T05:21:17.055634+00:00",
-      "last_seen": "2026-11-07T01:32:00.153708+00:00",
+      "last_seen": "2026-11-07T02:11:31.776009+00:00",
       "posted_at": "",
       "signals": {},
       "id": "f21456acff",
@@ -3848,6 +3848,67 @@
         [
           "2026-11-07",
           74.99
+        ]
+      ]
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/9998779",
+      "title": "Xavier",
+      "brand": "Steve Madden",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/61dzskmcgKL._AC_SR255,340_.jpg",
+      "price_current": 30.0,
+      "price_list": 100.0,
+      "price_baseline": 100.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 40700,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/9998779",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-06T04:41:20.110057+00:00",
+      "last_seen": "2026-11-07T02:11:31.776009+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "94bc4cc9e6",
+      "history": [
+        [
+          "2026-11-06",
+          30.0
+        ],
+        [
+          "2026-11-07",
+          30.0
         ]
       ]
     },
@@ -4019,63 +4080,6 @@
         [
           "2026-11-06",
           49.5
-        ]
-      ]
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/9998778",
-      "title": "Strandd",
-      "brand": "Steve Madden",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61LuuVu7ICL._AC_SR255,340_.jpg",
-      "price_current": 39.0,
-      "price_list": 130.0,
-      "price_baseline": 130.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 52560,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/9998778",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-06T00:41:20.199170+00:00",
-      "last_seen": "2026-11-06T16:31:46.232813+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "17a5030fc2",
-      "history": [
-        [
-          "2026-11-06",
-          39.0
         ]
       ]
     },
@@ -4730,8 +4734,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-07T01:31:41.956929+00:00",
-      "last_seen": "2026-11-07T01:32:00.153708+00:00",
+      "detected_at": "2026-11-07T02:11:08.405600+00:00",
+      "last_seen": "2026-11-07T02:11:31.776009+00:00",
       "posted_at": "",
       "signals": {},
       "id": "5bf8b076f3",
@@ -4784,7 +4788,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-06T19:11:25.486698+00:00",
-      "last_seen": "2026-11-07T01:32:00.153708+00:00",
+      "last_seen": "2026-11-07T02:11:31.776009+00:00",
       "posted_at": "",
       "signals": {},
       "id": "adad3c7deb",
@@ -4846,7 +4850,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-06T18:31:25.284575+00:00",
-      "last_seen": "2026-11-07T01:32:00.153708+00:00",
+      "last_seen": "2026-11-07T02:11:31.776009+00:00",
       "posted_at": "",
       "signals": {},
       "id": "eb9e8d306b",
@@ -4908,7 +4912,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-06T18:31:25.284575+00:00",
-      "last_seen": "2026-11-07T01:32:00.153708+00:00",
+      "last_seen": "2026-11-07T02:11:31.776009+00:00",
       "posted_at": "",
       "signals": {},
       "id": "7bc75d11bd",
@@ -4969,8 +4973,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-07T01:31:42.171941+00:00",
-      "last_seen": "2026-11-07T01:32:00.153708+00:00",
+      "detected_at": "2026-11-07T02:11:08.541649+00:00",
+      "last_seen": "2026-11-07T02:11:31.776009+00:00",
       "posted_at": "",
       "signals": {},
       "id": "4b58cafbc6",
@@ -6186,12 +6190,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-07T02:10:29+00:00",
-      "T2": "2026-11-07T01:31:25+00:00",
+      "T2": "2026-11-07T02:11:01+00:00",
       "T3": "2026-11-07T01:41:00+00:00",
       "T4": "2026-11-06T21:51:07+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       10,
       1,
@@ -6220,14 +6223,15 @@
       1,
       9,
       10,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-07T02:10:59+00:00",
+      "at": "2026-11-07T02:11:31+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -6236,7 +6240,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-07T02:10:59+00:00"
+      "at": "2026-11-07T02:11:31+00:00"
     }
   },
   "email_monitor": {
