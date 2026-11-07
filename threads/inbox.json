@@ -1968,6 +1968,88 @@
    "photo_msg": 3023,
    "msg": 3024,
    "status": "waiting"
+  },
+  "3c6e803c": {
+   "created": "2026-11-07T11:40:55+09:00",
+   "url": "https://www.zappos.com/product/10062126",
+   "deal": {
+    "source": "zappos.com",
+    "source_tier": "T2",
+    "url": "https://www.zappos.com/product/10062126",
+    "title": "Floral-Print Cotton Boxy Tee (Toddler/Little Kid)",
+    "brand": "Polo Ralph Lauren",
+    "category": "premium_fashion",
+    "image": "https://m.media-amazon.com/images/I/715Llro1LqL._AC_SR255,340_.jpg",
+    "price_current": 11.85,
+    "price_list": 39.5,
+    "price_baseline": 39.5,
+    "price_alltime_low": 11.85,
+    "currency": "USD",
+    "coupon_code": "",
+    "coupon_stackable": false,
+    "off_season": false,
+    "free_gift": false,
+    "community_votes": null,
+    "rating": null,
+    "review_count": null,
+    "ships_to_kr": true,
+    "forwarding_ok": true,
+    "krw_effective": 16077,
+    "kr_lowest_price": null,
+    "stock_status": "in_stock",
+    "is_refurbished": false,
+    "expires_at": null,
+    "collection_method": "scrape",
+    "frontpage": false,
+    "code_kind": "",
+    "brand_tier": "premium",
+    "buy_url": "https://www.zappos.com/product/10062126",
+    "discount_pct": 70.0,
+    "score": 87,
+    "score_breakdown": {
+     "discount_depth": 30,
+     "price_history": 25,
+     "category": 20,
+     "bonus": 0,
+     "brand": 12
+    },
+    "passed_hard_filter": true,
+    "reject_reason": "",
+    "urgency": "FLASH",
+    "detected_at": "2026-11-03T17:01:34.886128+00:00",
+    "last_seen": "2026-11-07T01:32:00.153708+00:00",
+    "posted_at": "",
+    "signals": {},
+    "id": "0f0d5ecb22",
+    "history": [
+     [
+      "2026-11-03",
+      11.85
+     ],
+     [
+      "2026-11-04",
+      11.85
+     ],
+     [
+      "2026-11-05",
+      11.85
+     ],
+     [
+      "2026-11-07",
+      11.85
+     ]
+    ]
+   },
+   "seen": "2026-11-07T11:40:50.055168+09:00",
+   "text": "정가 $39.50짜리 폴로 랄프로렌 티셔츠, 지금 $11.85.\n\nZappos에서 70% 할인 중이에요.\n원화로 약 1만 6천 원, 여기에 배대지 배송비만 더하면 돼요.\n면세한도 $200 안이라 세금 걱정 없어요.\n\n할인 폭이 큰 브랜드 딜은 인기 사이즈부터 빠져요.\n이 가격이면 선물로도 괜찮겠죠?",
+   "reply": "상품 링크: https://www.zappos.com/product/10062126\n가격은 수시로 바뀌니 결제 전에 한 번 더 확인하세요.",
+   "notes": [],
+   "angle": "brand",
+   "already": false,
+   "img_ok": true,
+   "photo_msg": 3028,
+   "msg": 3029,
+   "status": "waiting"
   }
  },
  "done_updates": [
@@ -2073,7 +2155,8 @@
   "2026-11-05-점심": "154ee4b2",
   "2026-11-05-저녁": "31402f47",
   "2026-11-06-점심": "92418aef",
-  "2026-11-06-저녁": "6e4b1eb4"
+  "2026-11-06-저녁": "6e4b1eb4",
+  "2026-11-07-점심": "3c6e803c"
  },
  "picked_urls": [
   "6pm.com/product/9961271",
@@ -2082,7 +2165,8 @@
   "6pm.com/product/10034505",
   "6pm.com/product/10055713",
   "zappos.com/product/10059808",
-  "nordstromrack.com/s/sam-edelman-onia-pointed-toe-slingback-pump-women/8367678"
+  "nordstromrack.com/s/sam-edelman-onia-pointed-toe-slingback-pump-women/8367678",
+  "zappos.com/product/10062126"
  ],
  "runs": [
   {
@@ -2183,6 +2267,11 @@
   {
    "at": "2026-11-07T10:08:21+09:00",
    "updates": 5,
+   "errors": []
+  },
+  {
+   "at": "2026-11-07T11:49:42+09:00",
+   "updates": 0,
    "errors": []
   }
  ]
