@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-08T01:10:57.330226+00:00",
-  "count": 91,
+  "generated_at": "2026-11-08T01:12:26.939304+00:00",
+  "count": 92,
   "deals": [
     {
       "source": "6pm.com",
@@ -464,7 +464,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 81401,
+      "krw_effective": 81323,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -487,7 +487,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-01T18:01:56.270434+00:00",
-      "last_seen": "2026-11-07T23:02:15.566948+00:00",
+      "last_seen": "2026-11-08T01:12:26.905643+00:00",
       "posted_at": "",
       "signals": {},
       "id": "c73118fa8c",
@@ -518,6 +518,10 @@
         ],
         [
           "2026-11-07",
+          60.0
+        ],
+        [
+          "2026-11-08",
           60.0
         ]
       ]
@@ -976,6 +980,67 @@
       ]
     },
     {
+      "source": "6pm.com",
+      "source_tier": "T3",
+      "url": "https://www.6pm.com/product/10056467",
+      "title": "Ellie Western Sandals",
+      "brand": "AllSaints",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/713NCFuFcKL._AC_SR255,340_.jpg",
+      "price_current": 43.8,
+      "price_list": 219.0,
+      "price_baseline": 219.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": 5.0,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 59366,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.6pm.com/product/10056467",
+      "discount_pct": 80.0,
+      "score": 83,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-07T18:43:06.158254+00:00",
+      "last_seen": "2026-11-08T01:12:26.905643+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "d284c95219",
+      "history": [
+        [
+          "2026-11-07",
+          43.8
+        ],
+        [
+          "2026-11-08",
+          43.8
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/kate-spade-new-york-duet-saffiano-pvc-small-crossb/9177717",
@@ -1090,63 +1155,6 @@
       ]
     },
     {
-      "source": "6pm.com",
-      "source_tier": "T3",
-      "url": "https://www.6pm.com/product/10056467",
-      "title": "Ellie Western Sandals",
-      "brand": "AllSaints",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/713NCFuFcKL._AC_SR255,340_.jpg",
-      "price_current": 43.8,
-      "price_list": 219.0,
-      "price_baseline": 219.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": 5.0,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 59422,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.6pm.com/product/10056467",
-      "discount_pct": 80.0,
-      "score": 83,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-07T18:43:06.158254+00:00",
-      "last_seen": "2026-11-07T23:02:15.566948+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "d284c95219",
-      "history": [
-        [
-          "2026-11-07",
-          43.8
-        ]
-      ]
-    },
-    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/marc-jacobs-the-mini-dual-diamond-quilted-denim-shoulder-bag/8351822",
@@ -1200,6 +1208,146 @@
         [
           "2026-11-07",
           50.98
+        ]
+      ]
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/steve-madden-stage-slouch-boot-women/8569865",
+      "title": "Stage Slouch Boot",
+      "brand": "Steve Madden",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/b6efdc8e-dfde-46cf-8980-3037b6950cd7.jpeg?h=368&w=240&dpr=2",
+      "price_current": 43.86,
+      "price_list": 179.0,
+      "price_baseline": 179.0,
+      "price_alltime_low": 43.86,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 59447,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/steve-madden-stage-slouch-boot-women/8569865",
+      "discount_pct": 75.5,
+      "score": 81,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-04T17:41:31.358955+00:00",
+      "last_seen": "2026-11-08T01:11:31.251583+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "fbc4c9764e",
+      "history": [
+        [
+          "2026-11-04",
+          58.48
+        ],
+        [
+          "2026-11-07",
+          43.86
+        ],
+        [
+          "2026-11-08",
+          43.86
+        ]
+      ]
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/sam-edelman-layla-sneaker-women/7180675",
+      "title": "Layla Sneaker",
+      "brand": "Sam Edelman",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/5033987e-f243-4c55-bac3-dd173b124223.jpeg?h=368&w=240&dpr=2",
+      "price_current": 28.1,
+      "price_list": 100.0,
+      "price_baseline": 100.0,
+      "price_alltime_low": 28.1,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 38086,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/sam-edelman-layla-sneaker-women/7180675",
+      "discount_pct": 71.9,
+      "score": 81,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-03T08:31:18.097836+00:00",
+      "last_seen": "2026-11-08T01:11:31.251583+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "0209ff311b",
+      "history": [
+        [
+          "2026-11-03",
+          37.47
+        ],
+        [
+          "2026-11-04",
+          37.47
+        ],
+        [
+          "2026-11-05",
+          37.47
+        ],
+        [
+          "2026-11-06",
+          28.1
+        ],
+        [
+          "2026-11-07",
+          28.1
+        ],
+        [
+          "2026-11-08",
+          28.1
         ]
       ]
     },
@@ -1272,146 +1420,6 @@
         [
           "2026-11-08",
           5.0
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/steve-madden-stage-slouch-boot-women/8569865",
-      "title": "Stage Slouch Boot",
-      "brand": "Steve Madden",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/b6efdc8e-dfde-46cf-8980-3037b6950cd7.jpeg?h=368&w=240&dpr=2",
-      "price_current": 43.86,
-      "price_list": 179.0,
-      "price_baseline": 179.0,
-      "price_alltime_low": 43.86,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 59504,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/steve-madden-stage-slouch-boot-women/8569865",
-      "discount_pct": 75.5,
-      "score": 81,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-04T17:41:31.358955+00:00",
-      "last_seen": "2026-11-08T00:31:57.044622+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "fbc4c9764e",
-      "history": [
-        [
-          "2026-11-04",
-          58.48
-        ],
-        [
-          "2026-11-07",
-          43.86
-        ],
-        [
-          "2026-11-08",
-          43.86
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/sam-edelman-layla-sneaker-women/7180675",
-      "title": "Layla Sneaker",
-      "brand": "Sam Edelman",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/5033987e-f243-4c55-bac3-dd173b124223.jpeg?h=368&w=240&dpr=2",
-      "price_current": 28.1,
-      "price_list": 100.0,
-      "price_baseline": 100.0,
-      "price_alltime_low": 28.1,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 38123,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/sam-edelman-layla-sneaker-women/7180675",
-      "discount_pct": 71.9,
-      "score": 81,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-03T08:31:18.097836+00:00",
-      "last_seen": "2026-11-08T00:31:57.044622+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "0209ff311b",
-      "history": [
-        [
-          "2026-11-03",
-          37.47
-        ],
-        [
-          "2026-11-04",
-          37.47
-        ],
-        [
-          "2026-11-05",
-          37.47
-        ],
-        [
-          "2026-11-06",
-          28.1
-        ],
-        [
-          "2026-11-07",
-          28.1
-        ],
-        [
-          "2026-11-08",
-          28.1
         ]
       ]
     },
@@ -2428,7 +2436,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 61023,
+      "krw_effective": 60965,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -2451,7 +2459,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-29T07:31:25.005880+00:00",
-      "last_seen": "2026-11-08T00:31:57.044622+00:00",
+      "last_seen": "2026-11-08T01:11:31.251583+00:00",
       "posted_at": "",
       "signals": {},
       "id": "d7ccb9b681",
@@ -2832,7 +2840,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 19821,
+      "krw_effective": 19802,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -2856,7 +2864,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-07T09:21:12.154265+00:00",
-      "last_seen": "2026-11-08T00:31:57.044622+00:00",
+      "last_seen": "2026-11-08T01:11:31.251583+00:00",
       "posted_at": "",
       "signals": {},
       "id": "72c899ba30",
@@ -2893,7 +2901,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 33239,
+      "krw_effective": 33207,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -2917,13 +2925,17 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-07T12:22:12.966179+00:00",
-      "last_seen": "2026-11-07T23:02:15.566948+00:00",
+      "last_seen": "2026-11-08T01:12:26.905643+00:00",
       "posted_at": "",
       "signals": {},
       "id": "a37fbecf49",
       "history": [
         [
           "2026-11-07",
+          24.5
+        ],
+        [
+          "2026-11-08",
           24.5
         ]
       ]
@@ -3072,7 +3084,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 114436,
+      "krw_effective": 114326,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -3095,7 +3107,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-31T14:31:14.406873+00:00",
-      "last_seen": "2026-11-08T00:31:57.044622+00:00",
+      "last_seen": "2026-11-08T01:11:31.251583+00:00",
       "posted_at": "",
       "signals": {},
       "id": "3197e41888",
@@ -3354,7 +3366,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 134989,
+      "krw_effective": 134861,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -3378,7 +3390,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-06T17:51:22.383049+00:00",
-      "last_seen": "2026-11-08T00:31:57.044622+00:00",
+      "last_seen": "2026-11-08T01:11:31.251583+00:00",
       "posted_at": "",
       "signals": {},
       "id": "8d1f404c14",
@@ -3419,7 +3431,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 67820,
+      "krw_effective": 67756,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -3443,7 +3455,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-05T19:21:47.909483+00:00",
-      "last_seen": "2026-11-07T23:02:15.566948+00:00",
+      "last_seen": "2026-11-08T01:12:26.905643+00:00",
       "posted_at": "",
       "signals": {},
       "id": "625e4c4e79",
@@ -3458,6 +3470,10 @@
         ],
         [
           "2026-11-07",
+          49.99
+        ],
+        [
+          "2026-11-08",
           49.99
         ]
       ]
@@ -3602,7 +3618,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 20350,
+      "krw_effective": 20331,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -3625,7 +3641,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-11-07T23:02:15.566948+00:00",
+      "last_seen": "2026-11-08T01:12:26.905643+00:00",
       "posted_at": "",
       "signals": {},
       "id": "c27865a1bf",
@@ -3665,6 +3681,10 @@
         [
           "2026-11-07",
           15.0
+        ],
+        [
+          "2026-11-08",
+          15.0
         ]
       ]
     },
@@ -3690,7 +3710,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 20350,
+      "krw_effective": 20331,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -3713,7 +3733,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-11-07T23:02:15.566948+00:00",
+      "last_seen": "2026-11-08T01:12:26.905643+00:00",
       "posted_at": "",
       "signals": {},
       "id": "8359bf10d9",
@@ -3753,6 +3773,10 @@
         [
           "2026-11-07",
           15.0
+        ],
+        [
+          "2026-11-08",
+          15.0
         ]
       ]
     },
@@ -3778,7 +3802,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 20350,
+      "krw_effective": 20331,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -3801,7 +3825,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-11-07T23:02:15.566948+00:00",
+      "last_seen": "2026-11-08T01:12:26.905643+00:00",
       "posted_at": "",
       "signals": {},
       "id": "4f61b767f7",
@@ -3841,6 +3865,10 @@
         [
           "2026-11-07",
           15.0
+        ],
+        [
+          "2026-11-08",
+          15.0
         ]
       ]
     },
@@ -3866,7 +3894,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 20350,
+      "krw_effective": 20331,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -3889,7 +3917,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-11-07T23:02:15.566948+00:00",
+      "last_seen": "2026-11-08T01:12:26.905643+00:00",
       "posted_at": "",
       "signals": {},
       "id": "f9145ff670",
@@ -3929,6 +3957,10 @@
         [
           "2026-11-07",
           15.0
+        ],
+        [
+          "2026-11-08",
+          15.0
         ]
       ]
     },
@@ -3954,7 +3986,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 20350,
+      "krw_effective": 20331,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -3977,7 +4009,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-30T05:31:42.130991+00:00",
-      "last_seen": "2026-11-07T23:02:15.566948+00:00",
+      "last_seen": "2026-11-08T01:12:26.905643+00:00",
       "posted_at": "",
       "signals": {},
       "id": "2a816f12b6",
@@ -4017,6 +4049,10 @@
         [
           "2026-11-07",
           15.0
+        ],
+        [
+          "2026-11-08",
+          15.0
         ]
       ]
     },
@@ -4042,7 +4078,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 20350,
+      "krw_effective": 20331,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -4065,7 +4101,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-04T21:42:29.026098+00:00",
-      "last_seen": "2026-11-07T23:02:15.566948+00:00",
+      "last_seen": "2026-11-08T01:12:26.905643+00:00",
       "posted_at": "",
       "signals": {},
       "id": "aa1a18e37f",
@@ -4084,6 +4120,10 @@
         ],
         [
           "2026-11-07",
+          15.0
+        ],
+        [
+          "2026-11-08",
           15.0
         ]
       ]
@@ -4110,7 +4150,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 33876,
+      "krw_effective": 33844,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -4134,13 +4174,17 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-07T18:43:06.158254+00:00",
-      "last_seen": "2026-11-07T23:02:15.566948+00:00",
+      "last_seen": "2026-11-08T01:12:26.905643+00:00",
       "posted_at": "",
       "signals": {},
       "id": "e9ff77cd38",
       "history": [
         [
           "2026-11-07",
+          24.97
+        ],
+        [
+          "2026-11-08",
           24.97
         ]
       ]
@@ -4167,7 +4211,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 101737,
+      "krw_effective": 101640,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -4191,7 +4235,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-06T05:21:17.055634+00:00",
-      "last_seen": "2026-11-08T00:31:57.044622+00:00",
+      "last_seen": "2026-11-08T01:11:31.251583+00:00",
       "posted_at": "",
       "signals": {},
       "id": "f21456acff",
@@ -4232,7 +4276,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 56980,
+      "krw_effective": 56926,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -4256,7 +4300,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-05T06:11:17.077526+00:00",
-      "last_seen": "2026-11-08T00:31:57.044622+00:00",
+      "last_seen": "2026-11-08T01:11:31.251583+00:00",
       "posted_at": "",
       "signals": {},
       "id": "1a8d55d385",
@@ -4272,6 +4316,63 @@
         [
           "2026-11-08",
           42.0
+        ]
+      ]
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10056675",
+      "title": "Round Two Skinny Strap",
+      "brand": "Free People",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/71jrH3P1Z3L._AC_SR255,340_.jpg",
+      "price_current": 9.0,
+      "price_list": 30.0,
+      "price_baseline": 30.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 12198,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10056675",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-08T01:11:07.908834+00:00",
+      "last_seen": "2026-11-08T01:11:31.251583+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "2b7882a57d",
+      "history": [
+        [
+          "2026-11-08",
+          9.0
         ]
       ]
     },
@@ -4602,7 +4703,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 24040,
+      "krw_effective": 24017,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -4626,7 +4727,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-07T22:31:22.423263+00:00",
-      "last_seen": "2026-11-08T00:31:57.044622+00:00",
+      "last_seen": "2026-11-08T01:11:31.251583+00:00",
       "posted_at": "",
       "signals": {},
       "id": "4a74502df2",
@@ -4898,6 +4999,59 @@
       ]
     },
     {
+      "source": "techbargains:under armour",
+      "source_tier": "T2",
+      "url": "https://www.underarmour.com/en-us/c/outlet/",
+      "title": "Under Armour Outlet Deals: Extra 40% Off Clothing and Accessories + Extra 10% Off",
+      "brand": "Under Armour",
+      "category": "premium_fashion",
+      "image": "https://www.techbargains.com/imagery/deals/226243.1793997299.fit_lim.size_125x125.jpg",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.underarmour.com/en-us/c/outlet/",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-08T01:11:07.883529+00:00",
+      "last_seen": "2026-11-08T01:11:31.251583+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "4b58cafbc6",
+      "history": []
+    },
+    {
       "source": "dealnews",
       "source_tier": "T2",
       "url": "https://www.dealnews.com/lululemon-We-Made-Too-Much-Event-Up-to-84-off-free-shipping/22355415.html?iref=rss",
@@ -4948,59 +5102,6 @@
       "posted_at": "",
       "signals": {},
       "id": "5bf8b076f3",
-      "history": []
-    },
-    {
-      "source": "techbargains:under armour",
-      "source_tier": "T2",
-      "url": "https://www.underarmour.com/en-us/c/outlet/",
-      "title": "Under Armour Outlet Deals: Extra 40% Off Clothing and Accessories + Extra 10% Off",
-      "brand": "Under Armour",
-      "category": "premium_fashion",
-      "image": "https://www.techbargains.com/imagery/deals/226243.1793997299.fit_lim.size_125x125.jpg",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.underarmour.com/en-us/c/outlet/",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-08T00:31:37.528778+00:00",
-      "last_seen": "2026-11-08T00:31:57.044622+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "4b58cafbc6",
       "history": []
     },
     {
@@ -6053,13 +6154,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-08T01:10:27+00:00",
-      "T2": "2026-11-08T00:31:20+00:00",
-      "T3": "2026-11-07T23:01:17+00:00",
+      "T2": "2026-11-08T01:10:58+00:00",
+      "T3": "2026-11-08T01:11:32+00:00",
       "T4": "2026-11-07T22:31:42+00:00"
     },
     "recent_gaps_min": [
-      10,
-      10,
       10,
       1,
       10,
@@ -6087,14 +6186,16 @@
       9,
       10,
       10,
-      10
+      10,
+      1,
+      1
     ],
     "naver": {
       "keys": true,
-      "queried": 25,
+      "queried": 50,
       "matched": 0,
-      "errors": 25,
-      "at": "2026-11-08T01:10:57+00:00",
+      "errors": 50,
+      "at": "2026-11-08T01:12:26+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -6103,7 +6204,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-08T01:10:57+00:00"
+      "at": "2026-11-08T01:11:31+00:00"
     }
   },
   "email_monitor": {
