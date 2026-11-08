@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T01:41:17.277537+00:00",
+  "generated_at": "2026-11-08T01:50:58.702623+00:00",
   "count": 92,
   "deals": [
     {
@@ -199,23 +199,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 32표/29분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 32표/39분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-07T03:30:45.638690+00:00",
-      "last_seen": "2026-11-08T01:40:57.443824+00:00",
+      "last_seen": "2026-11-08T01:50:58.677187+00:00",
       "posted_at": "2026-11-08T01:11:26+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 29,
+        "sd_age_min": 39,
         "sd_votes": 32,
-        "sd_velocity": 65.8,
+        "sd_velocity": 49.1,
         "sd_fp_min": 29
       },
       "id": "f219c2df78",
@@ -271,23 +271,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 33표/51분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 33표/61분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-06T08:22:30.811376+00:00",
-      "last_seen": "2026-11-08T01:40:57.443824+00:00",
+      "last_seen": "2026-11-08T01:50:58.677187+00:00",
       "posted_at": "2026-11-08T00:49:45+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 51,
+        "sd_age_min": 61,
         "sd_votes": 33,
-        "sd_velocity": 38.9,
+        "sd_velocity": 32.6,
         "sd_fp_min": 51
       },
       "id": "54c89d04d5",
@@ -1676,23 +1676,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 32표/72분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 32표/82분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-06T03:50:41.837348+00:00",
-      "last_seen": "2026-11-08T01:40:57.443824+00:00",
+      "last_seen": "2026-11-08T01:50:58.677187+00:00",
       "posted_at": "2026-11-08T00:28:21+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 72,
+        "sd_age_min": 82,
         "sd_votes": 32,
-        "sd_velocity": 26.6,
+        "sd_velocity": 23.4,
         "sd_fp_min": 22
       },
       "id": "d02c6982c4",
@@ -1748,23 +1748,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 34표/78분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 34표/88분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-06T06:00:50.566363+00:00",
-      "last_seen": "2026-11-08T01:40:57.443824+00:00",
+      "last_seen": "2026-11-08T01:50:58.677187+00:00",
       "posted_at": "2026-11-08T00:22:07+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 78,
+        "sd_age_min": 88,
         "sd_votes": 34,
-        "sd_velocity": 26.0,
+        "sd_velocity": 23.1,
         "sd_fp_min": 29
       },
       "id": "24f9cdfc6a",
@@ -6153,7 +6153,7 @@
   "fx_usd_krw": 1355.4,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-08T01:40:28+00:00",
+      "T1": "2026-11-08T01:50:28+00:00",
       "T2": "2026-11-08T01:10:58+00:00",
       "T3": "2026-11-08T01:11:32+00:00",
       "T4": "2026-11-07T22:31:42+00:00"
@@ -6187,6 +6187,7 @@
       1,
       8,
       10,
+      10,
       10
     ],
     "naver": {
@@ -6194,7 +6195,7 @@
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-08T01:40:57+00:00",
+      "at": "2026-11-08T01:50:58+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -6203,13 +6204,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-08T01:40:57+00:00"
+      "at": "2026-11-08T01:50:58+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-08T01:40:34+00:00",
+        "at": "2026-11-08T01:50:33+00:00",
         "state": "정상",
         "mails": 7,
         "deals": 7
@@ -6235,7 +6236,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-08T01:40:58+00:00",
-        "last_seen": "2026-11-08T01:40:58+00:00"
+        "last_seen": "2026-11-08T01:50:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20268786",
@@ -6250,7 +6251,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-08T01:20:56+00:00",
-        "last_seen": "2026-11-08T01:40:58+00:00"
+        "last_seen": "2026-11-08T01:50:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20265261",
@@ -6265,7 +6266,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-08T01:20:56+00:00",
-        "last_seen": "2026-11-08T01:40:58+00:00"
+        "last_seen": "2026-11-08T01:50:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20258838",
@@ -6280,7 +6281,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-11-07T23:31:06+00:00",
-        "last_seen": "2026-11-08T01:40:58+00:00"
+        "last_seen": "2026-11-08T01:50:58+00:00"
       },
       {
         "url": "https://click.woot.com/f/a/48IrA66wJxW3evJJztxNuQ~~/AAQRxRA~/5WjNJYeopuEmsBQkhqFaQYk-duWQS_z3P5H_M31PziDgU31GQb77bWR0rWpplC5ErA7XwbOHmsZctaOKZVwrAyDkApDleaE9xAkxuIco_e3BFfKznNiAt8BtYBQm3fqsXLBPGTezFMxwu7Ft0Wd5WO3msv41E-ZRvb--oMKvUeBI9N4NYw_2NlP2oIhhcG_0pWoE2PxvwPIZRsAdR-XgwLq0AhVnmxL-SxAVb81RKILa92p",
@@ -6355,7 +6356,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-07T16:31:10+00:00",
-        "last_seen": "2026-11-08T01:40:58+00:00"
+        "last_seen": "2026-11-08T01:50:58+00:00"
       },
       {
         "url": "https://click.emails.underarmour.com/",
@@ -6415,7 +6416,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-07T10:11:02+00:00",
-        "last_seen": "2026-11-08T01:40:58+00:00"
+        "last_seen": "2026-11-08T01:50:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20267970",
@@ -6430,7 +6431,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-07T07:41:05+00:00",
-        "last_seen": "2026-11-08T01:40:58+00:00"
+        "last_seen": "2026-11-08T01:50:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20267775",
