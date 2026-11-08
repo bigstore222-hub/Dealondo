@@ -1254,6 +1254,84 @@
    "msg": 3085,
    "status": "posted",
    "link": "https://www.threads.com/@deal_ondo/post/Dfdmb0WoMM3"
+  },
+  "79876e2e": {
+   "created": "2026-11-08T11:41:10+09:00",
+   "url": "https://www.6pm.com/product/10056467",
+   "deal": {
+    "source": "6pm.com",
+    "source_tier": "T3",
+    "url": "https://www.6pm.com/product/10056467",
+    "title": "Ellie Western Sandals",
+    "brand": "AllSaints",
+    "category": "premium_fashion",
+    "image": "https://m.media-amazon.com/images/I/713NCFuFcKL._AC_SR255,340_.jpg",
+    "price_current": 170.46,
+    "price_list": 219,
+    "price_baseline": 219.0,
+    "price_alltime_low": null,
+    "currency": "USD",
+    "coupon_code": "",
+    "coupon_stackable": false,
+    "off_season": false,
+    "free_gift": false,
+    "community_votes": null,
+    "rating": 5.0,
+    "review_count": null,
+    "ships_to_kr": true,
+    "forwarding_ok": true,
+    "krw_effective": 231038,
+    "kr_lowest_price": null,
+    "stock_status": "in_stock",
+    "is_refurbished": false,
+    "expires_at": null,
+    "collection_method": "scrape",
+    "frontpage": false,
+    "code_kind": "",
+    "brand_tier": "premium",
+    "buy_url": "https://www.6pm.com/product/10056467",
+    "discount_pct": 22,
+    "score": 83,
+    "score_breakdown": {
+     "discount_depth": 40,
+     "price_history": null,
+     "category": 20,
+     "bonus": 0,
+     "brand": 12,
+     "note": "가격이력 미축적 → 87점 척도 정규화"
+    },
+    "passed_hard_filter": true,
+    "reject_reason": "",
+    "urgency": "HOT",
+    "detected_at": "2026-11-07T18:43:06.158254+00:00",
+    "last_seen": "2026-11-08T01:12:26.905643+00:00",
+    "posted_at": "",
+    "signals": {},
+    "id": "d284c95219",
+    "history": [
+     [
+      "2026-11-07",
+      43.8
+     ],
+     [
+      "2026-11-08",
+      43.8
+     ]
+    ]
+   },
+   "seen": "2026-11-08T11:41:03.296125+09:00",
+   "text": "올세인츠 샌들, $219짜리가 $170.46, 22% 할인.\n\n관부가세 없음(미국발 $200 이하).\n환율 계산하면 약 23만 1천 원이에요.\n\n이 가격, 직구해볼 만할까요?",
+   "reply": "상품 링크: https://www.6pm.com/product/10056467\n다른 사이즈·색상은 링크에서 확인하세요.",
+   "notes": [
+    "가격이 바뀌었어요: $43.80 → $170.46 (상품 페이지 기준)"
+   ],
+   "angle": "basic",
+   "already": false,
+   "img_ok": true,
+   "photo_msg": 3089,
+   "msg": 3090,
+   "status": "posted",
+   "link": "https://www.threads.com/@deal_ondo/post/DfdtVmzG-Td"
   }
  },
  "done_updates": [
@@ -1367,7 +1445,8 @@
   303762613,
   303762614,
   303762615,
-  303762616
+  303762616,
+  303762617
  ],
  "picks": {
   "2026-10-30-점심": "3ffe07d9",
@@ -1378,7 +1457,8 @@
   "2026-11-06-점심": "92418aef",
   "2026-11-06-저녁": "6e4b1eb4",
   "2026-11-07-점심": "3c6e803c",
-  "2026-11-07-저녁": "76aab731"
+  "2026-11-07-저녁": "76aab731",
+  "2026-11-08-점심": "79876e2e"
  },
  "picked_urls": [
   "6pm.com/product/9961271",
@@ -1389,7 +1469,8 @@
   "zappos.com/product/10059808",
   "nordstromrack.com/s/sam-edelman-onia-pointed-toe-slingback-pump-women/8367678",
   "zappos.com/product/10062126",
-  "6pm.com/product/10065437"
+  "6pm.com/product/10065437",
+  "6pm.com/product/10056467"
  ],
  "runs": [
   {
@@ -1525,6 +1606,11 @@
   {
    "at": "2026-11-08T10:43:50+09:00",
    "updates": 2,
+   "errors": []
+  },
+  {
+   "at": "2026-11-08T11:44:14+09:00",
+   "updates": 1,
    "errors": []
   }
  ]
