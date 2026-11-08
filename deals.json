@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-08T19:38:15.250397+00:00",
-  "count": 90,
+  "generated_at": "2026-11-08T19:38:53.430493+00:00",
+  "count": 93,
   "deals": [
     {
       "source": "6pm.com",
@@ -1121,7 +1121,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-03T08:31:18.097836+00:00",
-      "last_seen": "2026-11-08T19:01:52.588136+00:00",
+      "last_seen": "2026-11-08T19:38:52.168299+00:00",
       "posted_at": "",
       "signals": {},
       "id": "0209ff311b",
@@ -3093,7 +3093,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-07T09:21:12.154265+00:00",
-      "last_seen": "2026-11-08T19:01:52.588136+00:00",
+      "last_seen": "2026-11-08T19:38:52.168299+00:00",
       "posted_at": "",
       "signals": {},
       "id": "72c899ba30",
@@ -3393,7 +3393,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-31T14:31:14.406873+00:00",
-      "last_seen": "2026-11-08T19:01:52.588136+00:00",
+      "last_seen": "2026-11-08T19:38:52.168299+00:00",
       "posted_at": "",
       "signals": {},
       "id": "3197e41888",
@@ -3680,7 +3680,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-08T03:11:14.350455+00:00",
-      "last_seen": "2026-11-08T19:01:52.588136+00:00",
+      "last_seen": "2026-11-08T19:38:52.168299+00:00",
       "posted_at": "",
       "signals": {},
       "id": "f0ef8608ea",
@@ -3737,7 +3737,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-08T17:41:20.186325+00:00",
-      "last_seen": "2026-11-08T19:01:52.588136+00:00",
+      "last_seen": "2026-11-08T19:38:52.168299+00:00",
       "posted_at": "",
       "signals": {},
       "id": "8db7d6c0b4",
@@ -4709,7 +4709,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-08T17:01:27.276958+00:00",
-      "last_seen": "2026-11-08T19:01:52.588136+00:00",
+      "last_seen": "2026-11-08T19:38:52.168299+00:00",
       "posted_at": "",
       "signals": {},
       "id": "50f5f904f8",
@@ -4717,6 +4717,71 @@
         [
           "2026-11-08",
           30.91
+        ]
+      ]
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10004549",
+      "title": "Westport",
+      "brand": "Steve Madden",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/61XXW-33VjL._AC_SR255,340_.jpg",
+      "price_current": 39.0,
+      "price_list": 130.0,
+      "price_baseline": 130.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 52860,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10004549",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-06T01:21:20.988295+00:00",
+      "last_seen": "2026-11-08T19:38:52.168299+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "4cc93b800b",
+      "history": [
+        [
+          "2026-11-06",
+          39.0
+        ],
+        [
+          "2026-11-07",
+          39.0
+        ],
+        [
+          "2026-11-08",
+          39.0
         ]
       ]
     },
@@ -4918,71 +4983,6 @@
     {
       "source": "zappos.com",
       "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10004549",
-      "title": "Westport",
-      "brand": "Steve Madden",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61XXW-33VjL._AC_SR255,340_.jpg",
-      "price_current": 39.0,
-      "price_list": 130.0,
-      "price_baseline": 130.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 52860,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10004549",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-06T01:21:20.988295+00:00",
-      "last_seen": "2026-11-08T05:51:29.972647+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "4cc93b800b",
-      "history": [
-        [
-          "2026-11-06",
-          39.0
-        ],
-        [
-          "2026-11-07",
-          39.0
-        ],
-        [
-          "2026-11-08",
-          39.0
-        ]
-      ]
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
       "url": "https://www.zappos.com/product/10056675",
       "title": "Round Two Skinny Strap",
       "brand": "Free People",
@@ -5148,7 +5148,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-06T06:01:24.333657+00:00",
-      "last_seen": "2026-11-08T19:01:52.588136+00:00",
+      "last_seen": "2026-11-08T19:38:52.168299+00:00",
       "posted_at": "",
       "signals": {},
       "id": "d625f6d89c",
@@ -5286,6 +5286,120 @@
         [
           "2026-11-07",
           21.0
+        ]
+      ]
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/levis-501-original-embroidered-denim-cutoff-shorts-bee-in-the-bonnet/8937450",
+      "title": "501® Original Embroidered Denim Cutoff Shorts",
+      "brand": "Levis",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/7cd77aa5-2d82-4c1c-9022-f240785c95d8.jpeg?h=368&w=240&dpr=2",
+      "price_current": 14.99,
+      "price_list": 64.95,
+      "price_baseline": 64.95,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 20317,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/levis-501-original-embroidered-denim-cutoff-shorts-bee-in-the-bonnet/8937450",
+      "discount_pct": 76.9,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 16,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-08T19:38:28.612919+00:00",
+      "last_seen": "2026-11-08T19:38:52.168299+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "c769b4fa98",
+      "history": [
+        [
+          "2026-11-08",
+          14.99
+        ]
+      ]
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10058770",
+      "title": "Racer Paneled Midi Dress",
+      "brand": "Avec Les Filles",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/71YwNlyQkqL._AC_SR255,340_.jpg",
+      "price_current": 50.4,
+      "price_list": 168.0,
+      "price_baseline": 168.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 68311,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.zappos.com/product/10058770",
+      "discount_pct": 70.0,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-08T19:38:28.612919+00:00",
+      "last_seen": "2026-11-08T19:38:52.168299+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "d9a363a4f5",
+      "history": [
+        [
+          "2026-11-08",
+          50.4
         ]
       ]
     },
@@ -5487,12 +5601,12 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
-      "url": "https://www.dealnews.com/Levis-Mens-Jeans-Deals-at-eBay-for-From-16-extra-5-off-every-40-spent-in-cart-free-shipping/22351423.html?iref=rss",
-      "title": "Levi's Men's Jeans Deals at eBay for From $16 + extra $5 off every $40 spent in cart + free shipping",
-      "brand": "Levi's",
+      "url": "https://www.dealnews.com/UGG-Classic-UGGfluff-Throw-for-25-free-shipping-w-39/22365489.html?iref=rss",
+      "title": "UGG Classic UGGfluff Throw for $25 + free shipping w/ $39",
+      "brand": "UGG",
       "category": "premium_fashion",
-      "image": "https://d.dlnws.com/64599/1793905259-s-l1600.webp?h=250&w=250",
-      "price_current": 16.0,
+      "image": "https://d.dlnws.com/64599/1794164929-product-trimmed.png?h=145&w=250",
+      "price_current": 25.0,
       "price_list": null,
       "price_baseline": null,
       "price_alltime_low": null,
@@ -5506,7 +5620,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 21686,
+      "krw_effective": 33885,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -5514,8 +5628,8 @@
       "collection_method": "rss",
       "frontpage": false,
       "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Levis-Mens-Jeans-Deals-at-eBay-for-From-16-extra-5-off-every-40-spent-in-cart-free-shipping/22351423.html?iref=rss",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/UGG-Classic-UGGfluff-Throw-for-25-free-shipping-w-39/22365489.html?iref=rss",
       "discount_pct": null,
       "score": 55,
       "score_breakdown": {
@@ -5523,30 +5637,22 @@
         "price_history": null,
         "category": 20,
         "bonus": 0,
-        "brand": 6,
+        "brand": 12,
         "note": "가격이력 미축적 → 87점 척도 정규화",
         "curated": "DealNews 엄선 → 하한 55"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-05T19:31:28.657739+00:00",
-      "last_seen": "2026-11-08T19:01:52.588136+00:00",
+      "detected_at": "2026-11-08T19:38:28.612919+00:00",
+      "last_seen": "2026-11-08T19:38:52.168299+00:00",
       "posted_at": "",
       "signals": {},
-      "id": "781b4290c9",
+      "id": "61f9f66a91",
       "history": [
         [
-          "2026-11-05",
-          16.0
-        ],
-        [
-          "2026-11-06",
-          16.0
-        ],
-        [
           "2026-11-08",
-          16.0
+          25.0
         ]
       ]
     },
@@ -5596,12 +5702,77 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-08T17:01:27.101804+00:00",
-      "last_seen": "2026-11-08T17:01:52.293193+00:00",
+      "detected_at": "2026-11-08T19:38:28.372274+00:00",
+      "last_seen": "2026-11-08T19:38:52.168299+00:00",
       "posted_at": "",
       "signals": {},
       "id": "5bf8b076f3",
       "history": []
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Levis-Mens-Jeans-Deals-at-eBay-for-From-16-extra-5-off-every-40-spent-in-cart-free-shipping/22351423.html?iref=rss",
+      "title": "Levi's Men's Jeans Deals at eBay for From $16 + extra $5 off every $40 spent in cart + free shipping",
+      "brand": "Levi's",
+      "category": "premium_fashion",
+      "image": "https://d.dlnws.com/64599/1793905259-s-l1600.webp?h=250&w=250",
+      "price_current": 16.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": 16.0,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 21686,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Levis-Mens-Jeans-Deals-at-eBay-for-From-16-extra-5-off-every-40-spent-in-cart-free-shipping/22351423.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-05T19:31:28.657739+00:00",
+      "last_seen": "2026-11-08T19:38:52.168299+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "781b4290c9",
+      "history": [
+        [
+          "2026-11-05",
+          16.0
+        ],
+        [
+          "2026-11-06",
+          16.0
+        ],
+        [
+          "2026-11-08",
+          16.0
+        ]
+      ]
     },
     {
       "source": "techbargains:under armour",
@@ -6135,12 +6306,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-08T19:30:41+00:00",
-      "T2": "2026-11-08T19:01:17+00:00",
+      "T2": "2026-11-08T19:38:16+00:00",
       "T3": "2026-11-08T18:31:13+00:00",
       "T4": "2026-11-08T17:01:53+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       1,
       1,
@@ -6169,14 +6339,15 @@
       9,
       10,
       10,
-      7
+      7,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-08T19:31:14+00:00",
+      "at": "2026-11-08T19:38:52+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -6185,7 +6356,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-08T19:31:14+00:00"
+      "at": "2026-11-08T19:38:52+00:00"
     }
   },
   "email_monitor": {
