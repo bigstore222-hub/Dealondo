@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T19:01:15.872531+00:00",
+  "generated_at": "2026-11-08T19:01:53.412652+00:00",
   "count": 90,
   "deals": [
     {
@@ -432,7 +432,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-01T17:41:17.681788+00:00",
-      "last_seen": "2026-11-08T17:01:52.293193+00:00",
+      "last_seen": "2026-11-08T19:01:52.588136+00:00",
       "posted_at": "",
       "signals": {},
       "id": "4fc7c03226",
@@ -1197,7 +1197,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-03T08:31:18.097836+00:00",
-      "last_seen": "2026-11-08T18:21:39.424028+00:00",
+      "last_seen": "2026-11-08T19:01:52.588136+00:00",
       "posted_at": "",
       "signals": {},
       "id": "0209ff311b",
@@ -3093,7 +3093,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-07T09:21:12.154265+00:00",
-      "last_seen": "2026-11-08T18:21:39.424028+00:00",
+      "last_seen": "2026-11-08T19:01:52.588136+00:00",
       "posted_at": "",
       "signals": {},
       "id": "72c899ba30",
@@ -3393,7 +3393,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-31T14:31:14.406873+00:00",
-      "last_seen": "2026-11-08T18:21:39.424028+00:00",
+      "last_seen": "2026-11-08T19:01:52.588136+00:00",
       "posted_at": "",
       "signals": {},
       "id": "3197e41888",
@@ -3680,7 +3680,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-08T03:11:14.350455+00:00",
-      "last_seen": "2026-11-08T18:21:39.424028+00:00",
+      "last_seen": "2026-11-08T19:01:52.588136+00:00",
       "posted_at": "",
       "signals": {},
       "id": "f0ef8608ea",
@@ -3737,7 +3737,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-08T17:41:20.186325+00:00",
-      "last_seen": "2026-11-08T18:21:39.424028+00:00",
+      "last_seen": "2026-11-08T19:01:52.588136+00:00",
       "posted_at": "",
       "signals": {},
       "id": "8db7d6c0b4",
@@ -4666,6 +4666,63 @@
     {
       "source": "nordstromrack.com",
       "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/steve-madden-rivena/9199503",
+      "title": "Rivena Leather Thong Sandal",
+      "brand": "Steve Madden Rivena",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/1ecaa5a3-9c60-41f3-8328-ff02bba15521.jpeg?h=368&w=240&dpr=2",
+      "price_current": 30.91,
+      "price_list": 109.95,
+      "price_baseline": 109.95,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 41895,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/steve-madden-rivena/9199503",
+      "discount_pct": 71.9,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-08T17:01:27.276958+00:00",
+      "last_seen": "2026-11-08T19:01:52.588136+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "50f5f904f8",
+      "history": [
+        [
+          "2026-11-08",
+          30.91
+        ]
+      ]
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/clarks-breeze-gem-crystal-embellished-flip-flop-women/8803017",
       "title": "Breeze Gem Crystal Embellished Flip Flop",
       "brand": "Clarks",
@@ -4725,63 +4782,6 @@
         [
           "2026-11-08",
           17.98
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/steve-madden-rivena/9199503",
-      "title": "Rivena Leather Thong Sandal",
-      "brand": "Steve Madden Rivena",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/1ecaa5a3-9c60-41f3-8328-ff02bba15521.jpeg?h=368&w=240&dpr=2",
-      "price_current": 30.91,
-      "price_list": 109.95,
-      "price_baseline": 109.95,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 41895,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/steve-madden-rivena/9199503",
-      "discount_pct": 71.9,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-08T17:01:27.276958+00:00",
-      "last_seen": "2026-11-08T18:21:39.424028+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "50f5f904f8",
-      "history": [
-        [
-          "2026-11-08",
-          30.91
         ]
       ]
     },
@@ -5148,7 +5148,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-06T06:01:24.333657+00:00",
-      "last_seen": "2026-11-08T18:21:39.424028+00:00",
+      "last_seen": "2026-11-08T19:01:52.588136+00:00",
       "posted_at": "",
       "signals": {},
       "id": "d625f6d89c",
@@ -5531,7 +5531,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-05T19:31:28.657739+00:00",
-      "last_seen": "2026-11-08T18:21:39.424028+00:00",
+      "last_seen": "2026-11-08T19:01:52.588136+00:00",
       "posted_at": "",
       "signals": {},
       "id": "781b4290c9",
@@ -6135,12 +6135,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-08T19:00:42+00:00",
-      "T2": "2026-11-08T18:21:04+00:00",
+      "T2": "2026-11-08T19:01:17+00:00",
       "T3": "2026-11-08T18:31:13+00:00",
       "T4": "2026-11-08T17:01:53+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       1,
       9,
@@ -6169,14 +6168,15 @@
       1,
       9,
       10,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-08T19:01:15+00:00",
+      "at": "2026-11-08T19:01:52+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -6185,7 +6185,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-08T19:01:15+00:00"
+      "at": "2026-11-08T19:01:52+00:00"
     }
   },
   "email_monitor": {
