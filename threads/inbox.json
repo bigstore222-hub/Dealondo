@@ -1328,8 +1328,50 @@
     "title": "UGG Goldenglow Slingback Sandal",
     "gender": "women"
    },
-   "status": "waiting_price",
+   "status": "replaced",
    "msg": 3231
+  },
+  "2b753e5d": {
+   "created": "2026-11-09T14:01:14+09:00",
+   "url": "https://www.bloomingdales.com/shop/product/ugg-sun-quilted-jacket?ID=5889538",
+   "hint": {
+    "at": 1794200237,
+    "title": "UGG Sun Quilted Jacket"
+   },
+   "status": "waiting_price",
+   "msg": 3242
+  },
+  "ce66c07f": {
+   "created": "2026-11-09T14:01:16+09:00",
+   "url": "https://www.nordstromrack.com/s/ugg-goldenglow-slingback-sandal-women/7672413?origin=category-personalizedsort&breadcrumb=Home%2FBrands%2FUGG%C2%AE&color=444444CNXL",
+   "deal": {
+    "url": "https://www.nordstromrack.com/s/ugg-goldenglow-slingback-sandal-women/7672413?origin=category-personalizedsort&breadcrumb=Home%2FBrands%2FUGG%C2%AE&color=444444CNXL",
+    "source": "nordstromrack.com",
+    "store_name": "Nordstrom Rack",
+    "title": "Goldenglow Slingback Sandal",
+    "brand": "UGG",
+    "category": "etc",
+    "price_current": 21.92,
+    "price_list": 100.0,
+    "image": null,
+    "gender": "women",
+    "buy_url": "https://www.nordstromrack.com/s/ugg-goldenglow-slingback-sandal-women/7672413?origin=category-personalizedsort&breadcrumb=Home%2FBrands%2FUGG%C2%AE&color=444444CNXL",
+    "discount_pct": 78,
+    "krw_effective": 29842,
+    "kr_lowest_price": null
+   },
+   "seen": "2026-11-09T14:01:14.590619+09:00",
+   "text": "샌들 직구는 사이즈가 반이에요.\n\nNordstrom Rack · $100짜리가 $21.92, 78% 할인\n$200 아래라 관부가세 없이 받아요.\n신발은 US 사이즈를 mm로 바꿔서 확인하세요. 같은 US 8도 브랜드마다 달라요.\n\n사이즈 고르는 본인만의 기준 있으세요?",
+   "reply": "상품 링크: https://www.nordstromrack.com/s/ugg-goldenglow-slingback-sandal-women/7672413?origin=category-personalizedsort&breadcrumb=Home%2FBrands%2FUGG%C2%AE&color=444444CNXL\n팔로우해두면 이런 딜을 피드에서 바로 볼 수 있어요.",
+   "notes": [
+    "직접 알려주신 가격으로 썼어요.",
+    "상품 사진을 찾지 못해 카드 한 장으로 올라가요."
+   ],
+   "angle": "size",
+   "already": false,
+   "photo_msg": 3243,
+   "msg": 3244,
+   "status": "waiting"
   }
  },
  "done_updates": [
@@ -1496,7 +1538,9 @@
   303762673,
   303762674,
   303762675,
-  303762679
+  303762679,
+  303762680,
+  303762681
  ],
  "picks": {
   "2026-10-30-점심": "3ffe07d9",
@@ -1527,11 +1571,6 @@
   "nordstromrack.com/s/marc-jacobs-the-mini-dual-diamond-quilted-denim-shoulder-bag/8351822"
  ],
  "runs": [
-  {
-   "at": "2026-11-06T10:35:03+09:00",
-   "updates": 2,
-   "errors": []
-  },
   {
    "at": "2026-11-06T11:44:02+09:00",
    "updates": 1,
@@ -1725,6 +1764,11 @@
   {
    "at": "2026-11-09T13:10:01+09:00",
    "updates": 1,
+   "errors": []
+  },
+  {
+   "at": "2026-11-09T14:10:02+09:00",
+   "updates": 2,
    "errors": []
   }
  ]
