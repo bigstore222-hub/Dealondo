@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10T10:11:02.373540+00:00",
-  "count": 103,
+  "generated_at": "2026-11-10T10:11:39.351893+00:00",
+  "count": 104,
   "deals": [
     {
       "source": "6pm.com",
@@ -202,7 +202,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-07T09:21:12.154265+00:00",
-      "last_seen": "2026-11-10T09:31:47.259748+00:00",
+      "last_seen": "2026-11-10T10:11:38.473615+00:00",
       "posted_at": "",
       "signals": {},
       "id": "72c899ba30",
@@ -1400,7 +1400,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-03T08:31:18.097836+00:00",
-      "last_seen": "2026-11-10T09:31:47.259748+00:00",
+      "last_seen": "2026-11-10T10:11:38.473615+00:00",
       "posted_at": "",
       "signals": {},
       "id": "0209ff311b",
@@ -1436,6 +1436,78 @@
         [
           "2026-11-10",
           28.1
+        ]
+      ]
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/9998779",
+      "title": "Xavier",
+      "brand": "Steve Madden",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/61dzskmcgKL._AC_SR255,340_.jpg",
+      "price_current": 30.0,
+      "price_list": 100.0,
+      "price_baseline": 100.0,
+      "price_alltime_low": 30.0,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 40344,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/9998779",
+      "discount_pct": 70.0,
+      "score": 81,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-06T04:41:20.110057+00:00",
+      "last_seen": "2026-11-10T10:11:38.473615+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "94bc4cc9e6",
+      "history": [
+        [
+          "2026-11-06",
+          30.0
+        ],
+        [
+          "2026-11-07",
+          30.0
+        ],
+        [
+          "2026-11-08",
+          30.0
+        ],
+        [
+          "2026-11-09",
+          30.0
+        ],
+        [
+          "2026-11-10",
+          30.0
         ]
       ]
     },
@@ -1640,78 +1712,6 @@
         [
           "2026-11-10",
           42.0
-        ]
-      ]
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/9998779",
-      "title": "Xavier",
-      "brand": "Steve Madden",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61dzskmcgKL._AC_SR255,340_.jpg",
-      "price_current": 30.0,
-      "price_list": 100.0,
-      "price_baseline": 100.0,
-      "price_alltime_low": 30.0,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 40344,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/9998779",
-      "discount_pct": 70.0,
-      "score": 81,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-06T04:41:20.110057+00:00",
-      "last_seen": "2026-11-10T03:51:38.126192+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "94bc4cc9e6",
-      "history": [
-        [
-          "2026-11-06",
-          30.0
-        ],
-        [
-          "2026-11-07",
-          30.0
-        ],
-        [
-          "2026-11-08",
-          30.0
-        ],
-        [
-          "2026-11-09",
-          30.0
-        ],
-        [
-          "2026-11-10",
-          30.0
         ]
       ]
     },
@@ -3745,7 +3745,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-10-31T14:31:14.406873+00:00",
-      "last_seen": "2026-11-10T09:31:47.259748+00:00",
+      "last_seen": "2026-11-10T10:11:38.473615+00:00",
       "posted_at": "",
       "signals": {},
       "id": "3197e41888",
@@ -3833,7 +3833,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-01T19:31:20.955223+00:00",
-      "last_seen": "2026-11-10T03:51:38.126192+00:00",
+      "last_seen": "2026-11-10T10:11:38.473615+00:00",
       "posted_at": "",
       "signals": {},
       "id": "0491590a54",
@@ -4048,7 +4048,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-08T17:41:20.186325+00:00",
-      "last_seen": "2026-11-10T09:31:47.259748+00:00",
+      "last_seen": "2026-11-10T10:11:38.473615+00:00",
       "posted_at": "",
       "signals": {},
       "id": "8db7d6c0b4",
@@ -4815,7 +4815,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-08T17:01:27.276958+00:00",
-      "last_seen": "2026-11-10T09:31:47.259748+00:00",
+      "last_seen": "2026-11-10T10:11:38.473615+00:00",
       "posted_at": "",
       "signals": {},
       "id": "50f5f904f8",
@@ -5376,7 +5376,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-08T20:51:23.824321+00:00",
-      "last_seen": "2026-11-10T09:31:47.259748+00:00",
+      "last_seen": "2026-11-10T10:11:38.473615+00:00",
       "posted_at": "",
       "signals": {},
       "id": "29a6b59df8",
@@ -5518,6 +5518,117 @@
       ]
     },
     {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Hoka-Footwear-Deals-at-Woot-Up-to-46-off-extra-20-to-30-off-free-shipping-w-Prime/22375439.html?iref=rss",
+      "title": "Hoka Footwear Deals at Woot: Up to 46% off + extra 20% to 30% off + free shipping w/ Prime",
+      "brand": "Hoka",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1794304401-product-trimmed.jpg?h=110&w=250",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/Hoka-Footwear-Deals-at-Woot-Up-to-46-off-extra-20-to-30-off-free-shipping-w-Prime/22375439.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-10T10:11:17.588435+00:00",
+      "last_seen": "2026-11-10T10:11:38.473615+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "ca260ab019",
+      "history": []
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Levis-Mens-Washed-Cotton-Hooded-Military-Jacket-for-from-46-free-shipping/22375300.html?iref=rss",
+      "title": "Levi's Men's Washed Cotton Hooded Military Jacket for from $46 + free shipping",
+      "brand": "Levi's",
+      "category": "premium_fashion",
+      "image": "https://d.dlnws.com/64599/1794297460-product-trimmed.jpg?h=250&w=159",
+      "price_current": 46.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 61860,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Levis-Mens-Washed-Cotton-Hooded-Military-Jacket-for-from-46-free-shipping/22375300.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-10T08:12:58.996182+00:00",
+      "last_seen": "2026-11-10T10:11:38.473615+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "2aaac97a46",
+      "history": [
+        [
+          "2026-11-10",
+          46.0
+        ]
+      ]
+    },
+    {
       "source": "techbargains:woot!",
       "source_tier": "T2",
       "url": "https://sport.woot.com/plus/hoka-footwear-6",
@@ -5563,8 +5674,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-10T09:31:26.575702+00:00",
-      "last_seen": "2026-11-10T09:31:47.259748+00:00",
+      "detected_at": "2026-11-10T10:11:17.802716+00:00",
+      "last_seen": "2026-11-10T10:11:38.473615+00:00",
       "posted_at": "",
       "signals": {},
       "id": "b9404f9ee9",
@@ -5617,7 +5728,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-09T16:01:44.676714+00:00",
-      "last_seen": "2026-11-10T09:31:47.259748+00:00",
+      "last_seen": "2026-11-10T10:11:38.473615+00:00",
       "posted_at": "",
       "signals": {},
       "id": "82526d42e5",
@@ -5629,64 +5740,6 @@
         [
           "2026-11-10",
           30.39
-        ]
-      ]
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Levis-Mens-Washed-Cotton-Hooded-Military-Jacket-for-from-46-free-shipping/22375300.html?iref=rss",
-      "title": "Levi's Men's Washed Cotton Hooded Military Jacket for from $46 + free shipping",
-      "brand": "Levi's",
-      "category": "premium_fashion",
-      "image": "https://d.dlnws.com/64599/1794297460-product-trimmed.jpg?h=250&w=159",
-      "price_current": 46.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 61860,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Levis-Mens-Washed-Cotton-Hooded-Military-Jacket-for-from-46-free-shipping/22375300.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-10T08:12:58.996182+00:00",
-      "last_seen": "2026-11-10T08:51:44.414315+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "2aaac97a46",
-      "history": [
-        [
-          "2026-11-10",
-          46.0
         ]
       ]
     },
@@ -6892,12 +6945,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-10T10:10:31+00:00",
-      "T2": "2026-11-10T09:31:11+00:00",
+      "T2": "2026-11-10T10:11:03+00:00",
       "T3": "2026-11-10T09:41:32+00:00",
       "T4": "2026-11-10T06:01:15+00:00"
     },
     "recent_gaps_min": [
-      9,
       10,
       10,
       10,
@@ -6926,14 +6978,15 @@
       1,
       9,
       10,
-      9
+      9,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-10T10:11:02+00:00",
+      "at": "2026-11-10T10:11:38+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -6942,7 +6995,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-10T10:11:02+00:00"
+      "at": "2026-11-10T10:11:38+00:00"
     }
   },
   "email_monitor": {
