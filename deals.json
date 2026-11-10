@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T20:41:44.378212+00:00",
+  "generated_at": "2026-11-10T20:51:04.391777+00:00",
   "count": 109,
   "deals": [
     {
@@ -263,23 +263,23 @@
         "bonus": 0,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 45표/69분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 45표/79분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-10T01:10:36.731541+00:00",
-      "last_seen": "2026-11-10T20:41:02.254577+00:00",
+      "last_seen": "2026-11-10T20:51:04.351654+00:00",
       "posted_at": "2026-11-10T19:31:22+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 69,
+        "sd_age_min": 79,
         "sd_votes": 45,
-        "sd_velocity": 39.0,
+        "sd_velocity": 34.0,
         "sd_fp_min": 19
       },
       "id": "990607d304",
@@ -1613,16 +1613,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-10T19:50:50.697062+00:00",
-      "last_seen": "2026-11-10T20:41:02.254577+00:00",
+      "last_seen": "2026-11-10T20:51:04.351654+00:00",
       "posted_at": "2026-11-10T18:15:25+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": false,
-        "sd_age_min": 145,
+        "sd_age_min": 155,
         "sd_votes": 21,
-        "sd_velocity": 8.7,
+        "sd_velocity": 8.1,
         "sd_fp_min": 95
       },
       "id": "d5418ae9db",
@@ -1680,16 +1680,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-06T15:40:47.276169+00:00",
-      "last_seen": "2026-11-10T20:41:02.254577+00:00",
+      "last_seen": "2026-11-10T20:51:04.351654+00:00",
       "posted_at": "2026-11-10T18:11:50+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 149,
+        "sd_age_min": 159,
         "sd_votes": 26,
-        "sd_velocity": 10.5,
+        "sd_velocity": 9.8,
         "sd_fp_min": 99
       },
       "id": "8854345083",
@@ -1752,16 +1752,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-10T19:50:50.697062+00:00",
-      "last_seen": "2026-11-10T20:41:02.254577+00:00",
+      "last_seen": "2026-11-10T20:51:04.351654+00:00",
       "posted_at": "2026-11-10T18:09:38+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": false,
-        "sd_age_min": 151,
+        "sd_age_min": 161,
         "sd_votes": 23,
-        "sd_velocity": 9.1,
+        "sd_velocity": 8.6,
         "sd_fp_min": 101
       },
       "id": "746b4a505e",
@@ -1820,16 +1820,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-10T19:50:50.697062+00:00",
-      "last_seen": "2026-11-10T20:41:02.254577+00:00",
+      "last_seen": "2026-11-10T20:51:04.351654+00:00",
       "posted_at": "2026-11-10T17:41:44+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": false,
-        "sd_age_min": 179,
+        "sd_age_min": 189,
         "sd_votes": 22,
-        "sd_velocity": 7.4,
+        "sd_velocity": 7.0,
         "sd_fp_min": 129
       },
       "id": "4ec54ab68f",
@@ -2489,66 +2489,74 @@
       ]
     },
     {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/vamvo-vf320-b-projector/845970.htm",
-      "title": "Vamvo Native 1080P 2000 ANSI Lumens WiFi Bluetooth Mini Projector",
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20275065",
+      "title": "Spacewalk 16\" Peak 1500W & 65 Miles Long Range Electric Bike $284.10 + Free S&H",
       "brand": "",
-      "category": "electronics",
-      "image": "https://d16f00g4zitf8i.cloudfront.net/images/vamvo-vf320-b-projector.jpg",
-      "price_current": 49.99,
-      "price_list": 299.99,
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/9/8/6/1/7/8/300x300/22261581.thumb",
+      "price_current": 284.1,
+      "price_list": null,
       "price_baseline": null,
-      "price_alltime_low": 49.99,
+      "price_alltime_low": null,
       "currency": "USD",
-      "coupon_code": "",
+      "coupon_code": "USAFF75",
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": null,
+      "community_votes": 19,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 67226,
+      "krw_effective": 453880,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
       "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
       "brand_tier": "",
-      "buy_url": "https://www.dealsofamerica.com/vamvo-vf320-b-projector/845970.htm",
-      "discount_pct": 83.3,
+      "buy_url": "https://slickdeals.net/f/20275065",
+      "discount_pct": null,
       "score": 80,
       "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": 25,
-        "category": 15,
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 5,
         "bonus": 0,
-        "brand": 0
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 19표/73분 → 하한 74",
+        "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-11-07T15:11:12.593729+00:00",
-      "last_seen": "2026-11-10T20:41:43.424796+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "3f39b45543",
+      "detected_at": "2026-11-08T15:10:44.670208+00:00",
+      "last_seen": "2026-11-10T20:51:04.351654+00:00",
+      "posted_at": "2026-11-10T19:37:33+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_hot_origin": true,
+        "sd_age_min": 73,
+        "sd_votes": 19,
+        "sd_velocity": 15.6,
+        "sd_fp_min": 13
+      },
+      "id": "9eea01b59d",
       "history": [
         [
-          "2026-11-07",
-          49.99
-        ],
-        [
-          "2026-11-09",
-          49.99
+          "2026-11-08",
+          355.0
         ],
         [
           "2026-11-10",
-          49.99
+          284.1
         ]
       ]
     },
@@ -7071,13 +7079,12 @@
   "fx_usd_krw": 1344.8,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-10T20:40:29+00:00",
+      "T1": "2026-11-10T20:50:31+00:00",
       "T2": "2026-11-10T20:41:03+00:00",
       "T3": "2026-11-10T20:31:14+00:00",
       "T4": "2026-11-10T18:22:25+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       10,
@@ -7106,14 +7113,15 @@
       10,
       1,
       9,
-      1
+      1,
+      9
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-10T20:41:43+00:00",
+      "at": "2026-11-10T20:51:04+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -7122,13 +7130,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-10T20:41:43+00:00"
+      "at": "2026-11-10T20:51:04+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-10T20:40:38+00:00",
+        "at": "2026-11-10T20:50:39+00:00",
         "state": "정상",
         "mails": 19,
         "deals": 19
@@ -7154,7 +7162,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-10T20:41:02+00:00",
-        "last_seen": "2026-11-10T20:41:02+00:00"
+        "last_seen": "2026-11-10T20:51:04+00:00"
       },
       {
         "url": "https://click.emails.underarmour.com/",
@@ -7199,7 +7207,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-10T18:21:07+00:00",
-        "last_seen": "2026-11-10T20:41:02+00:00"
+        "last_seen": "2026-11-10T20:51:04+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20282421",
@@ -7214,7 +7222,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-10T15:31:15+00:00",
-        "last_seen": "2026-11-10T20:41:02+00:00"
+        "last_seen": "2026-11-10T20:51:04+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20282754",
@@ -7229,7 +7237,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-10T15:01:34+00:00",
-        "last_seen": "2026-11-10T20:41:02+00:00"
+        "last_seen": "2026-11-10T20:51:04+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20239146",
@@ -7244,7 +7252,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-10T14:31:15+00:00",
-        "last_seen": "2026-11-10T20:41:02+00:00"
+        "last_seen": "2026-11-10T20:51:04+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20283441",
@@ -7259,7 +7267,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-10T14:01:23+00:00",
-        "last_seen": "2026-11-10T20:41:02+00:00"
+        "last_seen": "2026-11-10T20:51:04+00:00"
       },
       {
         "url": "https://www.asos.com",
@@ -7289,7 +7297,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-10T10:21:23+00:00",
-        "last_seen": "2026-11-10T20:41:02+00:00"
+        "last_seen": "2026-11-10T20:51:04+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20279859",
@@ -7304,7 +7312,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-10T07:11:08+00:00",
-        "last_seen": "2026-11-10T20:41:02+00:00"
+        "last_seen": "2026-11-10T20:51:04+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20278410",
@@ -7319,7 +7327,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-10T02:21:03+00:00",
-        "last_seen": "2026-11-10T20:41:02+00:00"
+        "last_seen": "2026-11-10T20:51:04+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20281506",
@@ -7334,7 +7342,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-10T01:41:05+00:00",
-        "last_seen": "2026-11-10T20:41:02+00:00"
+        "last_seen": "2026-11-10T20:51:04+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20277390",
@@ -7349,7 +7357,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-10T01:21:02+00:00",
-        "last_seen": "2026-11-10T20:41:02+00:00"
+        "last_seen": "2026-11-10T20:51:04+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20280147",
@@ -7364,7 +7372,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-10T01:10:58+00:00",
-        "last_seen": "2026-11-10T20:41:02+00:00"
+        "last_seen": "2026-11-10T20:51:04+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20279076",
@@ -7454,7 +7462,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-09T20:32:00+00:00",
-        "last_seen": "2026-11-10T20:41:02+00:00"
+        "last_seen": "2026-11-10T20:51:04+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20233605",
@@ -7469,7 +7477,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-09T20:01:19+00:00",
-        "last_seen": "2026-11-10T20:41:02+00:00"
+        "last_seen": "2026-11-10T20:51:04+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20249418",
@@ -7484,7 +7492,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-09T19:21:08+00:00",
-        "last_seen": "2026-11-10T20:41:02+00:00"
+        "last_seen": "2026-11-10T20:51:04+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20267616",
@@ -7634,7 +7642,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-09T06:41:03+00:00",
-        "last_seen": "2026-11-10T20:41:02+00:00"
+        "last_seen": "2026-11-10T20:51:04+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20276850",
@@ -7754,7 +7762,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 52% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-09T00:21:41+00:00",
-        "last_seen": "2026-11-10T20:41:02+00:00"
+        "last_seen": "2026-11-10T20:51:04+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20275887",
@@ -7799,7 +7807,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 52% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-08T22:01:17+00:00",
-        "last_seen": "2026-11-10T20:41:02+00:00"
+        "last_seen": "2026-11-10T20:51:04+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20275686",
@@ -7829,7 +7837,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 48% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-08T21:41:06+00:00",
-        "last_seen": "2026-11-10T20:41:02+00:00"
+        "last_seen": "2026-11-10T20:51:04+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20273727",
