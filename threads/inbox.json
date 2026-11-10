@@ -1819,7 +1819,7 @@
     "price_list": 494.0,
     "typed": true
    },
-   "status": "waiting_price",
+   "status": "replaced",
    "msg": 3395
   },
   "8e76e816": {
@@ -1863,14 +1863,35 @@
     "price_list": 382.0,
     "typed": true
    },
-   "status": "waiting_price",
+   "status": "replaced",
    "msg": 3398
+  },
+  "9778ec4b": {
+   "created": "2026-11-10T23:31:12+09:00",
+   "url": "https://mobile.yoox.com/kr/15392565PF/item?dept=buymorewomen#cod10=15392565PF",
+   "hint": {
+    "at": 1794316980,
+    "price_current": 65.0,
+    "price_list": 494.0,
+    "typed": true
+   },
+   "status": "waiting_price",
+   "msg": 3402
+  },
+  "5aed9d81": {
+   "created": "2026-11-10T23:31:17+09:00",
+   "url": "https://mobile.yoox.com/kr/14570366IQ/item?dept=buymorewomen#cod10=14570366IQ",
+   "hint": {
+    "at": 1794317078,
+    "price_current": 129.0,
+    "price_list": 382.0,
+    "typed": true
+   },
+   "status": "waiting_price",
+   "msg": 3403
   }
  },
  "done_updates": [
-  303762483,
-  303762484,
-  303762485,
   303762486,
   303762487,
   303762488,
@@ -2070,7 +2091,9 @@
   303762746,
   303762747,
   303762748,
-  303762749
+  303762749,
+  303762751,
+  303762752
  ],
  "picks": {
   "2026-10-30-점심": "3ffe07d9",
@@ -2107,11 +2130,6 @@
   "nordstromrack.com/s/ugg-classic-mini-taslyn-bootie/8738142"
  ],
  "runs": [
-  {
-   "at": "2026-11-07T22:39:54+09:00",
-   "updates": 1,
-   "errors": []
-  },
   {
    "at": "2026-11-08T09:18:06+09:00",
    "updates": 2,
@@ -2305,6 +2323,11 @@
   {
    "at": "2026-11-10T23:10:12+09:00",
    "updates": 3,
+   "errors": []
+  },
+  {
+   "at": "2026-11-10T23:40:01+09:00",
+   "updates": 2,
    "errors": []
   }
  ]
