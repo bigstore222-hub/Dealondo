@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T09:41:31.204543+00:00",
+  "generated_at": "2026-11-10T09:42:30.040204+00:00",
   "count": 103,
   "deals": [
     {
@@ -558,7 +558,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-01T18:01:56.270434+00:00",
-      "last_seen": "2026-11-10T07:32:07.011964+00:00",
+      "last_seen": "2026-11-10T09:42:30.018153+00:00",
       "posted_at": "",
       "signals": {},
       "id": "c73118fa8c",
@@ -650,7 +650,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-06T19:12:23.752724+00:00",
-      "last_seen": "2026-11-10T07:32:07.011964+00:00",
+      "last_seen": "2026-11-10T09:42:30.018153+00:00",
       "posted_at": "",
       "signals": {},
       "id": "2b831164ce",
@@ -1283,7 +1283,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-03T17:31:58.804814+00:00",
-      "last_seen": "2026-11-10T07:32:07.011964+00:00",
+      "last_seen": "2026-11-10T09:42:30.018153+00:00",
       "posted_at": "",
       "signals": {},
       "id": "de43c40b1d",
@@ -1390,75 +1390,6 @@
     {
       "source": "6pm.com",
       "source_tier": "T3",
-      "url": "https://www.6pm.com/product/10056467",
-      "title": "Ellie Western Sandals",
-      "brand": "AllSaints",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/713NCFuFcKL._AC_SR255,340_.jpg",
-      "price_current": 43.8,
-      "price_list": 219.0,
-      "price_baseline": 219.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": 5.0,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 58902,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.6pm.com/product/10056467",
-      "discount_pct": 80.0,
-      "score": 83,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-07T18:43:06.158254+00:00",
-      "last_seen": "2026-11-10T07:32:07.011964+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "d284c95219",
-      "history": [
-        [
-          "2026-11-07",
-          43.8
-        ],
-        [
-          "2026-11-08",
-          43.8
-        ],
-        [
-          "2026-11-09",
-          43.8
-        ],
-        [
-          "2026-11-10",
-          43.8
-        ]
-      ]
-    },
-    {
-      "source": "6pm.com",
-      "source_tier": "T3",
       "url": "https://www.6pm.com/product/10013381",
       "title": "Velma Woven Sneakers",
       "brand": "AllSaints",
@@ -1502,7 +1433,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-07T18:43:06.158254+00:00",
-      "last_seen": "2026-11-10T07:32:07.011964+00:00",
+      "last_seen": "2026-11-10T09:42:30.018153+00:00",
       "posted_at": "",
       "signals": {},
       "id": "4ef7a491b1",
@@ -1522,6 +1453,75 @@
         [
           "2026-11-10",
           49.8
+        ]
+      ]
+    },
+    {
+      "source": "6pm.com",
+      "source_tier": "T3",
+      "url": "https://www.6pm.com/product/10056467",
+      "title": "Ellie Western Sandals",
+      "brand": "AllSaints",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/713NCFuFcKL._AC_SR255,340_.jpg",
+      "price_current": 43.8,
+      "price_list": 219.0,
+      "price_baseline": 219.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": 5.0,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 58902,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.6pm.com/product/10056467",
+      "discount_pct": 80.0,
+      "score": 83,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-07T18:43:06.158254+00:00",
+      "last_seen": "2026-11-10T09:42:30.018153+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "d284c95219",
+      "history": [
+        [
+          "2026-11-07",
+          43.8
+        ],
+        [
+          "2026-11-08",
+          43.8
+        ],
+        [
+          "2026-11-09",
+          43.8
+        ],
+        [
+          "2026-11-10",
+          43.8
         ]
       ]
     },
@@ -2276,6 +2276,78 @@
       ]
     },
     {
+      "source": "6pm.com",
+      "source_tier": "T3",
+      "url": "https://www.6pm.com/product/9986807",
+      "title": "Heavana Racerback Midi Dress",
+      "brand": "Prana",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/61khscBO8XL._AC_SR255,340_.jpg",
+      "price_current": 21.6,
+      "price_list": 108.0,
+      "price_baseline": 108.0,
+      "price_alltime_low": 21.6,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 29047,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.6pm.com/product/9986807",
+      "discount_pct": 80.0,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": 25,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-04T19:31:50.718607+00:00",
+      "last_seen": "2026-11-10T09:42:30.018153+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "95fb72369a",
+      "history": [
+        [
+          "2026-11-04",
+          21.6
+        ],
+        [
+          "2026-11-06",
+          21.6
+        ],
+        [
+          "2026-11-08",
+          21.6
+        ],
+        [
+          "2026-11-09",
+          21.6
+        ],
+        [
+          "2026-11-10",
+          21.6
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20276253",
@@ -2344,78 +2416,6 @@
         [
           "2026-11-10",
           10.0
-        ]
-      ]
-    },
-    {
-      "source": "6pm.com",
-      "source_tier": "T3",
-      "url": "https://www.6pm.com/product/9986807",
-      "title": "Heavana Racerback Midi Dress",
-      "brand": "Prana",
-      "category": "electronics",
-      "image": "https://m.media-amazon.com/images/I/61khscBO8XL._AC_SR255,340_.jpg",
-      "price_current": 21.6,
-      "price_list": 108.0,
-      "price_baseline": 108.0,
-      "price_alltime_low": 21.6,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 29047,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.6pm.com/product/9986807",
-      "discount_pct": 80.0,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": 25,
-        "category": 15,
-        "bonus": 0,
-        "brand": 0
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-04T19:31:50.718607+00:00",
-      "last_seen": "2026-11-10T07:32:07.011964+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "95fb72369a",
-      "history": [
-        [
-          "2026-11-04",
-          21.6
-        ],
-        [
-          "2026-11-06",
-          21.6
-        ],
-        [
-          "2026-11-08",
-          21.6
-        ],
-        [
-          "2026-11-09",
-          21.6
-        ],
-        [
-          "2026-11-10",
-          21.6
         ]
       ]
     },
@@ -3926,7 +3926,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-09T11:51:39.833973+00:00",
-      "last_seen": "2026-11-10T07:32:07.011964+00:00",
+      "last_seen": "2026-11-10T09:42:30.018153+00:00",
       "posted_at": "",
       "signals": {},
       "id": "d0994e3766",
@@ -4539,7 +4539,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-04T21:42:29.026098+00:00",
-      "last_seen": "2026-11-10T07:32:07.011964+00:00",
+      "last_seen": "2026-11-10T09:42:30.018153+00:00",
       "posted_at": "",
       "signals": {},
       "id": "aa1a18e37f",
@@ -4620,7 +4620,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-07T18:43:06.158254+00:00",
-      "last_seen": "2026-11-10T07:32:07.011964+00:00",
+      "last_seen": "2026-11-10T09:42:30.018153+00:00",
       "posted_at": "",
       "signals": {},
       "id": "e9ff77cd38",
@@ -4650,7 +4650,7 @@
       "title": "AO 2 Eye",
       "brand": "Sperry",
       "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/61jce+kh6xL._AC_SR255,340_.jpg",
+      "image": "https://www.6pm.com/images/718/7188208/3034-183380-t.jpg",
       "price_current": 22.0,
       "price_list": 110.0,
       "price_baseline": 110.0,
@@ -4689,7 +4689,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-08T18:31:50.546718+00:00",
-      "last_seen": "2026-11-10T07:32:07.011964+00:00",
+      "last_seen": "2026-11-10T09:42:30.018153+00:00",
       "posted_at": "",
       "signals": {},
       "id": "d5fed94af1",
@@ -6893,11 +6893,10 @@
     "tier_last_run": {
       "T1": "2026-11-10T09:40:28+00:00",
       "T2": "2026-11-10T09:31:11+00:00",
-      "T3": "2026-11-10T07:31:13+00:00",
+      "T3": "2026-11-10T09:41:32+00:00",
       "T4": "2026-11-10T06:01:15+00:00"
     },
     "recent_gaps_min": [
-      3,
       7,
       10,
       1,
@@ -6926,14 +6925,15 @@
       10,
       10,
       1,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-10T09:41:31+00:00",
+      "at": "2026-11-10T09:42:29+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -6942,7 +6942,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-10T09:41:31+00:00"
+      "at": "2026-11-10T09:42:29+00:00"
     }
   },
   "email_monitor": {
