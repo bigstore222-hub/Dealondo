@@ -1423,7 +1423,8 @@
    "img_ok": true,
    "photo_msg": 3326,
    "msg": 3327,
-   "status": "waiting"
+   "status": "waiting",
+   "error": "RuntimeError: 카드 이미지 주소가 열리지 않음: https://raw.githubusercontent.com/bigstore222-hub/Dealondo/2c6bfa882ecb47d0a2fac1e326a537cb236be301/threads/deals/c6932fd3.png"
   },
   "415fdae2": {
    "created": "2026-11-10T09:01:27+09:00",
@@ -1494,7 +1495,8 @@
    "img_ok": true,
    "photo_msg": 3329,
    "msg": 3330,
-   "status": "waiting"
+   "status": "waiting",
+   "error": "RuntimeError: 카드 이미지 주소가 열리지 않음: https://raw.githubusercontent.com/bigstore222-hub/Dealondo/2c6bfa882ecb47d0a2fac1e326a537cb236be301/threads/deals/415fdae2.png"
   },
   "6b4aa23b": {
    "created": "2026-11-10T10:12:05+09:00",
@@ -1525,7 +1527,8 @@
    "angle": "practical",
    "already": false,
    "msg": 3334,
-   "status": "waiting"
+   "status": "waiting",
+   "error": "RuntimeError: 카드 이미지 주소가 열리지 않음: https://raw.githubusercontent.com/bigstore222-hub/Dealondo/2c6bfa882ecb47d0a2fac1e326a537cb236be301/threads/deals/6b4aa23b.png"
   },
   "5c5655f2": {
    "created": "2026-11-10T11:41:03+09:00",
@@ -1611,7 +1614,8 @@
    "img_ok": true,
    "photo_msg": 3338,
    "msg": 3339,
-   "status": "waiting"
+   "status": "waiting",
+   "error": "RuntimeError: 카드 이미지 주소가 열리지 않음: https://raw.githubusercontent.com/bigstore222-hub/Dealondo/2c6bfa882ecb47d0a2fac1e326a537cb236be301/threads/deals/5c5655f2.png"
   },
   "5bd02fa8": {
    "created": "2026-11-10T13:51:46+09:00",
@@ -1643,41 +1647,8 @@
    "already": false,
    "photo_msg": 3342,
    "msg": 3343,
-   "status": "waiting"
-  },
-  "81757077": {
-   "created": "2026-11-10T15:14:06+09:00",
-   "url": "https://www.shopbop.com/featherweight-twill-prepster-easy-pleate/vp/v=1/1550795569.htm?colorSin=2040722142",
-   "deal": {
-    "url": "https://www.shopbop.com/featherweight-twill-prepster-easy-pleate/vp/v=1/1550795569.htm?colorSin=2040722142",
-    "source": "shopbop.com",
-    "store_name": "Shopbop",
-    "title": "Featherweight Twill Prepster Easy Pleated Pants",
-    "brand": "",
-    "category": "etc",
-    "price_current": 62.5,
-    "price_list": null,
-    "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/rlaur/rlaur334512795c/rlaur334512795c_1768945350819_2-0.jpg",
-    "gender": null,
-    "buy_url": "https://www.shopbop.com/featherweight-twill-prepster-easy-pleate/vp/v=1/1550795569.htm?colorSin=2040722142",
-    "discount_pct": null,
-    "krw_effective": 84049,
-    "kr_lowest_price": null
-   },
-   "seen": "2026-11-10T15:13:58.279188+09:00",
-   "text": "$62.50에 바지.\n\n관부가세 없음(미국발 $200 이하).\n한국 돈으로 약 8만 4천 원쯤이에요.\n\n이 가격, 직구해볼 만할까요?",
-   "reply": "상품 링크: https://www.shopbop.com/featherweight-twill-prepster-easy-pleate/vp/v=1/1550795569.htm?colorSin=2040722142\n가격은 수시로 바뀌니 결제 전에 한 번 더 확인하세요.",
-   "notes": [
-    "정가를 찾지 못해 할인율이 빠졌어요. 답장으로 \"판매가 정가\"를 보내면 넣어드려요.",
-    "[품질] 정가가 없어 할인 폭을 설명할 수 없어요."
-   ],
-   "angle": "basic",
-   "already": false,
-   "img_ok": true,
-   "photo_msg": 3346,
-   "msg": 3347,
    "status": "posted",
-   "link": "https://www.threads.com/@deal_ondo/post/DfjQLSAEYPp"
+   "link": "https://www.threads.com/@deal_ondo/post/DfjQT4vm1gp"
   }
  },
  "done_updates": [
@@ -1869,8 +1840,11 @@
   303762707,
   303762711,
   303762718,
-  303762724,
-  303762726
+  303762727,
+  303762728,
+  303762729,
+  303762730,
+  303762731
  ],
  "picks": {
   "2026-10-30-점심": "3ffe07d9",
@@ -2101,8 +2075,8 @@
    "errors": []
   },
   {
-   "at": "2026-11-10T15:23:08+09:00",
-   "updates": 2,
+   "at": "2026-11-10T15:28:21+09:00",
+   "updates": 5,
    "errors": []
   }
  ]
