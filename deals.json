@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10T19:31:59.805931+00:00",
-  "count": 108,
+  "generated_at": "2026-11-10T19:41:09.836185+00:00",
+  "count": 106,
   "deals": [
     {
       "source": "6pm.com",
@@ -1475,16 +1475,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-10T17:30:50.957200+00:00",
-      "last_seen": "2026-11-10T19:31:17.384031+00:00",
+      "last_seen": "2026-11-10T19:41:09.804279+00:00",
       "posted_at": "2026-11-10T17:11:44+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": false,
-        "sd_age_min": 139,
+        "sd_age_min": 149,
         "sd_votes": 23,
-        "sd_velocity": 9.9,
+        "sd_velocity": 9.3,
         "sd_fp_min": 19
       },
       "id": "33da05da44",
@@ -1543,16 +1543,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-08T03:40:36.129599+00:00",
-      "last_seen": "2026-11-10T19:31:17.384031+00:00",
+      "last_seen": "2026-11-10T19:41:09.804279+00:00",
       "posted_at": "2026-11-10T15:39:16+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": false,
-        "sd_age_min": 232,
+        "sd_age_min": 242,
         "sd_votes": 115,
-        "sd_velocity": 29.8,
+        "sd_velocity": 28.6,
         "sd_fp_min": -3599
       },
       "id": "ff73914229",
@@ -2216,6 +2216,78 @@
       ]
     },
     {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20278797",
+      "title": "5-tier Adjustable Metal Heavy Duty Storage Shelving from $40 & More + Free S&H",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/1/2/8/0/9/4/300x300/22269732.thumb",
+      "price_current": 40.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 39,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 53791,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20278797",
+      "discount_pct": null,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 39표/178분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-09T14:30:46.167974+00:00",
+      "last_seen": "2026-11-10T19:41:09.804279+00:00",
+      "posted_at": "2026-11-10T16:42:57+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_hot_origin": true,
+        "sd_age_min": 178,
+        "sd_votes": 39,
+        "sd_velocity": 13.2,
+        "sd_fp_min": 48
+      },
+      "id": "01013e59ac",
+      "history": [
+        [
+          "2026-11-09",
+          40.99
+        ],
+        [
+          "2026-11-10",
+          40.0
+        ]
+      ]
+    },
+    {
       "source": "dealsofamerica",
       "source_tier": "T2",
       "url": "https://www.dealsofamerica.com/vamvo-vf320-b-projector/845970.htm",
@@ -2336,78 +2408,6 @@
         [
           "2026-11-10",
           59.97
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20278797",
-      "title": "5-tier Adjustable Metal Heavy Duty Storage Shelving from $40 & More + Free S&H",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/2/8/0/9/4/300x300/22269732.thumb",
-      "price_current": 40.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 39,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 53791,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20278797",
-      "discount_pct": null,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 39표/168분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-09T14:30:46.167974+00:00",
-      "last_seen": "2026-11-10T19:31:17.384031+00:00",
-      "posted_at": "2026-11-10T16:42:57+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_hot_origin": true,
-        "sd_age_min": 168,
-        "sd_votes": 39,
-        "sd_velocity": 13.9,
-        "sd_fp_min": 48
-      },
-      "id": "01013e59ac",
-      "history": [
-        [
-          "2026-11-09",
-          40.99
-        ],
-        [
-          "2026-11-10",
-          40.0
         ]
       ]
     },
@@ -5063,63 +5063,6 @@
       ]
     },
     {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10058770",
-      "title": "Racer Paneled Midi Dress",
-      "brand": "Avec Les Filles",
-      "category": "electronics",
-      "image": "https://m.media-amazon.com/images/I/71YwNlyQkqL._AC_SR255,340_.jpg",
-      "price_current": 50.4,
-      "price_list": 168.0,
-      "price_baseline": 168.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 68311,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.zappos.com/product/10058770",
-      "discount_pct": 70.0,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-08T19:38:28.612919+00:00",
-      "last_seen": "2026-11-08T19:38:52.168299+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "d9a363a4f5",
-      "history": [
-        [
-          "2026-11-08",
-          50.4
-        ]
-      ]
-    },
-    {
       "source": "dealnews",
       "source_tier": "T2",
       "url": "https://www.dealnews.com/lululemon-Mens-ABC-Warpstreme-Jogger-for-54-free-shipping/22376171.html?iref=rss",
@@ -6960,83 +6903,17 @@
           25.0
         ]
       ]
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Levis-Mens-Jeans-Deals-at-eBay-for-From-16-extra-5-off-every-40-spent-in-cart-free-shipping/22351423.html?iref=rss",
-      "title": "Levi's Men's Jeans Deals at eBay for From $16 + extra $5 off every $40 spent in cart + free shipping",
-      "brand": "Levi's",
-      "category": "premium_fashion",
-      "image": "https://d.dlnws.com/64599/1793905259-s-l1600.webp?h=250&w=250",
-      "price_current": 16.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": 16.0,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 21686,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Levis-Mens-Jeans-Deals-at-eBay-for-From-16-extra-5-off-every-40-spent-in-cart-free-shipping/22351423.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-05T19:31:28.657739+00:00",
-      "last_seen": "2026-11-08T19:38:52.168299+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "781b4290c9",
-      "history": [
-        [
-          "2026-11-05",
-          16.0
-        ],
-        [
-          "2026-11-06",
-          16.0
-        ],
-        [
-          "2026-11-08",
-          16.0
-        ]
-      ]
     }
   ],
   "fx_usd_krw": 1344.8,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-10T19:30:43+00:00",
+      "T1": "2026-11-10T19:40:34+00:00",
       "T2": "2026-11-10T19:31:19+00:00",
       "T3": "2026-11-10T18:21:09+00:00",
       "T4": "2026-11-10T18:22:25+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       1,
       8,
@@ -7065,14 +6942,15 @@
       10,
       10,
       10,
-      1
+      1,
+      9
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-10T19:31:58+00:00",
+      "at": "2026-11-10T19:41:09+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -7081,13 +6959,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-10T19:31:58+00:00"
+      "at": "2026-11-10T19:41:09+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-10T19:30:56+00:00",
+        "at": "2026-11-10T19:40:50+00:00",
         "state": "정상",
         "mails": 18,
         "deals": 18
@@ -7143,7 +7021,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-10T18:21:07+00:00",
-        "last_seen": "2026-11-10T19:31:17+00:00"
+        "last_seen": "2026-11-10T19:41:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20282421",
@@ -7158,7 +7036,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-10T15:31:15+00:00",
-        "last_seen": "2026-11-10T19:31:17+00:00"
+        "last_seen": "2026-11-10T19:41:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20282754",
@@ -7173,7 +7051,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-10T15:01:34+00:00",
-        "last_seen": "2026-11-10T19:31:17+00:00"
+        "last_seen": "2026-11-10T19:41:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20239146",
@@ -7188,7 +7066,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-10T14:31:15+00:00",
-        "last_seen": "2026-11-10T19:31:17+00:00"
+        "last_seen": "2026-11-10T19:41:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20283441",
@@ -7203,7 +7081,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-10T14:01:23+00:00",
-        "last_seen": "2026-11-10T19:31:17+00:00"
+        "last_seen": "2026-11-10T19:41:09+00:00"
       },
       {
         "url": "https://www.asos.com",
@@ -7233,7 +7111,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-10T10:21:23+00:00",
-        "last_seen": "2026-11-10T19:31:17+00:00"
+        "last_seen": "2026-11-10T19:41:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20279859",
@@ -7248,7 +7126,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-10T07:11:08+00:00",
-        "last_seen": "2026-11-10T19:31:17+00:00"
+        "last_seen": "2026-11-10T19:41:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20278410",
@@ -7263,7 +7141,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-10T02:21:03+00:00",
-        "last_seen": "2026-11-10T19:31:17+00:00"
+        "last_seen": "2026-11-10T19:41:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20281506",
@@ -7278,7 +7156,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-10T01:41:05+00:00",
-        "last_seen": "2026-11-10T19:31:17+00:00"
+        "last_seen": "2026-11-10T19:41:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20277390",
@@ -7293,7 +7171,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-10T01:21:02+00:00",
-        "last_seen": "2026-11-10T19:31:17+00:00"
+        "last_seen": "2026-11-10T19:41:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20280147",
@@ -7308,7 +7186,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-10T01:10:58+00:00",
-        "last_seen": "2026-11-10T19:31:17+00:00"
+        "last_seen": "2026-11-10T19:41:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20279076",
@@ -7398,7 +7276,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-09T20:32:00+00:00",
-        "last_seen": "2026-11-10T19:31:17+00:00"
+        "last_seen": "2026-11-10T19:41:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20233605",
@@ -7413,7 +7291,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-09T20:01:19+00:00",
-        "last_seen": "2026-11-10T19:31:17+00:00"
+        "last_seen": "2026-11-10T19:41:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20249418",
@@ -7428,7 +7306,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-09T19:21:08+00:00",
-        "last_seen": "2026-11-10T19:31:17+00:00"
+        "last_seen": "2026-11-10T19:41:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20267616",
@@ -7578,7 +7456,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 0% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-09T06:41:03+00:00",
-        "last_seen": "2026-11-10T19:31:17+00:00"
+        "last_seen": "2026-11-10T19:41:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20276850",
@@ -7698,7 +7576,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 52% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-09T00:21:41+00:00",
-        "last_seen": "2026-11-10T19:31:17+00:00"
+        "last_seen": "2026-11-10T19:41:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20275887",
@@ -7743,7 +7621,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 52% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-08T22:01:17+00:00",
-        "last_seen": "2026-11-10T19:31:17+00:00"
+        "last_seen": "2026-11-10T19:41:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20275686",
@@ -7773,7 +7651,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 48% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-08T21:41:06+00:00",
-        "last_seen": "2026-11-10T19:31:17+00:00"
+        "last_seen": "2026-11-10T19:41:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20273727",
