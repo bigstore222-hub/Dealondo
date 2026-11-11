@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T19:11:06.102797+00:00",
-  "count": 117,
+  "generated_at": "2026-11-11T19:11:45.037735+00:00",
+  "count": 118,
   "deals": [
     {
       "source": "6pm.com",
@@ -561,7 +561,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-07T09:21:12.154265+00:00",
-      "last_seen": "2026-11-11T18:31:57.039966+00:00",
+      "last_seen": "2026-11-11T19:11:43.653854+00:00",
       "posted_at": "",
       "signals": {},
       "id": "72c899ba30",
@@ -1339,6 +1339,74 @@
       ]
     },
     {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/steve-madden-rivena/9199503",
+      "title": "Rivena Leather Thong Sandal",
+      "brand": "Steve Madden Rivena",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/1ecaa5a3-9c60-41f3-8328-ff02bba15521.jpeg?h=368&w=240&dpr=2",
+      "price_current": 30.91,
+      "price_list": 109.95,
+      "price_baseline": 109.95,
+      "price_alltime_low": 30.91,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 41472,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/steve-madden-rivena/9199503",
+      "discount_pct": 71.9,
+      "score": 81,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-08T17:01:27.276958+00:00",
+      "last_seen": "2026-11-11T19:11:43.653854+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "50f5f904f8",
+      "history": [
+        [
+          "2026-11-08",
+          30.91
+        ],
+        [
+          "2026-11-09",
+          30.91
+        ],
+        [
+          "2026-11-10",
+          30.91
+        ],
+        [
+          "2026-11-11",
+          30.91
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20084739",
@@ -1403,74 +1471,6 @@
         [
           "2026-11-11",
           10.0
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/steve-madden-rivena/9199503",
-      "title": "Rivena Leather Thong Sandal",
-      "brand": "Steve Madden Rivena",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/1ecaa5a3-9c60-41f3-8328-ff02bba15521.jpeg?h=368&w=240&dpr=2",
-      "price_current": 30.91,
-      "price_list": 109.95,
-      "price_baseline": 109.95,
-      "price_alltime_low": 30.91,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 41472,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/steve-madden-rivena/9199503",
-      "discount_pct": 71.9,
-      "score": 81,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-08T17:01:27.276958+00:00",
-      "last_seen": "2026-11-11T18:31:57.039966+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "50f5f904f8",
-      "history": [
-        [
-          "2026-11-08",
-          30.91
-        ],
-        [
-          "2026-11-09",
-          30.91
-        ],
-        [
-          "2026-11-10",
-          30.91
-        ],
-        [
-          "2026-11-11",
-          30.91
         ]
       ]
     },
@@ -3150,7 +3150,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-07T09:21:12.154265+00:00",
-      "last_seen": "2026-11-11T18:31:57.039966+00:00",
+      "last_seen": "2026-11-11T19:11:43.653854+00:00",
       "posted_at": "",
       "signals": {},
       "id": "4b12e64898",
@@ -3813,7 +3813,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-10T11:31:18.678053+00:00",
-      "last_seen": "2026-11-11T18:31:57.039966+00:00",
+      "last_seen": "2026-11-11T19:11:43.653854+00:00",
       "posted_at": "",
       "signals": {},
       "id": "1d52ee35ae",
@@ -3874,7 +3874,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-10T12:11:25.149612+00:00",
-      "last_seen": "2026-11-11T18:31:57.039966+00:00",
+      "last_seen": "2026-11-11T19:11:43.653854+00:00",
       "posted_at": "",
       "signals": {},
       "id": "3ed395dfc5",
@@ -5114,7 +5114,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-08T19:38:28.612919+00:00",
-      "last_seen": "2026-11-11T18:31:57.039966+00:00",
+      "last_seen": "2026-11-11T19:11:43.653854+00:00",
       "posted_at": "",
       "signals": {},
       "id": "c769b4fa98",
@@ -5319,6 +5319,64 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
+      "url": "https://www.dealnews.com/Kenneth-Cole-Reaction-Diamond-Tower-Hardside-Expandable-2-Piece-Spinner-Luggage-Set-for-62-free-shipping/22380419.html?iref=rss",
+      "title": "Kenneth Cole Reaction Diamond Tower Hardside Expandable 2-Piece Spinner Luggage Set for $62 + free shipping",
+      "brand": "Kenneth Cole",
+      "category": "premium_fashion",
+      "image": "https://d.dlnws.com/64599/1794421808-91fm9lssgel-ac_sl1500.jpg?h=250&w=218",
+      "price_current": 62.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 83185,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Kenneth-Cole-Reaction-Diamond-Tower-Hardside-Expandable-2-Piece-Spinner-Luggage-Set-for-62-free-shipping/22380419.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-11T19:11:24.231632+00:00",
+      "last_seen": "2026-11-11T19:11:43.653854+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "ea5cb90f0c",
+      "history": [
+        [
+          "2026-11-11",
+          62.0
+        ]
+      ]
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
       "url": "https://www.dealnews.com/products/Bulova/Bulova-Mens-Misc-Sport-Chronograph-Quartz-43-mm-Watch/556985.html?iref=rss",
       "title": "Bulova Men's Misc Sport Chronograph Quartz 43mm Watch for $170 + free shipping",
       "brand": "Bulova",
@@ -5363,7 +5421,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-11T18:31:37.089184+00:00",
-      "last_seen": "2026-11-11T18:31:57.039966+00:00",
+      "last_seen": "2026-11-11T19:11:43.653854+00:00",
       "posted_at": "",
       "signals": {},
       "id": "90281e886c",
@@ -5373,6 +5431,59 @@
           170.0
         ]
       ]
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Carhartt-Mens-Outlet-Deals-at-eBay-Up-to-60-off-extra-20-off-free-shipping/22379876.html?iref=rss",
+      "title": "Carhartt Men's Outlet Deals at eBay: Up to 60% off + extra 20% off + free shipping",
+      "brand": "Carhartt",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1794387809-product-trimmed.jpg?h=250&w=164",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Carhartt-Mens-Outlet-Deals-at-eBay-Up-to-60-off-extra-20-off-free-shipping/22379876.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-11T19:11:23.877673+00:00",
+      "last_seen": "2026-11-11T19:11:43.653854+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "59cb31c000",
+      "history": []
     },
     {
       "source": "dealnews",
@@ -5425,59 +5536,6 @@
       "posted_at": "",
       "signals": {},
       "id": "4ed02e52fa",
-      "history": []
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Carhartt-Mens-Outlet-Deals-at-eBay-Up-to-60-off-extra-20-off-free-shipping/22379876.html?iref=rss",
-      "title": "Carhartt Men's Outlet Deals at eBay: Up to 60% off + extra 20% off + free shipping",
-      "brand": "Carhartt",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1794387809-product-trimmed.jpg?h=250&w=164",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Carhartt-Mens-Outlet-Deals-at-eBay-Up-to-60-off-extra-20-off-free-shipping/22379876.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-11T18:31:36.824972+00:00",
-      "last_seen": "2026-11-11T18:31:57.039966+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "59cb31c000",
       "history": []
     },
     {
@@ -7529,12 +7587,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-11T19:10:34+00:00",
-      "T2": "2026-11-11T18:31:20+00:00",
+      "T2": "2026-11-11T19:11:07+00:00",
       "T3": "2026-11-11T18:01:23+00:00",
       "T4": "2026-11-11T19:01:23+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       1,
       1,
@@ -7563,14 +7620,15 @@
       10,
       10,
       3,
-      6
+      6,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-11T19:11:05+00:00",
+      "at": "2026-11-11T19:11:43+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -7579,7 +7637,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-11T19:11:05+00:00"
+      "at": "2026-11-11T19:11:43+00:00"
     }
   },
   "email_monitor": {
