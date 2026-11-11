@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T01:11:00.010116+00:00",
-  "count": 109,
+  "generated_at": "2026-11-11T01:11:48.248264+00:00",
+  "count": 112,
   "deals": [
     {
       "source": "6pm.com",
@@ -388,7 +388,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 19647,
+      "krw_effective": 19602,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -411,7 +411,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-07T09:21:12.154265+00:00",
-      "last_seen": "2026-11-11T00:37:39.977844+00:00",
+      "last_seen": "2026-11-11T01:11:44.644593+00:00",
       "posted_at": "",
       "signals": {},
       "id": "72c899ba30",
@@ -1994,6 +1994,74 @@
       ]
     },
     {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/vamvo-vf320-b-projector/845970.htm",
+      "title": "Vamvo Native 1080P 2000 ANSI Lumens WiFi Bluetooth Mini Projector",
+      "brand": "",
+      "category": "electronics",
+      "image": "https://d16f00g4zitf8i.cloudfront.net/images/vamvo-vf320-b-projector.jpg",
+      "price_current": 49.99,
+      "price_list": 299.99,
+      "price_baseline": null,
+      "price_alltime_low": 49.99,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 67071,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.dealsofamerica.com/vamvo-vf320-b-projector/845970.htm",
+      "discount_pct": 83.3,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": 25,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-07T15:11:12.593729+00:00",
+      "last_seen": "2026-11-11T01:11:44.644593+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "3f39b45543",
+      "history": [
+        [
+          "2026-11-07",
+          49.99
+        ],
+        [
+          "2026-11-09",
+          49.99
+        ],
+        [
+          "2026-11-10",
+          49.99
+        ],
+        [
+          "2026-11-11",
+          49.99
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20276178",
@@ -2358,78 +2426,6 @@
         [
           "2026-11-11",
           10.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20286126",
-      "title": "10-Oz Jet-Puffed Mini Bite-Sized Marshmallows $0.85 w/ S&S",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/1/7/1/5/2/7/300x300/22288068.thumb",
-      "price_current": 0.85,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 19,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 1140,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20286126",
-      "discount_pct": null,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 19표/95분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-10T20:01:04.142183+00:00",
-      "last_seen": "2026-11-11T01:10:59.975946+00:00",
-      "posted_at": "2026-11-10T23:35:49+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_hot_origin": true,
-        "sd_age_min": 95,
-        "sd_votes": 19,
-        "sd_velocity": 12.0,
-        "sd_fp_min": 15
-      },
-      "id": "a79e955fd8",
-      "history": [
-        [
-          "2026-11-10",
-          0.75
-        ],
-        [
-          "2026-11-11",
-          0.85
         ]
       ]
     },
@@ -3310,7 +3306,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 33257,
+      "krw_effective": 33180,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -3333,7 +3329,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-07T09:21:12.154265+00:00",
-      "last_seen": "2026-11-11T00:37:39.977844+00:00",
+      "last_seen": "2026-11-11T01:11:44.644593+00:00",
       "posted_at": "",
       "signals": {},
       "id": "4b12e64898",
@@ -3357,6 +3353,90 @@
         [
           "2026-11-11",
           24.73
+        ]
+      ]
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10058100",
+      "title": "Dri-FIT Bold Moves Woven Shorts (Toddler)",
+      "brand": "Nike",
+      "category": "sports_outdoor",
+      "image": "https://m.media-amazon.com/images/I/71JDAA8nlLL._AC_SR255,340_.jpg",
+      "price_current": 9.6,
+      "price_list": 32.0,
+      "price_baseline": 32.0,
+      "price_alltime_low": 9.6,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 12880,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10058100",
+      "discount_pct": 70.0,
+      "score": 78,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 25,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-04T17:01:47.041445+00:00",
+      "last_seen": "2026-11-11T01:11:44.644593+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "7caab699c3",
+      "history": [
+        [
+          "2026-11-04",
+          9.6
+        ],
+        [
+          "2026-11-05",
+          9.6
+        ],
+        [
+          "2026-11-06",
+          9.6
+        ],
+        [
+          "2026-11-07",
+          9.6
+        ],
+        [
+          "2026-11-08",
+          9.6
+        ],
+        [
+          "2026-11-09",
+          9.6
+        ],
+        [
+          "2026-11-10",
+          9.6
+        ],
+        [
+          "2026-11-11",
+          9.6
         ]
       ]
     },
@@ -3914,6 +3994,63 @@
     {
       "source": "nordstromrack.com",
       "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/marc-jacobs-daisy-sequin-denim-shoulder-bag/8959092",
+      "title": "Daisy Sequin Denim Shoulder Bag",
+      "brand": "Marc Jacobs",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/e0d9ef81-aff7-4359-b1d8-aebb75c35551.jpeg?h=368&w=240&dpr=2",
+      "price_current": 97.48,
+      "price_list": 428.0,
+      "price_baseline": 428.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 130788,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.nordstromrack.com/s/marc-jacobs-daisy-sequin-denim-shoulder-bag/8959092",
+      "discount_pct": 77.2,
+      "score": 71,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-11T01:11:23.028327+00:00",
+      "last_seen": "2026-11-11T01:11:44.644593+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "9b47f7dd64",
+      "history": [
+        [
+          "2026-11-11",
+          97.48
+        ]
+      ]
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/ugg-classic-ultra-mini-new-heights-platform-boot-women/7837762",
       "title": "Classic Ultra Mini New Heights Platform Boot",
       "brand": "Ugg",
@@ -3933,7 +4070,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 85206,
+      "krw_effective": 85010,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -3957,7 +4094,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-10T11:31:18.678053+00:00",
-      "last_seen": "2026-11-11T00:37:39.977844+00:00",
+      "last_seen": "2026-11-11T01:11:44.644593+00:00",
       "posted_at": "",
       "signals": {},
       "id": "1d52ee35ae",
@@ -3994,7 +4131,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 50416,
+      "krw_effective": 50300,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -4018,7 +4155,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-10T12:11:25.149612+00:00",
-      "last_seen": "2026-11-11T00:37:39.977844+00:00",
+      "last_seen": "2026-11-11T01:11:44.644593+00:00",
       "posted_at": "",
       "signals": {},
       "id": "3ed395dfc5",
@@ -4749,7 +4886,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 41567,
+      "krw_effective": 41472,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -4773,7 +4910,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-08T17:01:27.276958+00:00",
-      "last_seen": "2026-11-11T00:37:39.977844+00:00",
+      "last_seen": "2026-11-11T01:11:44.644593+00:00",
       "posted_at": "",
       "signals": {},
       "id": "50f5f904f8",
@@ -5059,7 +5196,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 20158,
+      "krw_effective": 20112,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -5083,7 +5220,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-08T19:38:28.612919+00:00",
-      "last_seen": "2026-11-11T00:37:39.977844+00:00",
+      "last_seen": "2026-11-11T01:11:44.644593+00:00",
       "posted_at": "",
       "signals": {},
       "id": "c769b4fa98",
@@ -5174,6 +5311,64 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
+      "url": "https://www.dealnews.com/Seiko-Mens-Solar-Essentials-Leather-Strap-Watch-for-188-free-shipping/22376544.html?iref=rss",
+      "title": "Seiko Men's Solar Essentials Leather Strap Watch for $188 + free shipping",
+      "brand": "Seiko",
+      "category": "watch_misc",
+      "image": "https://d.dlnws.com/64599/1794357508-14383849_fpx.jpeg?h=250&w=205",
+      "price_current": 188.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 252238,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Seiko-Mens-Solar-Essentials-Leather-Strap-Watch-for-188-free-shipping/22376544.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 10,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-11T01:11:23.028327+00:00",
+      "last_seen": "2026-11-11T01:11:44.644593+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "cbdccd4f77",
+      "history": [
+        [
+          "2026-11-11",
+          188.0
+        ]
+      ]
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
       "url": "https://www.dealnews.com/Dr-Martens-Early-Black-Friday-Sale-Up-to-76-off-Extra-20-off-free-shipping-w-50/22376486.html?iref=rss",
       "title": "Dr. Martens Early Black Friday Sale: Up to 76% off + Extra 20% off + free shipping w/ $50",
       "brand": "Dr. Martens",
@@ -5217,8 +5412,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-11T00:37:18.872711+00:00",
-      "last_seen": "2026-11-11T00:37:39.977844+00:00",
+      "detected_at": "2026-11-11T01:11:22.591292+00:00",
+      "last_seen": "2026-11-11T01:11:44.644593+00:00",
       "posted_at": "",
       "signals": {},
       "id": "443d37a329",
@@ -5246,7 +5441,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 176490,
+      "krw_effective": 176084,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -5271,7 +5466,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-10T18:11:18.328814+00:00",
-      "last_seen": "2026-11-11T00:37:39.977844+00:00",
+      "last_seen": "2026-11-11T01:11:44.644593+00:00",
       "posted_at": "",
       "signals": {},
       "id": "c6a0395f4d",
@@ -7128,12 +7323,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-11T01:10:29+00:00",
-      "T2": "2026-11-11T00:36:59+00:00",
+      "T2": "2026-11-11T01:11:01+00:00",
       "T3": "2026-11-11T00:51:06+00:00",
       "T4": "2026-11-11T00:31:12+00:00"
     },
     "recent_gaps_min": [
-      11,
       10,
       1,
       9,
@@ -7162,14 +7356,15 @@
       10,
       1,
       9,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-11T01:10:59+00:00",
+      "at": "2026-11-11T01:11:44+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -7178,7 +7373,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-11T01:10:59+00:00"
+      "at": "2026-11-11T01:11:44+00:00"
     }
   },
   "email_monitor": {
