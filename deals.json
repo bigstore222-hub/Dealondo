@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T09:11:37.740570+00:00",
+  "generated_at": "2026-11-11T09:21:07.757151+00:00",
   "count": 111,
   "deals": [
     {
@@ -339,23 +339,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 23표/10분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 23표/21분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-11T02:30:42.718850+00:00",
-      "last_seen": "2026-11-11T09:10:59.689076+00:00",
+      "last_seen": "2026-11-11T09:21:07.736347+00:00",
       "posted_at": "2026-11-11T09:00:10+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 10,
+        "sd_age_min": 21,
         "sd_votes": 23,
-        "sd_velocity": 132.1,
+        "sd_velocity": 67.0,
         "sd_fp_min": 10
       },
       "id": "eeabb58a19",
@@ -363,78 +363,6 @@
         [
           "2026-11-11",
           10.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20286423",
-      "title": "20oz. Contigo SnapSeal Stainless Steel Water Bottle (Licorice Bronze) $13.45",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/8/6/6/3/0/300x300/22295667.thumb",
-      "price_current": 13.45,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 29,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 18046,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20286423",
-      "discount_pct": null,
-      "score": 92,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 29표/54분 → 하한 86",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-10T21:00:59.110441+00:00",
-      "last_seen": "2026-11-11T09:10:59.689076+00:00",
-      "posted_at": "2026-11-11T08:16:09+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_hot_origin": true,
-        "sd_age_min": 54,
-        "sd_votes": 29,
-        "sd_velocity": 31.9,
-        "sd_fp_min": 15
-      },
-      "id": "6fab17ce36",
-      "history": [
-        [
-          "2026-11-10",
-          13.43
-        ],
-        [
-          "2026-11-11",
-          13.45
         ]
       ]
     },
@@ -2099,6 +2027,78 @@
         [
           "2026-11-09",
           39.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20286423",
+      "title": "20oz. Contigo SnapSeal Stainless Steel Water Bottle (Licorice Bronze) $13.45",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/8/6/6/3/0/300x300/22295667.thumb",
+      "price_current": 13.45,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 29,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 18046,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20286423",
+      "discount_pct": null,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 29표/65분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-10T21:00:59.110441+00:00",
+      "last_seen": "2026-11-11T09:21:07.736347+00:00",
+      "posted_at": "2026-11-11T08:16:09+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_hot_origin": true,
+        "sd_age_min": 65,
+        "sd_votes": 29,
+        "sd_velocity": 26.9,
+        "sd_fp_min": 15
+      },
+      "id": "6fab17ce36",
+      "history": [
+        [
+          "2026-11-10",
+          13.43
+        ],
+        [
+          "2026-11-11",
+          13.45
         ]
       ]
     },
@@ -4808,7 +4808,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-11T04:10:37.316407+00:00",
-      "last_seen": "2026-11-11T09:10:59.689076+00:00",
+      "last_seen": "2026-11-11T09:21:07.736347+00:00",
       "posted_at": "",
       "signals": {},
       "id": "c574bb9af2",
@@ -7287,13 +7287,12 @@
   "fx_usd_krw": 1341.7,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-11T09:10:28+00:00",
+      "T1": "2026-11-11T09:20:27+00:00",
       "T2": "2026-11-11T09:11:01+00:00",
       "T3": "2026-11-11T07:14:20+00:00",
       "T4": "2026-11-11T06:41:02+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       10,
@@ -7322,14 +7321,15 @@
       10,
       10,
       10,
-      1
+      1,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-11T09:11:36+00:00",
+      "at": "2026-11-11T09:21:07+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -7338,13 +7338,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-11T09:11:36+00:00"
+      "at": "2026-11-11T09:21:07+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-11T09:10:34+00:00",
+        "at": "2026-11-11T09:20:43+00:00",
         "state": "정상",
         "mails": 12,
         "deals": 12
@@ -7370,7 +7370,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-11T07:01:17+00:00",
-        "last_seen": "2026-11-11T09:10:59+00:00"
+        "last_seen": "2026-11-11T09:21:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20286714",
@@ -7385,7 +7385,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-11T05:21:03+00:00",
-        "last_seen": "2026-11-11T09:10:59+00:00"
+        "last_seen": "2026-11-11T09:21:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20283852",
@@ -7400,7 +7400,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-11T04:11:00+00:00",
-        "last_seen": "2026-11-11T09:10:59+00:00"
+        "last_seen": "2026-11-11T09:21:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20283336",
@@ -7415,7 +7415,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-11T03:51:07+00:00",
-        "last_seen": "2026-11-11T09:10:59+00:00"
+        "last_seen": "2026-11-11T09:21:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20283387",
@@ -7430,7 +7430,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-11T03:01:16+00:00",
-        "last_seen": "2026-11-11T09:10:59+00:00"
+        "last_seen": "2026-11-11T09:21:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20286780",
@@ -7445,7 +7445,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-11-11T01:31:06+00:00",
-        "last_seen": "2026-11-11T09:10:59+00:00"
+        "last_seen": "2026-11-11T09:21:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20286444",
@@ -7520,7 +7520,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-10T20:41:02+00:00",
-        "last_seen": "2026-11-11T09:10:59+00:00"
+        "last_seen": "2026-11-11T09:21:07+00:00"
       },
       {
         "url": "https://click.emails.underarmour.com/",
@@ -7670,7 +7670,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-10T07:11:08+00:00",
-        "last_seen": "2026-11-11T09:10:59+00:00"
+        "last_seen": "2026-11-11T09:21:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20278410",
@@ -7700,7 +7700,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-10T01:41:05+00:00",
-        "last_seen": "2026-11-11T09:10:59+00:00"
+        "last_seen": "2026-11-11T09:21:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20277390",
@@ -7820,7 +7820,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-09T20:32:00+00:00",
-        "last_seen": "2026-11-11T09:10:59+00:00"
+        "last_seen": "2026-11-11T09:21:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20233605",
@@ -7835,7 +7835,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-09T20:01:19+00:00",
-        "last_seen": "2026-11-11T09:10:59+00:00"
+        "last_seen": "2026-11-11T09:21:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20249418",
@@ -7850,7 +7850,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-09T19:21:08+00:00",
-        "last_seen": "2026-11-11T09:10:59+00:00"
+        "last_seen": "2026-11-11T09:21:07+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20267616",
