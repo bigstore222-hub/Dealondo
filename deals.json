@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T19:11:45.037735+00:00",
+  "generated_at": "2026-11-11T19:21:18.912073+00:00",
   "count": 118,
   "deals": [
     {
@@ -339,23 +339,23 @@
         "bonus": 0,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 62표/53분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 62표/63분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-11T05:30:49.109438+00:00",
-      "last_seen": "2026-11-11T19:11:06.064475+00:00",
+      "last_seen": "2026-11-11T19:21:18.880535+00:00",
       "posted_at": "2026-11-11T18:18:02+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 53,
+        "sd_age_min": 63,
         "sd_votes": 62,
-        "sd_velocity": 70.5,
+        "sd_velocity": 59.2,
         "sd_fp_min": 13
       },
       "id": "db0fa19dcd",
@@ -1339,6 +1339,74 @@
       ]
     },
     {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20084739",
+      "title": "G Gradual Men's Quick Dry Athletic Shorts w/ Zipper Pockets (Various) $10",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/3/6/9/5/2/8/300x300/22302909.thumb",
+      "price_current": 10.0,
+      "price_list": 20.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "DOJC551V",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 209,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 13417,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20084739",
+      "discount_pct": 50.0,
+      "score": 81,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 DOJC551V → 하한 75",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-11T17:30:56.371217+00:00",
+      "last_seen": "2026-11-11T19:21:18.880535+00:00",
+      "posted_at": "2026-11-11T16:43:28+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_hot_origin": false,
+        "sd_age_min": 157,
+        "sd_votes": 209,
+        "sd_velocity": 79.7,
+        "sd_fp_min": 47
+      },
+      "id": "216141a8e7",
+      "history": [
+        [
+          "2026-11-11",
+          10.0
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/steve-madden-rivena/9199503",
@@ -1403,74 +1471,6 @@
         [
           "2026-11-11",
           30.91
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20084739",
-      "title": "G Gradual Men's Quick Dry Athletic Shorts w/ Zipper Pockets (Various) $10",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/3/6/9/5/2/8/300x300/22302909.thumb",
-      "price_current": 10.0,
-      "price_list": 20.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "DOJC551V",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 209,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 13417,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20084739",
-      "discount_pct": 50.0,
-      "score": 81,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 DOJC551V → 하한 75",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-11T17:30:56.371217+00:00",
-      "last_seen": "2026-11-11T19:11:06.064475+00:00",
-      "posted_at": "2026-11-11T16:43:28+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_hot_origin": false,
-        "sd_age_min": 147,
-        "sd_votes": 209,
-        "sd_velocity": 85.1,
-        "sd_fp_min": 47
-      },
-      "id": "216141a8e7",
-      "history": [
-        [
-          "2026-11-11",
-          10.0
         ]
       ]
     },
@@ -2095,23 +2095,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 28표/66분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 28표/76분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-09T21:40:50.258286+00:00",
-      "last_seen": "2026-11-11T19:11:06.064475+00:00",
+      "last_seen": "2026-11-11T19:21:18.880535+00:00",
       "posted_at": "2026-11-11T18:05:09+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 66,
+        "sd_age_min": 76,
         "sd_votes": 28,
-        "sd_velocity": 25.6,
+        "sd_velocity": 22.2,
         "sd_fp_min": 26
       },
       "id": "e67d00fb29",
@@ -2123,74 +2123,6 @@
         [
           "2026-11-11",
           520.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20287380",
-      "title": "Fisher-Price Little People Load & Roll Hauler Playset w/ Car & 2 Figures $9",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/3/5/8/6/2/3/300x300/22291380.thumb",
-      "price_current": 9.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 23,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 12075,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20287380",
-      "discount_pct": null,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 23표/108분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-11T01:50:35.360272+00:00",
-      "last_seen": "2026-11-11T19:11:06.064475+00:00",
-      "posted_at": "2026-11-11T17:23:01+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_hot_origin": true,
-        "sd_age_min": 108,
-        "sd_votes": 23,
-        "sd_velocity": 12.8,
-        "sd_fp_min": 68
-      },
-      "id": "6df155af33",
-      "history": [
-        [
-          "2026-11-11",
-          9.0
         ]
       ]
     },
@@ -2235,23 +2167,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 38표/116분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 38표/126분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-11T06:20:43.757881+00:00",
-      "last_seen": "2026-11-11T19:11:06.064475+00:00",
+      "last_seen": "2026-11-11T19:21:18.880535+00:00",
       "posted_at": "2026-11-11T17:14:46+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 116,
+        "sd_age_min": 126,
         "sd_votes": 38,
-        "sd_velocity": 19.7,
+        "sd_velocity": 18.1,
         "sd_fp_min": 16
       },
       "id": "9300c476d5",
@@ -2259,6 +2191,78 @@
         [
           "2026-11-11",
           5.8
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20282748",
+      "title": "Milwaukee M18 18V Brushless 7-1/4\" Circular Saw w/ 2x 5.0 Ah Batteries & Saw Blade $209 + Free S/H",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/3/4/5/6/0/3/7/8/300x300/22279179.thumb",
+      "price_current": 209.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 30,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 333132,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20282748",
+      "discount_pct": null,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 30표/141분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-10T05:50:40.679550+00:00",
+      "last_seen": "2026-11-11T19:21:18.880535+00:00",
+      "posted_at": "2026-11-11T16:59:43+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_hot_origin": true,
+        "sd_age_min": 141,
+        "sd_votes": 30,
+        "sd_velocity": 12.7,
+        "sd_fp_min": 31
+      },
+      "id": "a87d702231",
+      "history": [
+        [
+          "2026-11-10",
+          209.0
+        ],
+        [
+          "2026-11-11",
+          209.0
         ]
       ]
     },
@@ -4687,7 +4691,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-11T04:10:37.316407+00:00",
-      "last_seen": "2026-11-11T19:11:06.064475+00:00",
+      "last_seen": "2026-11-11T19:21:18.880535+00:00",
       "posted_at": "",
       "signals": {},
       "id": "c574bb9af2",
@@ -7586,13 +7590,12 @@
   "fx_usd_krw": 1341.7,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-11T19:10:34+00:00",
+      "T1": "2026-11-11T19:20:29+00:00",
       "T2": "2026-11-11T19:11:07+00:00",
       "T3": "2026-11-11T18:01:23+00:00",
       "T4": "2026-11-11T19:01:23+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       1,
       9,
@@ -7621,14 +7624,15 @@
       10,
       3,
       6,
-      1
+      1,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-11T19:11:43+00:00",
+      "at": "2026-11-11T19:21:18+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -7637,13 +7641,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-11T19:11:43+00:00"
+      "at": "2026-11-11T19:21:18+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-11T19:10:46+00:00",
+        "at": "2026-11-11T19:20:52+00:00",
         "state": "정상",
         "mails": 18,
         "deals": 18
@@ -7699,7 +7703,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-11T17:31:15+00:00",
-        "last_seen": "2026-11-11T19:11:06+00:00"
+        "last_seen": "2026-11-11T19:21:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20284893",
@@ -7714,7 +7718,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-11T16:01:24+00:00",
-        "last_seen": "2026-11-11T19:11:06+00:00"
+        "last_seen": "2026-11-11T19:21:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20289810",
@@ -7729,7 +7733,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-11T13:51:06+00:00",
-        "last_seen": "2026-11-11T19:11:06+00:00"
+        "last_seen": "2026-11-11T19:21:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20289255",
@@ -7744,7 +7748,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-11T12:01:24+00:00",
-        "last_seen": "2026-11-11T19:11:06+00:00"
+        "last_seen": "2026-11-11T19:21:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20283117",
@@ -7759,7 +7763,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-11T11:11:01+00:00",
-        "last_seen": "2026-11-11T19:11:06+00:00"
+        "last_seen": "2026-11-11T19:21:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20279715",
@@ -7774,7 +7778,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-11T10:51:01+00:00",
-        "last_seen": "2026-11-11T19:11:06+00:00"
+        "last_seen": "2026-11-11T19:21:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20276772",
@@ -7789,7 +7793,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-11T07:01:17+00:00",
-        "last_seen": "2026-11-11T19:11:06+00:00"
+        "last_seen": "2026-11-11T19:21:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20286714",
@@ -7804,7 +7808,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-11T05:21:03+00:00",
-        "last_seen": "2026-11-11T19:11:06+00:00"
+        "last_seen": "2026-11-11T19:21:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20283852",
@@ -7819,7 +7823,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-11T04:11:00+00:00",
-        "last_seen": "2026-11-11T19:11:06+00:00"
+        "last_seen": "2026-11-11T19:21:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20283336",
@@ -7834,7 +7838,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-11T03:51:07+00:00",
-        "last_seen": "2026-11-11T19:11:06+00:00"
+        "last_seen": "2026-11-11T19:21:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20283387",
@@ -7849,7 +7853,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-11T03:01:16+00:00",
-        "last_seen": "2026-11-11T19:11:06+00:00"
+        "last_seen": "2026-11-11T19:21:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20286780",
@@ -7864,7 +7868,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-11-11T01:31:06+00:00",
-        "last_seen": "2026-11-11T19:11:06+00:00"
+        "last_seen": "2026-11-11T19:21:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20286444",
@@ -7939,7 +7943,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-10T20:41:02+00:00",
-        "last_seen": "2026-11-11T19:11:06+00:00"
+        "last_seen": "2026-11-11T19:21:18+00:00"
       },
       {
         "url": "https://click.emails.underarmour.com/",
@@ -8089,7 +8093,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-10T07:11:08+00:00",
-        "last_seen": "2026-11-11T19:11:06+00:00"
+        "last_seen": "2026-11-11T19:21:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20278410",
@@ -8119,7 +8123,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-10T01:41:05+00:00",
-        "last_seen": "2026-11-11T19:11:06+00:00"
+        "last_seen": "2026-11-11T19:21:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20277390",
@@ -8239,7 +8243,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-09T20:32:00+00:00",
-        "last_seen": "2026-11-11T19:11:06+00:00"
+        "last_seen": "2026-11-11T19:21:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20233605",
@@ -8254,7 +8258,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-09T20:01:19+00:00",
-        "last_seen": "2026-11-11T19:11:06+00:00"
+        "last_seen": "2026-11-11T19:21:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20249418",
@@ -8269,7 +8273,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 50% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-09T19:21:08+00:00",
-        "last_seen": "2026-11-11T19:11:06+00:00"
+        "last_seen": "2026-11-11T19:21:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20267616",
