@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T16:31:11.090362+00:00",
-  "count": 128,
+  "generated_at": "2026-11-12T16:31:47.233895+00:00",
+  "count": 130,
   "deals": [
     {
       "source": "6pm.com",
@@ -879,7 +879,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-04T08:31:24.162572+00:00",
-      "last_seen": "2026-11-12T15:51:46.882068+00:00",
+      "last_seen": "2026-11-12T16:31:46.109578+00:00",
       "posted_at": "",
       "signals": {},
       "id": "59c55d85fe",
@@ -943,7 +943,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-05T17:31:30.887183+00:00",
-      "last_seen": "2026-11-12T15:11:42.506791+00:00",
+      "last_seen": "2026-11-12T16:31:46.109578+00:00",
       "posted_at": "",
       "signals": {},
       "id": "d135b31a39",
@@ -3080,7 +3080,7 @@
       "title": "Dri-FIT Bold Moves Woven Shorts (Toddler)",
       "brand": "Nike",
       "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/71JDAA8nlLL._AC_SR255,340_.jpg",
+      "image": "https://m.media-amazon.com/images/I/710O3eX8HLL._AC_SR255,340_.jpg",
       "price_current": 9.6,
       "price_list": 32.0,
       "price_baseline": 32.0,
@@ -3118,7 +3118,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-04T17:01:47.041445+00:00",
-      "last_seen": "2026-11-12T12:43:13.504042+00:00",
+      "last_seen": "2026-11-12T16:31:46.109578+00:00",
       "posted_at": "",
       "signals": {},
       "id": "7caab699c3",
@@ -3822,7 +3822,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-12T08:11:16.085495+00:00",
-      "last_seen": "2026-11-12T15:51:46.882068+00:00",
+      "last_seen": "2026-11-12T16:31:46.109578+00:00",
       "posted_at": "",
       "signals": {},
       "id": "2694580dad",
@@ -3879,7 +3879,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-12T08:11:16.085495+00:00",
-      "last_seen": "2026-11-12T15:51:46.882068+00:00",
+      "last_seen": "2026-11-12T16:31:46.109578+00:00",
       "posted_at": "",
       "signals": {},
       "id": "922647361c",
@@ -5110,6 +5110,63 @@
       ]
     },
     {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/vince-camuto-zhury-jacquard-tote/8955764",
+      "title": "Zhury Jacquard Tote",
+      "brand": "Vince Camuto",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/547765d4-cb16-4894-aaae-ea2b4b1c5058.jpeg?h=368&w=240&dpr=2",
+      "price_current": 58.48,
+      "price_list": 158.0,
+      "price_baseline": 158.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 78165,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/vince-camuto-zhury-jacquard-tote/8955764",
+      "discount_pct": 63.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-12T08:11:16.085495+00:00",
+      "last_seen": "2026-11-12T16:31:46.109578+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "fa823bbb27",
+      "history": [
+        [
+          "2026-11-12",
+          58.48
+        ]
+      ]
+    },
+    {
       "source": "amazon.com",
       "source_tier": "T1",
       "url": "https://www.amazon.com/KRUPLH-Portable-Battery-Starter-Compressor/dp/B0HHRNP7T4",
@@ -5163,63 +5220,6 @@
         [
           "2026-11-12",
           65.98
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/vince-camuto-zhury-jacquard-tote/8955764",
-      "title": "Zhury Jacquard Tote",
-      "brand": "Vince Camuto",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/547765d4-cb16-4894-aaae-ea2b4b1c5058.jpeg?h=368&w=240&dpr=2",
-      "price_current": 58.48,
-      "price_list": 158.0,
-      "price_baseline": 158.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 78165,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/vince-camuto-zhury-jacquard-tote/8955764",
-      "discount_pct": 63.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-12T08:11:16.085495+00:00",
-      "last_seen": "2026-11-12T15:51:46.882068+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "fa823bbb27",
-      "history": [
-        [
-          "2026-11-12",
-          58.48
         ]
       ]
     },
@@ -5600,7 +5600,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-12T08:11:16.085495+00:00",
-      "last_seen": "2026-11-12T15:51:46.882068+00:00",
+      "last_seen": "2026-11-12T16:31:46.109578+00:00",
       "posted_at": "",
       "signals": {},
       "id": "d2665d4cb4",
@@ -5951,7 +5951,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-12T15:51:23.746709+00:00",
-      "last_seen": "2026-11-12T15:51:46.882068+00:00",
+      "last_seen": "2026-11-12T16:31:46.109578+00:00",
       "posted_at": "",
       "signals": {},
       "id": "4ccd691421",
@@ -5959,6 +5959,122 @@
         [
           "2026-11-12",
           64.0
+        ]
+      ]
+    },
+    {
+      "source": "techbargains:walmart",
+      "source_tier": "T2",
+      "url": "https://www.walmart.com/ip/Champion-Men-s-Graphic-Fleece-Joggers-Sweatpants-Standard-Unisex-Fit-Midweight-Fleece-Classic-Script-Logo-Sizes-S-4XL/20623217575",
+      "title": "Champion Men's Powerblend Graphic Fleece Sweatpants (Various Sizes) $25.30",
+      "brand": "Champion",
+      "category": "premium_fashion",
+      "image": "https://www.techbargains.com/imagery/deals/30251.1794499904.fit_lim.size_125x125.jpg",
+      "price_current": 25.3,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 33816,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.walmart.com/ip/Champion-Men-s-Graphic-Fleece-Joggers-Sweatpants-Standard-Unisex-Fit-Midweight-Fleece-Classic-Script-Logo-Sizes-S-4XL/20623217575",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-12T16:31:25.219462+00:00",
+      "last_seen": "2026-11-12T16:31:46.109578+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "6b6659bcdb",
+      "history": [
+        [
+          "2026-11-12",
+          25.3
+        ]
+      ]
+    },
+    {
+      "source": "techbargains:walmart",
+      "source_tier": "T2",
+      "url": "https://www.walmart.com/ip/seort/2447934300",
+      "title": "AstroAI 1750A 12000mAh 12V Jump Starter (Up to 7.5 Gas, 5L Diesel) w/ 150PSI Air Compressor $56.99",
+      "brand": "Diesel",
+      "category": "premium_fashion",
+      "image": "https://www.techbargains.com/imagery/deals/228295.1794499137.fit_lim.size_125x125.png",
+      "price_current": 56.99,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 76173,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.walmart.com/ip/seort/2447934300",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-12T16:31:25.219462+00:00",
+      "last_seen": "2026-11-12T16:31:46.109578+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "c605e911fe",
+      "history": [
+        [
+          "2026-11-12",
+          56.99
         ]
       ]
     },
@@ -8261,12 +8377,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-12T16:30:37+00:00",
-      "T2": "2026-11-12T15:51:08+00:00",
+      "T2": "2026-11-12T16:31:12+00:00",
       "T3": "2026-11-12T15:31:16+00:00",
       "T4": "2026-11-12T13:31:12+00:00"
     },
     "recent_gaps_min": [
-      11,
       10,
       10,
       1,
@@ -8295,14 +8410,15 @@
       10,
       10,
       10,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-12T16:31:10+00:00",
+      "at": "2026-11-12T16:31:45+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -8311,7 +8427,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-12T16:31:10+00:00"
+      "at": "2026-11-12T16:31:46+00:00"
     }
   },
   "email_monitor": {
@@ -9259,25 +9375,10 @@
         "reject_reason": "",
         "first_seen": "2026-11-09T17:21:19+00:00",
         "last_seen": "2026-11-10T00:51:03+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20277591",
-        "source": "slickdeals:amazon.com",
-        "title": "Transformers EarthSpark Optimus Prime Battle Trailer Playset w/ Action Figure for $11 at Amazon",
-        "price": 11.0,
-        "list_price": 26.22,
-        "discount_pct": 58.0,
-        "krw": 14975,
-        "kr_lowest": null,
-        "score": 37,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-11-09T16:31:12+00:00",
-        "last_seen": "2026-11-10T00:51:03+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 63,
+      "collected_72h": 62,
       "published_72h": 18
     }
   }
