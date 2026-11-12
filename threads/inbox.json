@@ -1,92 +1,5 @@
 {
  "drafts": {
-  "5c5655f2": {
-   "created": "2026-11-10T11:41:03+09:00",
-   "url": "https://www.6pm.com/product/10042074",
-   "deal": {
-    "source": "6pm.com",
-    "source_tier": "T3",
-    "url": "https://www.6pm.com/product/10042074",
-    "title": "Ultra Pro Firm, Artificial Ground Soccer Cleats (Little Kid/Big Kid)",
-    "brand": "PUMA",
-    "category": "sports_outdoor",
-    "image": "https://m.media-amazon.com/images/I/71Qxb232mbL._AC_SR255,340_.jpg",
-    "price_current": 23.0,
-    "price_list": 115.0,
-    "price_baseline": 115.0,
-    "price_alltime_low": 23.0,
-    "currency": "USD",
-    "coupon_code": "",
-    "coupon_stackable": false,
-    "off_season": false,
-    "free_gift": false,
-    "community_votes": null,
-    "rating": null,
-    "review_count": null,
-    "ships_to_kr": true,
-    "forwarding_ok": true,
-    "krw_effective": 31312,
-    "kr_lowest_price": null,
-    "stock_status": "in_stock",
-    "is_refurbished": false,
-    "expires_at": null,
-    "collection_method": "scrape",
-    "frontpage": false,
-    "code_kind": "",
-    "brand_tier": "known",
-    "buy_url": "https://www.6pm.com/product/10042074",
-    "discount_pct": 80.0,
-    "score": 88,
-    "score_breakdown": {
-     "discount_depth": 40,
-     "price_history": 25,
-     "category": 17,
-     "bonus": 0,
-     "brand": 6
-    },
-    "passed_hard_filter": true,
-    "reject_reason": "",
-    "urgency": "FLASH",
-    "detected_at": "2026-11-06T19:12:23.752724+00:00",
-    "last_seen": "2026-11-10T01:02:19.808576+00:00",
-    "posted_at": "",
-    "signals": {},
-    "id": "2b831164ce",
-    "history": [
-     [
-      "2026-11-06",
-      23.0
-     ],
-     [
-      "2026-11-07",
-      23.0
-     ],
-     [
-      "2026-11-08",
-      23.0
-     ],
-     [
-      "2026-11-09",
-      23.0
-     ],
-     [
-      "2026-11-10",
-      23.0
-     ]
-    ]
-   },
-   "seen": "2026-11-10T11:40:57.664096+09:00",
-   "text": "6pm에 푸마 축구화 80% 할인 떴어요.\n\n면세한도 $200 안이라 세금 걱정 없어요.\n환율 계산하면 약 3만 1천 원이에요.\n\n이 가격, 직구해볼 만할까요?",
-   "reply": "상품 링크: https://www.6pm.com/product/10042074\n블프까지 이런 딜을 골라서 계속 올려요.",
-   "notes": [],
-   "angle": "basic",
-   "already": false,
-   "img_ok": true,
-   "photo_msg": 3338,
-   "msg": 3339,
-   "status": "waiting",
-   "error": "RuntimeError: 카드 이미지 주소가 열리지 않음: https://raw.githubusercontent.com/bigstore222-hub/Dealondo/2c6bfa882ecb47d0a2fac1e326a537cb236be301/threads/deals/5c5655f2.png"
-  },
   "5bd02fa8": {
    "created": "2026-11-10T13:51:46+09:00",
    "url": "https://www.zappos.com/product/9785085",
@@ -1567,11 +1480,6 @@
   }
  },
  "done_updates": [
-  303762529,
-  303762530,
-  303762531,
-  303762532,
-  303762533,
   303762534,
   303762535,
   303762536,
@@ -1771,7 +1679,8 @@
   303762793,
   303762794,
   303762795,
-  303762796
+  303762796,
+  303762797
  ],
  "picks": {
   "2026-10-30-점심": "3ffe07d9",
@@ -1814,11 +1723,6 @@
   "6pm.com/product/10006826"
  ],
  "runs": [
-  {
-   "at": "2026-11-09T01:29:49+09:00",
-   "updates": 2,
-   "errors": []
-  },
   {
    "at": "2026-11-09T08:56:22+09:00",
    "updates": 7,
@@ -2012,6 +1916,11 @@
   {
    "at": "2026-11-12T11:49:32+09:00",
    "updates": 5,
+   "errors": []
+  },
+  {
+   "at": "2026-11-12T12:42:38+09:00",
+   "updates": 1,
    "errors": []
   }
  ]
