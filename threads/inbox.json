@@ -1,37 +1,5 @@
 {
  "drafts": {
-  "6b4aa23b": {
-   "created": "2026-11-10T10:12:05+09:00",
-   "url": "https://www.6pm.com/product/9105216",
-   "deal": {
-    "url": "https://www.6pm.com/product/9105216",
-    "source": "6pm.com",
-    "store_name": "6pm",
-    "title": "Alpargata Leather Wrap",
-    "brand": "TOMS",
-    "category": "etc",
-    "price_current": 14.0,
-    "price_list": 70.0,
-    "image": null,
-    "gender": null,
-    "buy_url": "https://www.6pm.com/product/9105216",
-    "discount_pct": 80,
-    "krw_effective": 18827,
-    "kr_lowest_price": null
-   },
-   "seen": "2026-11-10T10:08:06+09:00",
-   "text": "80% 할인해서 $14 (정가 $70), 탐스 Alpargata Leather Wrap.\n\n6pm 판매가예요.\n면세한도 $200 안이라 세금 걱정 없어요.\n환율 계산하면 약 1만 9천 원이에요.\n\n직구할 때 제일 먼저 보는 게 뭐예요?",
-   "reply": "상품 링크: https://www.6pm.com/product/9105216\n블프까지 이런 딜을 골라서 계속 올려요.",
-   "notes": [
-    "알림 메시지에 적힌 가격으로 썼어요. 지금 가격인지 확인하세요.",
-    "상품 사진을 찾지 못해 카드 한 장으로 올라가요."
-   ],
-   "angle": "practical",
-   "already": false,
-   "msg": 3334,
-   "status": "waiting",
-   "error": "RuntimeError: 카드 이미지 주소가 열리지 않음: https://raw.githubusercontent.com/bigstore222-hub/Dealondo/2c6bfa882ecb47d0a2fac1e326a537cb236be301/threads/deals/6b4aa23b.png"
-  },
   "5c5655f2": {
    "created": "2026-11-10T11:41:03+09:00",
    "url": "https://www.6pm.com/product/10042074",
@@ -1394,11 +1362,19 @@
    "msg": 3518,
    "status": "posted",
    "link": "https://www.threads.com/@deal_ondo/post/DfnxtnrjJec"
+  },
+  "489fd415": {
+   "created": "2026-11-12T11:01:10+09:00",
+   "url": "https://www.macys.com/shop/product/hunter-womens-short-faux-fur-lined-waxed-jacket?ID=22106929&tdp=cm_app~zMCOM-NAVAPP~xcm_zone~zHP_ZONE_L~xcm_choiceId~zcidMESSBR-e776af51-9009-407a-afb9-674d4c190670@HBB@Recommended%2Bfor%2Byou",
+   "hint": {
+    "at": 1794448780,
+    "title": "Hunter Womens Short Faux Fur Lined Waxed Jacket"
+   },
+   "status": "waiting_price",
+   "msg": 3523
   }
  },
  "done_updates": [
-  303762526,
-  303762527,
   303762528,
   303762529,
   303762530,
@@ -1598,7 +1574,8 @@
   303762787,
   303762788,
   303762789,
-  303762790
+  303762790,
+  303762791
  ],
  "picks": {
   "2026-10-30-점심": "3ffe07d9",
@@ -1639,11 +1616,6 @@
   "nordstromrack.com/s/marc-jacobs-bold-flash-crossbody-camera-bag/8323724"
  ],
  "runs": [
-  {
-   "at": "2026-11-08T22:19:48+09:00",
-   "updates": 1,
-   "errors": []
-  },
   {
    "at": "2026-11-09T00:49:47+09:00",
    "updates": 2,
@@ -1837,6 +1809,11 @@
   {
    "at": "2026-11-12T09:34:48+09:00",
    "updates": 2,
+   "errors": []
+  },
+  {
+   "at": "2026-11-12T11:09:59+09:00",
+   "updates": 1,
    "errors": []
   }
  ]
