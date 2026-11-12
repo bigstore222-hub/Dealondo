@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T08:11:36.927280+00:00",
-  "count": 132,
+  "generated_at": "2026-11-12T08:21:00.720198+00:00",
+  "count": 131,
   "deals": [
     {
       "source": "6pm.com",
@@ -346,23 +346,23 @@
         "category": 5,
         "bonus": 0,
         "brand": 0,
-        "slickdeals": "Hot Deals 폭발 18표/19분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 18표/29분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-09T07:01:51.471318+00:00",
-      "last_seen": "2026-11-12T08:11:00.355516+00:00",
+      "last_seen": "2026-11-12T08:21:00.699143+00:00",
       "posted_at": "2026-11-12T07:51:39+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 19,
+        "sd_age_min": 29,
         "sd_votes": 18,
-        "sd_velocity": 56.7,
+        "sd_velocity": 37.2,
         "sd_fp_min": 19
       },
       "id": "516834c370",
@@ -418,23 +418,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 32표/33분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 32표/43분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-10T22:50:44.320564+00:00",
-      "last_seen": "2026-11-12T08:11:00.355516+00:00",
+      "last_seen": "2026-11-12T08:21:00.699143+00:00",
       "posted_at": "2026-11-12T07:37:38+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 33,
+        "sd_age_min": 43,
         "sd_votes": 32,
-        "sd_velocity": 58.1,
+        "sd_velocity": 44.6,
         "sd_fp_min": 33
       },
       "id": "30ee26eec9",
@@ -2146,74 +2146,290 @@
       ]
     },
     {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10004549",
-      "title": "Westport",
-      "brand": "Steve Madden",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61XXW-33VjL._AC_SR255,340_.jpg",
-      "price_current": 39.0,
-      "price_list": 130.0,
-      "price_baseline": 130.0,
-      "price_alltime_low": 39.0,
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20288700",
+      "title": "adidas Men's Grand Court 2.0 Shoes (Core Black / Core Black / Cloud White) $20 + Free S&H",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://static.slickdealscdn.com/attachment/3/3/2/8/0/4/4/7/300x300/22294869.thumb",
+      "price_current": 20.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "SHOPBRANDS20",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 20,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 26732,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20288700",
+      "discount_pct": null,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 20표/57분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-11T07:20:42.693995+00:00",
+      "last_seen": "2026-11-12T08:21:00.699143+00:00",
+      "posted_at": "2026-11-12T07:23:40+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_hot_origin": true,
+        "sd_age_min": 57,
+        "sd_votes": 20,
+        "sd_velocity": 21.0,
+        "sd_fp_min": 47
+      },
+      "id": "7671b46264",
+      "history": [
+        [
+          "2026-11-11",
+          20.0
+        ],
+        [
+          "2026-11-12",
+          20.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20293137",
+      "title": "64-Oz Owala FreeSip Sway Stainless Steel Water Bottle (Marshmallow) $44 + Free S&H",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/5/1/4/8/2/1/3/300x300/22313331.thumb",
+      "price_current": 44.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
       "currency": "USD",
       "coupon_code": "",
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": null,
+      "community_votes": 23,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 52447,
+      "krw_effective": 58811,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
       "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
+      "collection_method": "rss",
+      "frontpage": true,
       "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10004549",
-      "discount_pct": 70.0,
-      "score": 81,
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20293137",
+      "discount_pct": null,
+      "score": 80,
       "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 5,
         "bonus": 0,
-        "brand": 6
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 23표/69분 → 하한 74",
+        "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-11-06T01:21:20.988295+00:00",
-      "last_seen": "2026-11-10T08:13:22.433426+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "4cc93b800b",
+      "detected_at": "2026-11-11T21:50:45.708090+00:00",
+      "last_seen": "2026-11-12T08:21:00.699143+00:00",
+      "posted_at": "2026-11-12T07:11:38+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_hot_origin": true,
+        "sd_age_min": 69,
+        "sd_votes": 23,
+        "sd_velocity": 20.0,
+        "sd_fp_min": 59
+      },
+      "id": "c17a2b231a",
       "history": [
         [
-          "2026-11-06",
-          39.0
+          "2026-11-11",
+          44.0
         ],
         [
-          "2026-11-07",
-          39.0
+          "2026-11-12",
+          44.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20292840",
+      "title": "ANBERNIC RG VITA 5.46\" IPS Retro Gaming Console w/ Hall Effect Joysticks $70.05 + Free S&H",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/2/5/1/6/8/8/6/300x300/22306884.thumb",
+      "price_current": 70.05,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "15USDEAL",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 35,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 93629,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20292840",
+      "discount_pct": null,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 35표/91분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-11T21:01:07.903545+00:00",
+      "last_seen": "2026-11-12T08:21:00.699143+00:00",
+      "posted_at": "2026-11-12T06:49:47+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_hot_origin": true,
+        "sd_age_min": 91,
+        "sd_votes": 35,
+        "sd_velocity": 23.1,
+        "sd_fp_min": 21
+      },
+      "id": "2f1b0b5889",
+      "history": [
+        [
+          "2026-11-11",
+          70.1
         ],
         [
-          "2026-11-08",
-          39.0
+          "2026-11-12",
+          70.05
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20291580",
+      "title": "adidas Men's Handball Spezial Sneakers (Pulse Aqua/Clear Pink/Gum) $36 + Free S&H on $49+",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://static.slickdealscdn.com/attachment/1/9/1/2/6/8/2/300x300/22303116.thumb",
+      "price_current": 49.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 35,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 65494,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20291580",
+      "discount_pct": null,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 35표/110분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-11T17:10:42.213396+00:00",
+      "last_seen": "2026-11-12T08:21:00.699143+00:00",
+      "posted_at": "2026-11-12T06:31:08+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_hot_origin": true,
+        "sd_age_min": 110,
+        "sd_votes": 35,
+        "sd_velocity": 19.2,
+        "sd_fp_min": 20
+      },
+      "id": "3d8eeae7dd",
+      "history": [
+        [
+          "2026-11-11",
+          49.0
         ],
         [
-          "2026-11-09",
-          39.0
-        ],
-        [
-          "2026-11-10",
-          39.0
+          "2026-11-12",
+          49.0
         ]
       ]
     },
@@ -2285,294 +2501,6 @@
         ]
       ],
       "variant_count": 2
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20288700",
-      "title": "adidas Men's Grand Court 2.0 Shoes (Core Black / Core Black / Cloud White) $20 + Free S&H",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://static.slickdealscdn.com/attachment/3/3/2/8/0/4/4/7/300x300/22294869.thumb",
-      "price_current": 20.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "SHOPBRANDS20",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 20,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 26732,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "public",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20288700",
-      "discount_pct": null,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 20표/47분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-11T07:20:42.693995+00:00",
-      "last_seen": "2026-11-12T08:11:00.355516+00:00",
-      "posted_at": "2026-11-12T07:23:40+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_hot_origin": true,
-        "sd_age_min": 47,
-        "sd_votes": 20,
-        "sd_velocity": 25.5,
-        "sd_fp_min": 47
-      },
-      "id": "7671b46264",
-      "history": [
-        [
-          "2026-11-11",
-          20.0
-        ],
-        [
-          "2026-11-12",
-          20.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20293137",
-      "title": "64-Oz Owala FreeSip Sway Stainless Steel Water Bottle (Marshmallow) $44 + Free S&H",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/5/1/4/8/2/1/3/300x300/22313331.thumb",
-      "price_current": 44.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 23,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 58811,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20293137",
-      "discount_pct": null,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 23표/59분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-11T21:50:45.708090+00:00",
-      "last_seen": "2026-11-12T08:11:00.355516+00:00",
-      "posted_at": "2026-11-12T07:11:38+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_hot_origin": true,
-        "sd_age_min": 59,
-        "sd_votes": 23,
-        "sd_velocity": 23.4,
-        "sd_fp_min": 59
-      },
-      "id": "c17a2b231a",
-      "history": [
-        [
-          "2026-11-11",
-          44.0
-        ],
-        [
-          "2026-11-12",
-          44.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20292840",
-      "title": "ANBERNIC RG VITA 5.46\" IPS Retro Gaming Console w/ Hall Effect Joysticks $70.05 + Free S&H",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/2/5/1/6/8/8/6/300x300/22306884.thumb",
-      "price_current": 70.05,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "15USDEAL",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 35,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 93629,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20292840",
-      "discount_pct": null,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 35표/81분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-11T21:01:07.903545+00:00",
-      "last_seen": "2026-11-12T08:11:00.355516+00:00",
-      "posted_at": "2026-11-12T06:49:47+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_hot_origin": true,
-        "sd_age_min": 81,
-        "sd_votes": 35,
-        "sd_velocity": 26.0,
-        "sd_fp_min": 21
-      },
-      "id": "2f1b0b5889",
-      "history": [
-        [
-          "2026-11-11",
-          70.1
-        ],
-        [
-          "2026-11-12",
-          70.05
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20291580",
-      "title": "adidas Men's Handball Spezial Sneakers (Pulse Aqua/Clear Pink/Gum) $36 + Free S&H on $49+",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://static.slickdealscdn.com/attachment/1/9/1/2/6/8/2/300x300/22303116.thumb",
-      "price_current": 49.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 35,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 65494,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20291580",
-      "discount_pct": null,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 35표/100분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-11T17:10:42.213396+00:00",
-      "last_seen": "2026-11-12T08:11:00.355516+00:00",
-      "posted_at": "2026-11-12T06:31:08+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_hot_origin": true,
-        "sd_age_min": 100,
-        "sd_votes": 35,
-        "sd_velocity": 21.1,
-        "sd_fp_min": 20
-      },
-      "id": "3d8eeae7dd",
-      "history": [
-        [
-          "2026-11-11",
-          49.0
-        ],
-        [
-          "2026-11-12",
-          49.0
-        ]
-      ]
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -5327,6 +5255,63 @@
       ]
     },
     {
+      "source": "amazon.com",
+      "source_tier": "T1",
+      "url": "https://www.amazon.com/KRUPLH-Portable-Battery-Starter-Compressor/dp/B0HHRNP7T4",
+      "title": "KRUPLH Portable Car Battery Jump Starter with Air Compressor - 9000A 150PSI | 12V 9L Gas/8L Diesel, Auto-Off Tire Inflat",
+      "brand": "Diesel",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/814tEi25iFL._AC_SR255,340_.jpg",
+      "price_current": 65.98,
+      "price_list": 219.99,
+      "price_baseline": 219.99,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 88189,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/KRUPLH-Portable-Battery-Starter-Compressor/dp/B0HHRNP7T4",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-12T08:01:00.807980+00:00",
+      "last_seen": "2026-11-12T08:21:00.699143+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "32c2a038d2",
+      "history": [
+        [
+          "2026-11-12",
+          65.98
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/vince-camuto-zhury-jacquard-tote/8955764",
@@ -5380,63 +5365,6 @@
         [
           "2026-11-12",
           58.48
-        ]
-      ]
-    },
-    {
-      "source": "amazon.com",
-      "source_tier": "T1",
-      "url": "https://www.amazon.com/KRUPLH-Portable-Battery-Starter-Compressor/dp/B0HHRNP7T4",
-      "title": "KRUPLH Portable Car Battery Jump Starter with Air Compressor - 9000A 150PSI | 12V 9L Gas/8L Diesel, Auto-Off Tire Inflat",
-      "brand": "Diesel",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/814tEi25iFL._AC_SR255,340_.jpg",
-      "price_current": 65.98,
-      "price_list": 219.99,
-      "price_baseline": 219.99,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 88189,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/KRUPLH-Portable-Battery-Starter-Compressor/dp/B0HHRNP7T4",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-12T08:01:00.807980+00:00",
-      "last_seen": "2026-11-12T08:11:00.355516+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "32c2a038d2",
-      "history": [
-        [
-          "2026-11-12",
-          65.98
         ]
       ]
     },
@@ -8512,13 +8440,12 @@
   "fx_usd_krw": 1336.6,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-12T08:10:32+00:00",
+      "T1": "2026-11-12T08:20:29+00:00",
       "T2": "2026-11-12T08:11:02+00:00",
       "T3": "2026-11-12T06:51:45+00:00",
       "T4": "2026-11-12T07:21:01+00:00"
     },
     "recent_gaps_min": [
-      1,
       9,
       1,
       9,
@@ -8547,14 +8474,15 @@
       10,
       10,
       10,
-      1
+      1,
+      9
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-12T08:11:34+00:00",
+      "at": "2026-11-12T08:21:00+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -8563,13 +8491,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-12T08:11:34+00:00"
+      "at": "2026-11-12T08:21:00+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-12T08:10:41+00:00",
+        "at": "2026-11-12T08:20:39+00:00",
         "state": "정상",
         "mails": 9,
         "deals": 9
@@ -8595,7 +8523,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 49% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-12T07:11:05+00:00",
-        "last_seen": "2026-11-12T08:11:01+00:00"
+        "last_seen": "2026-11-12T08:21:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20285388",
@@ -8610,7 +8538,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-12T06:31:10+00:00",
-        "last_seen": "2026-11-12T08:11:01+00:00"
+        "last_seen": "2026-11-12T08:21:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20282115",
@@ -8625,7 +8553,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-12T03:20:57+00:00",
-        "last_seen": "2026-11-12T08:11:01+00:00"
+        "last_seen": "2026-11-12T08:21:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20290845",
@@ -8640,7 +8568,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-12T02:51:13+00:00",
-        "last_seen": "2026-11-12T08:11:01+00:00"
+        "last_seen": "2026-11-12T08:21:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20260233",
@@ -8655,7 +8583,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-12T02:11:03+00:00",
-        "last_seen": "2026-11-12T08:11:01+00:00"
+        "last_seen": "2026-11-12T08:21:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20293014",
@@ -8670,7 +8598,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-12T00:21:17+00:00",
-        "last_seen": "2026-11-12T08:11:01+00:00"
+        "last_seen": "2026-11-12T08:21:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20282154",
@@ -8835,7 +8763,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-11T13:51:06+00:00",
-        "last_seen": "2026-11-12T08:11:01+00:00"
+        "last_seen": "2026-11-12T08:21:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20289255",
@@ -8850,7 +8778,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-11T12:01:24+00:00",
-        "last_seen": "2026-11-12T08:11:01+00:00"
+        "last_seen": "2026-11-12T08:21:00+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20283117",
@@ -9045,7 +8973,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-10T20:41:02+00:00",
-        "last_seen": "2026-11-12T08:11:01+00:00"
+        "last_seen": "2026-11-12T08:21:00+00:00"
       },
       {
         "url": "https://click.emails.underarmour.com/",
