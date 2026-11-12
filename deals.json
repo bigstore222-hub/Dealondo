@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T23:41:01.998991+00:00",
+  "generated_at": "2026-11-12T23:41:39.091929+00:00",
   "count": 129,
   "deals": [
     {
@@ -1063,7 +1063,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-04T08:31:24.162572+00:00",
-      "last_seen": "2026-11-12T23:02:02.163204+00:00",
+      "last_seen": "2026-11-12T23:41:37.869816+00:00",
       "posted_at": "",
       "signals": {},
       "id": "59c55d85fe",
@@ -3666,7 +3666,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-12T08:11:16.085495+00:00",
-      "last_seen": "2026-11-12T23:02:02.163204+00:00",
+      "last_seen": "2026-11-12T23:41:37.869816+00:00",
       "posted_at": "",
       "signals": {},
       "id": "2694580dad",
@@ -3723,7 +3723,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-12T08:11:16.085495+00:00",
-      "last_seen": "2026-11-12T23:02:02.163204+00:00",
+      "last_seen": "2026-11-12T23:41:37.869816+00:00",
       "posted_at": "",
       "signals": {},
       "id": "922647361c",
@@ -4897,6 +4897,63 @@
       ]
     },
     {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/vince-camuto-zhury-jacquard-tote/8955764",
+      "title": "Zhury Jacquard Tote",
+      "brand": "Vince Camuto",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/547765d4-cb16-4894-aaae-ea2b4b1c5058.jpeg?h=368&w=240&dpr=2",
+      "price_current": 58.48,
+      "price_list": 158.0,
+      "price_baseline": 158.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 78165,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/vince-camuto-zhury-jacquard-tote/8955764",
+      "discount_pct": 63.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-12T08:11:16.085495+00:00",
+      "last_seen": "2026-11-12T23:41:37.869816+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "fa823bbb27",
+      "history": [
+        [
+          "2026-11-12",
+          58.48
+        ]
+      ]
+    },
+    {
       "source": "amazon.com",
       "source_tier": "T1",
       "url": "https://www.amazon.com/KRUPLH-Portable-Battery-Starter-Compressor/dp/B0HHRNP7T4",
@@ -4950,63 +5007,6 @@
         [
           "2026-11-12",
           65.98
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/vince-camuto-zhury-jacquard-tote/8955764",
-      "title": "Zhury Jacquard Tote",
-      "brand": "Vince Camuto",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/547765d4-cb16-4894-aaae-ea2b4b1c5058.jpeg?h=368&w=240&dpr=2",
-      "price_current": 58.48,
-      "price_list": 158.0,
-      "price_baseline": 158.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 78165,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/vince-camuto-zhury-jacquard-tote/8955764",
-      "discount_pct": 63.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-12T08:11:16.085495+00:00",
-      "last_seen": "2026-11-12T23:02:02.163204+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "fa823bbb27",
-      "history": [
-        [
-          "2026-11-12",
-          58.48
         ]
       ]
     },
@@ -5204,7 +5204,7 @@
       "title": "Bold Flash Crossbody Camera Bag",
       "brand": "Marc Jacobs",
       "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/7435cc79-119b-46d1-9ff6-4fc3fae466b0.jpeg?h=368&w=240&dpr=2",
+      "image": "https://n.nordstrommedia.com/it/f1ec602b-eefe-4385-b0c6-b82fed0fdefb.jpeg?h=368&w=240&dpr=2",
       "price_current": 127.47,
       "price_list": 350.0,
       "price_baseline": 350.0,
@@ -5242,7 +5242,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-08T03:11:14.350455+00:00",
-      "last_seen": "2026-11-12T14:31:47.419812+00:00",
+      "last_seen": "2026-11-12T23:41:37.869816+00:00",
       "posted_at": "",
       "signals": {},
       "id": "f0ef8608ea",
@@ -5387,7 +5387,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-12T08:11:16.085495+00:00",
-      "last_seen": "2026-11-12T23:02:02.163204+00:00",
+      "last_seen": "2026-11-12T23:41:37.869816+00:00",
       "posted_at": "",
       "signals": {},
       "id": "d2665d4cb4",
@@ -5738,7 +5738,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-12T22:22:45.756535+00:00",
-      "last_seen": "2026-11-12T23:02:02.163204+00:00",
+      "last_seen": "2026-11-12T23:41:37.869816+00:00",
       "posted_at": "",
       "signals": {},
       "id": "fb0f41d4d0",
@@ -5796,7 +5796,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-12T16:31:25.219462+00:00",
-      "last_seen": "2026-11-12T23:02:02.163204+00:00",
+      "last_seen": "2026-11-12T23:41:37.869816+00:00",
       "posted_at": "",
       "signals": {},
       "id": "6b6659bcdb",
@@ -5854,7 +5854,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-12T16:31:25.219462+00:00",
-      "last_seen": "2026-11-12T23:02:02.163204+00:00",
+      "last_seen": "2026-11-12T23:41:37.869816+00:00",
       "posted_at": "",
       "signals": {},
       "id": "c605e911fe",
@@ -8301,12 +8301,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-12T23:40:29+00:00",
-      "T2": "2026-11-12T23:01:29+00:00",
+      "T2": "2026-11-12T23:41:03+00:00",
       "T3": "2026-11-12T22:01:18+00:00",
       "T4": "2026-11-12T19:41:15+00:00"
     },
     "recent_gaps_min": [
-      1,
       9,
       10,
       10,
@@ -8335,14 +8334,15 @@
       9,
       10,
       10,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-12T23:41:01+00:00",
+      "at": "2026-11-12T23:41:37+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -8351,7 +8351,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-12T23:41:01+00:00"
+      "at": "2026-11-12T23:41:37+00:00"
     }
   },
   "email_monitor": {
@@ -9239,40 +9239,10 @@
         "reject_reason": "",
         "first_seen": "2026-11-10T01:10:58+00:00",
         "last_seen": "2026-11-11T00:51:04+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20279076",
-        "source": "slickdeals:amazon.com",
-        "title": "Wyze Scale Ultra Wi-Fi/BluetoothSmart Scale w/ 4.3\" Color Display (2 colors) for $40 at Amazon",
-        "price": 40.0,
-        "list_price": 49.98,
-        "discount_pct": 20.0,
-        "krw": 54456,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
-        "first_seen": "2026-11-09T23:41:11+00:00",
-        "last_seen": "2026-11-10T00:51:03+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20280762",
-        "source": "slickdeals:ebay.com",
-        "title": "adidas via eBay Additional Savings: for 20% Off at eBay",
-        "price": null,
-        "list_price": null,
-        "discount_pct": null,
-        "krw": null,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H7: Adidas 할인 0% < 60% (유명 브랜드 최소 할인)",
-        "first_seen": "2026-11-09T23:41:11+00:00",
-        "last_seen": "2026-11-10T00:51:03+00:00"
       }
     ],
     "totals": {
-      "collected_72h": 60,
+      "collected_72h": 58,
       "published_72h": 17
     }
   }
