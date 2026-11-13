@@ -1578,13 +1578,85 @@
    "msg": 3663,
    "status": "posted",
    "link": "https://www.threads.com/@deal_ondo/post/DfrFXCWkdcA"
+  },
+  "c21b5ee9": {
+   "created": "2026-11-13T18:31:09+09:00",
+   "url": "https://www.nordstromrack.com/s/marc-jacobs-drifterwork-hobo/9141229",
+   "deal": {
+    "source": "nordstromrack.com",
+    "source_tier": "T2",
+    "url": "https://www.nordstromrack.com/s/marc-jacobs-drifterwork-hobo/9141229",
+    "title": "Drifter Leather Hobo Bag",
+    "brand": "Marc Jacobs Drifterwork",
+    "category": "premium_fashion",
+    "image": "https://n.nordstrommedia.com/it/713d62b6-8aed-40eb-96ce-fa6b879ae392.jpeg?h=368&w=240&dpr=2",
+    "price_current": 162.48,
+    "price_list": 498.0,
+    "price_baseline": 498.0,
+    "price_alltime_low": null,
+    "currency": "USD",
+    "coupon_code": "",
+    "coupon_stackable": false,
+    "off_season": false,
+    "free_gift": false,
+    "community_votes": null,
+    "rating": null,
+    "review_count": null,
+    "ships_to_kr": true,
+    "forwarding_ok": true,
+    "krw_effective": 216778,
+    "kr_lowest_price": null,
+    "stock_status": "in_stock",
+    "is_refurbished": false,
+    "expires_at": null,
+    "collection_method": "scrape",
+    "frontpage": false,
+    "code_kind": "",
+    "brand_tier": "premium",
+    "buy_url": "https://www.nordstromrack.com/s/marc-jacobs-drifterwork-hobo/9141229",
+    "discount_pct": 67.4,
+    "score": 71,
+    "score_breakdown": {
+     "discount_depth": 30,
+     "price_history": null,
+     "category": 20,
+     "bonus": 0,
+     "brand": 12,
+     "note": "가격이력 미축적 → 87점 척도 정규화"
+    },
+    "passed_hard_filter": true,
+    "reject_reason": "",
+    "urgency": "HOT",
+    "detected_at": "2026-11-12T08:11:16.085495+00:00",
+    "last_seen": "2026-11-13T07:24:07.583045+00:00",
+    "posted_at": "",
+    "signals": {},
+    "id": "922647361c",
+    "history": [
+     [
+      "2026-11-12",
+      162.48
+     ],
+     [
+      "2026-11-13",
+      162.48
+     ]
+    ]
+   },
+   "seen": "2026-11-13T16:24:07.583045+09:00",
+   "text": "마크 제이콥스 가죽 호보백 살 때 볼 건 두 가지예요. 가격이랑 면세한도.\n\nNordstrom Rack 판매가예요.\n면세한도 $200 안이라 세금 걱정 없어요.\n한국 돈으로 약 21만 7천 원쯤이에요.\n\n이 정도면 직구할 만한가요, 국내에서 사는 게 나을까요?",
+   "reply": "상품 링크: https://www.nordstromrack.com/s/marc-jacobs-drifterwork-hobo/9141229\n다른 사이즈·색상은 링크에서 확인하세요.",
+   "notes": [],
+   "angle": "practical",
+   "already": false,
+   "img_ok": true,
+   "photo_msg": 3669,
+   "msg": 3670,
+   "status": "posted",
+   "link": "https://www.threads.com/@deal_ondo/post/DfrVItylodS"
   }
  },
  "done_updates": [
-  303762573,
-  303762574,
-  303762575,
-  303762576,
   303762577,
   303762578,
   303762579,
@@ -1784,7 +1856,8 @@
   303762830,
   303762831,
   303762832,
-  303762833
+  303762833,
+  303762834
  ],
  "picks": {
   "2026-10-30-점심": "3ffe07d9",
@@ -1806,7 +1879,8 @@
   "2026-11-11-저녁": "3e3bb208",
   "2026-11-12-점심": "169aa159",
   "2026-11-12-저녁": "dfbdda40",
-  "2026-11-13-점심": "07e00f2a"
+  "2026-11-13-점심": "07e00f2a",
+  "2026-11-13-저녁": "c21b5ee9"
  },
  "picked_urls": [
   "6pm.com/product/9961271",
@@ -1828,14 +1902,10 @@
   "nordstromrack.com/s/marc-jacobs-bold-flash-crossbody-camera-bag/8323724",
   "6pm.com/product/10006826",
   "nordstromrack.com/s/kate-spade-new-york-small-flap-crossbody-bag/8013651",
-  "zappos.com/product/10057089"
+  "zappos.com/product/10057089",
+  "nordstromrack.com/s/marc-jacobs-drifterwork-hobo/9141229"
  ],
  "runs": [
-  {
-   "at": "2026-11-09T18:45:39+09:00",
-   "updates": 1,
-   "errors": []
-  },
   {
    "at": "2026-11-09T19:25:02+09:00",
    "updates": 3,
@@ -2029,6 +2099,11 @@
   {
    "at": "2026-11-13T16:25:33+09:00",
    "updates": 4,
+   "errors": []
+  },
+  {
+   "at": "2026-11-13T18:40:21+09:00",
+   "updates": 1,
    "errors": []
   }
  ]
