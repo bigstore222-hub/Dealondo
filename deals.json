@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T08:31:46.113665+00:00",
-  "count": 125,
+  "generated_at": "2026-11-13T08:41:05.614456+00:00",
+  "count": 124,
   "deals": [
     {
       "source": "6pm.com",
@@ -199,23 +199,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 25표/13분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 25표/23분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-10T22:00:58.668299+00:00",
-      "last_seen": "2026-11-13T08:31:44.599703+00:00",
+      "last_seen": "2026-11-13T08:41:05.588773+00:00",
       "posted_at": "2026-11-13T08:18:09+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 13,
+        "sd_age_min": 23,
         "sd_votes": 25,
-        "sd_velocity": 112.9,
+        "sd_velocity": 66.5,
         "sd_fp_min": 13
       },
       "id": "445e3671fe",
@@ -227,78 +227,6 @@
         [
           "2026-11-13",
           1250.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20294382",
-      "title": "Coostar Men's Slip On Canvas Loafers (Various) $26 + Free S&H",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/9/5/6/6/2/2/0/300x300/22310520.thumb",
-      "price_current": 26.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "X37OQLKL",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 25,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 34689,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20294382",
-      "discount_pct": null,
-      "score": 92,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 25표/43분 → 하한 86",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-12T03:30:43.613976+00:00",
-      "last_seen": "2026-11-13T08:31:44.599703+00:00",
-      "posted_at": "2026-11-13T07:48:56+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_hot_origin": true,
-        "sd_age_min": 43,
-        "sd_votes": 25,
-        "sd_velocity": 35.3,
-        "sd_fp_min": 43
-      },
-      "id": "151d6f44ac",
-      "history": [
-        [
-          "2026-11-12",
-          25.99
-        ],
-        [
-          "2026-11-13",
-          26.0
         ]
       ]
     },
@@ -1299,16 +1227,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-12T21:10:37.368795+00:00",
-      "last_seen": "2026-11-13T08:31:44.599703+00:00",
+      "last_seen": "2026-11-13T08:41:05.588773+00:00",
       "posted_at": "2026-11-13T06:36:23+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 115,
+        "sd_age_min": 124,
         "sd_votes": 20,
-        "sd_velocity": 10.4,
+        "sd_velocity": 9.7,
         "sd_fp_min": 14
       },
       "id": "cbdafe9ad8",
@@ -1554,6 +1482,78 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20294382",
+      "title": "Coostar Men's Slip On Canvas Loafers (Various) $26 + Free S&H",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/9/5/6/6/2/2/0/300x300/22310520.thumb",
+      "price_current": 26.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "X37OQLKL",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 25,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 34689,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20294382",
+      "discount_pct": null,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 25표/52분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-12T03:30:43.613976+00:00",
+      "last_seen": "2026-11-13T08:41:05.588773+00:00",
+      "posted_at": "2026-11-13T07:48:56+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_hot_origin": true,
+        "sd_age_min": 52,
+        "sd_votes": 25,
+        "sd_velocity": 29.0,
+        "sd_fp_min": 43
+      },
+      "id": "151d6f44ac",
+      "history": [
+        [
+          "2026-11-12",
+          25.99
+        ],
+        [
+          "2026-11-13",
+          26.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
       "url": "https://slickdeals.net/f/20292564",
       "title": "4-Pk 16oz. Bob's Red Mill Gluten Free Old Fashioned Whole Grain Rolled Oats $11.75",
       "brand": "",
@@ -1592,23 +1592,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 20표/70분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 20표/79분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-11T19:40:44.433253+00:00",
-      "last_seen": "2026-11-13T08:31:44.599703+00:00",
+      "last_seen": "2026-11-13T08:41:05.588773+00:00",
       "posted_at": "2026-11-13T07:21:33+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 70,
+        "sd_age_min": 79,
         "sd_votes": 20,
-        "sd_velocity": 17.2,
+        "sd_velocity": 15.2,
         "sd_fp_min": 21
       },
       "id": "761d416a8f",
@@ -1664,23 +1664,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 30표/92분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 30표/102분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-10T09:11:22.981834+00:00",
-      "last_seen": "2026-11-13T08:31:44.599703+00:00",
+      "last_seen": "2026-11-13T08:41:05.588773+00:00",
       "posted_at": "2026-11-13T06:59:08+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 92,
+        "sd_age_min": 102,
         "sd_votes": 30,
-        "sd_velocity": 19.5,
+        "sd_velocity": 17.7,
         "sd_fp_min": 43
       },
       "id": "a6c4ce3ba9",
@@ -2731,7 +2731,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-12T21:31:17.769643+00:00",
-      "last_seen": "2026-11-13T08:31:44.599703+00:00",
+      "last_seen": "2026-11-13T08:41:05.588773+00:00",
       "posted_at": "",
       "signals": {},
       "id": "f1c461a933",
@@ -4521,7 +4521,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-12T08:01:00.807980+00:00",
-      "last_seen": "2026-11-13T08:31:44.599703+00:00",
+      "last_seen": "2026-11-13T08:41:05.588773+00:00",
       "posted_at": "",
       "signals": {},
       "id": "32c2a038d2",
@@ -7891,59 +7891,6 @@
       ]
     },
     {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Dr-Martens-Early-Black-Friday-Sale-Up-to-76-off-Extra-20-off-free-shipping-w-50/22376486.html?iref=rss",
-      "title": "Dr. Martens Early Black Friday Sale: Up to 76% off + Extra 20% off + free shipping w/ $50",
-      "brand": "Dr. Martens",
-      "category": "premium_fashion",
-      "image": "https://d.dlnws.com/64599/1709143431-dn-image-6649288.jpg?h=143&w=250",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/Dr-Martens-Early-Black-Friday-Sale-Up-to-76-off-Extra-20-off-free-shipping-w-50/22376486.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-11T08:31:29.901548+00:00",
-      "last_seen": "2026-11-11T08:31:51.247674+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "443d37a329",
-      "history": []
-    },
-    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/new-balance-gender-inclusive-1906r-running-shoe/8512608",
@@ -8019,7 +7966,7 @@
   "fx_usd_krw": 1334.2,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-13T08:30:38+00:00",
+      "T1": "2026-11-13T08:40:30+00:00",
       "T2": "2026-11-13T08:02:11+00:00",
       "T3": "2026-11-13T06:41:35+00:00",
       "T4": "2026-11-13T08:02:46+00:00"
@@ -8053,14 +8000,15 @@
       4,
       5,
       10,
-      10
+      10,
+      9
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-13T08:31:44+00:00",
+      "at": "2026-11-13T08:41:05+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -8069,13 +8017,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-13T08:31:44+00:00"
+      "at": "2026-11-13T08:41:05+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-13T08:31:26+00:00",
+        "at": "2026-11-13T08:40:40+00:00",
         "state": "정상",
         "mails": 16,
         "deals": 16
@@ -8101,7 +8049,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-13T08:02:09+00:00",
-        "last_seen": "2026-11-13T08:31:44+00:00"
+        "last_seen": "2026-11-13T08:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20283099",
@@ -8116,7 +8064,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-13T07:11:04+00:00",
-        "last_seen": "2026-11-13T08:31:44+00:00"
+        "last_seen": "2026-11-13T08:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20283585",
@@ -8131,7 +8079,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-13T07:01:14+00:00",
-        "last_seen": "2026-11-13T08:31:44+00:00"
+        "last_seen": "2026-11-13T08:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20299812",
@@ -8146,7 +8094,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-13T06:21:11+00:00",
-        "last_seen": "2026-11-13T08:31:44+00:00"
+        "last_seen": "2026-11-13T08:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20283330",
@@ -8161,7 +8109,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-13T06:01:11+00:00",
-        "last_seen": "2026-11-13T08:31:44+00:00"
+        "last_seen": "2026-11-13T08:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20296239",
@@ -8176,7 +8124,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-13T05:31:07+00:00",
-        "last_seen": "2026-11-13T08:31:44+00:00"
+        "last_seen": "2026-11-13T08:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20292678",
@@ -8191,7 +8139,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-13T05:11:35+00:00",
-        "last_seen": "2026-11-13T08:31:44+00:00"
+        "last_seen": "2026-11-13T08:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20300601",
@@ -8206,7 +8154,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-13T04:50:59+00:00",
-        "last_seen": "2026-11-13T08:31:44+00:00"
+        "last_seen": "2026-11-13T08:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20292543",
@@ -8221,7 +8169,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-13T04:41:01+00:00",
-        "last_seen": "2026-11-13T08:31:44+00:00"
+        "last_seen": "2026-11-13T08:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20293794",
@@ -8236,7 +8184,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-13T03:51:13+00:00",
-        "last_seen": "2026-11-13T08:31:44+00:00"
+        "last_seen": "2026-11-13T08:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20291760",
@@ -8251,7 +8199,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 49% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-13T02:51:13+00:00",
-        "last_seen": "2026-11-13T08:31:44+00:00"
+        "last_seen": "2026-11-13T08:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20268147",
@@ -8266,7 +8214,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-13T02:01:15+00:00",
-        "last_seen": "2026-11-13T08:31:44+00:00"
+        "last_seen": "2026-11-13T08:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20298204",
@@ -8326,7 +8274,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 30% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-12T23:51:00+00:00",
-        "last_seen": "2026-11-13T08:31:44+00:00"
+        "last_seen": "2026-11-13T08:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20296632",
@@ -8371,7 +8319,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-12T21:41:05+00:00",
-        "last_seen": "2026-11-13T08:31:44+00:00"
+        "last_seen": "2026-11-13T08:41:05+00:00"
       },
       {
         "url": "https://click.email.bloomingdales.com/",
@@ -8581,7 +8529,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-12T02:51:13+00:00",
-        "last_seen": "2026-11-13T08:31:44+00:00"
+        "last_seen": "2026-11-13T08:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20260233",
@@ -8611,7 +8559,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-12T00:21:17+00:00",
-        "last_seen": "2026-11-13T08:31:44+00:00"
+        "last_seen": "2026-11-13T08:41:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20282154",
