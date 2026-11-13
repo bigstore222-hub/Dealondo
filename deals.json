@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T02:31:10.020664+00:00",
+  "generated_at": "2026-11-13T02:40:58.106202+00:00",
   "count": 127,
   "deals": [
     {
@@ -195,23 +195,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 26표/39분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 26표/49분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-12T05:10:35.445469+00:00",
-      "last_seen": "2026-11-13T02:31:08.607995+00:00",
+      "last_seen": "2026-11-13T02:40:58.079935+00:00",
       "posted_at": "2026-11-13T01:51:17+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 39,
+        "sd_age_min": 49,
         "sd_votes": 26,
-        "sd_velocity": 39.5,
+        "sd_velocity": 31.6,
         "sd_fp_min": 19
       },
       "id": "ff306ef896",
@@ -1794,23 +1794,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 30표/70분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 30표/80분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-12T05:50:38.242574+00:00",
-      "last_seen": "2026-11-13T02:31:08.607995+00:00",
+      "last_seen": "2026-11-13T02:40:58.079935+00:00",
       "posted_at": "2026-11-13T01:20:23+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 70,
+        "sd_age_min": 80,
         "sd_votes": 30,
-        "sd_velocity": 25.6,
+        "sd_velocity": 22.4,
         "sd_fp_min": 10
       },
       "id": "585daffc85",
@@ -1822,6 +1822,146 @@
         [
           "2026-11-13",
           9.9
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20295759",
+      "title": "30-Oz Owala FreeSip Sway Insulated Water Bottle (Summer Sweetness) $28",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/1/1/7/1/5/2/7/300x300/22314282.thumb",
+      "price_current": 28.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 29,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 37357,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20295759",
+      "discount_pct": null,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 29표/97분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-12T09:20:36.663558+00:00",
+      "last_seen": "2026-11-13T02:40:58.079935+00:00",
+      "posted_at": "2026-11-13T01:03:18+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_hot_origin": true,
+        "sd_age_min": 97,
+        "sd_votes": 29,
+        "sd_velocity": 17.9,
+        "sd_fp_min": 28
+      },
+      "id": "744f669a3c",
+      "history": [
+        [
+          "2026-11-12",
+          28.0
+        ],
+        [
+          "2026-11-13",
+          28.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20288751",
+      "title": "adidas Men's Terrex Anylander Rain.Rdy Hiking Shoes (Shadow Olive) $42.40 + Free S&H",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://static.slickdealscdn.com/attachment/3/3/2/8/0/4/4/7/300x300/22295046.thumb",
+      "price_current": 42.4,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "SHOPBRANDS20",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 33,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 56569,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20288751",
+      "discount_pct": null,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 33표/108분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-13T01:30:46.614954+00:00",
+      "last_seen": "2026-11-13T02:40:58.079935+00:00",
+      "posted_at": "2026-11-13T00:52:18+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_hot_origin": true,
+        "sd_age_min": 108,
+        "sd_votes": 33,
+        "sd_velocity": 18.3,
+        "sd_fp_min": 39
+      },
+      "id": "f348a2c785",
+      "history": [
+        [
+          "2026-11-13",
+          42.4
         ]
       ]
     },
@@ -1894,146 +2034,6 @@
         [
           "2026-11-13",
           6.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20295759",
-      "title": "30-Oz Owala FreeSip Sway Insulated Water Bottle (Summer Sweetness) $28",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/1/7/1/5/2/7/300x300/22314282.thumb",
-      "price_current": 28.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 29,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 37357,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20295759",
-      "discount_pct": null,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 29표/87분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-12T09:20:36.663558+00:00",
-      "last_seen": "2026-11-13T02:31:08.607995+00:00",
-      "posted_at": "2026-11-13T01:03:18+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_hot_origin": true,
-        "sd_age_min": 87,
-        "sd_votes": 29,
-        "sd_velocity": 19.9,
-        "sd_fp_min": 28
-      },
-      "id": "744f669a3c",
-      "history": [
-        [
-          "2026-11-12",
-          28.0
-        ],
-        [
-          "2026-11-13",
-          28.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20288751",
-      "title": "adidas Men's Terrex Anylander Rain.Rdy Hiking Shoes (Shadow Olive) $42.40 + Free S&H",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://static.slickdealscdn.com/attachment/3/3/2/8/0/4/4/7/300x300/22295046.thumb",
-      "price_current": 42.4,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "SHOPBRANDS20",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 33,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 56569,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "public",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20288751",
-      "discount_pct": null,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 33표/98분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-13T01:30:46.614954+00:00",
-      "last_seen": "2026-11-13T02:31:08.607995+00:00",
-      "posted_at": "2026-11-13T00:52:18+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_hot_origin": true,
-        "sd_age_min": 98,
-        "sd_votes": 33,
-        "sd_velocity": 20.1,
-        "sd_fp_min": 39
-      },
-      "id": "f348a2c785",
-      "history": [
-        [
-          "2026-11-13",
-          42.4
         ]
       ]
     },
@@ -2870,7 +2870,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-12T21:31:17.769643+00:00",
-      "last_seen": "2026-11-13T02:31:08.607995+00:00",
+      "last_seen": "2026-11-13T02:40:58.079935+00:00",
       "posted_at": "",
       "signals": {},
       "id": "f1c461a933",
@@ -4724,7 +4724,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-12T08:01:00.807980+00:00",
-      "last_seen": "2026-11-13T02:31:08.607995+00:00",
+      "last_seen": "2026-11-13T02:40:58.079935+00:00",
       "posted_at": "",
       "signals": {},
       "id": "32c2a038d2",
@@ -8216,7 +8216,7 @@
   "fx_usd_krw": 1334.2,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-13T02:30:40+00:00",
+      "T1": "2026-11-13T02:40:30+00:00",
       "T2": "2026-11-13T02:21:07+00:00",
       "T3": "2026-11-13T02:21:43+00:00",
       "T4": "2026-11-13T01:51:07+00:00"
@@ -8250,14 +8250,15 @@
       10,
       1,
       1,
-      8
+      8,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-13T02:31:08+00:00",
+      "at": "2026-11-13T02:40:57+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -8266,13 +8267,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-13T02:31:08+00:00"
+      "at": "2026-11-13T02:40:57+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-13T02:30:45+00:00",
+        "at": "2026-11-13T02:40:38+00:00",
         "state": "정상",
         "mails": 5,
         "deals": 5
@@ -8298,7 +8299,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-13T02:01:15+00:00",
-        "last_seen": "2026-11-13T02:31:08+00:00"
+        "last_seen": "2026-11-13T02:40:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20298204",
@@ -8358,7 +8359,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 30% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-12T23:51:00+00:00",
-        "last_seen": "2026-11-13T02:31:08+00:00"
+        "last_seen": "2026-11-13T02:40:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20296632",
@@ -8403,7 +8404,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-12T21:41:05+00:00",
-        "last_seen": "2026-11-13T02:31:08+00:00"
+        "last_seen": "2026-11-13T02:40:58+00:00"
       },
       {
         "url": "https://click.email.bloomingdales.com/",
@@ -8613,7 +8614,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-12T02:51:13+00:00",
-        "last_seen": "2026-11-13T02:31:08+00:00"
+        "last_seen": "2026-11-13T02:40:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20260233",
@@ -8643,7 +8644,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-12T00:21:17+00:00",
-        "last_seen": "2026-11-13T02:31:08+00:00"
+        "last_seen": "2026-11-13T02:40:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20282154",
