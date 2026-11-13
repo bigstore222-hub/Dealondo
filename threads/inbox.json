@@ -1601,11 +1601,95 @@
    "photo_msg": 3651,
    "msg": 3652,
    "status": "waiting"
+  },
+  "07e00f2a": {
+   "created": "2026-11-13T11:41:04+09:00",
+   "url": "https://www.zappos.com/product/10057089",
+   "deal": {
+    "source": "zappos.com",
+    "source_tier": "T2",
+    "url": "https://www.zappos.com/product/10057089",
+    "title": "Pull-On Slip Skirt",
+    "brand": "Vince",
+    "category": "premium_fashion",
+    "image": "https://m.media-amazon.com/images/I/61aFGMchjgL._AC_SR255,340_.jpg",
+    "price_current": 110.4,
+    "price_list": 368.0,
+    "price_baseline": 368.0,
+    "price_alltime_low": 110.4,
+    "currency": "USD",
+    "coupon_code": "",
+    "coupon_stackable": false,
+    "off_season": false,
+    "free_gift": false,
+    "community_votes": null,
+    "rating": null,
+    "review_count": null,
+    "ships_to_kr": true,
+    "forwarding_ok": true,
+    "krw_effective": 147294,
+    "kr_lowest_price": null,
+    "stock_status": "in_stock",
+    "is_refurbished": false,
+    "expires_at": null,
+    "collection_method": "scrape",
+    "frontpage": false,
+    "code_kind": "",
+    "brand_tier": "premium",
+    "buy_url": "https://www.zappos.com/product/10057089",
+    "discount_pct": 70.0,
+    "score": 87,
+    "score_breakdown": {
+     "discount_depth": 30,
+     "price_history": 25,
+     "category": 20,
+     "bonus": 0,
+     "brand": 12
+    },
+    "passed_hard_filter": true,
+    "reject_reason": "",
+    "urgency": "FLASH",
+    "detected_at": "2026-11-09T21:51:24.785976+00:00",
+    "last_seen": "2026-11-13T01:41:32.942219+00:00",
+    "posted_at": "",
+    "signals": {},
+    "id": "ab083883bd",
+    "history": [
+     [
+      "2026-11-09",
+      110.4
+     ],
+     [
+      "2026-11-10",
+      110.4
+     ],
+     [
+      "2026-11-11",
+      110.4
+     ],
+     [
+      "2026-11-12",
+      110.4
+     ],
+     [
+      "2026-11-13",
+      110.4
+     ]
+    ]
+   },
+   "seen": "2026-11-13T11:40:58.342142+09:00",
+   "text": "빈스 스커트, 한국 돈으로 약 14만 7천 원이에요.\n\nZappos에서 70% 할인 중이에요.\n면세한도 $200 안이라 세금 걱정 없어요.\n\n할인 폭이 큰 브랜드 딜은 인기 사이즈부터 빠져요.\n빈스 입어보신 분, 사이즈 어떻게 나와요?",
+   "reply": "상품 링크: https://www.zappos.com/product/10057089\n팔로우해두면 이런 딜을 피드에서 바로 볼 수 있어요.",
+   "notes": [],
+   "angle": "brand",
+   "already": false,
+   "img_ok": true,
+   "photo_msg": 3655,
+   "msg": 3656,
+   "status": "waiting"
   }
  },
  "done_updates": [
-  303762571,
-  303762572,
   303762573,
   303762574,
   303762575,
@@ -1826,7 +1910,8 @@
   "2026-11-11-점심": "834bd2d8",
   "2026-11-11-저녁": "3e3bb208",
   "2026-11-12-점심": "169aa159",
-  "2026-11-12-저녁": "dfbdda40"
+  "2026-11-12-저녁": "dfbdda40",
+  "2026-11-13-점심": "07e00f2a"
  },
  "picked_urls": [
   "6pm.com/product/9961271",
@@ -1847,14 +1932,10 @@
   "nordstromrack.com/s/kate-spade-new-york-duet-saffiano-pvc-small-crossb/9177717",
   "nordstromrack.com/s/marc-jacobs-bold-flash-crossbody-camera-bag/8323724",
   "6pm.com/product/10006826",
-  "nordstromrack.com/s/kate-spade-new-york-small-flap-crossbody-bag/8013651"
+  "nordstromrack.com/s/kate-spade-new-york-small-flap-crossbody-bag/8013651",
+  "zappos.com/product/10057089"
  ],
  "runs": [
-  {
-   "at": "2026-11-09T14:35:02+09:00",
-   "updates": 4,
-   "errors": []
-  },
   {
    "at": "2026-11-09T17:59:24+09:00",
    "updates": 4,
@@ -2048,6 +2129,11 @@
   {
    "at": "2026-11-13T11:40:06+09:00",
    "updates": 2,
+   "errors": []
+  },
+  {
+   "at": "2026-11-13T11:49:51+09:00",
+   "updates": 0,
    "errors": []
   }
  ]
