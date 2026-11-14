@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T02:11:03.455065+00:00",
-  "count": 116,
+  "generated_at": "2026-11-14T02:12:03.340532+00:00",
+  "count": 112,
   "deals": [
     {
       "source": "6pm.com",
@@ -24,7 +24,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 58437,
+      "krw_effective": 58525,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-07T18:43:06.158254+00:00",
-      "last_seen": "2026-11-14T00:02:51.271911+00:00",
+      "last_seen": "2026-11-14T02:12:02.149970+00:00",
       "posted_at": "",
       "signals": {},
       "id": "d284c95219",
@@ -553,7 +553,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 30686,
+      "krw_effective": 30732,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -576,7 +576,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-06T19:12:23.752724+00:00",
-      "last_seen": "2026-11-14T00:02:51.271911+00:00",
+      "last_seen": "2026-11-14T02:12:02.149970+00:00",
       "posted_at": "",
       "signals": {},
       "id": "2b831164ce",
@@ -1021,7 +1021,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 33315,
+      "krw_effective": 33364,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -1044,7 +1044,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-07T18:43:06.158254+00:00",
-      "last_seen": "2026-11-14T00:02:51.271911+00:00",
+      "last_seen": "2026-11-14T02:12:02.149970+00:00",
       "posted_at": "",
       "signals": {},
       "id": "e9ff77cd38",
@@ -1146,6 +1146,67 @@
     {
       "source": "6pm.com",
       "source_tier": "T3",
+      "url": "https://www.6pm.com/product/10055724",
+      "title": "Noor Dress",
+      "brand": "AllSaints",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/71CPRFZ7NLL._AC_SR255,340_.jpg",
+      "price_current": 69.8,
+      "price_list": 349.0,
+      "price_baseline": 349.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 93265,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.6pm.com/product/10055724",
+      "discount_pct": 80.0,
+      "score": 83,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-13T19:41:52.496431+00:00",
+      "last_seen": "2026-11-14T02:12:02.149970+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "b42b0fdd4d",
+      "history": [
+        [
+          "2026-11-13",
+          69.8
+        ],
+        [
+          "2026-11-14",
+          69.8
+        ]
+      ]
+    },
+    {
+      "source": "6pm.com",
+      "source_tier": "T3",
       "url": "https://www.6pm.com/product/10041999",
       "title": "Jax Skirt",
       "brand": "AllSaints",
@@ -1201,63 +1262,6 @@
         [
           "2026-11-14",
           49.8
-        ]
-      ]
-    },
-    {
-      "source": "6pm.com",
-      "source_tier": "T3",
-      "url": "https://www.6pm.com/product/10055724",
-      "title": "Noor Dress",
-      "brand": "AllSaints",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/71CPRFZ7NLL._AC_SR255,340_.jpg",
-      "price_current": 69.8,
-      "price_list": 349.0,
-      "price_baseline": 349.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 93126,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.6pm.com/product/10055724",
-      "discount_pct": 80.0,
-      "score": 83,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-13T19:41:52.496431+00:00",
-      "last_seen": "2026-11-13T19:42:13.584385+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "b42b0fdd4d",
-      "history": [
-        [
-          "2026-11-13",
-          69.8
         ]
       ]
     },
@@ -1330,6 +1334,82 @@
         [
           "2026-11-12",
           30.91
+        ]
+      ]
+    },
+    {
+      "source": "6pm.com",
+      "source_tier": "T3",
+      "url": "https://www.6pm.com/product/9469700",
+      "title": "B. Racer (Infant/Toddler)",
+      "brand": "Tsukihoshi Kids",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/61osDeesucL._AC_SR255,340_.jpg",
+      "price_current": 11.99,
+      "price_list": 59.95,
+      "price_baseline": 59.95,
+      "price_alltime_low": 11.99,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": 5.0,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 16021,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.6pm.com/product/9469700",
+      "discount_pct": 80.0,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": 25,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-09T11:51:39.833973+00:00",
+      "last_seen": "2026-11-14T02:12:02.149970+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "d0994e3766",
+      "history": [
+        [
+          "2026-11-09",
+          11.99
+        ],
+        [
+          "2026-11-10",
+          11.99
+        ],
+        [
+          "2026-11-11",
+          11.99
+        ],
+        [
+          "2026-11-12",
+          11.99
+        ],
+        [
+          "2026-11-13",
+          11.99
+        ],
+        [
+          "2026-11-14",
+          11.99
         ]
       ]
     },
@@ -1846,82 +1926,6 @@
         [
           "2026-11-14",
           27.0
-        ]
-      ]
-    },
-    {
-      "source": "6pm.com",
-      "source_tier": "T3",
-      "url": "https://www.6pm.com/product/9469700",
-      "title": "B. Racer (Infant/Toddler)",
-      "brand": "Tsukihoshi Kids",
-      "category": "electronics",
-      "image": "https://m.media-amazon.com/images/I/61osDeesucL._AC_SR255,340_.jpg",
-      "price_current": 11.99,
-      "price_list": 59.95,
-      "price_baseline": 59.95,
-      "price_alltime_low": 11.99,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": 5.0,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 15997,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.6pm.com/product/9469700",
-      "discount_pct": 80.0,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": 25,
-        "category": 15,
-        "bonus": 0,
-        "brand": 0
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-09T11:51:39.833973+00:00",
-      "last_seen": "2026-11-14T00:02:51.271911+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "d0994e3766",
-      "history": [
-        [
-          "2026-11-09",
-          11.99
-        ],
-        [
-          "2026-11-10",
-          11.99
-        ],
-        [
-          "2026-11-11",
-          11.99
-        ],
-        [
-          "2026-11-12",
-          11.99
-        ],
-        [
-          "2026-11-13",
-          11.99
-        ],
-        [
-          "2026-11-14",
-          11.99
         ]
       ]
     },
@@ -2786,150 +2790,6 @@
     {
       "source": "nordstromrack.com",
       "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/reebok-glide-low-top-sneaker-women/8502342",
-      "title": "Glide Low Top Sneaker",
-      "brand": "Reebok",
-      "category": "sports_outdoor",
-      "image": "https://n.nordstrommedia.com/it/769fc5e4-fdf6-4412-95c2-59769074de63.jpeg?h=368&w=240&dpr=2",
-      "price_current": 17.72,
-      "price_list": 55.0,
-      "price_baseline": 55.0,
-      "price_alltime_low": 17.72,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 23685,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/reebok-glide-low-top-sneaker-women/8502342",
-      "discount_pct": 67.8,
-      "score": 78,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-07T22:31:22.423263+00:00",
-      "last_seen": "2026-11-12T02:11:41.071067+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "4a74502df2",
-      "history": [
-        [
-          "2026-11-07",
-          17.72
-        ],
-        [
-          "2026-11-08",
-          17.72
-        ],
-        [
-          "2026-11-11",
-          17.72
-        ],
-        [
-          "2026-11-12",
-          17.72
-        ]
-      ]
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10046465",
-      "title": "T7 Always On Short Track Jacket",
-      "brand": "PUMA",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/81qbB1k9V9L._AC_SR255,340_.jpg",
-      "price_current": 21.0,
-      "price_list": 70.0,
-      "price_baseline": 70.0,
-      "price_alltime_low": 21.0,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 28069,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10046465",
-      "discount_pct": 70.0,
-      "score": 78,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-04T23:01:39.497389+00:00",
-      "last_seen": "2026-11-12T02:11:41.071067+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "99e93b703e",
-      "history": [
-        [
-          "2026-11-04",
-          21.0
-        ],
-        [
-          "2026-11-05",
-          21.0
-        ],
-        [
-          "2026-11-07",
-          21.0
-        ],
-        [
-          "2026-11-09",
-          21.0
-        ],
-        [
-          "2026-11-10",
-          21.0
-        ],
-        [
-          "2026-11-12",
-          21.0
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/circus-ny-by-sam-edelman-tillie-faux-fur-trim-mule-women/8338736",
       "title": "Tillie Faux Fur Trim Mule",
       "brand": "Circus Ny By Sam Edelman",
@@ -3758,63 +3618,6 @@
       ]
     },
     {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/longchamp-roseau-leather-drawstring-backpack/9171036",
-      "title": "Roseau Leather Drawstring Backpack",
-      "brand": "Longchamp",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/f057c4f8-0577-4cf5-b9f5-fe33b77bc800.jpeg?h=368&w=240&dpr=2",
-      "price_current": 170.61,
-      "price_list": 640.0,
-      "price_baseline": 640.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 228038,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/longchamp-roseau-leather-drawstring-backpack/9171036",
-      "discount_pct": 73.3,
-      "score": 71,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-12T00:11:49.030897+00:00",
-      "last_seen": "2026-11-12T02:11:41.071067+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "777ba4d34e",
-      "history": [
-        [
-          "2026-11-12",
-          170.61
-        ]
-      ]
-    },
-    {
       "source": "ashford.com",
       "source_tier": "T3",
       "url": "https://www.ashford.com/products/stella-mccartney-sc5013ik-042-44",
@@ -3836,7 +3639,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 20013,
+      "krw_effective": 20043,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -3859,7 +3662,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-04T21:42:29.026098+00:00",
-      "last_seen": "2026-11-14T00:02:51.271911+00:00",
+      "last_seen": "2026-11-14T02:12:02.149970+00:00",
       "posted_at": "",
       "signals": {},
       "id": "aa1a18e37f",
@@ -3932,7 +3735,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 21080,
+      "krw_effective": 21112,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -3956,7 +3759,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-13T17:32:33.118976+00:00",
-      "last_seen": "2026-11-14T00:02:51.271911+00:00",
+      "last_seen": "2026-11-14T02:12:02.149970+00:00",
       "posted_at": "",
       "signals": {},
       "id": "805e5e4b32",
@@ -4025,63 +3828,6 @@
         [
           "2026-11-13",
           67.5
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/barbour-powell-diamond-quilted-jacket/3315567",
-      "title": "Powell Diamond Quilted Jacket",
-      "brand": "Barbour",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/79cad173-1668-4489-bca7-a01b200d736c.jpeg?h=368&w=240&dpr=2",
-      "price_current": 88.47,
-      "price_list": 300.0,
-      "price_baseline": 300.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 118249,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/barbour-powell-diamond-quilted-jacket/3315567",
-      "discount_pct": 70.5,
-      "score": 67,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 16,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-12T02:11:22.384198+00:00",
-      "last_seen": "2026-11-12T02:11:41.071067+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "f390a982bb",
-      "history": [
-        [
-          "2026-11-12",
-          88.47
         ]
       ]
     },
@@ -7442,11 +7188,10 @@
     "tier_last_run": {
       "T1": "2026-11-14T02:10:32+00:00",
       "T2": "2026-11-14T01:52:28+00:00",
-      "T3": "2026-11-14T00:01:54+00:00",
+      "T3": "2026-11-14T02:11:05+00:00",
       "T4": "2026-11-13T20:21:03+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       10,
@@ -7475,14 +7220,15 @@
       1,
       1,
       8,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-14T02:11:03+00:00",
+      "at": "2026-11-14T02:12:02+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -7491,7 +7237,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-14T02:11:03+00:00"
+      "at": "2026-11-14T02:12:02+00:00"
     }
   },
   "email_monitor": {
