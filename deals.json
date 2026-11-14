@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T11:31:43.281386+00:00",
+  "generated_at": "2026-11-14T11:41:01.741187+00:00",
   "count": 92,
   "deals": [
     {
@@ -1166,23 +1166,23 @@
         "bonus": 0,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 25표/55분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 25표/65분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-13T12:02:34.734161+00:00",
-      "last_seen": "2026-11-14T11:31:06.901924+00:00",
+      "last_seen": "2026-11-14T11:41:01.715540+00:00",
       "posted_at": "2026-11-14T10:35:54+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 55,
+        "sd_age_min": 65,
         "sd_votes": 25,
-        "sd_velocity": 27.3,
+        "sd_velocity": 23.1,
         "sd_fp_min": 25
       },
       "id": "2d0c9b778c",
@@ -1238,23 +1238,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 24표/59분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 24표/69분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-13T21:20:48.359775+00:00",
-      "last_seen": "2026-11-14T11:31:06.901924+00:00",
+      "last_seen": "2026-11-14T11:41:01.715540+00:00",
       "posted_at": "2026-11-14T10:31:23+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 59,
+        "sd_age_min": 69,
         "sd_votes": 24,
-        "sd_velocity": 24.3,
+        "sd_velocity": 20.8,
         "sd_fp_min": 30
       },
       "id": "f1a7ba73c1",
@@ -2604,7 +2604,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-12T21:31:17.769643+00:00",
-      "last_seen": "2026-11-14T11:31:06.901924+00:00",
+      "last_seen": "2026-11-14T11:41:01.715540+00:00",
       "posted_at": "",
       "signals": {},
       "id": "f1c461a933",
@@ -3292,6 +3292,71 @@
       ]
     },
     {
+      "source": "amazon.com",
+      "source_tier": "T1",
+      "url": "https://www.amazon.com/KRUPLH-Portable-Battery-Starter-Compressor/dp/B0HHRNP7T4",
+      "title": "KRUPLH Portable Car Battery Jump Starter with Air Compressor - 9000A 150PSI | 12V 9L Gas/8L Diesel, Auto-Off Tire Inflat",
+      "brand": "Diesel",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/814tEi25iFL._AC_SR255,340_.jpg",
+      "price_current": 65.98,
+      "price_list": 219.99,
+      "price_baseline": 219.99,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 88161,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/KRUPLH-Portable-Battery-Starter-Compressor/dp/B0HHRNP7T4",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-12T08:01:00.807980+00:00",
+      "last_seen": "2026-11-14T11:41:01.715540+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "32c2a038d2",
+      "history": [
+        [
+          "2026-11-12",
+          65.98
+        ],
+        [
+          "2026-11-13",
+          65.98
+        ],
+        [
+          "2026-11-14",
+          65.98
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/vince-camuto-zhury-jacquard-tote/8955764",
@@ -3407,71 +3472,6 @@
       "signals": {},
       "id": "4a238372c5",
       "history": [
-        [
-          "2026-11-13",
-          65.98
-        ],
-        [
-          "2026-11-14",
-          65.98
-        ]
-      ]
-    },
-    {
-      "source": "amazon.com",
-      "source_tier": "T1",
-      "url": "https://www.amazon.com/KRUPLH-Portable-Battery-Starter-Compressor/dp/B0HHRNP7T4",
-      "title": "KRUPLH Portable Car Battery Jump Starter with Air Compressor - 9000A 150PSI | 12V 9L Gas/8L Diesel, Auto-Off Tire Inflat",
-      "brand": "Diesel",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/814tEi25iFL._AC_SR255,340_.jpg",
-      "price_current": 65.98,
-      "price_list": 219.99,
-      "price_baseline": 219.99,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 88161,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/KRUPLH-Portable-Battery-Starter-Compressor/dp/B0HHRNP7T4",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-12T08:01:00.807980+00:00",
-      "last_seen": "2026-11-14T11:31:06.901924+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "32c2a038d2",
-      "history": [
-        [
-          "2026-11-12",
-          65.98
-        ],
         [
           "2026-11-13",
           65.98
@@ -5985,13 +5985,12 @@
   "fx_usd_krw": 1336.2,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-14T11:30:36+00:00",
+      "T1": "2026-11-14T11:40:29+00:00",
       "T2": "2026-11-14T11:31:08+00:00",
       "T3": "2026-11-14T10:51:42+00:00",
       "T4": "2026-11-14T08:41:48+00:00"
     },
     "recent_gaps_min": [
-      1,
       8,
       10,
       10,
@@ -6020,14 +6019,15 @@
       10,
       10,
       10,
-      1
+      1,
+      9
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-14T11:31:41+00:00",
+      "at": "2026-11-14T11:41:01+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -6036,13 +6036,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-14T11:31:41+00:00"
+      "at": "2026-11-14T11:41:01+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-14T11:30:44+00:00",
+        "at": "2026-11-14T11:40:39+00:00",
         "state": "정상",
         "mails": 12,
         "deals": 12
@@ -6068,7 +6068,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-14T11:21:05+00:00",
-        "last_seen": "2026-11-14T11:31:06+00:00"
+        "last_seen": "2026-11-14T11:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20306292",
@@ -6083,7 +6083,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-14T11:01:20+00:00",
-        "last_seen": "2026-11-14T11:31:06+00:00"
+        "last_seen": "2026-11-14T11:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20296662",
@@ -6098,7 +6098,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-14T07:01:14+00:00",
-        "last_seen": "2026-11-14T11:31:06+00:00"
+        "last_seen": "2026-11-14T11:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20305125",
@@ -6113,7 +6113,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-14T06:50:58+00:00",
-        "last_seen": "2026-11-14T11:31:06+00:00"
+        "last_seen": "2026-11-14T11:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20298213",
@@ -6128,7 +6128,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-14T06:50:58+00:00",
-        "last_seen": "2026-11-14T11:31:06+00:00"
+        "last_seen": "2026-11-14T11:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20305113",
@@ -6143,7 +6143,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-14T02:51:09+00:00",
-        "last_seen": "2026-11-14T11:31:06+00:00"
+        "last_seen": "2026-11-14T11:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20298765",
@@ -6158,7 +6158,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-14T02:40:56+00:00",
-        "last_seen": "2026-11-14T11:31:06+00:00"
+        "last_seen": "2026-11-14T11:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20295420",
@@ -6188,7 +6188,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-13T22:31:19+00:00",
-        "last_seen": "2026-11-14T11:31:06+00:00"
+        "last_seen": "2026-11-14T11:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20298843",
@@ -6293,7 +6293,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-13T16:41:15+00:00",
-        "last_seen": "2026-11-14T11:31:06+00:00"
+        "last_seen": "2026-11-14T11:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20302335",
@@ -6458,7 +6458,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-13T06:01:11+00:00",
-        "last_seen": "2026-11-14T11:31:06+00:00"
+        "last_seen": "2026-11-14T11:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20296239",
@@ -6623,7 +6623,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 30% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-12T23:51:00+00:00",
-        "last_seen": "2026-11-14T11:31:06+00:00"
+        "last_seen": "2026-11-14T11:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20296632",
@@ -6668,7 +6668,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-12T21:41:05+00:00",
-        "last_seen": "2026-11-14T11:31:06+00:00"
+        "last_seen": "2026-11-14T11:41:01+00:00"
       },
       {
         "url": "https://click.email.bloomingdales.com/",
