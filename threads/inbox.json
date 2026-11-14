@@ -1344,11 +1344,91 @@
    "msg": 3689,
    "status": "posted",
    "link": "https://www.threads.com/@deal_ondo/post/DftIfmrjt7y"
+  },
+  "6456462d": {
+   "created": "2026-11-14T11:40:57+09:00",
+   "url": "https://www.zappos.com/product/10055702",
+   "deal": {
+    "source": "zappos.com",
+    "source_tier": "T2",
+    "url": "https://www.zappos.com/product/10055702",
+    "title": "Gathered Cap Sleeve Blouse",
+    "brand": "Vince",
+    "category": "premium_fashion",
+    "image": "https://m.media-amazon.com/images/I/71wPEMH9CpL._AC_SR255,340_.jpg",
+    "price_current": 119.4,
+    "price_list": 398.0,
+    "price_baseline": 398.0,
+    "price_alltime_low": 119.4,
+    "currency": "USD",
+    "coupon_code": "",
+    "coupon_stackable": false,
+    "off_season": false,
+    "free_gift": false,
+    "community_votes": null,
+    "rating": null,
+    "review_count": null,
+    "ships_to_kr": true,
+    "forwarding_ok": true,
+    "krw_effective": 159540,
+    "kr_lowest_price": null,
+    "stock_status": "in_stock",
+    "is_refurbished": false,
+    "expires_at": null,
+    "collection_method": "scrape",
+    "frontpage": false,
+    "code_kind": "",
+    "brand_tier": "premium",
+    "buy_url": "https://www.zappos.com/product/10055702",
+    "discount_pct": 70.0,
+    "score": 87,
+    "score_breakdown": {
+     "discount_depth": 30,
+     "price_history": 25,
+     "category": 20,
+     "bonus": 0,
+     "brand": 12
+    },
+    "passed_hard_filter": true,
+    "reject_reason": "",
+    "urgency": "FLASH",
+    "detected_at": "2026-11-09T17:21:32.983174+00:00",
+    "last_seen": "2026-11-14T01:21:33.763324+00:00",
+    "posted_at": "",
+    "signals": {},
+    "id": "bf44d64e50",
+    "history": [
+     [
+      "2026-11-09",
+      119.4
+     ],
+     [
+      "2026-11-10",
+      119.4
+     ],
+     [
+      "2026-11-13",
+      119.4
+     ],
+     [
+      "2026-11-14",
+      119.4
+     ]
+    ]
+   },
+   "seen": "2026-11-14T11:40:52.478391+09:00",
+   "text": "블라우스 직구는 사이즈가 반이에요.\n\nZappos · 70% 할인해서 $119.40 (정가 $398)\n면세한도 $200 안이라 세금 걱정 없어요.\n신발은 US 사이즈를 mm로 바꿔서 확인하세요. 같은 US 8도 브랜드마다 달라요.\n\n직구할 때 사이즈 실패해본 적 있으세요?",
+   "reply": "상품 링크: https://www.zappos.com/product/10055702\n블프까지 이런 딜을 골라서 계속 올려요.",
+   "notes": [],
+   "angle": "size",
+   "already": false,
+   "img_ok": true,
+   "photo_msg": 3694,
+   "msg": 3695,
+   "status": "waiting"
   }
  },
  "done_updates": [
-  303762579,
-  303762580,
   303762581,
   303762584,
   303762585,
@@ -1571,7 +1651,8 @@
   "2026-11-12-점심": "169aa159",
   "2026-11-12-저녁": "dfbdda40",
   "2026-11-13-점심": "07e00f2a",
-  "2026-11-13-저녁": "c21b5ee9"
+  "2026-11-13-저녁": "c21b5ee9",
+  "2026-11-14-점심": "6456462d"
  },
  "picked_urls": [
   "6pm.com/product/9961271",
@@ -1594,14 +1675,10 @@
   "6pm.com/product/10006826",
   "nordstromrack.com/s/kate-spade-new-york-small-flap-crossbody-bag/8013651",
   "zappos.com/product/10057089",
-  "nordstromrack.com/s/marc-jacobs-drifterwork-hobo/9141229"
+  "nordstromrack.com/s/marc-jacobs-drifterwork-hobo/9141229",
+  "zappos.com/product/10055702"
  ],
  "runs": [
-  {
-   "at": "2026-11-10T07:58:04+09:00",
-   "updates": 3,
-   "errors": []
-  },
   {
    "at": "2026-11-10T09:10:04+09:00",
    "updates": 3,
@@ -1795,6 +1872,11 @@
   {
    "at": "2026-11-14T11:29:59+09:00",
    "updates": 2,
+   "errors": []
+  },
+  {
+   "at": "2026-11-14T11:49:45+09:00",
+   "updates": 0,
    "errors": []
   }
  ]
