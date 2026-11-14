@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T14:11:18.142608+00:00",
+  "generated_at": "2026-11-14T14:12:00.740582+00:00",
   "count": 91,
   "deals": [
     {
@@ -2685,7 +2685,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-14T13:31:29.054143+00:00",
-      "last_seen": "2026-11-14T13:31:53.623398+00:00",
+      "last_seen": "2026-11-14T14:11:59.456851+00:00",
       "posted_at": "",
       "signals": {},
       "id": "3eb6dbb5ef",
@@ -3269,71 +3269,6 @@
       ]
     },
     {
-      "source": "amazon.com",
-      "source_tier": "T1",
-      "url": "https://www.amazon.com/KRUPLH-Portable-Battery-Starter-Compressor/dp/B0HHRNP7T4",
-      "title": "KRUPLH Portable Car Battery Jump Starter with Air Compressor - 9000A 150PSI | 12V 9L Gas/8L Diesel, Auto-Off Tire Inflat",
-      "brand": "Diesel",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/814tEi25iFL._AC_SR255,340_.jpg",
-      "price_current": 65.98,
-      "price_list": 219.99,
-      "price_baseline": 219.99,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 88161,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/KRUPLH-Portable-Battery-Starter-Compressor/dp/B0HHRNP7T4",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-12T08:01:00.807980+00:00",
-      "last_seen": "2026-11-14T14:11:18.114770+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "32c2a038d2",
-      "history": [
-        [
-          "2026-11-12",
-          65.98
-        ],
-        [
-          "2026-11-13",
-          65.98
-        ],
-        [
-          "2026-11-14",
-          65.98
-        ]
-      ]
-    },
-    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/vince-camuto-zhury-jacquard-tote/8955764",
@@ -3379,7 +3314,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-12T08:11:16.085495+00:00",
-      "last_seen": "2026-11-14T13:31:53.623398+00:00",
+      "last_seen": "2026-11-14T14:11:59.456851+00:00",
       "posted_at": "",
       "signals": {},
       "id": "fa823bbb27",
@@ -3444,11 +3379,76 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-13T08:02:21.745336+00:00",
-      "last_seen": "2026-11-14T13:31:53.623398+00:00",
+      "last_seen": "2026-11-14T14:11:59.456851+00:00",
       "posted_at": "",
       "signals": {},
       "id": "4a238372c5",
       "history": [
+        [
+          "2026-11-13",
+          65.98
+        ],
+        [
+          "2026-11-14",
+          65.98
+        ]
+      ]
+    },
+    {
+      "source": "amazon.com",
+      "source_tier": "T1",
+      "url": "https://www.amazon.com/KRUPLH-Portable-Battery-Starter-Compressor/dp/B0HHRNP7T4",
+      "title": "KRUPLH Portable Car Battery Jump Starter with Air Compressor - 9000A 150PSI | 12V 9L Gas/8L Diesel, Auto-Off Tire Inflat",
+      "brand": "Diesel",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/814tEi25iFL._AC_SR255,340_.jpg",
+      "price_current": 65.98,
+      "price_list": 219.99,
+      "price_baseline": 219.99,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 88161,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/KRUPLH-Portable-Battery-Starter-Compressor/dp/B0HHRNP7T4",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-12T08:01:00.807980+00:00",
+      "last_seen": "2026-11-14T14:11:18.114770+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "32c2a038d2",
+      "history": [
+        [
+          "2026-11-12",
+          65.98
+        ],
         [
           "2026-11-13",
           65.98
@@ -3692,7 +3692,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-13T14:21:17.328011+00:00",
-      "last_seen": "2026-11-14T13:31:53.623398+00:00",
+      "last_seen": "2026-11-14T14:11:59.456851+00:00",
       "posted_at": "",
       "signals": {},
       "id": "629922e0ab",
@@ -3753,7 +3753,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-12T08:11:16.085495+00:00",
-      "last_seen": "2026-11-14T13:31:53.623398+00:00",
+      "last_seen": "2026-11-14T14:11:59.456851+00:00",
       "posted_at": "",
       "signals": {},
       "id": "d2665d4cb4",
@@ -3937,7 +3937,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-14T12:51:14.257452+00:00",
-      "last_seen": "2026-11-14T13:31:53.623398+00:00",
+      "last_seen": "2026-11-14T14:11:59.456851+00:00",
       "posted_at": "",
       "signals": {},
       "id": "2fecd223db",
@@ -3995,7 +3995,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-14T12:51:14.257452+00:00",
-      "last_seen": "2026-11-14T13:31:53.623398+00:00",
+      "last_seen": "2026-11-14T14:11:59.456851+00:00",
       "posted_at": "",
       "signals": {},
       "id": "246f297fdf",
@@ -4052,8 +4052,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-14T13:31:28.837542+00:00",
-      "last_seen": "2026-11-14T13:31:53.623398+00:00",
+      "detected_at": "2026-11-14T14:11:38.909350+00:00",
+      "last_seen": "2026-11-14T14:11:59.456851+00:00",
       "posted_at": "",
       "signals": {},
       "id": "b64e36004d",
@@ -5872,7 +5872,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-06T06:01:24.333657+00:00",
-      "last_seen": "2026-11-14T13:31:53.623398+00:00",
+      "last_seen": "2026-11-14T14:11:59.456851+00:00",
       "posted_at": "",
       "signals": {},
       "id": "d625f6d89c",
@@ -5908,12 +5908,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-14T14:10:29+00:00",
-      "T2": "2026-11-14T13:31:20+00:00",
+      "T2": "2026-11-14T14:11:19+00:00",
       "T3": "2026-11-14T13:01:17+00:00",
       "T4": "2026-11-14T08:41:48+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       10,
       1,
@@ -5942,14 +5941,15 @@
       9,
       10,
       10,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-14T14:11:17+00:00",
+      "at": "2026-11-14T14:11:59+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -5958,7 +5958,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-14T14:11:17+00:00"
+      "at": "2026-11-14T14:11:59+00:00"
     }
   },
   "email_monitor": {
