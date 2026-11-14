@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T00:01:18.421752+00:00",
+  "generated_at": "2026-11-14T00:02:51.835819+00:00",
   "count": 120,
   "deals": [
     {
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-07T18:43:06.158254+00:00",
-      "last_seen": "2026-11-13T21:52:52.418740+00:00",
+      "last_seen": "2026-11-14T00:02:51.271911+00:00",
       "posted_at": "",
       "signals": {},
       "id": "d284c95219",
@@ -78,6 +78,10 @@
         ],
         [
           "2026-11-13",
+          43.8
+        ],
+        [
+          "2026-11-14",
           43.8
         ]
       ]
@@ -648,7 +652,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-06T19:12:23.752724+00:00",
-      "last_seen": "2026-11-13T21:52:52.418740+00:00",
+      "last_seen": "2026-11-14T00:02:51.271911+00:00",
       "posted_at": "",
       "signals": {},
       "id": "2b831164ce",
@@ -683,6 +687,10 @@
         ],
         [
           "2026-11-13",
+          23.0
+        ],
+        [
+          "2026-11-14",
           23.0
         ]
       ]
@@ -1108,7 +1116,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-07T18:43:06.158254+00:00",
-      "last_seen": "2026-11-13T21:52:52.418740+00:00",
+      "last_seen": "2026-11-14T00:02:51.271911+00:00",
       "posted_at": "",
       "signals": {},
       "id": "e9ff77cd38",
@@ -1135,6 +1143,10 @@
         ],
         [
           "2026-11-13",
+          24.97
+        ],
+        [
+          "2026-11-14",
           24.97
         ]
       ]
@@ -1249,13 +1261,17 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-13T17:32:33.118976+00:00",
-      "last_seen": "2026-11-13T19:42:13.584385+00:00",
+      "last_seen": "2026-11-14T00:02:51.271911+00:00",
       "posted_at": "",
       "signals": {},
       "id": "f0c8ac5fde",
       "history": [
         [
           "2026-11-13",
+          49.8
+        ],
+        [
+          "2026-11-14",
           49.8
         ]
       ]
@@ -1448,6 +1464,82 @@
         [
           "2026-11-12",
           30.91
+        ]
+      ]
+    },
+    {
+      "source": "6pm.com",
+      "source_tier": "T3",
+      "url": "https://www.6pm.com/product/9469700",
+      "title": "B. Racer (Infant/Toddler)",
+      "brand": "Tsukihoshi Kids",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/61osDeesucL._AC_SR255,340_.jpg",
+      "price_current": 11.99,
+      "price_list": 59.95,
+      "price_baseline": 59.95,
+      "price_alltime_low": 11.99,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": 5.0,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 15997,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.6pm.com/product/9469700",
+      "discount_pct": 80.0,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": 25,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-09T11:51:39.833973+00:00",
+      "last_seen": "2026-11-14T00:02:51.271911+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "d0994e3766",
+      "history": [
+        [
+          "2026-11-09",
+          11.99
+        ],
+        [
+          "2026-11-10",
+          11.99
+        ],
+        [
+          "2026-11-11",
+          11.99
+        ],
+        [
+          "2026-11-12",
+          11.99
+        ],
+        [
+          "2026-11-13",
+          11.99
+        ],
+        [
+          "2026-11-14",
+          11.99
         ]
       ]
     },
@@ -1676,78 +1768,6 @@
         [
           "2026-11-14",
           27.0
-        ]
-      ]
-    },
-    {
-      "source": "6pm.com",
-      "source_tier": "T3",
-      "url": "https://www.6pm.com/product/9469700",
-      "title": "B. Racer (Infant/Toddler)",
-      "brand": "Tsukihoshi Kids",
-      "category": "electronics",
-      "image": "https://m.media-amazon.com/images/I/61osDeesucL._AC_SR255,340_.jpg",
-      "price_current": 11.99,
-      "price_list": 59.95,
-      "price_baseline": 59.95,
-      "price_alltime_low": 11.99,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": 5.0,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 15997,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.6pm.com/product/9469700",
-      "discount_pct": 80.0,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": 25,
-        "category": 15,
-        "bonus": 0,
-        "brand": 0
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-09T11:51:39.833973+00:00",
-      "last_seen": "2026-11-13T21:52:52.418740+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "d0994e3766",
-      "history": [
-        [
-          "2026-11-09",
-          11.99
-        ],
-        [
-          "2026-11-10",
-          11.99
-        ],
-        [
-          "2026-11-11",
-          11.99
-        ],
-        [
-          "2026-11-12",
-          11.99
-        ],
-        [
-          "2026-11-13",
-          11.99
         ]
       ]
     },
@@ -3825,7 +3845,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-04T21:42:29.026098+00:00",
-      "last_seen": "2026-11-13T21:52:52.418740+00:00",
+      "last_seen": "2026-11-14T00:02:51.271911+00:00",
       "posted_at": "",
       "signals": {},
       "id": "aa1a18e37f",
@@ -3868,6 +3888,10 @@
         ],
         [
           "2026-11-13",
+          15.0
+        ],
+        [
+          "2026-11-14",
           15.0
         ]
       ]
@@ -3918,13 +3942,17 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-13T17:32:33.118976+00:00",
-      "last_seen": "2026-11-13T21:52:52.418740+00:00",
+      "last_seen": "2026-11-14T00:02:51.271911+00:00",
       "posted_at": "",
       "signals": {},
       "id": "805e5e4b32",
       "history": [
         [
           "2026-11-13",
+          15.8
+        ],
+        [
+          "2026-11-14",
           15.8
         ]
       ]
@@ -4044,6 +4072,132 @@
       ]
     },
     {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/vince-camuto-zhury-jacquard-tote/8955764",
+      "title": "Zhury Jacquard Tote",
+      "brand": "Vince Camuto",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/547765d4-cb16-4894-aaae-ea2b4b1c5058.jpeg?h=368&w=240&dpr=2",
+      "price_current": 58.48,
+      "price_list": 158.0,
+      "price_baseline": 158.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 78023,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/vince-camuto-zhury-jacquard-tote/8955764",
+      "discount_pct": 63.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-12T08:11:16.085495+00:00",
+      "last_seen": "2026-11-14T00:01:52.837381+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "fa823bbb27",
+      "history": [
+        [
+          "2026-11-12",
+          58.48
+        ],
+        [
+          "2026-11-13",
+          58.48
+        ],
+        [
+          "2026-11-14",
+          58.48
+        ]
+      ]
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/sam-edelman-paige-bootie-women/7776817",
+      "title": "Paige Bootie",
+      "brand": "Sam Edelman",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/543c1b9b-1f3c-44b4-a54b-68878badb1f4.jpeg?h=368&w=240&dpr=2",
+      "price_current": 65.98,
+      "price_list": 180.0,
+      "price_baseline": 180.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 88029,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/sam-edelman-paige-bootie-women/7776817",
+      "discount_pct": 63.3,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-13T08:02:21.745336+00:00",
+      "last_seen": "2026-11-14T00:01:52.837381+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "4a238372c5",
+      "history": [
+        [
+          "2026-11-13",
+          65.98
+        ],
+        [
+          "2026-11-14",
+          65.98
+        ]
+      ]
+    },
+    {
       "source": "amazon.com",
       "source_tier": "T1",
       "url": "https://www.amazon.com/KRUPLH-Portable-Battery-Starter-Compressor/dp/B0HHRNP7T4",
@@ -4104,124 +4258,6 @@
         ],
         [
           "2026-11-14",
-          65.98
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/vince-camuto-zhury-jacquard-tote/8955764",
-      "title": "Zhury Jacquard Tote",
-      "brand": "Vince Camuto",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/547765d4-cb16-4894-aaae-ea2b4b1c5058.jpeg?h=368&w=240&dpr=2",
-      "price_current": 58.48,
-      "price_list": 158.0,
-      "price_baseline": 158.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 78023,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/vince-camuto-zhury-jacquard-tote/8955764",
-      "discount_pct": 63.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-12T08:11:16.085495+00:00",
-      "last_seen": "2026-11-13T23:21:48.286089+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "fa823bbb27",
-      "history": [
-        [
-          "2026-11-12",
-          58.48
-        ],
-        [
-          "2026-11-13",
-          58.48
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/sam-edelman-paige-bootie-women/7776817",
-      "title": "Paige Bootie",
-      "brand": "Sam Edelman",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/543c1b9b-1f3c-44b4-a54b-68878badb1f4.jpeg?h=368&w=240&dpr=2",
-      "price_current": 65.98,
-      "price_list": 180.0,
-      "price_baseline": 180.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 88029,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/sam-edelman-paige-bootie-women/7776817",
-      "discount_pct": 63.3,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-13T08:02:21.745336+00:00",
-      "last_seen": "2026-11-13T23:21:48.286089+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "4a238372c5",
-      "history": [
-        [
-          "2026-11-13",
           65.98
         ]
       ]
@@ -4557,67 +4593,6 @@
     {
       "source": "nordstromrack.com",
       "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/champion-sweatshirt-cargo-joggers-set/9013118",
-      "title": "Sweatshirt & Cargo Joggers Set",
-      "brand": "Champion",
-      "category": "sports_outdoor",
-      "image": "https://n.nordstrommedia.com/it/3de7ea18-401a-45e3-91f8-98d5ac2cc512.jpeg?h=368&w=240&dpr=2",
-      "price_current": 9.73,
-      "price_list": 34.0,
-      "price_baseline": 34.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 12982,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/champion-sweatshirt-cargo-joggers-set/9013118",
-      "discount_pct": 71.4,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-12T08:11:16.085495+00:00",
-      "last_seen": "2026-11-13T23:21:48.286089+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "d2665d4cb4",
-      "history": [
-        [
-          "2026-11-12",
-          9.73
-        ],
-        [
-          "2026-11-13",
-          9.73
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/vans-old-skool/9230401",
       "title": "Old Skool Sneaker",
       "brand": "Vans Old Skool",
@@ -4661,7 +4636,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-13T14:21:17.328011+00:00",
-      "last_seen": "2026-11-13T23:21:48.286089+00:00",
+      "last_seen": "2026-11-14T00:01:52.837381+00:00",
       "posted_at": "",
       "signals": {},
       "id": "629922e0ab",
@@ -4669,6 +4644,75 @@
         [
           "2026-11-13",
           22.73
+        ],
+        [
+          "2026-11-14",
+          22.73
+        ]
+      ]
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/champion-sweatshirt-cargo-joggers-set/9013118",
+      "title": "Sweatshirt & Cargo Joggers Set",
+      "brand": "Champion",
+      "category": "sports_outdoor",
+      "image": "https://n.nordstrommedia.com/it/3de7ea18-401a-45e3-91f8-98d5ac2cc512.jpeg?h=368&w=240&dpr=2",
+      "price_current": 9.73,
+      "price_list": 34.0,
+      "price_baseline": 34.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 12982,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/champion-sweatshirt-cargo-joggers-set/9013118",
+      "discount_pct": 71.4,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-12T08:11:16.085495+00:00",
+      "last_seen": "2026-11-14T00:01:52.837381+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "d2665d4cb4",
+      "history": [
+        [
+          "2026-11-12",
+          9.73
+        ],
+        [
+          "2026-11-13",
+          9.73
+        ],
+        [
+          "2026-11-14",
+          9.73
         ]
       ]
     },
@@ -4954,8 +4998,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-13T23:21:27.418291+00:00",
-      "last_seen": "2026-11-13T23:21:48.286089+00:00",
+      "detected_at": "2026-11-14T00:01:31.054479+00:00",
+      "last_seen": "2026-11-14T00:01:52.837381+00:00",
       "posted_at": "",
       "signals": {},
       "id": "54c3034bae",
@@ -5007,8 +5051,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-13T23:21:27.420843+00:00",
-      "last_seen": "2026-11-13T23:21:48.286089+00:00",
+      "detected_at": "2026-11-14T00:01:31.060082+00:00",
+      "last_seen": "2026-11-14T00:01:52.837381+00:00",
       "posted_at": "",
       "signals": {},
       "id": "d4a5a7050d",
@@ -5060,8 +5104,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-13T23:21:27.425021+00:00",
-      "last_seen": "2026-11-13T23:21:48.286089+00:00",
+      "detected_at": "2026-11-14T00:01:31.062587+00:00",
+      "last_seen": "2026-11-14T00:01:52.837381+00:00",
       "posted_at": "",
       "signals": {},
       "id": "4811a6a8a4",
@@ -7632,13 +7676,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-14T00:00:42+00:00",
-      "T2": "2026-11-13T23:21:13+00:00",
-      "T3": "2026-11-13T21:51:33+00:00",
+      "T2": "2026-11-14T00:01:19+00:00",
+      "T3": "2026-11-14T00:01:54+00:00",
       "T4": "2026-11-13T20:21:03+00:00"
     },
     "recent_gaps_min": [
-      9,
-      3,
       7,
       10,
       1,
@@ -7666,14 +7708,16 @@
       9,
       10,
       10,
-      10
+      10,
+      1,
+      1
     ],
     "naver": {
       "keys": true,
-      "queried": 25,
+      "queried": 50,
       "matched": 0,
-      "errors": 25,
-      "at": "2026-11-14T00:01:18+00:00",
+      "errors": 50,
+      "at": "2026-11-14T00:02:51+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -7682,7 +7726,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-14T00:01:18+00:00"
+      "at": "2026-11-14T00:01:52+00:00"
     }
   },
   "email_monitor": {
