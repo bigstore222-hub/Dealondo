@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T10:51:08.243783+00:00",
+  "generated_at": "2026-11-14T10:52:31.432427+00:00",
   "count": 91,
   "deals": [
     {
@@ -47,7 +47,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-07T18:43:06.158254+00:00",
-      "last_seen": "2026-11-14T08:41:48.350565+00:00",
+      "last_seen": "2026-11-14T10:52:31.407222+00:00",
       "posted_at": "",
       "signals": {},
       "id": "d284c95219",
@@ -496,7 +496,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-06T19:12:23.752724+00:00",
-      "last_seen": "2026-11-14T08:41:48.350565+00:00",
+      "last_seen": "2026-11-14T10:52:31.407222+00:00",
       "posted_at": "",
       "signals": {},
       "id": "2b831164ce",
@@ -904,7 +904,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-07T18:43:06.158254+00:00",
-      "last_seen": "2026-11-14T08:41:48.350565+00:00",
+      "last_seen": "2026-11-14T10:52:31.407222+00:00",
       "posted_at": "",
       "signals": {},
       "id": "e9ff77cd38",
@@ -1006,6 +1006,67 @@
     {
       "source": "6pm.com",
       "source_tier": "T3",
+      "url": "https://www.6pm.com/product/10055724",
+      "title": "Noor Dress",
+      "brand": "AllSaints",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/71CPRFZ7NLL._AC_SR255,340_.jpg",
+      "price_current": 69.8,
+      "price_list": 349.0,
+      "price_baseline": 349.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 93265,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.6pm.com/product/10055724",
+      "discount_pct": 80.0,
+      "score": 83,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-13T19:41:52.496431+00:00",
+      "last_seen": "2026-11-14T10:52:31.407222+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "b42b0fdd4d",
+      "history": [
+        [
+          "2026-11-13",
+          69.8
+        ],
+        [
+          "2026-11-14",
+          69.8
+        ]
+      ]
+    },
+    {
+      "source": "6pm.com",
+      "source_tier": "T3",
       "url": "https://www.6pm.com/product/10041999",
       "title": "Jax Skirt",
       "brand": "AllSaints",
@@ -1067,26 +1128,26 @@
     {
       "source": "6pm.com",
       "source_tier": "T3",
-      "url": "https://www.6pm.com/product/10055724",
-      "title": "Noor Dress",
-      "brand": "AllSaints",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/71CPRFZ7NLL._AC_SR255,340_.jpg",
-      "price_current": 69.8,
-      "price_list": 349.0,
-      "price_baseline": 349.0,
-      "price_alltime_low": null,
+      "url": "https://www.6pm.com/product/9469700",
+      "title": "B. Racer (Infant/Toddler)",
+      "brand": "Tsukihoshi Kids",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/61osDeesucL._AC_SR255,340_.jpg",
+      "price_current": 11.99,
+      "price_list": 59.95,
+      "price_baseline": 59.95,
+      "price_alltime_low": 11.99,
       "currency": "USD",
       "coupon_code": "",
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
       "community_votes": null,
-      "rating": null,
+      "rating": 5.0,
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 93265,
+      "krw_effective": 16021,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -1094,34 +1155,49 @@
       "collection_method": "scrape",
       "frontpage": false,
       "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.6pm.com/product/10055724",
+      "brand_tier": "",
+      "buy_url": "https://www.6pm.com/product/9469700",
       "discount_pct": 80.0,
-      "score": 83,
+      "score": 80,
       "score_breakdown": {
         "discount_depth": 40,
-        "price_history": null,
-        "category": 20,
+        "price_history": 25,
+        "category": 15,
         "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
+        "brand": 0
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-11-13T19:41:52.496431+00:00",
-      "last_seen": "2026-11-14T04:23:19.541884+00:00",
+      "detected_at": "2026-11-09T11:51:39.833973+00:00",
+      "last_seen": "2026-11-14T10:52:31.407222+00:00",
       "posted_at": "",
       "signals": {},
-      "id": "b42b0fdd4d",
+      "id": "d0994e3766",
       "history": [
         [
+          "2026-11-09",
+          11.99
+        ],
+        [
+          "2026-11-10",
+          11.99
+        ],
+        [
+          "2026-11-11",
+          11.99
+        ],
+        [
+          "2026-11-12",
+          11.99
+        ],
+        [
           "2026-11-13",
-          69.8
+          11.99
         ],
         [
           "2026-11-14",
-          69.8
+          11.99
         ]
       ]
     },
@@ -1482,82 +1558,6 @@
         [
           "2026-11-14",
           7.0
-        ]
-      ]
-    },
-    {
-      "source": "6pm.com",
-      "source_tier": "T3",
-      "url": "https://www.6pm.com/product/9469700",
-      "title": "B. Racer (Infant/Toddler)",
-      "brand": "Tsukihoshi Kids",
-      "category": "electronics",
-      "image": "https://m.media-amazon.com/images/I/61osDeesucL._AC_SR255,340_.jpg",
-      "price_current": 11.99,
-      "price_list": 59.95,
-      "price_baseline": 59.95,
-      "price_alltime_low": 11.99,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": 5.0,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 16021,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.6pm.com/product/9469700",
-      "discount_pct": 80.0,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": 25,
-        "category": 15,
-        "bonus": 0,
-        "brand": 0
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-09T11:51:39.833973+00:00",
-      "last_seen": "2026-11-14T08:41:48.350565+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "d0994e3766",
-      "history": [
-        [
-          "2026-11-09",
-          11.99
-        ],
-        [
-          "2026-11-10",
-          11.99
-        ],
-        [
-          "2026-11-11",
-          11.99
-        ],
-        [
-          "2026-11-12",
-          11.99
-        ],
-        [
-          "2026-11-13",
-          11.99
-        ],
-        [
-          "2026-11-14",
-          11.99
         ]
       ]
     },
@@ -2722,6 +2722,67 @@
     {
       "source": "zappos.com",
       "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10064310",
+      "title": "Two-Tone Linen-Blend Twill Blazer",
+      "brand": "Lauren Ralph Lauren",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/81sbZqBKgDL._AC_SR255,340_.jpg",
+      "price_current": 88.5,
+      "price_list": 295.0,
+      "price_baseline": 295.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 118252,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.zappos.com/product/10064310",
+      "discount_pct": 70.0,
+      "score": 71,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-12T14:31:29.282151+00:00",
+      "last_seen": "2026-11-14T10:51:41.437493+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "bfe9ba9868",
+      "history": [
+        [
+          "2026-11-12",
+          88.5
+        ],
+        [
+          "2026-11-14",
+          88.5
+        ]
+      ]
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
       "url": "https://www.zappos.com/product/10026680",
       "title": "Benni Shearling Mule",
       "brand": "Stuart Weitzman",
@@ -3017,63 +3078,6 @@
       ]
     },
     {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10064310",
-      "title": "Two-Tone Linen-Blend Twill Blazer",
-      "brand": "Lauren Ralph Lauren",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/81sbZqBKgDL._AC_SR255,340_.jpg",
-      "price_current": 88.5,
-      "price_list": 295.0,
-      "price_baseline": 295.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 118289,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.zappos.com/product/10064310",
-      "discount_pct": 70.0,
-      "score": 71,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-12T14:31:29.282151+00:00",
-      "last_seen": "2026-11-12T14:31:47.419812+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "bfe9ba9868",
-      "history": [
-        [
-          "2026-11-12",
-          88.5
-        ]
-      ]
-    },
-    {
       "source": "ashford.com",
       "source_tier": "T3",
       "url": "https://www.ashford.com/products/stella-mccartney-sc5013ik-042-44",
@@ -3118,7 +3122,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-04T21:42:29.026098+00:00",
-      "last_seen": "2026-11-14T08:41:48.350565+00:00",
+      "last_seen": "2026-11-14T10:52:31.407222+00:00",
       "posted_at": "",
       "signals": {},
       "id": "aa1a18e37f",
@@ -3215,7 +3219,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-13T17:32:33.118976+00:00",
-      "last_seen": "2026-11-14T08:41:48.350565+00:00",
+      "last_seen": "2026-11-14T10:52:31.407222+00:00",
       "posted_at": "",
       "signals": {},
       "id": "805e5e4b32",
@@ -3288,71 +3292,6 @@
       ]
     },
     {
-      "source": "amazon.com",
-      "source_tier": "T1",
-      "url": "https://www.amazon.com/KRUPLH-Portable-Battery-Starter-Compressor/dp/B0HHRNP7T4",
-      "title": "KRUPLH Portable Car Battery Jump Starter with Air Compressor - 9000A 150PSI | 12V 9L Gas/8L Diesel, Auto-Off Tire Inflat",
-      "brand": "Diesel",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/814tEi25iFL._AC_SR255,340_.jpg",
-      "price_current": 65.98,
-      "price_list": 219.99,
-      "price_baseline": 219.99,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 88161,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/KRUPLH-Portable-Battery-Starter-Compressor/dp/B0HHRNP7T4",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-12T08:01:00.807980+00:00",
-      "last_seen": "2026-11-14T10:51:08.224435+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "32c2a038d2",
-      "history": [
-        [
-          "2026-11-12",
-          65.98
-        ],
-        [
-          "2026-11-13",
-          65.98
-        ],
-        [
-          "2026-11-14",
-          65.98
-        ]
-      ]
-    },
-    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/vince-camuto-zhury-jacquard-tote/8955764",
@@ -3398,7 +3337,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-12T08:11:16.085495+00:00",
-      "last_seen": "2026-11-14T10:11:35.780509+00:00",
+      "last_seen": "2026-11-14T10:51:41.437493+00:00",
       "posted_at": "",
       "signals": {},
       "id": "fa823bbb27",
@@ -3463,11 +3402,76 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-13T08:02:21.745336+00:00",
-      "last_seen": "2026-11-14T08:51:34.909730+00:00",
+      "last_seen": "2026-11-14T10:51:41.437493+00:00",
       "posted_at": "",
       "signals": {},
       "id": "4a238372c5",
       "history": [
+        [
+          "2026-11-13",
+          65.98
+        ],
+        [
+          "2026-11-14",
+          65.98
+        ]
+      ]
+    },
+    {
+      "source": "amazon.com",
+      "source_tier": "T1",
+      "url": "https://www.amazon.com/KRUPLH-Portable-Battery-Starter-Compressor/dp/B0HHRNP7T4",
+      "title": "KRUPLH Portable Car Battery Jump Starter with Air Compressor - 9000A 150PSI | 12V 9L Gas/8L Diesel, Auto-Off Tire Inflat",
+      "brand": "Diesel",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/814tEi25iFL._AC_SR255,340_.jpg",
+      "price_current": 65.98,
+      "price_list": 219.99,
+      "price_baseline": 219.99,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 88161,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/KRUPLH-Portable-Battery-Starter-Compressor/dp/B0HHRNP7T4",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-12T08:01:00.807980+00:00",
+      "last_seen": "2026-11-14T10:51:08.224435+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "32c2a038d2",
+      "history": [
+        [
+          "2026-11-12",
+          65.98
+        ],
         [
           "2026-11-13",
           65.98
@@ -3711,7 +3715,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-13T14:21:17.328011+00:00",
-      "last_seen": "2026-11-14T10:11:35.780509+00:00",
+      "last_seen": "2026-11-14T10:51:41.437493+00:00",
       "posted_at": "",
       "signals": {},
       "id": "629922e0ab",
@@ -3772,7 +3776,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-12T08:11:16.085495+00:00",
-      "last_seen": "2026-11-14T08:51:34.909730+00:00",
+      "last_seen": "2026-11-14T10:51:41.437493+00:00",
       "posted_at": "",
       "signals": {},
       "id": "d2665d4cb4",
@@ -3955,8 +3959,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-14T10:11:09.936728+00:00",
-      "last_seen": "2026-11-14T10:11:35.780509+00:00",
+      "detected_at": "2026-11-14T10:51:21.537577+00:00",
+      "last_seen": "2026-11-14T10:51:41.437493+00:00",
       "posted_at": "",
       "signals": {},
       "id": "54c3034bae",
@@ -5893,7 +5897,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-06T06:01:24.333657+00:00",
-      "last_seen": "2026-11-14T10:11:35.780509+00:00",
+      "last_seen": "2026-11-14T10:51:41.437493+00:00",
       "posted_at": "",
       "signals": {},
       "id": "d625f6d89c",
@@ -5929,13 +5933,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-14T10:50:40+00:00",
-      "T2": "2026-11-14T10:11:00+00:00",
-      "T3": "2026-11-14T08:41:01+00:00",
+      "T2": "2026-11-14T10:51:09+00:00",
+      "T3": "2026-11-14T10:51:42+00:00",
       "T4": "2026-11-14T08:41:48+00:00"
     },
     "recent_gaps_min": [
-      10,
-      10,
       10,
       1,
       9,
@@ -5963,14 +5965,16 @@
       10,
       10,
       10,
-      10
+      10,
+      1,
+      1
     ],
     "naver": {
       "keys": true,
-      "queried": 25,
+      "queried": 50,
       "matched": 0,
-      "errors": 25,
-      "at": "2026-11-14T10:51:08+00:00",
+      "errors": 50,
+      "at": "2026-11-14T10:52:31+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -5979,7 +5983,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-14T10:51:08+00:00"
+      "at": "2026-11-14T10:51:41+00:00"
     }
   },
   "email_monitor": {
