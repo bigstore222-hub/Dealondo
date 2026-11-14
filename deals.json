@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T11:11:00.238242+00:00",
+  "generated_at": "2026-11-14T11:21:05.537462+00:00",
   "count": 91,
   "deals": [
     {
@@ -267,23 +267,23 @@
         "bonus": 0,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 25표/35분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 25표/45분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-13T12:02:34.734161+00:00",
-      "last_seen": "2026-11-14T11:10:58.802198+00:00",
+      "last_seen": "2026-11-14T11:21:05.518153+00:00",
       "posted_at": "2026-11-14T10:35:54+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 35,
+        "sd_age_min": 45,
         "sd_votes": 25,
-        "sd_velocity": 43.3,
+        "sd_velocity": 33.5,
         "sd_fp_min": 25
       },
       "id": "2d0c9b778c",
@@ -295,78 +295,6 @@
         [
           "2026-11-14",
           22.1
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20305686",
-      "title": "Anbernic RG28XX 2.83\" Retro Game Handheld (3 Colors) $33.45 + Free S&H",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/6/7/7/8/5/5/300x300/22344489.thumb",
-      "price_current": 33.45,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "USAFF6",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 24,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 44695,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20305686",
-      "discount_pct": null,
-      "score": 92,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 24표/39분 → 하한 86",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-13T21:20:48.359775+00:00",
-      "last_seen": "2026-11-14T11:10:58.802198+00:00",
-      "posted_at": "2026-11-14T10:31:23+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_hot_origin": true,
-        "sd_age_min": 39,
-        "sd_votes": 24,
-        "sd_velocity": 36.7,
-        "sd_fp_min": 30
-      },
-      "id": "f1a7ba73c1",
-      "history": [
-        [
-          "2026-11-13",
-          33.43
-        ],
-        [
-          "2026-11-14",
-          33.45
         ]
       ]
     },
@@ -1272,6 +1200,78 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20305686",
+      "title": "Anbernic RG28XX 2.83\" Retro Game Handheld (3 Colors) $33.45 + Free S&H",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/6/7/7/8/5/5/300x300/22344489.thumb",
+      "price_current": 33.45,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "USAFF6",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 24,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 44695,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20305686",
+      "discount_pct": null,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 24표/49분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-13T21:20:48.359775+00:00",
+      "last_seen": "2026-11-14T11:21:05.518153+00:00",
+      "posted_at": "2026-11-14T10:31:23+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_hot_origin": true,
+        "sd_age_min": 49,
+        "sd_votes": 24,
+        "sd_velocity": 29.2,
+        "sd_fp_min": 30
+      },
+      "id": "f1a7ba73c1",
+      "history": [
+        [
+          "2026-11-13",
+          33.43
+        ],
+        [
+          "2026-11-14",
+          33.45
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
       "url": "https://slickdeals.net/f/20302674",
       "title": "2-Pk 6' ABCCANOPY Stretch Spandex Table Covers (Black) $9.10",
       "brand": "",
@@ -1310,23 +1310,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 18표/74분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 18표/84분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-13T12:02:34.734161+00:00",
-      "last_seen": "2026-11-14T11:10:58.802198+00:00",
+      "last_seen": "2026-11-14T11:21:05.518153+00:00",
       "posted_at": "2026-11-14T09:56:32+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 74,
+        "sd_age_min": 84,
         "sd_votes": 18,
-        "sd_velocity": 14.6,
+        "sd_velocity": 12.8,
         "sd_fp_min": 14
       },
       "id": "c736e2ec21",
@@ -1382,23 +1382,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 34표/146분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 34표/156분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-13T16:10:45.546140+00:00",
-      "last_seen": "2026-11-14T11:10:58.802198+00:00",
+      "last_seen": "2026-11-14T11:21:05.518153+00:00",
       "posted_at": "2026-11-14T08:44:15+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 146,
+        "sd_age_min": 156,
         "sd_votes": 34,
-        "sd_velocity": 13.9,
+        "sd_velocity": 13.0,
         "sd_fp_min": 26
       },
       "id": "d2cb161410",
@@ -2604,7 +2604,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-12T21:31:17.769643+00:00",
-      "last_seen": "2026-11-14T11:10:58.802198+00:00",
+      "last_seen": "2026-11-14T11:21:05.518153+00:00",
       "posted_at": "",
       "signals": {},
       "id": "f1c461a933",
@@ -3337,7 +3337,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-12T08:01:00.807980+00:00",
-      "last_seen": "2026-11-14T11:10:58.802198+00:00",
+      "last_seen": "2026-11-14T11:21:05.518153+00:00",
       "posted_at": "",
       "signals": {},
       "id": "32c2a038d2",
@@ -5932,7 +5932,7 @@
   "fx_usd_krw": 1336.2,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-14T11:10:26+00:00",
+      "T1": "2026-11-14T11:20:27+00:00",
       "T2": "2026-11-14T10:51:09+00:00",
       "T3": "2026-11-14T10:51:42+00:00",
       "T4": "2026-11-14T08:41:48+00:00"
@@ -5966,6 +5966,7 @@
       1,
       1,
       9,
+      10,
       10
     ],
     "naver": {
@@ -5973,7 +5974,7 @@
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-14T11:10:58+00:00",
+      "at": "2026-11-14T11:21:05+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -5982,16 +5983,16 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-14T11:10:58+00:00"
+      "at": "2026-11-14T11:21:05+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-14T11:10:34+00:00",
+        "at": "2026-11-14T11:20:41+00:00",
         "state": "정상",
-        "mails": 11,
-        "deals": 11
+        "mails": 12,
+        "deals": 12
       },
       "newsletter": {
         "at": "2026-11-14T08:44:30+00:00",
@@ -6001,6 +6002,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20301618",
+        "source": "slickdeals:bestbuy.com",
+        "title": "Energizer 3-in-1 15W Qi Certified Wireless Fast Charging Station for $13 at Best Buy",
+        "price": 13.0,
+        "list_price": 39.99,
+        "discount_pct": 67.5,
+        "krw": 17370,
+        "kr_lowest": null,
+        "score": 53,
+        "published": true,
+        "reject_reason": "",
+        "first_seen": "2026-11-14T11:21:05+00:00",
+        "last_seen": "2026-11-14T11:21:05+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20306292",
         "source": "slickdeals:amazon.com",
@@ -6014,7 +6030,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-14T11:01:20+00:00",
-        "last_seen": "2026-11-14T11:10:58+00:00"
+        "last_seen": "2026-11-14T11:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20296662",
@@ -6029,7 +6045,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-14T07:01:14+00:00",
-        "last_seen": "2026-11-14T11:10:58+00:00"
+        "last_seen": "2026-11-14T11:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20305125",
@@ -6044,7 +6060,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-14T06:50:58+00:00",
-        "last_seen": "2026-11-14T11:10:58+00:00"
+        "last_seen": "2026-11-14T11:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20298213",
@@ -6059,7 +6075,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-14T06:50:58+00:00",
-        "last_seen": "2026-11-14T11:10:58+00:00"
+        "last_seen": "2026-11-14T11:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20305113",
@@ -6074,7 +6090,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-14T02:51:09+00:00",
-        "last_seen": "2026-11-14T11:10:58+00:00"
+        "last_seen": "2026-11-14T11:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20298765",
@@ -6089,7 +6105,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-14T02:40:56+00:00",
-        "last_seen": "2026-11-14T11:10:58+00:00"
+        "last_seen": "2026-11-14T11:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20295420",
@@ -6119,7 +6135,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-13T22:31:19+00:00",
-        "last_seen": "2026-11-14T11:10:58+00:00"
+        "last_seen": "2026-11-14T11:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20298843",
@@ -6224,7 +6240,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-13T16:41:15+00:00",
-        "last_seen": "2026-11-14T11:10:58+00:00"
+        "last_seen": "2026-11-14T11:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20302335",
@@ -6389,7 +6405,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-13T06:01:11+00:00",
-        "last_seen": "2026-11-14T11:10:58+00:00"
+        "last_seen": "2026-11-14T11:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20296239",
@@ -6554,7 +6570,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 30% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-12T23:51:00+00:00",
-        "last_seen": "2026-11-14T11:10:58+00:00"
+        "last_seen": "2026-11-14T11:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20296632",
@@ -6599,7 +6615,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-12T21:41:05+00:00",
-        "last_seen": "2026-11-14T11:10:58+00:00"
+        "last_seen": "2026-11-14T11:21:05+00:00"
       },
       {
         "url": "https://click.email.bloomingdales.com/",
@@ -7020,26 +7036,11 @@
         "reject_reason": "",
         "first_seen": "2026-11-11T12:01:24+00:00",
         "last_seen": "2026-11-12T23:51:00+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20283117",
-        "source": "slickdeals:amazon.com",
-        "title": "2-Pk Tapo Smart Energy 2.4G WiFi 15A Monitoring Matter Compatible Plug for $15 at Amazon",
-        "price": 15.0,
-        "list_price": 23.99,
-        "discount_pct": 37.5,
-        "krw": 20125,
-        "kr_lowest": null,
-        "score": 37,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-11-11T11:11:01+00:00",
-        "last_seen": "2026-11-12T00:51:10+00:00"
       }
     ],
     "totals": {
       "collected_72h": 69,
-      "published_72h": 18
+      "published_72h": 19
     }
   }
 }
