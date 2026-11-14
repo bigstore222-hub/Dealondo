@@ -1,7 +1,71 @@
 {
-  "generated_at": "2026-11-14T05:01:28.099553+00:00",
+  "generated_at": "2026-11-14T05:02:13.502031+00:00",
   "count": 110,
   "deals": [
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/vince-oasis-sneaker-women/8431332",
+      "title": "Oasis Sneaker",
+      "brand": "Vince",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/79780874-82ad-40c4-8407-1d3d68e06c83.jpeg?h=368&w=240&dpr=2",
+      "price_current": 48.98,
+      "price_list": 275.0,
+      "price_baseline": 275.0,
+      "price_alltime_low": 48.98,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 65446,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.nordstromrack.com/s/vince-oasis-sneaker-women/8431332",
+      "discount_pct": 82.2,
+      "score": 97,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-09T04:12:53.193122+00:00",
+      "last_seen": "2026-11-14T05:02:10.037549+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "a0f8d7fcb7",
+      "history": [
+        [
+          "2026-11-09",
+          52.48
+        ],
+        [
+          "2026-11-12",
+          129.97
+        ],
+        [
+          "2026-11-14",
+          48.98
+        ]
+      ]
+    },
     {
       "source": "6pm.com",
       "source_tier": "T3",
@@ -4394,67 +4458,6 @@
       ]
     },
     {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/vince-oasis-sneaker-women/8431332",
-      "title": "Oasis Sneaker",
-      "brand": "Vince",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/c371fcff-d6b2-4d7a-a128-865bc7043a35.jpeg?h=368&w=240&dpr=2",
-      "price_current": 129.97,
-      "price_list": 275.0,
-      "price_baseline": 275.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 173718,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/vince-oasis-sneaker-women/8431332",
-      "discount_pct": 52.7,
-      "score": 57,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-09T04:12:53.193122+00:00",
-      "last_seen": "2026-11-12T06:11:39.620551+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "a0f8d7fcb7",
-      "history": [
-        [
-          "2026-11-09",
-          52.48
-        ],
-        [
-          "2026-11-12",
-          129.97
-        ]
-      ]
-    },
-    {
       "source": "zappos.com",
       "source_tier": "T2",
       "url": "https://www.zappos.com/product/10049268",
@@ -4561,8 +4564,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-14T04:21:58.091000+00:00",
-      "last_seen": "2026-11-14T04:22:21.552013+00:00",
+      "detected_at": "2026-11-14T05:01:49.126863+00:00",
+      "last_seen": "2026-11-14T05:02:10.037549+00:00",
       "posted_at": "",
       "signals": {},
       "id": "54c3034bae",
@@ -7066,12 +7069,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-14T05:00:42+00:00",
-      "T2": "2026-11-14T04:21:49+00:00",
+      "T2": "2026-11-14T05:01:29+00:00",
       "T3": "2026-11-14T04:22:23+00:00",
       "T4": "2026-11-14T02:31:49+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       1,
       1,
@@ -7100,14 +7102,15 @@
       8,
       10,
       10,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-14T05:01:27+00:00",
+      "at": "2026-11-14T05:02:09+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -7116,7 +7119,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-14T05:01:28+00:00"
+      "at": "2026-11-14T05:02:10+00:00"
     }
   },
   "email_monitor": {
