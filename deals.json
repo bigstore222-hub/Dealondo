@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T15:31:09.604293+00:00",
+  "generated_at": "2026-11-15T15:34:16.656878+00:00",
   "count": 91,
   "deals": [
     {
@@ -5943,13 +5943,12 @@
       "T1": "2026-11-15T15:30:37+00:00",
       "T2": "2026-11-15T15:11:02+00:00",
       "T3": "2026-11-15T14:51:05+00:00",
-      "T4": "2026-11-15T09:21:37+00:00"
+      "T4": "2026-11-15T15:31:11+00:00"
     },
     "recent_gaps_min": [
       10,
       10,
       10,
-      10,
       1,
       9,
       1,
@@ -5975,14 +5974,15 @@
       10,
       1,
       9,
-      10
+      10,
+      3
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-15T15:31:09+00:00",
+      "at": "2026-11-15T15:34:16+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -5991,7 +5991,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-15T15:31:09+00:00"
+      "at": "2026-11-15T15:34:16+00:00"
     }
   },
   "email_monitor": {
@@ -6003,13 +6003,28 @@
         "deals": 15
       },
       "newsletter": {
-        "at": "2026-11-15T09:24:15+00:00",
+        "at": "2026-11-15T15:33:55+00:00",
         "state": "정상",
-        "mails": 27,
-        "deals": 3
+        "mails": 40,
+        "deals": 5
       }
     },
     "recent": [
+      {
+        "url": "https://www.adorama.com",
+        "source": "adorama.com",
+        "title": "A Holiday Treat: 50% Off VIP PRO! 🎁",
+        "price": 50.0,
+        "list_price": 100.0,
+        "discount_pct": 50.0,
+        "krw": 66803,
+        "kr_lowest": null,
+        "score": 23,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-11-15T15:34:16+00:00",
+        "last_seen": "2026-11-15T15:34:16+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20312508",
         "source": "slickdeals:amazon.com",
@@ -6083,7 +6098,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-15T09:24:36+00:00",
-        "last_seen": "2026-11-15T09:24:36+00:00"
+        "last_seen": "2026-11-15T15:34:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20235189",
@@ -6493,7 +6508,7 @@
       {
         "url": "https://click.emails.underarmour.com/",
         "source": "underarmour.com",
-        "title": "Ends Tomorrow: Extra 40% off UA Outlet",
+        "title": "Extra 40% off UA Outlet ends today",
         "price": 60.0,
         "list_price": 100.0,
         "discount_pct": 40.0,
@@ -6503,7 +6518,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-13T20:24:23+00:00",
-        "last_seen": "2026-11-15T09:24:36+00:00"
+        "last_seen": "2026-11-15T15:34:16+00:00"
       },
       {
         "url": "https://click.woot.com/f/a/LSd3tnhMPI-nnjJVAG2X5w~~/AAQRxRA~/0dUmc_eEuS2Cre2DfAKPh2rMIzJTAzDf7RsMKMscOCGYRMdnvfIwOzg-3JPISs9_xwuhFZ8vZ3YPft0NSn87rmz8FvImw-Ov-lXk3sIdSI7ClvpPRkyaOJPneNKvi2EU19fB9WrjDUdelqdRgqWLyAl-dUXWcKeMF2AqrI6xgjSmZnINgfPq9sZwG1uQo53CiSidR9ecLesfYtN5zlB_OTbxUghiGz_PwDg3J-n11xCNthw",
@@ -6518,7 +6533,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-13T20:24:23+00:00",
-        "last_seen": "2026-11-15T09:24:36+00:00"
+        "last_seen": "2026-11-15T15:34:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20291625",
@@ -7047,7 +7062,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 69,
+      "collected_72h": 70,
       "published_72h": 16
     }
   }
