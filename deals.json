@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T22:14:22.549807+00:00",
+  "generated_at": "2026-11-16T22:17:37.176331+00:00",
   "count": 89,
   "deals": [
     {
@@ -5675,10 +5675,9 @@
       "T1": "2026-11-16T22:13:27+00:00",
       "T2": "2026-11-16T22:01:25+00:00",
       "T3": "2026-11-16T21:11:08+00:00",
-      "T4": "2026-11-16T16:11:06+00:00"
+      "T4": "2026-11-16T22:14:23+00:00"
     },
     "recent_gaps_min": [
-      9,
       1,
       10,
       10,
@@ -5707,14 +5706,15 @@
       10,
       10,
       1,
-      12
+      12,
+      3
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-16T22:14:22+00:00",
+      "at": "2026-11-16T22:17:37+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -5723,7 +5723,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-16T22:14:22+00:00"
+      "at": "2026-11-16T22:17:37+00:00"
     }
   },
   "email_monitor": {
@@ -5735,13 +5735,43 @@
         "deals": 33
       },
       "newsletter": {
-        "at": "2026-11-16T16:13:57+00:00",
+        "at": "2026-11-16T22:17:13+00:00",
         "state": "정상",
-        "mails": 59,
-        "deals": 8
+        "mails": 74,
+        "deals": 9
       }
     },
     "recent": [
+      {
+        "url": "https://click.woot.com/f/a/LSd3tnhMPI-nnjJVAG2X5w~~/AAQRxRA~/0dUmc_eEuS2Cre2DfAKPh2rMIzJTAzDf7RsMKMscOCGYRMdnvfIwOzg-3JPISs9_xwuhFZ8vZ3YPft0NSn87rmz8FvImw-Ov-lXk3sIdSI7ClvpPRkyaOJPneNKvi2EU19fB9WrjDUdelqdRgqWLyAl-dUXWcKeMF2AqrI6xgjSmZnINgfPq9sZwG1uQo53CiSidR9ecLesfYtN5zlB_OTbxUghiGz_PwDg3J-n11xCNthw",
+        "source": "woot.com",
+        "title": "Buy 5+ Get 50% off with this Toy Takeover!",
+        "price": 50.0,
+        "list_price": 100.0,
+        "discount_pct": 50.0,
+        "krw": 66796,
+        "kr_lowest": null,
+        "score": 48,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-11-16T22:17:37+00:00",
+        "last_seen": "2026-11-16T22:17:37+00:00"
+      },
+      {
+        "url": "https://click.emails.underarmour.com/",
+        "source": "underarmour.com",
+        "title": "Up to 40% Off UA Outlet starts now",
+        "price": 60.0,
+        "list_price": 100.0,
+        "discount_pct": 40.0,
+        "krw": 80155,
+        "kr_lowest": null,
+        "score": 48,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-11-16T22:17:37+00:00",
+        "last_seen": "2026-11-16T22:17:37+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20311383",
         "source": "slickdeals:homedepot.com",
@@ -6180,17 +6210,17 @@
       {
         "url": "https://click.email.bloomingdales.com/",
         "source": "bloomingdales.com",
-        "title": "Designer Sale starts now: Save up to 40%",
-        "price": 60.0,
+        "title": "Sale final hours! Take 20-25% off",
+        "price": 75.0,
         "list_price": 100.0,
-        "discount_pct": 40.0,
-        "krw": 80155,
+        "discount_pct": 25.0,
+        "krw": 100193,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-15T21:44:33+00:00",
-        "last_seen": "2026-11-16T16:14:18+00:00"
+        "last_seen": "2026-11-16T22:17:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20312757",
@@ -6325,7 +6355,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-15T15:34:16+00:00",
-        "last_seen": "2026-11-16T16:14:18+00:00"
+        "last_seen": "2026-11-16T22:17:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20312508",
@@ -6400,7 +6430,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-15T09:24:36+00:00",
-        "last_seen": "2026-11-16T16:14:18+00:00"
+        "last_seen": "2026-11-16T22:17:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20235189",
@@ -6809,7 +6839,7 @@
       }
     ],
     "totals": {
-      "collected_72h": 71,
+      "collected_72h": 73,
       "published_72h": 18
     }
   }
