@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-16T16:11:04.416175+00:00",
-  "count": 88,
+  "generated_at": "2026-11-16T16:14:18.887544+00:00",
+  "count": 87,
   "deals": [
     {
       "source": "6pm.com",
@@ -3220,67 +3220,6 @@
       ]
     },
     {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10064310",
-      "title": "Two-Tone Linen-Blend Twill Blazer",
-      "brand": "Lauren Ralph Lauren",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/81sbZqBKgDL._AC_SR255,340_.jpg",
-      "price_current": 88.5,
-      "price_list": 295.0,
-      "price_baseline": 295.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 118252,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.zappos.com/product/10064310",
-      "discount_pct": 70.0,
-      "score": 71,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-12T14:31:29.282151+00:00",
-      "last_seen": "2026-11-14T16:12:04.855682+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "bfe9ba9868",
-      "history": [
-        [
-          "2026-11-12",
-          88.5
-        ],
-        [
-          "2026-11-14",
-          88.5
-        ]
-      ]
-    },
-    {
       "source": "6pm.com",
       "source_tier": "T3",
       "url": "https://www.6pm.com/product/9896515",
@@ -5732,10 +5671,9 @@
       "T1": "2026-11-16T16:10:29+00:00",
       "T2": "2026-11-16T15:51:07+00:00",
       "T3": "2026-11-16T14:41:57+00:00",
-      "T4": "2026-11-16T10:01:32+00:00"
+      "T4": "2026-11-16T16:11:06+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       10,
       1,
@@ -5764,14 +5702,15 @@
       10,
       1,
       10,
-      10
+      10,
+      3
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-16T16:11:04+00:00",
+      "at": "2026-11-16T16:14:18+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -5780,7 +5719,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-16T16:11:04+00:00"
+      "at": "2026-11-16T16:14:18+00:00"
     }
   },
   "email_monitor": {
@@ -5792,10 +5731,10 @@
         "deals": 23
       },
       "newsletter": {
-        "at": "2026-11-16T10:04:17+00:00",
+        "at": "2026-11-16T16:13:57+00:00",
         "state": "정상",
-        "mails": 40,
-        "deals": 5
+        "mails": 59,
+        "deals": 8
       }
     },
     "recent": [
@@ -6087,17 +6026,17 @@
       {
         "url": "https://click.email.bloomingdales.com/",
         "source": "bloomingdales.com",
-        "title": "David Yurman gifts they’ll cherish",
-        "price": 75.0,
+        "title": "Designer Sale starts now: Save up to 40%",
+        "price": 60.0,
         "list_price": 100.0,
-        "discount_pct": 25.0,
-        "krw": 100204,
+        "discount_pct": 40.0,
+        "krw": 80155,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-15T21:44:33+00:00",
-        "last_seen": "2026-11-15T21:44:33+00:00"
+        "last_seen": "2026-11-16T16:14:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20312757",
@@ -6232,7 +6171,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-15T15:34:16+00:00",
-        "last_seen": "2026-11-16T10:04:39+00:00"
+        "last_seen": "2026-11-16T16:14:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20312508",
@@ -6307,7 +6246,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-15T09:24:36+00:00",
-        "last_seen": "2026-11-16T10:04:39+00:00"
+        "last_seen": "2026-11-16T16:14:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20235189",
@@ -6717,7 +6656,7 @@
       {
         "url": "https://click.emails.underarmour.com/",
         "source": "underarmour.com",
-        "title": "Extra 40% off UA Outlet ends today",
+        "title": "Up to 40% Off UA Outlet starts now",
         "price": 60.0,
         "list_price": 100.0,
         "discount_pct": 40.0,
@@ -6727,7 +6666,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-13T20:24:23+00:00",
-        "last_seen": "2026-11-16T10:04:39+00:00"
+        "last_seen": "2026-11-16T16:14:18+00:00"
       },
       {
         "url": "https://click.woot.com/f/a/LSd3tnhMPI-nnjJVAG2X5w~~/AAQRxRA~/0dUmc_eEuS2Cre2DfAKPh2rMIzJTAzDf7RsMKMscOCGYRMdnvfIwOzg-3JPISs9_xwuhFZ8vZ3YPft0NSn87rmz8FvImw-Ov-lXk3sIdSI7ClvpPRkyaOJPneNKvi2EU19fB9WrjDUdelqdRgqWLyAl-dUXWcKeMF2AqrI6xgjSmZnINgfPq9sZwG1uQo53CiSidR9ecLesfYtN5zlB_OTbxUghiGz_PwDg3J-n11xCNthw",
@@ -6742,7 +6681,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-13T20:24:23+00:00",
-        "last_seen": "2026-11-16T10:04:39+00:00"
+        "last_seen": "2026-11-16T16:14:18+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20291625",
