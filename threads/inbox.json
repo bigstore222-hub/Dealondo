@@ -1,88 +1,5 @@
 {
  "drafts": {
-  "6456462d": {
-   "created": "2026-11-14T11:40:57+09:00",
-   "url": "https://www.zappos.com/product/10055702",
-   "deal": {
-    "source": "zappos.com",
-    "source_tier": "T2",
-    "url": "https://www.zappos.com/product/10055702",
-    "title": "Gathered Cap Sleeve Blouse",
-    "brand": "Vince",
-    "category": "premium_fashion",
-    "image": "https://m.media-amazon.com/images/I/71wPEMH9CpL._AC_SR255,340_.jpg",
-    "price_current": 119.4,
-    "price_list": 398.0,
-    "price_baseline": 398.0,
-    "price_alltime_low": 119.4,
-    "currency": "USD",
-    "coupon_code": "",
-    "coupon_stackable": false,
-    "off_season": false,
-    "free_gift": false,
-    "community_votes": null,
-    "rating": null,
-    "review_count": null,
-    "ships_to_kr": true,
-    "forwarding_ok": true,
-    "krw_effective": 159540,
-    "kr_lowest_price": null,
-    "stock_status": "in_stock",
-    "is_refurbished": false,
-    "expires_at": null,
-    "collection_method": "scrape",
-    "frontpage": false,
-    "code_kind": "",
-    "brand_tier": "premium",
-    "buy_url": "https://www.zappos.com/product/10055702",
-    "discount_pct": 70.0,
-    "score": 87,
-    "score_breakdown": {
-     "discount_depth": 30,
-     "price_history": 25,
-     "category": 20,
-     "bonus": 0,
-     "brand": 12
-    },
-    "passed_hard_filter": true,
-    "reject_reason": "",
-    "urgency": "FLASH",
-    "detected_at": "2026-11-09T17:21:32.983174+00:00",
-    "last_seen": "2026-11-14T01:21:33.763324+00:00",
-    "posted_at": "",
-    "signals": {},
-    "id": "bf44d64e50",
-    "history": [
-     [
-      "2026-11-09",
-      119.4
-     ],
-     [
-      "2026-11-10",
-      119.4
-     ],
-     [
-      "2026-11-13",
-      119.4
-     ],
-     [
-      "2026-11-14",
-      119.4
-     ]
-    ]
-   },
-   "seen": "2026-11-14T11:40:52.478391+09:00",
-   "text": "블라우스 직구는 사이즈가 반이에요.\n\nZappos · 70% 할인해서 $119.40 (정가 $398)\n면세한도 $200 안이라 세금 걱정 없어요.\n신발은 US 사이즈를 mm로 바꿔서 확인하세요. 같은 US 8도 브랜드마다 달라요.\n\n직구할 때 사이즈 실패해본 적 있으세요?",
-   "reply": "상품 링크: https://www.zappos.com/product/10055702\n블프까지 이런 딜을 골라서 계속 올려요.",
-   "notes": [],
-   "angle": "size",
-   "already": false,
-   "img_ok": true,
-   "photo_msg": 3694,
-   "msg": 3695,
-   "status": "posted",
-   "link": "https://www.threads.com/@deal_ondo/post/DftdfWijpS2"
-  },
   "c41b67ba": {
    "created": "2026-11-14T17:11:14+09:00",
    "url": "https://www.nordstromrack.com/s/ugg-goldenglow-slingback-sandal-women/7672413?origin=category-personalizedsort&breadcrumb=Home%2FBrands%2FUGG%C2%AE&color=444444CNXL",
@@ -436,6 +353,16 @@
    "photo_msg": 3769,
    "msg": 3770,
    "status": "waiting"
+  },
+  "a3de4f2b": {
+   "created": "2026-11-16T14:50:55+09:00",
+   "url": "https://www.macys.com/shop/product/tommy-hilfiger-womens-half-zip-mock-neck-sweatshirt?ID=27422022&swatchColor=Grey+Heather",
+   "hint": {
+    "at": 1794807672,
+    "title": "Tommy Hilfiger Womens Half Zip Mock Neck Sweatshirt"
+   },
+   "status": "waiting_price",
+   "msg": 3773
   }
  },
  "done_updates": [
@@ -638,7 +565,8 @@
   303762839,
   303762840,
   303762841,
-  303762842
+  303762842,
+  303762850
  ],
  "picks": {
   "2026-10-30-점심": "3ffe07d9",
@@ -697,11 +625,6 @@
   "6pm.com/product/10055724"
  ],
  "runs": [
-  {
-   "at": "2026-11-10T18:40:01+09:00",
-   "updates": 0,
-   "errors": []
-  },
   {
    "at": "2026-11-10T18:55:38+09:00",
    "updates": 4,
@@ -895,6 +818,11 @@
   {
    "at": "2026-11-16T11:49:48+09:00",
    "updates": 0,
+   "errors": []
+  },
+  {
+   "at": "2026-11-16T14:59:44+09:00",
+   "updates": 1,
    "errors": []
   }
  ]
