@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T04:21:01.113018+00:00",
+  "generated_at": "2026-11-16T04:31:05.342553+00:00",
   "count": 81,
   "deals": [
     {
@@ -359,23 +359,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 35표/24분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 35표/34분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-13T10:40:39.749051+00:00",
-      "last_seen": "2026-11-16T04:20:59.438429+00:00",
+      "last_seen": "2026-11-16T04:31:05.318378+00:00",
       "posted_at": "2026-11-16T03:56:36+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 24,
+        "sd_age_min": 34,
         "sd_votes": 35,
-        "sd_velocity": 87.4,
+        "sd_velocity": 61.6,
         "sd_fp_min": 14
       },
       "id": "3d3ccfaa49",
@@ -431,23 +431,23 @@
         "bonus": 0,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 45표/40분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 45표/50분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-15T18:30:55.232714+00:00",
-      "last_seen": "2026-11-16T04:20:59.438429+00:00",
+      "last_seen": "2026-11-16T04:31:05.318378+00:00",
       "posted_at": "2026-11-16T03:40:22+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 40,
+        "sd_age_min": 50,
         "sd_votes": 45,
-        "sd_velocity": 67.1,
+        "sd_velocity": 53.6,
         "sd_fp_min": 30
       },
       "id": "b1bde15c10",
@@ -459,79 +459,6 @@
         [
           "2026-11-16",
           23.5
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20314761",
-      "title": "The Standard, Maldives Pool Villas by Hyatt: 5-Night Stay for 2 Adults from $3589 (Travel thru Dec 20, 2027)",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/7/8/1/9/300x300/22366695.thumb",
-      "price_current": 3589.0,
-      "price_list": 9969.44,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 37,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 5695969,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20314761",
-      "discount_pct": 64.0,
-      "score": 92,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "community": "투표 37+할인64% → 하한 55",
-        "slickdeals": "Hot Deals 폭발 37표/69분 → 하한 86",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-15T17:00:55.223058+00:00",
-      "last_seen": "2026-11-16T04:20:59.438429+00:00",
-      "posted_at": "2026-11-16T03:11:18+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_hot_origin": true,
-        "sd_age_min": 69,
-        "sd_votes": 37,
-        "sd_velocity": 32.0,
-        "sd_fp_min": 59
-      },
-      "id": "005dccd84a",
-      "history": [
-        [
-          "2026-11-15",
-          3589.0
-        ],
-        [
-          "2026-11-16",
-          3589.0
         ]
       ]
     },
@@ -1524,6 +1451,79 @@
       ]
     },
     {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20314761",
+      "title": "The Standard, Maldives Pool Villas by Hyatt: 5-Night Stay for 2 Adults from $3589 (Travel thru Dec 20, 2027)",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/1/7/8/1/9/300x300/22366695.thumb",
+      "price_current": 3589.0,
+      "price_list": 9969.44,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 37,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 5695969,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20314761",
+      "discount_pct": 64.0,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "community": "투표 37+할인64% → 하한 55",
+        "slickdeals": "Hot Deals 급상승 37표/79분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-15T17:00:55.223058+00:00",
+      "last_seen": "2026-11-16T04:31:05.318378+00:00",
+      "posted_at": "2026-11-16T03:11:18+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_hot_origin": true,
+        "sd_age_min": 79,
+        "sd_votes": 37,
+        "sd_velocity": 28.0,
+        "sd_fp_min": 59
+      },
+      "id": "005dccd84a",
+      "history": [
+        [
+          "2026-11-15",
+          3589.0
+        ],
+        [
+          "2026-11-16",
+          3589.0
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:homedepot.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20316138",
@@ -1564,23 +1564,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 27표/99분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 27표/109분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-16T01:00:53.112800+00:00",
-      "last_seen": "2026-11-16T04:20:59.438429+00:00",
+      "last_seen": "2026-11-16T04:31:05.318378+00:00",
       "posted_at": "2026-11-16T02:41:18+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 99,
+        "sd_age_min": 109,
         "sd_votes": 27,
-        "sd_velocity": 16.3,
+        "sd_velocity": 14.8,
         "sd_fp_min": 29
       },
       "id": "fa5a60e555",
@@ -1632,23 +1632,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 36표/105분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 36표/116분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-14T16:31:04.548112+00:00",
-      "last_seen": "2026-11-16T04:20:59.438429+00:00",
+      "last_seen": "2026-11-16T04:31:05.318378+00:00",
       "posted_at": "2026-11-16T02:35:11+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 105,
+        "sd_age_min": 116,
         "sd_votes": 36,
-        "sd_velocity": 20.5,
+        "sd_velocity": 18.7,
         "sd_fp_min": 35
       },
       "id": "0a3826eee7",
@@ -1704,23 +1704,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 31표/107분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 31표/117분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-15T18:30:55.232714+00:00",
-      "last_seen": "2026-11-16T04:20:59.438429+00:00",
+      "last_seen": "2026-11-16T04:31:05.318378+00:00",
       "posted_at": "2026-11-16T02:34:04+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 107,
+        "sd_age_min": 117,
         "sd_votes": 31,
-        "sd_velocity": 17.5,
+        "sd_velocity": 15.9,
         "sd_fp_min": 37
       },
       "id": "5677516378",
@@ -5415,7 +5415,7 @@
   "fx_usd_krw": 1335.9,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-16T04:20:28+00:00",
+      "T1": "2026-11-16T04:30:34+00:00",
       "T2": "2026-11-16T03:51:00+00:00",
       "T3": "2026-11-16T03:51:38+00:00",
       "T4": "2026-11-16T03:52:36+00:00"
@@ -5449,6 +5449,7 @@
       3,
       5,
       10,
+      10,
       10
     ],
     "naver": {
@@ -5456,7 +5457,7 @@
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-16T04:20:59+00:00",
+      "at": "2026-11-16T04:31:05+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -5465,13 +5466,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-16T04:20:59+00:00"
+      "at": "2026-11-16T04:31:05+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-16T04:20:35+00:00",
+        "at": "2026-11-16T04:30:40+00:00",
         "state": "정상",
         "mails": 12,
         "deals": 11
@@ -5497,7 +5498,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-16T03:50:59+00:00",
-        "last_seen": "2026-11-16T04:20:59+00:00"
+        "last_seen": "2026-11-16T04:31:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20303970",
@@ -5512,7 +5513,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-16T01:01:18+00:00",
-        "last_seen": "2026-11-16T04:20:59+00:00"
+        "last_seen": "2026-11-16T04:31:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20313615",
@@ -5557,7 +5558,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-15T23:31:14+00:00",
-        "last_seen": "2026-11-16T04:20:59+00:00"
+        "last_seen": "2026-11-16T04:31:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20313762",
@@ -5677,7 +5678,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-15T19:41:11+00:00",
-        "last_seen": "2026-11-16T04:20:59+00:00"
+        "last_seen": "2026-11-16T04:31:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20313360",
@@ -5692,7 +5693,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-15T18:31:17+00:00",
-        "last_seen": "2026-11-16T04:20:59+00:00"
+        "last_seen": "2026-11-16T04:31:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20308002",
@@ -5722,7 +5723,7 @@
         "published": false,
         "reject_reason": "H8: 할인 21% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-15T16:01:16+00:00",
-        "last_seen": "2026-11-16T04:20:59+00:00"
+        "last_seen": "2026-11-16T04:31:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20308899",
@@ -5782,7 +5783,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-15T14:21:01+00:00",
-        "last_seen": "2026-11-16T04:20:59+00:00"
+        "last_seen": "2026-11-16T04:31:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20303781",
@@ -5812,7 +5813,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-15T13:11:26+00:00",
-        "last_seen": "2026-11-16T04:20:59+00:00"
+        "last_seen": "2026-11-16T04:31:05+00:00"
       },
       {
         "url": "https://link.email.newbalance.com/u/nrd.php",
@@ -5947,7 +5948,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-14T20:21:05+00:00",
-        "last_seen": "2026-11-16T04:20:59+00:00"
+        "last_seen": "2026-11-16T04:31:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20305560",
@@ -5977,7 +5978,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-14T20:01:21+00:00",
-        "last_seen": "2026-11-16T04:20:59+00:00"
+        "last_seen": "2026-11-16T04:31:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20296497",
@@ -6007,7 +6008,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-14T18:11:01+00:00",
-        "last_seen": "2026-11-16T04:20:59+00:00"
+        "last_seen": "2026-11-16T04:31:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20308941",
