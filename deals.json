@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T07:41:05.578916+00:00",
+  "generated_at": "2026-11-16T07:51:16.396298+00:00",
   "count": 83,
   "deals": [
     {
@@ -1283,23 +1283,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 20표/70분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 20표/80분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-15T22:20:38.839963+00:00",
-      "last_seen": "2026-11-16T07:41:03.449529+00:00",
+      "last_seen": "2026-11-16T07:51:16.369154+00:00",
       "posted_at": "2026-11-16T06:30:52+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 70,
+        "sd_age_min": 80,
         "sd_votes": 20,
-        "sd_velocity": 17.2,
+        "sd_velocity": 15.0,
         "sd_fp_min": 10
       },
       "id": "760fd33855",
@@ -1311,74 +1311,6 @@
         [
           "2026-11-16",
           12.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20316732",
-      "title": "3-Pk 10.5-Oz Lavazza Super Crema Whole Bean Coffee (Medium Roast) $14.50 w/ S&S",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/7/2/2/9/6/4/300x300/22370676.thumb",
-      "price_current": 14.5,
-      "price_list": 16.11,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 22,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 19371,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20316732",
-      "discount_pct": 10.0,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 22표/110분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-16T03:10:38.411671+00:00",
-      "last_seen": "2026-11-16T07:41:03.449529+00:00",
-      "posted_at": "2026-11-16T05:51:09+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_hot_origin": true,
-        "sd_age_min": 110,
-        "sd_votes": 22,
-        "sd_velocity": 12.0,
-        "sd_fp_min": 49
-      },
-      "id": "fe6fb1e820",
-      "history": [
-        [
-          "2026-11-16",
-          14.5
         ]
       ]
     },
@@ -1423,23 +1355,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 30표/122분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 30표/132분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-15T07:20:36.370271+00:00",
-      "last_seen": "2026-11-16T07:41:03.449529+00:00",
+      "last_seen": "2026-11-16T07:51:16.369154+00:00",
       "posted_at": "2026-11-16T05:38:43+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 122,
+        "sd_age_min": 132,
         "sd_votes": 30,
-        "sd_velocity": 14.8,
+        "sd_velocity": 13.6,
         "sd_fp_min": 62
       },
       "id": "bd3bdb868d",
@@ -1465,7 +1397,7 @@
       "price_current": 550.0,
       "price_list": null,
       "price_baseline": null,
-      "price_alltime_low": null,
+      "price_alltime_low": 549.99,
       "currency": "USD",
       "coupon_code": "",
       "coupon_stackable": false,
@@ -1490,28 +1422,27 @@
       "score": 80,
       "score_breakdown": {
         "discount_depth": 0,
-        "price_history": null,
+        "price_history": 0,
         "category": 5,
         "bonus": 0,
         "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 33표/136분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 33표/147분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-13T07:42:27.995636+00:00",
-      "last_seen": "2026-11-16T07:41:03.449529+00:00",
+      "last_seen": "2026-11-16T07:51:16.369154+00:00",
       "posted_at": "2026-11-16T05:24:22+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 136,
+        "sd_age_min": 147,
         "sd_votes": 33,
-        "sd_velocity": 14.5,
+        "sd_velocity": 13.5,
         "sd_fp_min": 7
       },
       "id": "f108b7b965",
@@ -1567,23 +1498,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 43표/141분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 43표/151분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-16T04:20:35.336837+00:00",
-      "last_seen": "2026-11-16T07:41:03.449529+00:00",
+      "last_seen": "2026-11-16T07:51:16.369154+00:00",
       "posted_at": "2026-11-16T05:20:06+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 141,
+        "sd_age_min": 151,
         "sd_votes": 43,
-        "sd_velocity": 18.3,
+        "sd_velocity": 17.1,
         "sd_fp_min": 11
       },
       "id": "e8c690f0fa",
@@ -1591,6 +1522,78 @@
         [
           "2026-11-16",
           12.15
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:walmart.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20309619",
+      "title": "Goodyear Assurance Outlast 215/55R17 94V All-Season Tire $97 + Free S&H",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/3/0/2/2/8/9/3/1/300x300/22363014.thumb",
+      "price_current": 97.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 44,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 129583,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20309619",
+      "discount_pct": null,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 44표/178분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-14T16:31:04.548112+00:00",
+      "last_seen": "2026-11-16T07:51:16.369154+00:00",
+      "posted_at": "2026-11-16T04:52:58+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_hot_origin": true,
+        "sd_age_min": 178,
+        "sd_votes": 44,
+        "sd_velocity": 14.8,
+        "sd_fp_min": 38
+      },
+      "id": "e8adfcb428",
+      "history": [
+        [
+          "2026-11-14",
+          97.0
+        ],
+        [
+          "2026-11-16",
+          97.0
         ]
       ]
     },
@@ -5482,7 +5485,7 @@
   "fx_usd_krw": 1335.9,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-16T07:40:31+00:00",
+      "T1": "2026-11-16T07:50:30+00:00",
       "T2": "2026-11-16T07:11:02+00:00",
       "T3": "2026-11-16T06:01:17+00:00",
       "T4": "2026-11-16T03:52:36+00:00"
@@ -5516,6 +5519,7 @@
       1,
       9,
       10,
+      10,
       10
     ],
     "naver": {
@@ -5523,7 +5527,7 @@
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-16T07:41:03+00:00",
+      "at": "2026-11-16T07:51:16+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -5532,16 +5536,16 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-16T07:41:03+00:00"
+      "at": "2026-11-16T07:51:16+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-16T07:40:42+00:00",
-        "state": "정상",
-        "mails": 14,
-        "deals": 13
+        "at": "2026-11-16T07:50:53+00:00",
+        "state": "로그인 실패",
+        "mails": 0,
+        "deals": 0
       },
       "newsletter": {
         "at": "2026-11-16T03:55:32+00:00",
