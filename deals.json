@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T22:51:05.182327+00:00",
+  "generated_at": "2026-11-17T22:54:15.668016+00:00",
   "count": 97,
   "deals": [
     {
@@ -6086,10 +6086,9 @@
       "T1": "2026-11-17T22:50:29+00:00",
       "T2": "2026-11-17T22:21:38+00:00",
       "T3": "2026-11-17T21:02:26+00:00",
-      "T4": "2026-11-17T16:42:11+00:00"
+      "T4": "2026-11-17T22:51:06+00:00"
     },
     "recent_gaps_min": [
-      1,
       9,
       10,
       10,
@@ -6118,14 +6117,15 @@
       1,
       9,
       10,
-      10
+      10,
+      3
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-17T22:51:05+00:00",
+      "at": "2026-11-17T22:54:15+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -6134,7 +6134,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-17T22:51:05+00:00"
+      "at": "2026-11-17T22:54:15+00:00"
     }
   },
   "email_monitor": {
@@ -6146,13 +6146,28 @@
         "deals": 37
       },
       "newsletter": {
-        "at": "2026-11-17T16:45:44+00:00",
+        "at": "2026-11-17T22:53:54+00:00",
         "state": "정상",
-        "mails": 68,
-        "deals": 5
+        "mails": 86,
+        "deals": 7
       }
     },
     "recent": [
+      {
+        "url": "https://clicks.finishline.com/f/a/vHzoEK0IoPUWyDUUlEsIcg~~/AAQRxRA~/rICLp7QVdqEPn-gc80iLxH8uctIvumwMsYQE0-rvC0xwm6U7qJr2_Pgt1FX_sRDo3Q7GpsdJMjRr580lPLZoaiglrSr63-SSZKMs6qp7UDffI_92kiE-NTo1Lmg8UW-iC8ZsWs3n2VlVwZXaW6phLA~~",
+        "source": "finishline.com",
+        "title": "‼️ GOING FAST: Up to 50% Off is LIVE!",
+        "price": 50.0,
+        "list_price": 100.0,
+        "discount_pct": 50.0,
+        "krw": 66774,
+        "kr_lowest": null,
+        "score": 31,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-11-17T22:54:15+00:00",
+        "last_seen": "2026-11-17T22:54:15+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20323692",
         "source": "slickdeals:amazon.com",
@@ -6316,7 +6331,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-17T16:46:04+00:00",
-        "last_seen": "2026-11-17T16:46:04+00:00"
+        "last_seen": "2026-11-17T22:54:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20325873",
@@ -6601,7 +6616,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-16T22:17:37+00:00",
-        "last_seen": "2026-11-17T16:46:04+00:00"
+        "last_seen": "2026-11-17T22:54:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20311383",
@@ -7051,7 +7066,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-15T21:44:33+00:00",
-        "last_seen": "2026-11-17T16:46:04+00:00"
+        "last_seen": "2026-11-17T22:54:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20312757",
@@ -7176,17 +7191,17 @@
       {
         "url": "https://www.adorama.com",
         "source": "adorama.com",
-        "title": "A Holiday Treat: 50% Off VIP PRO! 🎁",
-        "price": 50.0,
+        "title": "Shape Every Shot with Lighting Deals Up to 65% Off",
+        "price": 35.0,
         "list_price": 100.0,
-        "discount_pct": 50.0,
-        "krw": 66774,
+        "discount_pct": 65.0,
+        "krw": 46742,
         "kr_lowest": null,
-        "score": 23,
+        "score": 35,
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-15T15:34:16+00:00",
-        "last_seen": "2026-11-17T16:46:04+00:00"
+        "last_seen": "2026-11-17T22:54:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20312508",
@@ -7261,7 +7276,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-15T09:24:36+00:00",
-        "last_seen": "2026-11-17T16:46:04+00:00"
+        "last_seen": "2026-11-17T22:54:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20235189",
@@ -7337,26 +7352,11 @@
         "reject_reason": "",
         "first_seen": "2026-11-15T01:31:06+00:00",
         "last_seen": "2026-11-16T00:51:20+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20309112",
-        "source": "slickdeals:walmart.com",
-        "title": "Toddler Boys' Full-Zip Fleece Hoodie: Mickey Mouse, Spider-Man, Cars & More for $12 at Walmart",
-        "price": 12.0,
-        "list_price": 19.99,
-        "discount_pct": 40.0,
-        "krw": 16031,
-        "kr_lowest": null,
-        "score": 50,
-        "published": true,
-        "reject_reason": "",
-        "first_seen": "2026-11-15T01:31:06+00:00",
-        "last_seen": "2026-11-16T00:51:20+00:00"
       }
     ],
     "totals": {
       "collected_72h": 80,
-      "published_72h": 18
+      "published_72h": 17
     }
   }
 }
