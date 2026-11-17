@@ -1024,12 +1024,44 @@
     "at": 1794921907,
     "title": "Amazon.com"
    },
-   "status": "waiting_price",
+   "status": "replaced",
    "msg": 3918
+  },
+  "7bd3690e": {
+   "created": "2026-11-17T22:41:26+09:00",
+   "url": "https://a.co/d/02yyfBZC",
+   "deal": {
+    "url": "https://a.co/d/02yyfBZC",
+    "source": "a.co",
+    "store_name": "A",
+    "title": "Amazon.com",
+    "brand": "",
+    "category": "etc",
+    "price_current": 79.16,
+    "price_list": 300.0,
+    "image": null,
+    "gender": null,
+    "buy_url": "https://a.co/d/02yyfBZC",
+    "discount_pct": 74,
+    "krw_effective": 105717,
+    "kr_lowest_price": null
+   },
+   "seen": "2026-11-17T22:41:25.212882+09:00",
+   "text": "A에 Amazon.com 74% 할인 떴어요.\n\n관부가세 없음(미국발 $200 이하).\n환율 계산하면 약 10만 6천 원이에요.\n\n이 정도면 장바구니 담으시겠어요?",
+   "reply": "상품 링크: https://a.co/d/02yyfBZC\n가격은 수시로 바뀌니 결제 전에 한 번 더 확인하세요.",
+   "notes": [
+    "직접 알려주신 가격으로 썼어요.",
+    "[품질] 무슨 상품인지 제목만으로 알기 어려워요. 본문을 직접 고쳐주세요.",
+    "상품 사진을 찾지 못해 카드 한 장으로 올라가요."
+   ],
+   "angle": "basic",
+   "already": false,
+   "photo_msg": 3920,
+   "msg": 3921,
+   "status": "waiting"
   }
  },
  "done_updates": [
-  303762646,
   303762647,
   303762648,
   303762649,
@@ -1229,7 +1261,8 @@
   303762906,
   303762907,
   303762908,
-  303762909
+  303762909,
+  303762910
  ],
  "picks": {
   "2026-10-30-점심": "3ffe07d9",
@@ -1294,11 +1327,6 @@
   "6pm.com/product/9896515"
  ],
  "runs": [
-  {
-   "at": "2026-11-12T16:49:52+09:00",
-   "updates": 6,
-   "errors": []
-  },
   {
    "at": "2026-11-12T17:23:54+09:00",
    "updates": 2,
@@ -1491,6 +1519,11 @@
   },
   {
    "at": "2026-11-17T22:40:00+09:00",
+   "updates": 1,
+   "errors": []
+  },
+  {
+   "at": "2026-11-17T22:50:19+09:00",
    "updates": 1,
    "errors": []
   }
