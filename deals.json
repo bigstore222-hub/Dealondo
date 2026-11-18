@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T16:51:15.206863+00:00",
+  "generated_at": "2026-11-18T17:01:20.573963+00:00",
   "count": 97,
   "deals": [
     {
@@ -1209,7 +1209,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-12T08:01:00.807980+00:00",
-      "last_seen": "2026-11-18T16:51:13.545874+00:00",
+      "last_seen": "2026-11-18T17:01:20.547424+00:00",
       "posted_at": "",
       "signals": {},
       "id": "32c2a038d2",
@@ -1281,23 +1281,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 42표/110분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 42표/120분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-18T00:10:50.846944+00:00",
-      "last_seen": "2026-11-18T16:51:13.545874+00:00",
+      "last_seen": "2026-11-18T17:01:20.547424+00:00",
       "posted_at": "2026-11-18T15:00:51+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 110,
+        "sd_age_min": 120,
         "sd_votes": 42,
-        "sd_velocity": 22.9,
+        "sd_velocity": 21.0,
         "sd_fp_min": 10
       },
       "id": "f940e89937",
@@ -1305,6 +1305,74 @@
         [
           "2026-11-18",
           8.75
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20331690",
+      "title": "Select Accounts: 12-Pk 11-Oz Muscle Milk 26g High Protein Shake (Chocolate) $13.90 w/ S&S",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/1/1/7/1/5/2/7/300x300/22412175.thumb",
+      "price_current": 13.9,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 26,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 18562,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20331690",
+      "discount_pct": null,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 26표/125분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-18T05:30:53.146710+00:00",
+      "last_seen": "2026-11-18T17:01:20.547424+00:00",
+      "posted_at": "2026-11-18T14:55:54+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_hot_origin": true,
+        "sd_age_min": 125,
+        "sd_votes": 26,
+        "sd_velocity": 12.5,
+        "sd_fp_min": 15
+      },
+      "id": "ca9fddcedb",
+      "history": [
+        [
+          "2026-11-18",
+          12.27
         ]
       ]
     },
@@ -1377,74 +1445,6 @@
         [
           "2026-11-18",
           22.2
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20331690",
-      "title": "Select Accounts: 12-Pk 11-Oz Muscle Milk 26g High Protein Shake (Chocolate) $13.90 w/ S&S",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/1/7/1/5/2/7/300x300/22412175.thumb",
-      "price_current": 13.9,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 26,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 18562,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20331690",
-      "discount_pct": null,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 26표/115분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-18T05:30:53.146710+00:00",
-      "last_seen": "2026-11-18T16:51:13.545874+00:00",
-      "posted_at": "2026-11-18T14:55:54+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_hot_origin": true,
-        "sd_age_min": 115,
-        "sd_votes": 26,
-        "sd_velocity": 13.6,
-        "sd_fp_min": 15
-      },
-      "id": "ca9fddcedb",
-      "history": [
-        [
-          "2026-11-18",
-          12.27
         ]
       ]
     },
@@ -3389,7 +3389,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-17T19:10:50.292590+00:00",
-      "last_seen": "2026-11-18T16:51:13.545874+00:00",
+      "last_seen": "2026-11-18T17:01:20.547424+00:00",
       "posted_at": "",
       "signals": {},
       "id": "68090b6ec5",
@@ -6182,7 +6182,7 @@
   "fx_usd_krw": 1335.4,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-18T16:50:42+00:00",
+      "T1": "2026-11-18T17:00:45+00:00",
       "T2": "2026-11-18T16:21:04+00:00",
       "T3": "2026-11-18T16:31:39+00:00",
       "T4": "2026-11-18T11:11:02+00:00"
@@ -6216,6 +6216,7 @@
       1,
       6,
       3,
+      10,
       10
     ],
     "naver": {
@@ -6223,7 +6224,7 @@
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-18T16:51:13+00:00",
+      "at": "2026-11-18T17:01:20+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -6232,13 +6233,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-18T16:51:13+00:00"
+      "at": "2026-11-18T17:01:20+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-18T16:50:50+00:00",
+        "at": "2026-11-18T17:00:56+00:00",
         "state": "정상",
         "mails": 21,
         "deals": 21
@@ -6264,7 +6265,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-18T16:51:13+00:00",
-        "last_seen": "2026-11-18T16:51:13+00:00"
+        "last_seen": "2026-11-18T17:01:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20327979",
@@ -6279,7 +6280,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 51% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-18T16:31:37+00:00",
-        "last_seen": "2026-11-18T16:51:13+00:00"
+        "last_seen": "2026-11-18T17:01:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20331651",
@@ -6294,7 +6295,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-18T15:51:10+00:00",
-        "last_seen": "2026-11-18T16:51:13+00:00"
+        "last_seen": "2026-11-18T17:01:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20332398",
@@ -6309,7 +6310,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-18T15:51:10+00:00",
-        "last_seen": "2026-11-18T16:51:13+00:00"
+        "last_seen": "2026-11-18T17:01:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20328717",
@@ -6324,7 +6325,7 @@
         "published": false,
         "reject_reason": "H8: 할인 6% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-18T15:21:04+00:00",
-        "last_seen": "2026-11-18T16:51:13+00:00"
+        "last_seen": "2026-11-18T17:01:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20326146",
@@ -6339,7 +6340,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-18T15:01:40+00:00",
-        "last_seen": "2026-11-18T16:51:13+00:00"
+        "last_seen": "2026-11-18T17:01:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20329263",
@@ -6354,7 +6355,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-18T13:01:23+00:00",
-        "last_seen": "2026-11-18T16:51:13+00:00"
+        "last_seen": "2026-11-18T17:01:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20323197",
@@ -6369,7 +6370,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-18T12:41:03+00:00",
-        "last_seen": "2026-11-18T16:51:13+00:00"
+        "last_seen": "2026-11-18T17:01:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20331909",
@@ -6384,7 +6385,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-18T12:31:14+00:00",
-        "last_seen": "2026-11-18T16:51:13+00:00"
+        "last_seen": "2026-11-18T17:01:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20330667",
@@ -6399,7 +6400,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-18T12:01:19+00:00",
-        "last_seen": "2026-11-18T16:51:13+00:00"
+        "last_seen": "2026-11-18T17:01:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20315937",
@@ -6414,7 +6415,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-18T05:51:12+00:00",
-        "last_seen": "2026-11-18T16:51:13+00:00"
+        "last_seen": "2026-11-18T17:01:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20318670",
@@ -6429,7 +6430,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-18T05:21:11+00:00",
-        "last_seen": "2026-11-18T16:51:13+00:00"
+        "last_seen": "2026-11-18T17:01:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20326302",
@@ -6444,7 +6445,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-18T04:51:00+00:00",
-        "last_seen": "2026-11-18T16:51:13+00:00"
+        "last_seen": "2026-11-18T17:01:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20314338",
@@ -6459,7 +6460,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-18T04:51:00+00:00",
-        "last_seen": "2026-11-18T16:51:13+00:00"
+        "last_seen": "2026-11-18T17:01:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20325831",
@@ -6474,7 +6475,7 @@
         "published": false,
         "reject_reason": "H8: 할인 7% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-18T03:20:59+00:00",
-        "last_seen": "2026-11-18T16:51:13+00:00"
+        "last_seen": "2026-11-18T17:01:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20326227",
@@ -6489,7 +6490,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-18T03:01:27+00:00",
-        "last_seen": "2026-11-18T16:51:13+00:00"
+        "last_seen": "2026-11-18T17:01:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20305368",
@@ -6504,7 +6505,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-18T02:41:03+00:00",
-        "last_seen": "2026-11-18T16:51:13+00:00"
+        "last_seen": "2026-11-18T17:01:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20325552",
@@ -6519,7 +6520,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-18T02:21:06+00:00",
-        "last_seen": "2026-11-18T16:51:13+00:00"
+        "last_seen": "2026-11-18T17:01:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20328798",
@@ -6534,7 +6535,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-18T01:51:04+00:00",
-        "last_seen": "2026-11-18T16:51:13+00:00"
+        "last_seen": "2026-11-18T17:01:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20327787",
@@ -6549,7 +6550,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 46% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-18T01:11:04+00:00",
-        "last_seen": "2026-11-18T16:51:13+00:00"
+        "last_seen": "2026-11-18T17:01:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20328132",
@@ -6564,7 +6565,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-18T01:01:22+00:00",
-        "last_seen": "2026-11-18T16:51:13+00:00"
+        "last_seen": "2026-11-18T17:01:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20329068",
