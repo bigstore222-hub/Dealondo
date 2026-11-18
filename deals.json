@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T17:21:02.870626+00:00",
+  "generated_at": "2026-11-18T17:24:32.495569+00:00",
   "count": 98,
   "deals": [
     {
@@ -6254,10 +6254,9 @@
       "T1": "2026-11-18T17:20:28+00:00",
       "T2": "2026-11-18T17:01:22+00:00",
       "T3": "2026-11-18T16:31:39+00:00",
-      "T4": "2026-11-18T11:11:02+00:00"
+      "T4": "2026-11-18T17:21:04+00:00"
     },
     "recent_gaps_min": [
-      9,
       11,
       9,
       10,
@@ -6286,14 +6285,15 @@
       10,
       1,
       9,
-      10
+      10,
+      3
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-18T17:21:02+00:00",
+      "at": "2026-11-18T17:24:32+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -6302,7 +6302,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-18T17:21:02+00:00"
+      "at": "2026-11-18T17:24:32+00:00"
     }
   },
   "email_monitor": {
@@ -6314,13 +6314,43 @@
         "deals": 22
       },
       "newsletter": {
-        "at": "2026-11-18T11:13:43+00:00",
+        "at": "2026-11-18T17:24:10+00:00",
         "state": "정상",
-        "mails": 34,
-        "deals": 0
+        "mails": 59,
+        "deals": 2
       }
     },
     "recent": [
+      {
+        "url": "https://clicks.finishline.com/f/a/vW10aswKODsa5eZYivz6mA~~/AAQRxRA~/dYafWutAZ_-Cm-x_jn2vaDEd7cq1d4fhCuOWmbrNduAcZ6nyfS8wlCqJahIbrAducfL3xMBV7GfvH2nXDRTG7eD-n7a8y2rhjGEUe0QY9EWKca-2rk3JoGJ7fkYLwyNw3zKXkb96baKJSrwwrB0Q7w~~",
+        "source": "finishline.com",
+        "title": "Give the Gift of Grails 👟🔥",
+        "price": 50.0,
+        "list_price": 100.0,
+        "discount_pct": 50.0,
+        "krw": 66768,
+        "kr_lowest": null,
+        "score": 31,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-11-18T17:24:32+00:00",
+        "last_seen": "2026-11-18T17:24:32+00:00"
+      },
+      {
+        "url": "https://click.email.bloomingdales.com/",
+        "source": "bloomingdales.com",
+        "title": "New to sale: Cashmere and merino sweaters",
+        "price": 75.0,
+        "list_price": 100.0,
+        "discount_pct": 25.0,
+        "krw": 100152,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-11-18T17:24:32+00:00",
+        "last_seen": "2026-11-18T17:24:32+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20326221",
         "source": "slickdeals:bestbuy.com",
@@ -7490,41 +7520,11 @@
         "reject_reason": "H8: 할인 13% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-16T00:41:09+00:00",
         "last_seen": "2026-11-16T00:51:20+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20315229",
-        "source": "slickdeals:amazon.com",
-        "title": "ORICO 7-in-1 GaN USB Travel Power Strip w/ 65W USB-C (Various) for $19.80 at Amazon",
-        "price": 19.8,
-        "list_price": 45.99,
-        "discount_pct": 56.9,
-        "krw": 26451,
-        "kr_lowest": null,
-        "score": 37,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-11-16T00:21:23+00:00",
-        "last_seen": "2026-11-16T00:51:20+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20312304",
-        "source": "slickdeals:slickdeals.net",
-        "title": "(Non-US Power Adapter) Amazon Echo Smart Speaker w/ Alexa (4th Gen) for $40 at Woot!",
-        "price": 40.0,
-        "list_price": 99.99,
-        "discount_pct": 60.0,
-        "krw": 53419,
-        "kr_lowest": null,
-        "score": 53,
-        "published": true,
-        "reject_reason": "",
-        "first_seen": "2026-11-15T23:31:14+00:00",
-        "last_seen": "2026-11-17T23:51:12+00:00"
       }
     ],
     "totals": {
       "collected_72h": 80,
-      "published_72h": 15
+      "published_72h": 14
     }
   }
 }
