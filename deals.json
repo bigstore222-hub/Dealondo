@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T10:21:06.834933+00:00",
-  "count": 100,
+  "generated_at": "2026-11-18T10:21:43.531368+00:00",
+  "count": 101,
   "deals": [
     {
       "source": "6pm.com",
@@ -676,7 +676,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-12T08:11:16.085495+00:00",
-      "last_seen": "2026-11-18T09:41:39.525543+00:00",
+      "last_seen": "2026-11-18T10:21:42.001567+00:00",
       "posted_at": "",
       "signals": {},
       "id": "fa823bbb27",
@@ -752,7 +752,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-12T08:11:16.085495+00:00",
-      "last_seen": "2026-11-18T09:41:39.525543+00:00",
+      "last_seen": "2026-11-18T10:21:42.001567+00:00",
       "posted_at": "",
       "signals": {},
       "id": "2694580dad",
@@ -2070,7 +2070,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-13T14:21:17.328011+00:00",
-      "last_seen": "2026-11-18T09:41:39.525543+00:00",
+      "last_seen": "2026-11-18T10:21:42.001567+00:00",
       "posted_at": "",
       "signals": {},
       "id": "629922e0ab",
@@ -2146,7 +2146,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-12T08:11:16.085495+00:00",
-      "last_seen": "2026-11-18T09:41:39.525543+00:00",
+      "last_seen": "2026-11-18T10:21:42.001567+00:00",
       "posted_at": "",
       "signals": {},
       "id": "d2665d4cb4",
@@ -2516,7 +2516,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 75722,
+      "krw_effective": 75715,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -2539,7 +2539,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-11T17:11:21.993483+00:00",
-      "last_seen": "2026-11-17T15:51:48.577150+00:00",
+      "last_seen": "2026-11-18T10:21:42.001567+00:00",
       "posted_at": "",
       "signals": {},
       "id": "62887e9f56",
@@ -2562,6 +2562,10 @@
         ],
         [
           "2026-11-17",
+          56.7
+        ],
+        [
+          "2026-11-18",
           56.7
         ]
       ]
@@ -2921,6 +2925,67 @@
       ]
     },
     {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/dr-martens-dr-martens-audrick-platform-derby-women/6450159",
+      "title": "Audrick Platform Derby",
+      "brand": "Dr Martens Dr Martens",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/7633649b-aebb-4e9c-ad16-df68eb48173c.jpeg?h=368&w=240&dpr=2",
+      "price_current": 62.96,
+      "price_list": 170.0,
+      "price_baseline": 170.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 84074,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.nordstromrack.com/s/dr-martens-dr-martens-audrick-platform-derby-women/6450159",
+      "discount_pct": 63.0,
+      "score": 67,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 16,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-17T21:01:59.711366+00:00",
+      "last_seen": "2026-11-18T10:21:42.001567+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "eecf63e457",
+      "history": [
+        [
+          "2026-11-17",
+          62.96
+        ],
+        [
+          "2026-11-18",
+          62.96
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:dickssportinggoods",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20328798",
@@ -2985,67 +3050,6 @@
     {
       "source": "nordstromrack.com",
       "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/dr-martens-dr-martens-audrick-platform-derby-women/6450159",
-      "title": "Audrick Platform Derby",
-      "brand": "Dr Martens Dr Martens",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/7633649b-aebb-4e9c-ad16-df68eb48173c.jpeg?h=368&w=240&dpr=2",
-      "price_current": 62.96,
-      "price_list": 170.0,
-      "price_baseline": 170.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 84074,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/dr-martens-dr-martens-audrick-platform-derby-women/6450159",
-      "discount_pct": 63.0,
-      "score": 67,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 16,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-17T21:01:59.711366+00:00",
-      "last_seen": "2026-11-18T09:41:39.525543+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "eecf63e457",
-      "history": [
-        [
-          "2026-11-17",
-          62.96
-        ],
-        [
-          "2026-11-18",
-          62.96
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/calvin-klein-balance-ribpush-up-plunge/9166769",
       "title": "Balance Rib Push Up Plunge Bra",
       "brand": "Calvin Klein Balance",
@@ -3089,7 +3093,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-16T05:11:19.042279+00:00",
-      "last_seen": "2026-11-18T09:41:39.525543+00:00",
+      "last_seen": "2026-11-18T10:21:42.001567+00:00",
       "posted_at": "",
       "signals": {},
       "id": "2a3318f950",
@@ -4176,12 +4180,12 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
-      "url": "https://www.dealnews.com/Nike-Mens-Sportswear-Club-Therma-FIT-650-Fill-Down-Jacket-for-150-free-shipping/22408251.html?iref=rss",
-      "title": "Nike Men's Sportswear Club Therma-FIT 650-Fill Down Jacket for $150 + free shipping",
+      "url": "https://www.dealnews.com/Nike-Mens-Free-Run-5-0-Shoes-for-37-free-shipping-w-50/22408296.html?iref=rss",
+      "title": "Nike Men's Free Run 5.0 Shoes for $37 + free shipping w/ $50",
       "brand": "Nike",
       "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1794994048-27505775.png?h=250&w=247",
-      "price_current": 150.0,
+      "image": "https://d.dlnws.com/64599/1794996220-7370411.png?h=112&w=250",
+      "price_current": 37.0,
       "price_list": null,
       "price_baseline": null,
       "price_alltime_low": null,
@@ -4195,7 +4199,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 200304,
+      "krw_effective": 49408,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -4204,7 +4208,7 @@
       "frontpage": false,
       "code_kind": "",
       "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Nike-Mens-Sportswear-Club-Therma-FIT-650-Fill-Down-Jacket-for-150-free-shipping/22408251.html?iref=rss",
+      "buy_url": "https://www.dealnews.com/Nike-Mens-Free-Run-5-0-Shoes-for-37-free-shipping-w-50/22408296.html?iref=rss",
       "discount_pct": null,
       "score": 55,
       "score_breakdown": {
@@ -4219,27 +4223,27 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-18T09:41:18.922586+00:00",
-      "last_seen": "2026-11-18T09:41:39.525543+00:00",
+      "detected_at": "2026-11-18T10:21:23.095011+00:00",
+      "last_seen": "2026-11-18T10:21:42.001567+00:00",
       "posted_at": "",
       "signals": {},
-      "id": "0736093af4",
+      "id": "6aa182930b",
       "history": [
         [
           "2026-11-18",
-          150.0
+          37.0
         ]
       ]
     },
     {
-      "source": "dealnews",
+      "source": "techbargains:amazon",
       "source_tier": "T2",
-      "url": "https://www.dealnews.com/The-North-Face-Fleece-Jacket-Deals-at-eBay-Up-to-63-off-buy-3-get-1-at-50-off-free-shipping/22406110.html?iref=rss",
-      "title": "The North Face Fleece & Jacket Deals at eBay: Up to 63% off + buy 3, get 1 at 50% off + free shipping",
-      "brand": "The North Face",
+      "url": "https://www.amazon.com/gp/product/B0FHB8GCNB/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1&psc=1",
+      "title": "Puma Men's Performance Boxer Briefs (5-Pack) $14.24",
+      "brand": "Puma",
       "category": "premium_fashion",
-      "image": "https://d.dlnws.com/64599/1794926514-s-l1600.webp?h=250&w=214",
-      "price_current": null,
+      "image": "https://www.techbargains.com/imagery/deals/274605.1794986885.fit_lim.size_125x125.png",
+      "price_current": 14.24,
       "price_list": null,
       "price_baseline": null,
       "price_alltime_low": null,
@@ -4253,7 +4257,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": null,
+      "krw_effective": 19016,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -4261,8 +4265,8 @@
       "collection_method": "rss",
       "frontpage": false,
       "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/The-North-Face-Fleece-Jacket-Deals-at-eBay-Up-to-63-off-buy-3-get-1-at-50-off-free-shipping/22406110.html?iref=rss",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/gp/product/B0FHB8GCNB/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1&psc=1",
       "discount_pct": null,
       "score": 55,
       "score_breakdown": {
@@ -4270,19 +4274,24 @@
         "price_history": null,
         "category": 20,
         "bonus": 0,
-        "brand": 12,
+        "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
         "curated": "DealNews 엄선 → 하한 55"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-18T09:41:18.624684+00:00",
-      "last_seen": "2026-11-18T09:41:39.525543+00:00",
+      "detected_at": "2026-11-18T10:21:23.095011+00:00",
+      "last_seen": "2026-11-18T10:21:42.001567+00:00",
       "posted_at": "",
       "signals": {},
-      "id": "b4e369d861",
-      "history": []
+      "id": "1d9591e5c6",
+      "history": [
+        [
+          "2026-11-18",
+          14.24
+        ]
+      ]
     },
     {
       "source": "techbargains:amazon",
@@ -4330,7 +4339,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-14T16:51:17.172909+00:00",
-      "last_seen": "2026-11-18T09:41:39.525543+00:00",
+      "last_seen": "2026-11-18T10:21:42.001567+00:00",
       "posted_at": "",
       "signals": {},
       "id": "15a55c01ef",
@@ -4403,8 +4412,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-18T09:41:18.851710+00:00",
-      "last_seen": "2026-11-18T09:41:39.525543+00:00",
+      "detected_at": "2026-11-18T10:21:23.027046+00:00",
+      "last_seen": "2026-11-18T10:21:42.001567+00:00",
       "posted_at": "",
       "signals": {},
       "id": "bcac633929",
@@ -4457,7 +4466,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-17T15:51:21.863830+00:00",
-      "last_seen": "2026-11-18T09:41:39.525543+00:00",
+      "last_seen": "2026-11-18T10:21:42.001567+00:00",
       "posted_at": "",
       "signals": {},
       "id": "9eead2982d",
@@ -4471,6 +4480,59 @@
           24.71
         ]
       ]
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/The-North-Face-Fleece-Jacket-Deals-at-eBay-Up-to-63-off-buy-3-get-1-at-50-off-free-shipping/22406110.html?iref=rss",
+      "title": "The North Face Fleece & Jacket Deals at eBay: Up to 63% off + buy 3, get 1 at 50% off + free shipping",
+      "brand": "The North Face",
+      "category": "premium_fashion",
+      "image": "https://d.dlnws.com/64599/1794926514-s-l1600.webp?h=250&w=214",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/The-North-Face-Fleece-Jacket-Deals-at-eBay-Up-to-63-off-buy-3-get-1-at-50-off-free-shipping/22406110.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-18T09:41:18.624684+00:00",
+      "last_seen": "2026-11-18T09:41:39.525543+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "b4e369d861",
+      "history": []
     },
     {
       "source": "dealnews",
@@ -6327,12 +6389,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-18T10:20:38+00:00",
-      "T2": "2026-11-18T09:41:02+00:00",
+      "T2": "2026-11-18T10:21:08+00:00",
       "T3": "2026-11-18T10:01:39+00:00",
       "T4": "2026-11-18T05:01:53+00:00"
     },
     "recent_gaps_min": [
-      10,
       11,
       1,
       8,
@@ -6361,14 +6422,15 @@
       11,
       1,
       9,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-18T10:21:06+00:00",
+      "at": "2026-11-18T10:21:41+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -6377,7 +6439,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-18T10:21:06+00:00"
+      "at": "2026-11-18T10:21:41+00:00"
     }
   },
   "email_monitor": {
