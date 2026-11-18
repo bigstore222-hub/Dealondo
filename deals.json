@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T00:21:09.523377+00:00",
-  "count": 98,
+  "generated_at": "2026-11-18T00:21:51.273989+00:00",
+  "count": 99,
   "deals": [
     {
       "source": "6pm.com",
@@ -833,7 +833,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-12T08:11:16.085495+00:00",
-      "last_seen": "2026-11-17T23:41:56.993169+00:00",
+      "last_seen": "2026-11-18T00:21:49.780744+00:00",
       "posted_at": "",
       "signals": {},
       "id": "fa823bbb27",
@@ -856,6 +856,10 @@
         ],
         [
           "2026-11-17",
+          24.99
+        ],
+        [
+          "2026-11-18",
           24.99
         ]
       ]
@@ -2162,7 +2166,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-13T14:21:17.328011+00:00",
-      "last_seen": "2026-11-17T23:41:56.993169+00:00",
+      "last_seen": "2026-11-18T00:21:49.780744+00:00",
       "posted_at": "",
       "signals": {},
       "id": "629922e0ab",
@@ -2185,6 +2189,10 @@
         ],
         [
           "2026-11-17",
+          22.73
+        ],
+        [
+          "2026-11-18",
           22.73
         ]
       ]
@@ -3049,13 +3057,17 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-17T21:01:59.711366+00:00",
-      "last_seen": "2026-11-17T23:41:56.993169+00:00",
+      "last_seen": "2026-11-18T00:21:49.780744+00:00",
       "posted_at": "",
       "signals": {},
       "id": "eecf63e457",
       "history": [
         [
           "2026-11-17",
+          62.96
+        ],
+        [
+          "2026-11-18",
           62.96
         ]
       ]
@@ -3106,7 +3118,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-16T05:11:19.042279+00:00",
-      "last_seen": "2026-11-17T23:41:56.993169+00:00",
+      "last_seen": "2026-11-18T00:21:49.780744+00:00",
       "posted_at": "",
       "signals": {},
       "id": "2a3318f950",
@@ -3117,6 +3129,10 @@
         ],
         [
           "2026-11-17",
+          12.98
+        ],
+        [
+          "2026-11-18",
           12.98
         ]
       ]
@@ -3167,7 +3183,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-16T05:11:19.042279+00:00",
-      "last_seen": "2026-11-17T23:41:56.993169+00:00",
+      "last_seen": "2026-11-18T00:21:49.780744+00:00",
       "posted_at": "",
       "signals": {},
       "id": "4e75509ec1",
@@ -3178,6 +3194,10 @@
         ],
         [
           "2026-11-17",
+          69.96
+        ],
+        [
+          "2026-11-18",
           69.96
         ]
       ]
@@ -3228,7 +3248,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-16T05:51:18.929738+00:00",
-      "last_seen": "2026-11-17T23:41:56.993169+00:00",
+      "last_seen": "2026-11-18T00:21:49.780744+00:00",
       "posted_at": "",
       "signals": {},
       "id": "a7a1d33d18",
@@ -3239,6 +3259,10 @@
         ],
         [
           "2026-11-17",
+          27.96
+        ],
+        [
+          "2026-11-18",
           27.96
         ]
       ]
@@ -3533,6 +3557,75 @@
       ]
     },
     {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10041295",
+      "title": "Futur Archive Extreme Cargo Pants",
+      "brand": "PUMA",
+      "category": "sports_outdoor",
+      "image": "https://m.media-amazon.com/images/I/61Y8sasiPmL._AC_SR255,340_.jpg",
+      "price_current": 22.5,
+      "price_list": 75.0,
+      "price_baseline": 75.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 30048,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10041295",
+      "discount_pct": 70.0,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-15T17:51:10.991986+00:00",
+      "last_seen": "2026-11-18T00:21:49.780744+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "4392346118",
+      "history": [
+        [
+          "2026-11-15",
+          22.5
+        ],
+        [
+          "2026-11-16",
+          22.5
+        ],
+        [
+          "2026-11-17",
+          22.5
+        ],
+        [
+          "2026-11-18",
+          22.5
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/nike-nkb-jj-futura-wrap/9249041",
@@ -3590,71 +3683,6 @@
         [
           "2026-11-17",
           9.73
-        ]
-      ]
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10041295",
-      "title": "Futur Archive Extreme Cargo Pants",
-      "brand": "PUMA",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/61Y8sasiPmL._AC_SR255,340_.jpg",
-      "price_current": 22.5,
-      "price_list": 75.0,
-      "price_baseline": 75.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 30048,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10041295",
-      "discount_pct": 70.0,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-15T17:51:10.991986+00:00",
-      "last_seen": "2026-11-17T20:21:47.382152+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "4392346118",
-      "history": [
-        [
-          "2026-11-15",
-          22.5
-        ],
-        [
-          "2026-11-16",
-          22.5
-        ],
-        [
-          "2026-11-17",
-          22.5
         ]
       ]
     },
@@ -4100,13 +4128,13 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
-      "url": "https://www.dealnews.com/Certified-Refurb-Ray-Ban-Meta-Smart-Glasses-at-eBay-for-From-179-free-shipping/22406620.html?iref=rss",
-      "title": "Certified Refurb Ray-Ban Meta Smart Glasses at eBay for From $179 + free shipping",
-      "brand": "Ray-Ban",
+      "url": "https://www.dealnews.com/Bulova-Mens-Stainless-Steel-Bracelet-Watch-for-146-free-shipping/22406662.html?iref=rss",
+      "title": "Bulova Men's Stainless Steel Bracelet Watch for $146 + free shipping",
+      "brand": "Bulova",
       "category": "watch_misc",
-      "image": "https://d.dlnws.com/64599/1794953407-s-l300.jpg?h=250&w=250",
-      "price_current": 227.0,
-      "price_list": 197.0,
+      "image": "https://d.dlnws.com/64599/1794960737-29515934_fpx.jpeg?h=250&w=205",
+      "price_current": 146.0,
+      "price_list": null,
       "price_baseline": null,
       "price_alltime_low": null,
       "currency": "USD",
@@ -4119,7 +4147,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 360148,
+      "krw_effective": 194981,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -4128,8 +4156,8 @@
       "frontpage": false,
       "code_kind": "",
       "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Certified-Refurb-Ray-Ban-Meta-Smart-Glasses-at-eBay-for-From-179-free-shipping/22406620.html?iref=rss",
-      "discount_pct": 0.0,
+      "buy_url": "https://www.dealnews.com/Bulova-Mens-Stainless-Steel-Bracelet-Watch-for-146-free-shipping/22406662.html?iref=rss",
+      "discount_pct": null,
       "score": 55,
       "score_breakdown": {
         "discount_depth": 0,
@@ -4143,15 +4171,15 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-17T22:21:56.062877+00:00",
-      "last_seen": "2026-11-17T23:41:56.993169+00:00",
+      "detected_at": "2026-11-18T00:21:23.641784+00:00",
+      "last_seen": "2026-11-18T00:21:49.780744+00:00",
       "posted_at": "",
       "signals": {},
-      "id": "5d3b174d98",
+      "id": "a29bacccad",
       "history": [
         [
-          "2026-11-17",
-          227.0
+          "2026-11-18",
+          146.0
         ]
       ]
     },
@@ -4201,12 +4229,74 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-17T23:41:36.786791+00:00",
-      "last_seen": "2026-11-17T23:41:56.993169+00:00",
+      "detected_at": "2026-11-18T00:21:23.456928+00:00",
+      "last_seen": "2026-11-18T00:21:49.780744+00:00",
       "posted_at": "",
       "signals": {},
       "id": "b4e369d861",
       "history": []
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Certified-Refurb-Ray-Ban-Meta-Smart-Glasses-at-eBay-for-From-179-free-shipping/22406620.html?iref=rss",
+      "title": "Certified Refurb Ray-Ban Meta Smart Glasses at eBay for From $179 + free shipping",
+      "brand": "Ray-Ban",
+      "category": "watch_misc",
+      "image": "https://d.dlnws.com/64599/1794953407-s-l300.jpg?h=250&w=250",
+      "price_current": 227.0,
+      "price_list": 197.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 360148,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Certified-Refurb-Ray-Ban-Meta-Smart-Glasses-at-eBay-for-From-179-free-shipping/22406620.html?iref=rss",
+      "discount_pct": 0.0,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 10,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-17T22:21:56.062877+00:00",
+      "last_seen": "2026-11-18T00:21:49.780744+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "5d3b174d98",
+      "history": [
+        [
+          "2026-11-17",
+          227.0
+        ],
+        [
+          "2026-11-18",
+          227.0
+        ]
+      ]
     },
     {
       "source": "techbargains:amazon",
@@ -4254,7 +4344,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-14T16:51:17.172909+00:00",
-      "last_seen": "2026-11-17T23:41:56.993169+00:00",
+      "last_seen": "2026-11-18T00:21:49.780744+00:00",
       "posted_at": "",
       "signals": {},
       "id": "15a55c01ef",
@@ -4273,6 +4363,10 @@
         ],
         [
           "2026-11-17",
+          71.5
+        ],
+        [
+          "2026-11-18",
           71.5
         ]
       ]
@@ -4323,8 +4417,8 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-17T23:41:36.990158+00:00",
-      "last_seen": "2026-11-17T23:41:56.993169+00:00",
+      "detected_at": "2026-11-18T00:21:23.561047+00:00",
+      "last_seen": "2026-11-18T00:21:49.780744+00:00",
       "posted_at": "",
       "signals": {},
       "id": "bcac633929",
@@ -4377,13 +4471,17 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-17T15:51:21.863830+00:00",
-      "last_seen": "2026-11-17T23:41:56.993169+00:00",
+      "last_seen": "2026-11-18T00:21:49.780744+00:00",
       "posted_at": "",
       "signals": {},
       "id": "9eead2982d",
       "history": [
         [
           "2026-11-17",
+          24.71
+        ],
+        [
+          "2026-11-18",
           24.71
         ]
       ]
@@ -6181,16 +6279,15 @@
       ]
     }
   ],
-  "fx_usd_krw": 1335.4,
+  "fx_usd_krw": 1335.5,
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-18T00:20:31+00:00",
-      "T2": "2026-11-17T23:41:22+00:00",
+      "T2": "2026-11-18T00:21:11+00:00",
       "T3": "2026-11-17T23:11:13+00:00",
       "T4": "2026-11-17T22:51:06+00:00"
     },
     "recent_gaps_min": [
-      10,
       11,
       1,
       1,
@@ -6219,14 +6316,15 @@
       9,
       10,
       10,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-18T00:21:08+00:00",
+      "at": "2026-11-18T00:21:49+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -6235,7 +6333,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-18T00:21:08+00:00"
+      "at": "2026-11-18T00:21:49+00:00"
     }
   },
   "email_monitor": {
