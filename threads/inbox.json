@@ -1568,6 +1568,84 @@
    "photo_msg": 4008,
    "msg": 4009,
    "status": "canceled"
+  },
+  "2b7ee482": {
+   "created": "2026-11-18T18:31:08+09:00",
+   "url": "https://www.nordstromrack.com/s/sam-edelman-kallen-sneaker-women/8100374",
+   "deal": {
+    "source": "nordstromrack.com",
+    "source_tier": "T2",
+    "url": "https://www.nordstromrack.com/s/sam-edelman-kallen-sneaker-women/8100374",
+    "title": "Women's Kallen Sneaker",
+    "brand": "Sam Edelman Kallen",
+    "category": "premium_fashion",
+    "image": "https://n.nordstrommedia.com/it/a36141cc-aacb-436f-b84f-36e8809ea2cb.jpeg?h=368&w=240&dpr=2",
+    "price_current": 27.96,
+    "price_list": 110.0,
+    "price_baseline": 110.0,
+    "price_alltime_low": null,
+    "currency": "USD",
+    "coupon_code": "",
+    "coupon_stackable": false,
+    "off_season": false,
+    "free_gift": false,
+    "community_votes": null,
+    "rating": null,
+    "review_count": null,
+    "ships_to_kr": true,
+    "forwarding_ok": true,
+    "krw_effective": 37337,
+    "kr_lowest_price": null,
+    "stock_status": "in_stock",
+    "is_refurbished": false,
+    "expires_at": null,
+    "collection_method": "scrape",
+    "frontpage": false,
+    "code_kind": "",
+    "brand_tier": "known",
+    "buy_url": "https://www.nordstromrack.com/s/sam-edelman-kallen-sneaker-women/8100374",
+    "discount_pct": 74.6,
+    "score": 64,
+    "score_breakdown": {
+     "discount_depth": 30,
+     "price_history": null,
+     "category": 20,
+     "bonus": 0,
+     "brand": 6,
+     "note": "가격이력 미축적 → 87점 척도 정규화"
+    },
+    "passed_hard_filter": true,
+    "reject_reason": "",
+    "urgency": "STEADY",
+    "detected_at": "2026-11-16T05:51:18.929738+00:00",
+    "last_seen": "2026-11-18T07:41:38.713406+00:00",
+    "posted_at": "",
+    "signals": {},
+    "id": "a7a1d33d18",
+    "history": [
+     [
+      "2026-11-16",
+      27.96
+     ],
+     [
+      "2026-11-17",
+      27.96
+     ],
+     [
+      "2026-11-18",
+      27.96
+     ]
+    ]
+   },
+   "seen": "2026-11-18T16:41:38.713406+09:00",
+   "text": "샘 에델만 스니커즈 (여성용), 75% 할인이면 사이즈 모험해볼 만해요.\n\nNordstrom Rack · $110짜리가 $27.96, 75% 할인\n면세한도 $200 안이라 세금 걱정 없어요.\n후기에 'runs small/large'가 있는지 먼저 보면 실패가 줄어요.\n\n사이즈 고르는 본인만의 기준 있으세요?",
+   "reply": "상품 링크: https://www.nordstromrack.com/s/sam-edelman-kallen-sneaker-women/8100374\n다른 사이즈·색상은 링크에서 확인하세요.",
+   "notes": [],
+   "angle": "size",
+   "already": false,
+   "photo_msg": 4013,
+   "msg": 4014,
+   "status": "waiting"
   }
  },
  "done_updates": [
@@ -1802,7 +1880,8 @@
   "2026-11-16-저녁": "74f40de2",
   "2026-11-17-점심": "62357b65",
   "2026-11-17-저녁": "273a1606",
-  "2026-11-18-점심": "8109103d"
+  "2026-11-18-점심": "8109103d",
+  "2026-11-18-저녁": "2b7ee482"
  },
  "picked_urls": [
   "6pm.com/product/9961271",
@@ -1834,14 +1913,10 @@
   "nordstromrack.com/s/champion-sweatshirt-cargo-joggers-set/9013118",
   "nordstromrack.com/s/vans-old-skool/9230401",
   "6pm.com/product/9896515",
-  "nordstromrack.com/s/dr-martens-dr-martens-audrick-platform-derby-women/6450159"
+  "nordstromrack.com/s/dr-martens-dr-martens-audrick-platform-derby-women/6450159",
+  "nordstromrack.com/s/sam-edelman-kallen-sneaker-women/8100374"
  ],
  "runs": [
-  {
-   "at": "2026-11-13T18:40:21+09:00",
-   "updates": 1,
-   "errors": []
-  },
   {
    "at": "2026-11-13T20:10:12+09:00",
    "updates": 1,
@@ -2034,6 +2109,11 @@
   },
   {
    "at": "2026-11-18T16:53:17+09:00",
+   "updates": 0,
+   "errors": []
+  },
+  {
+   "at": "2026-11-18T18:39:57+09:00",
    "updates": 0,
    "errors": []
   }
