@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T23:31:16.140620+00:00",
+  "generated_at": "2026-11-18T23:34:34.940074+00:00",
   "count": 103,
   "deals": [
     {
@@ -6540,10 +6540,9 @@
       "T1": "2026-11-18T23:30:36+00:00",
       "T2": "2026-11-18T23:01:29+00:00",
       "T3": "2026-11-18T23:02:05+00:00",
-      "T4": "2026-11-18T17:21:04+00:00"
+      "T4": "2026-11-18T23:31:17+00:00"
     },
     "recent_gaps_min": [
-      9,
       10,
       10,
       10,
@@ -6572,14 +6571,15 @@
       1,
       9,
       9,
-      10
+      10,
+      3
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-18T23:31:15+00:00",
+      "at": "2026-11-18T23:34:34+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -6588,7 +6588,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-18T23:31:16+00:00"
+      "at": "2026-11-18T23:34:34+00:00"
     }
   },
   "email_monitor": {
@@ -6600,13 +6600,28 @@
         "deals": 32
       },
       "newsletter": {
-        "at": "2026-11-18T17:24:10+00:00",
+        "at": "2026-11-18T23:34:11+00:00",
         "state": "정상",
-        "mails": 59,
-        "deals": 2
+        "mails": 79,
+        "deals": 4
       }
     },
     "recent": [
+      {
+        "url": "https://click.woot.com/f/a/HJS6b566VsIWgfMlODN9ig~~/AAQRxRA~/D0ApVIXA9xj15MCePLVXVsECvO_JwUuUBXiSd5IlBxzBGxerwZcXISo7i-LFmP4YMSjBTO8ix6-tUF8eTA-NuzZHwcjApobQ0hnj4QyeGSRDTpE84Rc7BBMQZd-iJHnIgXdcMbv22YIQiF4abV5ezuhAtPH3UNsYPfI8gziNtPF-zJWTqxvbYQESl2k3zhFSvdfmha0H_miOwSxBOUHY6CZdCPcfleKBeEKvtwzWXllBf6X",
+        "source": "woot.com",
+        "title": "Toymania! 25% Off with code PLAY!",
+        "price": 75.0,
+        "list_price": 100.0,
+        "discount_pct": 25.0,
+        "krw": 100152,
+        "kr_lowest": null,
+        "score": 17,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-11-18T23:34:34+00:00",
+        "last_seen": "2026-11-18T23:34:34+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20323143",
         "source": "slickdeals:nike.com",
@@ -6770,7 +6785,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-18T17:24:32+00:00",
-        "last_seen": "2026-11-18T17:24:32+00:00"
+        "last_seen": "2026-11-18T23:34:34+00:00"
       },
       {
         "url": "https://click.email.bloomingdales.com/",
@@ -6785,7 +6800,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-18T17:24:32+00:00",
-        "last_seen": "2026-11-18T17:24:32+00:00"
+        "last_seen": "2026-11-18T23:34:34+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20326221",
@@ -7585,17 +7600,17 @@
       {
         "url": "https://click.emails.underarmour.com/",
         "source": "underarmour.com",
-        "title": "Extra 40% off UA Outlet ends today",
+        "title": "Your holiday picks are in ✨",
         "price": 60.0,
         "list_price": 100.0,
         "discount_pct": 40.0,
-        "krw": 80129,
+        "krw": 80122,
         "kr_lowest": null,
         "score": 48,
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-16T22:17:37+00:00",
-        "last_seen": "2026-11-17T22:54:15+00:00"
+        "last_seen": "2026-11-18T23:34:34+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20311383",
@@ -7790,21 +7805,6 @@
         "published": false,
         "reject_reason": "H8: 할인 17% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-16T14:11:17+00:00",
-        "last_seen": "2026-11-17T00:51:09+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20314410",
-        "source": "slickdeals:bestbuy.com",
-        "title": "OtterBox Apple Watch 40/41/42mm Silicone Band (2 Colors) for $11 at Best Buy",
-        "price": 11.0,
-        "list_price": 29.95,
-        "discount_pct": 63.3,
-        "krw": 14695,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
-        "first_seen": "2026-11-16T13:51:10+00:00",
         "last_seen": "2026-11-17T00:51:09+00:00"
       }
     ],
