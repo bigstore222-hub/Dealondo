@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T11:11:01.533970+00:00",
-  "count": 100,
+  "generated_at": "2026-11-18T11:14:07.524476+00:00",
+  "count": 99,
   "deals": [
     {
       "source": "6pm.com",
@@ -6272,59 +6272,6 @@
           15.0
         ]
       ]
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Marmot-Early-Black-Friday-Deals-25-off-select-styles-free-shipping-w-49/22402812.html?iref=rss",
-      "title": "Marmot Early Black Friday Deals: 25% off select styles + free shipping w/ $49",
-      "brand": "Marmot",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1793093757-marmot-logo-2000.png?h=47&w=250",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Marmot-Early-Black-Friday-Deals-25-off-select-styles-free-shipping-w-49/22402812.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-16T11:11:18.182238+00:00",
-      "last_seen": "2026-11-16T11:11:41.072767+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "d87c7f7984",
-      "history": []
     }
   ],
   "fx_usd_krw": 1335.4,
@@ -6333,10 +6280,9 @@
       "T1": "2026-11-18T11:10:31+00:00",
       "T2": "2026-11-18T11:01:22+00:00",
       "T3": "2026-11-18T10:01:39+00:00",
-      "T4": "2026-11-18T05:01:53+00:00"
+      "T4": "2026-11-18T11:11:02+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       10,
       1,
@@ -6365,14 +6311,15 @@
       10,
       10,
       1,
-      9
+      9,
+      3
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-18T11:11:01+00:00",
+      "at": "2026-11-18T11:14:07+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -6381,7 +6328,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-18T11:11:01+00:00"
+      "at": "2026-11-18T11:14:07+00:00"
     }
   },
   "email_monitor": {
@@ -6393,9 +6340,9 @@
         "deals": 11
       },
       "newsletter": {
-        "at": "2026-11-18T05:04:36+00:00",
+        "at": "2026-11-18T11:13:43+00:00",
         "state": "정상",
-        "mails": 29,
+        "mails": 34,
         "deals": 0
       }
     },
