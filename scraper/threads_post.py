@@ -164,9 +164,23 @@ def fail_tg(msg: str) -> None:
     tg(msg + ("\n(오늘 마지막 자동 시도였어요. Actions에서 post로 직접 실행해 주세요.)" if QUIET.get("last") else ""))
 
 
+# 사용자 결정(11/18): 예약 글은 더 이상 올리지 않는다. (예약표가 끝난 뒤 옛 글이 다시 올라가던 문제도 함께 차단)
+# 다시 켜려면 GitHub 변수/환경변수 THREADS_SCHEDULE=on
+SCHEDULE_ON = (os.environ.get("THREADS_SCHEDULE") or "off").strip().lower() == "on"
+
+
 def run_post(dry: bool, force: bool) -> int:
     token = re.sub(r"\s", "", os.environ.get("THREADS_ACCESS_TOKEN") or "")
     uid = re.sub(r"\s", "", os.environ.get("THREADS_USER_ID") or "")
+    if not SCHEDULE_ON:
+        print("[스레드] 예약 글 게시 중지 상태 — 올리지 않음 (성과 기록만 갱신)")
+        if token and uid and not dry:
+            try:
+                collect_insights(uid, token)      # 모니터의 '글별 성과' 표는 계속 갱신
+            except Exception as e:
+                print("[성과] 수집 실패:", e)
+        _save_status("예약 글 중지", "THREADS_SCHEDULE=on 이면 다시 켜져요", None)
+        return 0
     items, today = load_schedule(), today_kst()
     if not (token and uid):
         if not dry:

@@ -45,9 +45,10 @@ URL_RE = re.compile(r"https?://[^\s<>\"')\]]+", re.I)
 PRICE_RE = re.compile(r"\$\s?([\d,]+(?:\.\d{1,2})?)")
 NUMS_ONLY = re.compile(r"^\s*\$?\s*([\d,]+(?:\.\d{1,2})?)\s*(?:[/→>\-~ ,]+\s*\$?\s*([\d,]+(?:\.\d{1,2})?))?\s*$")
 HELP = ("딜온도 스레드 접수함이에요.\n\n"
-        "· 상품 페이지 주소를 보내면 스레드 글·카드 미리보기를 보내드려요.\n"
+        "· 상품 페이지 주소를 보내면 글을 써서 스레드에 바로 올려요(승인 없이).\n"
         "· 딜온도 알림을 전달하거나, 알림에 답장으로 아무 말이나 보내도 돼요.\n"
-        "· 미리보기에서 ✅ 누르면 바로 게시, ❌ 누르면 취소.\n"
+        "· 24시간 안에 이미 올린 상품은 다시 올리지 않아요.\n"
+        "· 가격을 못 읽었거나 품질 경고가 있으면 미리보기로 물어봐요(✅ 게시 / ❌ 취소).\n"
         "· 미리보기에 답장으로 \"19.99 495\" → 판매가·정가 수정, 다른 글 → 본문 교체.")
 
 
@@ -330,6 +331,28 @@ _q = (os.environ.get("THREADS_DEAL_QUIET") or "").split("-")
 QUIET = (int(_q[0]), int(_q[1])) if len(_q) == 2 and all(x.strip().isdigit() for x in _q) else None
 
 
+# 사용자 결정(11/18): 텔레그램으로 보낸 링크는 승인 없이 바로 게시. (추천 딜은 봇이 고른 것이라 ✅ 승인 유지)
+# 끄려면 THREADS_AUTO_POST=0
+AUTO_POST = (os.environ.get("THREADS_AUTO_POST") or "1").strip() not in ("0", "off", "false")
+DUP_HOURS = float(os.environ.get("THREADS_DUP_HOURS", "24"))
+DRY = {"v": False}
+
+
+def recent_dup(*urls: str) -> dict | None:
+    """같은 상품을 DUP_HOURS 안에 이미 올렸으면 그 기록을 돌려준다."""
+    keys = {TD.norm(u) for u in urls if u}
+    keys.discard("")
+    cut = dt.datetime.now(KST) - dt.timedelta(hours=DUP_HOURS)
+    for x in TD.recent_posts(50):
+        try:
+            at = dt.datetime.fromisoformat(x["at"])
+        except Exception:
+            continue
+        if at >= cut and TD.norm(x.get("url", "")) in keys:
+            return x
+    return None
+
+
 def _posted_times() -> list[tuple[dt.datetime, str]]:
     out = []
     for x in TD.recent_posts(50):
@@ -413,6 +436,12 @@ def process_queue(st: dict, dry: bool) -> None:
 
 def publish_roundup(st: dict, ids: list[str], chat: str, dry: bool) -> None:
     import deal_writer as W
+    ids = [k for k in ids if not recent_dup(st["drafts"][k].get("url"), (st["drafts"][k].get("deal") or {}).get("url"))]
+    if not ids:
+        return
+    if len(ids) == 1:
+        publish(st, ids[0], chat, dry)
+        return
     drs = [st["drafts"][k] for k in ids]
     for dr in drs:
         dr["status"] = "posting"
@@ -494,7 +523,7 @@ def send_preview(st: dict, did: str, chat: str, reply_to: int | None = None) -> 
     dr["status"] = "waiting"
 
 
-def new_draft(st: dict, chat: str, url: str, hint: dict, reply_to: int) -> str | None:
+def new_draft(st: dict, chat: str, url: str, hint: dict, reply_to: int, auto: bool | None = None) -> str | None:
     did = hashlib.md5(f"{TD.norm(url)}{time.time()}".encode()).hexdigest()[:8]
     d, notes, seen = build_deal(url, hint)
     if not d:
@@ -517,6 +546,21 @@ def new_draft(st: dict, chat: str, url: str, hint: dict, reply_to: int) -> str |
                          "angle": comp.get("angle", ""), "already": TD.already_posted(url)}
     if st["drafts"][did]["already"]:
         st["drafts"][did]["notes"].insert(0, "이미 스레드에 올린 적 있는 상품이에요.")
+    if AUTO_POST if auto is None else auto:
+        dr = st["drafts"][did]
+        if comp.get("problems"):
+            # 품질 문제가 있는 글은 자동으로 올리지 않고 예전처럼 미리보기 + ✅ 로 묻는다
+            send_preview(st, did, chat, reply_to)
+            tg_safe("sendMessage", chat_id=chat, reply_to_message_id=dr["msg"],
+                    text="⚠️ 자동 게시 보류 — 위 [품질] 경고 때문에 바로 올리지 않았어요. 괜찮으면 ✅, "
+                         "본문을 고치려면 이 미리보기에 답장으로 새 본문을 보내주세요.")
+            return did
+        img = TD.product_image(d)
+        dr["img_ok"] = TD.image_ok(img) if img else False
+        dr["msg"] = reply_to
+        dr["status"] = "waiting"
+        publish(st, did, chat, DRY["v"])
+        return did
     send_preview(st, did, chat, reply_to)
     return did
 
@@ -530,6 +574,14 @@ def retire(chat: str, dr: dict, note: str) -> None:
 # ── 게시 ──────────────────────────────────────────────────────────────────────
 def publish(st: dict, did: str, chat: str, dry: bool) -> None:
     dr = st["drafts"][did]
+    d = dr.get("deal") or {}
+    dup = recent_dup(dr.get("url"), d.get("url"), d.get("buy_url"))
+    if dup:
+        dr["status"] = "duplicate"
+        tg_safe("editMessageReplyMarkup", chat_id=chat, message_id=dr.get("msg"), reply_markup={"inline_keyboard": []})
+        tg_safe("sendMessage", chat_id=chat, reply_to_message_id=dr.get("msg"), disable_web_page_preview=True,
+                text=f"🔁 {DUP_HOURS:g}시간 안에 이미 올린 상품이라 다시 올리지 않았어요.\n{dup.get('link') or ''}")
+        return
     dr["status"] = "posting"
     save_state(st)
     tg_safe("editMessageReplyMarkup", chat_id=chat, message_id=dr["msg"], reply_markup={"inline_keyboard": []})
@@ -565,20 +617,39 @@ def publish(st: dict, did: str, chat: str, dry: bool) -> None:
         dr["status"] = "waiting"
         dr["error"] = msg
         TD.record(dr["url"], "실패", msg)
-        say(f"❌ 게시 실패\n{msg}\n\n아래 버튼으로 다시 시도할 수 있어요.")
-        tg_safe("editMessageReplyMarkup", chat_id=chat, message_id=dr["msg"], reply_markup=keyboard(did))
+        say(f"❌ 게시 실패\n{msg}")
+        m = tg_safe("sendMessage", chat_id=chat, text="아래 버튼으로 다시 시도할 수 있어요.", reply_markup=keyboard(did))
+        if m:
+            dr["msg"] = m["message_id"]
         return
     dr["status"] = "posted"
     dr["link"] = link
     TD.record(dr["url"], "게시 완료", note, link, angle=dr.get("angle", ""), opener=dr["text"].split("\n")[0])
-    say(f"✅ 스레드에 올렸어요\n{link}\n{note}")
+    say(f"✅ 스레드에 올렸어요\n{link}\n{note}\n\n— 올린 글 ({ANGLE_KR.get(dr.get('angle', ''), '기본')}) —\n{dr['text']}")
 
 
 # ── 업데이트 처리 ────────────────────────────────────────────────────────────
+def _own_button(u: dict, st: dict | None = None) -> bool:
+    """우리 봇이 보낸 미리보기의 버튼인가 — 버튼 데이터가 'post:초안id' 형식이고 그 초안이 상태 파일에 있으면."""
+    cq = u.get("callback_query") or {}
+    act, _, did = (cq.get("data") or "").partition(":")
+    if act not in ("post", "cancel", "now") or not re.fullmatch(r"[0-9a-f]{8}", did or ""):
+        return False
+    try:
+        st = st or load_state()
+    except Exception:
+        return True
+    return did in st.get("drafts", {})
+
+
 def handle(st: dict, u: dict, dry: bool) -> None:
     chat = chat_of(u)
-    if chat not in ALLOWED and relevant(u):
-        chat = str(((u.get("callback_query") or {}).get("from") or {}).get("id", ""))
+    if chat not in ALLOWED and (relevant(u) or _own_button(u, st)):
+        cq = u.get("callback_query") or {}
+        chat = str(((cq.get("message") or {}).get("chat") or {}).get("id") or (cq.get("from") or {}).get("id", ""))
+        if chat not in ALLOWED:
+            print("  [진단] 등록 id 와 다른 대화에서 누른 버튼 — 그래도 처리:", chat[-4:])
+            ALLOWED.add(chat)
     if chat not in ALLOWED:
         print("  허용되지 않은 대화 — 무시:", chat)
         return
@@ -671,7 +742,12 @@ def handle(st: dict, u: dict, dry: bool) -> None:
             nid = hashlib.md5(f"{did}{time.time()}".encode()).hexdigest()[:8]
             st["drafts"][nid] = {**{k: v for k, v in dr.items() if k not in ("msg", "photo_msg", "status")},
                                  "text": text, "created": dt.datetime.now(KST).isoformat(timespec="seconds")}
-            send_preview(st, nid, chat, msg["message_id"])
+            if AUTO_POST:                      # 자동 게시 모드: 고친 본문으로 바로 올린다
+                st["drafts"][nid]["msg"] = msg["message_id"]
+                st["drafts"][nid]["status"] = "waiting"
+                publish(st, nid, chat, DRY["v"])
+            else:
+                send_preview(st, nid, chat, msg["message_id"])
             return
 
     # 2) 상품 링크 (직접 보낸 것, 전달한 알림, 알림에 단 답장)
@@ -767,7 +843,7 @@ def make_pick(st: dict, key: str) -> str | None:
     tg_safe("sendMessage", chat_id=chat, disable_web_page_preview=True,
             text=f"🔥 {slot} 추천 딜 — 딜보드 점수 {d.get('score', '?')}점 · {round(d.get('discount_pct') or 0)}% 할인\n"
                  "괜찮으면 아래 미리보기에서 ✅ 만 누르세요. 넘기려면 ❌.")
-    did = new_draft(st, chat, d["url"], {}, None)
+    did = new_draft(st, chat, d["url"], {}, None, auto=False)
     st["picks"][key] = did or "실패"
     return did
 
@@ -790,9 +866,17 @@ def peek() -> int:
     for i in range(3):
         try:
             ups = _get_updates(None, 0)
-            has = any(relevant(u) for u in ups)
-            print(f"새 업데이트 {len(ups)}건 · 처리할 것 {'있음' if has else '없음'}"
-                  + "".join(f" · {('버튼' if 'callback_query' in u else '메시지')}" for u in ups[:10]))
+            stx0 = load_state()
+            has = any(relevant(u) or _own_button(u, stx0) for u in ups) or bool(ups)
+            kinds = [("버튼" if "callback_query" in u else "메시지") + ("✓" if relevant(u) else ("•" if _own_button(u, stx0) else "✗"))
+                     for u in ups[:12]]
+            try:
+                wh = tg("getWebhookInfo")
+                whs = f"웹훅 {'있음' if wh.get('url') else '없음'}"
+            except Exception as e:
+                whs = f"웹훅 확인 실패 {type(e).__name__}"
+            # ::notice:: 는 공개 저장소에서 로그인 없이도 실행 기록(annotations)으로 볼 수 있다 → 원인 추적용
+            print(f"::notice title=텔레그램 확인::업데이트 {len(ups)}건 [{' '.join(kinds)}] · {whs} · 처리 {'함' if has else '안 함'}")
             err = ""
             break
         except Exception as e:
@@ -817,6 +901,7 @@ def peek() -> int:
 
 
 def serve(minutes: float, dry: bool) -> int:
+    DRY["v"] = dry
     if not (TOKEN and ALLOWED):
         print("TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID 가 없습니다"); return 1
     st = load_state()
