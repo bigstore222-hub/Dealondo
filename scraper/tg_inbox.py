@@ -171,20 +171,31 @@ def parse_alert(msg: dict) -> dict:
     at = (msg.get("forward_origin") or {}).get("date") or msg.get("forward_date") or msg.get("date")
     if at:
         out["at"] = at
-    nums = [PP._num(x) for x in PRICE_RE.findall(text)]
+    money_ln = next((ln for ln in text.splitlines() if ln.strip().startswith("💰")), "")   # 딜온도 알림의 가격줄 우선
+    nums = [PP._num(x) for x in PRICE_RE.findall(money_ln or text)]
     nums = [x for x in nums if x]
     if nums:
         out["price_current"] = nums[0]
         if len(nums) > 1 and nums[1] > nums[0]:
             out["price_list"] = nums[1]
     lines = [ln.strip() for ln in text.splitlines() if ln.strip()] if nums else []   # 가격이 적힌 알림일 때만
+    tag_line = re.compile(r"^\s*(💰|🎟|❄|🎁|📉|⏰|⚡|🏠|📊)|프론트페이지|Hot Deals \d|레딧 과거")
+    pick_ = ""
     for ln in lines:
-        if URL_RE.search(ln) or "$" in ln or "점" in ln and "·" in ln or "보러가기" in ln:
-            continue
+        if URL_RE.search(ln) or "점" in ln and "·" in ln or "보러가기" in ln or tag_line.search(ln):
+            continue                     # 머리줄(점수)·가격줄·태그줄(🏠 프론트페이지 등)은 상품명이 아니다
         t = re.sub(r"^[⭐🔷⚠️\s]+", "", ln).strip()
+        if "$" in t:                     # 슬릭딜 제목처럼 가격이 섞인 상품명 → 가격만 걷어내고 쓴다
+            t = re.sub(r"\$\s?[\d,]+(?:\.\d{1,2})?\+?", "", t)
+            t = re.sub(r"\s{2,}", " ", re.sub(r"\s+(for|at|w/|with|\+)\s*$", "", t)).strip(" -–·,:")
+            if len(t) >= 6 and not pick_:
+                pick_ = t
+            continue
         if len(t) >= 6:
             out["title"] = t
             break
+    if "title" not in out and pick_:
+        out["title"] = pick_
     for e in (msg.get("entities") or []):
         if e.get("type") == "bold":
             b = _u16(text, e["offset"], e["length"]).strip()
@@ -499,7 +510,7 @@ def send_preview(st: dict, did: str, chat: str, reply_to: int | None = None) -> 
     seen = dt.datetime.fromisoformat(dr["seen"])
     TD.CARD_DIR.mkdir(parents=True, exist_ok=True)
     TD.render_card(dr["deal"], seen, card_path(did))
-    img = TD.product_image(dr["deal"])
+    img = TD.product_image(dr["deal"]) if TD.CAROUSEL else None     # 11/18: 딜 글은 카드 한 장으로만 올린다
     if img and dr.get("img_ok") is None:
         dr["img_ok"] = TD.image_ok(img)
     if img and dr.get("img_ok"):
@@ -508,7 +519,8 @@ def send_preview(st: dict, did: str, chat: str, reply_to: int | None = None) -> 
         except Exception as e:
             dr["img_ok"] = False
             print("  상품 사진 전송 실패:", e)
-    n = ("상품 사진을 불러오지 못해 카드 한 장으로 올라가요." if img and not dr.get("img_ok")
+    n = ("" if not TD.CAROUSEL else
+         "상품 사진을 불러오지 못해 카드 한 장으로 올라가요." if img and not dr.get("img_ok")
          else ("상품 사진을 찾지 못해 카드 한 장으로 올라가요." if not img else ""))
     if n and n not in dr.setdefault("notes", []):
         dr["notes"].append(n)
@@ -555,7 +567,7 @@ def new_draft(st: dict, chat: str, url: str, hint: dict, reply_to: int, auto: bo
                     text="⚠️ 자동 게시 보류 — 위 [품질] 경고 때문에 바로 올리지 않았어요. 괜찮으면 ✅, "
                          "본문을 고치려면 이 미리보기에 답장으로 새 본문을 보내주세요.")
             return did
-        img = TD.product_image(d)
+        img = TD.product_image(d) if TD.CAROUSEL else None
         dr["img_ok"] = TD.image_ok(img) if img else False
         dr["msg"] = reply_to
         dr["status"] = "waiting"
@@ -856,6 +868,54 @@ def relevant(u: dict) -> bool:
     return str((cq.get("from") or {}).get("id", "")) in ALLOWED
 
 
+# ── 정보 글 · 성과 기록 · 주간 리포트 (11/18 운영 계획 1~3단계) ───────────────────────────
+def scheduled_work(st: dict) -> list[str]:
+    """지금 할 예정 작업 이름들 — peek 에서 has_work 를 켜는 데 쓴다(가벼운 확인만)."""
+    out = []
+    try:
+        import info_posts as IP
+        d = IP.due(st)
+        if d:
+            out.append(f"정보 글 {d[0]}")
+    except Exception as e:
+        print("::warning::정보 글 확인 실패:", e)
+    try:
+        import threads_metrics as M
+        m = M.load()
+        if M.due(m):
+            out.append("성과 기록")
+        if M.report_due(m):
+            out.append("주간 리포트")
+    except Exception as e:
+        print("::warning::성과 기록 확인 실패:", e)
+    return out
+
+
+def run_scheduled(st: dict, dry: bool) -> None:
+    chat = re.sub(r"\s", "", os.environ.get("TELEGRAM_CHAT_ID") or "") or next(iter(ALLOWED))
+    send = lambda t: tg_safe("sendMessage", chat_id=chat, text=t[:4000], disable_web_page_preview=True)
+    try:
+        import info_posts as IP
+        r = IP.run(st, chat, send, dry)
+        if r:
+            print("[정보 글]", r)
+    except Exception as e:
+        print("[정보 글] 오류:", repr(e))
+    save_state(st)
+    try:
+        import threads_metrics as M
+        changed = False
+        if M.due():
+            M.collect()
+            changed = True
+        if M.weekly_report(send):
+            changed = True
+        if changed and not dry:
+            M.push()
+    except Exception as e:
+        print("[성과 기록] 오류:", repr(e))
+
+
 def peek() -> int:
     """
     새 메시지·버튼 신호가 있는지 '보기만' 한다(확인 처리하지 않음).
@@ -891,6 +951,10 @@ def peek() -> int:
         if due_queue(stx):
             due = due or "queue"
             print("올릴 시각이 된 대기 딜:", len(due_queue(stx)))
+        sched = scheduled_work(stx)
+        if sched:
+            due = due or ",".join(sched)
+            print("::notice title=예정 작업::" + ", ".join(sched))
     except Exception as e:
         print("::warning::상태 파일 확인 실패:", e)
     out = os.environ.get("GITHUB_OUTPUT")
@@ -913,6 +977,7 @@ def serve(minutes: float, dry: bool) -> int:
         process_queue(st, dry)          # 올릴 시각이 된 대기 딜 먼저
     except Exception as e:
         print("[대기 딜] 처리 실패:", repr(e))
+    run_scheduled(st, dry)              # 정보 글(시간대) · 성과 기록(3시간마다) · 주간 리포트(월요일 오전)
     errors: list[str] = []
     seen_n = conflicts = 0
     key = pick_due(st)

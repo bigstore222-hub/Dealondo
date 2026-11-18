@@ -30,7 +30,11 @@ STORES = {"nordstromrack.com": "Nordstrom Rack", "nordstrom.com": "Nordstrom", "
           "6pm.com": "6pm", "amazon.com": "Amazon", "woot.com": "Woot", "bestbuy.com": "Best Buy",
           "macys.com": "Macy's", "ebay.com": "eBay", "walmart.com": "Walmart", "target.com": "Target",
           "carhartt.com": "Carhartt", "adidas.com": "adidas", "nike.com": "Nike",
-          "saksoff5th.com": "Saks OFF 5TH", "bloomingdales.com": "Bloomingdale's"}
+          "saksoff5th.com": "Saks OFF 5TH", "bloomingdales.com": "Bloomingdale's",
+          "a.co": "Amazon", "amzn.to": "Amazon", "amzn.com": "Amazon", "ebay.io": "eBay"}
+# 딜 글 이미지: 11/18 결정 — 카드 한 장만. 실측(11/18까지) 사진+카드(넘겨보기) 11개 조회수 중간값 3·최대 6,
+# 카드 한 장 15개 중간값 5·최대 183. 다시 넘겨보기로 올리려면 THREADS_DEAL_CAROUSEL=1
+CAROUSEL = (os.environ.get("THREADS_DEAL_CAROUSEL") or "0").strip() in ("1", "on", "true")
 # 질문은 상품 종류에 맞춰 고른다(어느 글에나 붙는 질문은 자동 게시물처럼 보여 답글이 안 달린다)
 QUESTIONS = {
     "clothes": ["이 가격이면 사이즈 모험해볼 만할까요?", "이 가격이면 한 사이즈 크게 사두시겠어요?"],
@@ -192,7 +196,7 @@ def post_deal(uid: str, token: str, text: str, card_url: str, product_img: str |
     상품 사진을 쓸 수 없거나 캐러셀이 거절되면 카드 한 장으로 올린다. → (게시물 ID, 메모)
     """
     tag = topic_tag()
-    if product_img and image_ok(product_img):
+    if CAROUSEL and product_img and image_ok(product_img):
         try:
             return T.publish_post(uid, token, text, topic_tag=tag, images=[product_img, card_url]), \
                 "사진+카드" + (f" · #{tag}" if tag else "")

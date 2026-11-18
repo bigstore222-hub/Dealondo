@@ -293,6 +293,11 @@ def collect_insights(uid: str, token: str, limit: int = 20) -> None:
     except T.ThreadsError as e:
         posts, err = [], str(e)[:200]
     sched = {first_line(it["text"]): it for it in load_schedule()}
+    try:   # 정보 글 자동 게시(info_posts) 기록 — 링크로 '정보 글'을 구분
+        info = {x["link"]: x for x in json.loads((ROOT / "threads" / "inbox.json").read_text(encoding="utf-8"))
+                .get("info", {}).get("log", []) if x.get("link")}
+    except Exception:
+        info = {}
     for p in posts:
         try:
             res = T._req("GET", f"{T.VER}/{p['id']}/insights", {"metric": INSIGHT_METRICS, "access_token": token})
@@ -306,7 +311,8 @@ def collect_insights(uid: str, token: str, limit: int = 20) -> None:
         fl = first_line(p.get("text", ""))
         it = sched.get(fl)
         rows.append({"at": p.get("timestamp"), "first_line": fl[:60], "link": p.get("permalink"),
-                     "media": p.get("media_type"), "kind": "예약 글" if it else "딜",
+                     "media": p.get("media_type"),
+                     "kind": "정보 글" if p.get("permalink") in info else ("예약 글" if it else "딜"),
                      "tag": (it.get("topic") if it else None), **m})
     try:
         mon = json.loads(STATUS_JSON.read_text(encoding="utf-8"))

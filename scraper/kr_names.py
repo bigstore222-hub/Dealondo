@@ -97,6 +97,8 @@ ITEM_KR = {
     "runners": "스니커즈", "daypack": "백팩", "xbody": "크로스백", "rain jacket": "레인 재킷",
     "windbreaker": "바람막이", "fleece jacket": "플리스 재킷", "quarter zip": "반집업", "1/4 zip": "반집업",
     "half zip": "반집업", "track jacket": "트랙 재킷", "anorak": "아노락",
+    "socks": "양말", "sock": "양말", "crew socks": "양말", "no show socks": "양말",
+    "boxer briefs": "속옷", "boxer brief": "속옷", "briefs": "속옷", "boxers": "속옷", "undershirt": "속옷 상의",
 }
 MATERIAL_KR = {"cashmere": "캐시미어", "merino": "메리노 울", "wool": "울", "leather": "가죽",
                "suede": "스웨이드", "shearling": "시어링", "linen": "린넨", "silk": "실크",

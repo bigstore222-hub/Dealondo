@@ -28,7 +28,8 @@ WIRELESS = re.compile(r"\b(bluetooth|wireless|earbuds?|airpods|headphones?|smart
 STORES = {"nordstromrack.com": "Nordstrom Rack", "nordstrom.com": "Nordstrom", "zappos.com": "Zappos", "6pm.com": "6pm",
           "amazon.com": "Amazon", "woot.com": "Woot", "bestbuy.com": "Best Buy", "macys.com": "Macy's", "ebay.com": "eBay",
           "walmart.com": "Walmart", "target.com": "Target", "saksoff5th.com": "Saks OFF 5TH", "ashford.com": "Ashford",
-          "bloomingdales.com": "Bloomingdale's", "carhartt.com": "Carhartt", "adidas.com": "adidas", "nike.com": "Nike"}
+          "bloomingdales.com": "Bloomingdale's", "carhartt.com": "Carhartt", "adidas.com": "adidas", "nike.com": "Nike",
+          "a.co": "Amazon", "amzn.to": "Amazon", "amzn.com": "Amazon", "ebay.io": "eBay"}
 
 
 # ── 숫자·한국어 도우미 ──────────────────────────────────────────────────────
@@ -92,7 +93,8 @@ def facts(d: dict, fx: float | None = None, now: dt.datetime | None = None) -> d
     f = {
         "brand": bkr, "item": item, "name": K.headline_name(brand, title), "title": title,
         "kind": K.kind(title), "gender": K.gender(title, d.get("url") or "", d.get("gender") or ""),
-        "store": d.get("store_name") or STORES.get(src, src.split(".")[0].capitalize() if src else "미국 쇼핑몰"),
+        "store": (d.get("store_name") if len(str(d.get("store_name") or "")) > 1 else "")
+                 or STORES.get(src, src.split(".")[0].capitalize() if src else "미국 쇼핑몰"),
         "now": p, "was": was if was and p and was > p else None, "pct": round(pct) if pct else None,
         "save_usd": (was - p) if was and p and was > p else None,
         "krw_now": p * fx if p else None, "krw_was": was * fx if was else None,
@@ -105,6 +107,7 @@ def facts(d: dict, fx: float | None = None, now: dt.datetime | None = None) -> d
         "rising": bool(sig.get("sd_hot_origin") and (sig.get("sd_votes") or 0) >= 5 and (sig.get("sd_age_min") or 999) <= 180),
         "reddit_low": sig.get("reddit_low"),
         "hist_max": max(hist) if hist else None, "hist_days": len(hist),
+        "was_raw": was,
     }
     f["kr_save"] = round((1 - f["krw_eff"] / f["kr"]) * 100) if f["kr"] and f["krw_eff"] else None
     # '기록 최저'는 실제로 더 비쌌던 기록이 있을 때만 의미가 있다(가격이 그대로였던 상품 제외)
@@ -113,15 +116,45 @@ def facts(d: dict, fx: float | None = None, now: dt.datetime | None = None) -> d
     return f
 
 
+# 상품명이 아니라 사이트 이름·차단 페이지·알림 태그가 제목으로 들어온 경우(11/17~18 실제 게시 사고)
+#   "A에 Amazon.com 74% 할인 떴어요." / "🏠 프론트페이지, $70에 관부가세 없음."
+JUNK_TITLE = re.compile(
+    r"^\s*(amazon(\.com)?|amazon\.com\s*:.*|ebay|walmart(\.com)?|target|best ?buy|zappos(\.com)?|6pm(\.com)?|"
+    r"nordstrom( rack)?|macy'?s|slickdeals?(\.net)?|page not found|not found|404.*|access denied|robot check|"
+    r"just a moment.*|attention required.*|sign in|log ?in|captcha.*|error.*|untitled)\s*$", re.I)
+TAG_WORDS = re.compile(r"프론트페이지|Hot Deals|레딧|역대최저|쿠폰중복|역시즌|사은품|딜 보러가기|[🏠⚡📊🎟❄🎁📉⏰🔥⭐]")
+
+
+def name_problem(f: dict) -> str | None:
+    t = (f.get("title") or "").strip()
+    if not t or len(re.sub(r"[^0-9A-Za-z가-힣]", "", t)) < 3:
+        return "상품명이 비어 있어요."
+    if JUNK_TITLE.match(t) or TAG_WORDS.search(t) or TAG_WORDS.search(f.get("name") or ""):
+        return f"상품명이 아니라 사이트·알림 문구가 들어왔어요('{t[:30]}')."
+    if len((f.get("store") or "").strip()) <= 1:
+        return "판매처 이름을 읽지 못했어요."
+    return None
+
+
 def problems(f: dict) -> list[str]:
-    """게시 전에 막아야 할 문제 — 미리보기에 경고로 띄우고, 추천 딜 자동 선정에서는 제외한다."""
+    """
+    게시 전에 막아야 할 문제 — 자동 게시를 멈추고 미리보기(✅)로 묻는다. 추천 딜 자동 선정에서도 제외한다.
+    11/18 강화: 깨진 상품명 · 브랜드 없음 · 가격이 안 내렸거나 오른 딜.
+    """
     out = []
     if not f["now"]:
         out.append("가격을 모르는 딜이에요.")
-    if f["pct"] is None and not f["code"] and not f["rising"]:
+    if f.get("was_raw") and f["now"] and f["was_raw"] <= f["now"]:
+        out.append(f"정가({usd(f['was_raw'])})보다 싸지 않아요. 가격이 안 내렸거나 올랐어요.")
+    elif f["pct"] is None and not f["code"] and not f["rising"]:
         out.append("정가가 없어 할인 폭을 설명할 수 없어요.")
-    if not f["item"] and not f["brand"]:
+    np_ = name_problem(f)
+    if np_:
+        out.append(np_)
+    elif not f["item"] and not f["brand"]:
         out.append("무슨 상품인지 제목만으로 알기 어려워요. 본문을 직접 고쳐주세요.")
+    if not f["brand"]:
+        out.append("브랜드를 몰라요. 무슨 제품인지 첫 줄에서 안 보이는 글이 돼요.")
     return out
 
 
