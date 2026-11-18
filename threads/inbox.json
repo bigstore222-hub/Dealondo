@@ -1789,11 +1789,6 @@
  ],
  "runs": [
   {
-   "at": "2026-11-14T11:29:59+09:00",
-   "updates": 2,
-   "errors": []
-  },
-  {
    "at": "2026-11-14T11:49:45+09:00",
    "updates": 0,
    "errors": []
@@ -1987,10 +1982,33 @@
    "at": "2026-11-18T20:03:16+09:00",
    "updates": 0,
    "errors": []
+  },
+  {
+   "at": "2026-11-18T20:22:32+09:00",
+   "updates": 0,
+   "errors": []
   }
  ],
  "info": {
-  "slots": {},
-  "log": []
+  "slots": {
+   "2026-11-18-evening": {
+    "tries": 1,
+    "at": "2026-11-18T20:21:15+09:00",
+    "id": "L01",
+    "status": "posted",
+    "link": "https://www.threads.com/@deal_ondo/post/Df4YtPmm3lf",
+    "error": ""
+   }
+  },
+  "log": [
+   {
+    "at": "2026-11-18T20:21:15+09:00",
+    "id": "L01",
+    "type": "library",
+    "slot": "evening",
+    "link": "https://www.threads.com/@deal_ondo/post/Df4YtPmm3lf",
+    "first_line": "블프 D-9, 배대지 일정부터 계산해두세요."
+   }
+  ]
  }
 }
