@@ -303,3 +303,97 @@ def weekly_report(send, now: dt.datetime | None = None) -> str | None:
     m["reports"][wk] = now.isoformat(timespec="seconds")
     save(m)
     return wk
+
+
+# ── 일일 리포트 (11/19 추가) ───────────────────────────────────────────────────
+# 매일 오전 9~12시 사이 한 번. 어제 올린 글 성과(지금까지) · 그저께 글의 24시간 성과 · 팔로워 변화 ·
+# 어제 정보 글 시간대 결과 · 오늘 올라갈 정보 글 예정을 텔레그램으로 보낸다.
+DAILY_HOURS = (9, 12)
+
+
+def daily_due(m: dict | None = None, now: dt.datetime | None = None) -> str | None:
+    now = now or now_kst()
+    if not ON or not (DAILY_HOURS[0] <= now.hour < DAILY_HOURS[1]):
+        return None
+    m = m or load()
+    key = f"D:{now:%Y-%m-%d}"
+    return None if key in m["reports"] else key
+
+
+def _rows_between(m: dict, a: dt.datetime, b: dt.datetime) -> list[tuple[str, dict, dt.datetime]]:
+    out = []
+    for link, r in m["posts"].items():
+        at = _ts(r.get("at", ""))
+        if at and a <= at < b:
+            out.append((link, r, at))
+    return out
+
+
+def _now_views(r: dict) -> int:
+    return int((r.get("last") or {}).get("views") or 0)
+
+
+def daily_text(now: dt.datetime | None = None, slot_lines: list[str] | None = None,
+               plan_lines: list[str] | None = None) -> str:
+    now = now or now_kst()
+    today0 = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    y0, d0 = today0 - dt.timedelta(days=1), today0 - dt.timedelta(days=2)
+    m = load()
+    yrows = _rows_between(m, y0, today0)
+    drows = _rows_between(m, d0, y0)
+    wd = "월화수목금토일"
+    L = [f"🗓 스레드 일일 리포트 — {y0:%m/%d}({wd[y0.weekday()]})", ""]
+    # 어제 글 (아직 24시간이 안 지난 글도 있어 '지금까지' 값)
+    if yrows:
+        by: dict[str, list[int]] = {}
+        for _, r, _ in yrows:
+            by.setdefault(r.get("kind") or "기타", []).append(_now_views(r))
+        L.append(f"어제 올린 글 {len(yrows)}개 · 조회수 합계 {sum(_now_views(r) for _, r, _ in yrows):,} (지금까지)")
+        L.append(" · ".join(f"{k} {len(v)}개(중간값 {_med(v)})" for k, v in sorted(by.items(), key=lambda kv: -len(kv[1]))))
+        eng = {k: sum(int((r.get("last") or {}).get(k) or 0) for _, r, _ in yrows) for k in ("likes", "reposts", "shares")}
+        L.append(f"반응: 좋아요 {eng['likes']} · 리포스트 {eng['reposts']} · 공유 {eng['shares']}")
+        L += ["", "어제 글 조회수 순위"]
+        for i, (link, r, at) in enumerate(sorted(yrows, key=lambda x: -_now_views(x[1]))[:5], 1):
+            L.append(f"{i}. {_now_views(r)}회 [{r.get('kind')}] {at:%H:%M} {r.get('first_line', '')[:34]}")
+        best = max(yrows, key=lambda x: _now_views(x[1]))
+        L.append(f"   1등 링크: {best[0]}")
+    else:
+        L.append("어제 올린 글이 없어요(또는 아직 측정 전).")
+    # 그저께 글 — 24시간 성과 확정
+    if drows:
+        v24 = {}
+        for _, r, _ in drows:
+            if r.get("v24"):
+                v24.setdefault(r.get("kind") or "기타", []).append(views_of(r))
+        if v24:
+            L += ["", f"그저께({d0:%m/%d}) 글 24시간 조회수 중간값: "
+                  + " · ".join(f"{k} {_med(v)}({len(v)})" for k, v in sorted(v24.items(), key=lambda kv: -len(kv[1])))]
+    # 팔로워
+    f = m["followers"]
+    if f:
+        cur = f[-1]
+        prev = next((x for x in reversed(f[:-1]) if x["d"] < cur["d"]), None)
+        L += ["", f"팔로워 {cur['n']}" + (f" (전날 대비 {cur['n'] - prev['n']:+d})" if prev else "")]
+    if slot_lines:
+        L += ["", "어제 정보 글 시간대"] + [f"· {x}" for x in slot_lines]
+    if plan_lines:
+        L += ["", "오늘 올라갈 정보 글"] + [f"· {x}" for x in plan_lines]
+    if m.get("error"):
+        L += ["", f"⚠️ 마지막 측정 오류: {m['error'][:150]}"]
+    return "\n".join(L)[:4000]
+
+
+def daily_report(send, slot_lines=None, plan_lines=None, now: dt.datetime | None = None) -> str | None:
+    now = now or now_kst()
+    m = load()
+    key = daily_due(m, now)
+    if not key:
+        return None
+    send(daily_text(now, slot_lines, plan_lines))
+    m = load()
+    m["reports"][key] = now.isoformat(timespec="seconds")
+    # 일일 기록 키는 90일만 보관
+    cut = f"D:{(now - dt.timedelta(days=90)):%Y-%m-%d}"
+    m["reports"] = {k: v for k, v in m["reports"].items() if not k.startswith("D:") or k >= cut}
+    save(m)
+    return key

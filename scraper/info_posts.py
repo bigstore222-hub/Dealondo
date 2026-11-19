@@ -435,3 +435,52 @@ def run(st: dict, chat: str, tg_send, dry: bool = False, now: dt.datetime | None
     tg_send(f"📰 정보 글 올렸어요 ({item['label']})\n{link}\n{note}\n\n{item['text']}")
     print(f"[정보 글] {key} 게시 완료 — {item['label']} {link}")
     return f"{key} 게시"
+
+
+# ── 일일 리포트용 요약 ─────────────────────────────────────────────────────────
+SLOT_KR = {"lunch": "점심", "evening": "저녁", "timed": "시각 지정"}
+
+
+def slot_summary(st: dict, day: dt.date) -> list[str]:
+    """그날 정보 글 시간대 결과 — '저녁 · 게시 · L01' 같은 줄들."""
+    s = info_state(st)
+    out = []
+    lib_at = {f"T:{x['id']}": x.get("at", "")[:10] for x in load_library() if x.get("at")}
+    for k, r in sorted(s["slots"].items(), key=lambda kv: kv[1].get("at", "")):
+        d = lib_at.get(k) if k.startswith("T:") else k[:10]
+        if d != day.isoformat():
+            continue
+        name = "시각 지정" if k.startswith("T:") else SLOT_KR.get(k[11:], k[11:])
+        st_kr = {"posted": "게시", "skip": "건너뜀(올릴 글 없음)", "fail": "실패", "dry": "테스트"}.get(r.get("status"), r.get("status"))
+        out.append(f"{name} · {st_kr}" + (f" · {r.get('id')}" if r.get("id") else "")
+                   + (f" · {r.get('error', '')[:60]}" if r.get("status") == "fail" else ""))
+    return out
+
+
+def today_plan(st: dict, now: dt.datetime | None = None) -> list[str]:
+    """오늘 남은 정보 글 시간대와 지금 기준으로 올라갈 글(바뀔 수 있음)."""
+    if not ON:
+        return ["정보 글 자동 게시 꺼짐(INFO_POSTS=0)"]
+    now = now or now_kst()
+    out = []
+    s = info_state(st)
+    for it in load_library():
+        if it.get("at", "")[:10] == now.strftime("%Y-%m-%d") and f"T:{it['id']}" not in s["slots"]:
+            out.append(f"{it['at'][11:16]} 시각 지정 · {it['id']} {first_line(it.get('text', ''))[:30]}")
+    for name, (a, b) in SLOTS.items():
+        if name == "lunch" and not in_season(now.date()):
+            continue
+        key = f"{now:%Y-%m-%d}-{name}"
+        if key in s["slots"]:
+            continue
+        t = now.replace(hour=a[0], minute=a[1] + 5, second=0, microsecond=0)
+        try:
+            item = choose(st, key, name, t)
+        except Exception:
+            item = None
+        if item:
+            out.append(f"{a[0]:02d}:{a[1]:02d} {SLOT_KR[name]} · {item['label']} — {first_line(item['text'])[:30]}")
+        else:
+            out.append(f"{a[0]:02d}:{a[1]:02d} {SLOT_KR[name]} · " + ("면세 딜 3개가 모이면 데이터 글(아니면 건너뜀)"
+                                                                        if name == "lunch" else "올릴 글 없음"))
+    return sorted(out) or ["오늘 남은 정보 글 시간대 없음"]

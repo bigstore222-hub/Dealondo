@@ -884,6 +884,8 @@ def scheduled_work(st: dict) -> list[str]:
         m = M.load()
         if M.due(m):
             out.append("성과 기록")
+        if M.daily_due(m):
+            out.append("일일 리포트")
         if M.report_due(m):
             out.append("주간 리포트")
     except Exception as e:
@@ -908,6 +910,17 @@ def run_scheduled(st: dict, dry: bool) -> None:
         if M.due():
             M.collect()
             changed = True
+        if M.daily_due() or M.report_due():
+            # 리포트 직전엔 최신 숫자로 — 마지막 측정이 1시간 넘었으면 한 번 더 잰다
+            t = M._ts(M.load().get("at", ""))
+            if not changed and (not t or (dt.datetime.now(KST) - t).total_seconds() > 3600):
+                M.collect()
+                changed = True
+        if M.daily_due():
+            import info_posts as IP
+            y = (dt.datetime.now(KST) - dt.timedelta(days=1)).date()
+            if M.daily_report(send, IP.slot_summary(st, y), IP.today_plan(st)):
+                changed = True
         if M.weekly_report(send):
             changed = True
         if changed and not dry:
