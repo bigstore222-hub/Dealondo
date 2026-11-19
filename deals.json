@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T06:51:12.920363+00:00",
+  "generated_at": "2026-11-19T06:51:48.106624+00:00",
   "count": 107,
   "deals": [
     {
@@ -645,7 +645,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-09T21:51:24.785976+00:00",
-      "last_seen": "2026-11-19T03:31:52.383358+00:00",
+      "last_seen": "2026-11-19T06:51:46.432103+00:00",
       "posted_at": "",
       "signals": {},
       "id": "ab083883bd",
@@ -1328,7 +1328,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-16T05:11:19.042279+00:00",
-      "last_seen": "2026-11-19T06:11:41.274489+00:00",
+      "last_seen": "2026-11-19T06:51:46.432103+00:00",
       "posted_at": "",
       "signals": {},
       "id": "2a3318f950",
@@ -2483,7 +2483,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-13T14:21:17.328011+00:00",
-      "last_seen": "2026-11-19T06:11:41.274489+00:00",
+      "last_seen": "2026-11-19T06:51:46.432103+00:00",
       "posted_at": "",
       "signals": {},
       "id": "629922e0ab",
@@ -2563,7 +2563,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-15T17:51:10.991986+00:00",
-      "last_seen": "2026-11-19T04:11:40.177889+00:00",
+      "last_seen": "2026-11-19T06:51:46.432103+00:00",
       "posted_at": "",
       "signals": {},
       "id": "4392346118",
@@ -3874,7 +3874,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-17T21:01:59.711366+00:00",
-      "last_seen": "2026-11-19T06:11:41.274489+00:00",
+      "last_seen": "2026-11-19T06:51:46.432103+00:00",
       "posted_at": "",
       "signals": {},
       "id": "eecf63e457",
@@ -3939,7 +3939,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-18T21:01:53.076460+00:00",
-      "last_seen": "2026-11-19T06:11:41.274489+00:00",
+      "last_seen": "2026-11-19T06:51:46.432103+00:00",
       "posted_at": "",
       "signals": {},
       "id": "125fa4be52",
@@ -3951,6 +3951,71 @@
         [
           "2026-11-19",
           22.73
+        ]
+      ]
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/9973867",
+      "title": "Raglan Sleeve Button-Down Blouse",
+      "brand": "Vince Camuto",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/71MkWPNtsiL._AC_SR255,340_.jpg",
+      "price_current": 26.7,
+      "price_list": 89.0,
+      "price_baseline": 89.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 35570,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/9973867",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-17T11:51:18.566891+00:00",
+      "last_seen": "2026-11-19T06:51:46.432103+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "82fe904c66",
+      "history": [
+        [
+          "2026-11-17",
+          26.7
+        ],
+        [
+          "2026-11-18",
+          26.7
+        ],
+        [
+          "2026-11-19",
+          26.7
         ]
       ]
     },
@@ -4016,67 +4081,6 @@
         [
           "2026-11-19",
           35.7
-        ]
-      ]
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/9973867",
-      "title": "Raglan Sleeve Button-Down Blouse",
-      "brand": "Vince Camuto",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/71MkWPNtsiL._AC_SR255,340_.jpg",
-      "price_current": 26.7,
-      "price_list": 89.0,
-      "price_baseline": 89.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 35654,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/9973867",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-17T11:51:18.566891+00:00",
-      "last_seen": "2026-11-18T22:21:48.119839+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "82fe904c66",
-      "history": [
-        [
-          "2026-11-17",
-          26.7
-        ],
-        [
-          "2026-11-18",
-          26.7
         ]
       ]
     },
@@ -4733,7 +4737,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-19T01:01:32.628525+00:00",
-      "last_seen": "2026-11-19T06:11:41.274489+00:00",
+      "last_seen": "2026-11-19T06:51:46.432103+00:00",
       "posted_at": "",
       "signals": {},
       "id": "ee2996afcb",
@@ -4791,7 +4795,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-19T00:21:20.518094+00:00",
-      "last_seen": "2026-11-19T06:11:41.274489+00:00",
+      "last_seen": "2026-11-19T06:51:46.432103+00:00",
       "posted_at": "",
       "signals": {},
       "id": "64f850891a",
@@ -4849,7 +4853,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-18T22:21:23.696968+00:00",
-      "last_seen": "2026-11-19T06:11:41.274489+00:00",
+      "last_seen": "2026-11-19T06:51:46.432103+00:00",
       "posted_at": "",
       "signals": {},
       "id": "b96712143e",
@@ -4910,7 +4914,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-14T16:51:17.172909+00:00",
-      "last_seen": "2026-11-19T06:11:41.274489+00:00",
+      "last_seen": "2026-11-19T06:51:46.432103+00:00",
       "posted_at": "",
       "signals": {},
       "id": "15a55c01ef",
@@ -4988,7 +4992,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-18T18:21:26.527853+00:00",
-      "last_seen": "2026-11-19T06:11:41.274489+00:00",
+      "last_seen": "2026-11-19T06:51:46.432103+00:00",
       "posted_at": "",
       "signals": {},
       "id": "99bdb93efe",
@@ -6900,12 +6904,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-19T06:50:34+00:00",
-      "T2": "2026-11-19T06:11:03+00:00",
+      "T2": "2026-11-19T06:51:14+00:00",
       "T3": "2026-11-19T05:31:51+00:00",
       "T4": "2026-11-19T05:41:02+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       1,
@@ -6934,14 +6937,15 @@
       9,
       10,
       10,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-19T06:51:12+00:00",
+      "at": "2026-11-19T06:51:46+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -6950,7 +6954,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-19T06:51:12+00:00"
+      "at": "2026-11-19T06:51:46+00:00"
     }
   },
   "email_monitor": {
