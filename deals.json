@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T10:41:04.074109+00:00",
-  "count": 106,
+  "generated_at": "2026-11-19T10:41:43.387051+00:00",
+  "count": 107,
   "deals": [
     {
       "source": "6pm.com",
@@ -1256,7 +1256,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-16T05:11:19.042279+00:00",
-      "last_seen": "2026-11-19T10:02:52.655052+00:00",
+      "last_seen": "2026-11-19T10:41:41.263212+00:00",
       "posted_at": "",
       "signals": {},
       "id": "2a3318f950",
@@ -2406,7 +2406,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-13T14:21:17.328011+00:00",
-      "last_seen": "2026-11-19T10:02:52.655052+00:00",
+      "last_seen": "2026-11-19T10:41:41.263212+00:00",
       "posted_at": "",
       "signals": {},
       "id": "629922e0ab",
@@ -3801,7 +3801,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-17T21:01:59.711366+00:00",
-      "last_seen": "2026-11-19T10:02:52.655052+00:00",
+      "last_seen": "2026-11-19T10:41:41.263212+00:00",
       "posted_at": "",
       "signals": {},
       "id": "eecf63e457",
@@ -3866,7 +3866,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-18T21:01:53.076460+00:00",
-      "last_seen": "2026-11-19T10:02:52.655052+00:00",
+      "last_seen": "2026-11-19T10:41:41.263212+00:00",
       "posted_at": "",
       "signals": {},
       "id": "125fa4be52",
@@ -3927,7 +3927,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-19T08:41:23.407247+00:00",
-      "last_seen": "2026-11-19T10:02:52.655052+00:00",
+      "last_seen": "2026-11-19T10:41:41.263212+00:00",
       "posted_at": "",
       "signals": {},
       "id": "8dc2e84e51",
@@ -4616,8 +4616,61 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
+      "url": "https://www.dealnews.com/Under-Armour-Outlet-Black-Friday-Warm-Up-Sale-Up-to-49-off-free-shipping-w-75/22411217.html?iref=rss",
+      "title": "Under Armour Outlet Black Friday Warm-Up Sale: Up to 49% off + free shipping w/ $75",
+      "brand": "Under Armour",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1701448387-dn-image-6655969.jpg?h=216&w=250",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Under-Armour-Outlet-Black-Friday-Warm-Up-Sale-Up-to-49-off-free-shipping-w-75/22411217.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-19T10:41:15.793568+00:00",
+      "last_seen": "2026-11-19T10:41:41.263212+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "9fd7bffea3",
+      "history": []
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
       "url": "https://www.dealnews.com/lululemon-Black-Friday-Specials-Up-to-84-off-free-shipping/22410988.html?iref=rss",
-      "title": "lululemon Black Friday Specials: Up to 84% off + free shipping  (외 1종)",
+      "title": "lululemon Black Friday Specials: Up to 84% off + free shipping",
       "brand": "Lululemon",
       "category": "sports_outdoor",
       "image": "https://d.dlnws.com/64599/1795076985-product-trimmed.png?h=250&w=247",
@@ -4659,13 +4712,151 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-19T10:02:32.549196+00:00",
-      "last_seen": "2026-11-19T10:02:52.655052+00:00",
+      "detected_at": "2026-11-19T10:41:15.831725+00:00",
+      "last_seen": "2026-11-19T10:41:41.263212+00:00",
       "posted_at": "",
       "signals": {},
-      "variant_count": 2,
       "id": "d5693e7d53",
       "history": []
+    },
+    {
+      "source": "techbargains:amazon",
+      "source_tier": "T2",
+      "url": "https://www.amazon.com/gp/product/B0DSQX5N64/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1",
+      "title": "Osprey Daylite Expandable 26+6 Travel Pack (Various Colors) $71.50",
+      "brand": "Osprey",
+      "category": "sports_outdoor",
+      "image": "https://www.techbargains.com/imagery/deals/271027.1795036346.fit_lim.size_125x125.jpg",
+      "price_current": 71.5,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": 71.5,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 95254,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/gp/product/B0DSQX5N64/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": 25,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-14T16:51:17.172909+00:00",
+      "last_seen": "2026-11-19T10:41:41.263212+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "15a55c01ef",
+      "history": [
+        [
+          "2026-11-14",
+          71.5
+        ],
+        [
+          "2026-11-15",
+          71.5
+        ],
+        [
+          "2026-11-16",
+          71.5
+        ],
+        [
+          "2026-11-17",
+          71.5
+        ],
+        [
+          "2026-11-18",
+          71.5
+        ],
+        [
+          "2026-11-19",
+          71.5
+        ]
+      ]
+    },
+    {
+      "source": "techbargains:amazon",
+      "source_tier": "T2",
+      "url": "https://www.amazon.com/gp/product/B07RR2V6ZP/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1&psc=1",
+      "title": "Levi's Men's 514 Straight Fit Jeans $39.14",
+      "brand": "Levi's",
+      "category": "premium_fashion",
+      "image": "https://www.techbargains.com/imagery/deals/230921.1795025029.fit_lim.size_125x125.jpg",
+      "price_current": 39.14,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 52143,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/gp/product/B07RR2V6ZP/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1&psc=1",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-18T18:21:26.527853+00:00",
+      "last_seen": "2026-11-19T10:41:41.263212+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "99bdb93efe",
+      "history": [
+        [
+          "2026-11-18",
+          39.14
+        ],
+        [
+          "2026-11-19",
+          39.14
+        ]
+      ]
     },
     {
       "source": "dealnews",
@@ -4838,145 +5029,6 @@
         [
           "2026-11-19",
           59.0
-        ]
-      ]
-    },
-    {
-      "source": "techbargains:amazon",
-      "source_tier": "T2",
-      "url": "https://www.amazon.com/gp/product/B0DSQX5N64/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1",
-      "title": "Osprey Daylite Expandable 26+6 Travel Pack (Various Colors) $71.50",
-      "brand": "Osprey",
-      "category": "sports_outdoor",
-      "image": "https://www.techbargains.com/imagery/deals/271027.1795036346.fit_lim.size_125x125.jpg",
-      "price_current": 71.5,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": 71.5,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 95254,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/gp/product/B0DSQX5N64/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": 25,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-14T16:51:17.172909+00:00",
-      "last_seen": "2026-11-19T10:02:52.655052+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "15a55c01ef",
-      "history": [
-        [
-          "2026-11-14",
-          71.5
-        ],
-        [
-          "2026-11-15",
-          71.5
-        ],
-        [
-          "2026-11-16",
-          71.5
-        ],
-        [
-          "2026-11-17",
-          71.5
-        ],
-        [
-          "2026-11-18",
-          71.5
-        ],
-        [
-          "2026-11-19",
-          71.5
-        ]
-      ]
-    },
-    {
-      "source": "techbargains:amazon",
-      "source_tier": "T2",
-      "url": "https://www.amazon.com/gp/product/B07RR2V6ZP/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1&psc=1",
-      "title": "Levi's Men's 514 Straight Fit Jeans $39.14",
-      "brand": "Levi's",
-      "category": "premium_fashion",
-      "image": "https://www.techbargains.com/imagery/deals/230921.1795025029.fit_lim.size_125x125.jpg",
-      "price_current": 39.14,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 52143,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/gp/product/B07RR2V6ZP/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1&psc=1",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-18T18:21:26.527853+00:00",
-      "last_seen": "2026-11-19T10:02:52.655052+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "99bdb93efe",
-      "history": [
-        [
-          "2026-11-18",
-          39.14
-        ],
-        [
-          "2026-11-19",
-          39.14
         ]
       ]
     },
@@ -6817,12 +6869,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-19T10:40:29+00:00",
-      "T2": "2026-11-19T10:02:19+00:00",
+      "T2": "2026-11-19T10:41:05+00:00",
       "T3": "2026-11-19T09:51:14+00:00",
       "T4": "2026-11-19T05:41:02+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       11,
       1,
@@ -6851,14 +6902,15 @@
       8,
       10,
       10,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-19T10:41:04+00:00",
+      "at": "2026-11-19T10:41:41+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -6867,7 +6919,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-19T10:41:04+00:00"
+      "at": "2026-11-19T10:41:41+00:00"
     }
   },
   "email_monitor": {
