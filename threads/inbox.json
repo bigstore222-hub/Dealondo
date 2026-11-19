@@ -1,57 +1,5 @@
 {
  "drafts": {
-  "ce5bd32a": {
-   "created": "2026-11-17T12:31:48+09:00",
-   "url": "https://www.zappos.com/product/10034203",
-   "deal": {
-    "url": "https://www.zappos.com/product/10034203",
-    "source": "zappos.com",
-    "store_name": "Zappos",
-    "title": "Gwen Sandals",
-    "brand": "Barbour",
-    "category": "etc",
-    "price_current": 51.0,
-    "price_list": 170.0,
-    "image": null,
-    "gender": null,
-    "buy_url": "https://www.zappos.com/product/10034203",
-    "discount_pct": 70,
-    "krw_effective": 68110,
-    "kr_lowest_price": null
-   },
-   "seen": "2026-11-17T12:29:22+09:00",
-   "text": "바버 샌들, 한국 돈으로 약 6만 8천 원이에요.\n\nZappos에서 70% 할인 중이에요.\n관부가세 없음(미국발 $200 이하).\n\n할인 폭이 큰 브랜드 딜은 인기 사이즈부터 빠져요.\n이 가격이면 선물로도 괜찮겠죠?",
-   "reply": "상품 링크: https://www.zappos.com/product/10034203\n팔로우해두면 이런 딜을 피드에서 바로 볼 수 있어요.",
-   "notes": [
-    "알림 메시지에 적힌 가격으로 썼어요. 지금 가격인지 확인하세요.",
-    "상품 사진을 찾지 못해 카드 한 장으로 올라가요."
-   ],
-   "angle": "brand",
-   "already": false,
-   "photo_msg": 3832,
-   "msg": 3833,
-   "status": "waiting"
-  },
-  "9a228256": {
-   "created": "2026-11-17T13:01:39+09:00",
-   "url": "https://www.fwrd.com/product-acne-studios-fema-sunkissed-sweater-in-light-yellow/ACNE-MK163/?cjdata=MXxOfDB8WXww&d=Mens&navsrc=left&itrownum=9&itcurrpage=1&itview=05&itposition=25&AID=11120388&PID=100473136&utm_medium=affiliate&utm_source=cj&source=cj&utm_campaign=glob_p_4467073&cjevent=b73d5b3fe23a11f183a202470a1981b5",
-   "hint": {
-    "at": 1794887835,
-    "title": "Product Acne Studios Fema Sunkissed Sweater In Light Yellow"
-   },
-   "status": "replaced",
-   "msg": 3837
-  },
-  "e377bfda": {
-   "created": "2026-11-17T13:01:44+09:00",
-   "url": "https://www.sierra.com/red-wing-6-classic-moc-toe-boots-wide-leather-factory-2nds-for-men~p~15mp0/?filterString=s~redwing%2F",
-   "hint": {
-    "at": 1794887841,
-    "title": "Red Wing Classic Moc Toe Boots Wide Leather Factory 2nds For Men~p~15mp0"
-   },
-   "status": "replaced",
-   "msg": 3838
-  },
   "c91afb85": {
    "created": "2026-11-17T13:31:09+09:00",
    "url": "https://www.fwrd.com/product-acne-studios-fema-sunkissed-sweater-in-light-yellow/ACNE-MK163/?cjdata=MXxOfDB8WXww&d=Mens&navsrc=left&itrownum=9&itcurrpage=1&itview=05&itposition=25&AID=11120388&PID=100473136&utm_medium=affiliate&utm_source=cj&source=cj&utm_campaign=glob_p_4467073&cjevent=b73d5b3fe23a11f183a202470a1981b5",
@@ -1394,6 +1342,16 @@
    "photo_msg": 4034,
    "msg": 4035,
    "status": "waiting"
+  },
+  "d49b5518": {
+   "created": "2026-11-19T13:08:12+09:00",
+   "url": "https://www.bloomingdales.com/shop/product/polo-ralph-lauren-classic-fit-crewneck-tee?ID=4264151&tdp=cm_app~zBCOM-NAVAPP~xcm_zone~zPDP_ZONE_B~xcm_choiceId~zcidB04SJD-e4690dc9-da34-4bad-8609-f9f59d93fe24@T00@More%2Bfrom%2B%2BPolo%2BRalph%2BLauren%2B",
+   "hint": {
+    "at": 1795060871,
+    "title": "Polo Ralph Lauren Lauren Classic Fit Crewneck Tee"
+   },
+   "status": "waiting_price",
+   "msg": 4040
   }
  },
  "done_updates": [
@@ -1596,7 +1554,8 @@
   303762945,
   303762946,
   303762947,
-  303762948
+  303762948,
+  303762953
  ],
  "picks": {
   "2026-10-30-점심": "3ffe07d9",
@@ -1667,11 +1626,6 @@
   "zappos.com/product/10062123"
  ],
  "runs": [
-  {
-   "at": "2026-11-16T11:49:48+09:00",
-   "updates": 0,
-   "errors": []
-  },
   {
    "at": "2026-11-16T14:59:44+09:00",
    "updates": 1,
@@ -1865,6 +1819,11 @@
   {
    "at": "2026-11-19T12:18:15+09:00",
    "updates": 0,
+   "errors": []
+  },
+  {
+   "at": "2026-11-19T13:17:01+09:00",
+   "updates": 1,
    "errors": []
   }
  ],
