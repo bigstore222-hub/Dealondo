@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T12:31:49.314099+00:00",
-  "count": 110,
+  "generated_at": "2026-11-19T12:41:06.585080+00:00",
+  "count": 109,
   "deals": [
     {
       "source": "6pm.com",
@@ -897,70 +897,6 @@
       ]
     },
     {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10026680",
-      "title": "Benni Shearling Mule",
-      "brand": "Stuart Weitzman",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/717n7LyRb7L._AC_SR255,340_.jpg",
-      "price_current": 165.0,
-      "price_list": 550.0,
-      "price_baseline": 550.0,
-      "price_alltime_low": 165.0,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 220355,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.zappos.com/product/10026680",
-      "discount_pct": 70.0,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-14T00:41:16.828196+00:00",
-      "last_seen": "2026-11-17T12:32:16.511748+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "2d490d37d5",
-      "history": [
-        [
-          "2026-11-14",
-          165.0
-        ],
-        [
-          "2026-11-15",
-          165.0
-        ],
-        [
-          "2026-11-17",
-          165.0
-        ]
-      ]
-    },
-    {
       "source": "6pm.com",
       "source_tier": "T3",
       "url": "https://www.6pm.com/product/10023662",
@@ -1290,6 +1226,75 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20331984",
+      "title": "Nordstrom Rack Clearance Sale: Apparel, Shoes, Accessories & Many More Up to 70% Off + Free S&H on $39+",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/8/6/6/3/0/300x300/22447509.thumb",
+      "price_current": 39.0,
+      "price_list": 130.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 35,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 51956,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20331984",
+      "discount_pct": 70.0,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "community": "투표 35+할인70% → 하한 55",
+        "slickdeals": "Hot Deals 급상승 35표/165분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-19T10:20:38.449516+00:00",
+      "last_seen": "2026-11-19T12:41:06.570791+00:00",
+      "posted_at": "2026-11-19T09:55:38+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_hot_origin": true,
+        "sd_age_min": 165,
+        "sd_votes": 35,
+        "sd_velocity": 12.7,
+        "sd_fp_min": 25
+      },
+      "id": "992e63216c",
+      "history": [
+        [
+          "2026-11-19",
+          39.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
       "url": "https://slickdeals.net/f/20338428",
       "title": "Apple 14\" MacBook Pro: M5 10-Core Chip, 24GB RAM, 1TB SSD $1899 + Free S&H",
       "brand": "",
@@ -1352,75 +1357,6 @@
         [
           "2026-11-19",
           1899.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20331984",
-      "title": "Nordstrom Rack Clearance Sale: Apparel, Shoes, Accessories & Many More Up to 70% Off + Free S&H on $39+",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/8/6/6/3/0/300x300/22447509.thumb",
-      "price_current": 39.0,
-      "price_list": 130.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 35,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 51956,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20331984",
-      "discount_pct": 70.0,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "community": "투표 35+할인70% → 하한 55",
-        "slickdeals": "Hot Deals 급상승 35표/155분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-19T10:20:38.449516+00:00",
-      "last_seen": "2026-11-19T12:31:11.627910+00:00",
-      "posted_at": "2026-11-19T09:55:38+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_hot_origin": true,
-        "sd_age_min": 155,
-        "sd_votes": 35,
-        "sd_velocity": 13.5,
-        "sd_fp_min": 25
-      },
-      "id": "992e63216c",
-      "history": [
-        [
-          "2026-11-19",
-          39.0
         ]
       ]
     },
@@ -2637,7 +2573,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-19T03:40:37.172658+00:00",
-      "last_seen": "2026-11-19T12:31:11.627910+00:00",
+      "last_seen": "2026-11-19T12:41:06.570791+00:00",
       "posted_at": "",
       "signals": {},
       "id": "9285f22776",
@@ -7022,13 +6958,12 @@
   "fx_usd_krw": 1332.2,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-19T12:30:40+00:00",
+      "T1": "2026-11-19T12:40:30+00:00",
       "T2": "2026-11-19T12:31:13+00:00",
       "T3": "2026-11-19T11:53:09+00:00",
       "T4": "2026-11-19T11:54:23+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       1,
       10,
@@ -7057,14 +6992,15 @@
       7,
       11,
       10,
-      1
+      1,
+      9
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-19T12:31:47+00:00",
+      "at": "2026-11-19T12:41:06+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -7073,16 +7009,16 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-19T12:31:47+00:00"
+      "at": "2026-11-19T12:41:06+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-19T12:30:52+00:00",
+        "at": "2026-11-19T12:40:40+00:00",
         "state": "정상",
-        "mails": 15,
-        "deals": 15
+        "mails": 16,
+        "deals": 16
       },
       "newsletter": {
         "at": "2026-11-19T11:57:05+00:00",
@@ -7092,6 +7028,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20280576",
+        "source": "slickdeals:amazon.com",
+        "title": "15.6\" AOC 16T20 FHD 60Hz IPS Portable Monitor for $47.50 at Amazon",
+        "price": 47.5,
+        "list_price": 69.99,
+        "discount_pct": 32.1,
+        "krw": 63280,
+        "kr_lowest": null,
+        "score": 37,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-11-19T12:41:06+00:00",
+        "last_seen": "2026-11-19T12:41:06+00:00"
+      },
       {
         "url": "https://www.asos.com",
         "source": "asos.com",
@@ -7120,7 +7071,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-19T11:52:20+00:00",
-        "last_seen": "2026-11-19T12:31:11+00:00"
+        "last_seen": "2026-11-19T12:41:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20338428",
@@ -7135,7 +7086,7 @@
         "published": false,
         "reject_reason": "H8: 할인 14% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-19T11:21:24+00:00",
-        "last_seen": "2026-11-19T12:31:11+00:00"
+        "last_seen": "2026-11-19T12:41:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20337855",
@@ -7150,7 +7101,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-19T10:51:02+00:00",
-        "last_seen": "2026-11-19T12:31:11+00:00"
+        "last_seen": "2026-11-19T12:41:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20329398",
@@ -7165,7 +7116,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-19T07:31:10+00:00",
-        "last_seen": "2026-11-19T12:31:11+00:00"
+        "last_seen": "2026-11-19T12:41:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20310813",
@@ -7180,7 +7131,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-19T07:10:59+00:00",
-        "last_seen": "2026-11-19T12:31:11+00:00"
+        "last_seen": "2026-11-19T12:41:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20331720",
@@ -7195,7 +7146,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-19T07:10:59+00:00",
-        "last_seen": "2026-11-19T12:31:11+00:00"
+        "last_seen": "2026-11-19T12:41:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20335854",
@@ -7210,7 +7161,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-19T06:31:19+00:00",
-        "last_seen": "2026-11-19T12:31:11+00:00"
+        "last_seen": "2026-11-19T12:41:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20320599",
@@ -7225,7 +7176,7 @@
         "published": false,
         "reject_reason": "H8: 할인 19% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-19T06:11:02+00:00",
-        "last_seen": "2026-11-19T12:31:11+00:00"
+        "last_seen": "2026-11-19T12:41:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20335929",
@@ -7240,7 +7191,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 48% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-19T05:11:14+00:00",
-        "last_seen": "2026-11-19T12:31:11+00:00"
+        "last_seen": "2026-11-19T12:41:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20333673",
@@ -7255,7 +7206,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-19T05:02:01+00:00",
-        "last_seen": "2026-11-19T12:31:11+00:00"
+        "last_seen": "2026-11-19T12:41:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20330544",
@@ -7270,7 +7221,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-19T04:41:02+00:00",
-        "last_seen": "2026-11-19T12:31:11+00:00"
+        "last_seen": "2026-11-19T12:41:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20319153",
@@ -7285,7 +7236,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-19T03:41:02+00:00",
-        "last_seen": "2026-11-19T12:31:11+00:00"
+        "last_seen": "2026-11-19T12:41:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20333676",
@@ -7300,7 +7251,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-19T03:31:14+00:00",
-        "last_seen": "2026-11-19T12:31:11+00:00"
+        "last_seen": "2026-11-19T12:41:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20299500",
@@ -7315,7 +7266,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-19T03:21:00+00:00",
-        "last_seen": "2026-11-19T12:31:11+00:00"
+        "last_seen": "2026-11-19T12:41:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20335797",
@@ -7330,7 +7281,7 @@
         "published": false,
         "reject_reason": "H7: Gore-Tex 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-19T01:41:00+00:00",
-        "last_seen": "2026-11-19T12:31:11+00:00"
+        "last_seen": "2026-11-19T12:41:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20317857",
@@ -8276,26 +8227,11 @@
         "reject_reason": "",
         "first_seen": "2026-11-17T03:21:04+00:00",
         "last_seen": "2026-11-18T03:01:27+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20319096",
-        "source": "slickdeals:dickssportinggoods",
-        "title": "Nike Women's Reactx Rejuven8 Slide Sandals (Pink Spell/Bordeaux) for $21 at Dick's Sporting Goods",
-        "price": 21.0,
-        "list_price": 64.99,
-        "discount_pct": 67.7,
-        "krw": 28043,
-        "kr_lowest": null,
-        "score": 67,
-        "published": true,
-        "reject_reason": "",
-        "first_seen": "2026-11-17T00:51:09+00:00",
-        "last_seen": "2026-11-18T03:01:27+00:00"
       }
     ],
     "totals": {
       "collected_72h": 80,
-      "published_72h": 21
+      "published_72h": 20
     }
   }
 }
