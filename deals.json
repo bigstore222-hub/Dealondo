@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T10:41:43.387051+00:00",
+  "generated_at": "2026-11-19T10:51:02.009864+00:00",
   "count": 107,
   "deals": [
     {
@@ -279,23 +279,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 29표/45분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 29표/55분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-19T10:20:38.449516+00:00",
-      "last_seen": "2026-11-19T10:41:04.053554+00:00",
+      "last_seen": "2026-11-19T10:51:01.993810+00:00",
       "posted_at": "2026-11-19T09:55:38+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 45,
+        "sd_age_min": 55,
         "sd_votes": 29,
-        "sd_velocity": 38.7,
+        "sd_velocity": 31.6,
         "sd_fp_min": 25
       },
       "id": "992e63216c",
@@ -1396,23 +1396,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 26표/57분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 26표/67분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-18T01:40:40.914437+00:00",
-      "last_seen": "2026-11-19T10:41:04.053554+00:00",
+      "last_seen": "2026-11-19T10:51:01.993810+00:00",
       "posted_at": "2026-11-19T09:43:15+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 57,
+        "sd_age_min": 67,
         "sd_votes": 26,
-        "sd_velocity": 27.2,
+        "sd_velocity": 23.1,
         "sd_fp_min": 37
       },
       "id": "61a2eb1d7a",
@@ -1468,23 +1468,23 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 59표/169분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 59표/179분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-18T15:20:41.771107+00:00",
-      "last_seen": "2026-11-19T10:41:04.053554+00:00",
+      "last_seen": "2026-11-19T10:51:01.993810+00:00",
       "posted_at": "2026-11-19T07:51:17+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_hot_origin": true,
-        "sd_age_min": 169,
+        "sd_age_min": 179,
         "sd_votes": 59,
-        "sd_velocity": 20.9,
+        "sd_velocity": 19.7,
         "sd_fp_min": 59
       },
       "id": "97dd1523e9",
@@ -2640,7 +2640,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-19T03:40:37.172658+00:00",
-      "last_seen": "2026-11-19T10:41:04.053554+00:00",
+      "last_seen": "2026-11-19T10:51:01.993810+00:00",
       "posted_at": "",
       "signals": {},
       "id": "9285f22776",
@@ -6868,13 +6868,12 @@
   "fx_usd_krw": 1332.2,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-19T10:40:29+00:00",
+      "T1": "2026-11-19T10:50:29+00:00",
       "T2": "2026-11-19T10:41:05+00:00",
       "T3": "2026-11-19T09:51:14+00:00",
       "T4": "2026-11-19T05:41:02+00:00"
     },
     "recent_gaps_min": [
-      10,
       11,
       1,
       8,
@@ -6903,14 +6902,15 @@
       10,
       10,
       10,
-      1
+      1,
+      9
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-19T10:41:41+00:00",
+      "at": "2026-11-19T10:51:01+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -6919,16 +6919,16 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-19T10:41:41+00:00"
+      "at": "2026-11-19T10:51:01+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-19T10:40:38+00:00",
+        "at": "2026-11-19T10:50:37+00:00",
         "state": "정상",
-        "mails": 12,
-        "deals": 12
+        "mails": 13,
+        "deals": 13
       },
       "newsletter": {
         "at": "2026-11-19T05:43:46+00:00",
@@ -6938,6 +6938,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20337855",
+        "source": "slickdeals:ebay.com",
+        "title": "Cert. Refurb: EcoFlow 2048Wh 2400W LFP Portable DELTA 3 Max Power Station for $659 at eBay",
+        "price": 659.0,
+        "list_price": 1599.0,
+        "discount_pct": 58.8,
+        "krw": 1042982,
+        "kr_lowest": null,
+        "score": 50,
+        "published": true,
+        "reject_reason": "",
+        "first_seen": "2026-11-19T10:51:02+00:00",
+        "last_seen": "2026-11-19T10:51:02+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20329398",
         "source": "slickdeals:bestbuy.com",
@@ -6951,7 +6966,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-19T07:31:10+00:00",
-        "last_seen": "2026-11-19T10:41:04+00:00"
+        "last_seen": "2026-11-19T10:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20310813",
@@ -6966,7 +6981,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-19T07:10:59+00:00",
-        "last_seen": "2026-11-19T10:41:04+00:00"
+        "last_seen": "2026-11-19T10:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20331720",
@@ -6981,7 +6996,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-19T07:10:59+00:00",
-        "last_seen": "2026-11-19T10:41:04+00:00"
+        "last_seen": "2026-11-19T10:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20335854",
@@ -6996,7 +7011,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-19T06:31:19+00:00",
-        "last_seen": "2026-11-19T10:41:04+00:00"
+        "last_seen": "2026-11-19T10:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20320599",
@@ -7011,7 +7026,7 @@
         "published": false,
         "reject_reason": "H8: 할인 19% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-19T06:11:02+00:00",
-        "last_seen": "2026-11-19T10:41:04+00:00"
+        "last_seen": "2026-11-19T10:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20335929",
@@ -7026,7 +7041,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 48% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-19T05:11:14+00:00",
-        "last_seen": "2026-11-19T10:41:04+00:00"
+        "last_seen": "2026-11-19T10:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20333673",
@@ -7041,7 +7056,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-19T05:02:01+00:00",
-        "last_seen": "2026-11-19T10:41:04+00:00"
+        "last_seen": "2026-11-19T10:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20330544",
@@ -7056,7 +7071,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-19T04:41:02+00:00",
-        "last_seen": "2026-11-19T10:41:04+00:00"
+        "last_seen": "2026-11-19T10:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20319153",
@@ -7071,7 +7086,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-19T03:41:02+00:00",
-        "last_seen": "2026-11-19T10:41:04+00:00"
+        "last_seen": "2026-11-19T10:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20333676",
@@ -7086,7 +7101,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-19T03:31:14+00:00",
-        "last_seen": "2026-11-19T10:41:04+00:00"
+        "last_seen": "2026-11-19T10:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20299500",
@@ -7101,7 +7116,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-19T03:21:00+00:00",
-        "last_seen": "2026-11-19T10:41:04+00:00"
+        "last_seen": "2026-11-19T10:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20335797",
@@ -7116,7 +7131,7 @@
         "published": false,
         "reject_reason": "H7: Gore-Tex 할인 40% < 60% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-19T01:41:00+00:00",
-        "last_seen": "2026-11-19T10:41:04+00:00"
+        "last_seen": "2026-11-19T10:51:02+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20317857",
@@ -8122,26 +8137,11 @@
         "reject_reason": "",
         "first_seen": "2026-11-16T23:01:43+00:00",
         "last_seen": "2026-11-17T00:51:09+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20317713",
-        "source": "slickdeals:bestbuy.com",
-        "title": "3-Pk Acer 20W Dual Port USB-A and USB-C Charger Blocks w/ 6ft Cables for $10 at Best Buy",
-        "price": 10.0,
-        "list_price": 14.99,
-        "discount_pct": 33.3,
-        "krw": 13359,
-        "kr_lowest": null,
-        "score": 37,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-11-16T22:31:33+00:00",
-        "last_seen": "2026-11-17T00:51:09+00:00"
       }
     ],
     "totals": {
       "collected_72h": 80,
-      "published_72h": 20
+      "published_72h": 21
     }
   }
 }
