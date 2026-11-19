@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T16:23:11.771791+00:00",
-  "count": 115,
+  "generated_at": "2026-11-19T16:23:48.045389+00:00",
+  "count": 116,
   "deals": [
     {
       "source": "6pm.com",
@@ -1203,7 +1203,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-16T05:11:19.042279+00:00",
-      "last_seen": "2026-11-19T15:51:41.238979+00:00",
+      "last_seen": "2026-11-19T16:23:46.478047+00:00",
       "posted_at": "",
       "signals": {},
       "id": "2a3318f950",
@@ -2349,7 +2349,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-13T14:21:17.328011+00:00",
-      "last_seen": "2026-11-19T15:51:41.238979+00:00",
+      "last_seen": "2026-11-19T16:23:46.478047+00:00",
       "posted_at": "",
       "signals": {},
       "id": "629922e0ab",
@@ -3854,7 +3854,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-17T21:01:59.711366+00:00",
-      "last_seen": "2026-11-19T15:51:41.238979+00:00",
+      "last_seen": "2026-11-19T16:23:46.478047+00:00",
       "posted_at": "",
       "signals": {},
       "id": "eecf63e457",
@@ -3919,7 +3919,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-18T21:01:53.076460+00:00",
-      "last_seen": "2026-11-19T15:51:41.238979+00:00",
+      "last_seen": "2026-11-19T16:23:46.478047+00:00",
       "posted_at": "",
       "signals": {},
       "id": "125fa4be52",
@@ -3980,7 +3980,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-19T08:41:23.407247+00:00",
-      "last_seen": "2026-11-19T15:51:41.238979+00:00",
+      "last_seen": "2026-11-19T16:23:46.478047+00:00",
       "posted_at": "",
       "signals": {},
       "id": "8dc2e84e51",
@@ -3988,6 +3988,128 @@
         [
           "2026-11-19",
           49.5
+        ]
+      ]
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10065260",
+      "title": "Short Sleeve Scuba Crepe Zipper Neck Sheath",
+      "brand": "Calvin Klein",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/610vKBoYrvL._AC_SR255,340_.jpg",
+      "price_current": 44.7,
+      "price_list": 149.0,
+      "price_baseline": 149.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 59550,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10065260",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-19T11:21:36.672968+00:00",
+      "last_seen": "2026-11-19T16:23:46.478047+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "7e7fa2384b",
+      "history": [
+        [
+          "2026-11-19",
+          44.7
+        ]
+      ]
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10055844",
+      "title": "Yaiza",
+      "brand": "GUESS",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/61+GsWBU9ZL._AC_SR255,340_.jpg",
+      "price_current": 35.7,
+      "price_list": 119.0,
+      "price_baseline": 119.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 47560,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10055844",
+      "discount_pct": 70.0,
+      "score": 64,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-17T20:21:22.012440+00:00",
+      "last_seen": "2026-11-19T16:23:46.478047+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "d12db369d1",
+      "history": [
+        [
+          "2026-11-17",
+          35.7
+        ],
+        [
+          "2026-11-18",
+          35.7
+        ],
+        [
+          "2026-11-19",
+          35.7
         ]
       ]
     },
@@ -4110,128 +4232,6 @@
         [
           "2026-11-19",
           26.7
-        ]
-      ]
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10065260",
-      "title": "Short Sleeve Scuba Crepe Zipper Neck Sheath",
-      "brand": "Calvin Klein",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/610vKBoYrvL._AC_SR255,340_.jpg",
-      "price_current": 44.7,
-      "price_list": 149.0,
-      "price_baseline": 149.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 59550,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10065260",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-19T11:21:36.672968+00:00",
-      "last_seen": "2026-11-19T13:51:39.530983+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "7e7fa2384b",
-      "history": [
-        [
-          "2026-11-19",
-          44.7
-        ]
-      ]
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10055844",
-      "title": "Yaiza",
-      "brand": "GUESS",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61+GsWBU9ZL._AC_SR255,340_.jpg",
-      "price_current": 35.7,
-      "price_list": 119.0,
-      "price_baseline": 119.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 47560,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10055844",
-      "discount_pct": 70.0,
-      "score": 64,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-17T20:21:22.012440+00:00",
-      "last_seen": "2026-11-19T08:41:41.944983+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "d12db369d1",
-      "history": [
-        [
-          "2026-11-17",
-          35.7
-        ],
-        [
-          "2026-11-18",
-          35.7
-        ],
-        [
-          "2026-11-19",
-          35.7
         ]
       ]
     },
@@ -4883,12 +4883,147 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-19T15:51:20.346795+00:00",
-      "last_seen": "2026-11-19T15:51:41.238979+00:00",
+      "detected_at": "2026-11-19T16:23:22.377371+00:00",
+      "last_seen": "2026-11-19T16:23:46.478047+00:00",
       "posted_at": "",
       "signals": {},
       "id": "d5693e7d53",
       "history": []
+    },
+    {
+      "source": "techbargains:amazon",
+      "source_tier": "T2",
+      "url": "https://www.amazon.com/dp/B01JG5V0E4",
+      "title": "Versace 3.4 fl oz Dylan Blue Eau de Toilette Cologne $53.99",
+      "brand": "Versace",
+      "category": "premium_fashion",
+      "image": "https://www.techbargains.com/imagery/deals/218286.1795092782.fit_lim.size_125x125.png",
+      "price_current": 53.99,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 71926,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.amazon.com/dp/B01JG5V0E4",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-19T16:23:22.584087+00:00",
+      "last_seen": "2026-11-19T16:23:46.478047+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "33d0837bfa",
+      "history": [
+        [
+          "2026-11-19",
+          53.99
+        ]
+      ]
+    },
+    {
+      "source": "techbargains:amazon",
+      "source_tier": "T2",
+      "url": "https://www.amazon.com/gp/product/B0DSQX5N64/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1",
+      "title": "Osprey Daylite Expandable 26+6 Travel Pack (Various Colors) $71.50",
+      "brand": "Osprey",
+      "category": "sports_outdoor",
+      "image": "https://www.techbargains.com/imagery/deals/271027.1795089761.fit_lim.size_125x125.jpg",
+      "price_current": 71.5,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": 71.5,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 95254,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/gp/product/B0DSQX5N64/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": 25,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-14T16:51:17.172909+00:00",
+      "last_seen": "2026-11-19T16:23:46.478047+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "15a55c01ef",
+      "history": [
+        [
+          "2026-11-14",
+          71.5
+        ],
+        [
+          "2026-11-15",
+          71.5
+        ],
+        [
+          "2026-11-16",
+          71.5
+        ],
+        [
+          "2026-11-17",
+          71.5
+        ],
+        [
+          "2026-11-18",
+          71.5
+        ],
+        [
+          "2026-11-19",
+          71.5
+        ]
+      ]
     },
     {
       "source": "dealnews",
@@ -5053,83 +5188,6 @@
       "signals": {},
       "id": "5d22260fd3",
       "history": []
-    },
-    {
-      "source": "techbargains:amazon",
-      "source_tier": "T2",
-      "url": "https://www.amazon.com/gp/product/B0DSQX5N64/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1",
-      "title": "Osprey Daylite Expandable 26+6 Travel Pack (Various Colors) $71.50",
-      "brand": "Osprey",
-      "category": "sports_outdoor",
-      "image": "https://www.techbargains.com/imagery/deals/271027.1795089761.fit_lim.size_125x125.jpg",
-      "price_current": 71.5,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": 71.5,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 95254,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/gp/product/B0DSQX5N64/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": 25,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-14T16:51:17.172909+00:00",
-      "last_seen": "2026-11-19T15:51:41.238979+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "15a55c01ef",
-      "history": [
-        [
-          "2026-11-14",
-          71.5
-        ],
-        [
-          "2026-11-15",
-          71.5
-        ],
-        [
-          "2026-11-16",
-          71.5
-        ],
-        [
-          "2026-11-17",
-          71.5
-        ],
-        [
-          "2026-11-18",
-          71.5
-        ],
-        [
-          "2026-11-19",
-          71.5
-        ]
-      ]
     },
     {
       "source": "dealnews",
@@ -7286,12 +7344,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-19T16:20:29+00:00",
-      "T2": "2026-11-19T15:51:04+00:00",
+      "T2": "2026-11-19T16:23:13+00:00",
       "T3": "2026-11-19T16:11:29+00:00",
       "T4": "2026-11-19T11:54:23+00:00"
     },
     "recent_gaps_min": [
-      9,
       10,
       10,
       9,
@@ -7320,14 +7377,15 @@
       10,
       10,
       1,
-      11
+      11,
+      1
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-19T16:23:11+00:00",
+      "at": "2026-11-19T16:23:46+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -7336,7 +7394,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-19T16:23:11+00:00"
+      "at": "2026-11-19T16:23:46+00:00"
     }
   },
   "email_monitor": {
