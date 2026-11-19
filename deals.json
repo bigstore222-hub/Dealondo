@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T18:01:31.749514+00:00",
+  "generated_at": "2026-11-19T18:05:10.794893+00:00",
   "count": 123,
   "deals": [
     {
@@ -7751,10 +7751,9 @@
       "T1": "2026-11-19T18:00:44+00:00",
       "T2": "2026-11-19T17:41:09+00:00",
       "T3": "2026-11-19T16:11:29+00:00",
-      "T4": "2026-11-19T11:54:23+00:00"
+      "T4": "2026-11-19T18:01:33+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       1,
       9,
@@ -7783,14 +7782,15 @@
       10,
       1,
       10,
-      10
+      10,
+      4
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-19T18:01:31+00:00",
+      "at": "2026-11-19T18:05:10+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -7799,7 +7799,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-19T18:01:31+00:00"
+      "at": "2026-11-19T18:05:10+00:00"
     }
   },
   "email_monitor": {
@@ -7811,13 +7811,43 @@
         "deals": 24
       },
       "newsletter": {
-        "at": "2026-11-19T11:57:05+00:00",
+        "at": "2026-11-19T18:04:47+00:00",
         "state": "정상",
-        "mails": 36,
-        "deals": 2
+        "mails": 59,
+        "deals": 6
       }
     },
     "recent": [
+      {
+        "url": "https://link.email.newbalance.com/u/nrd.php",
+        "source": "newbalance.com",
+        "title": "Ready for Black Friday?",
+        "price": 60.0,
+        "list_price": 100.0,
+        "discount_pct": 40.0,
+        "krw": 79933,
+        "kr_lowest": null,
+        "score": 48,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-11-19T18:05:10+00:00",
+        "last_seen": "2026-11-19T18:05:10+00:00"
+      },
+      {
+        "url": "https://clicks.finishline.com/f/a/BJk-_Cq-_qxI7y7pWD35bQ~~/AAQRxRA~/Zor1GJYlVzW7YQFJWBSqVBaoRhXW46Iq5qQattOkuYLgGEM-mNmtjFc7Mbzog_EDM15Ae6Mj7fB05q7rmoE9fqroo4XjlrY6TMSYnZxGoghN9sETBLEKzA6elQU5MO5JXkBTNHXb097W3QntsSYw6g~~",
+        "source": "finishline.com",
+        "title": "Running Kicks Everyone's After 🏃‍♂️💨",
+        "price": 50.0,
+        "list_price": 100.0,
+        "discount_pct": 50.0,
+        "krw": 66611,
+        "kr_lowest": null,
+        "score": 31,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-11-19T18:05:10+00:00",
+        "last_seen": "2026-11-19T18:05:10+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20335890",
         "source": "slickdeals:nike.com",
@@ -7966,7 +7996,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-19T11:57:27+00:00",
-        "last_seen": "2026-11-19T11:57:27+00:00"
+        "last_seen": "2026-11-19T18:05:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20331648",
@@ -8251,7 +8281,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-18T23:34:34+00:00",
-        "last_seen": "2026-11-19T11:57:27+00:00"
+        "last_seen": "2026-11-19T18:05:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20323143",
@@ -8421,17 +8451,17 @@
       {
         "url": "https://click.email.bloomingdales.com/",
         "source": "bloomingdales.com",
-        "title": "New to sale: Cashmere and merino sweaters",
-        "price": 75.0,
+        "title": "Save up to 40% on Ferragamo",
+        "price": 60.0,
         "list_price": 100.0,
-        "discount_pct": 25.0,
-        "krw": 100152,
+        "discount_pct": 40.0,
+        "krw": 79933,
         "kr_lowest": null,
         "score": 0,
         "published": false,
-        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "reject_reason": "H7: Ferragamo 할인 40% < 50% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-18T17:24:32+00:00",
-        "last_seen": "2026-11-18T23:34:34+00:00"
+        "last_seen": "2026-11-19T18:05:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20326221",
@@ -8985,36 +9015,6 @@
         "score": 50,
         "published": true,
         "reject_reason": "",
-        "first_seen": "2026-11-17T16:31:15+00:00",
-        "last_seen": "2026-11-18T00:51:10+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20321688",
-        "source": "slickdeals:amazon.com",
-        "title": "Cotmcor Girls' Colorblock Crossbody Sling Bag w/ Adjustable Strap (Various) for $6.50 at Amazon",
-        "price": 6.5,
-        "list_price": 12.99,
-        "discount_pct": 50.0,
-        "krw": 8680,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
-        "first_seen": "2026-11-17T16:31:15+00:00",
-        "last_seen": "2026-11-18T00:51:10+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20314911",
-        "source": "slickdeals:amazon.com",
-        "title": "44mm Apple Watch SE 3 GPS + Cellular Smartwatch (Midnight Aluminum Case) for $279 at Amazon",
-        "price": 279.0,
-        "list_price": 329.0,
-        "discount_pct": 15.2,
-        "krw": 442608,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H8: 할인 15% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-17T16:31:15+00:00",
         "last_seen": "2026-11-18T00:51:10+00:00"
       }
