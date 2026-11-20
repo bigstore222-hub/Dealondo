@@ -710,7 +710,6 @@
   }
  },
  "done_updates": [
-  303762703,
   303762704,
   303762705,
   303762706,
@@ -988,11 +987,6 @@
  ],
  "runs": [
   {
-   "at": "2026-11-17T22:50:19+09:00",
-   "updates": 1,
-   "errors": []
-  },
-  {
    "at": "2026-11-17T23:03:29+09:00",
    "updates": 1,
    "errors": []
@@ -1186,6 +1180,11 @@
    "at": "2026-11-20T20:00:00+09:00",
    "updates": 1,
    "errors": []
+  },
+  {
+   "at": "2026-11-20T20:22:25+09:00",
+   "updates": 0,
+   "errors": []
   }
  ],
  "info": {
@@ -1221,6 +1220,14 @@
     "status": "posted",
     "link": "https://www.threads.com/@deal_ondo/post/Df8qZf6FD0E",
     "error": ""
+   },
+   "2026-11-20-evening": {
+    "tries": 1,
+    "at": "2026-11-20T20:21:08+09:00",
+    "id": "R01",
+    "status": "posted",
+    "link": "https://www.threads.com/@deal_ondo/post/Df9iSIqm1RV",
+    "error": ""
    }
   },
   "log": [
@@ -1255,6 +1262,14 @@
     "slot": "lunch",
     "link": "https://www.threads.com/@deal_ondo/post/Df8qZf6FD0E",
     "first_line": "블프 D-7, 지금 관부가세 없이 받는 브랜드 딜 3개."
+   },
+   {
+    "at": "2026-11-20T20:21:08+09:00",
+    "id": "R01",
+    "type": "repost",
+    "slot": "evening",
+    "link": "https://www.threads.com/@deal_ondo/post/Df9iSIqm1RV",
+    "first_line": "$199짜리 재킷과 $201짜리 재킷."
    }
   ]
  }
