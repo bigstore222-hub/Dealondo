@@ -30,28 +30,16 @@ import os, re
 import brands
 import filter_engine as fe
 
-MIN_SCORE = int(os.environ.get("RADAR_ALERT_MIN_SCORE", "70"))
-TECH_MIN = float(os.environ.get("RADAR_ALERT_TECH_MIN", "25"))
+MIN_SCORE = int(os.environ.get("RADAR_ALERT_MIN_SCORE", "60"))
+TECH_MIN = float(os.environ.get("RADAR_ALERT_TECH_MIN", "40"))  # 2026-11-20 25→40
 ETC_MIN = float(os.environ.get("RADAR_ALERT_ETC_MIN", "40"))
 KR_SAVING_MIN = float(os.environ.get("RADAR_ALERT_KR_SAVING", "15"))
 MAX_PER_RUN = int(os.environ.get("RADAR_ALERT_MAX_PER_RUN", "8"))
-PER_BRAND = int(os.environ.get("RADAR_ALERT_PER_BRAND", "2"))       # 같은 브랜드 도배 방지
-LOW_PRICE = float(os.environ.get("RADAR_ALERT_LOW_PRICE", "15"))     # 이보다 싼 단품은 배대지 요금 대비 실익이 적다
+PER_BRAND = int(os.environ.get("RADAR_ALERT_PER_BRAND", "3"))       # 같은 브랜드 도배 방지
+LOW_PRICE = float(os.environ.get("RADAR_ALERT_LOW_PRICE", "10"))     # 이보다 싼 단품은 배대지 요금 대비 실익이 적다
 
-# 테크·생활 브랜드 (패션 브랜드는 data/brands.csv)
-TECH_BRANDS = [
-    "apple", "airpods", "ipad", "macbook", "samsung", "galaxy", "sony", "bose", "beats", "jbl", "anker",
-    "soundcore", "eufy", "garmin", "logitech", "dyson", "nintendo", "playstation", "xbox", "lg", "dell",
-    "lenovo", "hp", "asus", "acer", "microsoft", "google", "pixel", "kindle", "amazon echo", "echo",
-    "fire tv", "gopro", "dji", "canon", "nikon", "fujifilm", "sandisk", "western digital", "wd",
-    "seagate", "crucial", "kingston", "razer", "steelseries", "corsair", "philips", "sonicare", "braun",
-    "panasonic", "oral-b", "shark", "ninja", "instant pot", "kitchenaid", "le creuset", "staub", "zwilling",
-    "yeti", "stanley", "hydro flask", "theragun", "therabody", "oura", "fitbit", "sennheiser",
-    "audio-technica", "marshall", "sonos", "ugreen", "belkin", "roborock", "irobot", "roomba", "tp-link",
-    "netgear", "nespresso", "breville", "keurig", "vitamix", "cuisinart", "lodge", "ember", "whoop",
-    "coros", "suunto", "polar", "bowers & wilkins", "bang & olufsen", "shokz", "nothing", "osprey",
-    "mountain hardwear", "arc'teryx", "patagonia", "the north face", "rei co-op",
-]
+# 테크·생활 브랜드 목록은 brands.py 로 옮김(스코어링과 함께 쓰기 위해)
+TECH_BRANDS = brands.TECH_BRANDS
 _TECH = sorted(TECH_BRANDS, key=len, reverse=True)
 
 ROUNDUP = re.compile(
@@ -76,10 +64,18 @@ def _norm(s: str) -> str:
 
 
 def _lead(title: str) -> str:
-    """제목 앞의 수량·잡음을 떼어 '브랜드로 시작하는 부분'을 만든다. 예) '2-Pk Wegear ...' → 'wegear ...'"""
+    """제목 앞의 수량·잡음을 떼어 '브랜드로 시작하는 부분'을 만든다. 예) '2-Pk Wegear ...' → 'wegear ...'
+    2026-11-20: 슬릭딜 제목 머리말도 뗀다 — 'Refurb:', 'Prime Members:', '[NEW] $12.99 |', '$11.99:', '44mm', '31L'"""
     t = _norm(title)
-    t = re.sub(r"^(\d+[- ]?(pk|pack|pc|pcs|ct|count|pair)s?\b[\s,-]*)", "", t)
-    t = re.sub(r"^(new|refurb(ished)?|open box|men's|women's|kids'?)\s+", "", t)
+    for _ in range(4):
+        t0 = t
+        t = re.sub(r"^(\[[^\]]*\]\s*|\([^)]{0,30}\)\s*|\(?(new|used|open box|certified)?/?\s*(open box)?\)?\s*refurb(ished)?\)?:?\s*|"
+                   r"prime( members?)?:?\s*|\$[\d.,]+\*?\s*[:|]\s*|"
+                   r"\d+(\.\d+)?\s*(mm|l|\"|''|in|inch|oz|gb|tb)\b[\s,-]*|"
+                   r"\d+[- ]?(pk|pack|pc|pcs|piece|ct|count|pair)s?\b[\s,:-]*)", "", t)
+        t = re.sub(r"^(new|refurb(ished)?|open box|men's|women's|kids'?|unisex)\s+", "", t)
+        if t == t0:
+            break
     return t
 
 
@@ -95,6 +91,10 @@ def brand_ok(d) -> tuple[bool, str]:
         for b in _TECH:
             if re.match(rf"{re.escape(b)}(?![a-z])", lead):
                 return True, b
+        # 슬릭딜 글 상세에 적힌 브랜드(작성자가 지정) — 사전·테크 목록에 있는 브랜드면 인정
+        sb = ((_g(d, "signals") or {}).get("sd_brand") or "")
+        if sb and (brands.tier(sb) != "unknown" or brands.tech_brand(sb)) and _norm(sb).split()[0] in lead:
+            return True, sb
         return False, "브랜드 불명확(제목이 알려진 브랜드로 시작하지 않음)"
     # 쇼핑몰 직접 수집: 상품 페이지의 브랜드 칸
     if brands.tier(brand) != "unknown":
@@ -120,7 +120,9 @@ def worth_alert(d) -> tuple[bool, str]:
     if NOT_USABLE.search(title):
         return False, "안경테 등 직구 실익 없음"
     if price < LOW_PRICE and not (pct and pct >= 80):
-        return False, f"${price:.2f} 단품 — 배대지 배송비 대비 실익 적음"
+        # 2026-11-20: 알려진 브랜드 60%+ 저가 소품(아디다스 헤어밴드·플레이도우·멜리사앤더그)은 Bexel 이 꾸준히 올림 → 통과
+        if not (pct and pct >= 60 and brand_ok(d)[0]):
+            return False, f"${price:.2f} 단품 — 배대지 배송비 대비 실익 적음"
     strong_code = bool(_g(d, "coupon_code")) and _g(d, "code_kind") == "public"
     rising = fe.sd_rising(d) if not isinstance(d, dict) else ""
     # 슬릭딜 Hot Deals 급상승 딜은 할인율을 몰라도·문턱이 낮아도 보낸다(커뮤니티가 실시간 검증 중)

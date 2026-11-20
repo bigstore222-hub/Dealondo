@@ -89,3 +89,53 @@ BRAND_GATED_CATEGORIES = {"premium_fashion", "sports_outdoor", "kids", "watch_mi
 
 # 무명 브랜드라도 통과시키는 '초고할인' 기준(%).
 UNKNOWN_BRAND_MIN_DISCOUNT = float(os.environ.get("RADAR_UNKNOWN_BRAND_MIN_DISCOUNT", "85"))
+
+
+# ---------------------------------------------------------------------------
+# 테크·생활·게임 브랜드 (패션 브랜드는 data/brands.csv). 전자제품 등 '브랜드 무관' 카테고리에서
+# 브랜드가 확실한지(알림 게이트), 알려진 브랜드 가산점(스코어링)에 쓴다.
+# 2026-11-20: Bexel 단톡방 공유 슬릭딜 252건에서 반복된 브랜드 추가(게이밍·오디오·조명·카메라 가방 등).
+# ---------------------------------------------------------------------------
+TECH_BRANDS = [
+    "apple", "airpods", "ipad", "macbook", "samsung", "galaxy", "sony", "bose", "beats", "jbl", "anker",
+    "soundcore", "eufy", "garmin", "logitech", "dyson", "nintendo", "playstation", "xbox", "lg", "dell",
+    "lenovo", "hp", "asus", "acer", "microsoft", "google", "pixel", "kindle", "amazon echo", "echo",
+    "fire tv", "gopro", "dji", "canon", "nikon", "fujifilm", "sandisk", "western digital", "wd",
+    "seagate", "crucial", "kingston", "razer", "steelseries", "corsair", "philips", "sonicare", "braun",
+    "panasonic", "oral-b", "shark", "ninja", "instant pot", "kitchenaid", "le creuset", "staub", "zwilling",
+    "yeti", "stanley", "hydro flask", "theragun", "therabody", "oura", "fitbit", "sennheiser",
+    "audio-technica", "marshall", "sonos", "ugreen", "belkin", "roborock", "irobot", "roomba", "tp-link",
+    "netgear", "nespresso", "breville", "keurig", "vitamix", "cuisinart", "lodge", "ember", "whoop",
+    "coros", "suunto", "polar", "bowers & wilkins", "bang & olufsen", "shokz", "nothing", "osprey",
+    "mountain hardwear", "arc'teryx", "patagonia", "the north face", "rei co-op",
+    # 2026-11-20 추가
+    "hyperx", "turtle beach", "powera", "8bitdo", "thrustmaster", "elgato", "blue yeti", "rode", "shure",
+    "skullcandy", "jabra", "jlab", "edifier", "klipsch", "energy speaker", "polk", "denon", "yamaha",
+    "govee", "nanoleaf", "philips hue", "wyze", "ring", "arlo", "blink", "ecovacs", "tineco", "levoit",
+    "peak design", "pelican", "samsonite", "tumi", "victorinox", "swissgear", "leatherman", "benchmade",
+    "zojirushi", "fellow", "timemore", "hario", "baratza", "de'longhi", "delonghi", "smeg", "ooni",
+    "msi", "gigabyte", "nvidia", "amd", "intel", "viewsonic", "benq", "aoc", "alienware", "framework",
+    "kodak", "insta360", "ricoh", "olympus", "om system", "sigma", "tamron", "manfrotto",
+    "frameo", "aura frame", "brother", "epson", "remarkable", "boox", "kobo",
+    "harman kardon", "keychron", "technics", "atomos", "kensington", "energy", "audioengine", "fender",
+    "oura", "garmin", "nanoleaf", "coleman",
+]
+_TECH = sorted(TECH_BRANDS, key=len, reverse=True)
+
+
+# 일반 단어와 겹치는 이름은 문자열 맨 앞에 올 때만 브랜드로 본다(예: 'Ring Light', 'polar fleece')
+_GENERIC = {"ring", "blink", "fellow", "framework", "polar", "nothing", "echo", "shark", "ninja", "stanley",
+            "lodge", "rode", "sigma", "galaxy", "ember", "whoop", "pixel", "google", "apple", "lg", "hp", "wd",
+            "polk", "fire tv", "kindle", "amd", "intel", "brother", "aura frame", "energy speaker", "energy"}
+
+
+def tech_brand(text: str) -> str:
+    """제목·브랜드 문자열 안에 알려진 테크·생활 브랜드가 있으면 그 이름."""
+    t = _norm(text)
+    t = re.sub(r"^(\[[^\]]*\]\s*|\(?(new|used|open box|certified)?\s*refurb(ished)?\)?:?\s*|prime( members?)?:?\s*|"
+               r"\$[\d.,]+\*?\s*[:|]\s*|\d+(\.\d+)?\s*(mm|l|\"|in|oz|gb|tb|-?pc|-?piece|-?pack|-?pk|-?ct)\b[\s,-]*)+", "", t)
+    for b in _TECH:
+        pat = rf"(?<![a-z]){re.escape(b)}(?![a-z])"
+        if (re.match(pat, t) if b in _GENERIC else re.search(pat, t)):
+            return b
+    return ""

@@ -110,6 +110,10 @@ def run_tier(tier: str, con) -> tuple[list, list]:
             sd = sources.fetch_slickdeals()
             if sd:
                 print(f"[{tier}] Slickdeals RSS {len(sd)}건 추가")
+                try:   # 글 상세에서 정가·브랜드·카테고리 보강 (RSS엔 정가가 거의 없다)
+                    sources.enrich_slickdeals(sd, con)
+                except Exception as e:
+                    print(f"[{tier}] Slickdeals 글 상세 보강 오류: {type(e).__name__}: {e}")
                 raw = raw + sd
         except Exception as e:
             print(f"[{tier}] Slickdeals 수집 오류: {type(e).__name__}: {e}")
@@ -127,6 +131,10 @@ def run_tier(tier: str, con) -> tuple[list, list]:
         try:
             al = sources.fetch_slickdeals_alerts()
             if al:
+                try:
+                    sources.enrich_slickdeals(al, con)
+                except Exception as e:
+                    print(f"[{tier}] 슬릭딜 알림 상세 보강 오류: {type(e).__name__}: {e}")
                 print(f"[{tier}] 슬릭딜 알림 메일 {len(al)}건 추가")
                 raw = raw + al
         except Exception as e:

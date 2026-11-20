@@ -16,8 +16,37 @@ import brands
 
 # 유명 브랜드 의류·잡화의 최소 할인 문턱(사용자 방침: 80%+에만 의존하지 말고 60%대도 편입).
 # 프리미엄(명품)은 더 귀하므로 50%부터, 대중 유명 브랜드는 60%부터.
-KNOWN_MIN_DISCOUNT = float(os.environ.get("RADAR_KNOWN_MIN_DISCOUNT", "60"))
-PREMIUM_MIN_DISCOUNT = float(os.environ.get("RADAR_PREMIUM_MIN_DISCOUNT", "50"))
+# 2026-11-20 Bexel 큐레이션 기준으로 하향: 단톡방에 올린 패션 딜의 할인율 분포가 40%대 18 · 50%대 21 · 60%대 43 ·
+# 70%+ 25건 — 유명 브랜드 50%대가 한 축이었다. 프리미엄은 40%부터. 커뮤니티 검증(추천 15+·프론트페이지)이면 40%부터.
+KNOWN_MIN_DISCOUNT = float(os.environ.get("RADAR_KNOWN_MIN_DISCOUNT", "50"))
+PREMIUM_MIN_DISCOUNT = float(os.environ.get("RADAR_PREMIUM_MIN_DISCOUNT", "40"))
+CROWD_MIN_DISCOUNT = float(os.environ.get("RADAR_CROWD_MIN_DISCOUNT", "40"))
+CROWD_VOTES = int(os.environ.get("RADAR_CROWD_VOTES", "15"))
+
+# H9: Bexel 이 4주 동안 슬릭딜에서 한 번도 고르지 않은 카테고리(공구·자동차·식품·생필품·뷰티·디지털·반려동물).
+#   같은 기간 슬릭딜 전체 표본에선 이런 글이 약 20%였다 → 애그리게이터 딜에서만 제외(리테일러 직접 수집은 이미 선별됨).
+EXCLUDED_SD_CAT = re.compile(
+    r"(?<!kitchen )\btools?\b|automotive|car care|\btires\b|motor oil|home improvement|plumbing|lawn|\bgarden|"
+    r"grocer|\bfood\b(?! processor)|snacks?\b|beverages?|candy|soups|sauces|pantry|household|cleaning|laundry|"
+    r"paper (products|towels)|toilet paper|health care|vitamins?|supplements?|personal care|beauty|skin ?care|"
+    r"makeup|cosmetic|hair care|oral care|pharmacy|medicine|\bpets?\b|\bdogs?\b|\bcats?\b|\bbooks?\b|"
+    r"\bebooks?|magazines?|movies|\bmusic\b|software|gift cards?|digital (games?|downloads?|content)|"
+    r"\bapps?\b|office supplies|shooting|hunting|ammunition|firearm|"
+    # 2026-11-20 표본 비교: Bexel 은 안 고르는데 슬릭딜엔 많은 것 — 보안카메라·게임 타이틀·디스크·노트북/PC·폰·TV·
+    # 파워스테이션·3D프린터·손전등
+    r"security camera|home security|^video games$|^ps5$|^ps4$|nintendo switch$|^xbox|video game consoles|blu-?ray|"
+    r"\bdvd\b|laptops?|desktop computers?|smartphones?|\btvs?\b|television|portable power station|"
+    r"3d printer|flashlight", re.I)
+# 미국 전압(120V) 가전 — Bexel: "전압이 맞지 않아서 구매 추천하지 않습니다." 프리볼트 표기가 있으면 통과
+US_VOLTAGE_CAT = re.compile(r"small appliances|coffee makers|espresso|tea kettle|vacuums|kitchen appliances|"
+                            r"hair dryer|blender|air fryer|toaster|microwave|space heater|humidifier", re.I)
+DUAL_VOLTAGE = re.compile(r"dual[- ]voltage|100\s*-\s*240|110\s*-\s*240|universal voltage|worldwide voltage", re.I)
+EXCLUDED_TITLE = re.compile(
+    r"kindle edition|\bebook\b|digital (code|download|delivery)|gift card|\bsubscription\b|"
+    r"\b(dewalt|milwaukee|ryobi|makita|craftsman|husky|kobalt|bosch tools?|hart)\b|impact driver|drill bit|"
+    r"socket set|\bsander\b|circular saw|motor oil|wiper blade|\btires?\b|dog food|cat litter|cat food|"
+    r"toilet paper|paper towels?|laundry detergent|dish soap|protein (bar|powder)|vitamin|supplement", re.I)
+AGGREGATOR_SOURCES = ("slickdeals", "dealnews", "dealsofamerica", "techbargains", "woot")
 
 # 발행 최소 실질 할인(H8). 이 미만은 카테고리 불문 '핫딜'이 아니다.
 # 예외: 강한 코드딜(50%+)·큐레이션 유명브랜드·역대최저가.
@@ -178,8 +207,11 @@ def hard_filter(deal: Deal) -> tuple[bool, str]:
         r"\brefurbished\b|\brenewed\b|\bopen[- ]?box\b|\bpre-?owned\b|\(used\b", _t))
     if _is_used:
         pct = deal.discount_pct if deal.discount_pct is not None else compute_discount_pct(deal)
-        if not (pct and pct >= 60):
-            return False, "H5: 리퍼/중고 (60% 미만 할인)"
+        # 2026-11-20: 알려진 브랜드의 공식 리퍼(시티즌·보스·소니·에이서 등)는 40%부터 — Bexel 이 자주 올린 유형
+        known = brands.tier(deal.brand) != "unknown" or bool(brands.tech_brand(f"{deal.brand} {deal.title}"))
+        floor_ = 40 if known else 60
+        if not (pct and pct >= floor_):
+            return False, f"H5: 리퍼/중고 ({floor_}% 미만 할인)"
 
     # H6: 신규가입·개인 전용 코드에 기반한 딜은 발행하지 않는다.
     #
@@ -201,9 +233,19 @@ def hard_filter(deal: Deal) -> tuple[bool, str]:
     # 공개 결제창 코드가 붙은 유명 브랜드 딜은 할인 문턱을 면제(코드가 값이므로).
     if deal.category in brands.BRAND_GATED_CATEGORIES:
         t = brands.tier(deal.brand)
+        if t == "unknown" and brands.tech_brand(f"{deal.brand} {deal.title}"):
+            t = "known"            # 오우라·하이퍼엑스 같은 테크 브랜드가 잡화 카테고리로 분류된 경우
+        _sdc = (deal.signals or {}).get("sd_cat") or ""
+        if t == "unknown" and deal.category == "kids" and re.search(r"toy|lego|puzzle|game", _sdc + " " + (deal.title or ""), re.I):
+            # 2026-11-20: Bexel 은 무명이라도 50%+ 아마존 장난감(자석 블록·기차 세트·그림판)을 자주 올렸다
+            pct = deal.discount_pct if deal.discount_pct is not None else compute_discount_pct(deal)
+            if pct and pct >= 50:
+                t = "toy"
         if t == "unknown":
             return False, f"H7: 무명 브랜드({deal.brand or '미상'}) — 의류·잡화는 유명 브랜드만"
-        floor = PREMIUM_MIN_DISCOUNT if t == "premium" else KNOWN_MIN_DISCOUNT
+        floor = PREMIUM_MIN_DISCOUNT if t == "premium" else (50 if t == "toy" else KNOWN_MIN_DISCOUNT)
+        if (deal.community_votes or 0) >= CROWD_VOTES or deal.frontpage:
+            floor = min(floor, CROWD_MIN_DISCOUNT)
         # '강한 코드딜'(공개코드+50%↑) 과 큐레이션 소스(DealNews)만 할인 문턱 면제.
         # 20% 코드 딜은 면제 대상이 아니므로 유명 브랜드 최소 할인(60%)을 그대로 적용받는다.
         if not strong_code_deal(deal) and not is_curated(deal) and not sd_rising(deal):
@@ -211,6 +253,15 @@ def hard_filter(deal: Deal) -> tuple[bool, str]:
             if not (pct and pct >= floor):
                 return False, (f"H7: {deal.brand} 할인 {pct or 0:.0f}% < {floor:.0f}% "
                                f"(유명 브랜드 최소 할인)")
+
+    # H9: 애그리게이터 딜 중 Bexel 이 고르지 않는 카테고리
+    src = (deal.source or "").lower()
+    if any(src.startswith(a) for a in AGGREGATOR_SOURCES):
+        sdc = (deal.signals or {}).get("sd_cat") or ""
+        if (sdc and EXCLUDED_SD_CAT.search(sdc)) or EXCLUDED_TITLE.search(deal.title or ""):
+            return False, f"H9: 직구 큐레이션 제외 카테고리({sdc or '제목'})"
+        if sdc and US_VOLTAGE_CAT.search(sdc) and not DUAL_VOLTAGE.search(deal.title or ""):
+            return False, f"H9: 미국 전압(120V) 가전({sdc})"
 
     # H8: 사실상 할인이 없는 딜은 '핫딜'이 아니다 — 근본 배제.
     #   사용자 방침: "이딴 허접한 할인율(5%·8%·20%)을 딜이라고 올리지 마라."
@@ -255,7 +306,7 @@ CATEGORY_SCORES = {
     "sports_outdoor": 17,    # Nike, Adidas, NB, Columbia, Oakley, REI ...
     "electronics": 15,
     "kids": 15,
-    "watch_misc": 10,
+    "watch_misc": 15,        # 2026-11-20 10→15: Bexel 공유의 18%가 가방·시계·잡화(시티즌·샘소나이트·펠리컨)
     "home": 8,               # 주방·홈·가구 (해외직구 인기 분야, 브랜드 무관)
     "etc": 5,
 }
@@ -328,6 +379,10 @@ CATEGORY_KEYWORDS = {
         # 한국어
         "유아", "아기", "어린이", "키즈", "아동", "주니어", "유모차", "카시트", "기저귀",
         "레고", "장난감", "피규어", "미니피규어", "완구",
+        # 2026-11-20 — Bexel 이 올린 장난감 딜(멜리사앤더그·플레이도우·자석 블록·기차 세트 등)
+        "toy", "toys", "play-doh", "playset", "play set", "dollhouse", "doll", "train set", "building set",
+        "magnetic tiles", "magna-tiles", "pretend play", "kidkraft", "fisher-price", "hasbro", "mattel",
+        "barbie", "hot wheels", "graco", "chicco",
     ],
     # 시계/잡화(10점)
     "watch_misc": [
@@ -386,29 +441,56 @@ SITE_DEFAULT_CATEGORY = {
 SITE_FALLBACK_PENALTY = 4
 
 
+# 슬릭딜 글 상세의 카테고리(primaryCategory) → 우리 카테고리. 키워드로 못 정할 때 쓴다.
+SD_CATEGORY_MAP = [
+    (re.compile(r"toy|kids|baby|toddler|car seat|stroller", re.I), "kids"),
+    (re.compile(r"computer accessor|phone accessor|camera accessor|tablet accessor|video game accessor|gaming", re.I),
+     "electronics"),
+    (re.compile(r"watch|jewelry|sunglass|eyewear|luggage|backpack|bag|wallet|accessor", re.I), "watch_misc"),
+    (re.compile(r"shoe|sneaker|boot|sandal|activewear|athletic|outdoor", re.I), "sports_outdoor"),
+    (re.compile(r"outerwear|clothing|apparel|dress|shirt|sweater|pants|jeans|coat|jacket|hoodie|men's|women's", re.I),
+     "premium_fashion"),
+    (re.compile(r"headphone|earbud|speaker|computer|laptop|monitor|tv|television|video game|gaming|phone|tablet|"
+                r"camera|mice|mouse|keyboard|charger|power bank|storage|memory|sd card|router|networking|audio|"
+                r"wearable|smart home|drive|printer|electronics|microphone", re.I), "electronics"),
+    (re.compile(r"kitchen|home|furniture|bedding|decor|appliance|lighting|christmas|holiday", re.I), "home"),
+]
+
+
 def infer_category(deal: Deal) -> tuple[str, bool]:
     """(카테고리, 리테일러추정여부) 반환."""
     text = f"{deal.brand} {deal.title}".lower()
     for cat, kws in CATEGORY_KEYWORDS.items():
         if any(k in text for k in kws):
             return cat, False
+    sdc = (getattr(deal, "signals", None) or {}).get("sd_cat") or ""
+    if sdc:
+        for rx, cat in SD_CATEGORY_MAP:
+            if rx.search(sdc):
+                return cat, False
     fallback = SITE_DEFAULT_CATEGORY.get(deal.source)
     if fallback:
         return fallback, True
     return "etc", False
 
 
-def score_discount_depth(pct: Optional[float]) -> int:
+def score_discount_depth(pct: Optional[float], category: str = "") -> int:
+    """
+    할인 깊이 점수. 2026-11-20 Bexel 큐레이션 반영:
+      · 패션·잡화(브랜드 게이트 카테고리)는 50%대를 한 단계 따로 쳐준다(예전엔 40~59%가 같은 18점).
+      · 전자·홈·기타는 패션보다 할인 폭이 원래 작다 — 유명 브랜드 이어폰 45%는 패션 70%만큼 귀하다.
+        Bexel 이 올린 전자·게임 딜 할인 중간값은 약 50%, 30~49%도 꾸준히 있었다.
+    """
     if pct is None:
         return 0
-    if pct >= 80:
-        return 40
-    if pct >= 60:
-        return 30
-    if pct >= 40:
-        return 18
-    if pct >= 25:
-        return 8
+    if category in brands.BRAND_GATED_CATEGORIES or not category:
+        for cut, pts in ((80, 40), (70, 35), (60, 30), (50, 26), (40, 18), (25, 8)):
+            if pct >= cut:
+                return pts
+        return 0
+    for cut, pts in ((70, 40), (60, 36), (45, 30), (30, 20), (20, 8)):
+        if pct >= cut:
+            return pts
     return 0
 
 
@@ -437,6 +519,12 @@ def score_category(deal: Deal) -> tuple[int, str]:
     return score, cat
 
 
+# 면세 가격대 가산: Bexel 이 올린 슬릭딜 딜의 80%가 $15~$200 (전체 슬릭딜 표본은 49%)
+DUTYFREE_BAND_BONUS = int(os.environ.get("RADAR_DUTYFREE_BAND_BONUS", "4"))
+_WIRELESS_FE = re.compile(r"\b(bluetooth|wireless|earbuds?|airpods|headphones?|smart ?watch|apple watch|galaxy watch|"
+                          r"tws|earphones?|wi-?fi|ipad|tablet|kindle|macbook|laptop|speaker)\b", re.I)
+
+
 def score_bonus(deal: Deal) -> int:
     s = 0
     if deal.coupon_stackable:
@@ -445,6 +533,11 @@ def score_bonus(deal: Deal) -> int:
         s += 4
     if deal.free_gift:
         s += 3
+    p = deal.price_current
+    if p and (deal.currency or "USD") == "USD":
+        limit = 150 if _WIRELESS_FE.search(f"{deal.brand} {deal.title}") else 200
+        if 15 <= p <= limit:
+            s += DUTYFREE_BAND_BONUS
     return s
 
 
@@ -454,7 +547,9 @@ def score_brand(deal: Deal) -> tuple[int, str]:
     premium +12 / known +6 / unknown 0.  유명 브랜드가 상위로 올라오게 하는 축.
     """
     if deal.category not in brands.BRAND_GATED_CATEGORIES:
-        return 0, ""
+        # 2026-11-20: 전자·홈도 '알려진 브랜드'면 가산(무명 잡화와 구분). Bexel 전자 딜은 대부분 소니·보스·JBL·레이저급
+        tb = brands.tech_brand(f"{deal.brand} {deal.title}") or (brands.tier(deal.brand) != "unknown" and deal.brand)
+        return (6, "known") if tb else (0, "")
     t = brands.tier(deal.brand)
     return brands.TIER_BONUS.get(t, 0), t
 
@@ -487,7 +582,7 @@ def score_deal(deal: Deal) -> Deal:
         deal.urgency = ""
         return deal
 
-    a = score_discount_depth(deal.discount_pct)
+    a = score_discount_depth(deal.discount_pct, deal.category)
     b = score_price_history(deal)
     d = score_bonus(deal)
     e, btier = score_brand(deal)

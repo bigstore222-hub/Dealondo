@@ -20,7 +20,8 @@ from urllib.parse import urlparse
 from typing import Optional
 import xml.etree.ElementTree as ET
 import re
-from datetime import timezone
+from datetime import datetime, timezone
+import time
 
 # 어떤 네트워크 호출도 무한 대기하지 않도록 전역 소켓 타임아웃을 건다.
 # (타임아웃 인자를 깜빡한 호출이나 라이브러리 내부 호출까지 보호 → CI 행 방지)
@@ -613,6 +614,122 @@ def parse_slickdeals_item(title: str, link: str, desc: str, content: str,
         community_votes=votes, frontpage=frontpage,
         collection_method="rss",
     )
+
+
+# ---------------------------------------------------------------------------
+# 슬릭딜 글 상세 보강 (2026-11-20, 카톡 큐레이션 비교 분석 결과)
+#   RSS 50건 중 정가가 있는 건 4건뿐이라(실측) 할인율을 몰라 H7·H8 에서 대부분 탈락했다.
+#   Bexel 이 단톡방에 올린 슬릭딜 딜 205건 중 딜보드에 뜬 건 17건 — 원인의 대부분이 이것.
+#   글 상세(/f/<id>, robots 허용)의 구조화 데이터에서 판매가·정가·추천 수·브랜드·카테고리·판매처를 읽는다.
+#   같은 글은 DB(sd_meta)에 저장해 한 번만 읽는다. 한 실행에 최대 SD_ENRICH_MAX 건.
+# ---------------------------------------------------------------------------
+SD_ENRICH_MAX = int(os.environ.get("RADAR_SD_ENRICH_MAX", "30"))
+SD_ENRICH_SECS = float(os.environ.get("RADAR_SD_ENRICH_SECS", "90"))   # T1 실행 시간 상한(300초) 안에서 쓰는 몫
+_SD_META = re.compile(r'<meta class="swiftype" name="([^"]+)" data-type="[^"]+" content="([^"]*)"')
+_SD_LIST = re.compile(r'listPrice":"([\d.]+)"')
+_SD_STORE = re.compile(r'storeName"[^>]*>(?:<!---->)?([^<"]+)<')
+
+
+def parse_slickdeals_page(html_text: str) -> dict:
+    import html as _html
+    meta = dict(_SD_META.findall(html_text))
+    out: dict = {}
+    def _num(v):
+        try:
+            return float(v)
+        except (TypeError, ValueError):
+            return None
+    out["price"] = _num(meta.get("price"))
+    lm = _SD_LIST.search(html_text)
+    out["list"] = _num(lm.group(1)) if lm else None
+    try:
+        out["votes"] = int(meta.get("dealScore"))
+    except (TypeError, ValueError):
+        out["votes"] = None
+    out["brand"] = _html.unescape(meta.get("brand") or "").strip()
+    out["cat"] = _html.unescape(meta.get("primaryCategory") or "").strip()
+    sm = _SD_STORE.search(html_text)
+    out["store"] = _html.unescape(sm.group(1)).strip() if sm else ""
+    out["published_at"] = meta.get("published_at") or ""
+    out["expired"] = (meta.get("expired") or "").lower() == "yes"
+    return out
+
+
+def enrich_slickdeals(deals: list, con=None, max_fetch: int | None = None) -> int:
+    """슬릭딜 딜에 글 상세 정보를 붙인다. 붙인 건수를 돌려준다."""
+    import json as _json
+    max_fetch = SD_ENRICH_MAX if max_fetch is None else max_fetch
+    if con is not None:
+        con.execute("CREATE TABLE IF NOT EXISTS sd_meta (thread TEXT PRIMARY KEY, meta TEXT, fetched_at TEXT)")
+    fetched = done = 0
+    robots_ok = None
+    t0 = time.time()
+    for d in deals:
+        if not str(getattr(d, "source", "")).startswith("slickdeals"):
+            continue
+        m = _SD_THREAD.search(getattr(d, "url", "") or "")
+        if not m:
+            continue
+        th = m.group(1)
+        meta = None
+        if con is not None:
+            row = con.execute("SELECT meta FROM sd_meta WHERE thread=?", (th,)).fetchone()
+            if row:
+                try:
+                    meta = _json.loads(row[0])
+                except ValueError:
+                    meta = None
+        if meta is None:
+            if fetched >= max_fetch or time.time() - t0 > SD_ENRICH_SECS:
+                continue                     # 못 읽은 글은 다음 실행에서(피드에 30분쯤 머문다)
+            if robots_ok is None:
+                robots_ok = check_robots(f"https://slickdeals.net/f/{th}")
+            if not robots_ok:
+                break
+            try:
+                meta = parse_slickdeals_page(_http_get(f"https://slickdeals.net/f/{th}", timeout=12))
+            except Exception as e:
+                print(f"[slickdeals] 글 상세 실패 {th}: {getattr(e, 'code', type(e).__name__)}")
+                continue
+            fetched += 1
+            time.sleep(0.4)
+            if con is not None:
+                con.execute("INSERT OR REPLACE INTO sd_meta(thread, meta, fetched_at) VALUES (?,?,?)",
+                            (th, _json.dumps(meta, ensure_ascii=False), datetime.now(timezone.utc).isoformat()))
+        apply_slickdeals_meta(d, meta)
+        done += 1
+    if con is not None:
+        con.commit()
+    if done:
+        print(f"[slickdeals] 글 상세 보강 {done}건 (새로 읽음 {fetched}건)")
+    return done
+
+
+def apply_slickdeals_meta(d, meta: dict) -> None:
+    """글 상세 값으로 가격·정가·추천·브랜드를 보정한다(RSS 제목 파싱보다 정확)."""
+    if not meta:
+        return
+    p, lp = meta.get("price"), meta.get("list")
+    if p and p > 0:
+        # 코드가 이미 적용돼 RSS 가격이 더 낮으면 그 값을 존중
+        if not d.price_current or not (d.coupon_code and d.price_current < p):
+            d.price_current = p
+    if lp and d.price_current and lp > d.price_current and not d.price_list:
+        d.price_list = lp
+    v = meta.get("votes")
+    if v is not None:
+        d.community_votes = max(v, d.community_votes or v)
+    b = meta.get("brand") or ""
+    if b and not d.brand:
+        d.brand = b
+    sig = d.signals if isinstance(getattr(d, "signals", None), dict) else {}
+    sig["sd_cat"] = meta.get("cat") or ""
+    sig["sd_store"] = meta.get("store") or ""
+    if meta.get("brand"):
+        sig["sd_brand"] = meta["brand"]
+    d.signals = sig
+    if meta.get("expired"):
+        d.stock_status = "out_of_stock"
 
 
 def fetch_slickdeals(limit: int = 80) -> list[Deal]:
