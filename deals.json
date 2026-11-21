@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-21T01:42:19.004027+00:00",
-  "count": 229,
+  "generated_at": "2026-11-21T01:51:28.425827+00:00",
+  "count": 232,
   "deals": [
     {
       "source": "slickdeals:amazon.com",
@@ -803,14 +803,14 @@
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
         "code_deal": "공개코드 N95B7AEC → 하한 75",
-        "slickdeals": "Hot Deals 폭발 20표/21분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 20표/30분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-20T23:01:35.384638+00:00",
-      "last_seen": "2026-11-21T01:42:16.426091+00:00",
+      "last_seen": "2026-11-21T01:51:26.664944+00:00",
       "posted_at": "2026-11-21T01:21:17+00:00",
       "signals": {
         "sd_feeds": [
@@ -820,9 +820,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Baseus",
         "sd_hot_origin": true,
-        "sd_age_min": 21,
+        "sd_age_min": 30,
         "sd_votes": 20,
-        "sd_velocity": 58.2,
+        "sd_velocity": 40.3,
         "sd_fp_min": 21
       },
       "id": "4f01b30d0c",
@@ -1266,6 +1266,76 @@
         [
           "2026-11-20",
           29.5
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20354535",
+      "title": "Beats Solo 4 Wireless On-Ear Bluetooth Headphones (Amazon Exclusive Metallic Pink) $80 + Free S&H",
+      "brand": "Beats",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/1/1/7/1/5/2/7/300x300/22484553.thumb",
+      "price_current": 80.0,
+      "price_list": 199.95,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 25,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 106478,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20354535",
+      "discount_pct": 60.0,
+      "score": 87,
+      "score_breakdown": {
+        "discount_depth": 36,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-21T01:41:54.637604+00:00",
+      "last_seen": "2026-11-21T01:51:26.664944+00:00",
+      "posted_at": "2026-11-21T01:14:40+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Headphones, Headsets & Earbuds",
+        "sd_store": "",
+        "sd_brand": "Beats",
+        "sd_hot_origin": false,
+        "sd_age_min": 36,
+        "sd_votes": 25,
+        "sd_velocity": 41.2,
+        "sd_fp_min": 27
+      },
+      "id": "c0e4292550",
+      "history": [
+        [
+          "2026-11-21",
+          80.0
         ]
       ]
     },
@@ -2668,26 +2738,26 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20355747",
-      "title": "adidas Men's X_PLR Path Shoes (Core Black / Cloud White / Cloud White) $22.10 + Free S&H",
+      "url": "https://slickdeals.net/f/20347410",
+      "title": "adidas Men's Galaxy 7 Running Shoes (Black/White) $21 + Free S&H",
       "brand": "Adidas",
       "category": "sports_outdoor",
-      "image": "https://static.slickdealscdn.com/attachment/3/3/2/8/0/4/4/7/300x300/22488096.thumb",
-      "price_current": 22.0,
-      "price_list": 65.0,
+      "image": "https://static.slickdealscdn.com/attachment/3/3/2/8/0/4/4/7/300x300/22464807.thumb",
+      "price_current": 21.0,
+      "price_list": 60.0,
       "price_baseline": null,
       "price_alltime_low": null,
       "currency": "USD",
-      "coupon_code": "SD15",
+      "coupon_code": "EXTRA50SALE",
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 38,
+      "community_votes": 45,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 29281,
+      "krw_effective": 27950,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -2696,8 +2766,8 @@
       "frontpage": true,
       "code_kind": "public",
       "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20355747",
-      "discount_pct": 66.2,
+      "buy_url": "https://slickdeals.net/f/20347410",
+      "discount_pct": 65.0,
       "score": 81,
       "score_breakdown": {
         "discount_depth": 30,
@@ -2706,38 +2776,33 @@
         "bonus": 4,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 SD15 → 하한 75",
-        "slickdeals": "Hot Deals 급상승 38표/83분 → 하한 74",
+        "code_deal": "공개코드 EXTRA50SALE → 하한 75",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-11-20T12:52:08.605694+00:00",
-      "last_seen": "2026-11-21T01:31:09.355072+00:00",
-      "posted_at": "2026-11-21T00:07:56+00:00",
+      "detected_at": "2026-11-21T01:41:54.637604+00:00",
+      "last_seen": "2026-11-21T01:51:26.664944+00:00",
+      "posted_at": "2026-11-21T01:14:47+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
         "sd_cat": "Men's Shoes",
-        "sd_store": "adidas",
+        "sd_store": "",
         "sd_brand": "adidas",
-        "sd_hot_origin": true,
-        "sd_age_min": 83,
-        "sd_votes": 38,
-        "sd_velocity": 27.5,
-        "sd_fp_min": 44
+        "sd_hot_origin": false,
+        "sd_age_min": 36,
+        "sd_votes": 45,
+        "sd_velocity": 74.4,
+        "sd_fp_min": 27
       },
-      "id": "d5d904e124",
+      "id": "5edf464f28",
       "history": [
         [
-          "2026-11-20",
-          22.0
-        ],
-        [
           "2026-11-21",
-          22.0
+          21.0
         ]
       ]
     },
@@ -3178,7 +3243,7 @@
       "category": "sports_outdoor",
       "image": "https://static.slickdealscdn.com/attachment/1/1/4/9/0/0/1/2/300x300/22429851.thumb",
       "price_current": 12.0,
-      "price_list": null,
+      "price_list": 17.23,
       "price_baseline": null,
       "price_alltime_low": 12.0,
       "currency": "USD",
@@ -3201,31 +3266,34 @@
       "code_kind": "",
       "brand_tier": "known",
       "buy_url": "https://slickdeals.net/f/20308272",
-      "discount_pct": null,
+      "discount_pct": 30.4,
       "score": 80,
       "score_breakdown": {
-        "discount_depth": 0,
+        "discount_depth": 8,
         "price_history": 25,
         "category": 17,
         "bonus": 0,
         "brand": 6,
-        "slickdeals": "Hot Deals 급상승 22표/55분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 22표/64분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-14T09:10:40.925560+00:00",
-      "last_seen": "2026-11-21T01:42:16.426091+00:00",
+      "last_seen": "2026-11-21T01:51:26.664944+00:00",
       "posted_at": "2026-11-21T00:47:16+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
+        "sd_cat": "Water Bottles",
+        "sd_store": "Amazon",
+        "sd_brand": "PUMA",
         "sd_hot_origin": true,
-        "sd_age_min": 55,
+        "sd_age_min": 64,
         "sd_votes": 22,
-        "sd_velocity": 24.2,
+        "sd_velocity": 20.7,
         "sd_fp_min": 55
       },
       "id": "89a366c064",
@@ -4079,14 +4147,14 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-19T06:31:00.382688+00:00",
-      "last_seen": "2026-11-21T01:42:16.426091+00:00",
+      "last_seen": "2026-11-21T01:51:26.664944+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Chargers & Power Banks",
         "sd_store": "",
         "sd_brand": "Energizer",
         "sd_hot_origin": true,
-        "sd_age_min": 2605,
+        "sd_age_min": 2615,
         "sd_votes": 38,
         "sd_velocity": 0.9,
         "sd_fp_min": 1164
@@ -4436,14 +4504,14 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-18T21:40:48.355664+00:00",
-      "last_seen": "2026-11-21T01:42:16.426091+00:00",
+      "last_seen": "2026-11-21T01:51:26.664944+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Men's Shoes",
         "sd_store": "",
         "sd_brand": "Nike",
         "sd_hot_origin": true,
-        "sd_age_min": 3159,
+        "sd_age_min": 3168,
         "sd_votes": 60,
         "sd_velocity": 1.1,
         "sd_fp_min": 527
@@ -4714,14 +4782,14 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-13T08:20:53.353219+00:00",
-      "last_seen": "2026-11-21T01:42:16.426091+00:00",
+      "last_seen": "2026-11-21T01:51:26.664944+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Headphones, Headsets & Earbuds",
         "sd_store": "",
         "sd_brand": "Nothing",
         "sd_hot_origin": true,
-        "sd_age_min": 11147,
+        "sd_age_min": 11156,
         "sd_votes": 88,
         "sd_velocity": 0.5,
         "sd_fp_min": 9476
@@ -5054,7 +5122,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-21T01:41:54.637604+00:00",
-      "last_seen": "2026-11-21T01:42:16.426091+00:00",
+      "last_seen": "2026-11-21T01:51:26.664944+00:00",
       "posted_at": "2026-11-21T01:30:09+00:00",
       "signals": {
         "sd_feeds": [
@@ -5064,9 +5132,9 @@
         "sd_store": "Shokz",
         "sd_brand": "Shokz",
         "sd_hot_origin": true,
-        "sd_age_min": 12,
+        "sd_age_min": 21,
         "sd_votes": 2,
-        "sd_velocity": 10.2
+        "sd_velocity": 5.7
       },
       "id": "9f9e37068b",
       "history": [
@@ -7693,7 +7761,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-21T00:51:57.720913+00:00",
-      "last_seen": "2026-11-21T01:42:16.426091+00:00",
+      "last_seen": "2026-11-21T01:51:26.664944+00:00",
       "posted_at": "2026-11-21T00:41:09+00:00",
       "signals": {
         "sd_feeds": [
@@ -7703,9 +7771,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Anker",
         "sd_hot_origin": false,
-        "sd_age_min": 61,
+        "sd_age_min": 70,
         "sd_votes": 21,
-        "sd_velocity": 20.7,
+        "sd_velocity": 18.0,
         "sd_fp_min": 11
       },
       "id": "5fc0a33e71",
@@ -8387,7 +8455,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-21T01:41:54.637604+00:00",
-      "last_seen": "2026-11-21T01:42:16.426091+00:00",
+      "last_seen": "2026-11-21T01:51:26.664944+00:00",
       "posted_at": "2026-11-21T01:22:53+00:00",
       "signals": {
         "sd_feeds": [
@@ -8397,7 +8465,7 @@
         "sd_store": "Electronic Arts (EA)",
         "sd_brand": "Electronic Arts",
         "sd_hot_origin": true,
-        "sd_age_min": 19,
+        "sd_age_min": 28,
         "sd_votes": 0,
         "sd_velocity": 0.0
       },
@@ -8964,7 +9032,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-21T01:41:54.637604+00:00",
-      "last_seen": "2026-11-21T01:42:16.426091+00:00",
+      "last_seen": "2026-11-21T01:51:26.664944+00:00",
       "posted_at": "2026-11-21T01:29:26+00:00",
       "signals": {
         "sd_feeds": [
@@ -8973,7 +9041,7 @@
         "sd_cat": "",
         "sd_store": "Amazon",
         "sd_hot_origin": true,
-        "sd_age_min": 12,
+        "sd_age_min": 22,
         "sd_votes": 0,
         "sd_velocity": 0.0
       },
@@ -9033,14 +9101,14 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-20T01:30:46.990104+00:00",
-      "last_seen": "2026-11-21T01:42:16.426091+00:00",
+      "last_seen": "2026-11-21T01:51:26.664944+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Kids Toys",
         "sd_store": "Amazon",
         "sd_brand": "Tonka",
         "sd_hot_origin": false,
-        "sd_age_min": 1469,
+        "sd_age_min": 1478,
         "sd_votes": 44,
         "sd_velocity": 1.8,
         "sd_fp_min": 28
@@ -9104,14 +9172,14 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-14T08:11:50.145196+00:00",
-      "last_seen": "2026-11-21T01:42:16.426091+00:00",
+      "last_seen": "2026-11-21T01:51:26.664944+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Sound Bars",
         "sd_store": "",
         "sd_brand": "LG",
         "sd_hot_origin": true,
-        "sd_age_min": 9712,
+        "sd_age_min": 9721,
         "sd_votes": 45,
         "sd_velocity": 0.3,
         "sd_fp_min": 8904
@@ -9353,6 +9421,76 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20353176",
+      "title": "27\" Alienware AW2725D QD-OLED 360Hz QHD Gaming Monitor w/ Adjustable Stand $379 + Free S&H",
+      "brand": "Alienware",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/1/1/7/1/5/2/7/300x300/22480620.thumb",
+      "price_current": 379.0,
+      "price_list": 649.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 22,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 599273,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20353176",
+      "discount_pct": 41.7,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 20,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-21T01:41:54.637604+00:00",
+      "last_seen": "2026-11-21T01:51:26.664944+00:00",
+      "posted_at": "2026-11-21T01:06:59+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Gaming Monitors",
+        "sd_store": "",
+        "sd_brand": "Alienware",
+        "sd_hot_origin": false,
+        "sd_age_min": 44,
+        "sd_votes": 22,
+        "sd_velocity": 29.9,
+        "sd_fp_min": 35
+      },
+      "id": "f3eb0ed20f",
+      "history": [
+        [
+          "2026-11-21",
+          379.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
       "url": "https://slickdeals.net/f/20359713",
       "title": "Sony WH-1000XM6 Wireless Noise Canceling Closed Back Over-Ear Headphones (Black) from $293 & More + Free S&H",
       "brand": "Sony",
@@ -9397,7 +9535,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-21T00:51:57.720913+00:00",
-      "last_seen": "2026-11-21T01:42:16.426091+00:00",
+      "last_seen": "2026-11-21T01:51:26.664944+00:00",
       "posted_at": "2026-11-21T00:27:42+00:00",
       "signals": {
         "sd_feeds": [
@@ -9407,9 +9545,9 @@
         "sd_store": "",
         "sd_brand": "Sony",
         "sd_hot_origin": false,
-        "sd_age_min": 74,
+        "sd_age_min": 83,
         "sd_votes": 30,
-        "sd_velocity": 24.3,
+        "sd_velocity": 21.6,
         "sd_fp_min": 24
       },
       "id": "310e0be38e",
@@ -9943,14 +10081,14 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-17T01:00:52.148216+00:00",
-      "last_seen": "2026-11-21T01:42:16.426091+00:00",
+      "last_seen": "2026-11-21T01:51:26.664944+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Smart Watches & Wearables",
         "sd_store": "",
         "sd_brand": "Apple",
         "sd_hot_origin": true,
-        "sd_age_min": 5811,
+        "sd_age_min": 5820,
         "sd_votes": 40,
         "sd_velocity": 0.4,
         "sd_fp_min": 3830
@@ -10925,6 +11063,76 @@
       ]
     },
     {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20333523",
+      "title": "4-Pc Cuisinart Magnetic Stainless Steel Measuring Cup Set $15.60",
+      "brand": "Cuisinart",
+      "category": "home",
+      "image": "https://static.slickdealscdn.com/attachment/2/9/8/1/5/7/1/1/300x300/22417878.thumb",
+      "price_current": 16.0,
+      "price_list": 25.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 30,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 21296,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20333523",
+      "discount_pct": 38.4,
+      "score": 57,
+      "score_breakdown": {
+        "discount_depth": 20,
+        "price_history": null,
+        "category": 8,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-21T01:41:54.637604+00:00",
+      "last_seen": "2026-11-21T01:51:26.664944+00:00",
+      "posted_at": "2026-11-21T01:02:21+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Kitchenware & Cookware",
+        "sd_store": "Amazon",
+        "sd_brand": "Cuisinart",
+        "sd_hot_origin": false,
+        "sd_age_min": 49,
+        "sd_votes": 30,
+        "sd_velocity": 36.9,
+        "sd_fp_min": 40
+      },
+      "id": "c8e945fb12",
+      "history": [
+        [
+          "2026-11-21",
+          15.6
+        ]
+      ]
+    },
+    {
       "source": "amazon.com",
       "source_tier": "T1",
       "url": "https://www.amazon.com/NORTH-FACE-Borealis-Commuter-Backpack/dp/B0D4NN78HN",
@@ -11095,7 +11303,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-21T01:41:54.637604+00:00",
-      "last_seen": "2026-11-21T01:42:16.426091+00:00",
+      "last_seen": "2026-11-21T01:51:26.664944+00:00",
       "posted_at": "2026-11-21T01:33:38+00:00",
       "signals": {
         "sd_feeds": [
@@ -11105,7 +11313,7 @@
         "sd_store": "Amazon",
         "sd_brand": "Anker",
         "sd_hot_origin": true,
-        "sd_age_min": 8,
+        "sd_age_min": 17,
         "sd_votes": 0,
         "sd_velocity": 0.0
       },
@@ -11163,7 +11371,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-21T01:41:54.637604+00:00",
-      "last_seen": "2026-11-21T01:42:16.426091+00:00",
+      "last_seen": "2026-11-21T01:51:26.664944+00:00",
       "posted_at": "2026-11-21T01:19:37+00:00",
       "signals": {
         "sd_feeds": [
@@ -11173,9 +11381,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Badia",
         "sd_hot_origin": true,
-        "sd_age_min": 22,
+        "sd_age_min": 31,
         "sd_votes": 1,
-        "sd_velocity": 2.7
+        "sd_velocity": 1.9
       },
       "id": "5ae4b9eb76",
       "history": [
@@ -14877,7 +15085,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-21T01:41:54.637604+00:00",
-      "last_seen": "2026-11-21T01:42:16.426091+00:00",
+      "last_seen": "2026-11-21T01:51:26.664944+00:00",
       "posted_at": "2026-11-21T01:31:35+00:00",
       "signals": {
         "sd_feeds": [
@@ -14887,9 +15095,9 @@
         "sd_store": "Amazon",
         "sd_brand": "ACELETIQS",
         "sd_hot_origin": true,
-        "sd_age_min": 10,
+        "sd_age_min": 19,
         "sd_votes": 1,
-        "sd_velocity": 5.8
+        "sd_velocity": 3.1
       },
       "id": "cac8ef5bb5",
       "history": [
@@ -15245,7 +15453,7 @@
   "fx_usd_krw": 1331.0,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-21T01:40:30+00:00",
+      "T1": "2026-11-21T01:50:28+00:00",
       "T2": "2026-11-21T01:21:09+00:00",
       "T3": "2026-11-21T00:21:25+00:00",
       "T4": "2026-11-21T00:52:22+00:00"
@@ -15279,14 +15487,15 @@
       10,
       1,
       9,
-      11
+      11,
+      9
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-21T01:42:16+00:00",
+      "at": "2026-11-21T01:51:26+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -15295,13 +15504,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-21T01:42:16+00:00"
+      "at": "2026-11-21T01:51:26+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-21T01:41:54+00:00",
+        "at": "2026-11-21T01:51:04+00:00",
         "state": "정상",
         "mails": 24,
         "deals": 24
@@ -15327,7 +15536,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Drills & Power Tools)",
         "first_seen": "2026-11-21T01:01:30+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20335929",
@@ -15342,7 +15551,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T01:01:30+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://click.woot.com/f/a/HJS6b566VsIWgfMlODN9ig~~/AAQRxRA~/D0ApVIXA9xj15MCePLVXVsECvO_JwUuUBXiSd5IlBxzBGxerwZcXISo7i-LFmP4YMSjBTO8ix6-tUF8eTA-NuzZHwcjApobQ0hnj4QyeGSRDTpE84Rc7BBMQZd-iJHnIgXdcMbv22YIQiF4abV5ezuhAtPH3UNsYPfI8gziNtPF-zJWTqxvbYQESl2k3zhFSvdfmha0H_miOwSxBOUHY6CZdCPcfleKBeEKvtwzWXllBf6X",
@@ -15387,7 +15596,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-21T00:31:18+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20338629",
@@ -15447,7 +15656,7 @@
         "published": false,
         "reject_reason": "H8: 할인 24% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-20T23:51:21+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339955",
@@ -15492,7 +15701,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T21:51:21+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20317857",
@@ -15672,7 +15881,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T16:51:10+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20353569",
@@ -15702,7 +15911,7 @@
         "published": false,
         "reject_reason": "H4: 품절",
         "first_seen": "2026-11-20T16:21:27+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20354970",
@@ -15867,7 +16076,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-20T06:21:17+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339559",
@@ -15942,7 +16151,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-20T04:01:20+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20328141",
@@ -15957,7 +16166,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T03:42:06+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20351841",
@@ -15972,7 +16181,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T03:42:06+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20334144",
@@ -15987,7 +16196,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Home Security & Safety)",
         "first_seen": "2026-11-20T03:42:06+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20335731",
@@ -16002,7 +16211,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-20T03:01:39+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20340654",
@@ -16017,7 +16226,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T02:51:23+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339562",
@@ -16032,7 +16241,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Drills & Power Tools)",
         "first_seen": "2026-11-20T02:01:34+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20338659",
@@ -16047,7 +16256,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T01:31:09+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20350641",
@@ -16062,7 +16271,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T01:31:09+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20334378",
@@ -16077,7 +16286,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T00:41:21+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20281218",
@@ -16092,7 +16301,7 @@
         "published": false,
         "reject_reason": "H7: Govee 할인 32% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-20T00:31:21+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20331114",
@@ -16152,7 +16361,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-19T22:13:06+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20343816",
@@ -16182,7 +16391,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-19T21:11:55+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20321130",
@@ -16302,7 +16511,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-19T18:11:06+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://link.email.newbalance.com/u/nrd.php",
@@ -16347,7 +16556,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-19T18:01:31+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20323344",
@@ -16392,7 +16601,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-19T16:23:11+00:00",
-        "last_seen": "2026-11-21T01:42:17+00:00"
+        "last_seen": "2026-11-21T01:51:28+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20326179",
