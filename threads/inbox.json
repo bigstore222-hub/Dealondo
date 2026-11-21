@@ -824,10 +824,41 @@
    "photo_msg": 4183,
    "msg": 4184,
    "status": "waiting"
+  },
+  "a504526a": {
+   "created": "2026-11-21T09:50:57+09:00",
+   "url": "https://www.6pm.com/product/9969907",
+   "deal": {
+    "url": "https://www.6pm.com/product/9969907",
+    "source": "6pm.com",
+    "store_name": "6pm",
+    "title": "Monet",
+    "brand": "Sam Edelman",
+    "category": "etc",
+    "price_current": 30.39,
+    "price_list": 150.0,
+    "image": null,
+    "gender": null,
+    "buy_url": "https://www.6pm.com/product/9969907",
+    "discount_pct": 80,
+    "krw_effective": 40448,
+    "kr_lowest_price": null
+   },
+   "seen": "2026-11-21T09:42:12+09:00",
+   "text": "샘 에델만 Monet, $30.39에 관부가세 없음.\n\n6pm 판매가예요.\n관부가세 없음(미국발 $200 이하).\n원화로 약 4만 원, 여기에 배대지 배송비만 더하면 돼요.\n\n이런 건 국내가랑 비교해보고 사시죠?",
+   "reply": "상품 링크: https://www.6pm.com/product/9969907\n팔로우해두면 이런 딜을 피드에서 바로 볼 수 있어요.",
+   "notes": [
+    "알림 메시지에 적힌 가격으로 썼어요. 지금 가격인지 확인하세요."
+   ],
+   "angle": "practical",
+   "already": false,
+   "img_ok": false,
+   "msg": 4189,
+   "status": "posted",
+   "link": "https://www.threads.com/@deal_ondo/post/Df--90YDPXS"
   }
  },
  "done_updates": [
-  303762711,
   303762718,
   303762727,
   303762728,
@@ -1027,7 +1058,8 @@
   303762975,
   303762976,
   303762977,
-  303762978
+  303762978,
+  303762980
  ],
  "picks": {
   "2026-10-30-점심": "3ffe07d9",
@@ -1104,11 +1136,6 @@
   "zappos.com/product/10055681"
  ],
  "runs": [
-  {
-   "at": "2026-11-18T16:53:17+09:00",
-   "updates": 0,
-   "errors": []
-  },
   {
    "at": "2026-11-18T18:39:57+09:00",
    "updates": 0,
@@ -1305,6 +1332,11 @@
    "errors": [
     "getUpdates: 502 Bad Gateway"
    ]
+  },
+  {
+   "at": "2026-11-21T09:53:10+09:00",
+   "updates": 1,
+   "errors": []
   }
  ],
  "info": {
