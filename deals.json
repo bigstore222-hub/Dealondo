@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T19:21:23.174822+00:00",
+  "generated_at": "2026-11-21T19:24:39.617761+00:00",
   "count": 283,
   "deals": [
     {
@@ -18055,7 +18055,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-17T16:45:44.807375+00:00",
-      "last_seen": "2026-11-21T13:17:14.074197+00:00",
+      "last_seen": "2026-11-21T19:24:39.604515+00:00",
       "posted_at": "",
       "signals": {},
       "id": "83104b2ac4",
@@ -18127,7 +18127,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-17T10:34:36.468888+00:00",
-      "last_seen": "2026-11-21T13:17:14.074197+00:00",
+      "last_seen": "2026-11-21T19:24:39.604515+00:00",
       "posted_at": "",
       "signals": {},
       "id": "e6232dfd4c",
@@ -19062,10 +19062,9 @@
       "T1": "2026-11-21T19:20:37+00:00",
       "T2": "2026-11-21T19:11:09+00:00",
       "T3": "2026-11-21T17:31:22+00:00",
-      "T4": "2026-11-21T13:14:01+00:00"
+      "T4": "2026-11-21T19:21:24+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       10,
       10,
@@ -19094,14 +19093,15 @@
       10,
       10,
       1,
-      10
+      10,
+      3
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-21T19:21:22+00:00",
+      "at": "2026-11-21T19:24:39+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -19110,7 +19110,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-21T19:21:23+00:00"
+      "at": "2026-11-21T19:24:39+00:00"
     }
   },
   "email_monitor": {
@@ -19122,13 +19122,28 @@
         "deals": 40
       },
       "newsletter": {
-        "at": "2026-11-21T13:16:55+00:00",
+        "at": "2026-11-21T19:24:17+00:00",
         "state": "정상",
-        "mails": 67,
-        "deals": 2
+        "mails": 89,
+        "deals": 5
       }
     },
     "recent": [
+      {
+        "url": "https://clicks.finishline.com/f/a/GACK7B8IRpO2qd7dgbB_Fw~~/AAQRxRA~/THhSPwltLkLN8CdLXUcEhBcB22xKEMMXJp8JW_q1wkr96q6pkobOHXWOq5PR7tGxhFBrUtPlrt6MxpXlk2mJBxPHbeMm_-z4tynF3daL57Kf32goB9DvkLQg4BqjhC0uw8GIa9EB7JyCui4XdnEPGQ~~",
+        "source": "finishline.com",
+        "title": "✨ Top-tier Gifts. Zero Guesswork.",
+        "price": 50.0,
+        "list_price": 100.0,
+        "discount_pct": 50.0,
+        "krw": 66549,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-11-21T19:24:39+00:00",
+        "last_seen": "2026-11-21T19:24:39+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20361855",
         "source": "slickdeals:walmart.com",
@@ -19577,7 +19592,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-21T00:55:44+00:00",
-        "last_seen": "2026-11-21T13:17:15+00:00"
+        "last_seen": "2026-11-21T19:24:39+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20340477",
@@ -19792,17 +19807,17 @@
       {
         "url": "https://click.email.bloomingdales.com/",
         "source": "bloomingdales.com",
-        "title": "Big Deal 9: 50% off women’s leather gloves",
-        "price": 50.0,
+        "title": "The Buy More, Save More event ends tomorrow!",
+        "price": 75.0,
         "list_price": 100.0,
-        "discount_pct": 50.0,
-        "krw": 66549,
+        "discount_pct": 25.0,
+        "krw": 99823,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-20T18:44:25+00:00",
-        "last_seen": "2026-11-21T13:17:15+00:00"
+        "last_seen": "2026-11-21T19:24:39+00:00"
       },
       {
         "url": "https://www.amazon.com/hz/mobile/mission",
@@ -19822,7 +19837,7 @@
       {
         "url": "https://click.emails.underarmour.com/",
         "source": "underarmour.com",
-        "title": "NEW: UA Tech Helix Tee",
+        "title": "Up to 40% off UA Outlet ends tonight",
         "price": 60.0,
         "list_price": 100.0,
         "discount_pct": 40.0,
@@ -19832,7 +19847,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T18:44:25+00:00",
-        "last_seen": "2026-11-20T18:44:25+00:00"
+        "last_seen": "2026-11-21T19:24:39+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20321487",
@@ -20313,21 +20328,6 @@
         "reject_reason": "H7: Govee 할인 32% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-20T00:31:21+00:00",
         "last_seen": "2026-11-21T19:21:23+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20331114",
-        "source": "slickdeals:amazon.com",
-        "title": "eufy S4 eufyCam 4K Solar Wireless Security Camera for $260 at Amazon",
-        "price": 260.0,
-        "list_price": 349.99,
-        "discount_pct": 25.7,
-        "krw": 411111,
-        "kr_lowest": null,
-        "score": 37,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-11-20T00:21:38+00:00",
-        "last_seen": "2026-11-20T00:51:12+00:00"
       }
     ],
     "totals": {
