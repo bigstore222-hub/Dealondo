@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T00:52:20.354352+00:00",
+  "generated_at": "2026-11-21T00:55:44.704806+00:00",
   "count": 217,
   "deals": [
     {
@@ -7032,6 +7032,10 @@
         [
           "2026-11-20",
           69.99
+        ],
+        [
+          "2026-11-21",
+          119.99
         ]
       ]
     },
@@ -13850,7 +13854,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-17T16:45:44.807375+00:00",
-      "last_seen": "2026-11-20T18:44:24.538535+00:00",
+      "last_seen": "2026-11-21T00:55:44.689453+00:00",
       "posted_at": "",
       "signals": {},
       "id": "83104b2ac4",
@@ -13869,6 +13873,10 @@
         ],
         [
           "2026-11-20",
+          98.99
+        ],
+        [
+          "2026-11-21",
           98.99
         ]
       ]
@@ -14212,6 +14220,10 @@
         [
           "2026-11-20",
           97.5
+        ],
+        [
+          "2026-11-21",
+          142.5
         ]
       ]
     },
@@ -14431,10 +14443,9 @@
       "T1": "2026-11-21T00:50:36+00:00",
       "T2": "2026-11-21T00:41:10+00:00",
       "T3": "2026-11-21T00:21:25+00:00",
-      "T4": "2026-11-20T18:41:14+00:00"
+      "T4": "2026-11-21T00:52:22+00:00"
     },
     "recent_gaps_min": [
-      11,
       1,
       9,
       10,
@@ -14463,14 +14474,15 @@
       9,
       10,
       1,
-      11
+      11,
+      3
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-21T00:52:18+00:00",
+      "at": "2026-11-21T00:55:44+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -14479,7 +14491,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-21T00:52:18+00:00"
+      "at": "2026-11-21T00:55:44+00:00"
     }
   },
   "email_monitor": {
@@ -14491,13 +14503,28 @@
         "deals": 38
       },
       "newsletter": {
-        "at": "2026-11-20T18:44:03+00:00",
+        "at": "2026-11-21T00:55:23+00:00",
         "state": "정상",
-        "mails": 76,
-        "deals": 6
+        "mails": 63,
+        "deals": 4
       }
     },
     "recent": [
+      {
+        "url": "https://click.woot.com/f/a/HJS6b566VsIWgfMlODN9ig~~/AAQRxRA~/D0ApVIXA9xj15MCePLVXVsECvO_JwUuUBXiSd5IlBxzBGxerwZcXISo7i-LFmP4YMSjBTO8ix6-tUF8eTA-NuzZHwcjApobQ0hnj4QyeGSRDTpE84Rc7BBMQZd-iJHnIgXdcMbv22YIQiF4abV5ezuhAtPH3UNsYPfI8gziNtPF-zJWTqxvbYQESl2k3zhFSvdfmha0H_miOwSxBOUHY6CZdCPcfleKBeEKvtwzWXllBf6X",
+        "source": "woot.com",
+        "title": "Toymania! 25% Off with code PLAY!",
+        "price": 75.0,
+        "list_price": 100.0,
+        "discount_pct": 25.0,
+        "krw": 99823,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-11-21T00:55:44+00:00",
+        "last_seen": "2026-11-21T00:55:44+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20340477",
         "source": "slickdeals:amazon.com",
@@ -14711,17 +14738,17 @@
       {
         "url": "https://click.email.bloomingdales.com/",
         "source": "bloomingdales.com",
-        "title": "Coffee and dessert essentials☕🥧",
-        "price": 75.0,
+        "title": "Big Deal 9: 50% off women’s leather gloves",
+        "price": 50.0,
         "list_price": 100.0,
-        "discount_pct": 25.0,
-        "krw": 99823,
+        "discount_pct": 50.0,
+        "krw": 66549,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-20T18:44:25+00:00",
-        "last_seen": "2026-11-20T18:44:25+00:00"
+        "last_seen": "2026-11-21T00:55:44+00:00"
       },
       {
         "url": "https://www.amazon.com/hz/mobile/mission",
@@ -14736,7 +14763,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-20T18:44:25+00:00",
-        "last_seen": "2026-11-20T18:44:25+00:00"
+        "last_seen": "2026-11-21T00:55:44+00:00"
       },
       {
         "url": "https://click.emails.underarmour.com/",
@@ -15621,7 +15648,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-19T11:57:27+00:00",
-        "last_seen": "2026-11-20T18:44:25+00:00"
+        "last_seen": "2026-11-21T00:55:44+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20331648",
@@ -15682,26 +15709,11 @@
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-19T07:31:10+00:00",
         "last_seen": "2026-11-20T17:32:28+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20310813",
-        "source": "slickdeals:bestbuy.com",
-        "title": "Insignia Qi2 3-in-1 Wireless Charging Stand for iPhone, AirPods & Apple Watch for $15 at Best Buy",
-        "price": 15.0,
-        "list_price": 34.99,
-        "discount_pct": 57.1,
-        "krw": 19965,
-        "kr_lowest": null,
-        "score": 64,
-        "published": true,
-        "reject_reason": "",
-        "first_seen": "2026-11-19T07:10:59+00:00",
-        "last_seen": "2026-11-20T00:51:12+00:00"
       }
     ],
     "totals": {
       "collected_72h": 80,
-      "published_72h": 35
+      "published_72h": 34
     }
   }
 }
