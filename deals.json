@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-21T17:11:58.876581+00:00",
-  "count": 279,
+  "generated_at": "2026-11-21T17:22:16.949538+00:00",
+  "count": 280,
   "deals": [
     {
       "source": "6pm.com",
@@ -718,7 +718,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 30,
+      "community_votes": 43,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -742,14 +742,14 @@
         "bonus": 4,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 30표/142분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 43표/153분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-21T14:02:10.107896+00:00",
-      "last_seen": "2026-11-21T17:11:19.122221+00:00",
+      "last_seen": "2026-11-21T17:22:16.870433+00:00",
       "posted_at": "2026-11-21T14:49:16+00:00",
       "signals": {
         "sd_feeds": [
@@ -759,9 +759,9 @@
         "sd_store": "eBay",
         "sd_brand": "Harman Kardon",
         "sd_hot_origin": true,
-        "sd_age_min": 142,
-        "sd_votes": 30,
-        "sd_velocity": 12.7,
+        "sd_age_min": 153,
+        "sd_votes": 43,
+        "sd_velocity": 16.9,
         "sd_fp_min": 42
       },
       "id": "1cb890b9cb",
@@ -1416,6 +1416,73 @@
       ]
     },
     {
+      "source": "slickdeals:bestbuy.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20338752",
+      "title": "JBL Tune 245NC True Wireless Noise Cancelling Earbuds (Black) for $39.95 at Best Buy",
+      "brand": "JBL",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20338752&t=15",
+      "price_current": 40.0,
+      "price_list": 109.95,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 26,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 53239,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20338752",
+      "discount_pct": 63.6,
+      "score": 87,
+      "score_breakdown": {
+        "discount_depth": 36,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-21T07:11:47.983538+00:00",
+      "last_seen": "2026-11-21T17:22:16.870433+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Headphones, Headsets & Earbuds",
+        "sd_store": "",
+        "sd_brand": "JBL",
+        "sd_hot_origin": false,
+        "sd_age_min": 615,
+        "sd_votes": 26,
+        "sd_velocity": 2.5,
+        "sd_fp_min": 5
+      },
+      "id": "b749e320ef",
+      "history": [
+        [
+          "2026-11-21",
+          40.0
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/new-balance-gender-inclusive-530-sneaker/8503132",
@@ -1480,73 +1547,6 @@
         [
           "2026-11-21",
           32.98
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:bestbuy.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20338752",
-      "title": "JBL Tune 245NC True Wireless Noise Cancelling Earbuds (Black) for $39.95 at Best Buy",
-      "brand": "JBL",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20338752&t=15",
-      "price_current": 40.0,
-      "price_list": 109.95,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 26,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 53239,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20338752",
-      "discount_pct": 63.6,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 36,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-21T07:11:47.983538+00:00",
-      "last_seen": "2026-11-21T17:11:19.122221+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Headphones, Headsets & Earbuds",
-        "sd_store": "",
-        "sd_brand": "JBL",
-        "sd_hot_origin": false,
-        "sd_age_min": 604,
-        "sd_votes": 26,
-        "sd_velocity": 2.6,
-        "sd_fp_min": 5
-      },
-      "id": "b749e320ef",
-      "history": [
-        [
-          "2026-11-21",
-          40.0
         ]
       ]
     },
@@ -3690,7 +3690,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 45,
+      "community_votes": 54,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -3714,14 +3714,14 @@
         "bonus": 4,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 45표/98분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 54표/109분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-21T08:31:35.633934+00:00",
-      "last_seen": "2026-11-21T17:11:19.122221+00:00",
+      "last_seen": "2026-11-21T17:22:16.870433+00:00",
       "posted_at": "2026-11-21T15:32:49+00:00",
       "signals": {
         "sd_feeds": [
@@ -3731,9 +3731,9 @@
         "sd_store": "Amazon",
         "sd_brand": "DJI",
         "sd_hot_origin": true,
-        "sd_age_min": 98,
-        "sd_votes": 45,
-        "sd_velocity": 27.5,
+        "sd_age_min": 109,
+        "sd_votes": 54,
+        "sd_velocity": 29.7,
         "sd_fp_min": 38
       },
       "id": "7a0b3f57c2",
@@ -3761,7 +3761,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 36,
+      "community_votes": 42,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -3785,14 +3785,14 @@
         "bonus": 4,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 36표/154분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 42표/165분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-21T09:41:52.996475+00:00",
-      "last_seen": "2026-11-21T17:11:19.122221+00:00",
+      "last_seen": "2026-11-21T17:22:16.870433+00:00",
       "posted_at": "2026-11-21T14:36:55+00:00",
       "signals": {
         "sd_feeds": [
@@ -3802,9 +3802,9 @@
         "sd_store": "Amazon",
         "sd_brand": "CASIO",
         "sd_hot_origin": true,
-        "sd_age_min": 154,
-        "sd_votes": 36,
-        "sd_velocity": 14.0,
+        "sd_age_min": 165,
+        "sd_votes": 42,
+        "sd_velocity": 15.3,
         "sd_fp_min": 54
       },
       "id": "a0fb018e47",
@@ -4957,14 +4957,14 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-19T06:31:00.382688+00:00",
-      "last_seen": "2026-11-21T17:11:19.122221+00:00",
+      "last_seen": "2026-11-21T17:22:16.870433+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Chargers & Power Banks",
         "sd_store": "",
         "sd_brand": "Energizer",
         "sd_hot_origin": true,
-        "sd_age_min": 3534,
+        "sd_age_min": 3545,
         "sd_votes": 38,
         "sd_velocity": 0.6,
         "sd_fp_min": 1164
@@ -5755,6 +5755,84 @@
       ]
     },
     {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20301969",
+      "title": "Nothing Ear (a) Wireless Earbuds (3 Colors) for $55 at Amazon",
+      "brand": "Nothing",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20301969&t=15",
+      "price_current": 55.0,
+      "price_list": 79.0,
+      "price_baseline": null,
+      "price_alltime_low": 55.0,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 88,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 73204,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20301969",
+      "discount_pct": 30.4,
+      "score": 76,
+      "score_breakdown": {
+        "discount_depth": 20,
+        "price_history": 25,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-13T08:20:53.353219+00:00",
+      "last_seen": "2026-11-21T17:22:16.870433+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Headphones, Headsets & Earbuds",
+        "sd_store": "",
+        "sd_brand": "Nothing",
+        "sd_hot_origin": true,
+        "sd_age_min": 12087,
+        "sd_votes": 88,
+        "sd_velocity": 0.4,
+        "sd_fp_min": 9476
+      },
+      "id": "feb3b3754d",
+      "history": [
+        [
+          "2026-11-13",
+          55.0
+        ],
+        [
+          "2026-11-19",
+          55.0
+        ],
+        [
+          "2026-11-20",
+          55.0
+        ],
+        [
+          "2026-11-21",
+          55.0
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20362632",
@@ -5821,84 +5899,6 @@
         [
           "2026-11-21",
           20.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20301969",
-      "title": "Nothing Ear (a) Wireless Earbuds (3 Colors) for $55 at Amazon",
-      "brand": "Nothing",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20301969&t=15",
-      "price_current": 55.0,
-      "price_list": 79.0,
-      "price_baseline": null,
-      "price_alltime_low": 55.0,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 88,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 73204,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20301969",
-      "discount_pct": 30.4,
-      "score": 76,
-      "score_breakdown": {
-        "discount_depth": 20,
-        "price_history": 25,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-13T08:20:53.353219+00:00",
-      "last_seen": "2026-11-21T17:11:19.122221+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Headphones, Headsets & Earbuds",
-        "sd_store": "",
-        "sd_brand": "Nothing",
-        "sd_hot_origin": true,
-        "sd_age_min": 12076,
-        "sd_votes": 88,
-        "sd_velocity": 0.4,
-        "sd_fp_min": 9476
-      },
-      "id": "feb3b3754d",
-      "history": [
-        [
-          "2026-11-13",
-          55.0
-        ],
-        [
-          "2026-11-19",
-          55.0
-        ],
-        [
-          "2026-11-20",
-          55.0
-        ],
-        [
-          "2026-11-21",
-          55.0
         ]
       ]
     },
@@ -8291,6 +8291,80 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20325450",
+      "title": "5-Oz Kiehl's Ultra Facial Cleanser $11.70 w/ S&S",
+      "brand": "Kiehl's",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/1/8/6/3/2/3/2/300x300/22509258.thumb",
+      "price_current": 12.0,
+      "price_list": 26.0,
+      "price_baseline": null,
+      "price_alltime_low": 11.7,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 142,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 15972,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20325450",
+      "discount_pct": 53.8,
+      "score": 72,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 0,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "community": "투표 142+할인54% → 하한 66",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-18T17:10:47.888415+00:00",
+      "last_seen": "2026-11-21T17:22:16.870433+00:00",
+      "posted_at": "2026-11-21T15:52:24+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Face Wash",
+        "sd_store": "",
+        "sd_brand": "Kiehl's",
+        "sd_hot_origin": false,
+        "sd_age_min": 90,
+        "sd_votes": 142,
+        "sd_velocity": 95.2,
+        "sd_fp_min": -4242
+      },
+      "id": "9236f314a8",
+      "history": [
+        [
+          "2026-11-18",
+          11.7
+        ],
+        [
+          "2026-11-21",
+          12.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
       "url": "https://slickdeals.net/f/20353074",
       "title": "Crocs Unisex-Adult Classic Metallic Buckle Clogs (Metallic Blush or Black) from $19.25",
       "brand": "Crocs",
@@ -8359,6 +8433,73 @@
       ]
     },
     {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20345376",
+      "title": "Prime Members: Baseus Spacemate RD1 10-in-1 Mini Docking Station for $90 at Amazon",
+      "brand": "Baseus",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20345376&t=15",
+      "price_current": 90.0,
+      "price_list": 169.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 27,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 119788,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20345376",
+      "discount_pct": 47.1,
+      "score": 71,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-21T02:00:59.130715+00:00",
+      "last_seen": "2026-11-21T17:22:16.870433+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Chargers & Power Banks",
+        "sd_store": "",
+        "sd_brand": "Baseus",
+        "sd_hot_origin": false,
+        "sd_age_min": 925,
+        "sd_votes": 27,
+        "sd_velocity": 1.8,
+        "sd_fp_min": 5
+      },
+      "id": "f925bd8a12",
+      "history": [
+        [
+          "2026-11-21",
+          90.0
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/ugg-scuffette-chalet-genuine-sheepskin-slipper-women/8378058",
@@ -8412,147 +8553,6 @@
         [
           "2026-11-21",
           58.48
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20325450",
-      "title": "5-Oz Kiehl's Ultra Facial Cleanser $11.70 w/ S&S",
-      "brand": "Kiehl's",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/8/6/3/2/3/2/300x300/22509258.thumb",
-      "price_current": 12.0,
-      "price_list": 26.0,
-      "price_baseline": null,
-      "price_alltime_low": 11.7,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 135,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 15972,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20325450",
-      "discount_pct": 53.8,
-      "score": 71,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 0,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "community": "투표 135+할인54% → 하한 65",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-18T17:10:47.888415+00:00",
-      "last_seen": "2026-11-21T17:11:19.122221+00:00",
-      "posted_at": "2026-11-21T15:52:24+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Face Wash",
-        "sd_store": "",
-        "sd_brand": "Kiehl's",
-        "sd_hot_origin": false,
-        "sd_age_min": 79,
-        "sd_votes": 135,
-        "sd_velocity": 103.1,
-        "sd_fp_min": -4242
-      },
-      "id": "9236f314a8",
-      "history": [
-        [
-          "2026-11-18",
-          11.7
-        ],
-        [
-          "2026-11-21",
-          12.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20345376",
-      "title": "Prime Members: Baseus Spacemate RD1 10-in-1 Mini Docking Station for $90 at Amazon",
-      "brand": "Baseus",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20345376&t=15",
-      "price_current": 90.0,
-      "price_list": 169.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 27,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 119788,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20345376",
-      "discount_pct": 47.1,
-      "score": 71,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-21T02:00:59.130715+00:00",
-      "last_seen": "2026-11-21T17:11:19.122221+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Chargers & Power Banks",
-        "sd_store": "",
-        "sd_brand": "Baseus",
-        "sd_hot_origin": false,
-        "sd_age_min": 915,
-        "sd_votes": 27,
-        "sd_velocity": 1.8,
-        "sd_fp_min": 5
-      },
-      "id": "f925bd8a12",
-      "history": [
-        [
-          "2026-11-21",
-          90.0
         ]
       ]
     },
@@ -9200,14 +9200,14 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-20T23:01:35.384638+00:00",
-      "last_seen": "2026-11-21T17:11:19.122221+00:00",
+      "last_seen": "2026-11-21T17:22:16.870433+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Clothing & Accessories",
         "sd_store": "Crocs",
         "sd_brand": "Crocs",
         "sd_hot_origin": true,
-        "sd_age_min": 1100,
+        "sd_age_min": 1111,
         "sd_votes": 1,
         "sd_velocity": 0.1,
         "sd_fp_min": 341
@@ -9613,6 +9613,216 @@
       ]
     },
     {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20324001",
+      "title": "Prime Members: ACEMAGIC Mini PC: Ryzen 7 7735HS, 24GB DDR5, 512GB SSD $426.30 + Free S&H",
+      "brand": "ACEMAGICIAN",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/1/8/6/3/2/3/2/300x300/22510023.thumb",
+      "price_current": 426.0,
+      "price_list": 669.0,
+      "price_baseline": null,
+      "price_alltime_low": 426.0,
+      "currency": "USD",
+      "coupon_code": "CH5QALWQ",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 135,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 673589,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20324001",
+      "discount_pct": 36.3,
+      "score": 66,
+      "score_breakdown": {
+        "discount_depth": 20,
+        "price_history": 25,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0,
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-18T10:10:40.940611+00:00",
+      "last_seen": "2026-11-21T17:22:16.870433+00:00",
+      "posted_at": "2026-11-21T16:55:45+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Tech & Electronics",
+        "sd_store": "",
+        "sd_brand": "ACEMAGICIAN",
+        "sd_hot_origin": false,
+        "sd_age_min": 26,
+        "sd_votes": 135,
+        "sd_velocity": 309.6,
+        "sd_fp_min": -4725
+      },
+      "id": "64529534a5",
+      "history": [
+        [
+          "2026-11-18",
+          426.3
+        ],
+        [
+          "2026-11-21",
+          426.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:bestbuy.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20341692",
+      "title": "256GB Motorola edge 2025 Unlocked Smartphone (Deep Forest) $300 + Free S&H",
+      "brand": "Motorola",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/1/3/2/7/8/1/1/300x300/22509228.thumb",
+      "price_current": 300.0,
+      "price_list": 549.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 40,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 474359,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20341692",
+      "discount_pct": 45.5,
+      "score": 66,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-21T16:11:12.577101+00:00",
+      "last_seen": "2026-11-21T17:22:16.870433+00:00",
+      "posted_at": "2026-11-21T15:50:49+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Phones",
+        "sd_store": "",
+        "sd_brand": "Motorola",
+        "sd_hot_origin": false,
+        "sd_age_min": 91,
+        "sd_votes": 40,
+        "sd_velocity": 26.3,
+        "sd_fp_min": 20
+      },
+      "id": "e31d47306f",
+      "history": [
+        [
+          "2026-11-21",
+          300.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20339898",
+      "title": "Anker 100W 3-Port GaN USB-C Charger w/ Smart Display (2 Colors) for $46 at Amazon",
+      "brand": "Anker",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20339898&t=15",
+      "price_current": 46.0,
+      "price_list": 69.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 25,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 61225,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20339898",
+      "discount_pct": 34.3,
+      "score": 66,
+      "score_breakdown": {
+        "discount_depth": 20,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-21T03:01:07.285908+00:00",
+      "last_seen": "2026-11-21T17:22:16.870433+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Chargers & Power Banks",
+        "sd_store": "",
+        "sd_brand": "Anker",
+        "sd_hot_origin": false,
+        "sd_age_min": 863,
+        "sd_votes": 25,
+        "sd_velocity": 1.7,
+        "sd_fp_min": 2
+      },
+      "id": "95916562a8",
+      "history": [
+        [
+          "2026-11-21",
+          46.0
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/nike-nkb-nsw-colorblock-fleece-pant/9248367",
@@ -9731,143 +9941,6 @@
         [
           "2026-11-21",
           18.04
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:bestbuy.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20341692",
-      "title": "256GB Motorola edge 2025 Unlocked Smartphone (Deep Forest) $300 + Free S&H",
-      "brand": "Motorola",
-      "category": "electronics",
-      "image": "https://static.slickdealscdn.com/attachment/1/3/2/7/8/1/1/300x300/22509228.thumb",
-      "price_current": 300.0,
-      "price_list": 549.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 35,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 474359,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20341692",
-      "discount_pct": 45.5,
-      "score": 66,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-21T16:11:12.577101+00:00",
-      "last_seen": "2026-11-21T17:11:19.122221+00:00",
-      "posted_at": "2026-11-21T15:50:49+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Phones",
-        "sd_store": "",
-        "sd_brand": "Motorola",
-        "sd_hot_origin": false,
-        "sd_age_min": 80,
-        "sd_votes": 35,
-        "sd_velocity": 26.2,
-        "sd_fp_min": 20
-      },
-      "id": "e31d47306f",
-      "history": [
-        [
-          "2026-11-21",
-          300.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20339898",
-      "title": "Anker 100W 3-Port GaN USB-C Charger w/ Smart Display (2 Colors) for $46 at Amazon",
-      "brand": "Anker",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20339898&t=15",
-      "price_current": 46.0,
-      "price_list": 69.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 25,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 61225,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20339898",
-      "discount_pct": 34.3,
-      "score": 66,
-      "score_breakdown": {
-        "discount_depth": 20,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-21T03:01:07.285908+00:00",
-      "last_seen": "2026-11-21T17:11:19.122221+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Chargers & Power Banks",
-        "sd_store": "",
-        "sd_brand": "Anker",
-        "sd_hot_origin": false,
-        "sd_age_min": 852,
-        "sd_votes": 25,
-        "sd_velocity": 1.8,
-        "sd_fp_min": 2
-      },
-      "id": "95916562a8",
-      "history": [
-        [
-          "2026-11-21",
-          46.0
         ]
       ]
     },
@@ -11268,14 +11341,14 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-20T01:30:46.990104+00:00",
-      "last_seen": "2026-11-21T17:11:19.122221+00:00",
+      "last_seen": "2026-11-21T17:22:16.870433+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Kids Toys",
         "sd_store": "Amazon",
         "sd_brand": "Tonka",
         "sd_hot_origin": false,
-        "sd_age_min": 2398,
+        "sd_age_min": 2409,
         "sd_votes": 44,
         "sd_velocity": 1.1,
         "sd_fp_min": 28
@@ -11339,14 +11412,14 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-14T08:11:50.145196+00:00",
-      "last_seen": "2026-11-21T17:11:19.122221+00:00",
+      "last_seen": "2026-11-21T17:22:16.870433+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Sound Bars",
         "sd_store": "",
         "sd_brand": "LG",
         "sd_hot_origin": true,
-        "sd_age_min": 10641,
+        "sd_age_min": 10652,
         "sd_votes": 45,
         "sd_velocity": 0.3,
         "sd_fp_min": 8904
@@ -11700,16 +11773,17 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-21T16:41:04.341414+00:00",
-      "last_seen": "2026-11-21T17:11:19.122221+00:00",
+      "last_seen": "2026-11-21T17:22:16.870433+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Free Shipping",
         "sd_store": "",
         "sd_brand": "Lexivon",
         "sd_hot_origin": false,
-        "sd_age_min": 30,
+        "sd_age_min": 45,
         "sd_votes": 33,
-        "sd_velocity": 66.2
+        "sd_velocity": 44.3,
+        "sd_fp_min": 4
       },
       "id": "f3ab0d7e76",
       "history": [
@@ -12679,14 +12753,14 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-21T14:02:10.107896+00:00",
-      "last_seen": "2026-11-21T17:11:19.122221+00:00",
+      "last_seen": "2026-11-21T17:22:16.870433+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Kids Toys",
         "sd_store": "Amazon",
         "sd_brand": "Hot Wheels",
         "sd_hot_origin": true,
-        "sd_age_min": 214,
+        "sd_age_min": 225,
         "sd_votes": 3,
         "sd_velocity": 0.8,
         "sd_fp_min": 144
@@ -18820,13 +18894,12 @@
   "fx_usd_krw": 1331.0,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-21T17:10:31+00:00",
+      "T1": "2026-11-21T17:20:31+00:00",
       "T2": "2026-11-21T17:11:21+00:00",
       "T3": "2026-11-21T15:22:11+00:00",
       "T4": "2026-11-21T13:14:01+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       1,
       11,
@@ -18855,14 +18928,15 @@
       10,
       10,
       10,
-      1
+      1,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-21T17:11:57+00:00",
+      "at": "2026-11-21T17:22:16+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -18871,13 +18945,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-21T17:11:57+00:00"
+      "at": "2026-11-21T17:22:16+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-21T17:10:57+00:00",
+        "at": "2026-11-21T17:21:54+00:00",
         "state": "정상",
         "mails": 40,
         "deals": 40
@@ -18903,7 +18977,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T16:41:23+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20362188",
@@ -18918,7 +18992,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T16:32:18+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20354991",
@@ -18933,7 +19007,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(QLED TVs)",
         "first_seen": "2026-11-21T16:01:31+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20363352",
@@ -18948,7 +19022,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T16:01:31+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20362344",
@@ -18963,7 +19037,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-21T13:01:29+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20308158",
@@ -18978,7 +19052,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T12:01:23+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20357958",
@@ -18993,7 +19067,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-21T11:51:24+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20335890",
@@ -19023,7 +19097,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T07:12:10+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20347209",
@@ -19038,7 +19112,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(4K TVs)",
         "first_seen": "2026-11-21T07:12:10+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20350581",
@@ -19053,7 +19127,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(Monster) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-21T06:41:14+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20323656",
@@ -19083,7 +19157,7 @@
         "published": false,
         "reject_reason": "H8: 할인 17% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-21T06:21:07+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20361066",
@@ -19098,7 +19172,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Storage & Cleaning)",
         "first_seen": "2026-11-21T05:11:12+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20335050",
@@ -19113,7 +19187,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 36% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-21T05:11:12+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20354499",
@@ -19128,7 +19202,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-21T05:01:26+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20359956",
@@ -19143,7 +19217,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T04:32:09+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339898",
@@ -19158,7 +19232,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T03:01:30+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339877",
@@ -19173,7 +19247,7 @@
         "published": false,
         "reject_reason": "H7: LEGO 할인 30% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-21T02:51:06+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20353704",
@@ -19188,7 +19262,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-21T02:21:24+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20345376",
@@ -19203,7 +19277,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T02:01:23+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20359719",
@@ -19218,7 +19292,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Drills & Power Tools)",
         "first_seen": "2026-11-21T01:01:30+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20335929",
@@ -19278,7 +19352,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-21T00:31:18+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20338629",
@@ -19323,7 +19397,7 @@
         "published": false,
         "reject_reason": "H9: 미국 전압(120V) 가전(Air Purifiers, Humidifiers & Dehumidifiers)",
         "first_seen": "2026-11-20T23:51:21+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20338746",
@@ -19338,7 +19412,7 @@
         "published": false,
         "reject_reason": "H8: 할인 24% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-20T23:51:21+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339955",
@@ -19383,7 +19457,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T21:51:21+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20317857",
@@ -19563,7 +19637,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T16:51:10+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20353569",
@@ -19593,7 +19667,7 @@
         "published": false,
         "reject_reason": "H4: 품절",
         "first_seen": "2026-11-20T16:21:27+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20354970",
@@ -19758,7 +19832,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-20T06:21:17+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339559",
@@ -19833,7 +19907,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-20T04:01:20+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20328141",
@@ -19848,7 +19922,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T03:42:06+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20351841",
@@ -19863,7 +19937,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T03:42:06+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20334144",
@@ -19878,7 +19952,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Home Security & Safety)",
         "first_seen": "2026-11-20T03:42:06+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20335731",
@@ -19893,7 +19967,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-20T03:01:39+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20340654",
@@ -19908,7 +19982,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T02:51:23+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339562",
@@ -19923,7 +19997,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Drills & Power Tools)",
         "first_seen": "2026-11-20T02:01:34+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20338659",
@@ -19938,7 +20012,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T01:31:09+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20350641",
@@ -19953,7 +20027,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T01:31:09+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20334378",
@@ -19968,7 +20042,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T00:41:21+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20281218",
@@ -19983,7 +20057,7 @@
         "published": false,
         "reject_reason": "H7: Govee 할인 32% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-20T00:31:21+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20331114",
@@ -20043,7 +20117,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-19T22:13:06+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20343816",
@@ -20073,7 +20147,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-19T21:11:55+00:00",
-        "last_seen": "2026-11-21T17:11:19+00:00"
+        "last_seen": "2026-11-21T17:22:16+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20321130",
