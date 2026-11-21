@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T23:51:24.292157+00:00",
-  "count": 212,
+  "generated_at": "2026-11-21T00:02:58.399980+00:00",
+  "count": 213,
   "deals": [
     {
       "source": "slickdeals:amazon.com",
@@ -49,14 +49,14 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-19T18:40:52.636311+00:00",
-      "last_seen": "2026-11-20T23:51:21.578774+00:00",
+      "last_seen": "2026-11-21T00:02:48.038685+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Chargers & Power Banks",
         "sd_store": "Amazon",
         "sd_brand": "Anker",
         "sd_hot_origin": false,
-        "sd_age_min": 1760,
+        "sd_age_min": 1772,
         "sd_votes": 112,
         "sd_velocity": 3.8,
         "sd_fp_min": 100
@@ -69,6 +69,10 @@
         ],
         [
           "2026-11-20",
+          16.0
+        ],
+        [
+          "2026-11-21",
           16.0
         ]
       ]
@@ -762,7 +766,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 43,
+      "community_votes": 46,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -786,14 +790,14 @@
         "bonus": 0,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 43표/60분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 46표/71분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-20T13:32:08.890183+00:00",
-      "last_seen": "2026-11-20T23:51:21.578774+00:00",
+      "last_seen": "2026-11-21T00:02:48.038685+00:00",
       "posted_at": "2026-11-20T22:51:23+00:00",
       "signals": {
         "sd_feeds": [
@@ -802,9 +806,9 @@
         "sd_cat": "CPUs",
         "sd_store": "Newegg",
         "sd_hot_origin": true,
-        "sd_age_min": 60,
-        "sd_votes": 43,
-        "sd_velocity": 43.3,
+        "sd_age_min": 71,
+        "sd_votes": 46,
+        "sd_velocity": 38.8,
         "sd_fp_min": 20
       },
       "id": "241d299610",
@@ -812,6 +816,10 @@
         [
           "2026-11-20",
           899.62
+        ],
+        [
+          "2026-11-21",
+          899.65
         ]
       ]
     },
@@ -2103,6 +2111,77 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20347440",
+      "title": "adidas Men's HYPERBOOST EPHR Shoes (3 Colors) $59.50 + Free S&H",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://static.slickdealscdn.com/attachment/3/3/2/8/0/4/4/7/300x300/22464912.thumb",
+      "price_current": 59.5,
+      "price_list": 170.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "EXTRA50SALE",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 71,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 79193,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20347440",
+      "discount_pct": 65.0,
+      "score": 83,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 EXTRA50SALE → 하한 75",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-21T00:02:28.903058+00:00",
+      "last_seen": "2026-11-21T00:02:48.038685+00:00",
+      "posted_at": "2026-11-20T23:36:31+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Men's Shoes",
+        "sd_store": "",
+        "sd_brand": "adidas",
+        "sd_hot_origin": false,
+        "sd_age_min": 26,
+        "sd_votes": 71,
+        "sd_velocity": 164.1,
+        "sd_fp_min": 26
+      },
+      "id": "35a7c549f7",
+      "history": [
+        [
+          "2026-11-21",
+          59.5
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
       "url": "https://slickdeals.net/f/20355693",
       "title": "adidas Men's Duramo SL 2 Running Shoes (3 colors) $23.80 + Free S&H",
       "brand": "Adidas",
@@ -2168,77 +2247,6 @@
         [
           "2026-11-20",
           23.8
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20347962",
-      "title": "adidas Men's Galaxy 7 Running Shoes from $20 + Free S&H",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://static.slickdealscdn.com/attachment/3/3/2/8/0/4/4/7/300x300/22466232.thumb",
-      "price_current": 20.0,
-      "price_list": 60.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "EXTRA50SALE",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 86,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 26619,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "public",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20347962",
-      "discount_pct": 66.7,
-      "score": 83,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 EXTRA50SALE → 하한 75",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-20T20:42:05.793752+00:00",
-      "last_seen": "2026-11-20T23:01:57.922593+00:00",
-      "posted_at": "2026-11-20T20:24:26+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Men's Shoes",
-        "sd_store": "",
-        "sd_brand": "adidas",
-        "sd_hot_origin": false,
-        "sd_age_min": 157,
-        "sd_votes": 86,
-        "sd_velocity": 32.8,
-        "sd_fp_min": 18
-      },
-      "id": "b72f81af19",
-      "history": [
-        [
-          "2026-11-20",
-          20.0
         ]
       ]
     },
@@ -3715,14 +3723,14 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-20T09:31:03.458451+00:00",
-      "last_seen": "2026-11-20T23:51:21.578774+00:00",
+      "last_seen": "2026-11-21T00:02:48.038685+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Chargers & Power Banks",
         "sd_store": "Amazon",
         "sd_brand": "UGREEN",
         "sd_hot_origin": true,
-        "sd_age_min": 889,
+        "sd_age_min": 901,
         "sd_votes": 25,
         "sd_velocity": 1.7,
         "sd_fp_min": 420
@@ -3731,6 +3739,10 @@
       "history": [
         [
           "2026-11-20",
+          23.0
+        ],
+        [
+          "2026-11-21",
           23.0
         ]
       ]
@@ -7089,14 +7101,14 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-20T11:30:59.968848+00:00",
-      "last_seen": "2026-11-20T23:51:21.578774+00:00",
+      "last_seen": "2026-11-21T00:02:48.038685+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Women's Shoes",
         "sd_store": "Nike",
         "sd_brand": "Nike",
         "sd_hot_origin": true,
-        "sd_age_min": 762,
+        "sd_age_min": 774,
         "sd_votes": 3,
         "sd_velocity": 0.2,
         "sd_fp_min": 642
@@ -7105,6 +7117,10 @@
       "history": [
         [
           "2026-11-20",
+          59.0
+        ],
+        [
+          "2026-11-21",
           59.0
         ]
       ]
@@ -7224,22 +7240,26 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-20T22:20:51.407039+00:00",
-      "last_seen": "2026-11-20T23:51:21.578774+00:00",
+      "last_seen": "2026-11-21T00:02:48.038685+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Tech Accessories",
         "sd_store": "",
         "sd_brand": "Govee",
         "sd_hot_origin": false,
-        "sd_age_min": 91,
+        "sd_age_min": 103,
         "sd_votes": 15,
-        "sd_velocity": 9.8,
+        "sd_velocity": 8.7,
         "sd_fp_min": 1
       },
       "id": "a19c61755a",
       "history": [
         [
           "2026-11-20",
+          18.0
+        ],
+        [
+          "2026-11-21",
           18.0
         ]
       ]
@@ -7291,22 +7311,26 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-20T18:31:43.486622+00:00",
-      "last_seen": "2026-11-20T23:51:21.578774+00:00",
+      "last_seen": "2026-11-21T00:02:48.038685+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Chargers & Power Banks",
         "sd_store": "",
         "sd_brand": "Energizer",
         "sd_hot_origin": false,
-        "sd_age_min": 337,
+        "sd_age_min": 348,
         "sd_votes": 40,
-        "sd_velocity": 7.1,
+        "sd_velocity": 6.9,
         "sd_fp_min": 17
       },
       "id": "edc4f3a7d6",
       "history": [
         [
           "2026-11-20",
+          13.0
+        ],
+        [
+          "2026-11-21",
           13.0
         ]
       ]
@@ -7358,14 +7382,14 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-20T08:31:33.316915+00:00",
-      "last_seen": "2026-11-20T23:51:21.578774+00:00",
+      "last_seen": "2026-11-21T00:02:48.038685+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Lighting",
         "sd_store": "",
         "sd_brand": "Govee",
         "sd_hot_origin": false,
-        "sd_age_min": 929,
+        "sd_age_min": 941,
         "sd_votes": 26,
         "sd_velocity": 1.7,
         "sd_fp_min": 29
@@ -7374,6 +7398,10 @@
       "history": [
         [
           "2026-11-20",
+          126.0
+        ],
+        [
+          "2026-11-21",
           126.0
         ]
       ]
@@ -7787,74 +7815,6 @@
       ]
     },
     {
-      "source": "slickdeals:lowes.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20359854",
-      "title": "Harbor Breeze Calera 52-in Bronze Uncovered Outdoor Ceiling Fan Without Light Chain | 40947 $36",
-      "brand": "Harbor Breeze",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/3/5/5/5/4/3/300x300/22499007.thumb",
-      "price_current": 36.0,
-      "price_list": 120.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 1,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 47915,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20359854",
-      "discount_pct": 70.0,
-      "score": 65,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 5,
-        "bonus": 4,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-20T22:42:02.546711+00:00",
-      "last_seen": "2026-11-20T23:51:21.578774+00:00",
-      "posted_at": "2026-11-20T22:26:41+00:00",
-      "signals": {
-        "sd_feeds": [
-          "hotdeals"
-        ],
-        "sd_cat": "Fans",
-        "sd_store": "Lowe's",
-        "sd_brand": "Harbor Breeze",
-        "sd_hot_origin": true,
-        "sd_age_min": 84,
-        "sd_votes": 1,
-        "sd_velocity": 0.7
-      },
-      "id": "5ab15d5530",
-      "history": [
-        [
-          "2026-11-20",
-          36.0
-        ]
-      ]
-    },
-    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20344083",
@@ -7922,6 +7882,74 @@
         [
           "2026-11-20",
           15.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:lowes.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20359854",
+      "title": "Harbor Breeze Calera 52-in Bronze Uncovered Outdoor Ceiling Fan Without Light Chain | 40947 $36",
+      "brand": "Harbor Breeze",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/1/3/5/5/5/4/3/300x300/22499007.thumb",
+      "price_current": 36.0,
+      "price_list": 120.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 1,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 47915,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20359854",
+      "discount_pct": 70.0,
+      "score": 65,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 5,
+        "bonus": 4,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-20T22:42:02.546711+00:00",
+      "last_seen": "2026-11-20T23:51:21.578774+00:00",
+      "posted_at": "2026-11-20T22:26:41+00:00",
+      "signals": {
+        "sd_feeds": [
+          "hotdeals"
+        ],
+        "sd_cat": "Fans",
+        "sd_store": "Lowe's",
+        "sd_brand": "Harbor Breeze",
+        "sd_hot_origin": true,
+        "sd_age_min": 84,
+        "sd_votes": 1,
+        "sd_velocity": 0.7
+      },
+      "id": "5ab15d5530",
+      "history": [
+        [
+          "2026-11-20",
+          36.0
         ]
       ]
     },
@@ -8669,7 +8697,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 35,
+      "community_votes": 36,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -8693,14 +8721,14 @@
         "bonus": 0,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "community": "투표 35+할인50% → 하한 55",
+        "community": "투표 36+할인50% → 하한 55",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-20T23:11:21.148926+00:00",
-      "last_seen": "2026-11-20T23:51:21.578774+00:00",
+      "last_seen": "2026-11-21T00:02:48.038685+00:00",
       "posted_at": "2026-11-20T22:53:53+00:00",
       "signals": {
         "sd_feeds": [
@@ -8710,15 +8738,19 @@
         "sd_store": "",
         "sd_brand": "Citizen",
         "sd_hot_origin": false,
-        "sd_age_min": 57,
-        "sd_votes": 35,
-        "sd_velocity": 36.8,
+        "sd_age_min": 69,
+        "sd_votes": 36,
+        "sd_velocity": 31.5,
         "sd_fp_min": 17
       },
       "id": "80d5eaefe4",
       "history": [
         [
           "2026-11-20",
+          225.0
+        ],
+        [
+          "2026-11-21",
           225.0
         ]
       ]
@@ -9064,6 +9096,74 @@
         [
           "2026-11-19",
           7.8
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20360292",
+      "title": "24-Count Sharpie Fine Point Permanent Markers (Assorted) $10.24 w/ S&S + Free Shipping w/ Prime or on $35+",
+      "brand": "Sharpie",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/1/4/8/5/3/3/0/300x300/22499985.thumb",
+      "price_current": 10.0,
+      "price_list": 36.84,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 0,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 13310,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20360292",
+      "discount_pct": 72.9,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-21T00:02:28.903058+00:00",
+      "last_seen": "2026-11-21T00:02:48.038685+00:00",
+      "posted_at": "2026-11-20T23:56:52+00:00",
+      "signals": {
+        "sd_feeds": [
+          "hotdeals"
+        ],
+        "sd_cat": "Pencils, Pens & Markers",
+        "sd_store": "Amazon",
+        "sd_brand": "Sharpie",
+        "sd_hot_origin": true,
+        "sd_age_min": 6,
+        "sd_votes": 0,
+        "sd_velocity": 0.0
+      },
+      "id": "5f53c1c493",
+      "history": [
+        [
+          "2026-11-21",
+          10.0
         ]
       ]
     },
@@ -13429,14 +13529,14 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-19T20:51:02.922458+00:00",
-      "last_seen": "2026-11-20T23:51:21.578774+00:00",
+      "last_seen": "2026-11-21T00:02:48.038685+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Lamps and Shades",
         "sd_store": "",
         "sd_brand": "Govee",
         "sd_hot_origin": true,
-        "sd_age_min": 1642,
+        "sd_age_min": 1653,
         "sd_votes": 24,
         "sd_velocity": 0.9,
         "sd_fp_min": 902
@@ -13449,6 +13549,10 @@
         ],
         [
           "2026-11-20",
+          60.0
+        ],
+        [
+          "2026-11-21",
           60.0
         ]
       ]
@@ -13908,22 +14012,26 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-20T02:51:04.165095+00:00",
-      "last_seen": "2026-11-20T23:51:21.578774+00:00",
+      "last_seen": "2026-11-21T00:02:48.038685+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Chargers & Power Banks",
         "sd_store": "Amazon",
         "sd_brand": "Anker",
         "sd_hot_origin": false,
-        "sd_age_min": 1268,
+        "sd_age_min": 1280,
         "sd_votes": 37,
-        "sd_velocity": 1.8,
+        "sd_velocity": 1.7,
         "sd_fp_min": 59
       },
       "id": "b9876cdb8f",
       "history": [
         [
           "2026-11-20",
+          19.0
+        ],
+        [
+          "2026-11-21",
           19.0
         ]
       ]
@@ -13932,7 +14040,7 @@
   "fx_usd_krw": 1331.0,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-20T23:50:32+00:00",
+      "T1": "2026-11-21T00:00:49+00:00",
       "T2": "2026-11-20T23:25:17+00:00",
       "T3": "2026-11-20T22:11:31+00:00",
       "T4": "2026-11-20T18:41:14+00:00"
@@ -13966,14 +14074,15 @@
       1,
       5,
       11,
-      10
+      10,
+      12
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-20T23:51:21+00:00",
+      "at": "2026-11-21T00:02:47+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -13982,13 +14091,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-20T23:51:21+00:00"
+      "at": "2026-11-21T00:02:48+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-20T23:50:51+00:00",
+        "at": "2026-11-21T00:02:28+00:00",
         "state": "정상",
         "mails": 40,
         "deals": 38
@@ -14014,7 +14123,7 @@
         "published": false,
         "reject_reason": "H9: 미국 전압(120V) 가전(Air Purifiers, Humidifiers & Dehumidifiers)",
         "first_seen": "2026-11-20T23:51:21+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20338746",
@@ -14029,7 +14138,7 @@
         "published": false,
         "reject_reason": "H8: 할인 24% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-20T23:51:21+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339955",
@@ -14044,7 +14153,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T22:21:16+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20357202",
@@ -14059,7 +14168,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T22:21:16+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20355408",
@@ -14074,7 +14183,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T21:51:21+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20317857",
@@ -14089,7 +14198,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T21:01:29+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20355708",
@@ -14104,7 +14213,7 @@
         "published": false,
         "reject_reason": "H7: Adidas 할인 0% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-20T20:51:16+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20357850",
@@ -14119,7 +14228,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-20T20:42:25+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20343093",
@@ -14134,7 +14243,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-20T19:51:27+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20349459",
@@ -14149,7 +14258,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Smartphones)",
         "first_seen": "2026-11-20T19:22:09+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://click.email.bloomingdales.com/",
@@ -14209,7 +14318,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T18:41:12+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339205",
@@ -14224,7 +14333,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T18:32:08+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20330499",
@@ -14239,7 +14348,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-20T18:32:08+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20355528",
@@ -14254,7 +14363,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T16:51:10+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20353569",
@@ -14269,7 +14378,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Drills & Power Tools)",
         "first_seen": "2026-11-20T16:41:15+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20330883",
@@ -14299,7 +14408,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T16:02:35+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20354154",
@@ -14314,7 +14423,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Home Security & Safety)",
         "first_seen": "2026-11-20T14:01:40+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20353146",
@@ -14329,7 +14438,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Grocery)",
         "first_seen": "2026-11-20T14:01:40+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20353767",
@@ -14344,7 +14453,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(TV)",
         "first_seen": "2026-11-20T12:52:35+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20349534",
@@ -14359,7 +14468,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T11:11:14+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20354964",
@@ -14374,7 +14483,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T10:51:34+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20228997",
@@ -14389,7 +14498,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T08:31:57+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20303040",
@@ -14404,7 +14513,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(Hanes) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-20T08:01:34+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20310840",
@@ -14419,7 +14528,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Tool Sets)",
         "first_seen": "2026-11-20T07:51:08+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20338398",
@@ -14434,7 +14543,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T07:41:15+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20343588",
@@ -14449,7 +14558,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-20T06:21:17+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339559",
@@ -14464,7 +14573,7 @@
         "published": false,
         "reject_reason": "H7: Oura 할인 25% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-20T05:51:09+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20279736",
@@ -14479,7 +14588,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Portable Power Stations)",
         "first_seen": "2026-11-20T05:31:29+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20311917",
@@ -14494,7 +14603,7 @@
         "published": false,
         "reject_reason": "H7: Govee 할인 30% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-20T05:01:28+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339655",
@@ -14509,7 +14618,7 @@
         "published": false,
         "reject_reason": "H7: Govee 할인 36% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-20T04:51:42+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20341995",
@@ -14524,7 +14633,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-20T04:01:20+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20328141",
@@ -14539,7 +14648,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T03:42:06+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20351841",
@@ -14554,7 +14663,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T03:42:06+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20334144",
@@ -14569,7 +14678,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Home Security & Safety)",
         "first_seen": "2026-11-20T03:42:06+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20335731",
@@ -14584,7 +14693,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-20T03:01:39+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20340654",
@@ -14599,7 +14708,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T02:51:23+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339562",
@@ -14614,7 +14723,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Drills & Power Tools)",
         "first_seen": "2026-11-20T02:01:34+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20338659",
@@ -14854,7 +14963,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-19T18:41:18+00:00",
-        "last_seen": "2026-11-20T23:51:21+00:00"
+        "last_seen": "2026-11-21T00:02:58+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20306115",
