@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T00:52:46.750573+00:00",
+  "generated_at": "2026-11-22T01:01:13.635454+00:00",
   "count": 303,
   "deals": [
     {
@@ -865,14 +865,14 @@
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
         "code_deal": "공개코드 EXTRA50SALE → 하한 75",
-        "slickdeals": "Hot Deals 폭발 38표/20분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 38표/29분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-19T20:51:02.922458+00:00",
-      "last_seen": "2026-11-22T00:52:09.745692+00:00",
+      "last_seen": "2026-11-22T01:01:13.550421+00:00",
       "posted_at": "2026-11-22T00:32:10+00:00",
       "signals": {
         "sd_feeds": [
@@ -882,9 +882,9 @@
         "sd_store": "",
         "sd_brand": "adidas",
         "sd_hot_origin": true,
-        "sd_age_min": 20,
+        "sd_age_min": 29,
         "sd_votes": 38,
-        "sd_velocity": 116.1,
+        "sd_velocity": 79.3,
         "sd_fp_min": 9
       },
       "id": "1556450458",
@@ -1335,6 +1335,77 @@
       ]
     },
     {
+      "source": "slickdeals:bestbuy.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20338752",
+      "title": "JBL Tune 245NC True Wireless Noise Cancelling Earbuds (Black) for $39.95 at Best Buy",
+      "brand": "JBL",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20338752&t=15",
+      "price_current": 40.0,
+      "price_list": 109.95,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 26,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 53733,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20338752",
+      "discount_pct": 63.6,
+      "score": 87,
+      "score_breakdown": {
+        "discount_depth": 36,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-21T07:11:47.983538+00:00",
+      "last_seen": "2026-11-22T01:01:13.550421+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Headphones, Headsets & Earbuds",
+        "sd_store": "",
+        "sd_brand": "JBL",
+        "sd_hot_origin": false,
+        "sd_age_min": 1074,
+        "sd_votes": 26,
+        "sd_velocity": 1.5,
+        "sd_fp_min": 5
+      },
+      "id": "b749e320ef",
+      "history": [
+        [
+          "2026-11-21",
+          40.0
+        ],
+        [
+          "2026-11-22",
+          40.0
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/new-balance-gender-inclusive-530-sneaker/8503132",
@@ -1403,77 +1474,6 @@
         [
           "2026-11-22",
           32.98
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:bestbuy.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20338752",
-      "title": "JBL Tune 245NC True Wireless Noise Cancelling Earbuds (Black) for $39.95 at Best Buy",
-      "brand": "JBL",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20338752&t=15",
-      "price_current": 40.0,
-      "price_list": 109.95,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 26,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 53733,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20338752",
-      "discount_pct": 63.6,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 36,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-21T07:11:47.983538+00:00",
-      "last_seen": "2026-11-22T00:52:09.745692+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Headphones, Headsets & Earbuds",
-        "sd_store": "",
-        "sd_brand": "JBL",
-        "sd_hot_origin": false,
-        "sd_age_min": 1065,
-        "sd_votes": 26,
-        "sd_velocity": 1.5,
-        "sd_fp_min": 5
-      },
-      "id": "b749e320ef",
-      "history": [
-        [
-          "2026-11-21",
-          40.0
-        ],
-        [
-          "2026-11-22",
-          40.0
         ]
       ]
     },
@@ -3715,6 +3715,385 @@
       ]
     },
     {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20332536",
+      "title": "7-Qt Crock-Pot Manual Slow Cooker w/ Removable Stoneware Insert (3 Colors) $34.95",
+      "brand": "Crock-Pot",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/2/1/9/3/4/6/6/300x300/22415109.thumb",
+      "price_current": 35.0,
+      "price_list": 79.99,
+      "price_baseline": null,
+      "price_alltime_low": 34.96,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 38,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 47017,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20332536",
+      "discount_pct": 56.2,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 0,
+        "category": 5,
+        "bonus": 4,
+        "brand": 0,
+        "community": "투표 38+할인56% → 하한 55",
+        "slickdeals": "Hot Deals 급상승 38표/86분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-18T10:20:47.386076+00:00",
+      "last_seen": "2026-11-22T01:01:13.550421+00:00",
+      "posted_at": "2026-11-21T23:34:54+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Slow Cookers",
+        "sd_store": "Walmart",
+        "sd_brand": "Crock-Pot",
+        "sd_hot_origin": true,
+        "sd_age_min": 86,
+        "sd_votes": 38,
+        "sd_velocity": 26.5,
+        "sd_fp_min": 16
+      },
+      "id": "f8cbf54430",
+      "history": [
+        [
+          "2026-11-18",
+          34.96
+        ],
+        [
+          "2026-11-21",
+          35.0
+        ],
+        [
+          "2026-11-22",
+          35.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20363499",
+      "title": "70W Max Anker Nano 10-in-1 Desk Clamp Power Strip w/ 1500J Surge Protector & USB $56 + Free S&H",
+      "brand": "Anker",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/2/5/7/1/3/8/8/7/300x300/22507482.thumb",
+      "price_current": 56.0,
+      "price_list": 69.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 44,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 75227,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20363499",
+      "discount_pct": 20.0,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 8,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 44표/102분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-21T14:41:50.335042+00:00",
+      "last_seen": "2026-11-22T01:01:13.550421+00:00",
+      "posted_at": "2026-11-21T23:19:08+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Uninterruptible Power Supply (UPS), Surge Protectors & Powerstrips",
+        "sd_store": "Amazon",
+        "sd_brand": "Anker",
+        "sd_hot_origin": true,
+        "sd_age_min": 102,
+        "sd_votes": 44,
+        "sd_velocity": 25.9,
+        "sd_fp_min": 32
+      },
+      "id": "b216b5843a",
+      "history": [
+        [
+          "2026-11-21",
+          56.0
+        ],
+        [
+          "2026-11-22",
+          56.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20362518",
+      "title": "40-Oz Owala FreeSip Sway Insulated Stainless Steel Water Bottle (4 Colors) $36 + Free S/H",
+      "brand": "Owala",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/1/1/7/1/5/2/7/300x300/22505523.thumb",
+      "price_current": 36.0,
+      "price_list": 44.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 47,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 48360,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20362518",
+      "discount_pct": 20.0,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 8,
+        "price_history": null,
+        "category": 5,
+        "bonus": 4,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 47표/154분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-21T09:41:52.996475+00:00",
+      "last_seen": "2026-11-22T01:01:13.550421+00:00",
+      "posted_at": "2026-11-21T22:27:09+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Water Bottles",
+        "sd_store": "Amazon",
+        "sd_brand": "Owala",
+        "sd_hot_origin": true,
+        "sd_age_min": 154,
+        "sd_votes": 47,
+        "sd_velocity": 18.3,
+        "sd_fp_min": 24
+      },
+      "id": "2027ea2d3c",
+      "history": [
+        [
+          "2026-11-21",
+          36.0
+        ],
+        [
+          "2026-11-22",
+          36.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20361840",
+      "title": "3.4-Oz TUMI Men's Atlas [00:00 GMT] Eau de Parfum Spray $40.50 & More + Free S&H",
+      "brand": "Tumi",
+      "category": "watch_misc",
+      "image": "https://static.slickdealscdn.com/attachment/1/3/5/8/6/2/3/300x300/22503561.thumb",
+      "price_current": 41.0,
+      "price_list": 135.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 41,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 55077,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://slickdeals.net/f/20361840",
+      "discount_pct": 69.6,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 41표/159분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-21T06:11:36.027300+00:00",
+      "last_seen": "2026-11-22T01:01:13.550421+00:00",
+      "posted_at": "2026-11-21T22:22:23+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Fragrances, Cologne & Perfume",
+        "sd_store": "Macy's",
+        "sd_brand": "TUMI",
+        "sd_hot_origin": true,
+        "sd_age_min": 159,
+        "sd_votes": 41,
+        "sd_velocity": 15.5,
+        "sd_fp_min": 28
+      },
+      "id": "3bc1f05839",
+      "history": [
+        [
+          "2026-11-21",
+          41.0
+        ],
+        [
+          "2026-11-22",
+          41.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20364168",
+      "title": "16-Oz 365 by Whole Foods Market Baking Soda $0.75 w/ S&S",
+      "brand": "365 by Whole Foods Market",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/1/1/7/1/5/2/7/300x300/22509483.thumb",
+      "price_current": 0.77,
+      "price_list": 1.07,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 43,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 1034,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20364168",
+      "discount_pct": 28.0,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 8,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 43표/172분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-21T16:32:00.133458+00:00",
+      "last_seen": "2026-11-22T01:01:13.550421+00:00",
+      "posted_at": "2026-11-21T22:08:35+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Baking and Cooking",
+        "sd_store": "Amazon",
+        "sd_brand": "365 by Whole Foods Market",
+        "sd_hot_origin": true,
+        "sd_age_min": 172,
+        "sd_votes": 43,
+        "sd_velocity": 15.0,
+        "sd_fp_min": 42
+      },
+      "id": "2647c45c1b",
+      "history": [
+        [
+          "2026-11-21",
+          0.77
+        ],
+        [
+          "2026-11-22",
+          0.77
+        ]
+      ]
+    },
+    {
       "source": "dealsofamerica",
       "source_tier": "T2",
       "url": "https://www.dealsofamerica.com/sylvox-kt16a0khga-r-tv/778154.htm",
@@ -3783,460 +4162,6 @@
         [
           "2026-11-22",
           99.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20332536",
-      "title": "7-Qt Crock-Pot Manual Slow Cooker w/ Removable Stoneware Insert (3 Colors) $34.95",
-      "brand": "Crock-Pot",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/2/1/9/3/4/6/6/300x300/22415109.thumb",
-      "price_current": 35.0,
-      "price_list": 79.99,
-      "price_baseline": null,
-      "price_alltime_low": 34.96,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 38,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 47017,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20332536",
-      "discount_pct": 56.2,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 0,
-        "category": 5,
-        "bonus": 4,
-        "brand": 0,
-        "community": "투표 38+할인56% → 하한 55",
-        "slickdeals": "Hot Deals 급상승 38표/77분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-18T10:20:47.386076+00:00",
-      "last_seen": "2026-11-22T00:52:09.745692+00:00",
-      "posted_at": "2026-11-21T23:34:54+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Slow Cookers",
-        "sd_store": "Walmart",
-        "sd_brand": "Crock-Pot",
-        "sd_hot_origin": true,
-        "sd_age_min": 77,
-        "sd_votes": 38,
-        "sd_velocity": 29.6,
-        "sd_fp_min": 16
-      },
-      "id": "f8cbf54430",
-      "history": [
-        [
-          "2026-11-18",
-          34.96
-        ],
-        [
-          "2026-11-21",
-          35.0
-        ],
-        [
-          "2026-11-22",
-          35.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20363499",
-      "title": "70W Max Anker Nano 10-in-1 Desk Clamp Power Strip w/ 1500J Surge Protector & USB $56 + Free S&H",
-      "brand": "Anker",
-      "category": "electronics",
-      "image": "https://static.slickdealscdn.com/attachment/2/5/7/1/3/8/8/7/300x300/22507482.thumb",
-      "price_current": 56.0,
-      "price_list": 69.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 44,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 75227,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20363499",
-      "discount_pct": 20.0,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 8,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 44표/93분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-21T14:41:50.335042+00:00",
-      "last_seen": "2026-11-22T00:52:09.745692+00:00",
-      "posted_at": "2026-11-21T23:19:08+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Uninterruptible Power Supply (UPS), Surge Protectors & Powerstrips",
-        "sd_store": "Amazon",
-        "sd_brand": "Anker",
-        "sd_hot_origin": true,
-        "sd_age_min": 93,
-        "sd_votes": 44,
-        "sd_velocity": 28.5,
-        "sd_fp_min": 32
-      },
-      "id": "b216b5843a",
-      "history": [
-        [
-          "2026-11-21",
-          56.0
-        ],
-        [
-          "2026-11-22",
-          56.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20362518",
-      "title": "40-Oz Owala FreeSip Sway Insulated Stainless Steel Water Bottle (4 Colors) $36 + Free S/H",
-      "brand": "Owala",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/1/7/1/5/2/7/300x300/22505523.thumb",
-      "price_current": 36.0,
-      "price_list": 44.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 47,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 48360,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20362518",
-      "discount_pct": 20.0,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 8,
-        "price_history": null,
-        "category": 5,
-        "bonus": 4,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 47표/145분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-21T09:41:52.996475+00:00",
-      "last_seen": "2026-11-22T00:52:09.745692+00:00",
-      "posted_at": "2026-11-21T22:27:09+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Water Bottles",
-        "sd_store": "Amazon",
-        "sd_brand": "Owala",
-        "sd_hot_origin": true,
-        "sd_age_min": 145,
-        "sd_votes": 47,
-        "sd_velocity": 19.5,
-        "sd_fp_min": 24
-      },
-      "id": "2027ea2d3c",
-      "history": [
-        [
-          "2026-11-21",
-          36.0
-        ],
-        [
-          "2026-11-22",
-          36.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20361840",
-      "title": "3.4-Oz TUMI Men's Atlas [00:00 GMT] Eau de Parfum Spray $40.50 & More + Free S&H",
-      "brand": "Tumi",
-      "category": "watch_misc",
-      "image": "https://static.slickdealscdn.com/attachment/1/3/5/8/6/2/3/300x300/22503561.thumb",
-      "price_current": 41.0,
-      "price_list": 135.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 41,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 55077,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://slickdeals.net/f/20361840",
-      "discount_pct": 69.6,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 41표/149분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-21T06:11:36.027300+00:00",
-      "last_seen": "2026-11-22T00:52:09.745692+00:00",
-      "posted_at": "2026-11-21T22:22:23+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Fragrances, Cologne & Perfume",
-        "sd_store": "Macy's",
-        "sd_brand": "TUMI",
-        "sd_hot_origin": true,
-        "sd_age_min": 149,
-        "sd_votes": 41,
-        "sd_velocity": 16.5,
-        "sd_fp_min": 28
-      },
-      "id": "3bc1f05839",
-      "history": [
-        [
-          "2026-11-21",
-          41.0
-        ],
-        [
-          "2026-11-22",
-          41.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20364168",
-      "title": "16-Oz 365 by Whole Foods Market Baking Soda $0.75 w/ S&S",
-      "brand": "365 by Whole Foods Market",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/1/7/1/5/2/7/300x300/22509483.thumb",
-      "price_current": 0.77,
-      "price_list": 1.07,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 43,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 1034,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20364168",
-      "discount_pct": 28.0,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 8,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 43표/163분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-21T16:32:00.133458+00:00",
-      "last_seen": "2026-11-22T00:52:09.745692+00:00",
-      "posted_at": "2026-11-21T22:08:35+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Baking and Cooking",
-        "sd_store": "Amazon",
-        "sd_brand": "365 by Whole Foods Market",
-        "sd_hot_origin": true,
-        "sd_age_min": 163,
-        "sd_votes": 43,
-        "sd_velocity": 15.8,
-        "sd_fp_min": 42
-      },
-      "id": "2647c45c1b",
-      "history": [
-        [
-          "2026-11-21",
-          0.77
-        ],
-        [
-          "2026-11-22",
-          0.77
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20361135",
-      "title": "National Tree Company 6' North Valley Spruce Artificial Christmas Tree w/ Stand $41.65 + Free S&H",
-      "brand": "National Tree Company",
-      "category": "home",
-      "image": "https://static.slickdealscdn.com/attachment/8/6/6/3/0/300x300/22512642.thumb",
-      "price_current": 42.0,
-      "price_list": 112.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 35,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 56420,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20361135",
-      "discount_pct": 62.5,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 36,
-        "price_history": null,
-        "category": 8,
-        "bonus": 4,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 35표/174분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-21T03:11:48.083385+00:00",
-      "last_seen": "2026-11-22T00:52:09.745692+00:00",
-      "posted_at": "2026-11-21T21:57:58+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Christmas",
-        "sd_store": "Amazon",
-        "sd_brand": "National Tree Company",
-        "sd_hot_origin": true,
-        "sd_age_min": 174,
-        "sd_votes": 35,
-        "sd_velocity": 12.1,
-        "sd_fp_min": 53
-      },
-      "id": "3b8684538f",
-      "history": [
-        [
-          "2026-11-21",
-          42.0
-        ],
-        [
-          "2026-11-22",
-          42.0
         ]
       ]
     },
@@ -5810,7 +5735,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-22T00:41:06.611056+00:00",
-      "last_seen": "2026-11-22T00:52:09.745692+00:00",
+      "last_seen": "2026-11-22T01:01:13.550421+00:00",
       "posted_at": "2026-11-21T23:54:45+00:00",
       "signals": {
         "sd_feeds": [
@@ -5820,9 +5745,9 @@
         "sd_store": "",
         "sd_brand": "Amazon",
         "sd_hot_origin": false,
-        "sd_age_min": 57,
+        "sd_age_min": 66,
         "sd_votes": 27,
-        "sd_velocity": 28.4,
+        "sd_velocity": 24.5,
         "sd_fp_min": 46
       },
       "id": "8a17b27e63",
@@ -5880,7 +5805,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-21T23:50:56.623802+00:00",
-      "last_seen": "2026-11-22T00:52:09.745692+00:00",
+      "last_seen": "2026-11-22T01:01:13.550421+00:00",
       "posted_at": "2026-11-21T22:51:56+00:00",
       "signals": {
         "sd_feeds": [
@@ -5890,9 +5815,9 @@
         "sd_store": "Frndly TV",
         "sd_brand": "Hallmark",
         "sd_hot_origin": false,
-        "sd_age_min": 120,
+        "sd_age_min": 129,
         "sd_votes": 40,
-        "sd_velocity": 20.0,
+        "sd_velocity": 18.6,
         "sd_fp_min": 59
       },
       "id": "532963f86d",
@@ -5954,7 +5879,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-21T22:50:51.594059+00:00",
-      "last_seen": "2026-11-22T00:52:09.745692+00:00",
+      "last_seen": "2026-11-22T01:01:13.550421+00:00",
       "posted_at": "2026-11-21T22:28:24+00:00",
       "signals": {
         "sd_feeds": [
@@ -5964,9 +5889,9 @@
         "sd_store": "Amazon",
         "sd_brand": "UGREEN",
         "sd_hot_origin": false,
-        "sd_age_min": 143,
+        "sd_age_min": 153,
         "sd_votes": 34,
-        "sd_velocity": 14.2,
+        "sd_velocity": 13.4,
         "sd_fp_min": 22
       },
       "id": "305889b661",
@@ -5978,6 +5903,77 @@
         [
           "2026-11-22",
           33.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20361018",
+      "title": "Beats Studio Buds + True Wireless Active Noise Cancelling Earbuds (Various) for from $89.95 at Amazon",
+      "brand": "Beats",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20361018&t=15",
+      "price_current": 90.0,
+      "price_list": 169.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 1,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 120900,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20361018",
+      "discount_pct": 47.1,
+      "score": 79,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-21T03:11:48.083385+00:00",
+      "last_seen": "2026-11-22T01:01:13.550421+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Headphones, Headsets & Earbuds",
+        "sd_store": "Best Buy",
+        "sd_brand": "Beats",
+        "sd_hot_origin": true,
+        "sd_age_min": 1354,
+        "sd_votes": 1,
+        "sd_velocity": 0.0,
+        "sd_fp_min": 984
+      },
+      "id": "0b43d5fbd5",
+      "history": [
+        [
+          "2026-11-21",
+          90.0
+        ],
+        [
+          "2026-11-22",
+          90.0
         ]
       ]
     },
@@ -6049,77 +6045,6 @@
         [
           "2026-11-22",
           18.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20361018",
-      "title": "Beats Studio Buds + True Wireless Active Noise Cancelling Earbuds (Various) for from $89.95 at Amazon",
-      "brand": "Beats",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20361018&t=15",
-      "price_current": 90.0,
-      "price_list": 169.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 1,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 120900,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20361018",
-      "discount_pct": 47.1,
-      "score": 79,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-21T03:11:48.083385+00:00",
-      "last_seen": "2026-11-22T00:52:09.745692+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Headphones, Headsets & Earbuds",
-        "sd_store": "Best Buy",
-        "sd_brand": "Beats",
-        "sd_hot_origin": true,
-        "sd_age_min": 1345,
-        "sd_votes": 1,
-        "sd_velocity": 0.0,
-        "sd_fp_min": 984
-      },
-      "id": "0b43d5fbd5",
-      "history": [
-        [
-          "2026-11-21",
-          90.0
-        ],
-        [
-          "2026-11-22",
-          90.0
         ]
       ]
     },
@@ -8466,7 +8391,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-21T23:50:56.623802+00:00",
-      "last_seen": "2026-11-22T00:52:09.745692+00:00",
+      "last_seen": "2026-11-22T01:01:13.550421+00:00",
       "posted_at": "2026-11-21T22:56:42+00:00",
       "signals": {
         "sd_feeds": [
@@ -8476,9 +8401,9 @@
         "sd_store": "",
         "sd_brand": "lululemon",
         "sd_hot_origin": false,
-        "sd_age_min": 115,
+        "sd_age_min": 124,
         "sd_votes": 34,
-        "sd_velocity": 17.7,
+        "sd_velocity": 16.4,
         "sd_fp_min": 54
       },
       "id": "d1324d67b6",
@@ -10430,6 +10355,80 @@
         [
           "2026-11-20",
           25.1
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20361135",
+      "title": "National Tree Company 6' North Valley Spruce Artificial Christmas Tree w/ Stand $41.65 + Free S&H",
+      "brand": "National Tree Company",
+      "category": "home",
+      "image": "https://static.slickdealscdn.com/attachment/8/6/6/3/0/300x300/22512642.thumb",
+      "price_current": 42.0,
+      "price_list": 112.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 35,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 56420,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20361135",
+      "discount_pct": 62.5,
+      "score": 70,
+      "score_breakdown": {
+        "discount_depth": 36,
+        "price_history": null,
+        "category": 8,
+        "bonus": 4,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-21T03:11:48.083385+00:00",
+      "last_seen": "2026-11-22T01:01:13.550421+00:00",
+      "posted_at": "2026-11-21T21:57:58+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Christmas",
+        "sd_store": "Amazon",
+        "sd_brand": "National Tree Company",
+        "sd_hot_origin": true,
+        "sd_age_min": 183,
+        "sd_votes": 35,
+        "sd_velocity": 11.5,
+        "sd_fp_min": 53
+      },
+      "id": "3b8684538f",
+      "history": [
+        [
+          "2026-11-21",
+          42.0
+        ],
+        [
+          "2026-11-22",
+          42.0
         ]
       ]
     },
@@ -13486,7 +13485,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-22T00:51:47.974165+00:00",
-      "last_seen": "2026-11-22T00:52:09.745692+00:00",
+      "last_seen": "2026-11-22T01:01:13.550421+00:00",
       "posted_at": "2026-11-22T00:29:42+00:00",
       "signals": {
         "sd_feeds": [
@@ -13496,7 +13495,7 @@
         "sd_store": "Amazon",
         "sd_brand": "Skechers",
         "sd_hot_origin": true,
-        "sd_age_min": 22,
+        "sd_age_min": 31,
         "sd_votes": 0,
         "sd_velocity": 0.0
       },
@@ -14539,7 +14538,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-22T00:51:47.974165+00:00",
-      "last_seen": "2026-11-22T00:52:09.745692+00:00",
+      "last_seen": "2026-11-22T01:01:13.550421+00:00",
       "posted_at": "2026-11-22T00:25:59+00:00",
       "signals": {
         "sd_feeds": [
@@ -14549,7 +14548,7 @@
         "sd_store": "Walmart",
         "sd_brand": "Greenworks",
         "sd_hot_origin": true,
-        "sd_age_min": 26,
+        "sd_age_min": 35,
         "sd_votes": 0,
         "sd_velocity": 0.0
       },
@@ -20558,13 +20557,13 @@
       ]
     },
     {
-      "source": "slickdeals:amazon.com",
+      "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20350515",
-      "title": "TP-Link Tapo P400M Matter Outdoor Smart Plug w/ 2 Outlets for $19 at Amazon",
+      "title": "TP-Link Tapo P400M Matter Outdoor Smart Plug w/ 2 Outlets $19",
       "brand": "Tapo",
       "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20350515&t=15",
+      "image": "https://static.slickdealscdn.com/attachment/8/6/7/1/9/300x300/22473768.thumb",
       "price_current": 19.0,
       "price_list": 25.99,
       "price_baseline": null,
@@ -20574,7 +20573,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 28,
+      "community_votes": 37,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -20584,7 +20583,7 @@
       "stock_status": "in_stock",
       "is_refurbished": false,
       "expires_at": null,
-      "collection_method": "email",
+      "collection_method": "rss",
       "frontpage": true,
       "code_kind": "",
       "brand_tier": "known",
@@ -20604,16 +20603,19 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-21T22:20:50.178043+00:00",
-      "last_seen": "2026-11-22T00:52:09.745692+00:00",
-      "posted_at": "",
+      "last_seen": "2026-11-22T01:01:13.550421+00:00",
+      "posted_at": "2026-11-21T22:18:31+00:00",
       "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
         "sd_cat": "Home Automation",
         "sd_store": "Amazon",
         "sd_brand": "Tapo",
         "sd_hot_origin": false,
-        "sd_age_min": 153,
-        "sd_votes": 28,
-        "sd_velocity": 11.0,
+        "sd_age_min": 162,
+        "sd_votes": 37,
+        "sd_velocity": 13.7,
         "sd_fp_min": 2
       },
       "id": "0761d17ec0",
@@ -20632,13 +20634,12 @@
   "fx_usd_krw": 1343.3,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-22T00:50:33+00:00",
+      "T1": "2026-11-22T01:00:43+00:00",
       "T2": "2026-11-22T00:52:11+00:00",
       "T3": "2026-11-21T23:51:23+00:00",
       "T4": "2026-11-21T19:21:24+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       1,
       1,
@@ -20667,14 +20668,15 @@
       9,
       10,
       10,
-      1
+      1,
+      8
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-22T00:52:45+00:00",
+      "at": "2026-11-22T01:01:13+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -20683,16 +20685,16 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-22T00:52:45+00:00"
+      "at": "2026-11-22T01:01:13+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-22T00:51:45+00:00",
+        "at": "2026-11-22T01:00:52+00:00",
         "state": "정상",
-        "mails": 39,
-        "deals": 39
+        "mails": 11,
+        "deals": 11
       },
       "newsletter": {
         "at": "2026-11-21T19:24:17+00:00",
@@ -20835,7 +20837,7 @@
         "published": false,
         "reject_reason": "H7: Oura 할인 25% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-21T20:21:41+00:00",
-        "last_seen": "2026-11-22T00:52:10+00:00"
+        "last_seen": "2026-11-22T01:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339076",
@@ -20865,7 +20867,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T19:51:19+00:00",
-        "last_seen": "2026-11-22T00:52:10+00:00"
+        "last_seen": "2026-11-22T01:01:13+00:00"
       },
       {
         "url": "https://clicks.finishline.com/f/a/GACK7B8IRpO2qd7dgbB_Fw~~/AAQRxRA~/THhSPwltLkLN8CdLXUcEhBcB22xKEMMXJp8JW_q1wkr96q6pkobOHXWOq5PR7tGxhFBrUtPlrt6MxpXlk2mJBxPHbeMm_-z4tynF3daL57Kf32goB9DvkLQg4BqjhC0uw8GIa9EB7JyCui4XdnEPGQ~~",
@@ -20925,7 +20927,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T18:51:05+00:00",
-        "last_seen": "2026-11-22T00:52:10+00:00"
+        "last_seen": "2026-11-22T01:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20301969",
@@ -20970,7 +20972,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-21T17:51:24+00:00",
-        "last_seen": "2026-11-22T00:52:10+00:00"
+        "last_seen": "2026-11-22T01:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20349876",
@@ -21000,7 +21002,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T16:32:18+00:00",
-        "last_seen": "2026-11-22T00:52:10+00:00"
+        "last_seen": "2026-11-22T01:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20354991",
@@ -21105,7 +21107,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T07:12:10+00:00",
-        "last_seen": "2026-11-22T00:52:10+00:00"
+        "last_seen": "2026-11-22T01:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20347209",
@@ -21195,7 +21197,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 36% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-21T05:11:12+00:00",
-        "last_seen": "2026-11-22T00:52:10+00:00"
+        "last_seen": "2026-11-22T01:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20354499",
@@ -21360,7 +21362,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-21T00:31:18+00:00",
-        "last_seen": "2026-11-22T00:52:10+00:00"
+        "last_seen": "2026-11-22T01:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20338629",
@@ -21420,7 +21422,7 @@
         "published": false,
         "reject_reason": "H8: 할인 24% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-20T23:51:21+00:00",
-        "last_seen": "2026-11-22T00:52:10+00:00"
+        "last_seen": "2026-11-22T01:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339955",
@@ -21465,7 +21467,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T21:51:21+00:00",
-        "last_seen": "2026-11-22T00:52:10+00:00"
+        "last_seen": "2026-11-22T01:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20317857",
@@ -21645,7 +21647,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T16:51:10+00:00",
-        "last_seen": "2026-11-22T00:52:10+00:00"
+        "last_seen": "2026-11-22T01:01:13+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20353569",
