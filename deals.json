@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-22T09:21:47.917219+00:00",
-  "count": 318,
+  "generated_at": "2026-11-22T09:31:38.967369+00:00",
+  "count": 319,
   "deals": [
     {
       "source": "6pm.com",
@@ -852,7 +852,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 71,
+      "community_votes": 73,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -876,14 +876,14 @@
         "bonus": 0,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 71표/115분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 73표/126분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-21T16:32:00.133458+00:00",
-      "last_seen": "2026-11-22T09:21:09.983511+00:00",
+      "last_seen": "2026-11-22T09:31:38.939268+00:00",
       "posted_at": "2026-11-22T07:25:33+00:00",
       "signals": {
         "sd_feeds": [
@@ -893,9 +893,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Apple",
         "sd_hot_origin": true,
-        "sd_age_min": 115,
-        "sd_votes": 71,
-        "sd_velocity": 37.0,
+        "sd_age_min": 126,
+        "sd_votes": 73,
+        "sd_velocity": 34.8,
         "sd_fp_min": 6
       },
       "id": "8451fc2f85",
@@ -1311,14 +1311,14 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-21T07:11:47.983538+00:00",
-      "last_seen": "2026-11-22T09:21:09.983511+00:00",
+      "last_seen": "2026-11-22T09:31:38.939268+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Headphones, Headsets & Earbuds",
         "sd_store": "",
         "sd_brand": "JBL",
         "sd_hot_origin": false,
-        "sd_age_min": 1574,
+        "sd_age_min": 1584,
         "sd_votes": 26,
         "sd_velocity": 1.0,
         "sd_fp_min": 5
@@ -2577,6 +2577,73 @@
       ]
     },
     {
+      "source": "slickdeals:dickssportinggoods",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20357355",
+      "title": "Papillio by Birkenstock Women's Arizona Chunky Birko-Flor Platform Sandals (Blue) for $38.65 at Dick's Sporting Goods",
+      "brand": "Birkenstock",
+      "category": "premium_fashion",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20357355&t=15",
+      "price_current": 39.0,
+      "price_list": 124.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 26,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 52390,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://slickdeals.net/f/20357355",
+      "discount_pct": 68.5,
+      "score": 82,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 4,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-22T01:41:44.958656+00:00",
+      "last_seen": "2026-11-22T09:31:38.939268+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Sandals",
+        "sd_store": "",
+        "sd_brand": "Birkenstock",
+        "sd_hot_origin": false,
+        "sd_age_min": 478,
+        "sd_votes": 26,
+        "sd_velocity": 3.3,
+        "sd_fp_min": 9
+      },
+      "id": "c0cd9011b7",
+      "history": [
+        [
+          "2026-11-22",
+          39.0
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/vans-old-skool/9230401",
@@ -2665,73 +2732,6 @@
         [
           "2026-11-22",
           22.73
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:dickssportinggoods",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20357355",
-      "title": "Papillio by Birkenstock Women's Arizona Chunky Birko-Flor Platform Sandals (Blue) for $38.65 at Dick's Sporting Goods",
-      "brand": "Birkenstock",
-      "category": "premium_fashion",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20357355&t=15",
-      "price_current": 39.0,
-      "price_list": 124.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 26,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 52390,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://slickdeals.net/f/20357355",
-      "discount_pct": 68.5,
-      "score": 82,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 4,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-22T01:41:44.958656+00:00",
-      "last_seen": "2026-11-22T09:21:09.983511+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Sandals",
-        "sd_store": "",
-        "sd_brand": "Birkenstock",
-        "sd_hot_origin": false,
-        "sd_age_min": 468,
-        "sd_votes": 26,
-        "sd_velocity": 3.3,
-        "sd_fp_min": 9
-      },
-      "id": "c0cd9011b7",
-      "history": [
-        [
-          "2026-11-22",
-          39.0
         ]
       ]
     },
@@ -3123,7 +3123,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-22T08:02:11.003676+00:00",
-      "last_seen": "2026-11-22T09:21:09.983511+00:00",
+      "last_seen": "2026-11-22T09:31:38.939268+00:00",
       "posted_at": "2026-11-22T07:46:40+00:00",
       "signals": {
         "sd_feeds": [
@@ -3133,7 +3133,7 @@
         "sd_store": "Amazon",
         "sd_brand": "Bose",
         "sd_hot_origin": true,
-        "sd_age_min": 94,
+        "sd_age_min": 105,
         "sd_votes": 0,
         "sd_velocity": 0.0
       },
@@ -4085,6 +4085,81 @@
       ]
     },
     {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20355432",
+      "title": "50-Oz Amazon Essentials Liquid Hand Soap Refill (Milk & Honey) $3.10 w/ S&S",
+      "brand": "Amazon Essentials",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/2/1/9/3/4/6/6/300x300/22487319.thumb",
+      "price_current": 3.1,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 31,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 4164,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20355432",
+      "discount_pct": null,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 31표/119분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-20T11:30:59.968848+00:00",
+      "last_seen": "2026-11-22T09:31:38.939268+00:00",
+      "posted_at": "2026-11-22T07:32:15+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Body Wash, Bar Soap & Hand Soap",
+        "sd_store": "Amazon",
+        "sd_brand": "Amazon Essentials",
+        "sd_hot_origin": true,
+        "sd_age_min": 119,
+        "sd_votes": 31,
+        "sd_velocity": 15.6,
+        "sd_fp_min": 19
+      },
+      "id": "074ee36688",
+      "history": [
+        [
+          "2026-11-20",
+          3.1
+        ],
+        [
+          "2026-11-22",
+          3.1
+        ]
+      ]
+    },
+    {
       "source": "dealsofamerica",
       "source_tier": "T2",
       "url": "https://www.dealsofamerica.com/sylvox-kt16a0khga-r-tv/778154.htm",
@@ -4153,81 +4228,6 @@
         [
           "2026-11-22",
           99.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20355432",
-      "title": "50-Oz Amazon Essentials Liquid Hand Soap Refill (Milk & Honey) $3.10 w/ S&S",
-      "brand": "Amazon Essentials",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/2/1/9/3/4/6/6/300x300/22487319.thumb",
-      "price_current": 3.1,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 27,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 4164,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20355432",
-      "discount_pct": null,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 27표/109분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-20T11:30:59.968848+00:00",
-      "last_seen": "2026-11-22T09:21:09.983511+00:00",
-      "posted_at": "2026-11-22T07:32:15+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Body Wash, Bar Soap & Hand Soap",
-        "sd_store": "Amazon",
-        "sd_brand": "Amazon Essentials",
-        "sd_hot_origin": true,
-        "sd_age_min": 109,
-        "sd_votes": 27,
-        "sd_velocity": 14.9,
-        "sd_fp_min": 19
-      },
-      "id": "074ee36688",
-      "history": [
-        [
-          "2026-11-20",
-          3.1
-        ],
-        [
-          "2026-11-22",
-          3.1
         ]
       ]
     },
@@ -6219,6 +6219,148 @@
       ]
     },
     {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20362494",
+      "title": "Amazon Echo Dot Max (2025, newest model) for $50 at Amazon",
+      "brand": "Amazon",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20362494&t=15",
+      "price_current": 50.0,
+      "price_list": 119.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 3,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 67167,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20362494",
+      "discount_pct": 58.3,
+      "score": 79,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-21T09:41:52.996475+00:00",
+      "last_seen": "2026-11-22T09:31:38.939268+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Bluetooth Speakers & Smart Speakers",
+        "sd_store": "Amazon",
+        "sd_brand": "Amazon",
+        "sd_hot_origin": true,
+        "sd_age_min": 1444,
+        "sd_votes": 3,
+        "sd_velocity": 0.1,
+        "sd_fp_min": 975
+      },
+      "id": "9ec47166fe",
+      "history": [
+        [
+          "2026-11-21",
+          50.0
+        ],
+        [
+          "2026-11-22",
+          50.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20361018",
+      "title": "Beats Studio Buds + True Wireless Active Noise Cancelling Earbuds (Various) for from $89.95 at Amazon",
+      "brand": "Beats",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20361018&t=15",
+      "price_current": 90.0,
+      "price_list": 169.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 1,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 120900,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20361018",
+      "discount_pct": 47.1,
+      "score": 79,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-21T03:11:48.083385+00:00",
+      "last_seen": "2026-11-22T09:31:38.939268+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Headphones, Headsets & Earbuds",
+        "sd_store": "Best Buy",
+        "sd_brand": "Beats",
+        "sd_hot_origin": true,
+        "sd_age_min": 1865,
+        "sd_votes": 1,
+        "sd_velocity": 0.0,
+        "sd_fp_min": 984
+      },
+      "id": "0b43d5fbd5",
+      "history": [
+        [
+          "2026-11-21",
+          90.0
+        ],
+        [
+          "2026-11-22",
+          90.0
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20339022",
@@ -6285,148 +6427,6 @@
         [
           "2026-11-22",
           65.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20362494",
-      "title": "Amazon Echo Dot Max (2025, newest model) for $50 at Amazon",
-      "brand": "Amazon",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20362494&t=15",
-      "price_current": 50.0,
-      "price_list": 119.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 3,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 67167,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20362494",
-      "discount_pct": 58.3,
-      "score": 79,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-21T09:41:52.996475+00:00",
-      "last_seen": "2026-11-22T09:21:09.983511+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Bluetooth Speakers & Smart Speakers",
-        "sd_store": "Amazon",
-        "sd_brand": "Amazon",
-        "sd_hot_origin": true,
-        "sd_age_min": 1434,
-        "sd_votes": 3,
-        "sd_velocity": 0.1,
-        "sd_fp_min": 975
-      },
-      "id": "9ec47166fe",
-      "history": [
-        [
-          "2026-11-21",
-          50.0
-        ],
-        [
-          "2026-11-22",
-          50.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20361018",
-      "title": "Beats Studio Buds + True Wireless Active Noise Cancelling Earbuds (Various) for from $89.95 at Amazon",
-      "brand": "Beats",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20361018&t=15",
-      "price_current": 90.0,
-      "price_list": 169.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 1,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 120900,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20361018",
-      "discount_pct": 47.1,
-      "score": 79,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-21T03:11:48.083385+00:00",
-      "last_seen": "2026-11-22T09:21:09.983511+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Headphones, Headsets & Earbuds",
-        "sd_store": "Best Buy",
-        "sd_brand": "Beats",
-        "sd_hot_origin": true,
-        "sd_age_min": 1854,
-        "sd_votes": 1,
-        "sd_velocity": 0.0,
-        "sd_fp_min": 984
-      },
-      "id": "0b43d5fbd5",
-      "history": [
-        [
-          "2026-11-21",
-          90.0
-        ],
-        [
-          "2026-11-22",
-          90.0
         ]
       ]
     },
@@ -9214,16 +9214,17 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-22T08:20:43.755592+00:00",
-      "last_seen": "2026-11-22T09:21:09.983511+00:00",
+      "last_seen": "2026-11-22T09:31:38.939268+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Headphones, Headsets & Earbuds",
         "sd_store": "",
         "sd_brand": "Apple",
         "sd_hot_origin": false,
-        "sd_age_min": 60,
+        "sd_age_min": 78,
         "sd_votes": 128,
-        "sd_velocity": 127.9
+        "sd_velocity": 99.1,
+        "sd_fp_min": 7
       },
       "id": "e60416da20",
       "history": [
@@ -11945,14 +11946,14 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-21T07:51:38.361129+00:00",
-      "last_seen": "2026-11-22T09:21:09.983511+00:00",
+      "last_seen": "2026-11-22T09:31:38.939268+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Men's Shoes",
         "sd_store": "Nike",
         "sd_brand": "Nike",
         "sd_hot_origin": true,
-        "sd_age_min": 1544,
+        "sd_age_min": 1554,
         "sd_votes": 1,
         "sd_velocity": 0.0,
         "sd_fp_min": 734
@@ -12163,6 +12164,144 @@
       ]
     },
     {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20339670",
+      "title": "Anker Prime 3-Port up to 160W GaN USB-C Wall Charger w/ Touch Display for $100 at Amazon",
+      "brand": "Anker",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20339670&t=15",
+      "price_current": 100.0,
+      "price_list": 149.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 26,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 134333,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20339670",
+      "discount_pct": 33.3,
+      "score": 66,
+      "score_breakdown": {
+        "discount_depth": 20,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-22T05:50:49.319466+00:00",
+      "last_seen": "2026-11-22T09:31:38.939268+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Chargers & Power Banks",
+        "sd_store": "",
+        "sd_brand": "Anker",
+        "sd_hot_origin": false,
+        "sd_age_min": 222,
+        "sd_votes": 26,
+        "sd_velocity": 7.0,
+        "sd_fp_min": 2
+      },
+      "id": "213e8f10df",
+      "history": [
+        [
+          "2026-11-22",
+          100.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20362131",
+      "title": "TP-Link Kasa Smart Plug KP200 In-Wall Smart Home Wi-Fi Outlet for $14.75 at Amazon",
+      "brand": "TP-Link",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20362131&t=15",
+      "price_current": 15.0,
+      "price_list": 24.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 2,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 20150,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20362131",
+      "discount_pct": 40.0,
+      "score": 66,
+      "score_breakdown": {
+        "discount_depth": 20,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-21T07:51:38.361129+00:00",
+      "last_seen": "2026-11-22T09:31:38.939268+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Tech & Electronics",
+        "sd_store": "Amazon",
+        "sd_brand": "TP-Link",
+        "sd_hot_origin": true,
+        "sd_age_min": 1577,
+        "sd_votes": 2,
+        "sd_velocity": 0.1,
+        "sd_fp_min": 1247
+      },
+      "id": "0bd34bccd6",
+      "history": [
+        [
+          "2026-11-21",
+          15.0
+        ],
+        [
+          "2026-11-22",
+          15.0
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/nike-nkb-nsw-colorblock-fleece-pant/9248367",
@@ -12289,144 +12428,6 @@
         [
           "2026-11-22",
           18.04
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20339670",
-      "title": "Anker Prime 3-Port up to 160W GaN USB-C Wall Charger w/ Touch Display for $100 at Amazon",
-      "brand": "Anker",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20339670&t=15",
-      "price_current": 100.0,
-      "price_list": 149.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 26,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 134333,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20339670",
-      "discount_pct": 33.3,
-      "score": 66,
-      "score_breakdown": {
-        "discount_depth": 20,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-22T05:50:49.319466+00:00",
-      "last_seen": "2026-11-22T09:21:09.983511+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Chargers & Power Banks",
-        "sd_store": "",
-        "sd_brand": "Anker",
-        "sd_hot_origin": false,
-        "sd_age_min": 212,
-        "sd_votes": 26,
-        "sd_velocity": 7.4,
-        "sd_fp_min": 2
-      },
-      "id": "213e8f10df",
-      "history": [
-        [
-          "2026-11-22",
-          100.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20362131",
-      "title": "TP-Link Kasa Smart Plug KP200 In-Wall Smart Home Wi-Fi Outlet for $14.75 at Amazon",
-      "brand": "TP-Link",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20362131&t=15",
-      "price_current": 15.0,
-      "price_list": 24.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 2,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 20150,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20362131",
-      "discount_pct": 40.0,
-      "score": 66,
-      "score_breakdown": {
-        "discount_depth": 20,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-21T07:51:38.361129+00:00",
-      "last_seen": "2026-11-22T09:21:09.983511+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Tech & Electronics",
-        "sd_store": "Amazon",
-        "sd_brand": "TP-Link",
-        "sd_hot_origin": true,
-        "sd_age_min": 1567,
-        "sd_votes": 2,
-        "sd_velocity": 0.1,
-        "sd_fp_min": 1247
-      },
-      "id": "0bd34bccd6",
-      "history": [
-        [
-          "2026-11-21",
-          15.0
-        ],
-        [
-          "2026-11-22",
-          15.0
         ]
       ]
     },
@@ -13148,7 +13149,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 22,
+      "community_votes": 23,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -13178,7 +13179,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-21T07:51:38.361129+00:00",
-      "last_seen": "2026-11-22T09:21:09.983511+00:00",
+      "last_seen": "2026-11-22T09:31:38.939268+00:00",
       "posted_at": "2026-11-22T07:28:01+00:00",
       "signals": {
         "sd_feeds": [
@@ -13188,9 +13189,9 @@
         "sd_store": "Dick's Sporting Goods",
         "sd_brand": "HOKA",
         "sd_hot_origin": true,
-        "sd_age_min": 113,
-        "sd_votes": 22,
-        "sd_velocity": 11.7,
+        "sd_age_min": 123,
+        "sd_votes": 23,
+        "sd_velocity": 11.2,
         "sd_fp_min": 23
       },
       "id": "cfeba7f1f0",
@@ -17915,14 +17916,14 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-22T07:50:58.096910+00:00",
-      "last_seen": "2026-11-22T09:21:09.983511+00:00",
+      "last_seen": "2026-11-22T09:31:38.939268+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Lighting",
         "sd_store": "Amazon",
         "sd_brand": "Govee",
         "sd_hot_origin": true,
-        "sd_age_min": 4102,
+        "sd_age_min": 4113,
         "sd_votes": 26,
         "sd_velocity": 0.4,
         "sd_fp_min": 4013
@@ -20942,6 +20943,76 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20329701",
+      "title": "16-Ct Energizer Max Alkaline Batteries (AA or AAA) + Earn $5 Back on $20+ Offer $11 or Less + Free Pickup",
+      "brand": "Energizer",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/1/2/8/0/9/4/300x300/22406643.thumb",
+      "price_current": 11.0,
+      "price_list": 16.39,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 74,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 14777,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20329701",
+      "discount_pct": 32.9,
+      "score": 53,
+      "score_breakdown": {
+        "discount_depth": 20,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-22T09:31:18.334221+00:00",
+      "last_seen": "2026-11-22T09:31:38.939268+00:00",
+      "posted_at": "2026-11-22T08:31:42+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Batteries",
+        "sd_store": "",
+        "sd_brand": "Energizer",
+        "sd_hot_origin": false,
+        "sd_age_min": 60,
+        "sd_votes": 74,
+        "sd_velocity": 74.5,
+        "sd_fp_min": 60
+      },
+      "id": "1196224fad",
+      "history": [
+        [
+          "2026-11-22",
+          11.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
       "url": "https://slickdeals.net/f/20353104",
       "title": "Bosch PROFACTOR 18V Cordless 12\" Dual-Bevel Sliding Miter Saw (Tool Only) $329 & More + Free S&H",
       "brand": "Bosch",
@@ -21778,13 +21849,12 @@
   "fx_usd_krw": 1343.3,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-22T09:20:32+00:00",
+      "T1": "2026-11-22T09:30:38+00:00",
       "T2": "2026-11-22T09:21:11+00:00",
       "T3": "2026-11-22T08:31:17+00:00",
       "T4": "2026-11-22T07:41:12+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       1,
@@ -21813,14 +21883,15 @@
       8,
       10,
       10,
-      1
+      1,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-22T09:21:45+00:00",
+      "at": "2026-11-22T09:31:38+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -21829,13 +21900,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-22T09:21:46+00:00"
+      "at": "2026-11-22T09:31:38+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-22T09:20:47+00:00",
+        "at": "2026-11-22T09:31:18+00:00",
         "state": "정상",
         "mails": 28,
         "deals": 28
@@ -21861,7 +21932,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T08:21:05+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20343861",
@@ -21876,7 +21947,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T08:02:32+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20364108",
@@ -21891,7 +21962,7 @@
         "published": false,
         "reject_reason": "H8: 할인 16% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-22T07:31:40+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20364066",
@@ -21906,7 +21977,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T07:21:16+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20363562",
@@ -21921,7 +21992,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T06:51:23+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339670",
@@ -21936,7 +22007,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T05:51:11+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20351130",
@@ -21951,7 +22022,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Vacuums, Carpet Cleaners & Floor Cleaners)",
         "first_seen": "2026-11-22T05:31:21+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20347761",
@@ -21966,7 +22037,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T05:31:21+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20341065",
@@ -21981,7 +22052,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T05:13:21+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20362131",
@@ -21996,7 +22067,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T04:01:21+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20228949",
@@ -22011,7 +22082,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T03:31:15+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20353128",
@@ -22026,7 +22097,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-22T03:21:04+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20359020",
@@ -22041,7 +22112,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T03:02:08+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20281422",
@@ -22056,7 +22127,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Home & Home Improvement)",
         "first_seen": "2026-11-22T02:11:02+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20357355",
@@ -22071,7 +22142,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T01:42:09+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20228796",
@@ -22086,7 +22157,7 @@
         "published": false,
         "reject_reason": "H8: 할인 23% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-22T01:42:09+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20362494",
@@ -22101,7 +22172,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T01:42:09+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339487",
@@ -22236,7 +22307,7 @@
         "published": false,
         "reject_reason": "H7: Oura 할인 25% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-21T20:21:41+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339076",
@@ -22266,7 +22337,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T19:51:19+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://clicks.finishline.com/f/a/GACK7B8IRpO2qd7dgbB_Fw~~/AAQRxRA~/THhSPwltLkLN8CdLXUcEhBcB22xKEMMXJp8JW_q1wkr96q6pkobOHXWOq5PR7tGxhFBrUtPlrt6MxpXlk2mJBxPHbeMm_-z4tynF3daL57Kf32goB9DvkLQg4BqjhC0uw8GIa9EB7JyCui4XdnEPGQ~~",
@@ -22326,7 +22397,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T18:51:05+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20301969",
@@ -22371,7 +22442,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-21T17:51:24+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20349876",
@@ -22401,7 +22472,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T16:32:18+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20354991",
@@ -22506,7 +22577,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T07:12:10+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20347209",
@@ -22596,7 +22667,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 36% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-21T05:11:12+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20354499",
@@ -22761,7 +22832,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-21T00:31:18+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20338629",
@@ -22821,7 +22892,7 @@
         "published": false,
         "reject_reason": "H8: 할인 24% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-20T23:51:21+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339955",
@@ -22866,7 +22937,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T21:51:21+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20317857",
@@ -23046,7 +23117,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T16:51:10+00:00",
-        "last_seen": "2026-11-22T09:21:10+00:00"
+        "last_seen": "2026-11-22T09:31:38+00:00"
       }
     ],
     "totals": {
