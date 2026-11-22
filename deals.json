@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-22T01:35:07.855871+00:00",
-  "count": 303,
+  "generated_at": "2026-11-22T01:42:09.840594+00:00",
+  "count": 305,
   "deals": [
     {
       "source": "6pm.com",
@@ -865,14 +865,14 @@
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
         "code_deal": "공개코드 EXTRA50SALE → 하한 75",
-        "slickdeals": "Hot Deals 폭발 38표/59분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 38표/70분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-19T20:51:02.922458+00:00",
-      "last_seen": "2026-11-22T01:31:11.866970+00:00",
+      "last_seen": "2026-11-22T01:42:09.039139+00:00",
       "posted_at": "2026-11-22T00:32:10+00:00",
       "signals": {
         "sd_feeds": [
@@ -882,9 +882,9 @@
         "sd_store": "",
         "sd_brand": "adidas",
         "sd_hot_origin": true,
-        "sd_age_min": 59,
+        "sd_age_min": 70,
         "sd_votes": 38,
-        "sd_velocity": 38.9,
+        "sd_velocity": 32.8,
         "sd_fp_min": 9
       },
       "id": "1556450458",
@@ -1381,14 +1381,14 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-21T07:11:47.983538+00:00",
-      "last_seen": "2026-11-22T01:31:11.866970+00:00",
+      "last_seen": "2026-11-22T01:42:09.039139+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Headphones, Headsets & Earbuds",
         "sd_store": "",
         "sd_brand": "JBL",
         "sd_hot_origin": false,
-        "sd_age_min": 1104,
+        "sd_age_min": 1115,
         "sd_votes": 26,
         "sd_velocity": 1.4,
         "sd_fp_min": 5
@@ -2561,6 +2561,72 @@
       ]
     },
     {
+      "source": "slickdeals:dickssportinggoods",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20357355",
+      "title": "Papillio by Birkenstock Women's Arizona Chunky Birko-Flor Platform Sandals (Blue) for $38.65 at Dick's Sporting Goods",
+      "brand": "Birkenstock",
+      "category": "premium_fashion",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20357355&t=15",
+      "price_current": 39.0,
+      "price_list": 124.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 26,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 52390,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://slickdeals.net/f/20357355",
+      "discount_pct": 68.5,
+      "score": 82,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 4,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-22T01:41:44.958656+00:00",
+      "last_seen": "2026-11-22T01:42:09.039139+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Sandals",
+        "sd_store": "",
+        "sd_brand": "Birkenstock",
+        "sd_hot_origin": false,
+        "sd_age_min": 1,
+        "sd_votes": 26,
+        "sd_velocity": 156.0
+      },
+      "id": "c0cd9011b7",
+      "history": [
+        [
+          "2026-11-22",
+          39.0
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/vans-old-skool/9230401",
@@ -3715,6 +3781,160 @@
       ]
     },
     {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20332536",
+      "title": "7-Qt Crock-Pot Manual Slow Cooker w/ Removable Stoneware Insert (3 Colors) $34.95",
+      "brand": "Crock-Pot",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/2/1/9/3/4/6/6/300x300/22415109.thumb",
+      "price_current": 35.0,
+      "price_list": 79.99,
+      "price_baseline": null,
+      "price_alltime_low": 34.96,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 38,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 47017,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20332536",
+      "discount_pct": 56.2,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": 0,
+        "category": 5,
+        "bonus": 4,
+        "brand": 0,
+        "community": "투표 38+할인56% → 하한 55",
+        "slickdeals": "Hot Deals 급상승 38표/127분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-18T10:20:47.386076+00:00",
+      "last_seen": "2026-11-22T01:42:09.039139+00:00",
+      "posted_at": "2026-11-21T23:34:54+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Slow Cookers",
+        "sd_store": "Walmart",
+        "sd_brand": "Crock-Pot",
+        "sd_hot_origin": true,
+        "sd_age_min": 127,
+        "sd_votes": 38,
+        "sd_velocity": 18.0,
+        "sd_fp_min": 16
+      },
+      "id": "f8cbf54430",
+      "history": [
+        [
+          "2026-11-18",
+          34.96
+        ],
+        [
+          "2026-11-21",
+          35.0
+        ],
+        [
+          "2026-11-22",
+          35.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20363499",
+      "title": "70W Max Anker Nano 10-in-1 Desk Clamp Power Strip w/ 1500J Surge Protector & USB $56 + Free S&H",
+      "brand": "Anker",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/2/5/7/1/3/8/8/7/300x300/22507482.thumb",
+      "price_current": 56.0,
+      "price_list": 69.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 44,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 75227,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20363499",
+      "discount_pct": 20.0,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 8,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 44표/143분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-21T14:41:50.335042+00:00",
+      "last_seen": "2026-11-22T01:42:09.039139+00:00",
+      "posted_at": "2026-11-21T23:19:08+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Uninterruptible Power Supply (UPS), Surge Protectors & Powerstrips",
+        "sd_store": "Amazon",
+        "sd_brand": "Anker",
+        "sd_hot_origin": true,
+        "sd_age_min": 143,
+        "sd_votes": 44,
+        "sd_velocity": 18.5,
+        "sd_fp_min": 32
+      },
+      "id": "b216b5843a",
+      "history": [
+        [
+          "2026-11-21",
+          56.0
+        ],
+        [
+          "2026-11-22",
+          56.0
+        ]
+      ]
+    },
+    {
       "source": "dealsofamerica",
       "source_tier": "T2",
       "url": "https://www.dealsofamerica.com/sylvox-kt16a0khga-r-tv/778154.htm",
@@ -3783,160 +4003,6 @@
         [
           "2026-11-22",
           99.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20332536",
-      "title": "7-Qt Crock-Pot Manual Slow Cooker w/ Removable Stoneware Insert (3 Colors) $34.95",
-      "brand": "Crock-Pot",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/2/1/9/3/4/6/6/300x300/22415109.thumb",
-      "price_current": 35.0,
-      "price_list": 79.99,
-      "price_baseline": null,
-      "price_alltime_low": 34.96,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 38,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 47017,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20332536",
-      "discount_pct": 56.2,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": 0,
-        "category": 5,
-        "bonus": 4,
-        "brand": 0,
-        "community": "투표 38+할인56% → 하한 55",
-        "slickdeals": "Hot Deals 급상승 38표/116분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-18T10:20:47.386076+00:00",
-      "last_seen": "2026-11-22T01:31:11.866970+00:00",
-      "posted_at": "2026-11-21T23:34:54+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Slow Cookers",
-        "sd_store": "Walmart",
-        "sd_brand": "Crock-Pot",
-        "sd_hot_origin": true,
-        "sd_age_min": 116,
-        "sd_votes": 38,
-        "sd_velocity": 19.7,
-        "sd_fp_min": 16
-      },
-      "id": "f8cbf54430",
-      "history": [
-        [
-          "2026-11-18",
-          34.96
-        ],
-        [
-          "2026-11-21",
-          35.0
-        ],
-        [
-          "2026-11-22",
-          35.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20363499",
-      "title": "70W Max Anker Nano 10-in-1 Desk Clamp Power Strip w/ 1500J Surge Protector & USB $56 + Free S&H",
-      "brand": "Anker",
-      "category": "electronics",
-      "image": "https://static.slickdealscdn.com/attachment/2/5/7/1/3/8/8/7/300x300/22507482.thumb",
-      "price_current": 56.0,
-      "price_list": 69.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 44,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 75227,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20363499",
-      "discount_pct": 20.0,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 8,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 44표/132분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-21T14:41:50.335042+00:00",
-      "last_seen": "2026-11-22T01:31:11.866970+00:00",
-      "posted_at": "2026-11-21T23:19:08+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Uninterruptible Power Supply (UPS), Surge Protectors & Powerstrips",
-        "sd_store": "Amazon",
-        "sd_brand": "Anker",
-        "sd_hot_origin": true,
-        "sd_age_min": 132,
-        "sd_votes": 44,
-        "sd_velocity": 20.1,
-        "sd_fp_min": 32
-      },
-      "id": "b216b5843a",
-      "history": [
-        [
-          "2026-11-21",
-          56.0
-        ],
-        [
-          "2026-11-22",
-          56.0
         ]
       ]
     },
@@ -5616,6 +5682,74 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20366412",
+      "title": "Focusrite Vocaster Two | Podcasting Interface for Recording Host and Guest. 2 Mic Inputs and Headphone Outputs, with Auto Gain, Enhance, and",
+      "brand": "Focusrite",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/1/1/1/4/0/3/1/6/300x300/22514313.thumb",
+      "price_current": 70.0,
+      "price_list": 249.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 1,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 94033,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20366412",
+      "discount_pct": 72.0,
+      "score": 79,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-22T01:41:44.958656+00:00",
+      "last_seen": "2026-11-22T01:42:09.039139+00:00",
+      "posted_at": "2026-11-22T01:20:03+00:00",
+      "signals": {
+        "sd_feeds": [
+          "hotdeals"
+        ],
+        "sd_cat": "Musical Instruments",
+        "sd_store": "Amazon",
+        "sd_brand": "Focusrite",
+        "sd_hot_origin": true,
+        "sd_age_min": 22,
+        "sd_votes": 1,
+        "sd_velocity": 2.8
+      },
+      "id": "db63ad5daf",
+      "history": [
+        [
+          "2026-11-22",
+          70.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
       "url": "https://slickdeals.net/f/20364858",
       "title": "8.7\" Amazon Echo Show 8 HD Smart Display (2 Colors, Newest Model) $100 + Free S&H",
       "brand": "Amazon",
@@ -5660,7 +5794,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-22T00:41:06.611056+00:00",
-      "last_seen": "2026-11-22T01:31:11.866970+00:00",
+      "last_seen": "2026-11-22T01:42:09.039139+00:00",
       "posted_at": "2026-11-21T23:54:45+00:00",
       "signals": {
         "sd_feeds": [
@@ -5670,9 +5804,9 @@
         "sd_store": "",
         "sd_brand": "Amazon",
         "sd_hot_origin": false,
-        "sd_age_min": 96,
+        "sd_age_min": 107,
         "sd_votes": 27,
-        "sd_velocity": 16.9,
+        "sd_velocity": 15.1,
         "sd_fp_min": 46
       },
       "id": "8a17b27e63",
@@ -5730,7 +5864,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-21T23:50:56.623802+00:00",
-      "last_seen": "2026-11-22T01:31:11.866970+00:00",
+      "last_seen": "2026-11-22T01:42:09.039139+00:00",
       "posted_at": "2026-11-21T22:51:56+00:00",
       "signals": {
         "sd_feeds": [
@@ -5740,9 +5874,9 @@
         "sd_store": "Frndly TV",
         "sd_brand": "Hallmark",
         "sd_hot_origin": false,
-        "sd_age_min": 159,
+        "sd_age_min": 170,
         "sd_votes": 40,
-        "sd_velocity": 15.1,
+        "sd_velocity": 14.1,
         "sd_fp_min": 59
       },
       "id": "532963f86d",
@@ -5804,7 +5938,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-21T22:50:51.594059+00:00",
-      "last_seen": "2026-11-22T01:31:11.866970+00:00",
+      "last_seen": "2026-11-22T01:42:09.039139+00:00",
       "posted_at": "2026-11-21T22:28:24+00:00",
       "signals": {
         "sd_feeds": [
@@ -5814,9 +5948,9 @@
         "sd_store": "Amazon",
         "sd_brand": "UGREEN",
         "sd_hot_origin": false,
-        "sd_age_min": 182,
+        "sd_age_min": 193,
         "sd_votes": 34,
-        "sd_velocity": 11.2,
+        "sd_velocity": 10.6,
         "sd_fp_min": 22
       },
       "id": "305889b661",
@@ -5828,6 +5962,77 @@
         [
           "2026-11-22",
           33.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20362494",
+      "title": "Amazon Echo Dot Max (2025, newest model) for $50 at Amazon",
+      "brand": "Amazon",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20362494&t=15",
+      "price_current": 50.0,
+      "price_list": 119.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 3,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 67167,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20362494",
+      "discount_pct": 58.3,
+      "score": 79,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-21T09:41:52.996475+00:00",
+      "last_seen": "2026-11-22T01:42:09.039139+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Bluetooth Speakers & Smart Speakers",
+        "sd_store": "Amazon",
+        "sd_brand": "Amazon",
+        "sd_hot_origin": true,
+        "sd_age_min": 975,
+        "sd_votes": 3,
+        "sd_velocity": 0.2,
+        "sd_fp_min": 975
+      },
+      "id": "9ec47166fe",
+      "history": [
+        [
+          "2026-11-21",
+          50.0
+        ],
+        [
+          "2026-11-22",
+          50.0
         ]
       ]
     },
@@ -5878,14 +6083,14 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-21T03:11:48.083385+00:00",
-      "last_seen": "2026-11-22T01:31:11.866970+00:00",
+      "last_seen": "2026-11-22T01:42:09.039139+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Headphones, Headsets & Earbuds",
         "sd_store": "Best Buy",
         "sd_brand": "Beats",
         "sd_hot_origin": true,
-        "sd_age_min": 1384,
+        "sd_age_min": 1395,
         "sd_votes": 1,
         "sd_velocity": 0.0,
         "sd_fp_min": 984
@@ -6991,7 +7196,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-21T06:11:36.027300+00:00",
-      "last_seen": "2026-11-22T01:31:11.866970+00:00",
+      "last_seen": "2026-11-22T01:42:09.039139+00:00",
       "posted_at": "2026-11-21T22:22:23+00:00",
       "signals": {
         "sd_feeds": [
@@ -7001,9 +7206,9 @@
         "sd_store": "Macy's",
         "sd_brand": "TUMI",
         "sd_hot_origin": true,
-        "sd_age_min": 188,
+        "sd_age_min": 199,
         "sd_votes": 41,
-        "sd_velocity": 13.1,
+        "sd_velocity": 12.3,
         "sd_fp_min": 28
       },
       "id": "3bc1f05839",
@@ -8390,7 +8595,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-21T23:50:56.623802+00:00",
-      "last_seen": "2026-11-22T01:31:11.866970+00:00",
+      "last_seen": "2026-11-22T01:42:09.039139+00:00",
       "posted_at": "2026-11-21T22:56:42+00:00",
       "signals": {
         "sd_feeds": [
@@ -8400,9 +8605,9 @@
         "sd_store": "",
         "sd_brand": "lululemon",
         "sd_hot_origin": false,
-        "sd_age_min": 154,
+        "sd_age_min": 165,
         "sd_votes": 34,
-        "sd_velocity": 13.2,
+        "sd_velocity": 12.4,
         "sd_fp_min": 54
       },
       "id": "d1324d67b6",
@@ -9223,74 +9428,6 @@
         [
           "2026-11-21",
           64.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20362494",
-      "title": "$49.99 | Amazon Echo Dot Max (newest model) at Amazon",
-      "brand": "Amazon",
-      "category": "electronics",
-      "image": "https://static.slickdealscdn.com/attachment/1/1/7/1/5/2/7/300x300/22505442.thumb",
-      "price_current": 50.0,
-      "price_list": 119.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 3,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 66549,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20362494",
-      "discount_pct": 58.3,
-      "score": 73,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-21T09:41:52.996475+00:00",
-      "last_seen": "2026-11-21T10:31:30.732555+00:00",
-      "posted_at": "2026-11-21T09:26:51+00:00",
-      "signals": {
-        "sd_feeds": [
-          "hotdeals"
-        ],
-        "sd_cat": "Bluetooth Speakers & Smart Speakers",
-        "sd_store": "Amazon",
-        "sd_brand": "Amazon",
-        "sd_hot_origin": true,
-        "sd_age_min": 64,
-        "sd_votes": 3,
-        "sd_velocity": 2.8
-      },
-      "id": "9ec47166fe",
-      "history": [
-        [
-          "2026-11-21",
-          50.0
         ]
       ]
     },
@@ -10404,7 +10541,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-21T03:11:48.083385+00:00",
-      "last_seen": "2026-11-22T01:31:11.866970+00:00",
+      "last_seen": "2026-11-22T01:42:09.039139+00:00",
       "posted_at": "2026-11-21T21:57:58+00:00",
       "signals": {
         "sd_feeds": [
@@ -10414,9 +10551,9 @@
         "sd_store": "Amazon",
         "sd_brand": "National Tree Company",
         "sd_hot_origin": true,
-        "sd_age_min": 213,
+        "sd_age_min": 224,
         "sd_votes": 35,
-        "sd_velocity": 9.9,
+        "sd_velocity": 9.4,
         "sd_fp_min": 53
       },
       "id": "3b8684538f",
@@ -20618,7 +20755,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-21T22:20:50.178043+00:00",
-      "last_seen": "2026-11-22T01:31:11.866970+00:00",
+      "last_seen": "2026-11-22T01:42:09.039139+00:00",
       "posted_at": "2026-11-21T22:18:31+00:00",
       "signals": {
         "sd_feeds": [
@@ -20628,9 +20765,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Tapo",
         "sd_hot_origin": false,
-        "sd_age_min": 192,
+        "sd_age_min": 203,
         "sd_votes": 37,
-        "sd_velocity": 11.5,
+        "sd_velocity": 10.9,
         "sd_fp_min": 2
       },
       "id": "0761d17ec0",
@@ -20649,13 +20786,12 @@
   "fx_usd_krw": 1343.3,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-22T01:30:40+00:00",
+      "T1": "2026-11-22T01:40:30+00:00",
       "T2": "2026-11-22T01:31:13+00:00",
       "T3": "2026-11-21T23:51:23+00:00",
       "T4": "2026-11-22T01:31:51+00:00"
     },
     "recent_gaps_min": [
-      9,
       10,
       9,
       1,
@@ -20684,14 +20820,15 @@
       10,
       10,
       1,
-      3
+      3,
+      7
     ],
     "naver": {
       "keys": true,
-      "queried": 50,
+      "queried": 25,
       "matched": 0,
-      "errors": 50,
-      "at": "2026-11-22T01:35:07+00:00",
+      "errors": 25,
+      "at": "2026-11-22T01:42:08+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -20700,16 +20837,16 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-22T01:31:50+00:00"
+      "at": "2026-11-22T01:42:09+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-22T01:30:46+00:00",
+        "at": "2026-11-22T01:41:40+00:00",
         "state": "정상",
-        "mails": 11,
-        "deals": 11
+        "mails": 14,
+        "deals": 14
       },
       "newsletter": {
         "at": "2026-11-22T01:34:43+00:00",
@@ -20719,6 +20856,51 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20357355",
+        "source": "slickdeals:dickssportinggoods",
+        "title": "Papillio by Birkenstock Women's Arizona Chunky Birko-Flor Platform Sandals (Blue) for $38.65 at Dick's Sporting Goods",
+        "price": 39.0,
+        "list_price": 124.0,
+        "discount_pct": 68.5,
+        "krw": 52390,
+        "kr_lowest": null,
+        "score": 82,
+        "published": true,
+        "reject_reason": "",
+        "first_seen": "2026-11-22T01:42:09+00:00",
+        "last_seen": "2026-11-22T01:42:09+00:00"
+      },
+      {
+        "url": "https://slickdeals.net/f/20228796",
+        "source": "slickdeals:amazon.com",
+        "title": "63\" Govee RGBIC Smart Lantern Floor Lamp w/ Halo Gradient for $100 at Amazon",
+        "price": 100.0,
+        "list_price": 129.99,
+        "discount_pct": 23.1,
+        "krw": 134333,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H8: 할인 23% < 25% (허접 할인 제외)",
+        "first_seen": "2026-11-22T01:42:09+00:00",
+        "last_seen": "2026-11-22T01:42:09+00:00"
+      },
+      {
+        "url": "https://slickdeals.net/f/20362494",
+        "source": "slickdeals:amazon.com",
+        "title": "Amazon Echo Dot Max (2025, newest model) for $50 at Amazon",
+        "price": 50.0,
+        "list_price": 119.99,
+        "discount_pct": 58.3,
+        "krw": 67167,
+        "kr_lowest": null,
+        "score": 79,
+        "published": true,
+        "reject_reason": "",
+        "first_seen": "2026-11-22T01:42:09+00:00",
+        "last_seen": "2026-11-22T01:42:09+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20339487",
         "source": "slickdeals:bestbuy.com",
@@ -20852,7 +21034,7 @@
         "published": false,
         "reject_reason": "H7: Oura 할인 25% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-21T20:21:41+00:00",
-        "last_seen": "2026-11-22T01:31:11+00:00"
+        "last_seen": "2026-11-22T01:42:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339076",
@@ -20882,7 +21064,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T19:51:19+00:00",
-        "last_seen": "2026-11-22T01:31:11+00:00"
+        "last_seen": "2026-11-22T01:42:09+00:00"
       },
       {
         "url": "https://clicks.finishline.com/f/a/GACK7B8IRpO2qd7dgbB_Fw~~/AAQRxRA~/THhSPwltLkLN8CdLXUcEhBcB22xKEMMXJp8JW_q1wkr96q6pkobOHXWOq5PR7tGxhFBrUtPlrt6MxpXlk2mJBxPHbeMm_-z4tynF3daL57Kf32goB9DvkLQg4BqjhC0uw8GIa9EB7JyCui4XdnEPGQ~~",
@@ -20942,7 +21124,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T18:51:05+00:00",
-        "last_seen": "2026-11-22T01:31:11+00:00"
+        "last_seen": "2026-11-22T01:42:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20301969",
@@ -20987,7 +21169,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-21T17:51:24+00:00",
-        "last_seen": "2026-11-22T01:31:11+00:00"
+        "last_seen": "2026-11-22T01:42:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20349876",
@@ -21017,7 +21199,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T16:32:18+00:00",
-        "last_seen": "2026-11-22T01:31:11+00:00"
+        "last_seen": "2026-11-22T01:42:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20354991",
@@ -21122,7 +21304,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T07:12:10+00:00",
-        "last_seen": "2026-11-22T01:31:11+00:00"
+        "last_seen": "2026-11-22T01:42:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20347209",
@@ -21212,7 +21394,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 36% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-21T05:11:12+00:00",
-        "last_seen": "2026-11-22T01:31:11+00:00"
+        "last_seen": "2026-11-22T01:42:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20354499",
@@ -21377,7 +21559,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-21T00:31:18+00:00",
-        "last_seen": "2026-11-22T01:31:11+00:00"
+        "last_seen": "2026-11-22T01:42:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20338629",
@@ -21437,7 +21619,7 @@
         "published": false,
         "reject_reason": "H8: 할인 24% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-20T23:51:21+00:00",
-        "last_seen": "2026-11-22T01:31:11+00:00"
+        "last_seen": "2026-11-22T01:42:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339955",
@@ -21482,7 +21664,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T21:51:21+00:00",
-        "last_seen": "2026-11-22T01:31:11+00:00"
+        "last_seen": "2026-11-22T01:42:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20317857",
@@ -21662,7 +21844,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T16:51:10+00:00",
-        "last_seen": "2026-11-22T01:31:11+00:00"
+        "last_seen": "2026-11-22T01:42:09+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20353569",
@@ -21873,56 +22055,11 @@
         "reject_reason": "H7: Oura 할인 25% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-20T05:51:09+00:00",
         "last_seen": "2026-11-21T00:52:20+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20279736",
-        "source": "slickdeals:amazon.com",
-        "title": "Anker SOLIX S5000 LFP 5,024Wh, 4,500W Power Station for $2500 at Amazon",
-        "price": 2.0,
-        "list_price": 3599.99,
-        "discount_pct": 99.9,
-        "krw": 2662,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Portable Power Stations)",
-        "first_seen": "2026-11-20T05:31:29+00:00",
-        "last_seen": "2026-11-21T00:52:20+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20311917",
-        "source": "slickdeals:amazon.com",
-        "title": "GoveeLife Smart Nugget Ice Maker Pro w/ 60lbs Daily Output Capacity for $350 at Amazon",
-        "price": 350.0,
-        "list_price": 499.99,
-        "discount_pct": 30.0,
-        "krw": 553419,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H7: Govee 할인 30% < 40% (유명 브랜드 최소 할인)",
-        "first_seen": "2026-11-20T05:01:28+00:00",
-        "last_seen": "2026-11-21T00:52:20+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20339655",
-        "source": "slickdeals:amazon.com",
-        "title": "100' Govee Permanent Outdoor Lights 2 w/ 72 RGBIC LED Lights for $180 at Amazon",
-        "price": 180.0,
-        "list_price": 279.99,
-        "discount_pct": 35.7,
-        "krw": 239575,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H7: Govee 할인 36% < 40% (유명 브랜드 최소 할인)",
-        "first_seen": "2026-11-20T04:51:42+00:00",
-        "last_seen": "2026-11-21T00:52:20+00:00"
       }
     ],
     "totals": {
       "collected_72h": 80,
-      "published_72h": 33
+      "published_72h": 35
     }
   }
 }
