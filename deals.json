@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T08:32:16.815931+00:00",
+  "generated_at": "2026-11-22T08:41:24.522250+00:00",
   "count": 319,
   "deals": [
     {
@@ -876,14 +876,14 @@
         "bonus": 0,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 71표/65분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 71표/76분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-21T16:32:00.133458+00:00",
-      "last_seen": "2026-11-22T08:31:16.087661+00:00",
+      "last_seen": "2026-11-22T08:41:24.483993+00:00",
       "posted_at": "2026-11-22T07:25:33+00:00",
       "signals": {
         "sd_feeds": [
@@ -893,9 +893,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Apple",
         "sd_hot_origin": true,
-        "sd_age_min": 65,
+        "sd_age_min": 76,
         "sd_votes": 71,
-        "sd_velocity": 65.2,
+        "sd_velocity": 56.4,
         "sd_fp_min": 6
       },
       "id": "8451fc2f85",
@@ -1129,6 +1129,77 @@
       ]
     },
     {
+      "source": "slickdeals:bestbuy.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20338752",
+      "title": "JBL Tune 245NC True Wireless Noise Cancelling Earbuds (Black) for $39.95 at Best Buy",
+      "brand": "JBL",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20338752&t=15",
+      "price_current": 40.0,
+      "price_list": 109.95,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 26,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 53733,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20338752",
+      "discount_pct": 63.6,
+      "score": 87,
+      "score_breakdown": {
+        "discount_depth": 36,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-21T07:11:47.983538+00:00",
+      "last_seen": "2026-11-22T08:41:24.483993+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Headphones, Headsets & Earbuds",
+        "sd_store": "",
+        "sd_brand": "JBL",
+        "sd_hot_origin": false,
+        "sd_age_min": 1534,
+        "sd_votes": 26,
+        "sd_velocity": 1.0,
+        "sd_fp_min": 5
+      },
+      "id": "b749e320ef",
+      "history": [
+        [
+          "2026-11-21",
+          40.0
+        ],
+        [
+          "2026-11-22",
+          40.0
+        ]
+      ]
+    },
+    {
       "source": "6pm.com",
       "source_tier": "T3",
       "url": "https://www.6pm.com/product/10062622",
@@ -1190,77 +1261,6 @@
         [
           "2026-11-22",
           31.8
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:bestbuy.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20338752",
-      "title": "JBL Tune 245NC True Wireless Noise Cancelling Earbuds (Black) for $39.95 at Best Buy",
-      "brand": "JBL",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20338752&t=15",
-      "price_current": 40.0,
-      "price_list": 109.95,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 26,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 53733,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20338752",
-      "discount_pct": 63.6,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 36,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-21T07:11:47.983538+00:00",
-      "last_seen": "2026-11-22T08:31:16.087661+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Headphones, Headsets & Earbuds",
-        "sd_store": "",
-        "sd_brand": "JBL",
-        "sd_hot_origin": false,
-        "sd_age_min": 1524,
-        "sd_votes": 26,
-        "sd_velocity": 1.0,
-        "sd_fp_min": 5
-      },
-      "id": "b749e320ef",
-      "history": [
-        [
-          "2026-11-21",
-          40.0
-        ],
-        [
-          "2026-11-22",
-          40.0
         ]
       ]
     },
@@ -2145,7 +2145,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-22T06:51:03.866514+00:00",
-      "last_seen": "2026-11-22T08:31:16.087661+00:00",
+      "last_seen": "2026-11-22T08:41:24.483993+00:00",
       "posted_at": "2026-11-22T06:15:43+00:00",
       "signals": {
         "sd_feeds": [
@@ -2154,9 +2154,9 @@
         "sd_cat": "Headphones, Headsets & Earbuds",
         "sd_store": "",
         "sd_hot_origin": false,
-        "sd_age_min": 135,
+        "sd_age_min": 145,
         "sd_votes": 21,
-        "sd_velocity": 9.3,
+        "sd_velocity": 8.7,
         "sd_fp_min": 35
       },
       "id": "5b3645efe4",
@@ -2487,16 +2487,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-22T01:41:44.958656+00:00",
-      "last_seen": "2026-11-22T08:31:16.087661+00:00",
+      "last_seen": "2026-11-22T08:41:24.483993+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Sandals",
         "sd_store": "",
         "sd_brand": "Birkenstock",
         "sd_hot_origin": false,
-        "sd_age_min": 418,
+        "sd_age_min": 428,
         "sd_votes": 26,
-        "sd_velocity": 3.7,
+        "sd_velocity": 3.6,
         "sd_fp_min": 9
       },
       "id": "c0cd9011b7",
@@ -2987,7 +2987,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-22T08:02:11.003676+00:00",
-      "last_seen": "2026-11-22T08:31:16.087661+00:00",
+      "last_seen": "2026-11-22T08:41:24.483993+00:00",
       "posted_at": "2026-11-22T07:46:40+00:00",
       "signals": {
         "sd_feeds": [
@@ -2997,7 +2997,7 @@
         "sd_store": "Amazon",
         "sd_brand": "Bose",
         "sd_hot_origin": true,
-        "sd_age_min": 44,
+        "sd_age_min": 54,
         "sd_votes": 0,
         "sd_velocity": 0.0
       },
@@ -3057,7 +3057,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-22T06:51:03.866514+00:00",
-      "last_seen": "2026-11-22T08:31:16.087661+00:00",
+      "last_seen": "2026-11-22T08:41:24.483993+00:00",
       "posted_at": "2026-11-22T06:37:04+00:00",
       "signals": {
         "sd_feeds": [
@@ -3067,9 +3067,9 @@
         "sd_store": "",
         "sd_brand": "adidas",
         "sd_hot_origin": false,
-        "sd_age_min": 114,
+        "sd_age_min": 124,
         "sd_votes": 30,
-        "sd_velocity": 15.8,
+        "sd_velocity": 14.5,
         "sd_fp_min": 14
       },
       "id": "3576396150",
@@ -3128,7 +3128,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-20T21:22:05.420374+00:00",
-      "last_seen": "2026-11-22T08:31:16.087661+00:00",
+      "last_seen": "2026-11-22T08:41:24.483993+00:00",
       "posted_at": "2026-11-22T06:35:05+00:00",
       "signals": {
         "sd_feeds": [
@@ -3138,9 +3138,9 @@
         "sd_store": "Adorama",
         "sd_brand": "Energy",
         "sd_hot_origin": true,
-        "sd_age_min": 116,
+        "sd_age_min": 126,
         "sd_votes": 23,
-        "sd_velocity": 11.9,
+        "sd_velocity": 11.0,
         "sd_fp_min": 16
       },
       "id": "4a937ae977",
@@ -3203,7 +3203,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-21T05:31:51.227525+00:00",
-      "last_seen": "2026-11-22T08:31:16.087661+00:00",
+      "last_seen": "2026-11-22T08:41:24.483993+00:00",
       "posted_at": "2026-11-22T05:58:16+00:00",
       "signals": {
         "sd_feeds": [
@@ -3213,9 +3213,9 @@
         "sd_store": "eBay",
         "sd_brand": "adidas",
         "sd_hot_origin": true,
-        "sd_age_min": 153,
+        "sd_age_min": 163,
         "sd_votes": 30,
-        "sd_velocity": 11.8,
+        "sd_velocity": 11.1,
         "sd_fp_min": 53
       },
       "id": "f6f3f9cf4f",
@@ -3949,6 +3949,156 @@
       ]
     },
     {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20355432",
+      "title": "50-Oz Amazon Essentials Liquid Hand Soap Refill (Milk & Honey) $3.10 w/ S&S",
+      "brand": "Amazon Essentials",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/2/1/9/3/4/6/6/300x300/22487319.thumb",
+      "price_current": 3.1,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 27,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 4164,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20355432",
+      "discount_pct": null,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 27표/69분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-20T11:30:59.968848+00:00",
+      "last_seen": "2026-11-22T08:41:24.483993+00:00",
+      "posted_at": "2026-11-22T07:32:15+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Body Wash, Bar Soap & Hand Soap",
+        "sd_store": "Amazon",
+        "sd_brand": "Amazon Essentials",
+        "sd_hot_origin": true,
+        "sd_age_min": 69,
+        "sd_votes": 27,
+        "sd_velocity": 23.5,
+        "sd_fp_min": 19
+      },
+      "id": "074ee36688",
+      "history": [
+        [
+          "2026-11-20",
+          3.1
+        ],
+        [
+          "2026-11-22",
+          3.1
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20362167",
+      "title": "HOKA Women's Arahi 8 Running Shoes (Black/Black) $87 + Free S&H",
+      "brand": "Hoka",
+      "category": "sports_outdoor",
+      "image": "https://static.slickdealscdn.com/attachment/2/0/5/3/8/1/8/4/300x300/22504482.thumb",
+      "price_current": 87.0,
+      "price_list": 149.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 22,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 116870,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://slickdeals.net/f/20362167",
+      "discount_pct": 42.0,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 17,
+        "bonus": 4,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 22표/73분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-21T07:51:38.361129+00:00",
+      "last_seen": "2026-11-22T08:41:24.483993+00:00",
+      "posted_at": "2026-11-22T07:28:01+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Women's Shoes",
+        "sd_store": "Dick's Sporting Goods",
+        "sd_brand": "HOKA",
+        "sd_hot_origin": true,
+        "sd_age_min": 73,
+        "sd_votes": 22,
+        "sd_velocity": 18.1,
+        "sd_fp_min": 23
+      },
+      "id": "cfeba7f1f0",
+      "history": [
+        [
+          "2026-11-21",
+          87.0
+        ],
+        [
+          "2026-11-22",
+          87.0
+        ]
+      ]
+    },
+    {
       "source": "6pm.com",
       "source_tier": "T3",
       "url": "https://www.6pm.com/product/10073200",
@@ -4006,156 +4156,6 @@
         [
           "2026-11-22",
           19.96
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20355432",
-      "title": "50-Oz Amazon Essentials Liquid Hand Soap Refill (Milk & Honey) $3.10 w/ S&S",
-      "brand": "Amazon Essentials",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/2/1/9/3/4/6/6/300x300/22487319.thumb",
-      "price_current": 3.1,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 27,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 4164,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20355432",
-      "discount_pct": null,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 27표/59분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-20T11:30:59.968848+00:00",
-      "last_seen": "2026-11-22T08:31:16.087661+00:00",
-      "posted_at": "2026-11-22T07:32:15+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Body Wash, Bar Soap & Hand Soap",
-        "sd_store": "Amazon",
-        "sd_brand": "Amazon Essentials",
-        "sd_hot_origin": true,
-        "sd_age_min": 59,
-        "sd_votes": 27,
-        "sd_velocity": 27.6,
-        "sd_fp_min": 19
-      },
-      "id": "074ee36688",
-      "history": [
-        [
-          "2026-11-20",
-          3.1
-        ],
-        [
-          "2026-11-22",
-          3.1
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20362167",
-      "title": "HOKA Women's Arahi 8 Running Shoes (Black/Black) $87 + Free S&H",
-      "brand": "Hoka",
-      "category": "sports_outdoor",
-      "image": "https://static.slickdealscdn.com/attachment/2/0/5/3/8/1/8/4/300x300/22504482.thumb",
-      "price_current": 87.0,
-      "price_list": 149.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 22,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 116870,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://slickdeals.net/f/20362167",
-      "discount_pct": 42.0,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 17,
-        "bonus": 4,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 22표/63분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-21T07:51:38.361129+00:00",
-      "last_seen": "2026-11-22T08:31:16.087661+00:00",
-      "posted_at": "2026-11-22T07:28:01+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Women's Shoes",
-        "sd_store": "Dick's Sporting Goods",
-        "sd_brand": "HOKA",
-        "sd_hot_origin": true,
-        "sd_age_min": 63,
-        "sd_votes": 22,
-        "sd_velocity": 21.0,
-        "sd_fp_min": 23
-      },
-      "id": "cfeba7f1f0",
-      "history": [
-        [
-          "2026-11-21",
-          87.0
-        ],
-        [
-          "2026-11-22",
-          87.0
         ]
       ]
     },
@@ -6160,78 +6160,6 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20336013",
-      "title": "Nike Men's Swift 3 Running Shoes (Various Colors) $51 & More + Free S&H",
-      "brand": "Nike",
-      "category": "sports_outdoor",
-      "image": "https://static.slickdealscdn.com/attachment/3/0/4/6/9/4/2/0/300x300/22425324.thumb",
-      "price_current": 51.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 24,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 67880,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20336013",
-      "discount_pct": null,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 24표/100분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-18T21:40:48.355664+00:00",
-      "last_seen": "2026-11-20T08:41:13.560404+00:00",
-      "posted_at": "2026-11-20T07:00:55+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_hot_origin": true,
-        "sd_age_min": 100,
-        "sd_votes": 24,
-        "sd_velocity": 14.4,
-        "sd_fp_min": 40
-      },
-      "id": "f86273c7f8",
-      "history": [
-        [
-          "2026-11-18",
-          51.0
-        ],
-        [
-          "2026-11-20",
-          51.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
       "url": "https://slickdeals.net/f/20339022",
       "title": "JLab Epic Mechanical Full-Size Wireless Keyboard (Black) $65 + Free S&H",
       "brand": "JLab",
@@ -6276,7 +6204,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-22T06:01:09.686812+00:00",
-      "last_seen": "2026-11-22T08:31:16.087661+00:00",
+      "last_seen": "2026-11-22T08:41:24.483993+00:00",
       "posted_at": "2026-11-22T05:35:49+00:00",
       "signals": {
         "sd_feeds": [
@@ -6286,9 +6214,9 @@
         "sd_store": "",
         "sd_brand": "JLab",
         "sd_hot_origin": false,
-        "sd_age_min": 175,
+        "sd_age_min": 185,
         "sd_votes": 30,
-        "sd_velocity": 10.3,
+        "sd_velocity": 9.7,
         "sd_fp_min": 25
       },
       "id": "3d373f5b5b",
@@ -6346,14 +6274,14 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-21T09:41:52.996475+00:00",
-      "last_seen": "2026-11-22T08:31:16.087661+00:00",
+      "last_seen": "2026-11-22T08:41:24.483993+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Bluetooth Speakers & Smart Speakers",
         "sd_store": "Amazon",
         "sd_brand": "Amazon",
         "sd_hot_origin": true,
-        "sd_age_min": 1384,
+        "sd_age_min": 1394,
         "sd_votes": 3,
         "sd_velocity": 0.1,
         "sd_fp_min": 975
@@ -6417,14 +6345,14 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-21T03:11:48.083385+00:00",
-      "last_seen": "2026-11-22T08:31:16.087661+00:00",
+      "last_seen": "2026-11-22T08:41:24.483993+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Headphones, Headsets & Earbuds",
         "sd_store": "Best Buy",
         "sd_brand": "Beats",
         "sd_hot_origin": true,
-        "sd_age_min": 1804,
+        "sd_age_min": 1814,
         "sd_votes": 1,
         "sd_velocity": 0.0,
         "sd_fp_min": 984
@@ -9317,6 +9245,72 @@
       ]
     },
     {
+      "source": "slickdeals:target.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20329407",
+      "title": "Apple AirPods Pro 3 Wireless Earbuds w/ Charging Case (White) for $170 at Target",
+      "brand": "Apple",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20329407&t=15",
+      "price_current": 170.0,
+      "price_list": 249.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 128,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 228366,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20329407",
+      "discount_pct": 32.0,
+      "score": 74,
+      "score_breakdown": {
+        "discount_depth": 20,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-22T08:20:43.755592+00:00",
+      "last_seen": "2026-11-22T08:41:24.483993+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Headphones, Headsets & Earbuds",
+        "sd_store": "",
+        "sd_brand": "Apple",
+        "sd_hot_origin": false,
+        "sd_age_min": 20,
+        "sd_votes": 128,
+        "sd_velocity": 377.0
+      },
+      "id": "e60416da20",
+      "history": [
+        [
+          "2026-11-22",
+          170.0
+        ]
+      ]
+    },
+    {
       "source": "ashford.com",
       "source_tier": "T3",
       "url": "https://www.ashford.com/products/bugatti-48m-gry-rx",
@@ -9649,72 +9643,6 @@
         [
           "2026-11-22",
           15.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:target.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20329407",
-      "title": "Apple AirPods Pro 3 Wireless Earbuds w/ Charging Case (White) for $170 at Target",
-      "brand": "Apple",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20329407&t=15",
-      "price_current": 170.0,
-      "price_list": 249.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 128,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 228366,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20329407",
-      "discount_pct": 32.0,
-      "score": 74,
-      "score_breakdown": {
-        "discount_depth": 20,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-22T08:20:43.755592+00:00",
-      "last_seen": "2026-11-22T08:31:16.087661+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Headphones, Headsets & Earbuds",
-        "sd_store": "",
-        "sd_brand": "Apple",
-        "sd_hot_origin": false,
-        "sd_age_min": 10,
-        "sd_votes": 128,
-        "sd_velocity": 757.5
-      },
-      "id": "e60416da20",
-      "history": [
-        [
-          "2026-11-22",
-          170.0
         ]
       ]
     },
@@ -12048,6 +11976,77 @@
       ]
     },
     {
+      "source": "slickdeals:nike.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20362200",
+      "title": "Nike Men's Air Max Uptempo Shoes (White/Purple) for $80.25 at Nike",
+      "brand": "Nike",
+      "category": "sports_outdoor",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20362200&t=15",
+      "price_current": 80.0,
+      "price_list": 170.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 1,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 107466,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20362200",
+      "discount_pct": 52.9,
+      "score": 67,
+      "score_breakdown": {
+        "discount_depth": 26,
+        "price_history": null,
+        "category": 17,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-21T07:51:38.361129+00:00",
+      "last_seen": "2026-11-22T08:41:24.483993+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Men's Shoes",
+        "sd_store": "Nike",
+        "sd_brand": "Nike",
+        "sd_hot_origin": true,
+        "sd_age_min": 1504,
+        "sd_votes": 1,
+        "sd_velocity": 0.0,
+        "sd_fp_min": 734
+      },
+      "id": "1fc1884d20",
+      "history": [
+        [
+          "2026-11-21",
+          80.0
+        ],
+        [
+          "2026-11-22",
+          80.0
+        ]
+      ]
+    },
+    {
       "source": "zappos.com",
       "source_tier": "T2",
       "url": "https://www.zappos.com/product/9163855",
@@ -12287,16 +12286,16 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-22T05:50:49.319466+00:00",
-      "last_seen": "2026-11-22T08:31:16.087661+00:00",
+      "last_seen": "2026-11-22T08:41:24.483993+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Chargers & Power Banks",
         "sd_store": "",
         "sd_brand": "Anker",
         "sd_hot_origin": false,
-        "sd_age_min": 162,
+        "sd_age_min": 172,
         "sd_votes": 26,
-        "sd_velocity": 9.6,
+        "sd_velocity": 9.1,
         "sd_fp_min": 2
       },
       "id": "213e8f10df",
@@ -12354,14 +12353,14 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-21T07:51:38.361129+00:00",
-      "last_seen": "2026-11-22T08:31:16.087661+00:00",
+      "last_seen": "2026-11-22T08:41:24.483993+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Tech & Electronics",
         "sd_store": "Amazon",
         "sd_brand": "TP-Link",
         "sd_hot_origin": true,
-        "sd_age_min": 1517,
+        "sd_age_min": 1527,
         "sd_votes": 2,
         "sd_velocity": 0.1,
         "sd_fp_min": 1247
@@ -14609,7 +14608,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-21T01:41:54.637604+00:00",
-      "last_seen": "2026-11-22T08:31:16.087661+00:00",
+      "last_seen": "2026-11-22T08:41:24.483993+00:00",
       "posted_at": "2026-11-22T06:18:54+00:00",
       "signals": {
         "sd_feeds": [
@@ -14619,9 +14618,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Badia",
         "sd_hot_origin": true,
-        "sd_age_min": 132,
+        "sd_age_min": 142,
         "sd_votes": 26,
-        "sd_velocity": 11.8,
+        "sd_velocity": 11.0,
         "sd_fp_min": 32
       },
       "id": "5ae4b9eb76",
@@ -17919,14 +17918,14 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-22T07:50:58.096910+00:00",
-      "last_seen": "2026-11-22T08:31:16.087661+00:00",
+      "last_seen": "2026-11-22T08:41:24.483993+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Lighting",
         "sd_store": "Amazon",
         "sd_brand": "Govee",
         "sd_hot_origin": true,
-        "sd_age_min": 4053,
+        "sd_age_min": 4063,
         "sd_votes": 26,
         "sd_velocity": 0.4,
         "sd_fp_min": 4013
@@ -21844,13 +21843,12 @@
   "fx_usd_krw": 1343.3,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-22T08:30:38+00:00",
+      "T1": "2026-11-22T08:40:50+00:00",
       "T2": "2026-11-22T08:02:34+00:00",
       "T3": "2026-11-22T08:31:17+00:00",
       "T4": "2026-11-22T07:41:12+00:00"
     },
     "recent_gaps_min": [
-      9,
       12,
       7,
       11,
@@ -21879,14 +21877,15 @@
       8,
       10,
       10,
-      1
+      1,
+      9
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-22T08:32:16+00:00",
+      "at": "2026-11-22T08:41:24+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -21895,13 +21894,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-22T08:32:16+00:00"
+      "at": "2026-11-22T08:41:24+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-22T08:30:49+00:00",
+        "at": "2026-11-22T08:41:05+00:00",
         "state": "정상",
         "mails": 28,
         "deals": 28
@@ -21927,7 +21926,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T08:21:05+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20343861",
@@ -21942,7 +21941,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T08:02:32+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20364108",
@@ -21957,7 +21956,7 @@
         "published": false,
         "reject_reason": "H8: 할인 16% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-22T07:31:40+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20364066",
@@ -21972,7 +21971,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T07:21:16+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20363562",
@@ -21987,7 +21986,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T06:51:23+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339670",
@@ -22002,7 +22001,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T05:51:11+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20351130",
@@ -22017,7 +22016,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Vacuums, Carpet Cleaners & Floor Cleaners)",
         "first_seen": "2026-11-22T05:31:21+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20347761",
@@ -22032,7 +22031,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T05:31:21+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20341065",
@@ -22047,7 +22046,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T05:13:21+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20362131",
@@ -22062,7 +22061,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T04:01:21+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20228949",
@@ -22077,7 +22076,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T03:31:15+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20353128",
@@ -22092,7 +22091,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-22T03:21:04+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20359020",
@@ -22107,7 +22106,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T03:02:08+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20281422",
@@ -22122,7 +22121,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Home & Home Improvement)",
         "first_seen": "2026-11-22T02:11:02+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20357355",
@@ -22137,7 +22136,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T01:42:09+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20228796",
@@ -22152,7 +22151,7 @@
         "published": false,
         "reject_reason": "H8: 할인 23% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-22T01:42:09+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20362494",
@@ -22167,7 +22166,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T01:42:09+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339487",
@@ -22302,7 +22301,7 @@
         "published": false,
         "reject_reason": "H7: Oura 할인 25% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-21T20:21:41+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339076",
@@ -22332,7 +22331,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T19:51:19+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://clicks.finishline.com/f/a/GACK7B8IRpO2qd7dgbB_Fw~~/AAQRxRA~/THhSPwltLkLN8CdLXUcEhBcB22xKEMMXJp8JW_q1wkr96q6pkobOHXWOq5PR7tGxhFBrUtPlrt6MxpXlk2mJBxPHbeMm_-z4tynF3daL57Kf32goB9DvkLQg4BqjhC0uw8GIa9EB7JyCui4XdnEPGQ~~",
@@ -22392,7 +22391,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T18:51:05+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20301969",
@@ -22437,7 +22436,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-21T17:51:24+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20349876",
@@ -22467,7 +22466,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T16:32:18+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20354991",
@@ -22572,7 +22571,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-21T07:12:10+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20347209",
@@ -22662,7 +22661,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 36% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-21T05:11:12+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20354499",
@@ -22827,7 +22826,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 39% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-21T00:31:18+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20338629",
@@ -22887,7 +22886,7 @@
         "published": false,
         "reject_reason": "H8: 할인 24% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-20T23:51:21+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20339955",
@@ -22932,7 +22931,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T21:51:21+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20317857",
@@ -23112,7 +23111,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-20T16:51:10+00:00",
-        "last_seen": "2026-11-22T08:31:16+00:00"
+        "last_seen": "2026-11-22T08:41:24+00:00"
       }
     ],
     "totals": {
