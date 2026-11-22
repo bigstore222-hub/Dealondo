@@ -1,92 +1,5 @@
 {
  "drafts": {
-  "565de611": {
-   "created": "2026-11-20T18:59:42+09:00",
-   "url": "https://www.zappos.com/product/10055681",
-   "deal": {
-    "source": "zappos.com",
-    "source_tier": "T2",
-    "url": "https://www.zappos.com/product/10055681",
-    "title": "Amara Toe Cap Sling Pumps",
-    "brand": "Michael Kors",
-    "category": "premium_fashion",
-    "image": "https://m.media-amazon.com/images/I/51nm5TwtxIL._AC_SR255,340_.jpg",
-    "price_current": 104.65,
-    "price_list": 149.5,
-    "price_baseline": 139.5,
-    "price_alltime_low": null,
-    "currency": "USD",
-    "coupon_code": "",
-    "coupon_stackable": false,
-    "off_season": false,
-    "free_gift": false,
-    "community_votes": null,
-    "rating": null,
-    "review_count": null,
-    "ships_to_kr": true,
-    "forwarding_ok": true,
-    "krw_effective": 139286,
-    "kr_lowest_price": null,
-    "stock_status": "in_stock",
-    "is_refurbished": false,
-    "expires_at": null,
-    "collection_method": "scrape",
-    "frontpage": false,
-    "code_kind": "",
-    "brand_tier": "premium",
-    "buy_url": "https://www.zappos.com/product/10055681",
-    "discount_pct": 30,
-    "score": 71,
-    "score_breakdown": {
-     "discount_depth": 30,
-     "price_history": null,
-     "category": 20,
-     "bonus": 0,
-     "brand": 12,
-     "note": "가격이력 미축적 → 87점 척도 정규화"
-    },
-    "passed_hard_filter": true,
-    "reject_reason": "",
-    "urgency": "HOT",
-    "detected_at": "2026-11-19T19:41:32.668177+00:00",
-    "last_seen": "2026-11-20T07:31:50.033130+00:00",
-    "posted_at": "",
-    "signals": {},
-    "id": "84ac26f524",
-    "history": [
-     [
-      "2026-11-19",
-      41.85
-     ],
-     [
-      "2026-11-20",
-      41.85
-     ]
-    ]
-   },
-   "seen": "2026-11-20T18:59:36.609394+09:00",
-   "text": "Zappos에 마이클 코어스 펌프스 30% 할인 떴어요.\n\n관부가세 없음(미국발 $200 이하).\n환율 계산하면 약 13만 9천 원이에요.\n\n이 가격, 직구해볼 만할까요?",
-   "reply": "상품 링크: https://www.zappos.com/product/10055681\n다른 사이즈·색상은 링크에서 확인하세요.",
-   "notes": [
-    "가격이 바뀌었어요: $41.85 → $104.65 (상품 페이지 기준)"
-   ],
-   "angle": "basic",
-   "already": false,
-   "photo_msg": 4115,
-   "msg": 4116,
-   "status": "posted",
-   "link": "https://www.threads.com/@deal_ondo/post/Df9Y_3EIWUU"
-  },
-  "2a691d54": {
-   "created": "2026-11-20T19:51:10+09:00",
-   "url": "https://www.macys.com/shop/product/ugg-womens-ellison-fluff-shell-jacket?ID=28338736",
-   "hint": {
-    "at": 1795171234,
-    "title": "UGG Womens Ellison Fluff Shell Jacket"
-   },
-   "status": "waiting_price",
-   "msg": 4119
-  },
   "f0c17d8e": {
    "created": "2026-11-20T22:21:08+09:00",
    "url": "https://www.macys.com/shop/product/tommy-hilfiger-womens-roll-tab-sleeve-collared-shirt?ID=25474552&swatchColor=Villa+Stp+Ecru+City+Yellow",
@@ -1381,7 +1294,6 @@
   }
  },
  "done_updates": [
-  303762764,
   303762765,
   303762766,
   303762769,
@@ -1667,11 +1579,6 @@
  ],
  "runs": [
   {
-   "at": "2026-11-20T20:22:25+09:00",
-   "updates": 0,
-   "errors": []
-  },
-  {
    "at": "2026-11-20T21:56:30+09:00",
    "updates": 0,
    "errors": []
@@ -1867,6 +1774,11 @@
    "at": "2026-11-22T18:38:59+09:00",
    "updates": 1,
    "errors": []
+  },
+  {
+   "at": "2026-11-22T20:23:25+09:00",
+   "updates": 0,
+   "errors": []
   }
  ],
  "info": {
@@ -1934,6 +1846,14 @@
     "status": "posted",
     "link": "https://www.threads.com/@deal_ondo/post/DgBzxVlkV4v",
     "error": ""
+   },
+   "2026-11-22-evening": {
+    "tries": 1,
+    "at": "2026-11-22T20:21:21+09:00",
+    "id": "R02",
+    "status": "posted",
+    "link": "https://www.threads.com/@deal_ondo/post/DgCr5dQm6HX",
+    "error": ""
    }
   },
   "log": [
@@ -2000,6 +1920,14 @@
     "slot": "lunch",
     "link": "https://www.threads.com/@deal_ondo/post/DgBzxVlkV4v",
     "first_line": "블프 D-5, 지금 관부가세 없이 받는 브랜드 딜 3개."
+   },
+   {
+    "at": "2026-11-22T20:21:21+09:00",
+    "id": "R02",
+    "type": "repost",
+    "slot": "evening",
+    "link": "https://www.threads.com/@deal_ondo/post/DgCr5dQm6HX",
+    "first_line": "직구할 때 제일 무서운 건 사이즈죠."
    }
   ]
  }
