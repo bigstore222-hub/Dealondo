@@ -1246,12 +1246,83 @@
    "msg": 4335,
    "status": "posted",
    "link": "https://www.threads.com/@deal_ondo/post/DgBuMTtGqn1"
+  },
+  "d4c8acea": {
+   "created": "2026-11-22T11:41:09+09:00",
+   "url": "https://www.zappos.com/product/9921339",
+   "deal": {
+    "source": "zappos.com",
+    "source_tier": "T2",
+    "url": "https://www.zappos.com/product/9921339",
+    "title": "Amphibious Long Sleeve Sun Tee (Little Kid/Big Kid)",
+    "brand": "The North Face",
+    "category": "premium_fashion",
+    "image": "https://m.media-amazon.com/images/I/51G1Y7Cd6xL._AC_SR255,340_.jpg",
+    "price_current": 13.5,
+    "price_list": 45.0,
+    "price_baseline": 45.0,
+    "price_alltime_low": null,
+    "currency": "USD",
+    "coupon_code": "",
+    "coupon_stackable": false,
+    "off_season": false,
+    "free_gift": false,
+    "community_votes": null,
+    "rating": null,
+    "review_count": null,
+    "ships_to_kr": true,
+    "forwarding_ok": true,
+    "krw_effective": 18135,
+    "kr_lowest_price": null,
+    "stock_status": "in_stock",
+    "is_refurbished": false,
+    "expires_at": null,
+    "collection_method": "scrape",
+    "frontpage": false,
+    "code_kind": "",
+    "brand_tier": "premium",
+    "buy_url": "https://www.zappos.com/product/9921339",
+    "discount_pct": 70.0,
+    "score": 77,
+    "score_breakdown": {
+     "discount_depth": 35,
+     "price_history": null,
+     "category": 20,
+     "bonus": 0,
+     "brand": 12,
+     "note": "가격이력 미축적 → 87점 척도 정규화"
+    },
+    "passed_hard_filter": true,
+    "reject_reason": "",
+    "urgency": "HOT",
+    "detected_at": "2026-11-21T21:41:32.688136+00:00",
+    "last_seen": "2026-11-22T02:11:41.061682+00:00",
+    "posted_at": "",
+    "signals": {},
+    "id": "7685c9f349",
+    "history": [
+     [
+      "2026-11-21",
+      13.5
+     ],
+     [
+      "2026-11-22",
+      13.5
+     ]
+    ]
+   },
+   "seen": "2026-11-22T11:41:03.423212+09:00",
+   "text": "$13.50짜리 노스페이스 티셔츠, 사이즈만 맞으면 이득이에요.\n\nZappos · 70% 할인해서 $13.50 (정가 $45)\n관부가세 없음(미국발 $200 이하).\n미국 사이즈는 브랜드마다 달라서, 상품 페이지 사이즈표를 꼭 보고 고르세요.\n\n미국 사이즈, 평소보다 반 치수 작게 사세요 크게 사세요?",
+   "reply": "상품 링크: https://www.zappos.com/product/9921339\n다른 사이즈·색상은 링크에서 확인하세요.",
+   "notes": [],
+   "angle": "size",
+   "already": false,
+   "photo_msg": 4342,
+   "msg": 4343,
+   "status": "waiting"
   }
  },
  "done_updates": [
-  303762754,
-  303762756,
-  303762757,
   303762759,
   303762760,
   303762761,
@@ -1490,7 +1561,8 @@
   "2026-11-20-점심": "03ffb439",
   "2026-11-20-저녁": "565de611",
   "2026-11-21-점심": "3cc61cea",
-  "2026-11-21-저녁": "ce7be73b"
+  "2026-11-21-저녁": "ce7be73b",
+  "2026-11-22-점심": "d4c8acea"
  },
  "picked_urls": [
   "6pm.com/product/9961271",
@@ -1529,14 +1601,10 @@
   "zappos.com/product/10049833",
   "zappos.com/product/10055681",
   "6pm.com/product/10062622",
-  "nordstromrack.com/s/new-balance-gender-inclusive-530-sneaker/8503132"
+  "nordstromrack.com/s/new-balance-gender-inclusive-530-sneaker/8503132",
+  "zappos.com/product/9921339"
  ],
  "runs": [
-  {
-   "at": "2026-11-20T09:02:31+09:00",
-   "updates": 0,
-   "errors": []
-  },
   {
    "at": "2026-11-20T09:38:15+09:00",
    "updates": 1,
@@ -1732,6 +1800,11 @@
   {
    "at": "2026-11-22T11:30:08+09:00",
    "updates": 3,
+   "errors": []
+  },
+  {
+   "at": "2026-11-22T11:49:56+09:00",
+   "updates": 0,
    "errors": []
   }
  ],
