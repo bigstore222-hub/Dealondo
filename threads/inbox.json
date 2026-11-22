@@ -1296,10 +1296,91 @@
    "msg": 4375,
    "status": "posted",
    "link": "https://www.threads.com/@deal_ondo/post/DgCYdkZG5cA"
+  },
+  "81f50736": {
+   "created": "2026-11-22T18:31:24+09:00",
+   "url": "https://www.zappos.com/product/10031451",
+   "deal": {
+    "source": "zappos.com",
+    "source_tier": "T2",
+    "url": "https://www.zappos.com/product/10031451",
+    "title": "Victory Dri-FIT Short Sleeve Cropped Golf Polo",
+    "brand": "Nike",
+    "category": "premium_fashion",
+    "image": "https://m.media-amazon.com/images/I/61yCCUsgXPL._AC_SR255,340_.jpg",
+    "price_current": 16.25,
+    "price_list": 65.0,
+    "price_baseline": 65.0,
+    "price_alltime_low": 16.25,
+    "currency": "USD",
+    "coupon_code": "",
+    "coupon_stackable": false,
+    "off_season": false,
+    "free_gift": false,
+    "community_votes": null,
+    "rating": null,
+    "review_count": null,
+    "ships_to_kr": true,
+    "forwarding_ok": true,
+    "krw_effective": 21829,
+    "kr_lowest_price": null,
+    "stock_status": "in_stock",
+    "is_refurbished": false,
+    "expires_at": null,
+    "collection_method": "scrape",
+    "frontpage": false,
+    "code_kind": "",
+    "brand_tier": "known",
+    "buy_url": "https://www.zappos.com/product/10031451",
+    "discount_pct": 75.0,
+    "score": 90,
+    "score_breakdown": {
+     "discount_depth": 35,
+     "price_history": 25,
+     "category": 20,
+     "bonus": 4,
+     "brand": 6
+    },
+    "passed_hard_filter": true,
+    "reject_reason": "",
+    "urgency": "FLASH",
+    "detected_at": "2026-11-19T08:41:23.407247+00:00",
+    "last_seen": "2026-11-22T09:21:46.218235+00:00",
+    "posted_at": "",
+    "signals": {},
+    "id": "c040b18db4",
+    "history": [
+     [
+      "2026-11-19",
+      16.25
+     ],
+     [
+      "2026-11-20",
+      16.25
+     ],
+     [
+      "2026-11-21",
+      16.25
+     ],
+     [
+      "2026-11-22",
+      16.25
+     ]
+    ]
+   },
+   "seen": "2026-11-22T18:31:18.586136+09:00",
+   "text": "나이키 폴로셔츠, $65짜리가 $16.25, 75% 할인.\n\n관부가세 없음(미국발 $200 이하).\n원화로 약 2만 2천 원, 여기에 배대지 배송비만 더하면 돼요.\n\n이 정도면 장바구니 담으시겠어요?",
+   "reply": "상품 링크: https://www.zappos.com/product/10031451\n블프까지 이런 딜을 골라서 계속 올려요.",
+   "notes": [],
+   "angle": "basic",
+   "already": false,
+   "photo_msg": 4378,
+   "msg": 4379,
+   "status": "posted",
+   "link": "https://www.threads.com/@deal_ondo/post/DgCf7tFFpm1"
   }
  },
  "done_updates": [
-  303762763,
   303762764,
   303762765,
   303762766,
@@ -1499,7 +1580,8 @@
   303763010,
   303763011,
   303763012,
-  303763013
+  303763013,
+  303763014
  ],
  "picks": {
   "2026-10-30-점심": "3ffe07d9",
@@ -1539,7 +1621,8 @@
   "2026-11-20-저녁": "565de611",
   "2026-11-21-점심": "3cc61cea",
   "2026-11-21-저녁": "ce7be73b",
-  "2026-11-22-점심": "d4c8acea"
+  "2026-11-22-점심": "d4c8acea",
+  "2026-11-22-저녁": "81f50736"
  },
  "picked_urls": [
   "6pm.com/product/9961271",
@@ -1579,14 +1662,10 @@
   "zappos.com/product/10055681",
   "6pm.com/product/10062622",
   "nordstromrack.com/s/new-balance-gender-inclusive-530-sneaker/8503132",
-  "zappos.com/product/9921339"
+  "zappos.com/product/9921339",
+  "zappos.com/product/10031451"
  ],
  "runs": [
-  {
-   "at": "2026-11-20T20:00:00+09:00",
-   "updates": 1,
-   "errors": []
-  },
   {
    "at": "2026-11-20T20:22:25+09:00",
    "updates": 0,
@@ -1781,6 +1860,11 @@
   },
   {
    "at": "2026-11-22T17:33:41+09:00",
+   "updates": 1,
+   "errors": []
+  },
+  {
+   "at": "2026-11-22T18:38:59+09:00",
    "updates": 1,
    "errors": []
   }
