@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T05:31:22.130851+00:00",
-  "count": 266,
+  "generated_at": "2026-11-23T05:41:31.903031+00:00",
+  "count": 265,
   "deals": [
     {
       "source": "6pm.com",
@@ -633,6 +633,71 @@
           100.0
         ]
       ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20364201",
+      "title": "DiscountMugs Sale: up to 70% Off Clearance + Sitewide Savings Coupon 20% Off",
+      "brand": "",
+      "category": "home",
+      "image": "https://static.slickdealscdn.com/attachment/3/7/4/7/9/3/300x300/22509609.thumb",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "BFCM26",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 28,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20364201",
+      "discount_pct": null,
+      "score": 92,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 8,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 폭발 28표/22분 → 하한 86",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-23T05:40:45.660174+00:00",
+      "last_seen": "2026-11-23T05:41:31.876727+00:00",
+      "posted_at": "2026-11-23T05:18:53+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Kitchenware & Cookware",
+        "sd_store": "DiscountMugs",
+        "sd_hot_origin": true,
+        "sd_age_min": 22,
+        "sd_votes": 28,
+        "sd_velocity": 75.2,
+        "sd_fp_min": 22
+      },
+      "id": "cf7f3ed378",
+      "history": []
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1331,14 +1396,14 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-20T22:42:02.546711+00:00",
-      "last_seen": "2026-11-23T05:31:20.715955+00:00",
+      "last_seen": "2026-11-23T05:41:31.876727+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Projectors",
         "sd_store": "Amazon",
         "sd_brand": "Anker",
         "sd_hot_origin": true,
-        "sd_age_min": 3322,
+        "sd_age_min": 3332,
         "sd_votes": 2,
         "sd_velocity": 0.0,
         "sd_fp_min": 3202
@@ -3730,82 +3795,6 @@
         [
           "2026-11-23",
           1.0
-        ]
-      ]
-    },
-    {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/sylvox-kt16a0khga-r-tv/778154.htm",
-      "title": "Sylvox 15.6\" 360-Degree Rotatable 90-Degree Flip Down Under Cabinet Smart TV",
-      "brand": "",
-      "category": "electronics",
-      "image": "https://d16f00g4zitf8i.cloudfront.net/images/sylvox-kt16a0khga-r-tv.jpg",
-      "price_current": 99.0,
-      "price_list": 299.0,
-      "price_baseline": null,
-      "price_alltime_low": 99.0,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 133016,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.dealsofamerica.com/sylvox-kt16a0khga-r-tv/778154.htm",
-      "discount_pct": 66.9,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 36,
-        "price_history": 25,
-        "category": 15,
-        "bonus": 4,
-        "brand": 0
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-18T21:41:31.206640+00:00",
-      "last_seen": "2026-11-23T05:22:40.058768+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "467e6a658f",
-      "history": [
-        [
-          "2026-11-18",
-          99.0
-        ],
-        [
-          "2026-11-19",
-          99.0
-        ],
-        [
-          "2026-11-20",
-          99.0
-        ],
-        [
-          "2026-11-21",
-          99.0
-        ],
-        [
-          "2026-11-22",
-          99.0
-        ],
-        [
-          "2026-11-23",
-          99.0
         ]
       ]
     },
@@ -6622,81 +6611,6 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20350386",
-      "title": "16-Oz Owala FreeSip Insulated Stainless Steel Water Bottle w/ Straw from $19",
-      "brand": "Owala",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/1/7/1/5/2/7/300x300/22473489.thumb",
-      "price_current": 19.0,
-      "price_list": 24.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 32,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 25288,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20350386",
-      "discount_pct": 24.0,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 8,
-        "price_history": null,
-        "category": 5,
-        "bonus": 4,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 32표/156분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-19T22:31:00.198968+00:00",
-      "last_seen": "2026-11-21T05:32:15.852757+00:00",
-      "posted_at": "2026-11-21T02:55:27+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Water Bottles",
-        "sd_store": "Amazon",
-        "sd_brand": "Owala",
-        "sd_hot_origin": true,
-        "sd_age_min": 156,
-        "sd_votes": 32,
-        "sd_velocity": 12.3,
-        "sd_fp_min": 16
-      },
-      "id": "b93c9331e5",
-      "history": [
-        [
-          "2026-11-19",
-          18.99
-        ],
-        [
-          "2026-11-21",
-          19.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
       "url": "https://slickdeals.net/f/20368563",
       "title": "HyperX Cloud Stinger 2 Core Wired Gaming Headset for PS4/PS5 $20",
       "brand": "HyperX",
@@ -6711,7 +6625,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 29,
+      "community_votes": 30,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -6741,7 +6655,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-23T04:01:20.994177+00:00",
-      "last_seen": "2026-11-23T05:31:20.715955+00:00",
+      "last_seen": "2026-11-23T05:41:31.876727+00:00",
       "posted_at": "2026-11-23T03:40:24+00:00",
       "signals": {
         "sd_feeds": [
@@ -6751,9 +6665,9 @@
         "sd_store": "Amazon",
         "sd_brand": "HyperX",
         "sd_hot_origin": false,
-        "sd_age_min": 111,
-        "sd_votes": 29,
-        "sd_velocity": 15.7,
+        "sd_age_min": 121,
+        "sd_votes": 30,
+        "sd_velocity": 14.9,
         "sd_fp_min": 21
       },
       "id": "6fe5d84576",
@@ -10560,16 +10474,17 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-23T04:50:41.918647+00:00",
-      "last_seen": "2026-11-23T05:31:20.715955+00:00",
+      "last_seen": "2026-11-23T05:41:31.876727+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Lighting",
         "sd_store": "",
         "sd_brand": "Philips",
         "sd_hot_origin": false,
-        "sd_age_min": 40,
+        "sd_age_min": 62,
         "sd_votes": 21,
-        "sd_velocity": 31.3
+        "sd_velocity": 20.4,
+        "sd_fp_min": 11
       },
       "id": "a7cc677e4d",
       "history": [
@@ -11078,13 +10993,13 @@
     {
       "source": "slickdeals:nike.com",
       "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20367273",
-      "title": "Nike Women's Cortez Shoes (Various) for $45 at Nike",
+      "url": "https://slickdeals.net/f/20367324",
+      "title": "Nike Men's Air Baltoro SP Shoes (Baroque Brown/Midnight Navy/Black/Midnight Green) for $69.75 at Nike",
       "brand": "Nike",
       "category": "sports_outdoor",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20367273&t=15",
-      "price_current": 45.0,
-      "price_list": 95.0,
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20367324&t=15",
+      "price_current": 70.0,
+      "price_list": 145.0,
       "price_baseline": null,
       "price_alltime_low": null,
       "currency": "USD",
@@ -11092,12 +11007,12 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 0,
+      "community_votes": 31,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 60462,
+      "krw_effective": 94052,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -11106,8 +11021,8 @@
       "frontpage": true,
       "code_kind": "",
       "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20367273",
-      "discount_pct": 52.6,
+      "buy_url": "https://slickdeals.net/f/20367324",
+      "discount_pct": 51.7,
       "score": 67,
       "score_breakdown": {
         "discount_depth": 26,
@@ -11121,28 +11036,24 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-22T05:41:40.394763+00:00",
-      "last_seen": "2026-11-23T05:31:20.715955+00:00",
+      "detected_at": "2026-11-23T04:11:34.976415+00:00",
+      "last_seen": "2026-11-23T05:41:31.876727+00:00",
       "posted_at": "",
       "signals": {
-        "sd_cat": "Women's Shoes",
-        "sd_store": "Nike",
+        "sd_cat": "Men's Shoes",
+        "sd_store": "",
         "sd_brand": "Nike",
-        "sd_hot_origin": true,
-        "sd_age_min": 1437,
-        "sd_votes": 0,
-        "sd_velocity": 0.0,
-        "sd_fp_min": 1267
+        "sd_hot_origin": false,
+        "sd_age_min": 95,
+        "sd_votes": 31,
+        "sd_velocity": 19.5,
+        "sd_fp_min": 6
       },
-      "id": "9f2e72e737",
+      "id": "da52bbcd1d",
       "history": [
         [
-          "2026-11-22",
-          45.0
-        ],
-        [
           "2026-11-23",
-          45.0
+          70.0
         ]
       ]
     },
@@ -11575,16 +11486,17 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-23T05:10:55.381525+00:00",
-      "last_seen": "2026-11-23T05:31:20.715955+00:00",
+      "last_seen": "2026-11-23T05:41:31.876727+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Headphones, Headsets & Earbuds",
         "sd_store": "",
         "sd_brand": "Apple",
         "sd_hot_origin": false,
-        "sd_age_min": 20,
+        "sd_age_min": 40,
         "sd_votes": 16,
-        "sd_velocity": 47.8
+        "sd_velocity": 24.1,
+        "sd_fp_min": 10
       },
       "id": "fbcff4106e",
       "history": [
@@ -18482,7 +18394,7 @@
   "fx_usd_krw": 1343.6,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-23T05:30:52+00:00",
+      "T1": "2026-11-23T05:40:42+00:00",
       "T2": "2026-11-23T05:22:05+00:00",
       "T3": "2026-11-23T03:51:04+00:00",
       "T4": "2026-11-23T02:11:46+00:00"
@@ -18516,14 +18428,15 @@
       10,
       11,
       1,
-      9
+      9,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-23T05:31:20+00:00",
+      "at": "2026-11-23T05:41:31+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -18532,16 +18445,16 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-23T05:31:20+00:00"
+      "at": "2026-11-23T05:41:31+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-23T05:31:00+00:00",
+        "at": "2026-11-23T05:41:12+00:00",
         "state": "정상",
-        "mails": 10,
-        "deals": 10
+        "mails": 11,
+        "deals": 11
       },
       "newsletter": {
         "at": "2026-11-23T02:14:40+00:00",
@@ -18551,6 +18464,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20355597",
+        "source": "slickdeals:amazon.com",
+        "title": "30.2 Qt Ninja Double Oven Pro Smart XL 12-in-1 Countertop Oven & Air Fryer for $250 at Amazon",
+        "price": 250.0,
+        "list_price": 379.99,
+        "discount_pct": 34.2,
+        "krw": 399048,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: Ninja 할인 34% < 40% (유명 브랜드 최소 할인)",
+        "first_seen": "2026-11-23T05:41:31+00:00",
+        "last_seen": "2026-11-23T05:41:31+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20373372",
         "source": "slickdeals:walmart.com",
@@ -18564,7 +18492,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T05:11:15+00:00",
-        "last_seen": "2026-11-23T05:31:20+00:00"
+        "last_seen": "2026-11-23T05:41:31+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20372109",
@@ -18579,7 +18507,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T04:51:04+00:00",
-        "last_seen": "2026-11-23T05:31:20+00:00"
+        "last_seen": "2026-11-23T05:41:31+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20367324",
@@ -18594,7 +18522,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T04:11:59+00:00",
-        "last_seen": "2026-11-23T05:31:20+00:00"
+        "last_seen": "2026-11-23T05:41:31+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20359749",
@@ -18609,7 +18537,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T03:31:15+00:00",
-        "last_seen": "2026-11-23T05:31:20+00:00"
+        "last_seen": "2026-11-23T05:41:31+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20367294",
@@ -18624,7 +18552,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Hand Tools)",
         "first_seen": "2026-11-23T03:10:58+00:00",
-        "last_seen": "2026-11-23T05:31:20+00:00"
+        "last_seen": "2026-11-23T05:41:31+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20367273",
@@ -18639,7 +18567,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T02:41:17+00:00",
-        "last_seen": "2026-11-23T05:31:20+00:00"
+        "last_seen": "2026-11-23T05:41:31+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370162",
@@ -18654,7 +18582,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T02:02:22+00:00",
-        "last_seen": "2026-11-23T05:31:20+00:00"
+        "last_seen": "2026-11-23T05:41:31+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20367558",
@@ -18669,7 +18597,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-11-23T01:41:38+00:00",
-        "last_seen": "2026-11-23T05:31:20+00:00"
+        "last_seen": "2026-11-23T05:41:31+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20371584",
@@ -18684,7 +18612,7 @@
         "published": false,
         "reject_reason": "H7: LEGO 할인 20% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-23T01:31:15+00:00",
-        "last_seen": "2026-11-23T05:31:20+00:00"
+        "last_seen": "2026-11-23T05:41:31+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20371263",
@@ -18699,7 +18627,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 25% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-23T01:21:07+00:00",
-        "last_seen": "2026-11-23T05:31:20+00:00"
+        "last_seen": "2026-11-23T05:41:31+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20366916",
@@ -19735,21 +19663,6 @@
         "reject_reason": "",
         "first_seen": "2026-11-21T07:12:10+00:00",
         "last_seen": "2026-11-22T23:52:10+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20347209",
-        "source": "slickdeals:bestbuy.com",
-        "title": "55\" Hisense QD5 Hi-QLED 4K 60Hz Roku TV (2026) for $180 at Best Buy",
-        "price": 180.0,
-        "list_price": 379.99,
-        "discount_pct": 52.6,
-        "krw": 241800,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H9: 직구 큐레이션 제외 카테고리(4K TVs)",
-        "first_seen": "2026-11-21T07:12:10+00:00",
-        "last_seen": "2026-11-22T00:52:10+00:00"
       }
     ],
     "totals": {
