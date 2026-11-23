@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T06:11:03.335416+00:00",
+  "generated_at": "2026-11-23T06:21:05.806911+00:00",
   "count": 262,
   "deals": [
     {
@@ -683,14 +683,14 @@
         "bonus": 4,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 43표/50분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 43표/60분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-23T05:21:41.198929+00:00",
-      "last_seen": "2026-11-23T06:11:01.707493+00:00",
+      "last_seen": "2026-11-23T06:21:05.773836+00:00",
       "posted_at": "2026-11-23T05:20:40+00:00",
       "signals": {
         "sd_feeds": [
@@ -699,9 +699,9 @@
         "sd_cat": "",
         "sd_store": "Walmart",
         "sd_hot_origin": true,
-        "sd_age_min": 50,
+        "sd_age_min": 60,
         "sd_votes": 43,
-        "sd_velocity": 51.6,
+        "sd_velocity": 42.9,
         "sd_fp_min": 21
       },
       "id": "101e239d71",
@@ -711,71 +711,6 @@
           30.0
         ]
       ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20364201",
-      "title": "DiscountMugs Sale: up to 70% Off Clearance + Sitewide Savings Coupon 20% Off",
-      "brand": "",
-      "category": "home",
-      "image": "https://static.slickdealscdn.com/attachment/3/7/4/7/9/3/300x300/22509609.thumb",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "BFCM26",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 28,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20364201",
-      "discount_pct": null,
-      "score": 92,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 8,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 28표/52분 → 하한 86",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-23T06:10:33.253743+00:00",
-      "last_seen": "2026-11-23T06:11:01.707493+00:00",
-      "posted_at": "2026-11-23T05:18:53+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Kitchenware & Cookware",
-        "sd_store": "DiscountMugs",
-        "sd_hot_origin": true,
-        "sd_age_min": 52,
-        "sd_votes": 28,
-        "sd_velocity": 32.4,
-        "sd_fp_min": 22
-      },
-      "id": "cf7f3ed378",
-      "history": []
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1474,14 +1409,14 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-20T22:42:02.546711+00:00",
-      "last_seen": "2026-11-23T06:11:01.707493+00:00",
+      "last_seen": "2026-11-23T06:21:05.773836+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Projectors",
         "sd_store": "Amazon",
         "sd_brand": "Anker",
         "sd_hot_origin": true,
-        "sd_age_min": 3362,
+        "sd_age_min": 3372,
         "sd_votes": 2,
         "sd_velocity": 0.0,
         "sd_fp_min": 3202
@@ -3730,6 +3665,71 @@
           64.95
         ]
       ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20364201",
+      "title": "DiscountMugs Sale: up to 70% Off Clearance + Sitewide Savings Coupon 20% Off",
+      "brand": "",
+      "category": "home",
+      "image": "https://static.slickdealscdn.com/attachment/3/7/4/7/9/3/300x300/22509609.thumb",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "BFCM26",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 28,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20364201",
+      "discount_pct": null,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 8,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 28표/62분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-23T06:20:34.084816+00:00",
+      "last_seen": "2026-11-23T06:21:05.773836+00:00",
+      "posted_at": "2026-11-23T05:18:53+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Kitchenware & Cookware",
+        "sd_store": "DiscountMugs",
+        "sd_hot_origin": true,
+        "sd_age_min": 62,
+        "sd_votes": 28,
+        "sd_velocity": 27.1,
+        "sd_fp_min": 22
+      },
+      "id": "cf7f3ed378",
+      "history": []
     },
     {
       "source": "6pm.com",
@@ -6667,7 +6667,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-23T04:01:20.994177+00:00",
-      "last_seen": "2026-11-23T06:11:01.707493+00:00",
+      "last_seen": "2026-11-23T06:21:05.773836+00:00",
       "posted_at": "2026-11-23T03:40:24+00:00",
       "signals": {
         "sd_feeds": [
@@ -6677,9 +6677,9 @@
         "sd_store": "Amazon",
         "sd_brand": "HyperX",
         "sd_hot_origin": false,
-        "sd_age_min": 150,
+        "sd_age_min": 160,
         "sd_votes": 30,
-        "sd_velocity": 12.0,
+        "sd_velocity": 11.2,
         "sd_fp_min": 21
       },
       "id": "6fe5d84576",
@@ -10372,16 +10372,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-23T04:50:41.918647+00:00",
-      "last_seen": "2026-11-23T06:11:01.707493+00:00",
+      "last_seen": "2026-11-23T06:21:05.773836+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Lighting",
         "sd_store": "",
         "sd_brand": "Philips",
         "sd_hot_origin": false,
-        "sd_age_min": 91,
+        "sd_age_min": 101,
         "sd_votes": 21,
-        "sd_velocity": 13.8,
+        "sd_velocity": 12.4,
         "sd_fp_min": 11
       },
       "id": "a7cc677e4d",
@@ -10935,16 +10935,16 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-23T04:11:34.976415+00:00",
-      "last_seen": "2026-11-23T06:11:01.707493+00:00",
+      "last_seen": "2026-11-23T06:21:05.773836+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Men's Shoes",
         "sd_store": "",
         "sd_brand": "Nike",
         "sd_hot_origin": false,
-        "sd_age_min": 125,
+        "sd_age_min": 135,
         "sd_votes": 31,
-        "sd_velocity": 14.9,
+        "sd_velocity": 13.8,
         "sd_fp_min": 6
       },
       "id": "da52bbcd1d",
@@ -11384,16 +11384,16 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-23T05:10:55.381525+00:00",
-      "last_seen": "2026-11-23T06:11:01.707493+00:00",
+      "last_seen": "2026-11-23T06:21:05.773836+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Headphones, Headsets & Earbuds",
         "sd_store": "",
         "sd_brand": "Apple",
         "sd_hot_origin": false,
-        "sd_age_min": 69,
+        "sd_age_min": 79,
         "sd_votes": 16,
-        "sd_velocity": 13.8,
+        "sd_velocity": 12.1,
         "sd_fp_min": 10
       },
       "id": "fbcff4106e",
@@ -15540,7 +15540,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-23T06:01:49.747956+00:00",
-      "last_seen": "2026-11-23T06:11:01.707493+00:00",
+      "last_seen": "2026-11-23T06:21:05.773836+00:00",
       "posted_at": "2026-11-23T05:55:24+00:00",
       "signals": {
         "sd_feeds": [
@@ -15550,9 +15550,9 @@
         "sd_store": "Walmart",
         "sd_brand": "Jurassic World",
         "sd_hot_origin": true,
-        "sd_age_min": 15,
+        "sd_age_min": 25,
         "sd_votes": 1,
-        "sd_velocity": 3.9
+        "sd_velocity": 2.4
       },
       "id": "a7915b16db",
       "history": [
@@ -18219,7 +18219,7 @@
   "fx_usd_krw": 1343.6,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-23T06:10:30+00:00",
+      "T1": "2026-11-23T06:20:30+00:00",
       "T2": "2026-11-23T06:02:15+00:00",
       "T3": "2026-11-23T06:02:50+00:00",
       "T4": "2026-11-23T02:11:46+00:00"
@@ -18253,14 +18253,15 @@
       11,
       1,
       1,
-      7
+      7,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-23T06:11:01+00:00",
+      "at": "2026-11-23T06:21:05+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -18269,16 +18270,16 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-23T06:11:01+00:00"
+      "at": "2026-11-23T06:21:05+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-23T06:10:39+00:00",
+        "at": "2026-11-23T06:20:42+00:00",
         "state": "정상",
-        "mails": 12,
-        "deals": 12
+        "mails": 13,
+        "deals": 13
       },
       "newsletter": {
         "at": "2026-11-23T02:14:40+00:00",
@@ -18288,6 +18289,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20373444",
+        "source": "slickdeals:walmart.com",
+        "title": "Apple AirTag (2nd Generation) for $18 at Walmart",
+        "price": 18.0,
+        "list_price": null,
+        "discount_pct": null,
+        "krw": 24185,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: Apple 할인 0% < 40% (유명 브랜드 최소 할인)",
+        "first_seen": "2026-11-23T06:21:05+00:00",
+        "last_seen": "2026-11-23T06:21:05+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20373459",
         "source": "slickdeals:walmart.com",
@@ -18301,7 +18317,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-23T06:02:14+00:00",
-        "last_seen": "2026-11-23T06:11:01+00:00"
+        "last_seen": "2026-11-23T06:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20355597",
@@ -18316,7 +18332,7 @@
         "published": false,
         "reject_reason": "H7: Ninja 할인 34% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-23T05:41:31+00:00",
-        "last_seen": "2026-11-23T06:11:01+00:00"
+        "last_seen": "2026-11-23T06:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20373372",
@@ -18331,7 +18347,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T05:11:15+00:00",
-        "last_seen": "2026-11-23T06:11:01+00:00"
+        "last_seen": "2026-11-23T06:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20372109",
@@ -18346,7 +18362,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T04:51:04+00:00",
-        "last_seen": "2026-11-23T06:11:01+00:00"
+        "last_seen": "2026-11-23T06:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20367324",
@@ -18361,7 +18377,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T04:11:59+00:00",
-        "last_seen": "2026-11-23T06:11:01+00:00"
+        "last_seen": "2026-11-23T06:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20359749",
@@ -18376,7 +18392,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T03:31:15+00:00",
-        "last_seen": "2026-11-23T06:11:01+00:00"
+        "last_seen": "2026-11-23T06:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20367294",
@@ -18391,7 +18407,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Hand Tools)",
         "first_seen": "2026-11-23T03:10:58+00:00",
-        "last_seen": "2026-11-23T06:11:01+00:00"
+        "last_seen": "2026-11-23T06:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20367273",
@@ -18406,7 +18422,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T02:41:17+00:00",
-        "last_seen": "2026-11-23T06:11:01+00:00"
+        "last_seen": "2026-11-23T06:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370162",
@@ -18421,7 +18437,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T02:02:22+00:00",
-        "last_seen": "2026-11-23T06:11:01+00:00"
+        "last_seen": "2026-11-23T06:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20367558",
@@ -18436,7 +18452,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-11-23T01:41:38+00:00",
-        "last_seen": "2026-11-23T06:11:01+00:00"
+        "last_seen": "2026-11-23T06:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20371584",
@@ -18451,7 +18467,7 @@
         "published": false,
         "reject_reason": "H7: LEGO 할인 20% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-23T01:31:15+00:00",
-        "last_seen": "2026-11-23T06:11:01+00:00"
+        "last_seen": "2026-11-23T06:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20371263",
@@ -18466,7 +18482,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 25% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-23T01:21:07+00:00",
-        "last_seen": "2026-11-23T06:11:01+00:00"
+        "last_seen": "2026-11-23T06:21:05+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20366916",
@@ -19472,26 +19488,11 @@
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-21T11:51:24+00:00",
         "last_seen": "2026-11-22T00:52:10+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20335890",
-        "source": "slickdeals:nike.com",
-        "title": "Nike Women's Charge Canvas Shoes (3 Colors) for $35.25 at Nike",
-        "price": 35.0,
-        "list_price": 70.0,
-        "discount_pct": 50.0,
-        "krw": 46584,
-        "kr_lowest": null,
-        "score": 67,
-        "published": true,
-        "reject_reason": "",
-        "first_seen": "2026-11-21T07:21:14+00:00",
-        "last_seen": "2026-11-21T16:32:18+00:00"
       }
     ],
     "totals": {
       "collected_72h": 80,
-      "published_72h": 46
+      "published_72h": 45
     }
   }
 }
