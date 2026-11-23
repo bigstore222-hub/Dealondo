@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T14:32:30.335881+00:00",
+  "generated_at": "2026-11-23T14:36:04.566384+00:00",
   "count": 266,
   "deals": [
     {
@@ -17073,7 +17073,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-17T16:45:44.807375+00:00",
-      "last_seen": "2026-11-23T08:25:42.820020+00:00",
+      "last_seen": "2026-11-23T14:36:04.549322+00:00",
       "posted_at": "",
       "signals": {},
       "id": "83104b2ac4",
@@ -18433,10 +18433,9 @@
       "T1": "2026-11-23T14:30:43+00:00",
       "T2": "2026-11-23T14:11:40+00:00",
       "T3": "2026-11-23T12:31:59+00:00",
-      "T4": "2026-11-23T08:22:40+00:00"
+      "T4": "2026-11-23T14:32:32+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       11,
@@ -18465,14 +18464,15 @@
       10,
       1,
       9,
-      11
+      11,
+      4
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-23T14:32:28+00:00",
+      "at": "2026-11-23T14:36:04+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -18481,7 +18481,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-23T14:32:28+00:00"
+      "at": "2026-11-23T14:36:04+00:00"
     }
   },
   "email_monitor": {
@@ -18493,13 +18493,28 @@
         "deals": 30
       },
       "newsletter": {
-        "at": "2026-11-23T08:25:20+00:00",
+        "at": "2026-11-23T14:35:45+00:00",
         "state": "정상",
-        "mails": 31,
-        "deals": 3
+        "mails": 57,
+        "deals": 6
       }
     },
     "recent": [
+      {
+        "url": "https://link.email.newbalance.com/u/nrd.php",
+        "source": "newbalance.com",
+        "title": "Black Friday preview: up to 40% off select styles",
+        "price": 60.0,
+        "list_price": 100.0,
+        "discount_pct": 40.0,
+        "krw": 80616,
+        "kr_lowest": null,
+        "score": 54,
+        "published": true,
+        "reject_reason": "",
+        "first_seen": "2026-11-23T14:36:04+00:00",
+        "last_seen": "2026-11-23T14:36:04+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20376885",
         "source": "slickdeals:costcowholesale",
@@ -19028,17 +19043,17 @@
       {
         "url": "https://click.email.bloomingdales.com/",
         "source": "bloomingdales.com",
-        "title": "Big Deal 12: 50% off Stuart Weitzman boots",
-        "price": 50.0,
+        "title": "Black Friday starts now!",
+        "price": 75.0,
         "list_price": 100.0,
-        "discount_pct": 50.0,
-        "krw": 67180,
+        "discount_pct": 25.0,
+        "krw": 100770,
         "kr_lowest": null,
-        "score": 62,
-        "published": true,
-        "reject_reason": "",
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-22T20:08:49+00:00",
-        "last_seen": "2026-11-23T08:25:43+00:00"
+        "last_seen": "2026-11-23T14:36:04+00:00"
       },
       {
         "url": "https://clicks.finishline.com/f/a/b7FkVuU4LRRfLGVGCXCntQ~~/AAQRxRA~/Bi7HFJMF_Lt8l4qGT089v2xSy6ms01U9ohLGxUKO0wbUrSkrjVMpiraWdDnnuPkdvHpha9VwhrhA8zJjgxC-yrLH_jLrv05TTYHKbO04AW91cKDJf3p98SwSEgNeTbfciT3HvEzz_i2Dq_wI70xlSg~~",
@@ -19058,17 +19073,17 @@
       {
         "url": "https://click.emails.underarmour.com/",
         "source": "underarmour.com",
-        "title": "[코드 BLACKFRIDAY] New arrivals worth gifting 🎁",
+        "title": "[범위미확인 코드] Why wait till Black Friday?",
         "price": 60.0,
         "list_price": 100.0,
         "discount_pct": 40.0,
         "krw": 80616,
         "kr_lowest": null,
-        "score": 62,
+        "score": 54,
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-22T20:08:49+00:00",
-        "last_seen": "2026-11-23T08:25:43+00:00"
+        "last_seen": "2026-11-23T14:36:04+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370804",
@@ -19683,21 +19698,6 @@
         "published": false,
         "reject_reason": "H9: 미국 전압(120V) 가전(Blenders & Juicers)",
         "first_seen": "2026-11-21T21:52:16+00:00",
-        "last_seen": "2026-11-22T00:52:10+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20350614",
-        "source": "slickdeals:amazon.com",
-        "title": "3-Pk TP-Link P125M Tapo Matter Mini Smart 2.4G WiFi Plugs (White) for $20 at Amazon",
-        "price": 20.0,
-        "list_price": 25.0,
-        "discount_pct": 20.0,
-        "krw": 26867,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H7: Tapo 할인 20% < 40% (유명 브랜드 최소 할인)",
-        "first_seen": "2026-11-21T21:21:15+00:00",
         "last_seen": "2026-11-22T00:52:10+00:00"
       }
     ],
