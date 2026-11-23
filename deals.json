@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T22:02:33.081652+00:00",
-  "count": 278,
+  "generated_at": "2026-11-23T22:12:36.686058+00:00",
+  "count": 279,
   "deals": [
     {
       "source": "6pm.com",
@@ -724,14 +724,14 @@
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
         "code_deal": "공개코드 BLACKFRIDAY → 하한 75",
-        "slickdeals": "Hot Deals 폭발 52표/15분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 52표/25분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-22T05:41:40.394763+00:00",
-      "last_seen": "2026-11-23T22:02:30.949388+00:00",
+      "last_seen": "2026-11-23T22:12:36.631034+00:00",
       "posted_at": "2026-11-23T21:47:10+00:00",
       "signals": {
         "sd_feeds": [
@@ -741,9 +741,9 @@
         "sd_store": "Under Armour",
         "sd_brand": "Under Armour",
         "sd_hot_origin": true,
-        "sd_age_min": 15,
+        "sd_age_min": 25,
         "sd_votes": 52,
-        "sd_velocity": 208.2,
+        "sd_velocity": 124.4,
         "sd_fp_min": 15
       },
       "id": "f6b87d5b2d",
@@ -767,7 +767,7 @@
       "category": "sports_outdoor",
       "image": "https://static.slickdealscdn.com/attachment/3/3/2/8/0/4/4/7/300x300/22467453.thumb",
       "price_current": 66.5,
-      "price_list": null,
+      "price_list": 190.0,
       "price_baseline": null,
       "price_alltime_low": 66.5,
       "currency": "USD",
@@ -775,7 +775,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 163,
+      "community_votes": 164,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -790,31 +790,35 @@
       "code_kind": "public",
       "brand_tier": "known",
       "buy_url": "https://slickdeals.net/f/20348367",
-      "discount_pct": null,
+      "discount_pct": 65.0,
       "score": 92,
       "score_breakdown": {
-        "discount_depth": 0,
+        "discount_depth": 30,
         "price_history": 25,
         "category": 17,
         "bonus": 4,
         "brand": 6,
-        "slickdeals": "Hot Deals 폭발 163표/33분 → 하한 86",
+        "code_deal": "공개코드 EXTRA50SALE → 하한 75",
+        "slickdeals": "Hot Deals 폭발 164표/43분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-19T18:51:03.147751+00:00",
-      "last_seen": "2026-11-23T22:02:30.949388+00:00",
+      "last_seen": "2026-11-23T22:12:36.631034+00:00",
       "posted_at": "2026-11-23T21:29:13+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
+        "sd_cat": "Men's Shoes",
+        "sd_store": "",
+        "sd_brand": "adidas",
         "sd_hot_origin": true,
-        "sd_age_min": 33,
-        "sd_votes": 163,
-        "sd_velocity": 297.0,
+        "sd_age_min": 43,
+        "sd_votes": 164,
+        "sd_velocity": 228.7,
         "sd_fp_min": 33
       },
       "id": "c49ac97668",
@@ -826,82 +830,6 @@
         [
           "2026-11-23",
           66.5
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20368683",
-      "title": "440-Pc LEGO Star Wars SMART Play: Yoda’s Hut & Jedi Training $39.20 + Free S&H",
-      "brand": "LEGO",
-      "category": "kids",
-      "image": "https://static.slickdealscdn.com/attachment/2/9/8/1/5/7/1/1/300x300/22519575.thumb",
-      "price_current": 39.0,
-      "price_list": 69.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 46,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 52400,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20368683",
-      "discount_pct": 44.3,
-      "score": 92,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "community": "투표 46+할인44% → 하한 56",
-        "slickdeals": "Hot Deals 폭발 46표/83분 → 하한 86",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-22T10:41:44.511333+00:00",
-      "last_seen": "2026-11-23T22:02:30.949388+00:00",
-      "posted_at": "2026-11-23T20:39:35+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Kids Toys",
-        "sd_store": "Amazon",
-        "sd_brand": "LEGO",
-        "sd_hot_origin": true,
-        "sd_age_min": 83,
-        "sd_votes": 46,
-        "sd_velocity": 33.4,
-        "sd_fp_min": 32
-      },
-      "id": "6831c13386",
-      "history": [
-        [
-          "2026-11-22",
-          39.0
-        ],
-        [
-          "2026-11-23",
-          39.0
         ]
       ]
     },
@@ -1891,15 +1819,15 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-23T12:11:10.628083+00:00",
-      "last_seen": "2026-11-23T22:02:30.949388+00:00",
+      "last_seen": "2026-11-23T22:12:36.631034+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Tech & Electronics",
         "sd_store": "",
         "sd_hot_origin": false,
-        "sd_age_min": 611,
+        "sd_age_min": 621,
         "sd_votes": 26,
-        "sd_velocity": 2.6,
+        "sd_velocity": 2.5,
         "sd_fp_min": 20
       },
       "id": "7a3cdf8886",
@@ -4038,6 +3966,82 @@
         [
           "2026-11-22",
           129.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20368683",
+      "title": "440-Pc LEGO Star Wars SMART Play: Yoda’s Hut & Jedi Training $39.20 + Free S&H",
+      "brand": "LEGO",
+      "category": "kids",
+      "image": "https://static.slickdealscdn.com/attachment/2/9/8/1/5/7/1/1/300x300/22519575.thumb",
+      "price_current": 39.0,
+      "price_list": 69.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 46,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 52400,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20368683",
+      "discount_pct": 44.3,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "community": "투표 46+할인44% → 하한 56",
+        "slickdeals": "Hot Deals 급상승 46표/93분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-22T10:41:44.511333+00:00",
+      "last_seen": "2026-11-23T22:12:36.631034+00:00",
+      "posted_at": "2026-11-23T20:39:35+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Kids Toys",
+        "sd_store": "Amazon",
+        "sd_brand": "LEGO",
+        "sd_hot_origin": true,
+        "sd_age_min": 93,
+        "sd_votes": 46,
+        "sd_velocity": 29.8,
+        "sd_fp_min": 32
+      },
+      "id": "6831c13386",
+      "history": [
+        [
+          "2026-11-22",
+          39.0
+        ],
+        [
+          "2026-11-23",
+          39.0
         ]
       ]
     },
@@ -8479,7 +8483,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-23T22:02:09.052215+00:00",
-      "last_seen": "2026-11-23T22:02:30.949388+00:00",
+      "last_seen": "2026-11-23T22:12:36.631034+00:00",
       "posted_at": "2026-11-23T21:50:20+00:00",
       "signals": {
         "sd_feeds": [
@@ -8489,9 +8493,9 @@
         "sd_store": "adidas",
         "sd_brand": "adidas",
         "sd_hot_origin": true,
-        "sd_age_min": 12,
+        "sd_age_min": 22,
         "sd_votes": 2,
-        "sd_velocity": 10.2
+        "sd_velocity": 5.5
       },
       "id": "6190f16b97",
       "history": [
@@ -8548,7 +8552,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-23T22:02:09.052215+00:00",
-      "last_seen": "2026-11-23T22:02:30.949388+00:00",
+      "last_seen": "2026-11-23T22:12:36.631034+00:00",
       "posted_at": "2026-11-23T21:50:05+00:00",
       "signals": {
         "sd_feeds": [
@@ -8557,7 +8561,7 @@
         "sd_cat": "Entertainment",
         "sd_store": "Giftory",
         "sd_hot_origin": true,
-        "sd_age_min": 12,
+        "sd_age_min": 22,
         "sd_votes": 0,
         "sd_velocity": 0.0
       },
@@ -10576,16 +10580,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-23T14:32:09.191730+00:00",
-      "last_seen": "2026-11-23T22:02:30.949388+00:00",
+      "last_seen": "2026-11-23T22:12:36.631034+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Men's Pajamas & Loungewear",
         "sd_store": "",
         "sd_brand": "Eddie Bauer",
         "sd_hot_origin": false,
-        "sd_age_min": 459,
+        "sd_age_min": 469,
         "sd_votes": 35,
-        "sd_velocity": 4.6,
+        "sd_velocity": 4.5,
         "sd_fp_min": 9
       },
       "id": "002130cd05",
@@ -11061,7 +11065,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-23T22:02:09.052215+00:00",
-      "last_seen": "2026-11-23T22:02:30.949388+00:00",
+      "last_seen": "2026-11-23T22:12:36.631034+00:00",
       "posted_at": "2026-11-23T21:52:21+00:00",
       "signals": {
         "sd_feeds": [
@@ -11070,9 +11074,9 @@
         "sd_cat": "Women's Clothing & Accessories",
         "sd_store": "",
         "sd_hot_origin": false,
-        "sd_age_min": 10,
+        "sd_age_min": 20,
         "sd_votes": 19,
-        "sd_velocity": 114.0,
+        "sd_velocity": 57.3,
         "sd_fp_min": 10
       },
       "id": "28955de0e7",
@@ -11471,15 +11475,15 @@
       ]
     },
     {
-      "source": "slickdeals:walmart.com",
+      "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20373372",
-      "title": "Walmart+ Members: Apple AirPods Pro 3 Wireless Earbuds for $149 at Walmart",
+      "url": "https://slickdeals.net/f/20380554",
+      "title": "Apple AirTag (2nd Generation) $18",
       "brand": "Apple",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20373372&t=15",
-      "price_current": 149.0,
-      "price_list": 249.0,
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/1/5/0/7/0/1/0/300x300/22548549.thumb",
+      "price_current": 18.0,
+      "price_list": 29.0,
       "price_baseline": null,
       "price_alltime_low": null,
       "currency": "USD",
@@ -11487,27 +11491,27 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 16,
+      "community_votes": 50,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 200196,
+      "krw_effective": 24185,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
       "expires_at": null,
-      "collection_method": "email",
+      "collection_method": "rss",
       "frontpage": true,
       "code_kind": "",
       "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20373372",
-      "discount_pct": 40.2,
+      "buy_url": "https://slickdeals.net/f/20380554",
+      "discount_pct": 37.9,
       "score": 66,
       "score_breakdown": {
         "discount_depth": 20,
         "price_history": null,
-        "category": 15,
+        "category": 5,
         "bonus": 4,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
@@ -11516,24 +11520,27 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-23T05:10:55.381525+00:00",
-      "last_seen": "2026-11-23T18:41:16.158288+00:00",
-      "posted_at": "",
+      "detected_at": "2026-11-23T22:02:09.052215+00:00",
+      "last_seen": "2026-11-23T22:12:36.631034+00:00",
+      "posted_at": "2026-11-23T21:20:48+00:00",
       "signals": {
-        "sd_cat": "Headphones, Headsets & Earbuds",
-        "sd_store": "",
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "GPS",
+        "sd_store": "Amazon",
         "sd_brand": "Apple",
         "sd_hot_origin": false,
-        "sd_age_min": 820,
-        "sd_votes": 16,
-        "sd_velocity": 1.2,
-        "sd_fp_min": 10
+        "sd_age_min": 51,
+        "sd_votes": 50,
+        "sd_velocity": 58.3,
+        "sd_fp_min": 41
       },
-      "id": "fbcff4106e",
+      "id": "53d7e60fa7",
       "history": [
         [
           "2026-11-23",
-          149.0
+          18.0
         ]
       ]
     },
@@ -15164,6 +15171,76 @@
       ]
     },
     {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20338332",
+      "title": "Google Pixel Watch 5 Smartwatch: 45mm GPS $330, 41mm GPS $300 & More + Free S&H",
+      "brand": "Google",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/9/5/3/2/3/300x300/22432668.thumb",
+      "price_current": 300.0,
+      "price_list": 400.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 127,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 478858,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20338332",
+      "discount_pct": 25.0,
+      "score": 58,
+      "score_breakdown": {
+        "discount_depth": 8,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-23T22:02:09.052215+00:00",
+      "last_seen": "2026-11-23T22:12:36.631034+00:00",
+      "posted_at": "2026-11-23T21:48:12+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Clothing & Accessories",
+        "sd_store": "",
+        "sd_brand": "Google",
+        "sd_hot_origin": false,
+        "sd_age_min": 24,
+        "sd_votes": 127,
+        "sd_velocity": 316.9,
+        "sd_fp_min": 14
+      },
+      "id": "9cb8572f36",
+      "history": [
+        [
+          "2026-11-23",
+          300.0
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:walmart.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20374695",
@@ -15210,14 +15287,14 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-23T07:12:12.199597+00:00",
-      "last_seen": "2026-11-23T22:02:30.949388+00:00",
+      "last_seen": "2026-11-23T22:12:36.631034+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Dash Cams & Action Cams",
         "sd_store": "Walmart",
         "sd_brand": "onn",
         "sd_hot_origin": true,
-        "sd_age_min": 918,
+        "sd_age_min": 928,
         "sd_votes": 4,
         "sd_velocity": 0.3,
         "sd_fp_min": 309
@@ -18364,7 +18441,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-23T22:02:09.052215+00:00",
-      "last_seen": "2026-11-23T22:02:30.949388+00:00",
+      "last_seen": "2026-11-23T22:12:36.631034+00:00",
       "posted_at": "2026-11-23T21:48:49+00:00",
       "signals": {
         "sd_feeds": [
@@ -18374,9 +18451,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Fanttik",
         "sd_hot_origin": true,
-        "sd_age_min": 13,
+        "sd_age_min": 23,
         "sd_votes": 2,
-        "sd_velocity": 9.0
+        "sd_velocity": 5.1
       },
       "id": "5226f55749",
       "history": [
@@ -18432,7 +18509,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-23T22:02:09.052215+00:00",
-      "last_seen": "2026-11-23T22:02:30.949388+00:00",
+      "last_seen": "2026-11-23T22:12:36.631034+00:00",
       "posted_at": "2026-11-23T21:47:26+00:00",
       "signals": {
         "sd_feeds": [
@@ -18442,7 +18519,7 @@
         "sd_store": "Amazon",
         "sd_brand": "Cooler Master",
         "sd_hot_origin": true,
-        "sd_age_min": 15,
+        "sd_age_min": 25,
         "sd_votes": 0,
         "sd_velocity": 0.0
       },
@@ -19218,7 +19295,7 @@
   "fx_usd_krw": 1343.6,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-23T22:00:42+00:00",
+      "T1": "2026-11-23T22:10:50+00:00",
       "T2": "2026-11-23T21:51:40+00:00",
       "T3": "2026-11-23T20:54:11+00:00",
       "T4": "2026-11-23T20:41:13+00:00"
@@ -19252,6 +19329,7 @@
       11,
       10,
       1,
+      10,
       10
     ],
     "naver": {
@@ -19259,7 +19337,7 @@
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-23T22:02:30+00:00",
+      "at": "2026-11-23T22:12:36+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -19268,13 +19346,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-23T22:02:30+00:00"
+      "at": "2026-11-23T22:12:36+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-23T22:02:09+00:00",
+        "at": "2026-11-23T22:12:12+00:00",
         "state": "정상",
         "mails": 40,
         "deals": 36
@@ -19288,6 +19366,21 @@
     },
     "recent": [
       {
+        "url": "https://slickdeals.net/f/20378304",
+        "source": "slickdeals:walmart.com",
+        "title": "10-Pack Hanes Boys or Girls Ankle Socks Value Pack for $5.40 at Walmart",
+        "price": 5.4,
+        "list_price": 9.0,
+        "discount_pct": 40.0,
+        "krw": 7255,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H7: 무명 브랜드(Hanes) — 의류·잡화는 유명 브랜드만",
+        "first_seen": "2026-11-23T22:12:36+00:00",
+        "last_seen": "2026-11-23T22:12:36+00:00"
+      },
+      {
         "url": "https://slickdeals.net/f/20373651",
         "source": "slickdeals:walmart.com",
         "title": "Donkey Kong Bananza (Nintendo Switch 2) for $30 at Walmart",
@@ -19300,7 +19393,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T22:02:31+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20311845",
@@ -19315,7 +19408,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Home & Home Improvement)",
         "first_seen": "2026-11-23T21:51:39+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20336325",
@@ -19330,7 +19423,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T21:41:36+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://click.woot.com/f/a/hWN-T7RpWbVr2T4KRUrYjQ~~/AAQRxRA~/b5cGdHraoX5Jb3zYS0Jt-46dp82tmb0T547PQei28OIpta3gA6gU7hrnzhsk7iZxeJqId7FzMdUnsVAoQYg7ObLJtu-QaDv67OFL_MznL7fgEImE3K-ZTApkNW39DPo8Yc9ozY1LT8CTz6fSiggypkW95JSHyNGiM75x7SYoyfaDtPmneERIk57de0k2jcyLEJGZ21FC6wD5LfybJ-jebmhhJEb38Mh5H4LBsUfMJWSFAbX",
@@ -19360,7 +19453,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-23T20:12:23+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20378292",
@@ -19375,7 +19468,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(Little Tikes) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-23T20:12:23+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377362",
@@ -19390,7 +19483,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T19:32:15+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370237",
@@ -19405,7 +19498,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-23T19:11:57+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20378028",
@@ -19420,7 +19513,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T18:52:59+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20363685",
@@ -19435,7 +19528,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Drills & Power Tools)",
         "first_seen": "2026-11-23T18:11:14+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20373381",
@@ -19450,7 +19543,7 @@
         "published": false,
         "reject_reason": "H7: Apple 할인 22% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-23T18:01:39+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377602",
@@ -19465,7 +19558,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-23T17:51:55+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374509",
@@ -19480,7 +19573,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T17:41:14+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374689",
@@ -19495,7 +19588,7 @@
         "published": false,
         "reject_reason": "H8: 할인 22% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-23T17:41:14+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374611",
@@ -19510,7 +19603,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-23T17:12:13+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377815",
@@ -19525,7 +19618,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T17:12:13+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20358093",
@@ -19540,7 +19633,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-23T16:32:09+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377857",
@@ -19555,7 +19648,7 @@
         "published": false,
         "reject_reason": "H7: Apple 할인 38% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-23T16:32:09+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20340114",
@@ -19570,7 +19663,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-23T16:32:09+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374200",
@@ -19585,7 +19678,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-23T15:32:34+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20375175",
@@ -19600,7 +19693,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T15:22:04+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20376291",
@@ -19615,7 +19708,7 @@
         "published": false,
         "reject_reason": "H8: 할인 15% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-23T15:22:04+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20376492",
@@ -19630,7 +19723,7 @@
         "published": false,
         "reject_reason": "H8: 할인 16% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-23T15:02:46+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374140",
@@ -19645,7 +19738,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-23T14:41:11+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://link.email.newbalance.com/u/nrd.php",
@@ -19675,7 +19768,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T14:32:30+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20375976",
@@ -19690,7 +19783,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Home & Home Improvement)",
         "first_seen": "2026-11-23T13:01:55+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374788",
@@ -19705,7 +19798,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T12:51:25+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374296",
@@ -19720,7 +19813,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T12:11:36+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20318370",
@@ -19735,7 +19828,7 @@
         "published": false,
         "reject_reason": "H7: LEGO 할인 0% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-23T12:11:36+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374695",
@@ -19750,7 +19843,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T11:53:20+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20369991",
@@ -19765,7 +19858,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-23T11:01:24+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370558",
@@ -19780,7 +19873,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T10:51:19+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374926",
@@ -19795,7 +19888,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T10:32:37+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20375349",
@@ -19810,7 +19903,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-23T10:01:24+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374917",
@@ -19825,7 +19918,7 @@
         "published": false,
         "reject_reason": "H8: 할인 14% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-23T09:41:07+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370318",
@@ -19885,7 +19978,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T07:31:15+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-23T22:12:36+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20356911",
@@ -20471,21 +20564,6 @@
         "reject_reason": "",
         "first_seen": "2026-11-22T10:01:47+00:00",
         "last_seen": "2026-11-22T18:11:26+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20367915",
-        "source": "slickdeals:amazon.com",
-        "title": "Apple Watch SE 3 GPS Smartwatch (2 Colors): 44mm $209, 40mm for $179 at Amazon",
-        "price": 179.0,
-        "list_price": 249.0,
-        "discount_pct": 28.1,
-        "krw": 240504,
-        "kr_lowest": null,
-        "score": 45,
-        "published": false,
-        "reject_reason": "",
-        "first_seen": "2026-11-22T09:42:31+00:00",
-        "last_seen": "2026-11-23T02:31:23+00:00"
       }
     ],
     "totals": {
