@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T14:12:17.327069+00:00",
+  "generated_at": "2026-11-23T14:21:12.852709+00:00",
   "count": 263,
   "deals": [
     {
@@ -619,7 +619,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-23T14:11:18.949724+00:00",
-      "last_seen": "2026-11-23T14:11:37.505566+00:00",
+      "last_seen": "2026-11-23T14:21:12.808528+00:00",
       "posted_at": "2026-11-23T13:54:46+00:00",
       "signals": {
         "sd_feeds": [
@@ -629,9 +629,9 @@
         "sd_store": "",
         "sd_brand": "Samsung",
         "sd_hot_origin": false,
-        "sd_age_min": 17,
+        "sd_age_min": 26,
         "sd_votes": 56,
-        "sd_velocity": 203.0,
+        "sd_velocity": 129.0,
         "sd_fp_min": 17
       },
       "id": "ac2c4c7c2a",
@@ -753,14 +753,14 @@
         "bonus": 4,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 35표/36분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 35표/46분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-23T05:21:41.198929+00:00",
-      "last_seen": "2026-11-23T14:11:37.505566+00:00",
+      "last_seen": "2026-11-23T14:21:12.808528+00:00",
       "posted_at": "2026-11-23T13:35:04+00:00",
       "signals": {
         "sd_feeds": [
@@ -770,9 +770,9 @@
         "sd_store": "Walmart",
         "sd_brand": "LEGO",
         "sd_hot_origin": true,
-        "sd_age_min": 36,
+        "sd_age_min": 46,
         "sd_votes": 35,
-        "sd_velocity": 57.9,
+        "sd_velocity": 45.9,
         "sd_fp_min": 36
       },
       "id": "5054c87246",
@@ -824,14 +824,14 @@
         "bonus": 4,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 38표/53분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 38표/62분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-23T08:51:34.238178+00:00",
-      "last_seen": "2026-11-23T14:11:37.505566+00:00",
+      "last_seen": "2026-11-23T14:21:12.808528+00:00",
       "posted_at": "2026-11-23T13:18:29+00:00",
       "signals": {
         "sd_feeds": [
@@ -840,9 +840,9 @@
         "sd_cat": "Headphones, Headsets & Earbuds",
         "sd_store": "Amazon",
         "sd_hot_origin": true,
-        "sd_age_min": 53,
+        "sd_age_min": 62,
         "sd_votes": 38,
-        "sd_velocity": 43.2,
+        "sd_velocity": 36.6,
         "sd_fp_min": 53
       },
       "variant_count": 2,
@@ -1575,6 +1575,214 @@
       ]
     },
     {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20374296",
+      "title": "SteelSeries Arctis Nova 7 Wireless Multi-Platform Gaming & Mobile Headset for $65 at Woot!",
+      "brand": "",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20374296&t=15",
+      "price_current": 65.0,
+      "price_list": 199.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 26,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 87334,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20374296",
+      "discount_pct": 67.5,
+      "score": 87,
+      "score_breakdown": {
+        "discount_depth": 36,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-23T12:11:10.628083+00:00",
+      "last_seen": "2026-11-23T14:21:12.808528+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Tech & Electronics",
+        "sd_store": "",
+        "sd_hot_origin": false,
+        "sd_age_min": 149,
+        "sd_votes": 26,
+        "sd_velocity": 10.5,
+        "sd_fp_min": 20
+      },
+      "id": "7a3cdf8886",
+      "history": [
+        [
+          "2026-11-23",
+          65.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20356911",
+      "title": "27\" Apple Studio Display 5K Retina, Standard Glass (Tilt Stand) for $1399 at Amazon",
+      "brand": "MSI",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20356911&t=15",
+      "price_current": 300.0,
+      "price_list": 1599.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 23,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 478858,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20356911",
+      "discount_pct": 81.2,
+      "score": 87,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-21T02:21:01.921318+00:00",
+      "last_seen": "2026-11-23T14:21:12.808528+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Gaming Monitors",
+        "sd_store": "",
+        "sd_brand": "MSI",
+        "sd_hot_origin": false,
+        "sd_age_min": 3646,
+        "sd_votes": 23,
+        "sd_velocity": 0.4,
+        "sd_fp_min": 47
+      },
+      "id": "74e830208f",
+      "history": [
+        [
+          "2026-11-21",
+          300.0
+        ],
+        [
+          "2026-11-23",
+          300.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:bestbuy.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20359749",
+      "title": "Hisense C2 Ultra Triple Laser 4K Smart Projector for $1500 at Best Buy",
+      "brand": "Anker",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20359749&t=15",
+      "price_current": 549.0,
+      "price_list": 2499.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 2,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 876310,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20359749",
+      "discount_pct": 78.0,
+      "score": 87,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-20T22:42:02.546711+00:00",
+      "last_seen": "2026-11-23T14:21:12.808528+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Projectors",
+        "sd_store": "Amazon",
+        "sd_brand": "Anker",
+        "sd_hot_origin": true,
+        "sd_age_min": 3852,
+        "sd_votes": 2,
+        "sd_velocity": 0.0,
+        "sd_fp_min": 3202
+      },
+      "id": "0580b377fb",
+      "history": [
+        [
+          "2026-11-20",
+          549.0
+        ],
+        [
+          "2026-11-23",
+          549.0
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/dr-martens-dr-martens-audrick-platform-derby-women/6450159",
@@ -1647,214 +1855,6 @@
         [
           "2026-11-23",
           62.96
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20374296",
-      "title": "SteelSeries Arctis Nova 7 Wireless Multi-Platform Gaming & Mobile Headset for $65 at Woot!",
-      "brand": "",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20374296&t=15",
-      "price_current": 65.0,
-      "price_list": 199.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 26,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 87334,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20374296",
-      "discount_pct": 67.5,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 36,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-23T12:11:10.628083+00:00",
-      "last_seen": "2026-11-23T14:11:37.505566+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Tech & Electronics",
-        "sd_store": "",
-        "sd_hot_origin": false,
-        "sd_age_min": 140,
-        "sd_votes": 26,
-        "sd_velocity": 11.2,
-        "sd_fp_min": 20
-      },
-      "id": "7a3cdf8886",
-      "history": [
-        [
-          "2026-11-23",
-          65.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20356911",
-      "title": "27\" Apple Studio Display 5K Retina, Standard Glass (Tilt Stand) for $1399 at Amazon",
-      "brand": "MSI",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20356911&t=15",
-      "price_current": 300.0,
-      "price_list": 1599.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 23,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 478858,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20356911",
-      "discount_pct": 81.2,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-21T02:21:01.921318+00:00",
-      "last_seen": "2026-11-23T14:11:37.505566+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Gaming Monitors",
-        "sd_store": "",
-        "sd_brand": "MSI",
-        "sd_hot_origin": false,
-        "sd_age_min": 3637,
-        "sd_votes": 23,
-        "sd_velocity": 0.4,
-        "sd_fp_min": 47
-      },
-      "id": "74e830208f",
-      "history": [
-        [
-          "2026-11-21",
-          300.0
-        ],
-        [
-          "2026-11-23",
-          300.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:bestbuy.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20359749",
-      "title": "Hisense C2 Ultra Triple Laser 4K Smart Projector for $1500 at Best Buy",
-      "brand": "Anker",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20359749&t=15",
-      "price_current": 549.0,
-      "price_list": 2499.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 2,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 876310,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20359749",
-      "discount_pct": 78.0,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-20T22:42:02.546711+00:00",
-      "last_seen": "2026-11-23T14:11:37.505566+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Projectors",
-        "sd_store": "Amazon",
-        "sd_brand": "Anker",
-        "sd_hot_origin": true,
-        "sd_age_min": 3842,
-        "sd_votes": 2,
-        "sd_velocity": 0.0,
-        "sd_fp_min": 3202
-      },
-      "id": "0580b377fb",
-      "history": [
-        [
-          "2026-11-20",
-          549.0
-        ],
-        [
-          "2026-11-23",
-          549.0
         ]
       ]
     },
@@ -3741,14 +3741,14 @@
         "bonus": 4,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 28표/69분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 28표/78분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-23T07:12:12.199597+00:00",
-      "last_seen": "2026-11-23T14:11:37.505566+00:00",
+      "last_seen": "2026-11-23T14:21:12.808528+00:00",
       "posted_at": "2026-11-23T13:02:48+00:00",
       "signals": {
         "sd_feeds": [
@@ -3758,9 +3758,9 @@
         "sd_store": "Amazon",
         "sd_brand": "LEGO",
         "sd_hot_origin": true,
-        "sd_age_min": 69,
+        "sd_age_min": 78,
         "sd_votes": 28,
-        "sd_velocity": 24.5,
+        "sd_velocity": 21.5,
         "sd_fp_min": 19
       },
       "id": "73027cefb7",
@@ -3812,14 +3812,14 @@
         "bonus": 4,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 30표/92분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 30표/101분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-22T05:12:58.934292+00:00",
-      "last_seen": "2026-11-23T14:11:37.505566+00:00",
+      "last_seen": "2026-11-23T14:21:12.808528+00:00",
       "posted_at": "2026-11-23T12:39:21+00:00",
       "signals": {
         "sd_feeds": [
@@ -3829,9 +3829,9 @@
         "sd_store": "Amazon",
         "sd_brand": "UGREEN",
         "sd_hot_origin": true,
-        "sd_age_min": 92,
+        "sd_age_min": 101,
         "sd_votes": 30,
-        "sd_velocity": 19.6,
+        "sd_velocity": 17.7,
         "sd_fp_min": 42
       },
       "id": "55ae54b39c",
@@ -6705,7 +6705,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-23T13:21:27.401330+00:00",
-      "last_seen": "2026-11-23T14:11:37.505566+00:00",
+      "last_seen": "2026-11-23T14:21:12.808528+00:00",
       "posted_at": "2026-11-23T12:25:19+00:00",
       "signals": {
         "sd_feeds": [
@@ -6715,9 +6715,9 @@
         "sd_store": "Walmart",
         "sd_brand": "Beats",
         "sd_hot_origin": false,
-        "sd_age_min": 106,
+        "sd_age_min": 115,
         "sd_votes": 40,
-        "sd_velocity": 22.6,
+        "sd_velocity": 20.8,
         "sd_fp_min": 56
       },
       "id": "703231b3ad",
@@ -10448,14 +10448,14 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-23T04:50:41.918647+00:00",
-      "last_seen": "2026-11-23T14:11:37.505566+00:00",
+      "last_seen": "2026-11-23T14:21:12.808528+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Lighting",
         "sd_store": "",
         "sd_brand": "Philips",
         "sd_hot_origin": false,
-        "sd_age_min": 572,
+        "sd_age_min": 581,
         "sd_votes": 21,
         "sd_velocity": 2.2,
         "sd_fp_min": 11
@@ -10895,6 +10895,73 @@
       ]
     },
     {
+      "source": "slickdeals:nike.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20367324",
+      "title": "Nike Men's Air Baltoro SP Shoes (Baroque Brown/Midnight Navy/Black/Midnight Green) for $69.75 at Nike",
+      "brand": "Nike",
+      "category": "sports_outdoor",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20367324&t=15",
+      "price_current": 70.0,
+      "price_list": 145.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 31,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 94052,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20367324",
+      "discount_pct": 51.7,
+      "score": 67,
+      "score_breakdown": {
+        "discount_depth": 26,
+        "price_history": null,
+        "category": 17,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-23T04:11:34.976415+00:00",
+      "last_seen": "2026-11-23T14:21:12.808528+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Men's Shoes",
+        "sd_store": "",
+        "sd_brand": "Nike",
+        "sd_hot_origin": false,
+        "sd_age_min": 615,
+        "sd_votes": 31,
+        "sd_velocity": 3.0,
+        "sd_fp_min": 6
+      },
+      "id": "da52bbcd1d",
+      "history": [
+        [
+          "2026-11-23",
+          70.0
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/nike-nkb-club-revealed-hooded-ls-te/9248380",
@@ -10952,73 +11019,6 @@
         [
           "2026-11-23",
           8.98
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:nike.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20367324",
-      "title": "Nike Men's Air Baltoro SP Shoes (Baroque Brown/Midnight Navy/Black/Midnight Green) for $69.75 at Nike",
-      "brand": "Nike",
-      "category": "sports_outdoor",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20367324&t=15",
-      "price_current": 70.0,
-      "price_list": 145.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 31,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 94052,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20367324",
-      "discount_pct": 51.7,
-      "score": 67,
-      "score_breakdown": {
-        "discount_depth": 26,
-        "price_history": null,
-        "category": 17,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-23T04:11:34.976415+00:00",
-      "last_seen": "2026-11-23T14:11:37.505566+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Men's Shoes",
-        "sd_store": "",
-        "sd_brand": "Nike",
-        "sd_hot_origin": false,
-        "sd_age_min": 605,
-        "sd_votes": 31,
-        "sd_velocity": 3.1,
-        "sd_fp_min": 6
-      },
-      "id": "da52bbcd1d",
-      "history": [
-        [
-          "2026-11-23",
-          70.0
         ]
       ]
     },
@@ -11319,7 +11319,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-20T08:50:48.499033+00:00",
-      "last_seen": "2026-11-23T14:11:37.505566+00:00",
+      "last_seen": "2026-11-23T14:21:12.808528+00:00",
       "posted_at": "2026-11-23T13:37:04+00:00",
       "signals": {
         "sd_feeds": [
@@ -11329,9 +11329,9 @@
         "sd_store": "",
         "sd_brand": "Govee",
         "sd_hot_origin": false,
-        "sd_age_min": 34,
+        "sd_age_min": 44,
         "sd_votes": 55,
-        "sd_velocity": 96.4,
+        "sd_velocity": 75.4,
         "sd_fp_min": -4606
       },
       "id": "b527a9d84c",
@@ -11393,14 +11393,14 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-23T05:10:55.381525+00:00",
-      "last_seen": "2026-11-23T14:11:37.505566+00:00",
+      "last_seen": "2026-11-23T14:21:12.808528+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Headphones, Headsets & Earbuds",
         "sd_store": "",
         "sd_brand": "Apple",
         "sd_hot_origin": false,
-        "sd_age_min": 550,
+        "sd_age_min": 559,
         "sd_votes": 16,
         "sd_velocity": 1.7,
         "sd_fp_min": 10
@@ -12950,7 +12950,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-23T12:11:10.628083+00:00",
-      "last_seen": "2026-11-23T14:11:37.505566+00:00",
+      "last_seen": "2026-11-23T14:21:12.808528+00:00",
       "posted_at": "",
       "signals": {},
       "id": "4549c81baa",
@@ -14066,7 +14066,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-23T11:31:06.915151+00:00",
-      "last_seen": "2026-11-23T14:11:37.505566+00:00",
+      "last_seen": "2026-11-23T14:21:12.808528+00:00",
       "posted_at": "",
       "signals": {},
       "id": "0838851685",
@@ -14123,7 +14123,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-23T13:31:51.315850+00:00",
-      "last_seen": "2026-11-23T14:11:37.505566+00:00",
+      "last_seen": "2026-11-23T14:21:12.808528+00:00",
       "posted_at": "2026-11-23T13:13:53+00:00",
       "signals": {
         "sd_feeds": [
@@ -14133,9 +14133,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Epson",
         "sd_hot_origin": true,
-        "sd_age_min": 57,
+        "sd_age_min": 67,
         "sd_votes": 2,
-        "sd_velocity": 2.1
+        "sd_velocity": 1.8
       },
       "id": "59c633a495",
       "history": [
@@ -15055,14 +15055,14 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-23T07:12:12.199597+00:00",
-      "last_seen": "2026-11-23T14:11:37.505566+00:00",
+      "last_seen": "2026-11-23T14:21:12.808528+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Dash Cams & Action Cams",
         "sd_store": "Walmart",
         "sd_brand": "onn",
         "sd_hot_origin": true,
-        "sd_age_min": 447,
+        "sd_age_min": 456,
         "sd_votes": 4,
         "sd_velocity": 0.5,
         "sd_fp_min": 309
@@ -18255,13 +18255,12 @@
   "fx_usd_krw": 1343.6,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-23T14:10:36+00:00",
+      "T1": "2026-11-23T14:20:34+00:00",
       "T2": "2026-11-23T14:11:40+00:00",
       "T3": "2026-11-23T12:31:59+00:00",
       "T4": "2026-11-23T08:22:40+00:00"
     },
     "recent_gaps_min": [
-      8,
       11,
       10,
       1,
@@ -18290,14 +18289,15 @@
       10,
       10,
       10,
-      1
+      1,
+      9
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-23T14:12:14+00:00",
+      "at": "2026-11-23T14:21:12+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -18306,13 +18306,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-23T14:12:14+00:00"
+      "at": "2026-11-23T14:21:12+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-23T14:11:18+00:00",
+        "at": "2026-11-23T14:20:46+00:00",
         "state": "정상",
         "mails": 30,
         "deals": 29
@@ -18338,7 +18338,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Home & Home Improvement)",
         "first_seen": "2026-11-23T13:01:55+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374788",
@@ -18353,7 +18353,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T12:51:25+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374296",
@@ -18368,7 +18368,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T12:11:36+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20318370",
@@ -18383,7 +18383,7 @@
         "published": false,
         "reject_reason": "H7: LEGO 할인 0% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-23T12:11:36+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374695",
@@ -18398,7 +18398,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T11:53:20+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20369991",
@@ -18413,7 +18413,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-23T11:01:24+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370558",
@@ -18428,7 +18428,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T10:51:19+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374926",
@@ -18443,7 +18443,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T10:32:37+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20375349",
@@ -18458,7 +18458,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-23T10:01:24+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374917",
@@ -18473,7 +18473,7 @@
         "published": false,
         "reject_reason": "H8: 할인 14% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-23T09:41:07+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370318",
@@ -18488,7 +18488,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Smartphones)",
         "first_seen": "2026-11-23T09:31:15+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370585",
@@ -18503,7 +18503,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Tools)",
         "first_seen": "2026-11-23T09:21:17+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20371575",
@@ -18518,7 +18518,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-23T08:01:26+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374728",
@@ -18533,7 +18533,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T07:31:15+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20356911",
@@ -18548,7 +18548,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T07:01:45+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20362632",
@@ -18563,7 +18563,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T06:31:10+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20373444",
@@ -18578,7 +18578,7 @@
         "published": false,
         "reject_reason": "H7: Apple 할인 0% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-23T06:21:05+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20373459",
@@ -18593,7 +18593,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-23T06:02:14+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20355597",
@@ -18608,7 +18608,7 @@
         "published": false,
         "reject_reason": "H7: Ninja 할인 34% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-23T05:41:31+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20373372",
@@ -18623,7 +18623,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T05:11:15+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20372109",
@@ -18638,7 +18638,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T04:51:04+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20367324",
@@ -18653,7 +18653,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T04:11:59+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20359749",
@@ -18668,7 +18668,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T03:31:15+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20367294",
@@ -18683,7 +18683,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Hand Tools)",
         "first_seen": "2026-11-23T03:10:58+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20367273",
@@ -18698,7 +18698,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T02:41:17+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370162",
@@ -18713,7 +18713,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T02:02:22+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20367558",
@@ -18728,7 +18728,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-11-23T01:41:38+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20371584",
@@ -18743,7 +18743,7 @@
         "published": false,
         "reject_reason": "H7: LEGO 할인 20% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-23T01:31:15+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20371263",
@@ -18758,7 +18758,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 25% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-23T01:21:07+00:00",
-        "last_seen": "2026-11-23T14:11:38+00:00"
+        "last_seen": "2026-11-23T14:21:12+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20366916",
