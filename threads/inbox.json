@@ -1493,11 +1493,6 @@
  ],
  "runs": [
   {
-   "at": "2026-11-21T09:58:58+09:00",
-   "updates": 2,
-   "errors": []
-  },
-  {
    "at": "2026-11-21T11:49:47+09:00",
    "updates": 3,
    "errors": []
@@ -1691,6 +1686,11 @@
    "at": "2026-11-23T12:05:59+09:00",
    "updates": 0,
    "errors": []
+  },
+  {
+   "at": "2026-11-23T12:12:23+09:00",
+   "updates": 0,
+   "errors": []
   }
  ],
  "info": {
@@ -1766,6 +1766,14 @@
     "status": "posted",
     "link": "https://www.threads.com/@deal_ondo/post/DgCr5dQm6HX",
     "error": ""
+   },
+   "2026-11-23-lunch": {
+    "tries": 1,
+    "at": "2026-11-23T12:11:04+09:00",
+    "id": "D202611231211",
+    "status": "posted",
+    "link": "https://www.threads.com/@deal_ondo/post/DgEYl4qlalr",
+    "error": ""
    }
   },
   "log": [
@@ -1840,6 +1848,14 @@
     "slot": "evening",
     "link": "https://www.threads.com/@deal_ondo/post/DgCr5dQm6HX",
     "first_line": "직구할 때 제일 무서운 건 사이즈죠."
+   },
+   {
+    "at": "2026-11-23T12:11:04+09:00",
+    "id": "D202611231211",
+    "type": "data",
+    "slot": "lunch",
+    "link": "https://www.threads.com/@deal_ondo/post/DgEYl4qlalr",
+    "first_line": "블프 D-4, 지금 관부가세 없이 받는 브랜드 딜 3개."
    }
   ]
  }
