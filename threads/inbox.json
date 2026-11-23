@@ -1263,6 +1263,91 @@
    },
    "status": "waiting_price",
    "msg": 4458
+  },
+  "61d17860": {
+   "created": "2026-11-23T18:31:20+09:00",
+   "url": "https://www.nordstromrack.com/s/nike-nkb-nsw-colorblock-fleece-pant/9248367",
+   "deal": {
+    "source": "nordstromrack.com",
+    "source_tier": "T2",
+    "url": "https://www.nordstromrack.com/s/nike-nkb-nsw-colorblock-fleece-pant/9248367",
+    "title": "Kids' Colorblock Fleece Hoodie and Joggers Set",
+    "brand": "Nike Nkb Nsw",
+    "category": "sports_outdoor",
+    "image": "https://n.nordstrommedia.com/it/9041ae23-d5e1-4b38-8032-ddc211c76456.jpeg?h=368&w=240&dpr=2",
+    "price_current": 17.53,
+    "price_list": 55.0,
+    "price_baseline": 55.0,
+    "price_alltime_low": 17.53,
+    "currency": "USD",
+    "coupon_code": "",
+    "coupon_stackable": false,
+    "off_season": false,
+    "free_gift": false,
+    "community_votes": null,
+    "rating": null,
+    "review_count": null,
+    "ships_to_kr": true,
+    "forwarding_ok": true,
+    "krw_effective": 23553,
+    "kr_lowest_price": null,
+    "stock_status": "in_stock",
+    "is_refurbished": false,
+    "expires_at": null,
+    "collection_method": "scrape",
+    "frontpage": false,
+    "code_kind": "",
+    "brand_tier": "known",
+    "buy_url": "https://www.nordstromrack.com/s/nike-nkb-nsw-colorblock-fleece-pant/9248367",
+    "discount_pct": 68.1,
+    "score": 82,
+    "score_breakdown": {
+     "discount_depth": 30,
+     "price_history": 25,
+     "category": 17,
+     "bonus": 4,
+     "brand": 6
+    },
+    "passed_hard_filter": true,
+    "reject_reason": "",
+    "urgency": "HOT",
+    "detected_at": "2026-11-19T21:41:23.210533+00:00",
+    "last_seen": "2026-11-23T09:02:13.019718+00:00",
+    "posted_at": "",
+    "signals": {},
+    "id": "60861347db",
+    "history": [
+     [
+      "2026-11-19",
+      17.53
+     ],
+     [
+      "2026-11-20",
+      17.53
+     ],
+     [
+      "2026-11-21",
+      17.53
+     ],
+     [
+      "2026-11-22",
+      17.53
+     ],
+     [
+      "2026-11-23",
+      17.53
+     ]
+    ]
+   },
+   "seen": "2026-11-23T18:02:13.019718+09:00",
+   "text": "$17.53짜리 나이키 플리스 조거팬츠, 사이즈만 맞으면 이득이에요.\n\nNordstrom Rack · 68% 할인해서 $17.53 (정가 $55)\n관부가세 없음(미국발 $200 이하).\n신발은 US 사이즈를 mm로 바꿔서 확인하세요. 같은 US 8도 브랜드마다 달라요.\n\n직구할 때 사이즈 실패해본 적 있으세요?",
+   "reply": "상품 링크: https://www.nordstromrack.com/s/nike-nkb-nsw-colorblock-fleece-pant/9248367\n다른 사이즈·색상은 링크에서 확인하세요.",
+   "notes": [],
+   "angle": "size",
+   "already": false,
+   "photo_msg": 4474,
+   "msg": 4475,
+   "status": "waiting"
   }
  },
  "done_updates": [
@@ -1507,7 +1592,8 @@
   "2026-11-21-저녁": "ce7be73b",
   "2026-11-22-점심": "d4c8acea",
   "2026-11-22-저녁": "81f50736",
-  "2026-11-23-점심": "b67a4828"
+  "2026-11-23-점심": "b67a4828",
+  "2026-11-23-저녁": "61d17860"
  },
  "picked_urls": [
   "6pm.com/product/9961271",
@@ -1549,14 +1635,10 @@
   "nordstromrack.com/s/new-balance-gender-inclusive-530-sneaker/8503132",
   "zappos.com/product/9921339",
   "zappos.com/product/10031451",
-  "zappos.com/product/10054925"
+  "zappos.com/product/10054925",
+  "nordstromrack.com/s/nike-nkb-nsw-colorblock-fleece-pant/9248367"
  ],
  "runs": [
-  {
-   "at": "2026-11-21T18:53:25+09:00",
-   "updates": 1,
-   "errors": []
-  },
   {
    "at": "2026-11-21T19:39:57+09:00",
    "updates": 5,
@@ -1749,6 +1831,11 @@
   },
   {
    "at": "2026-11-23T18:23:09+09:00",
+   "updates": 0,
+   "errors": []
+  },
+  {
+   "at": "2026-11-23T18:40:07+09:00",
    "updates": 0,
    "errors": []
   }
