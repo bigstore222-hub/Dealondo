@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T03:21:02.133074+00:00",
-  "count": 269,
+  "generated_at": "2026-11-23T03:31:15.020133+00:00",
+  "count": 267,
   "deals": [
     {
       "source": "6pm.com",
@@ -703,81 +703,6 @@
       ]
     },
     {
-      "source": "slickdeals:walmart.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20360421",
-      "title": "2-Ct 8.5-Oz OREO White Fudge Covered Chocolate Sandwich Cookies + $1 Walmart Cash $8.15 + Free Pickup",
-      "brand": "Oreo",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/2/8/0/9/4/300x300/22500273.thumb",
-      "price_current": 8.15,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 30,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 10950,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20360421",
-      "discount_pct": null,
-      "score": 92,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 30표/54분 → 하한 86",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-21T00:51:57.720913+00:00",
-      "last_seen": "2026-11-23T03:20:59.923717+00:00",
-      "posted_at": "2026-11-23T02:26:17+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Occasions",
-        "sd_store": "Walmart",
-        "sd_brand": "Oreo",
-        "sd_hot_origin": true,
-        "sd_age_min": 54,
-        "sd_votes": 30,
-        "sd_velocity": 33.1,
-        "sd_fp_min": 15
-      },
-      "id": "a2a2248c82",
-      "history": [
-        [
-          "2026-11-21",
-          4.08
-        ],
-        [
-          "2026-11-23",
-          8.15
-        ]
-      ]
-    },
-    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20370084",
@@ -1424,6 +1349,77 @@
         [
           "2026-11-22",
           7.1
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:bestbuy.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20359749",
+      "title": "Hisense C2 Ultra Triple Laser 4K Smart Projector for $1500 at Best Buy",
+      "brand": "Anker",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20359749&t=15",
+      "price_current": 549.0,
+      "price_list": 2499.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 2,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 876310,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20359749",
+      "discount_pct": 78.0,
+      "score": 87,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-20T22:42:02.546711+00:00",
+      "last_seen": "2026-11-23T03:31:14.926572+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Projectors",
+        "sd_store": "Amazon",
+        "sd_brand": "Anker",
+        "sd_hot_origin": true,
+        "sd_age_min": 3202,
+        "sd_votes": 2,
+        "sd_velocity": 0.0,
+        "sd_fp_min": 3202
+      },
+      "id": "0580b377fb",
+      "history": [
+        [
+          "2026-11-20",
+          549.0
+        ],
+        [
+          "2026-11-23",
+          549.0
         ]
       ]
     },
@@ -2460,7 +2456,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-19T20:51:02.922458+00:00",
-      "last_seen": "2026-11-23T03:20:59.923717+00:00",
+      "last_seen": "2026-11-23T03:31:14.926572+00:00",
       "posted_at": "2026-11-23T02:20:02+00:00",
       "signals": {
         "sd_feeds": [
@@ -2470,9 +2466,9 @@
         "sd_store": "",
         "sd_brand": "GOOLOO",
         "sd_hot_origin": false,
-        "sd_age_min": 61,
+        "sd_age_min": 71,
         "sd_votes": 265,
-        "sd_velocity": 262.1,
+        "sd_velocity": 224.5,
         "sd_fp_min": -4649
       },
       "id": "e0db1ae7d9",
@@ -3257,14 +3253,14 @@
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
         "code_deal": "공개코드 DISCOUNT → 하한 75",
-        "slickdeals": "Hot Deals 급상승 42표/111분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 42표/121분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-22T20:42:01.381107+00:00",
-      "last_seen": "2026-11-23T03:20:59.923717+00:00",
+      "last_seen": "2026-11-23T03:31:14.926572+00:00",
       "posted_at": "2026-11-23T01:29:32+00:00",
       "signals": {
         "sd_feeds": [
@@ -3274,9 +3270,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Yankee Candle",
         "sd_hot_origin": true,
-        "sd_age_min": 111,
+        "sd_age_min": 121,
         "sd_votes": 42,
-        "sd_velocity": 22.7,
+        "sd_velocity": 20.8,
         "sd_fp_min": 12
       },
       "id": "c652f97c4e",
@@ -3864,78 +3860,77 @@
       ]
     },
     {
-      "source": "slickdeals:slickdeals.net",
+      "source": "slickdeals:walmart.com",
       "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20336187",
-      "title": "Baseus Picogo 5000mAh MagSafe Power Bank w/ USB-C Cable $12.30",
-      "brand": "Baseus",
-      "category": "electronics",
-      "image": "https://static.slickdealscdn.com/attachment/3/4/2/9/3/0/8/300x300/22425900.thumb",
-      "price_current": 12.0,
-      "price_list": 29.99,
+      "url": "https://slickdeals.net/f/20360421",
+      "title": "2-Ct 8.5-Oz OREO White Fudge Covered Chocolate Sandwich Cookies + $1 Walmart Cash $8.15 + Free Pickup",
+      "brand": "Oreo",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/1/2/8/0/9/4/300x300/22500273.thumb",
+      "price_current": 8.15,
+      "price_list": null,
       "price_baseline": null,
       "price_alltime_low": null,
       "currency": "USD",
-      "coupon_code": "N95B7AEC",
+      "coupon_code": "",
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 34,
+      "community_votes": 30,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 15972,
+      "krw_effective": 10950,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
       "expires_at": null,
       "collection_method": "rss",
       "frontpage": true,
-      "code_kind": "public",
+      "code_kind": "",
       "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20336187",
-      "discount_pct": 60.0,
-      "score": 81,
+      "buy_url": "https://slickdeals.net/f/20360421",
+      "discount_pct": null,
+      "score": 80,
       "score_breakdown": {
-        "discount_depth": 36,
+        "discount_depth": 0,
         "price_history": null,
-        "category": 15,
+        "category": 5,
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 N95B7AEC → 하한 75",
-        "slickdeals": "Hot Deals 급상승 34표/130분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 30표/65분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-11-20T23:01:35.384638+00:00",
-      "last_seen": "2026-11-21T03:31:13.858818+00:00",
-      "posted_at": "2026-11-21T01:21:17+00:00",
+      "detected_at": "2026-11-21T00:51:57.720913+00:00",
+      "last_seen": "2026-11-23T03:31:14.926572+00:00",
+      "posted_at": "2026-11-23T02:26:17+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
-        "sd_cat": "Tech & Electronics",
-        "sd_store": "Amazon",
-        "sd_brand": "Baseus",
+        "sd_cat": "Occasions",
+        "sd_store": "Walmart",
+        "sd_brand": "Oreo",
         "sd_hot_origin": true,
-        "sd_age_min": 130,
-        "sd_votes": 34,
-        "sd_velocity": 15.7,
-        "sd_fp_min": 21
+        "sd_age_min": 65,
+        "sd_votes": 30,
+        "sd_velocity": 27.9,
+        "sd_fp_min": 15
       },
-      "id": "4f01b30d0c",
+      "id": "a2a2248c82",
       "history": [
         [
-          "2026-11-20",
-          12.0
+          "2026-11-21",
+          4.08
         ],
         [
-          "2026-11-21",
-          12.0
+          "2026-11-23",
+          8.15
         ]
       ]
     },
@@ -3980,14 +3975,14 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 19표/68분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 19표/78분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-22T22:42:24.443829+00:00",
-      "last_seen": "2026-11-23T03:20:59.923717+00:00",
+      "last_seen": "2026-11-23T03:31:14.926572+00:00",
       "posted_at": "2026-11-23T02:12:54+00:00",
       "signals": {
         "sd_feeds": [
@@ -3996,9 +3991,9 @@
         "sd_cat": "Autos",
         "sd_store": "Amazon",
         "sd_hot_origin": true,
-        "sd_age_min": 68,
+        "sd_age_min": 78,
         "sd_votes": 19,
-        "sd_velocity": 16.8,
+        "sd_velocity": 14.6,
         "sd_fp_min": 28
       },
       "id": "d7cfdfdef7",
@@ -4054,14 +4049,14 @@
         "bonus": 4,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 28표/96분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 28표/107분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-22T21:41:42.764300+00:00",
-      "last_seen": "2026-11-23T03:20:59.923717+00:00",
+      "last_seen": "2026-11-23T03:31:14.926572+00:00",
       "posted_at": "2026-11-23T01:44:19+00:00",
       "signals": {
         "sd_feeds": [
@@ -4071,9 +4066,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Asmodee",
         "sd_hot_origin": true,
-        "sd_age_min": 96,
+        "sd_age_min": 107,
         "sd_votes": 28,
-        "sd_velocity": 17.4,
+        "sd_velocity": 15.8,
         "sd_fp_min": 57
       },
       "id": "ec34830063",
@@ -4129,14 +4124,14 @@
         "bonus": 0,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 28표/104분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 28표/114분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-20T21:22:05.420374+00:00",
-      "last_seen": "2026-11-23T03:20:59.923717+00:00",
+      "last_seen": "2026-11-23T03:31:14.926572+00:00",
       "posted_at": "2026-11-23T01:36:33+00:00",
       "signals": {
         "sd_feeds": [
@@ -4146,9 +4141,9 @@
         "sd_store": "Adorama",
         "sd_brand": "Energy Speaker Systems",
         "sd_hot_origin": true,
-        "sd_age_min": 104,
+        "sd_age_min": 114,
         "sd_votes": 28,
-        "sd_velocity": 16.1,
+        "sd_velocity": 14.7,
         "sd_fp_min": 5
       },
       "id": "4797a54b8b",
@@ -4204,14 +4199,14 @@
         "bonus": 4,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 32표/124분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 32표/134분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-22T19:32:27.412449+00:00",
-      "last_seen": "2026-11-23T03:20:59.923717+00:00",
+      "last_seen": "2026-11-23T03:31:14.926572+00:00",
       "posted_at": "2026-11-23T01:17:05+00:00",
       "signals": {
         "sd_feeds": [
@@ -4221,9 +4216,9 @@
         "sd_store": "Nike",
         "sd_brand": "Nike",
         "sd_hot_origin": true,
-        "sd_age_min": 124,
+        "sd_age_min": 134,
         "sd_votes": 32,
-        "sd_velocity": 15.5,
+        "sd_velocity": 14.4,
         "sd_fp_min": 4
       },
       "id": "b218f9a4d3",
@@ -10918,7 +10913,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-23T01:41:14.596852+00:00",
-      "last_seen": "2026-11-23T03:20:59.923717+00:00",
+      "last_seen": "2026-11-23T03:31:14.926572+00:00",
       "posted_at": "2026-11-23T01:11:12+00:00",
       "signals": {
         "sd_feeds": [
@@ -10928,9 +10923,9 @@
         "sd_store": "",
         "sd_brand": "lululemon",
         "sd_hot_origin": false,
-        "sd_age_min": 129,
+        "sd_age_min": 140,
         "sd_votes": 29,
-        "sd_velocity": 13.4,
+        "sd_velocity": 12.5,
         "sd_fp_min": 30
       },
       "id": "9e1bc81771",
@@ -11527,77 +11522,6 @@
         [
           "2026-11-21",
           13.5
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20339670",
-      "title": "Anker Prime 3-Port up to 160W GaN USB-C Wall Charger w/ Touch Display for $100 at Amazon",
-      "brand": "Anker",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20339670&t=15",
-      "price_current": 100.0,
-      "price_list": 149.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 26,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 134360,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20339670",
-      "discount_pct": 33.3,
-      "score": 66,
-      "score_breakdown": {
-        "discount_depth": 20,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-22T05:50:49.319466+00:00",
-      "last_seen": "2026-11-23T02:31:23.766907+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Chargers & Power Banks",
-        "sd_store": "",
-        "sd_brand": "Anker",
-        "sd_hot_origin": false,
-        "sd_age_min": 1242,
-        "sd_votes": 26,
-        "sd_velocity": 1.3,
-        "sd_fp_min": 2
-      },
-      "id": "213e8f10df",
-      "history": [
-        [
-          "2026-11-22",
-          100.0
-        ],
-        [
-          "2026-11-23",
-          100.0
         ]
       ]
     },
@@ -17916,7 +17840,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-23T03:02:01.111114+00:00",
-      "last_seen": "2026-11-23T03:20:59.923717+00:00",
+      "last_seen": "2026-11-23T03:31:14.926572+00:00",
       "posted_at": "2026-11-23T02:39:24+00:00",
       "signals": {
         "sd_feeds": [
@@ -17926,7 +17850,7 @@
         "sd_store": "Amazon",
         "sd_brand": "Ravensburger",
         "sd_hot_origin": true,
-        "sd_age_min": 41,
+        "sd_age_min": 51,
         "sd_votes": 0,
         "sd_velocity": 0.0
       },
@@ -18489,74 +18413,6 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20361102",
-      "title": "Fanttik A10 Pro 2-in-1 Digital Laser Tape Measure w/ 165' Laser & 9.8' Tape $48.99 + Free Shipping",
-      "brand": "Fanttik",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/3/7/4/7/9/3/300x300/22501950.thumb",
-      "price_current": 48.99,
-      "price_list": 89.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "KM8VR0WL",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 2,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 65204,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20361102",
-      "discount_pct": 45.6,
-      "score": 52,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 5,
-        "bonus": 4,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-21T03:11:48.083385+00:00",
-      "last_seen": "2026-11-21T03:31:13.858818+00:00",
-      "posted_at": "2026-11-21T02:44:47+00:00",
-      "signals": {
-        "sd_feeds": [
-          "hotdeals"
-        ],
-        "sd_cat": "Building & Remodeling Supplies",
-        "sd_store": "Amazon",
-        "sd_brand": "Fanttik",
-        "sd_hot_origin": true,
-        "sd_age_min": 46,
-        "sd_votes": 2,
-        "sd_velocity": 2.6
-      },
-      "id": "6c4a70588b",
-      "history": [
-        [
-          "2026-11-21",
-          48.99
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
       "url": "https://slickdeals.net/f/20371047",
       "title": "Instant Pot 4-in-1 10-Oz Milk Frother & Steamer (Black) $28.49 + Free Shipping w/ Prime or on $35+",
       "brand": "Instant Pot",
@@ -18700,7 +18556,7 @@
   "fx_usd_krw": 1343.6,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-23T03:20:33+00:00",
+      "T1": "2026-11-23T03:30:39+00:00",
       "T2": "2026-11-23T03:02:21+00:00",
       "T3": "2026-11-23T01:42:13+00:00",
       "T4": "2026-11-23T02:11:46+00:00"
@@ -18734,6 +18590,7 @@
       10,
       12,
       8,
+      10,
       10
     ],
     "naver": {
@@ -18741,7 +18598,7 @@
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-23T03:20:59+00:00",
+      "at": "2026-11-23T03:31:14+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -18750,16 +18607,16 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-23T03:20:59+00:00"
+      "at": "2026-11-23T03:31:14+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-23T03:20:40+00:00",
+        "at": "2026-11-23T03:30:50+00:00",
         "state": "정상",
-        "mails": 6,
-        "deals": 6
+        "mails": 7,
+        "deals": 7
       },
       "newsletter": {
         "at": "2026-11-23T02:14:40+00:00",
@@ -18769,6 +18626,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20359749",
+        "source": "slickdeals:bestbuy.com",
+        "title": "Hisense C2 Ultra Triple Laser 4K Smart Projector for $1500 at Best Buy",
+        "price": 549.0,
+        "list_price": 2499.99,
+        "discount_pct": 78.0,
+        "krw": 876310,
+        "kr_lowest": null,
+        "score": 87,
+        "published": true,
+        "reject_reason": "",
+        "first_seen": "2026-11-23T03:31:15+00:00",
+        "last_seen": "2026-11-23T03:31:15+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20367294",
         "source": "slickdeals:amazon.com",
@@ -18782,7 +18654,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Hand Tools)",
         "first_seen": "2026-11-23T03:10:58+00:00",
-        "last_seen": "2026-11-23T03:21:00+00:00"
+        "last_seen": "2026-11-23T03:31:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20367273",
@@ -18797,7 +18669,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T02:41:17+00:00",
-        "last_seen": "2026-11-23T03:21:00+00:00"
+        "last_seen": "2026-11-23T03:31:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370162",
@@ -18812,7 +18684,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T02:02:22+00:00",
-        "last_seen": "2026-11-23T03:21:00+00:00"
+        "last_seen": "2026-11-23T03:31:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20367558",
@@ -18827,7 +18699,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-11-23T01:41:38+00:00",
-        "last_seen": "2026-11-23T03:21:00+00:00"
+        "last_seen": "2026-11-23T03:31:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20371584",
@@ -18842,7 +18714,7 @@
         "published": false,
         "reject_reason": "H7: LEGO 할인 20% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-23T01:31:15+00:00",
-        "last_seen": "2026-11-23T03:21:00+00:00"
+        "last_seen": "2026-11-23T03:31:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20371263",
@@ -18857,7 +18729,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 25% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-23T01:21:07+00:00",
-        "last_seen": "2026-11-23T03:21:00+00:00"
+        "last_seen": "2026-11-23T03:31:15+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20366916",
@@ -19953,26 +19825,11 @@
         "reject_reason": "H8: 할인 17% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-21T06:21:07+00:00",
         "last_seen": "2026-11-22T00:52:10+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20361066",
-        "source": "slickdeals:homedepot.com",
-        "title": "27-Gallon HDX Tough Storage Tote (Black/Red or Black/Yellow) for $7 at Home Depot",
-        "price": 6.97,
-        "list_price": 8.98,
-        "discount_pct": 22.4,
-        "krw": 9363,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Storage & Cleaning)",
-        "first_seen": "2026-11-21T05:11:12+00:00",
-        "last_seen": "2026-11-22T00:52:10+00:00"
       }
     ],
     "totals": {
       "collected_72h": 80,
-      "published_72h": 44
+      "published_72h": 45
     }
   }
 }
