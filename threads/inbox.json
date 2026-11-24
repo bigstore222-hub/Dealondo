@@ -1060,10 +1060,30 @@
    "msg": 4628,
    "status": "posted",
    "link": "https://www.threads.com/@deal_ondo/post/DgINfmVIM0-"
+  },
+  "8988eea7": {
+   "created": "2026-11-25T00:31:57+09:00",
+   "url": "https://www.oakley.com/en-us/product/W0OO9490AN?variant=888392668165",
+   "hint": {
+    "at": 1795533809
+   },
+   "status": "replaced",
+   "msg": 4633
+  },
+  "c82aadca": {
+   "created": "2026-11-25T00:32:28+09:00",
+   "url": "https://www.oakley.com/en-us/product/W0OO9490AN?variant=888392668165",
+   "hint": {
+    "at": 1795533809,
+    "price_current": 190.0,
+    "price_list": 380.0,
+    "typed": true
+   },
+   "status": "waiting_price",
+   "msg": 4635
   }
  },
  "done_updates": [
-  303762802,
   303762803,
   303762804,
   303762805,
@@ -1263,7 +1283,9 @@
   303763047,
   303763048,
   303763049,
-  303763050
+  303763050,
+  303763051,
+  303763052
  ],
  "picks": {
   "2026-10-30-점심": "3ffe07d9",
@@ -1356,11 +1378,6 @@
   "nordstromrack.com/s/ugg-scuffette-chalet-genuine-sheepskin-slipper-women/8378058"
  ],
  "runs": [
-  {
-   "at": "2026-11-22T20:53:09+09:00",
-   "updates": 1,
-   "errors": []
-  },
   {
    "at": "2026-11-22T21:42:47+09:00",
    "updates": 0,
@@ -1554,6 +1571,11 @@
   {
    "at": "2026-11-24T23:53:21+09:00",
    "updates": 1,
+   "errors": []
+  },
+  {
+   "at": "2026-11-25T00:40:12+09:00",
+   "updates": 2,
    "errors": []
   }
  ],
