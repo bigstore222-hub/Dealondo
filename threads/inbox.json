@@ -1079,13 +1079,37 @@
     "price_list": 380.0,
     "typed": true
    },
-   "status": "waiting_price",
+   "status": "replaced",
    "msg": 4635
+  },
+  "be6d9329": {
+   "created": "2026-11-25T00:41:31+09:00",
+   "url": "https://www.oakley.com/en-us/product/W0OO9490AN?variant=888392668165",
+   "hint": {
+    "at": 1795533809,
+    "price_current": 190.0,
+    "price_list": 380.0,
+    "typed": true
+   },
+   "status": "waiting_price",
+   "msg": 4638
+  },
+  "fa72a210": {
+   "created": "2026-11-25T00:41:33+09:00",
+   "url": "https://www.oakley.com/en-us/product/W0OO9490AN?variant=888392668165",
+   "hint": {
+    "at": 1795533809,
+    "price_current": 190.0,
+    "price_list": 380.0,
+    "typed": true
+   },
+   "text": "Oakley Ellipse 50th Anniversary",
+   "msg": 4641,
+   "status": "waiting",
+   "error": "KeyError: 'deal'"
   }
  },
  "done_updates": [
-  303762803,
-  303762804,
   303762805,
   303762808,
   303762809,
@@ -1285,7 +1309,9 @@
   303763049,
   303763050,
   303763051,
-  303763052
+  303763052,
+  303763053,
+  303763054
  ],
  "picks": {
   "2026-10-30-점심": "3ffe07d9",
@@ -1378,11 +1404,6 @@
   "nordstromrack.com/s/ugg-scuffette-chalet-genuine-sheepskin-slipper-women/8378058"
  ],
  "runs": [
-  {
-   "at": "2026-11-22T21:42:47+09:00",
-   "updates": 0,
-   "errors": []
-  },
   {
    "at": "2026-11-22T22:53:13+09:00",
    "updates": 1,
@@ -1575,6 +1596,11 @@
   },
   {
    "at": "2026-11-25T00:40:12+09:00",
+   "updates": 2,
+   "errors": []
+  },
+  {
+   "at": "2026-11-25T00:50:18+09:00",
    "updates": 2,
    "errors": []
   }
