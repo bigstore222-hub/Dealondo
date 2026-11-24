@@ -457,11 +457,19 @@ SD_CATEGORY_MAP = [
 ]
 
 
+def _kw_hit(k: str, text: str) -> bool:
+    """짧은 키워드(5자 이하)는 단어 경계로 찾는다(복수형 s 허용).
+    2026-11-20: 'maje' 가 'majestic' 에, 'lego' 가 'ELEGOO' 에 걸려 레고가 프리미엄 패션(20점)이 되던 문제."""
+    if len(k) <= 5:
+        return re.search(rf"(?<![a-z]){re.escape(k)}s?(?![a-z])", text) is not None
+    return k in text
+
+
 def infer_category(deal: Deal) -> tuple[str, bool]:
     """(카테고리, 리테일러추정여부) 반환."""
     text = f"{deal.brand} {deal.title}".lower()
     for cat, kws in CATEGORY_KEYWORDS.items():
-        if any(k in text for k in kws):
+        if any(_kw_hit(k, text) for k in kws):
             return cat, False
     sdc = (getattr(deal, "signals", None) or {}).get("sd_cat") or ""
     if sdc:
