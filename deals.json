@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T06:51:45.514676+00:00",
+  "generated_at": "2026-11-24T07:01:51.582802+00:00",
   "count": 277,
   "deals": [
     {
@@ -826,14 +826,14 @@
         "bonus": 4,
         "brand": 12,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 37표/25분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 37표/36분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-23T14:32:09.191730+00:00",
-      "last_seen": "2026-11-24T06:51:07.834300+00:00",
+      "last_seen": "2026-11-24T07:01:51.411580+00:00",
       "posted_at": "2026-11-24T06:25:17+00:00",
       "signals": {
         "sd_feeds": [
@@ -843,9 +843,9 @@
         "sd_store": "Zappos",
         "sd_brand": "Birkenstock",
         "sd_hot_origin": true,
-        "sd_age_min": 25,
+        "sd_age_min": 36,
         "sd_votes": 37,
-        "sd_velocity": 87.2,
+        "sd_velocity": 61.2,
         "sd_fp_min": 16
       },
       "id": "fd6dbdf313",
@@ -900,14 +900,14 @@
         "category": 15,
         "bonus": 4,
         "brand": 6,
-        "slickdeals": "Hot Deals 폭발 28표/35분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 28표/45분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-19T20:51:02.922458+00:00",
-      "last_seen": "2026-11-24T06:51:07.834300+00:00",
+      "last_seen": "2026-11-24T07:01:51.411580+00:00",
       "posted_at": "2026-11-24T06:16:06+00:00",
       "signals": {
         "sd_feeds": [
@@ -916,9 +916,9 @@
         "sd_cat": "Headphones, Headsets & Earbuds",
         "sd_store": "",
         "sd_hot_origin": true,
-        "sd_age_min": 35,
+        "sd_age_min": 45,
         "sd_votes": 28,
-        "sd_velocity": 48.5,
+        "sd_velocity": 37.0,
         "sd_fp_min": 25
       },
       "id": "ab9c44f50a",
@@ -979,14 +979,14 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-21T02:21:01.921318+00:00",
-      "last_seen": "2026-11-24T06:51:07.834300+00:00",
+      "last_seen": "2026-11-24T07:01:51.411580+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Gaming Monitors",
         "sd_store": "",
         "sd_brand": "MSI",
         "sd_hot_origin": false,
-        "sd_age_min": 4636,
+        "sd_age_min": 4647,
         "sd_votes": 23,
         "sd_velocity": 0.3,
         "sd_fp_min": 47
@@ -1053,14 +1053,14 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-20T22:42:02.546711+00:00",
-      "last_seen": "2026-11-24T06:51:07.834300+00:00",
+      "last_seen": "2026-11-24T07:01:51.411580+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Projectors",
         "sd_store": "Amazon",
         "sd_brand": "Anker",
         "sd_hot_origin": true,
-        "sd_age_min": 4842,
+        "sd_age_min": 4853,
         "sd_votes": 2,
         "sd_velocity": 0.0,
         "sd_fp_min": 3202
@@ -2341,6 +2341,201 @@
       ]
     },
     {
+      "source": "amazon.com",
+      "source_tier": "T1",
+      "url": "https://www.amazon.com/Blink-Mini-Plug-resolution-detection/dp/B0HMFLDWTT",
+      "title": "Blink Mini 2K+ – Plug-in Home & Pet Indoor Security Camera with 2K video resolution, night vision, enhanced audio, motio",
+      "brand": "",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/611rQpKmtxL._AC_SR255,340_.jpg",
+      "price_current": 19.99,
+      "price_list": 79.98,
+      "price_baseline": 79.98,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 26857,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/Blink-Mini-Plug-resolution-detection/dp/B0HMFLDWTT",
+      "discount_pct": 75.0,
+      "score": 87,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-24T00:01:00.477338+00:00",
+      "last_seen": "2026-11-24T07:01:51.411580+00:00",
+      "posted_at": "",
+      "signals": {},
+      "id": "50cc054d64",
+      "history": [
+        [
+          "2026-11-24",
+          19.99
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20376018",
+      "title": "512GB 13\" Apple iPad Pro M5 Chip Wi-Fi Tablet (Silver) for $1349 at Amazon",
+      "brand": "Apple",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20376018&t=15",
+      "price_current": 1.0,
+      "price_list": 1699.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 40,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 1344,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20376018",
+      "discount_pct": 99.9,
+      "score": 87,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-24T03:30:57.092666+00:00",
+      "last_seen": "2026-11-24T07:01:51.411580+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Tablets & eReaders",
+        "sd_store": "",
+        "sd_brand": "Apple",
+        "sd_hot_origin": false,
+        "sd_age_min": 221,
+        "sd_votes": 40,
+        "sd_velocity": 10.9,
+        "sd_fp_min": 10
+      },
+      "id": "e2536c28f8",
+      "history": [
+        [
+          "2026-11-24",
+          1.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20375277",
+      "title": "15.3\" Apple MacBook Air (Midnight, 2026): M5 10-Core Chip, 16GB RAM, 512GB SSD for $1196 at Amazon",
+      "brand": "Apple",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20375277&t=15",
+      "price_current": 1.0,
+      "price_list": 1499.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 3,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 1344,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20375277",
+      "discount_pct": 99.9,
+      "score": 87,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-23T08:51:34.238178+00:00",
+      "last_seen": "2026-11-24T07:01:51.411580+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Computers",
+        "sd_store": "Amazon",
+        "sd_brand": "Apple",
+        "sd_hot_origin": true,
+        "sd_age_min": 1351,
+        "sd_votes": 3,
+        "sd_velocity": 0.1,
+        "sd_fp_min": 1051
+      },
+      "id": "aa5454cc0b",
+      "history": [
+        [
+          "2026-11-23",
+          1.0
+        ],
+        [
+          "2026-11-24",
+          1.0
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/ugg-scuffette-chalet-genuine-sheepskin-slipper-women/8378058",
@@ -2485,201 +2680,6 @@
         [
           "2026-11-24",
           62.96
-        ]
-      ]
-    },
-    {
-      "source": "amazon.com",
-      "source_tier": "T1",
-      "url": "https://www.amazon.com/Blink-Mini-Plug-resolution-detection/dp/B0HMFLDWTT",
-      "title": "Blink Mini 2K+ – Plug-in Home & Pet Indoor Security Camera with 2K video resolution, night vision, enhanced audio, motio",
-      "brand": "",
-      "category": "electronics",
-      "image": "https://m.media-amazon.com/images/I/611rQpKmtxL._AC_SR255,340_.jpg",
-      "price_current": 19.99,
-      "price_list": 79.98,
-      "price_baseline": 79.98,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 26857,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/Blink-Mini-Plug-resolution-detection/dp/B0HMFLDWTT",
-      "discount_pct": 75.0,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-24T00:01:00.477338+00:00",
-      "last_seen": "2026-11-24T06:51:07.834300+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "50cc054d64",
-      "history": [
-        [
-          "2026-11-24",
-          19.99
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20376018",
-      "title": "512GB 13\" Apple iPad Pro M5 Chip Wi-Fi Tablet (Silver) for $1349 at Amazon",
-      "brand": "Apple",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20376018&t=15",
-      "price_current": 1.0,
-      "price_list": 1699.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 40,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 1344,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20376018",
-      "discount_pct": 99.9,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-24T03:30:57.092666+00:00",
-      "last_seen": "2026-11-24T06:51:07.834300+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Tablets & eReaders",
-        "sd_store": "",
-        "sd_brand": "Apple",
-        "sd_hot_origin": false,
-        "sd_age_min": 210,
-        "sd_votes": 40,
-        "sd_velocity": 11.4,
-        "sd_fp_min": 10
-      },
-      "id": "e2536c28f8",
-      "history": [
-        [
-          "2026-11-24",
-          1.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20375277",
-      "title": "15.3\" Apple MacBook Air (Midnight, 2026): M5 10-Core Chip, 16GB RAM, 512GB SSD for $1196 at Amazon",
-      "brand": "Apple",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20375277&t=15",
-      "price_current": 1.0,
-      "price_list": 1499.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 3,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 1344,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20375277",
-      "discount_pct": 99.9,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-23T08:51:34.238178+00:00",
-      "last_seen": "2026-11-24T06:51:07.834300+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Computers",
-        "sd_store": "Amazon",
-        "sd_brand": "Apple",
-        "sd_hot_origin": true,
-        "sd_age_min": 1340,
-        "sd_votes": 3,
-        "sd_velocity": 0.1,
-        "sd_fp_min": 1051
-      },
-      "id": "aa5454cc0b",
-      "history": [
-        [
-          "2026-11-23",
-          1.0
-        ],
-        [
-          "2026-11-24",
-          1.0
         ]
       ]
     },
@@ -4387,7 +4387,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-24T04:11:45.396334+00:00",
-      "last_seen": "2026-11-24T06:51:07.834300+00:00",
+      "last_seen": "2026-11-24T07:01:51.411580+00:00",
       "posted_at": "2026-11-24T03:53:35+00:00",
       "signals": {
         "sd_feeds": [
@@ -4397,9 +4397,9 @@
         "sd_store": "",
         "sd_brand": "adidas",
         "sd_hot_origin": false,
-        "sd_age_min": 177,
+        "sd_age_min": 188,
         "sd_votes": 65,
-        "sd_velocity": 22.0,
+        "sd_velocity": 20.7,
         "sd_fp_min": 18
       },
       "id": "2905eb9aa8",
@@ -4981,6 +4981,157 @@
       ]
     },
     {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20379795",
+      "title": "adidas Men's Terrex Tracefinder Plus Trail Running Shoes (Core Black / Cloud White / Grey Five) $51 + Free S&H",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://static.slickdealscdn.com/attachment/3/3/2/8/0/4/4/7/300x300/22546617.thumb",
+      "price_current": 51.0,
+      "price_list": 100.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "SD15",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 32,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 68519,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20379795",
+      "discount_pct": 49.0,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 17,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "community": "투표 32+할인49% → 하한 55",
+        "slickdeals": "Hot Deals 급상승 32표/99분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-23T19:31:55.222801+00:00",
+      "last_seen": "2026-11-24T07:01:51.411580+00:00",
+      "posted_at": "2026-11-24T05:22:48+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Men's Shoes",
+        "sd_store": "adidas",
+        "sd_brand": "adidas",
+        "sd_hot_origin": true,
+        "sd_age_min": 99,
+        "sd_votes": 32,
+        "sd_velocity": 19.4,
+        "sd_fp_min": 31
+      },
+      "id": "4e5a9fc345",
+      "history": [
+        [
+          "2026-11-23",
+          51.0
+        ],
+        [
+          "2026-11-24",
+          51.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20366685",
+      "title": "LUXE Bidet NEO 185 PLUS Dual-Nozzle Toilet Attachment (Gold) $39.15 + Free S&H",
+      "brand": "Luxe",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/3/6/0/0/9/9/0/0/300x300/22514985.thumb",
+      "price_current": 39.0,
+      "price_list": 55.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 39,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 52397,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20366685",
+      "discount_pct": 30.3,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 20,
+        "price_history": null,
+        "category": 5,
+        "bonus": 4,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 39표/148분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-22T03:01:46.736281+00:00",
+      "last_seen": "2026-11-24T07:01:51.411580+00:00",
+      "posted_at": "2026-11-24T04:33:40+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Bed & Bath",
+        "sd_store": "Amazon",
+        "sd_brand": "Luxe",
+        "sd_hot_origin": true,
+        "sd_age_min": 148,
+        "sd_votes": 39,
+        "sd_velocity": 15.8,
+        "sd_fp_min": 18
+      },
+      "id": "79acb18244",
+      "history": [
+        [
+          "2026-11-22",
+          39.0
+        ],
+        [
+          "2026-11-24",
+          39.0
+        ]
+      ]
+    },
+    {
       "source": "dealsofamerica",
       "source_tier": "T2",
       "url": "https://www.dealsofamerica.com/sylvox-kt16a0khga-r-tv/778154.htm",
@@ -5057,157 +5208,6 @@
         [
           "2026-11-24",
           99.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20379795",
-      "title": "adidas Men's Terrex Tracefinder Plus Trail Running Shoes (Core Black / Cloud White / Grey Five) $51 + Free S&H",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://static.slickdealscdn.com/attachment/3/3/2/8/0/4/4/7/300x300/22546617.thumb",
-      "price_current": 51.0,
-      "price_list": 100.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "SD15",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 32,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 68519,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "public",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20379795",
-      "discount_pct": 49.0,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 17,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "community": "투표 32+할인49% → 하한 55",
-        "slickdeals": "Hot Deals 급상승 32표/88분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-23T19:31:55.222801+00:00",
-      "last_seen": "2026-11-24T06:51:07.834300+00:00",
-      "posted_at": "2026-11-24T05:22:48+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Men's Shoes",
-        "sd_store": "adidas",
-        "sd_brand": "adidas",
-        "sd_hot_origin": true,
-        "sd_age_min": 88,
-        "sd_votes": 32,
-        "sd_velocity": 21.8,
-        "sd_fp_min": 31
-      },
-      "id": "4e5a9fc345",
-      "history": [
-        [
-          "2026-11-23",
-          51.0
-        ],
-        [
-          "2026-11-24",
-          51.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20366685",
-      "title": "LUXE Bidet NEO 185 PLUS Dual-Nozzle Toilet Attachment (Gold) $39.15 + Free S&H",
-      "brand": "Luxe",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/3/6/0/0/9/9/0/0/300x300/22514985.thumb",
-      "price_current": 39.0,
-      "price_list": 55.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 39,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 52397,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20366685",
-      "discount_pct": 30.3,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 20,
-        "price_history": null,
-        "category": 5,
-        "bonus": 4,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 39표/137분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-22T03:01:46.736281+00:00",
-      "last_seen": "2026-11-24T06:51:07.834300+00:00",
-      "posted_at": "2026-11-24T04:33:40+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Bed & Bath",
-        "sd_store": "Amazon",
-        "sd_brand": "Luxe",
-        "sd_hot_origin": true,
-        "sd_age_min": 137,
-        "sd_votes": 39,
-        "sd_velocity": 17.1,
-        "sd_fp_min": 18
-      },
-      "id": "79acb18244",
-      "history": [
-        [
-          "2026-11-22",
-          39.0
-        ],
-        [
-          "2026-11-24",
-          39.0
         ]
       ]
     },
@@ -8579,6 +8579,75 @@
       ]
     },
     {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20383902",
+      "title": "[Prime] 25W Lisen Qi2.2 MagSafe Wireless Charging Pad w/ Active Cooling Fan & 36W Power Adapter (Black) $19.99 + Free Shipping",
+      "brand": "LISEN",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/3/1/5/9/4/1/5/9/300x300/22555716.thumb",
+      "price_current": 19.99,
+      "price_list": 39.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "0HFGHD19",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 0,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 26857,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20383902",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 0HFGHD19 → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-24T06:22:11.505805+00:00",
+      "last_seen": "2026-11-24T07:01:51.411580+00:00",
+      "posted_at": "2026-11-24T06:05:20+00:00",
+      "signals": {
+        "sd_feeds": [
+          "hotdeals"
+        ],
+        "sd_cat": "Chargers & Power Banks",
+        "sd_store": "Amazon",
+        "sd_brand": "LISEN",
+        "sd_hot_origin": true,
+        "sd_age_min": 56,
+        "sd_votes": 0,
+        "sd_velocity": 0.0
+      },
+      "id": "4709844bbd",
+      "history": [
+        [
+          "2026-11-24",
+          19.99
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/tommy-hilfiger-ls-notch-flannel-sleep-set/9366220",
@@ -8705,75 +8774,6 @@
         [
           "2026-11-24",
           17.25
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20383902",
-      "title": "[Prime] 25W Lisen Qi2.2 MagSafe Wireless Charging Pad w/ Active Cooling Fan & 36W Power Adapter (Black) $19.99 + Free Shipping",
-      "brand": "LISEN",
-      "category": "electronics",
-      "image": "https://static.slickdealscdn.com/attachment/3/1/5/9/4/1/5/9/300x300/22555716.thumb",
-      "price_current": 19.99,
-      "price_list": 39.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "0HFGHD19",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 0,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 26857,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20383902",
-      "discount_pct": 50.0,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 0HFGHD19 → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-24T06:22:11.505805+00:00",
-      "last_seen": "2026-11-24T06:51:07.834300+00:00",
-      "posted_at": "2026-11-24T06:05:20+00:00",
-      "signals": {
-        "sd_feeds": [
-          "hotdeals"
-        ],
-        "sd_cat": "Chargers & Power Banks",
-        "sd_store": "Amazon",
-        "sd_brand": "LISEN",
-        "sd_hot_origin": true,
-        "sd_age_min": 45,
-        "sd_votes": 0,
-        "sd_velocity": 0.0
-      },
-      "id": "4709844bbd",
-      "history": [
-        [
-          "2026-11-24",
-          19.99
         ]
       ]
     },
@@ -10416,14 +10416,14 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-23T04:50:41.918647+00:00",
-      "last_seen": "2026-11-24T06:51:07.834300+00:00",
+      "last_seen": "2026-11-24T07:01:51.411580+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Lighting",
         "sd_store": "",
         "sd_brand": "Philips",
         "sd_hot_origin": false,
-        "sd_age_min": 1571,
+        "sd_age_min": 1582,
         "sd_votes": 21,
         "sd_velocity": 0.8,
         "sd_fp_min": 11
@@ -11298,16 +11298,16 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-24T04:52:00.770649+00:00",
-      "last_seen": "2026-11-24T06:51:07.834300+00:00",
+      "last_seen": "2026-11-24T07:01:51.411580+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Home Automation",
         "sd_store": "Amazon",
         "sd_brand": "Tapo",
         "sd_hot_origin": false,
-        "sd_age_min": 134,
+        "sd_age_min": 145,
         "sd_votes": 29,
-        "sd_velocity": 13.0,
+        "sd_velocity": 12.0,
         "sd_fp_min": 16
       },
       "id": "b68e4ffcdc",
@@ -11928,7 +11928,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-24T06:22:11.505805+00:00",
-      "last_seen": "2026-11-24T06:51:07.834300+00:00",
+      "last_seen": "2026-11-24T07:01:51.411580+00:00",
       "posted_at": "2026-11-24T06:15:54+00:00",
       "signals": {
         "sd_feeds": [
@@ -11938,7 +11938,7 @@
         "sd_store": "Amazon",
         "sd_brand": "INIU",
         "sd_hot_origin": true,
-        "sd_age_min": 35,
+        "sd_age_min": 46,
         "sd_votes": 0,
         "sd_velocity": 0.0
       },
@@ -13318,14 +13318,14 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-22T17:22:35.277674+00:00",
-      "last_seen": "2026-11-24T06:51:07.834300+00:00",
+      "last_seen": "2026-11-24T07:01:51.411580+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Camera Lenses",
         "sd_store": "Amazon",
         "sd_brand": "Rokinon",
         "sd_hot_origin": true,
-        "sd_age_min": 2288,
+        "sd_age_min": 2298,
         "sd_votes": 3,
         "sd_velocity": 0.1,
         "sd_fp_min": 2278
@@ -19268,13 +19268,12 @@
   "fx_usd_krw": 1343.5,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-24T06:50:29+00:00",
+      "T1": "2026-11-24T07:00:47+00:00",
       "T2": "2026-11-24T06:51:09+00:00",
       "T3": "2026-11-24T05:32:49+00:00",
       "T4": "2026-11-24T02:51:12+00:00"
     },
     "recent_gaps_min": [
-      11,
       1,
       8,
       10,
@@ -19303,14 +19302,15 @@
       9,
       10,
       10,
-      1
+      1,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-24T06:51:43+00:00",
+      "at": "2026-11-24T07:01:51+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -19319,13 +19319,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-24T06:51:43+00:00"
+      "at": "2026-11-24T07:01:51+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-24T06:50:43+00:00",
+        "at": "2026-11-24T07:01:32+00:00",
         "state": "정상",
         "mails": 36,
         "deals": 36
@@ -19339,6 +19339,51 @@
     },
     "recent": [
       {
+        "url": "https://slickdeals.net/f/20372109",
+        "source": "slickdeals:amazon.com",
+        "title": "10' Philips Hue Flux RGBWWIC Smart LED Strip Light Base Kit for $41.15 at Amazon",
+        "price": 41.0,
+        "list_price": 79.99,
+        "discount_pct": 48.7,
+        "krw": 55084,
+        "kr_lowest": null,
+        "score": 70,
+        "published": true,
+        "reject_reason": "",
+        "first_seen": "2026-11-24T07:01:51+00:00",
+        "last_seen": "2026-11-24T07:01:51+00:00"
+      },
+      {
+        "url": "https://slickdeals.net/f/20367324",
+        "source": "slickdeals:nike.com",
+        "title": "Nike Men's Air Baltoro SP Shoes (Baroque Brown/Midnight Navy/Black/Midnight Green) for $69.75 at Nike",
+        "price": 70.0,
+        "list_price": 145.0,
+        "discount_pct": 51.7,
+        "krw": 94046,
+        "kr_lowest": null,
+        "score": 67,
+        "published": true,
+        "reject_reason": "",
+        "first_seen": "2026-11-24T07:01:51+00:00",
+        "last_seen": "2026-11-24T07:01:51+00:00"
+      },
+      {
+        "url": "https://slickdeals.net/f/20359749",
+        "source": "slickdeals:bestbuy.com",
+        "title": "Hisense C2 Ultra Triple Laser 4K Smart Projector for $1500 at Best Buy",
+        "price": 549.0,
+        "list_price": 2499.99,
+        "discount_pct": 78.0,
+        "krw": 876256,
+        "kr_lowest": null,
+        "score": 92,
+        "published": true,
+        "reject_reason": "",
+        "first_seen": "2026-11-24T07:01:51+00:00",
+        "last_seen": "2026-11-24T07:01:51+00:00"
+      },
+      {
         "url": "https://slickdeals.net/f/20367294",
         "source": "slickdeals:amazon.com",
         "title": "Leatherman Charge Plus TTI EDC Stainless Steel Multi-Tool w/ Titanium Handles for $100 at Amazon",
@@ -19351,7 +19396,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Hand Tools)",
         "first_seen": "2026-11-24T06:51:08+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20367273",
@@ -19366,7 +19411,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T06:51:08+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370162",
@@ -19381,7 +19426,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T06:51:08+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370630",
@@ -19396,7 +19441,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-24T06:41:22+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370600",
@@ -19411,7 +19456,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T06:41:22+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20367558",
@@ -19426,7 +19471,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-11-24T06:41:22+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20371584",
@@ -19441,7 +19486,7 @@
         "published": false,
         "reject_reason": "H7: LEGO 할인 20% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-24T06:22:30+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20371263",
@@ -19456,7 +19501,7 @@
         "published": false,
         "reject_reason": "H7: Nike 할인 25% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-24T06:11:25+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20382042",
@@ -19471,7 +19516,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T05:54:04+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20379441",
@@ -19486,7 +19531,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T04:52:21+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20376978",
@@ -19501,7 +19546,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-24T03:41:12+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20382648",
@@ -19516,7 +19561,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(TV Accessories)",
         "first_seen": "2026-11-24T03:41:12+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20376018",
@@ -19531,7 +19576,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T03:31:19+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://click.emails.underarmour.com/",
@@ -19576,7 +19621,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T02:42:26+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374257",
@@ -19591,7 +19636,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-24T02:42:26+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20380299",
@@ -19606,7 +19651,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(TV)",
         "first_seen": "2026-11-24T02:31:17+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374947",
@@ -19621,7 +19666,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-24T02:31:17+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20381514",
@@ -19636,7 +19681,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T02:11:29+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20360223",
@@ -19651,7 +19696,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-24T02:11:29+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20375277",
@@ -19666,7 +19711,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T02:01:35+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20360187",
@@ -19681,7 +19726,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-24T01:52:39+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20361357",
@@ -20341,7 +20386,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T10:51:19+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374926",
@@ -20356,7 +20401,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T10:32:37+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20375349",
@@ -20386,7 +20431,7 @@
         "published": false,
         "reject_reason": "H8: 할인 14% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-23T09:41:07+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370318",
@@ -20401,7 +20446,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Smartphones)",
         "first_seen": "2026-11-23T09:31:15+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370585",
@@ -20416,7 +20461,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Tools)",
         "first_seen": "2026-11-23T09:21:17+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20371575",
@@ -20431,7 +20476,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-23T08:01:26+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374728",
@@ -20461,7 +20506,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T07:01:45+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20362632",
@@ -20476,7 +20521,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T06:31:10+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20373444",
@@ -20491,57 +20536,12 @@
         "published": false,
         "reject_reason": "H7: Apple 할인 0% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-23T06:21:05+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20373459",
-        "source": "slickdeals:walmart.com",
-        "title": "Apple Pencil (USB-C) for iPad Tablets for $49 at Walmart",
-        "price": 49.0,
-        "list_price": null,
-        "discount_pct": null,
-        "krw": 65832,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
-        "first_seen": "2026-11-23T06:02:14+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20355597",
-        "source": "slickdeals:amazon.com",
-        "title": "30.2 Qt Ninja Double Oven Pro Smart XL 12-in-1 Countertop Oven & Air Fryer for $250 at Amazon",
-        "price": 250.0,
-        "list_price": 379.99,
-        "discount_pct": 34.2,
-        "krw": 399024,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H7: Ninja 할인 34% < 40% (유명 브랜드 최소 할인)",
-        "first_seen": "2026-11-23T05:41:31+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20373372",
-        "source": "slickdeals:walmart.com",
-        "title": "Walmart+ Members: Apple AirPods Pro 3 Wireless Earbuds for $149 at Walmart",
-        "price": 149.0,
-        "list_price": 249.0,
-        "discount_pct": 40.2,
-        "krw": 200184,
-        "kr_lowest": null,
-        "score": 66,
-        "published": true,
-        "reject_reason": "",
-        "first_seen": "2026-11-23T05:11:15+00:00",
-        "last_seen": "2026-11-24T06:51:08+00:00"
+        "last_seen": "2026-11-24T07:01:51+00:00"
       }
     ],
     "totals": {
       "collected_72h": 80,
-      "published_72h": 34
+      "published_72h": 36
     }
   }
 }
