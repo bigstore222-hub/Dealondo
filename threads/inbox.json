@@ -1,87 +1,5 @@
 {
  "drafts": {
-  "81f50736": {
-   "created": "2026-11-22T18:31:24+09:00",
-   "url": "https://www.zappos.com/product/10031451",
-   "deal": {
-    "source": "zappos.com",
-    "source_tier": "T2",
-    "url": "https://www.zappos.com/product/10031451",
-    "title": "Victory Dri-FIT Short Sleeve Cropped Golf Polo",
-    "brand": "Nike",
-    "category": "premium_fashion",
-    "image": "https://m.media-amazon.com/images/I/61yCCUsgXPL._AC_SR255,340_.jpg",
-    "price_current": 16.25,
-    "price_list": 65.0,
-    "price_baseline": 65.0,
-    "price_alltime_low": 16.25,
-    "currency": "USD",
-    "coupon_code": "",
-    "coupon_stackable": false,
-    "off_season": false,
-    "free_gift": false,
-    "community_votes": null,
-    "rating": null,
-    "review_count": null,
-    "ships_to_kr": true,
-    "forwarding_ok": true,
-    "krw_effective": 21829,
-    "kr_lowest_price": null,
-    "stock_status": "in_stock",
-    "is_refurbished": false,
-    "expires_at": null,
-    "collection_method": "scrape",
-    "frontpage": false,
-    "code_kind": "",
-    "brand_tier": "known",
-    "buy_url": "https://www.zappos.com/product/10031451",
-    "discount_pct": 75.0,
-    "score": 90,
-    "score_breakdown": {
-     "discount_depth": 35,
-     "price_history": 25,
-     "category": 20,
-     "bonus": 4,
-     "brand": 6
-    },
-    "passed_hard_filter": true,
-    "reject_reason": "",
-    "urgency": "FLASH",
-    "detected_at": "2026-11-19T08:41:23.407247+00:00",
-    "last_seen": "2026-11-22T09:21:46.218235+00:00",
-    "posted_at": "",
-    "signals": {},
-    "id": "c040b18db4",
-    "history": [
-     [
-      "2026-11-19",
-      16.25
-     ],
-     [
-      "2026-11-20",
-      16.25
-     ],
-     [
-      "2026-11-21",
-      16.25
-     ],
-     [
-      "2026-11-22",
-      16.25
-     ]
-    ]
-   },
-   "seen": "2026-11-22T18:31:18.586136+09:00",
-   "text": "나이키 폴로셔츠, $65짜리가 $16.25, 75% 할인.\n\n관부가세 없음(미국발 $200 이하).\n원화로 약 2만 2천 원, 여기에 배대지 배송비만 더하면 돼요.\n\n이 정도면 장바구니 담으시겠어요?",
-   "reply": "상품 링크: https://www.zappos.com/product/10031451\n블프까지 이런 딜을 골라서 계속 올려요.",
-   "notes": [],
-   "angle": "basic",
-   "already": false,
-   "photo_msg": 4378,
-   "msg": 4379,
-   "status": "posted",
-   "link": "https://www.threads.com/@deal_ondo/post/DgCf7tFFpm1"
-  },
   "48cb12a1": {
    "created": "2026-11-22T22:51:01+09:00",
    "url": "https://www.zappos.com/product/10066362",
@@ -1019,7 +937,6 @@
   }
  },
  "done_updates": [
-  303762798,
   303762799,
   303762800,
   303762801,
@@ -1313,11 +1230,6 @@
  ],
  "runs": [
   {
-   "at": "2026-11-22T15:22:49+09:00",
-   "updates": 0,
-   "errors": []
-  },
-  {
    "at": "2026-11-22T16:12:36+09:00",
    "updates": 1,
    "errors": []
@@ -1511,6 +1423,11 @@
    "at": "2026-11-24T18:33:27+09:00",
    "updates": 1,
    "errors": []
+  },
+  {
+   "at": "2026-11-24T20:23:14+09:00",
+   "updates": 0,
+   "errors": []
   }
  ],
  "info": {
@@ -1610,6 +1527,14 @@
     "status": "posted",
     "link": "https://www.threads.com/@deal_ondo/post/DgG9XG9FBOZ",
     "error": ""
+   },
+   "2026-11-24-evening": {
+    "tries": 1,
+    "at": "2026-11-24T20:21:11+09:00",
+    "id": "L05",
+    "status": "posted",
+    "link": "https://www.threads.com/@deal_ondo/post/DgH1d9YlqcF",
+    "error": ""
    }
   },
   "log": [
@@ -1708,6 +1633,14 @@
     "slot": "lunch",
     "link": "https://www.threads.com/@deal_ondo/post/DgG9XG9FBOZ",
     "first_line": "블프 D-3, 지금 관부가세 없이 받는 브랜드 딜 3개."
+   },
+   {
+    "at": "2026-11-24T20:21:11+09:00",
+    "id": "L05",
+    "type": "library",
+    "slot": "evening",
+    "link": "https://www.threads.com/@deal_ondo/post/DgH1d9YlqcF",
+    "first_line": "면세한도 $200, 정확히 뭘 더해서 보는지 헷갈리죠."
    }
   ]
  }
