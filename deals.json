@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T00:51:24.544734+00:00",
-  "count": 284,
+  "generated_at": "2026-11-24T01:02:19.716091+00:00",
+  "count": 278,
   "deals": [
     {
       "source": "6pm.com",
@@ -727,14 +727,14 @@
         "bonus": 0,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 72표/67분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 72표/78분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-23T19:31:55.222801+00:00",
-      "last_seen": "2026-11-24T00:51:22.941279+00:00",
+      "last_seen": "2026-11-24T01:02:19.604272+00:00",
       "posted_at": "2026-11-23T23:44:02+00:00",
       "signals": {
         "sd_feeds": [
@@ -744,9 +744,9 @@
         "sd_store": "Mint Mobile",
         "sd_brand": "Google",
         "sd_hot_origin": true,
-        "sd_age_min": 67,
+        "sd_age_min": 78,
         "sd_votes": 72,
-        "sd_velocity": 64.6,
+        "sd_velocity": 55.5,
         "sd_fp_min": 57
       },
       "id": "cbd93c4b90",
@@ -802,14 +802,14 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 52표/68분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 52표/79분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-23T14:32:09.191730+00:00",
-      "last_seen": "2026-11-24T00:51:22.941279+00:00",
+      "last_seen": "2026-11-24T01:02:19.604272+00:00",
       "posted_at": "2026-11-23T23:42:33+00:00",
       "signals": {
         "sd_feeds": [
@@ -818,9 +818,9 @@
         "sd_cat": "Streaming Services",
         "sd_store": "Amazon",
         "sd_hot_origin": true,
-        "sd_age_min": 68,
+        "sd_age_min": 79,
         "sd_votes": 52,
-        "sd_velocity": 45.6,
+        "sd_velocity": 39.3,
         "sd_fp_min": 59
       },
       "id": "17376a8730",
@@ -832,6 +832,80 @@
         [
           "2026-11-24",
           5.5
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:bestbuy.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20359749",
+      "title": "Hisense C2 Ultra Triple Laser 4K Smart Projector for $1500 at Best Buy",
+      "brand": "Anker",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20359749&t=15",
+      "price_current": 549.0,
+      "price_list": 2499.99,
+      "price_baseline": null,
+      "price_alltime_low": 549.0,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 2,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 876256,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20359749",
+      "discount_pct": 78.0,
+      "score": 92,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": 25,
+        "category": 15,
+        "bonus": 0,
+        "brand": 6,
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-20T22:42:02.546711+00:00",
+      "last_seen": "2026-11-24T01:02:19.604272+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Projectors",
+        "sd_store": "Amazon",
+        "sd_brand": "Anker",
+        "sd_hot_origin": true,
+        "sd_age_min": 4493,
+        "sd_votes": 2,
+        "sd_velocity": 0.0,
+        "sd_fp_min": 3202
+      },
+      "id": "0580b377fb",
+      "history": [
+        [
+          "2026-11-20",
+          549.0
+        ],
+        [
+          "2026-11-23",
+          549.0
+        ],
+        [
+          "2026-11-24",
+          549.0
         ]
       ]
     },
@@ -1915,7 +1989,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-24T00:01:00.477338+00:00",
-      "last_seen": "2026-11-24T00:51:22.941279+00:00",
+      "last_seen": "2026-11-24T01:02:19.604272+00:00",
       "posted_at": "",
       "signals": {},
       "id": "50cc054d64",
@@ -1973,7 +2047,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-23T23:01:42.836267+00:00",
-      "last_seen": "2026-11-24T00:51:22.941279+00:00",
+      "last_seen": "2026-11-24T01:02:19.604272+00:00",
       "posted_at": "2026-11-23T22:41:29+00:00",
       "signals": {
         "sd_feeds": [
@@ -1983,9 +2057,9 @@
         "sd_store": "",
         "sd_brand": "Beats",
         "sd_hot_origin": false,
-        "sd_age_min": 129,
+        "sd_age_min": 140,
         "sd_votes": 49,
-        "sd_velocity": 22.7,
+        "sd_velocity": 20.9,
         "sd_fp_min": 20
       },
       "id": "2081eee4af",
@@ -1997,6 +2071,81 @@
         [
           "2026-11-24",
           80.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20356911",
+      "title": "27\" Apple Studio Display 5K Retina, Standard Glass (Tilt Stand) for $1399 at Amazon",
+      "brand": "MSI",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20356911&t=15",
+      "price_current": 300.0,
+      "price_list": 1599.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 23,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 478828,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20356911",
+      "discount_pct": 81.2,
+      "score": 87,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-21T02:21:01.921318+00:00",
+      "last_seen": "2026-11-24T01:02:19.604272+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Gaming Monitors",
+        "sd_store": "",
+        "sd_brand": "MSI",
+        "sd_hot_origin": false,
+        "sd_age_min": 4288,
+        "sd_votes": 23,
+        "sd_velocity": 0.3,
+        "sd_fp_min": 47
+      },
+      "id": "74e830208f",
+      "history": [
+        [
+          "2026-11-21",
+          300.0
+        ],
+        [
+          "2026-11-23",
+          300.0
+        ],
+        [
+          "2026-11-24",
+          300.0
         ]
       ]
     },
@@ -2148,77 +2297,6 @@
       "variant_count": 2
     },
     {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20356911",
-      "title": "27\" Apple Studio Display 5K Retina, Standard Glass (Tilt Stand) for $1399 at Amazon",
-      "brand": "MSI",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20356911&t=15",
-      "price_current": 300.0,
-      "price_list": 1599.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 23,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 478858,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20356911",
-      "discount_pct": 81.2,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-21T02:21:01.921318+00:00",
-      "last_seen": "2026-11-23T20:54:09.937414+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Gaming Monitors",
-        "sd_store": "",
-        "sd_brand": "MSI",
-        "sd_hot_origin": false,
-        "sd_age_min": 4039,
-        "sd_votes": 23,
-        "sd_velocity": 0.3,
-        "sd_fp_min": 47
-      },
-      "id": "74e830208f",
-      "history": [
-        [
-          "2026-11-21",
-          300.0
-        ],
-        [
-          "2026-11-23",
-          300.0
-        ]
-      ]
-    },
-    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20359410",
@@ -2291,77 +2369,6 @@
         [
           "2026-11-23",
           109.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:bestbuy.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20359749",
-      "title": "Hisense C2 Ultra Triple Laser 4K Smart Projector for $1500 at Best Buy",
-      "brand": "Anker",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20359749&t=15",
-      "price_current": 549.0,
-      "price_list": 2499.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 2,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 876310,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20359749",
-      "discount_pct": 78.0,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-20T22:42:02.546711+00:00",
-      "last_seen": "2026-11-23T17:41:14.117386+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Projectors",
-        "sd_store": "Amazon",
-        "sd_brand": "Anker",
-        "sd_hot_origin": true,
-        "sd_age_min": 4052,
-        "sd_votes": 2,
-        "sd_velocity": 0.0,
-        "sd_fp_min": 3202
-      },
-      "id": "0580b377fb",
-      "history": [
-        [
-          "2026-11-20",
-          549.0
-        ],
-        [
-          "2026-11-23",
-          549.0
         ]
       ]
     },
@@ -2846,7 +2853,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-23T23:41:11.726604+00:00",
-      "last_seen": "2026-11-24T00:51:22.941279+00:00",
+      "last_seen": "2026-11-24T01:02:19.604272+00:00",
       "posted_at": "2026-11-23T23:14:47+00:00",
       "signals": {
         "sd_feeds": [
@@ -2856,9 +2863,9 @@
         "sd_store": "",
         "sd_brand": "Blackstone",
         "sd_hot_origin": false,
-        "sd_age_min": 96,
+        "sd_age_min": 107,
         "sd_votes": 54,
-        "sd_velocity": 33.7,
+        "sd_velocity": 30.2,
         "sd_fp_min": 26
       },
       "id": "7ab82c3ac0",
@@ -3776,7 +3783,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-24T00:41:09.566720+00:00",
-      "last_seen": "2026-11-24T00:51:22.941279+00:00",
+      "last_seen": "2026-11-24T01:02:19.604272+00:00",
       "posted_at": "2026-11-23T23:56:49+00:00",
       "signals": {
         "sd_feeds": [
@@ -3786,9 +3793,9 @@
         "sd_store": "",
         "sd_brand": "adidas",
         "sd_hot_origin": false,
-        "sd_age_min": 54,
+        "sd_age_min": 65,
         "sd_votes": 42,
-        "sd_velocity": 46.5,
+        "sd_velocity": 38.7,
         "sd_fp_min": 44
       },
       "id": "b40553a5de",
@@ -3847,7 +3854,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-24T00:41:09.566720+00:00",
-      "last_seen": "2026-11-24T00:51:22.941279+00:00",
+      "last_seen": "2026-11-24T01:02:19.604272+00:00",
       "posted_at": "2026-11-23T23:39:14+00:00",
       "signals": {
         "sd_feeds": [
@@ -3857,9 +3864,9 @@
         "sd_store": "",
         "sd_brand": "Crocs",
         "sd_hot_origin": false,
-        "sd_age_min": 72,
+        "sd_age_min": 83,
         "sd_votes": 49,
-        "sd_velocity": 41.0,
+        "sd_velocity": 35.6,
         "sd_fp_min": 62
       },
       "id": "d57d793ad6",
@@ -4436,6 +4443,81 @@
         [
           "2026-11-22",
           129.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20380176",
+      "title": "6-Qt Instant Pot Duo 7-in-1 Electric Pressure Cooker $60 + Free S&H",
+      "brand": "Instant Pot",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/3/4/1/4/5/2/0/2/300x300/22547595.thumb",
+      "price_current": 60.0,
+      "price_list": 109.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 33,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 80611,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20380176",
+      "discount_pct": 45.4,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 5,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 33표/75분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-23T20:12:03.986370+00:00",
+      "last_seen": "2026-11-24T01:02:19.604272+00:00",
+      "posted_at": "2026-11-23T23:46:28+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Pressure Cookers",
+        "sd_store": "Amazon",
+        "sd_brand": "Instant Pot",
+        "sd_hot_origin": true,
+        "sd_age_min": 75,
+        "sd_votes": 33,
+        "sd_velocity": 26.2,
+        "sd_fp_min": 5
+      },
+      "id": "2841a4b66c",
+      "history": [
+        [
+          "2026-11-23",
+          60.0
+        ],
+        [
+          "2026-11-24",
+          60.0
         ]
       ]
     },
@@ -5599,6 +5681,10 @@
         ],
         [
           "2026-11-23",
+          128.0
+        ],
+        [
+          "2026-11-24",
           128.0
         ]
       ]
@@ -7179,81 +7265,6 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20364168",
-      "title": "16-Oz 365 by Whole Foods Market Baking Soda $0.75 w/ S&S",
-      "brand": "365 by Whole Foods Market",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/1/7/1/5/2/7/300x300/22509483.thumb",
-      "price_current": 0.77,
-      "price_list": 1.07,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 43,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 1034,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20364168",
-      "discount_pct": 28.0,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 8,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 43표/172분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-21T16:32:00.133458+00:00",
-      "last_seen": "2026-11-22T01:01:13.550421+00:00",
-      "posted_at": "2026-11-21T22:08:35+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Baking and Cooking",
-        "sd_store": "Amazon",
-        "sd_brand": "365 by Whole Foods Market",
-        "sd_hot_origin": true,
-        "sd_age_min": 172,
-        "sd_votes": 43,
-        "sd_velocity": 15.0,
-        "sd_fp_min": 42
-      },
-      "id": "2647c45c1b",
-      "history": [
-        [
-          "2026-11-21",
-          0.77
-        ],
-        [
-          "2026-11-22",
-          0.77
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
       "url": "https://slickdeals.net/f/20373597",
       "title": "Beats By Dr. Dre Solo Buds True Wireless Earbuds (Ivory) $34",
       "brand": "Beats",
@@ -8108,77 +8119,6 @@
         [
           "2026-11-22",
           33.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:bestbuy.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20339076",
-      "title": "15W Energizer 3-in-1 Metal MagSafe Qi2 Wireless Charging Station for $18 at Best Buy",
-      "brand": "Energizer",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20339076&t=15",
-      "price_current": 18.0,
-      "price_list": 50.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 38,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 24180,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20339076",
-      "discount_pct": 64.7,
-      "score": 79,
-      "score_breakdown": {
-        "discount_depth": 36,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-21T20:01:05.871166+00:00",
-      "last_seen": "2026-11-22T00:52:09.745692+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Chargers & Power Banks",
-        "sd_store": "",
-        "sd_brand": "Energizer",
-        "sd_hot_origin": false,
-        "sd_age_min": 298,
-        "sd_votes": 38,
-        "sd_velocity": 7.7,
-        "sd_fp_min": 7
-      },
-      "id": "5f447e2d9d",
-      "history": [
-        [
-          "2026-11-21",
-          18.0
-        ],
-        [
-          "2026-11-22",
-          18.0
         ]
       ]
     },
@@ -10187,7 +10127,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-23T23:01:42.836267+00:00",
-      "last_seen": "2026-11-24T00:51:22.941279+00:00",
+      "last_seen": "2026-11-24T01:02:19.604272+00:00",
       "posted_at": "2026-11-23T22:59:11+00:00",
       "signals": {
         "sd_feeds": [
@@ -10197,9 +10137,9 @@
         "sd_store": "Dick's Sporting Goods",
         "sd_brand": "Owala",
         "sd_hot_origin": false,
-        "sd_age_min": 112,
+        "sd_age_min": 123,
         "sd_votes": 53,
-        "sd_velocity": 28.5,
+        "sd_velocity": 25.9,
         "sd_fp_min": 3
       },
       "id": "fceeadb541",
@@ -10681,13 +10621,13 @@
     {
       "source": "slickdeals:amazon.com",
       "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20345376",
-      "title": "Prime Members: Baseus Spacemate RD1 10-in-1 Mini Docking Station for $90 at Amazon",
-      "brand": "Baseus",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20345376&t=15",
-      "price_current": 90.0,
-      "price_list": 169.99,
+      "url": "https://slickdeals.net/f/20372109",
+      "title": "10' Philips Hue Flux RGBWWIC Smart LED Strip Light Base Kit for $41.15 at Amazon",
+      "brand": "Philips",
+      "category": "home",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20372109&t=15",
+      "price_current": 41.0,
+      "price_list": 79.99,
       "price_baseline": null,
       "price_alltime_low": null,
       "currency": "USD",
@@ -10695,12 +10635,12 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 27,
+      "community_votes": 21,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 120900,
+      "krw_effective": 55084,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -10708,44 +10648,44 @@
       "collection_method": "email",
       "frontpage": true,
       "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20345376",
-      "discount_pct": 47.1,
-      "score": 71,
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20372109",
+      "discount_pct": 48.7,
+      "score": 70,
       "score_breakdown": {
         "discount_depth": 30,
         "price_history": null,
-        "category": 15,
+        "category": 8,
         "bonus": 4,
-        "brand": 0,
+        "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
-      "detected_at": "2026-11-21T02:00:59.130715+00:00",
-      "last_seen": "2026-11-22T00:52:09.745692+00:00",
+      "detected_at": "2026-11-23T04:50:41.918647+00:00",
+      "last_seen": "2026-11-24T01:02:19.604272+00:00",
       "posted_at": "",
       "signals": {
-        "sd_cat": "Chargers & Power Banks",
+        "sd_cat": "Lighting",
         "sd_store": "",
-        "sd_brand": "Baseus",
+        "sd_brand": "Philips",
         "sd_hot_origin": false,
-        "sd_age_min": 1375,
-        "sd_votes": 27,
-        "sd_velocity": 1.2,
-        "sd_fp_min": 5
+        "sd_age_min": 1222,
+        "sd_votes": 21,
+        "sd_velocity": 1.0,
+        "sd_fp_min": 11
       },
-      "id": "f925bd8a12",
+      "id": "a7cc677e4d",
       "history": [
         [
-          "2026-11-21",
-          90.0
+          "2026-11-23",
+          41.0
         ],
         [
-          "2026-11-22",
-          90.0
+          "2026-11-24",
+          41.0
         ]
       ]
     },
@@ -10817,73 +10757,6 @@
         [
           "2026-11-24",
           6.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20372109",
-      "title": "10' Philips Hue Flux RGBWWIC Smart LED Strip Light Base Kit for $41.15 at Amazon",
-      "brand": "Philips",
-      "category": "home",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20372109&t=15",
-      "price_current": 41.0,
-      "price_list": 79.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 21,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 55087,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20372109",
-      "discount_pct": 48.7,
-      "score": 70,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 8,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-23T04:50:41.918647+00:00",
-      "last_seen": "2026-11-23T18:01:39.288765+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Lighting",
-        "sd_store": "",
-        "sd_brand": "Philips",
-        "sd_hot_origin": false,
-        "sd_age_min": 802,
-        "sd_votes": 21,
-        "sd_velocity": 1.6,
-        "sd_fp_min": 11
-      },
-      "id": "a7cc677e4d",
-      "history": [
-        [
-          "2026-11-23",
-          41.0
         ]
       ]
     },
@@ -11085,81 +10958,6 @@
         [
           "2026-11-22",
           89.98
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:crocs",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20359956",
-      "title": "Crocs: Kids' Baya Clog $15, Adult Baya or Baya Lined Clog for $22.50 at Crocs",
-      "brand": "Crocs",
-      "category": "kids",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20359956&t=15",
-      "price_current": 23.0,
-      "price_list": 59.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 1,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 30897,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20359956",
-      "discount_pct": 61.7,
-      "score": 69,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-20T23:01:35.384638+00:00",
-      "last_seen": "2026-11-22T00:52:09.745692+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Clothing & Accessories",
-        "sd_store": "Crocs",
-        "sd_brand": "Crocs",
-        "sd_hot_origin": true,
-        "sd_age_min": 1561,
-        "sd_votes": 1,
-        "sd_velocity": 0.0,
-        "sd_fp_min": 341
-      },
-      "id": "7b68b067e1",
-      "history": [
-        [
-          "2026-11-20",
-          22.5
-        ],
-        [
-          "2026-11-21",
-          23.0
-        ],
-        [
-          "2026-11-22",
-          23.0
         ]
       ]
     },
@@ -11638,77 +11436,6 @@
       ]
     },
     {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20380176",
-      "title": "6-Qt Instant Pot Duo 7-in-1 Electric Pressure Cooker for $60 at Amazon",
-      "brand": "Instant Pot",
-      "category": "etc",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20380176&t=15",
-      "price_current": 60.0,
-      "price_list": 109.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 2,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 80611,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20380176",
-      "discount_pct": 45.4,
-      "score": 66,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 5,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-23T20:12:03.986370+00:00",
-      "last_seen": "2026-11-24T00:51:22.941279+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Pressure Cookers",
-        "sd_store": "Amazon",
-        "sd_brand": "Instant Pot",
-        "sd_hot_origin": true,
-        "sd_age_min": 289,
-        "sd_votes": 2,
-        "sd_velocity": 0.4,
-        "sd_fp_min": 230
-      },
-      "id": "2841a4b66c",
-      "history": [
-        [
-          "2026-11-23",
-          60.0
-        ],
-        [
-          "2026-11-24",
-          60.0
-        ]
-      ]
-    },
-    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20377851",
@@ -11755,7 +11482,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-23T23:41:11.726604+00:00",
-      "last_seen": "2026-11-24T00:51:22.941279+00:00",
+      "last_seen": "2026-11-24T01:02:19.604272+00:00",
       "posted_at": "2026-11-23T23:14:10+00:00",
       "signals": {
         "sd_feeds": [
@@ -11765,9 +11492,9 @@
         "sd_store": "Walmart",
         "sd_brand": "GameSir",
         "sd_hot_origin": false,
-        "sd_age_min": 97,
+        "sd_age_min": 108,
         "sd_votes": 35,
-        "sd_velocity": 21.7,
+        "sd_velocity": 19.5,
         "sd_fp_min": 27
       },
       "id": "6aa8cea872",
@@ -11783,15 +11510,15 @@
       ]
     },
     {
-      "source": "slickdeals:slickdeals.net",
+      "source": "slickdeals:walmart.com",
       "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20380554",
-      "title": "Apple AirTag (2nd Generation) $18",
+      "url": "https://slickdeals.net/f/20373372",
+      "title": "Walmart+ Members: Apple AirPods Pro 3 Wireless Earbuds for $149 at Walmart",
       "brand": "Apple",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/5/0/7/0/1/0/300x300/22548549.thumb",
-      "price_current": 18.0,
-      "price_list": 29.0,
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20373372&t=15",
+      "price_current": 149.0,
+      "price_list": 249.0,
       "price_baseline": null,
       "price_alltime_low": null,
       "currency": "USD",
@@ -11799,27 +11526,27 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 50,
+      "community_votes": 16,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 24185,
+      "krw_effective": 200184,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
       "expires_at": null,
-      "collection_method": "rss",
+      "collection_method": "email",
       "frontpage": true,
       "code_kind": "",
       "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20380554",
-      "discount_pct": 37.9,
+      "buy_url": "https://slickdeals.net/f/20373372",
+      "discount_pct": 40.2,
       "score": 66,
       "score_breakdown": {
         "discount_depth": 20,
         "price_history": null,
-        "category": 5,
+        "category": 15,
         "bonus": 4,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
@@ -11828,27 +11555,28 @@
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "STEADY",
-      "detected_at": "2026-11-23T22:02:09.052215+00:00",
-      "last_seen": "2026-11-23T22:52:07.745485+00:00",
-      "posted_at": "2026-11-23T21:20:48+00:00",
+      "detected_at": "2026-11-23T05:10:55.381525+00:00",
+      "last_seen": "2026-11-24T01:02:19.604272+00:00",
+      "posted_at": "",
       "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "GPS",
-        "sd_store": "Amazon",
+        "sd_cat": "Headphones, Headsets & Earbuds",
+        "sd_store": "",
         "sd_brand": "Apple",
         "sd_hot_origin": false,
-        "sd_age_min": 91,
-        "sd_votes": 50,
-        "sd_velocity": 33.0,
-        "sd_fp_min": 41
+        "sd_age_min": 1201,
+        "sd_votes": 16,
+        "sd_velocity": 0.8,
+        "sd_fp_min": 10
       },
-      "id": "53d7e60fa7",
+      "id": "fbcff4106e",
       "history": [
         [
           "2026-11-23",
-          18.0
+          149.0
+        ],
+        [
+          "2026-11-24",
+          149.0
         ]
       ]
     },
@@ -14431,78 +14159,6 @@
       ]
     },
     {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20349876",
-      "title": "LEXIVON 2-IN-1 Laser & Tape Measure (Tape 16', Laser 140') for $36 at Amazon",
-      "brand": "Lexivon",
-      "category": "etc",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20349876&t=15",
-      "price_current": 36.0,
-      "price_list": 59.97,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 33,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 48360,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20349876",
-      "discount_pct": 40.0,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 20,
-        "price_history": null,
-        "category": 5,
-        "bonus": 4,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "community": "투표 33+할인40% → 하한 55",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-21T16:41:04.341414+00:00",
-      "last_seen": "2026-11-22T00:52:09.745692+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Free Shipping",
-        "sd_store": "",
-        "sd_brand": "Lexivon",
-        "sd_hot_origin": false,
-        "sd_age_min": 495,
-        "sd_votes": 33,
-        "sd_velocity": 4.0,
-        "sd_fp_min": 4
-      },
-      "id": "f3ab0d7e76",
-      "history": [
-        [
-          "2026-11-21",
-          36.0
-        ],
-        [
-          "2026-11-22",
-          36.0
-        ]
-      ]
-    },
-    {
       "source": "dealnews",
       "source_tier": "T2",
       "url": "https://www.dealnews.com/Farberware-Disney-Bake-Mickey-Mouse-Nonstick-6-Piece-Bakeware-Set-w-Oven-Mitts-for-49-free-shipping/22425356.html?iref=rss",
@@ -15089,77 +14745,6 @@
         [
           "2026-11-22",
           50.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20363352",
-      "title": "Hot Wheels 5-Pack of Ferrari 1:64 Scale Cars for $7 at Amazon",
-      "brand": "Mattel",
-      "category": "kids",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20363352&t=15",
-      "price_current": 6.99,
-      "price_list": 15.39,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 3,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 9390,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20363352",
-      "discount_pct": 54.6,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 26,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-21T14:02:10.107896+00:00",
-      "last_seen": "2026-11-22T00:52:09.745692+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Kids Toys",
-        "sd_store": "Amazon",
-        "sd_brand": "Hot Wheels",
-        "sd_hot_origin": true,
-        "sd_age_min": 675,
-        "sd_votes": 3,
-        "sd_velocity": 0.3,
-        "sd_fp_min": 144
-      },
-      "id": "5849cc63e6",
-      "history": [
-        [
-          "2026-11-21",
-          6.99
-        ],
-        [
-          "2026-11-22",
-          6.99
         ]
       ]
     },
@@ -19779,7 +19364,7 @@
   "fx_usd_krw": 1343.5,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-24T00:50:28+00:00",
+      "T1": "2026-11-24T01:00:42+00:00",
       "T2": "2026-11-24T00:21:10+00:00",
       "T3": "2026-11-23T23:02:42+00:00",
       "T4": "2026-11-23T20:41:13+00:00"
@@ -19813,14 +19398,15 @@
       1,
       10,
       10,
-      10
+      10,
+      11
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-24T00:51:22+00:00",
+      "at": "2026-11-24T01:02:19+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -19829,16 +19415,16 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-24T00:51:22+00:00"
+      "at": "2026-11-24T01:02:19+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-24T00:50:57+00:00",
+        "at": "2026-11-24T01:01:54+00:00",
         "state": "정상",
-        "mails": 40,
-        "deals": 38
+        "mails": 21,
+        "deals": 21
       },
       "newsletter": {
         "at": "2026-11-23T20:44:16+00:00",
@@ -20506,7 +20092,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T10:51:19+00:00",
-        "last_seen": "2026-11-23T22:23:15+00:00"
+        "last_seen": "2026-11-24T01:02:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374926",
@@ -20515,13 +20101,13 @@
         "price": 299.0,
         "list_price": 449.0,
         "discount_pct": 33.4,
-        "krw": 477262,
+        "krw": 477232,
         "kr_lowest": null,
         "score": 61,
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T10:32:37+00:00",
-        "last_seen": "2026-11-23T22:12:36+00:00"
+        "last_seen": "2026-11-24T01:02:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20375349",
@@ -20545,13 +20131,13 @@
         "price": 599.0,
         "list_price": 699.0,
         "discount_pct": 14.3,
-        "krw": 956120,
+        "krw": 956061,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H8: 할인 14% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-23T09:41:07+00:00",
-        "last_seen": "2026-11-23T22:12:36+00:00"
+        "last_seen": "2026-11-24T01:02:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370318",
@@ -20560,13 +20146,13 @@
         "price": 33.3,
         "list_price": null,
         "discount_pct": null,
-        "krw": 44742,
+        "krw": 44739,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Smartphones)",
         "first_seen": "2026-11-23T09:31:15+00:00",
-        "last_seen": "2026-11-23T22:02:31+00:00"
+        "last_seen": "2026-11-24T01:02:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370585",
@@ -20575,13 +20161,13 @@
         "price": 25.0,
         "list_price": 49.47,
         "discount_pct": 49.5,
-        "krw": 33590,
+        "krw": 33588,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Tools)",
         "first_seen": "2026-11-23T09:21:17+00:00",
-        "last_seen": "2026-11-23T21:51:39+00:00"
+        "last_seen": "2026-11-24T01:02:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20371575",
@@ -20596,7 +20182,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-23T08:01:26+00:00",
-        "last_seen": "2026-11-23T21:41:36+00:00"
+        "last_seen": "2026-11-24T01:02:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374728",
@@ -20620,13 +20206,13 @@
         "price": 300.0,
         "list_price": 1599.0,
         "discount_pct": 81.2,
-        "krw": 478858,
+        "krw": 478828,
         "kr_lowest": null,
         "score": 87,
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T07:01:45+00:00",
-        "last_seen": "2026-11-23T20:54:09+00:00"
+        "last_seen": "2026-11-24T01:02:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20362632",
@@ -20635,13 +20221,13 @@
         "price": 20.0,
         "list_price": 70.0,
         "discount_pct": 71.4,
-        "krw": 26872,
+        "krw": 26870,
         "kr_lowest": null,
         "score": 75,
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T06:31:10+00:00",
-        "last_seen": "2026-11-23T20:01:40+00:00"
+        "last_seen": "2026-11-24T01:02:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20373444",
@@ -20650,13 +20236,13 @@
         "price": 18.0,
         "list_price": null,
         "discount_pct": null,
-        "krw": 24185,
+        "krw": 24183,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: Apple 할인 0% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-23T06:21:05+00:00",
-        "last_seen": "2026-11-23T20:01:40+00:00"
+        "last_seen": "2026-11-24T01:02:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20373459",
@@ -20665,13 +20251,13 @@
         "price": 49.0,
         "list_price": null,
         "discount_pct": null,
-        "krw": 65836,
+        "krw": 65832,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-23T06:02:14+00:00",
-        "last_seen": "2026-11-23T19:22:31+00:00"
+        "last_seen": "2026-11-24T01:02:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20355597",
@@ -20680,13 +20266,13 @@
         "price": 250.0,
         "list_price": 379.99,
         "discount_pct": 34.2,
-        "krw": 399048,
+        "krw": 399024,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: Ninja 할인 34% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-23T05:41:31+00:00",
-        "last_seen": "2026-11-23T18:52:59+00:00"
+        "last_seen": "2026-11-24T01:02:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20373372",
@@ -20695,13 +20281,13 @@
         "price": 149.0,
         "list_price": 249.0,
         "discount_pct": 40.2,
-        "krw": 200196,
+        "krw": 200184,
         "kr_lowest": null,
         "score": 66,
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T05:11:15+00:00",
-        "last_seen": "2026-11-23T18:41:16+00:00"
+        "last_seen": "2026-11-24T01:02:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20372109",
@@ -20710,13 +20296,13 @@
         "price": 41.0,
         "list_price": 79.99,
         "discount_pct": 48.7,
-        "krw": 55087,
+        "krw": 55084,
         "kr_lowest": null,
         "score": 70,
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T04:51:04+00:00",
-        "last_seen": "2026-11-23T18:01:39+00:00"
+        "last_seen": "2026-11-24T01:02:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20367324",
@@ -20725,13 +20311,13 @@
         "price": 70.0,
         "list_price": 145.0,
         "discount_pct": 51.7,
-        "krw": 94052,
+        "krw": 94046,
         "kr_lowest": null,
         "score": 67,
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T04:11:59+00:00",
-        "last_seen": "2026-11-23T17:51:55+00:00"
+        "last_seen": "2026-11-24T01:02:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20359749",
@@ -20740,13 +20326,13 @@
         "price": 549.0,
         "list_price": 2499.99,
         "discount_pct": 78.0,
-        "krw": 876310,
+        "krw": 876256,
         "kr_lowest": null,
-        "score": 87,
+        "score": 92,
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T03:31:15+00:00",
-        "last_seen": "2026-11-23T17:41:14+00:00"
+        "last_seen": "2026-11-24T01:02:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20367294",
@@ -20755,13 +20341,13 @@
         "price": 100.0,
         "list_price": 199.95,
         "discount_pct": 50.0,
-        "krw": 134360,
+        "krw": 134351,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Hand Tools)",
         "first_seen": "2026-11-23T03:10:58+00:00",
-        "last_seen": "2026-11-23T17:41:14+00:00"
+        "last_seen": "2026-11-24T01:02:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20367273",
@@ -20770,13 +20356,13 @@
         "price": 45.0,
         "list_price": 95.0,
         "discount_pct": 52.6,
-        "krw": 60462,
+        "krw": 60458,
         "kr_lowest": null,
         "score": 67,
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T02:41:17+00:00",
-        "last_seen": "2026-11-23T17:31:19+00:00"
+        "last_seen": "2026-11-24T01:02:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370162",
@@ -20785,13 +20371,13 @@
         "price": 339.0,
         "list_price": 499.99,
         "discount_pct": 32.2,
-        "krw": 541110,
+        "krw": 541076,
         "kr_lowest": null,
         "score": 61,
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T02:02:22+00:00",
-        "last_seen": "2026-11-23T17:31:19+00:00"
+        "last_seen": "2026-11-24T01:02:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20367558",
@@ -20806,7 +20392,7 @@
         "published": false,
         "reject_reason": "H5: 리퍼/중고 (60% 미만 할인)",
         "first_seen": "2026-11-23T01:41:38+00:00",
-        "last_seen": "2026-11-23T17:01:35+00:00"
+        "last_seen": "2026-11-24T01:02:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20371584",
@@ -20815,13 +20401,13 @@
         "price": 48.0,
         "list_price": 59.99,
         "discount_pct": 20.0,
-        "krw": 64493,
+        "krw": 64489,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: LEGO 할인 20% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-23T01:31:15+00:00",
-        "last_seen": "2026-11-23T17:01:35+00:00"
+        "last_seen": "2026-11-24T01:02:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20371263",
@@ -20830,13 +20416,13 @@
         "price": 128.0,
         "list_price": 170.0,
         "discount_pct": 24.7,
-        "krw": 171980,
+        "krw": 171970,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: Nike 할인 25% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-23T01:21:07+00:00",
-        "last_seen": "2026-11-23T16:13:35+00:00"
+        "last_seen": "2026-11-24T01:02:19+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20366916",
