@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T02:51:11.091109+00:00",
+  "generated_at": "2026-11-24T02:54:20.470784+00:00",
   "count": 276,
   "deals": [
     {
@@ -17432,7 +17432,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 133003,
+      "krw_effective": 132994,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -17455,7 +17455,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-17T16:45:44.807375+00:00",
-      "last_seen": "2026-11-23T20:44:35.654933+00:00",
+      "last_seen": "2026-11-24T02:54:20.452402+00:00",
       "posted_at": "",
       "signals": {},
       "id": "83104b2ac4",
@@ -17487,6 +17487,10 @@
         [
           "2026-11-23",
           98.99
+        ],
+        [
+          "2026-11-24",
+          98.99
         ]
       ]
     },
@@ -17512,7 +17516,7 @@
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 45346,
+      "krw_effective": 45344,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -17535,7 +17539,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-16T10:04:17.746105+00:00",
-      "last_seen": "2026-11-23T20:44:35.654933+00:00",
+      "last_seen": "2026-11-24T02:54:20.452402+00:00",
       "posted_at": "",
       "signals": {},
       "id": "92d34bba6c",
@@ -17570,6 +17574,10 @@
         ],
         [
           "2026-11-23",
+          33.75
+        ],
+        [
+          "2026-11-24",
           33.75
         ]
       ]
@@ -19171,10 +19179,9 @@
       "T1": "2026-11-24T02:50:33+00:00",
       "T2": "2026-11-24T02:21:26+00:00",
       "T3": "2026-11-24T01:11:05+00:00",
-      "T4": "2026-11-23T20:41:13+00:00"
+      "T4": "2026-11-24T02:51:12+00:00"
     },
     "recent_gaps_min": [
-      1,
       9,
       9,
       10,
@@ -19203,14 +19210,15 @@
       1,
       9,
       11,
-      9
+      9,
+      3
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-24T02:51:10+00:00",
+      "at": "2026-11-24T02:54:20+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -19219,7 +19227,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-24T02:51:10+00:00"
+      "at": "2026-11-24T02:54:20+00:00"
     }
   },
   "email_monitor": {
@@ -19231,13 +19239,43 @@
         "deals": 29
       },
       "newsletter": {
-        "at": "2026-11-23T20:44:16+00:00",
+        "at": "2026-11-24T02:54:01+00:00",
         "state": "정상",
-        "mails": 88,
-        "deals": 8
+        "mails": 48,
+        "deals": 6
       }
     },
     "recent": [
+      {
+        "url": "https://click.emails.underarmour.com/",
+        "source": "underarmour.com",
+        "title": "[범위미확인 코드] Why wait till Black Friday?",
+        "price": 60.0,
+        "list_price": 100.0,
+        "discount_pct": 40.0,
+        "krw": 80611,
+        "kr_lowest": null,
+        "score": 54,
+        "published": true,
+        "reject_reason": "",
+        "first_seen": "2026-11-24T02:54:20+00:00",
+        "last_seen": "2026-11-24T02:54:20+00:00"
+      },
+      {
+        "url": "https://clicks.finishline.com/f/a/UB55f_8ocstHocoKRWRW5A~~/AAQRxRA~/XTc6aZQrF6FDBxkpqSaUxY1JpKNoTI_qIfyzh5kh60fo13-uvgu0XPBG8lsD0-HCct7HPUhNVMgHYPSEwT-coWdjUsaId5oaw6kcgc-a2664rX8jIEERb6R4d71ZQpnWAfnVn4TLJzRaxYMldAY_Mg~~",
+        "source": "finishline.com",
+        "title": "[범위미확인 코드] 🤫 STATUS Member-Exclusive Savings Unlocked",
+        "price": 90.0,
+        "list_price": 100.0,
+        "discount_pct": 10.0,
+        "krw": 120916,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H8: 할인 10% < 25% (허접 할인 제외)",
+        "first_seen": "2026-11-24T02:54:20+00:00",
+        "last_seen": "2026-11-24T02:54:20+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20377302",
         "source": "slickdeals:zappos.com",
@@ -19575,13 +19613,13 @@
         "price": 30.0,
         "list_price": 100.0,
         "discount_pct": 70.0,
-        "krw": 40308,
+        "krw": 40305,
         "kr_lowest": null,
         "score": 62,
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-23T20:44:35+00:00",
-        "last_seen": "2026-11-23T20:44:35+00:00"
+        "last_seen": "2026-11-24T02:54:20+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20371581",
@@ -20407,36 +20445,6 @@
         "reject_reason": "H8: 할인 23% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-23T00:21:16+00:00",
         "last_seen": "2026-11-23T02:31:23+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20367186",
-        "source": "slickdeals:nike.com",
-        "title": "Nike: Select Men's, Women's or Kids' Shoes, Apparel, & Accessories for Extra 25% Off at Nike",
-        "price": null,
-        "list_price": null,
-        "discount_pct": null,
-        "krw": null,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H7: Nike 할인 0% < 40% (유명 브랜드 최소 할인)",
-        "first_seen": "2026-11-22T21:51:12+00:00",
-        "last_seen": "2026-11-23T00:51:11+00:00"
-      },
-      {
-        "url": "https://click.email.bloomingdales.com/",
-        "source": "bloomingdales.com",
-        "title": "Big Deal 13: 40% off Barbour jackets",
-        "price": 60.0,
-        "list_price": 100.0,
-        "discount_pct": 40.0,
-        "krw": 80616,
-        "kr_lowest": null,
-        "score": 50,
-        "published": true,
-        "reject_reason": "",
-        "first_seen": "2026-11-22T20:08:49+00:00",
-        "last_seen": "2026-11-23T20:44:35+00:00"
       }
     ],
     "totals": {
