@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T14:02:44.624895+00:00",
+  "generated_at": "2026-11-24T14:12:50.780075+00:00",
   "count": 301,
   "deals": [
     {
@@ -825,14 +825,14 @@
         "bonus": 0,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 53표/73분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 53표/84분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-24T04:11:45.396334+00:00",
-      "last_seen": "2026-11-24T14:01:49.004451+00:00",
+      "last_seen": "2026-11-24T14:12:50.690358+00:00",
       "posted_at": "2026-11-24T12:48:22+00:00",
       "signals": {
         "sd_feeds": [
@@ -842,9 +842,9 @@
         "sd_store": "Under Armour",
         "sd_brand": "Under Armour",
         "sd_hot_origin": true,
-        "sd_age_min": 73,
+        "sd_age_min": 84,
         "sd_votes": 53,
-        "sd_velocity": 43.5,
+        "sd_velocity": 37.8,
         "sd_fp_min": 43
       },
       "id": "0b6937dea1",
@@ -3962,7 +3962,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-17T16:30:48.759028+00:00",
-      "last_seen": "2026-11-24T14:01:49.004451+00:00",
+      "last_seen": "2026-11-24T14:12:50.690358+00:00",
       "posted_at": "2026-11-24T10:01:14+00:00",
       "signals": {
         "sd_feeds": [
@@ -3972,9 +3972,9 @@
         "sd_store": "",
         "sd_brand": "Baseus",
         "sd_hot_origin": false,
-        "sd_age_min": 240,
+        "sd_age_min": 251,
         "sd_votes": 245,
-        "sd_velocity": 61.2,
+        "sd_velocity": 58.5,
         "sd_fp_min": -5340
       },
       "id": "6d7f81b9bd",
@@ -5416,6 +5416,148 @@
       ]
     },
     {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20382330",
+      "title": "Select Amazon Accts: 4-Pk 16.5oz. Torani Puremade Dessert Sauce (Caramel) $10.80 w/ S&S",
+      "brand": "Torani",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/8/6/6/3/0/300x300/22561284.thumb",
+      "price_current": 11.0,
+      "price_list": 13.5,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 17,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 14779,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20382330",
+      "discount_pct": 18.5,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 17표/52분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-24T01:52:14.928117+00:00",
+      "last_seen": "2026-11-24T14:12:50.690358+00:00",
+      "posted_at": "2026-11-24T13:20:40+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Dessert",
+        "sd_store": "Amazon",
+        "sd_brand": "Torani",
+        "sd_hot_origin": true,
+        "sd_age_min": 52,
+        "sd_votes": 17,
+        "sd_velocity": 19.7,
+        "sd_fp_min": 10
+      },
+      "id": "28dd490ec3",
+      "history": [
+        [
+          "2026-11-24",
+          11.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20383272",
+      "title": "JBL Tune 510BT Wireless On-Ear Headphones (Black) $20",
+      "brand": "JBL",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/1/4/8/5/3/3/0/300x300/22554393.thumb",
+      "price_current": 20.0,
+      "price_list": 39.04,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 14,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 26870,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20383272",
+      "discount_pct": 48.8,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 14표/57분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-24T04:11:45.396334+00:00",
+      "last_seen": "2026-11-24T14:12:50.690358+00:00",
+      "posted_at": "2026-11-24T13:15:28+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Headphones, Headsets & Earbuds",
+        "sd_store": "Amazon",
+        "sd_brand": "JBL",
+        "sd_hot_origin": true,
+        "sd_age_min": 57,
+        "sd_votes": 14,
+        "sd_velocity": 14.7,
+        "sd_fp_min": 16
+      },
+      "id": "6b80369217",
+      "history": [
+        [
+          "2026-11-24",
+          20.0
+        ]
+      ]
+    },
+    {
       "source": "6pm.com",
       "source_tier": "T3",
       "url": "https://www.6pm.com/product/10073200",
@@ -5481,148 +5623,6 @@
         [
           "2026-11-24",
           19.96
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20382330",
-      "title": "Select Amazon Accts: 4-Pk 16.5oz. Torani Puremade Dessert Sauce (Caramel) $10.80 w/ S&S",
-      "brand": "Torani",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/8/6/6/3/0/300x300/22561284.thumb",
-      "price_current": 11.0,
-      "price_list": 13.5,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 17,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 14779,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20382330",
-      "discount_pct": 18.5,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 17표/41분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-24T01:52:14.928117+00:00",
-      "last_seen": "2026-11-24T14:01:49.004451+00:00",
-      "posted_at": "2026-11-24T13:20:40+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Dessert",
-        "sd_store": "Amazon",
-        "sd_brand": "Torani",
-        "sd_hot_origin": true,
-        "sd_age_min": 41,
-        "sd_votes": 17,
-        "sd_velocity": 25.0,
-        "sd_fp_min": 10
-      },
-      "id": "28dd490ec3",
-      "history": [
-        [
-          "2026-11-24",
-          11.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20383272",
-      "title": "JBL Tune 510BT Wireless On-Ear Headphones (Black) $20",
-      "brand": "JBL",
-      "category": "electronics",
-      "image": "https://static.slickdealscdn.com/attachment/1/4/8/5/3/3/0/300x300/22554393.thumb",
-      "price_current": 20.0,
-      "price_list": 39.04,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 14,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 26870,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20383272",
-      "discount_pct": 48.8,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 14표/46분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-24T04:11:45.396334+00:00",
-      "last_seen": "2026-11-24T14:01:49.004451+00:00",
-      "posted_at": "2026-11-24T13:15:28+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Headphones, Headsets & Earbuds",
-        "sd_store": "Amazon",
-        "sd_brand": "JBL",
-        "sd_hot_origin": true,
-        "sd_age_min": 46,
-        "sd_votes": 14,
-        "sd_velocity": 18.3,
-        "sd_fp_min": 16
-      },
-      "id": "6b80369217",
-      "history": [
-        [
-          "2026-11-24",
-          20.0
         ]
       ]
     },
@@ -7966,16 +7966,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-24T14:01:26.871058+00:00",
-      "last_seen": "2026-11-24T14:01:49.004451+00:00",
+      "last_seen": "2026-11-24T14:12:50.690358+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Headphones, Headsets & Earbuds",
         "sd_store": "",
         "sd_brand": "Nothing",
         "sd_hot_origin": false,
-        "sd_age_min": 1,
+        "sd_age_min": 11,
         "sd_votes": 84,
-        "sd_velocity": 504.0
+        "sd_velocity": 457.2
       },
       "id": "4ace8c4475",
       "history": [
@@ -8532,16 +8532,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-24T13:31:08.785435+00:00",
-      "last_seen": "2026-11-24T14:01:49.004451+00:00",
+      "last_seen": "2026-11-24T14:12:50.690358+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Men's Shoes",
         "sd_store": "",
         "sd_brand": "Nike",
         "sd_hot_origin": false,
-        "sd_age_min": 37,
+        "sd_age_min": 48,
         "sd_votes": 55,
-        "sd_velocity": 90.1,
+        "sd_velocity": 69.3,
         "sd_fp_min": 6
       },
       "id": "432cd8986f",
@@ -9179,7 +9179,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-24T13:42:04.836770+00:00",
-      "last_seen": "2026-11-24T14:01:49.004451+00:00",
+      "last_seen": "2026-11-24T14:12:50.690358+00:00",
       "posted_at": "2026-11-24T13:22:59+00:00",
       "signals": {
         "sd_feeds": [
@@ -9189,7 +9189,7 @@
         "sd_store": "Amazon",
         "sd_brand": "AsperX",
         "sd_hot_origin": true,
-        "sd_age_min": 38,
+        "sd_age_min": 49,
         "sd_votes": 0,
         "sd_velocity": 0.0
       },
@@ -11176,16 +11176,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-24T13:42:04.836770+00:00",
-      "last_seen": "2026-11-24T14:01:49.004451+00:00",
+      "last_seen": "2026-11-24T14:12:50.690358+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Home Automation",
         "sd_store": "",
         "sd_brand": "Govee",
         "sd_hot_origin": false,
-        "sd_age_min": 19,
+        "sd_age_min": 30,
         "sd_votes": 24,
-        "sd_velocity": 74.4
+        "sd_velocity": 47.4
       },
       "id": "72b0ce7206",
       "history": [
@@ -11467,7 +11467,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-24T12:20:57.396988+00:00",
-      "last_seen": "2026-11-24T14:01:49.004451+00:00",
+      "last_seen": "2026-11-24T14:12:50.690358+00:00",
       "posted_at": "",
       "signals": {},
       "id": "8e39b798cf",
@@ -13088,7 +13088,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-24T12:51:13.498688+00:00",
-      "last_seen": "2026-11-24T14:01:49.004451+00:00",
+      "last_seen": "2026-11-24T14:12:50.690358+00:00",
       "posted_at": "2026-11-24T12:44:50+00:00",
       "signals": {
         "sd_feeds": [
@@ -13098,9 +13098,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Just Play",
         "sd_hot_origin": false,
-        "sd_age_min": 77,
+        "sd_age_min": 88,
         "sd_votes": 33,
-        "sd_velocity": 25.8,
+        "sd_velocity": 22.6,
         "sd_fp_min": 6
       },
       "id": "d9ea9422a7",
@@ -14200,7 +14200,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-24T13:42:04.836770+00:00",
-      "last_seen": "2026-11-24T14:01:49.004451+00:00",
+      "last_seen": "2026-11-24T14:12:50.690358+00:00",
       "posted_at": "2026-11-24T13:18:50+00:00",
       "signals": {
         "sd_feeds": [
@@ -14210,7 +14210,7 @@
         "sd_store": "Amazon",
         "sd_brand": "Little Tikes",
         "sd_hot_origin": true,
-        "sd_age_min": 43,
+        "sd_age_min": 54,
         "sd_votes": 0,
         "sd_velocity": 0.0
       },
@@ -14565,64 +14565,6 @@
       ]
     },
     {
-      "source": "amazon.com",
-      "source_tier": "T1",
-      "url": "https://www.amazon.com/New-Balance-Court-Sneaker-White/dp/B0F4GP5RZY",
-      "title": "New Balance Men's 080 Court | Casual Shoes  (외 1종)",
-      "brand": "New Balance",
-      "category": "sports_outdoor",
-      "image": "https://m.media-amazon.com/images/I/51c+HtstJuL._AC_SR255,340_.jpg",
-      "price_current": 34.4,
-      "price_list": 69.6,
-      "price_baseline": 69.6,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 46217,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": "2026-11-25T07:45:00.000Z",
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/New-Balance-Court-Sneaker-White/dp/B0F4GP5RZY",
-      "discount_pct": 50.6,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 26,
-        "price_history": null,
-        "category": 17,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-24T13:50:55.559889+00:00",
-      "last_seen": "2026-11-24T13:51:16.929356+00:00",
-      "posted_at": "",
-      "signals": {},
-      "variant_count": 2,
-      "id": "a868c66993",
-      "history": [
-        [
-          "2026-11-24",
-          34.4
-        ]
-      ]
-    },
-    {
       "source": "slickdeals:amazon.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20386161",
@@ -14668,7 +14610,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-24T13:42:04.836770+00:00",
-      "last_seen": "2026-11-24T14:01:49.004451+00:00",
+      "last_seen": "2026-11-24T14:12:50.690358+00:00",
       "posted_at": "2026-11-24T13:32:47+00:00",
       "signals": {
         "sd_feeds": [
@@ -14678,7 +14620,7 @@
         "sd_store": "Amazon",
         "sd_brand": "Skechers",
         "sd_hot_origin": true,
-        "sd_age_min": 29,
+        "sd_age_min": 40,
         "sd_votes": 0,
         "sd_velocity": 0.0
       },
@@ -14738,7 +14680,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-24T11:41:36.341719+00:00",
-      "last_seen": "2026-11-24T14:01:49.004451+00:00",
+      "last_seen": "2026-11-24T14:12:50.690358+00:00",
       "posted_at": "2026-11-24T10:53:24+00:00",
       "signals": {
         "sd_feeds": [
@@ -14748,9 +14690,9 @@
         "sd_store": "",
         "sd_brand": "Owala",
         "sd_hot_origin": false,
-        "sd_age_min": 188,
+        "sd_age_min": 199,
         "sd_votes": 39,
-        "sd_velocity": 12.4,
+        "sd_velocity": 11.8,
         "sd_fp_min": 48
       },
       "id": "ee2aed972b",
@@ -14758,6 +14700,64 @@
         [
           "2026-11-24",
           15.0
+        ]
+      ]
+    },
+    {
+      "source": "amazon.com",
+      "source_tier": "T1",
+      "url": "https://www.amazon.com/New-Balance-Court-Sneaker-White/dp/B0F4GP5RZY",
+      "title": "New Balance Men's 080 Court | Casual Shoes  (외 1종)",
+      "brand": "New Balance",
+      "category": "sports_outdoor",
+      "image": "https://m.media-amazon.com/images/I/51c+HtstJuL._AC_SR255,340_.jpg",
+      "price_current": 34.4,
+      "price_list": 69.6,
+      "price_baseline": 69.6,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 46217,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": "2026-11-25T07:45:00.000Z",
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/New-Balance-Court-Sneaker-White/dp/B0F4GP5RZY",
+      "discount_pct": 50.6,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 26,
+        "price_history": null,
+        "category": 17,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-24T13:50:55.559889+00:00",
+      "last_seen": "2026-11-24T13:51:16.929356+00:00",
+      "posted_at": "",
+      "signals": {},
+      "variant_count": 2,
+      "id": "a868c66993",
+      "history": [
+        [
+          "2026-11-24",
+          34.4
         ]
       ]
     },
@@ -19808,7 +19808,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-24T13:42:04.836770+00:00",
-      "last_seen": "2026-11-24T14:01:49.004451+00:00",
+      "last_seen": "2026-11-24T14:12:50.690358+00:00",
       "posted_at": "2026-11-24T13:26:06+00:00",
       "signals": {
         "sd_feeds": [
@@ -19818,9 +19818,9 @@
         "sd_store": "Dick's Sporting Goods",
         "sd_brand": "Owala",
         "sd_hot_origin": true,
-        "sd_age_min": 35,
+        "sd_age_min": 46,
         "sd_votes": 1,
-        "sd_velocity": 1.7
+        "sd_velocity": 1.3
       },
       "id": "ae1ca84327",
       "history": [
@@ -19876,7 +19876,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-24T13:42:04.836770+00:00",
-      "last_seen": "2026-11-24T14:01:49.004451+00:00",
+      "last_seen": "2026-11-24T14:12:50.690358+00:00",
       "posted_at": "2026-11-24T13:22:10+00:00",
       "signals": {
         "sd_feeds": [
@@ -19886,9 +19886,9 @@
         "sd_store": "Dick's Sporting Goods",
         "sd_brand": "Owala",
         "sd_hot_origin": true,
-        "sd_age_min": 39,
+        "sd_age_min": 50,
         "sd_votes": 1,
-        "sd_velocity": 1.5
+        "sd_velocity": 1.2
       },
       "id": "3b26e9415b",
       "history": [
@@ -20924,13 +20924,12 @@
   "fx_usd_krw": 1343.5,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-24T14:00:52+00:00",
+      "T1": "2026-11-24T14:10:32+00:00",
       "T2": "2026-11-24T13:42:26+00:00",
       "T3": "2026-11-24T14:01:52+00:00",
       "T4": "2026-11-24T09:01:32+00:00"
     },
     "recent_gaps_min": [
-      13,
       1,
       5,
       12,
@@ -20959,14 +20958,15 @@
       1,
       8,
       10,
-      1
+      1,
+      10
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-24T14:02:44+00:00",
+      "at": "2026-11-24T14:12:50+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -20975,16 +20975,16 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-24T14:02:44+00:00"
+      "at": "2026-11-24T14:12:50+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-24T14:01:24+00:00",
-        "state": "정상",
+        "at": "2026-11-24T14:12:26+00:00",
+        "state": "읽기 오류",
         "mails": 40,
-        "deals": 40
+        "deals": 4
       },
       "newsletter": {
         "at": "2026-11-24T09:05:27+00:00",
@@ -20994,6 +20994,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20385672",
+        "source": "slickdeals:amazon.com",
+        "title": "144-Page Highlights The Hardest Hidden Pictures Book Ever (Paperback) for $3.80 at Amazon",
+        "price": 3.8,
+        "list_price": 9.95,
+        "discount_pct": 61.8,
+        "krw": 5105,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Books & Magazines)",
+        "first_seen": "2026-11-24T14:12:50+00:00",
+        "last_seen": "2026-11-24T14:12:50+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20302086",
         "source": "slickdeals:amazon.com",
@@ -21007,7 +21022,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T14:01:50+00:00",
-        "last_seen": "2026-11-24T14:01:50+00:00"
+        "last_seen": "2026-11-24T14:12:50+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20376492",
@@ -21037,7 +21052,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T13:42:25+00:00",
-        "last_seen": "2026-11-24T14:01:50+00:00"
+        "last_seen": "2026-11-24T14:12:50+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20385201",
@@ -21052,7 +21067,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T13:31:28+00:00",
-        "last_seen": "2026-11-24T14:01:50+00:00"
+        "last_seen": "2026-11-24T14:12:50+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377593",
@@ -22177,21 +22192,6 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-23T16:32:09+00:00",
-        "last_seen": "2026-11-24T00:51:23+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20374200",
-        "source": "slickdeals:walmart.com",
-        "title": "2-Pc Character Toddler Long Sleeve Top/Pant Pajama Set (various character/sizes) for $6 at Walmart",
-        "price": 6.0,
-        "list_price": 12.98,
-        "discount_pct": 53.8,
-        "krw": 8061,
-        "kr_lowest": null,
-        "score": 0,
-        "published": false,
-        "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
-        "first_seen": "2026-11-23T15:32:34+00:00",
         "last_seen": "2026-11-24T00:51:23+00:00"
       }
     ],
