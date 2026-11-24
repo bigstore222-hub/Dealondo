@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T22:21:52.983602+00:00",
-  "count": 324,
+  "generated_at": "2026-11-24T22:32:37.730814+00:00",
+  "count": 325,
   "deals": [
     {
       "source": "6pm.com",
@@ -410,15 +410,15 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-24T21:21:07.024207+00:00",
-      "last_seen": "2026-11-24T22:21:12.732423+00:00",
+      "last_seen": "2026-11-24T22:32:36.998189+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Streaming Services",
         "sd_store": "Slickdeals",
         "sd_hot_origin": false,
-        "sd_age_min": 60,
+        "sd_age_min": 71,
         "sd_votes": 224,
-        "sd_velocity": 224.8
+        "sd_velocity": 188.9
       },
       "id": "7d4944fad2",
       "history": [
@@ -1038,8 +1038,228 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20377506",
+      "title": "50\"x60\" Bedsure Faux Fur Reversible Sherpa Throw Blanket (Tie Dye Grey) $9.90",
+      "brand": "",
+      "category": "home",
+      "image": "https://static.slickdealscdn.com/attachment/3/1/1/9/6/7/1/6/300x300/22539906.thumb",
+      "price_current": 9.89,
+      "price_list": 18.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "ETFBZSU8",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 24,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 13287,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20377506",
+      "discount_pct": 45.1,
+      "score": 92,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 8,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 폭발 24표/24분 → 하한 86",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-23T15:02:22.775335+00:00",
+      "last_seen": "2026-11-24T22:32:36.998189+00:00",
+      "posted_at": "2026-11-24T22:07:56+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Decorative Pillows & Blankets",
+        "sd_store": "Amazon",
+        "sd_hot_origin": true,
+        "sd_age_min": 24,
+        "sd_votes": 24,
+        "sd_velocity": 59.2,
+        "sd_fp_min": 24
+      },
+      "id": "3864f5cfa4",
+      "history": [
+        [
+          "2026-11-23",
+          9.89
+        ],
+        [
+          "2026-11-24",
+          9.89
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20388315",
+      "title": "Straight Talk 128GB Apple iPhone 16e (Locked) + 30-Day Bronze 10GB Plan $234 & More + Free S&H",
+      "brand": "Apple",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/1/8/6/3/2/3/2/300x300/22571643.thumb",
+      "price_current": 234.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 45,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 373486,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20388315",
+      "discount_pct": null,
+      "score": 92,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 폭발 45표/34분 → 하한 86",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-24T18:02:38.087127+00:00",
+      "last_seen": "2026-11-24T22:32:36.998189+00:00",
+      "posted_at": "2026-11-24T21:57:52+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Cell Phones",
+        "sd_store": "",
+        "sd_brand": "Apple",
+        "sd_hot_origin": true,
+        "sd_age_min": 34,
+        "sd_votes": 45,
+        "sd_velocity": 78.5,
+        "sd_fp_min": 13
+      },
+      "id": "6367bb4cda",
+      "history": [
+        [
+          "2026-11-24",
+          99.99
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20381382",
+      "title": "Staples Hyken Ergonomic Mesh Swivel Task Chair (3 Colors) $126 + Free S&H",
+      "brand": "Staples",
+      "category": "home",
+      "image": "https://static.slickdealscdn.com/attachment/3/1/5/9/4/1/5/9/300x300/22550379.thumb",
+      "price_current": 126.0,
+      "price_list": 299.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 55,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 169283,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20381382",
+      "discount_pct": 58.0,
+      "score": 92,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 8,
+        "bonus": 4,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 폭발 55표/36분 → 하한 86",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-23T23:51:41.710875+00:00",
+      "last_seen": "2026-11-24T22:32:36.998189+00:00",
+      "posted_at": "2026-11-24T21:56:02+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Home Office Furniture",
+        "sd_store": "Staples",
+        "sd_brand": "Staples",
+        "sd_hot_origin": true,
+        "sd_age_min": 36,
+        "sd_votes": 55,
+        "sd_velocity": 91.1,
+        "sd_fp_min": 36
+      },
+      "id": "6d95b971d1",
+      "history": [
+        [
+          "2026-11-23",
+          126.0
+        ],
+        [
+          "2026-11-24",
+          126.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
       "url": "https://slickdeals.net/f/20355708",
-      "title": "adidas Black Friday Sale Up to 60% Off + Extra 15% Off + Free S&H  (외 1종)",
+      "title": "adidas Black Friday Sale Up to 60% Off + Extra 15% Off + Free S&H",
       "brand": "Adidas",
       "category": "sports_outdoor",
       "image": "https://static.slickdealscdn.com/attachment/3/6/9/5/2/8/300x300/22571352.thumb",
@@ -1052,7 +1272,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 126,
+      "community_votes": 128,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -1076,14 +1296,14 @@
         "bonus": 0,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 126표/49분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 128표/61분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
-      "detected_at": "2026-11-24T22:20:35.914667+00:00",
-      "last_seen": "2026-11-24T22:21:12.732423+00:00",
+      "detected_at": "2026-11-24T22:30:45.337429+00:00",
+      "last_seen": "2026-11-24T22:32:36.998189+00:00",
       "posted_at": "2026-11-24T21:31:26+00:00",
       "signals": {
         "sd_feeds": [
@@ -1093,14 +1313,13 @@
         "sd_store": "adidas",
         "sd_brand": "adidas",
         "sd_hot_origin": true,
-        "sd_age_min": 49,
-        "sd_votes": 126,
-        "sd_velocity": 152.8,
+        "sd_age_min": 61,
+        "sd_votes": 128,
+        "sd_velocity": 126.2,
         "sd_fp_min": -5800
       },
       "id": "149b68be81",
-      "history": [],
-      "variant_count": 2
+      "history": []
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -1119,7 +1338,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 34,
+      "community_votes": 38,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -1143,14 +1362,14 @@
         "bonus": 0,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 34표/51분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 38표/62분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-24T19:12:13.664402+00:00",
-      "last_seen": "2026-11-24T22:21:12.732423+00:00",
+      "last_seen": "2026-11-24T22:32:36.998189+00:00",
       "posted_at": "2026-11-24T21:30:20+00:00",
       "signals": {
         "sd_feeds": [
@@ -1160,9 +1379,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Apple",
         "sd_hot_origin": true,
-        "sd_age_min": 51,
-        "sd_votes": 34,
-        "sd_velocity": 40.3,
+        "sd_age_min": 62,
+        "sd_votes": 38,
+        "sd_velocity": 36.8,
         "sd_fp_min": 11
       },
       "id": "64045b3c87",
@@ -1190,7 +1409,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 45,
+      "community_votes": 51,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -1214,15 +1433,14 @@
         "bonus": 4,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "community": "투표 45+할인49% → 하한 56",
-        "slickdeals": "Hot Deals 폭발 45표/77분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 51표/88분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-24T13:42:04.836770+00:00",
-      "last_seen": "2026-11-24T22:21:12.732423+00:00",
+      "last_seen": "2026-11-24T22:32:36.998189+00:00",
       "posted_at": "2026-11-24T21:04:07+00:00",
       "signals": {
         "sd_feeds": [
@@ -1232,9 +1450,9 @@
         "sd_store": "Dick's Sporting Goods",
         "sd_brand": "Owala",
         "sd_hot_origin": true,
-        "sd_age_min": 77,
-        "sd_votes": 45,
-        "sd_velocity": 35.2,
+        "sd_age_min": 88,
+        "sd_votes": 51,
+        "sd_velocity": 34.7,
         "sd_fp_min": 37
       },
       "id": "3b26e9415b",
@@ -3031,73 +3249,6 @@
         [
           "2026-11-24",
           62.96
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20376018",
-      "title": "512GB 13\" Apple iPad Pro M5 Chip Wi-Fi Tablet (Silver) for $1349 at Amazon",
-      "brand": "Apple",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20376018&t=15",
-      "price_current": 1.0,
-      "price_list": 1699.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 40,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 1344,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20376018",
-      "discount_pct": 99.9,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-24T03:30:57.092666+00:00",
-      "last_seen": "2026-11-24T22:21:12.732423+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Tablets & eReaders",
-        "sd_store": "",
-        "sd_brand": "Apple",
-        "sd_hot_origin": false,
-        "sd_age_min": 1140,
-        "sd_votes": 40,
-        "sd_velocity": 2.1,
-        "sd_fp_min": 10
-      },
-      "id": "e2536c28f8",
-      "history": [
-        [
-          "2026-11-24",
-          1.0
         ]
       ]
     },
@@ -5053,80 +5204,6 @@
         [
           "2026-11-23",
           38.4
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20381460",
-      "title": "36-Ct LEVELEVE Acrylic Paint Markers w/ Flexible Brush Tip $7.50",
-      "brand": "",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/9/3/0/4/6/1/9/300x300/22550529.thumb",
-      "price_current": 7.49,
-      "price_list": 15.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "84B6IQXX",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 20,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 10063,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20381460",
-      "discount_pct": 50.1,
-      "score": 81,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 84B6IQXX → 하한 75",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-23T23:51:41.710875+00:00",
-      "last_seen": "2026-11-24T21:02:37.825078+00:00",
-      "posted_at": "2026-11-24T18:48:14+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Pencils, Pens & Markers",
-        "sd_store": "Amazon",
-        "sd_hot_origin": true,
-        "sd_age_min": 134,
-        "sd_votes": 20,
-        "sd_velocity": 9.0,
-        "sd_fp_min": 24
-      },
-      "id": "884fcbbb5b",
-      "history": [
-        [
-          "2026-11-23",
-          7.49
-        ],
-        [
-          "2026-11-24",
-          7.49
         ]
       ]
     },
@@ -8106,16 +8183,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-24T14:01:26.871058+00:00",
-      "last_seen": "2026-11-24T22:21:12.732423+00:00",
+      "last_seen": "2026-11-24T22:32:36.998189+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Headphones, Headsets & Earbuds",
         "sd_store": "",
         "sd_brand": "Nothing",
         "sd_hot_origin": false,
-        "sd_age_min": 503,
+        "sd_age_min": 514,
         "sd_votes": 84,
-        "sd_velocity": 10.0,
+        "sd_velocity": 9.8,
         "sd_fp_min": 3
       },
       "id": "4ace8c4475",
@@ -8961,76 +9038,6 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20357340",
-      "title": "New Balance Women's 471 Shoes (Rosewood/Fire Cracker) $33.25 + Free S&H on $49+",
-      "brand": "New Balance",
-      "category": "sports_outdoor",
-      "image": "https://static.slickdealscdn.com/attachment/1/9/1/2/6/8/2/300x300/22492755.thumb",
-      "price_current": 33.0,
-      "price_list": 109.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 41,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 44330,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20357340",
-      "discount_pct": 70.0,
-      "score": 77,
-      "score_breakdown": {
-        "discount_depth": 35,
-        "price_history": null,
-        "category": 17,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-22T20:21:03.602111+00:00",
-      "last_seen": "2026-11-22T22:31:22.041314+00:00",
-      "posted_at": "2026-11-22T19:27:54+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Shoes",
-        "sd_store": "",
-        "sd_brand": "New Balance",
-        "sd_hot_origin": false,
-        "sd_age_min": 183,
-        "sd_votes": 41,
-        "sd_velocity": 13.4,
-        "sd_fp_min": 53
-      },
-      "id": "9d3e4906ba",
-      "history": [
-        [
-          "2026-11-22",
-          33.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
       "url": "https://slickdeals.net/f/20388810",
       "title": "The North Face Men's Canyonland 2 Full-Zip Fleece Jacket (Various) $51.68 + Free Shipping",
       "brand": "The North Face",
@@ -9351,6 +9358,75 @@
         [
           "2026-11-23",
           116.98
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20389962",
+      "title": "Casio Vintage Digital Gold-Tone Stainless Steel Watch $59.49 + $9.82 Shipping",
+      "brand": "Casio",
+      "category": "watch_misc",
+      "image": "https://static.slickdealscdn.com/attachment/3/5/8/2/5/6/8/8/300x300/22571898.thumb",
+      "price_current": 9.82,
+      "price_list": 79.95,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "8JPS9CFTH7TK",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 1,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 13193,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "public",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20389962",
+      "discount_pct": 87.7,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 8JPS9CFTH7TK → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-24T22:32:15.917928+00:00",
+      "last_seen": "2026-11-24T22:32:36.998189+00:00",
+      "posted_at": "2026-11-24T22:22:10+00:00",
+      "signals": {
+        "sd_feeds": [
+          "hotdeals"
+        ],
+        "sd_cat": "Men's Watches",
+        "sd_store": "Watch Gang",
+        "sd_brand": "CASIO",
+        "sd_hot_origin": true,
+        "sd_age_min": 10,
+        "sd_votes": 1,
+        "sd_velocity": 5.9
+      },
+      "id": "f3dfdf3036",
+      "history": [
+        [
+          "2026-11-24",
+          9.82
         ]
       ]
     },
@@ -10784,16 +10860,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-24T13:31:08.785435+00:00",
-      "last_seen": "2026-11-24T22:21:12.732423+00:00",
+      "last_seen": "2026-11-24T22:32:36.998189+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Men's Shoes",
         "sd_store": "",
         "sd_brand": "Nike",
         "sd_hot_origin": false,
-        "sd_age_min": 536,
+        "sd_age_min": 547,
         "sd_votes": 55,
-        "sd_velocity": 6.2,
+        "sd_velocity": 6.0,
         "sd_fp_min": 6
       },
       "id": "432cd8986f",
@@ -10980,14 +11056,14 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-24T06:22:11.505805+00:00",
-      "last_seen": "2026-11-24T22:21:12.732423+00:00",
+      "last_seen": "2026-11-24T22:32:36.998189+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Chargers & Power Banks",
         "sd_store": "Amazon",
         "sd_brand": "LISEN",
         "sd_hot_origin": true,
-        "sd_age_min": 976,
+        "sd_age_min": 987,
         "sd_votes": 0,
         "sd_velocity": 0.0,
         "sd_fp_min": 926
@@ -11425,7 +11501,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 38,
+      "community_votes": 42,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -11455,7 +11531,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-24T21:41:08.156354+00:00",
-      "last_seen": "2026-11-24T22:21:12.732423+00:00",
+      "last_seen": "2026-11-24T22:32:36.998189+00:00",
       "posted_at": "2026-11-24T21:01:16+00:00",
       "signals": {
         "sd_feeds": [
@@ -11465,9 +11541,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Calvin Klein",
         "sd_hot_origin": false,
-        "sd_age_min": 80,
-        "sd_votes": 38,
-        "sd_velocity": 28.6,
+        "sd_age_min": 91,
+        "sd_votes": 42,
+        "sd_velocity": 27.7,
         "sd_fp_min": 40
       },
       "id": "f97d19097b",
@@ -11525,16 +11601,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-24T13:42:04.836770+00:00",
-      "last_seen": "2026-11-24T22:21:12.732423+00:00",
+      "last_seen": "2026-11-24T22:32:36.998189+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Home Automation",
         "sd_store": "",
         "sd_brand": "Govee",
         "sd_hot_origin": false,
-        "sd_age_min": 521,
+        "sd_age_min": 532,
         "sd_votes": 24,
-        "sd_velocity": 2.8,
+        "sd_velocity": 2.7,
         "sd_fp_min": 2
       },
       "id": "72b0ce7206",
@@ -12632,6 +12708,144 @@
       ]
     },
     {
+      "source": "slickdeals:bestbuy.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20367201",
+      "title": "UGREEN Nexode 165W 20,000mAh Power Bank w/ Retractable Cable for $70 at Best Buy",
+      "brand": "UGREEN",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20367201&t=15",
+      "price_current": 70.0,
+      "price_list": 99.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 0,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 94046,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20367201",
+      "discount_pct": 30.0,
+      "score": 66,
+      "score_breakdown": {
+        "discount_depth": 20,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-22T05:41:40.394763+00:00",
+      "last_seen": "2026-11-24T22:32:36.998189+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Chargers & Power Banks",
+        "sd_store": "Best Buy",
+        "sd_brand": "UGREEN",
+        "sd_hot_origin": true,
+        "sd_age_min": 3920,
+        "sd_votes": 0,
+        "sd_velocity": 0.0,
+        "sd_fp_min": 3749
+      },
+      "id": "44a28374cc",
+      "history": [
+        [
+          "2026-11-22",
+          70.0
+        ],
+        [
+          "2026-11-24",
+          70.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20379441",
+      "title": "TP-Link Tapo Smart Wi-Fi Outlet w/ Energy Monitoring (Matter Compatible) for $18 at Amazon",
+      "brand": "Tapo",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20379441&t=15",
+      "price_current": 18.0,
+      "price_list": 25.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 29,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 24183,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20379441",
+      "discount_pct": 30.7,
+      "score": 66,
+      "score_breakdown": {
+        "discount_depth": 20,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-24T04:52:00.770649+00:00",
+      "last_seen": "2026-11-24T22:32:36.998189+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Home Automation",
+        "sd_store": "Amazon",
+        "sd_brand": "Tapo",
+        "sd_hot_origin": false,
+        "sd_age_min": 1076,
+        "sd_votes": 29,
+        "sd_velocity": 1.6,
+        "sd_fp_min": 16
+      },
+      "id": "b68e4ffcdc",
+      "history": [
+        [
+          "2026-11-24",
+          18.0
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20371356",
@@ -12698,144 +12912,6 @@
         [
           "2026-11-24",
           23.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:bestbuy.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20367201",
-      "title": "UGREEN Nexode 165W 20,000mAh Power Bank w/ Retractable Cable for $70 at Best Buy",
-      "brand": "UGREEN",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20367201&t=15",
-      "price_current": 70.0,
-      "price_list": 99.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 0,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 94046,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20367201",
-      "discount_pct": 30.0,
-      "score": 66,
-      "score_breakdown": {
-        "discount_depth": 20,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-22T05:41:40.394763+00:00",
-      "last_seen": "2026-11-24T22:21:12.732423+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Chargers & Power Banks",
-        "sd_store": "Best Buy",
-        "sd_brand": "UGREEN",
-        "sd_hot_origin": true,
-        "sd_age_min": 3909,
-        "sd_votes": 0,
-        "sd_velocity": 0.0,
-        "sd_fp_min": 3749
-      },
-      "id": "44a28374cc",
-      "history": [
-        [
-          "2026-11-22",
-          70.0
-        ],
-        [
-          "2026-11-24",
-          70.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20379441",
-      "title": "TP-Link Tapo Smart Wi-Fi Outlet w/ Energy Monitoring (Matter Compatible) for $18 at Amazon",
-      "brand": "Tapo",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20379441&t=15",
-      "price_current": 18.0,
-      "price_list": 25.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 29,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 24183,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20379441",
-      "discount_pct": 30.7,
-      "score": 66,
-      "score_breakdown": {
-        "discount_depth": 20,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-24T04:52:00.770649+00:00",
-      "last_seen": "2026-11-24T22:21:12.732423+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Home Automation",
-        "sd_store": "Amazon",
-        "sd_brand": "Tapo",
-        "sd_hot_origin": false,
-        "sd_age_min": 1064,
-        "sd_votes": 29,
-        "sd_velocity": 1.6,
-        "sd_fp_min": 16
-      },
-      "id": "b68e4ffcdc",
-      "history": [
-        [
-          "2026-11-24",
-          18.0
         ]
       ]
     },
@@ -13626,6 +13702,208 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20389905",
+      "title": "$49.99* | Thermaltake S370 WS Wood Mid Tower ATX PC Case w/ & 4x120mm Fans at Amazon",
+      "brand": "Thermaltake",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/1/1/7/1/5/2/7/300x300/22571859.thumb",
+      "price_current": 50.0,
+      "price_list": 119.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 3,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 67176,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20389905",
+      "discount_pct": 58.3,
+      "score": 65,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-24T22:32:15.917928+00:00",
+      "last_seen": "2026-11-24T22:32:36.998189+00:00",
+      "posted_at": "2026-11-24T22:13:38+00:00",
+      "signals": {
+        "sd_feeds": [
+          "hotdeals"
+        ],
+        "sd_cat": "Computers",
+        "sd_store": "Amazon",
+        "sd_brand": "Thermaltake",
+        "sd_hot_origin": true,
+        "sd_age_min": 19,
+        "sd_votes": 3,
+        "sd_velocity": 9.7
+      },
+      "id": "d6f2d50eb7",
+      "history": [
+        [
+          "2026-11-24",
+          50.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20373354",
+      "title": "2-pk Melissa & Doug Blockables Farm & Farm Friends Bundle for $19.15 at Amazon",
+      "brand": "Melissa & Doug",
+      "category": "kids",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20373354&t=15",
+      "price_current": 19.0,
+      "price_list": 43.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 37,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 25527,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20373354",
+      "discount_pct": 56.8,
+      "score": 65,
+      "score_breakdown": {
+        "discount_depth": 26,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-24T17:50:57.985144+00:00",
+      "last_seen": "2026-11-24T22:32:36.998189+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Educational Toys",
+        "sd_store": "Amazon",
+        "sd_brand": "Melissa & Doug",
+        "sd_hot_origin": false,
+        "sd_age_min": 303,
+        "sd_votes": 37,
+        "sd_velocity": 7.3,
+        "sd_fp_min": 22
+      },
+      "id": "c8f498b742",
+      "history": [
+        [
+          "2026-11-24",
+          19.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:walmart.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20377593",
+      "title": "Hot Wheels Monster Trucks Neon Smashers Toy Set for $15 at Walmart",
+      "brand": "Mattel",
+      "category": "kids",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20377593&t=15",
+      "price_current": 15.0,
+      "price_list": 29.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 30,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 20153,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20377593",
+      "discount_pct": 50.0,
+      "score": 65,
+      "score_breakdown": {
+        "discount_depth": 26,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-24T09:42:04.997309+00:00",
+      "last_seen": "2026-11-24T22:32:36.998189+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Kids Toys",
+        "sd_store": "",
+        "sd_brand": "Hot Wheels",
+        "sd_hot_origin": false,
+        "sd_age_min": 787,
+        "sd_votes": 30,
+        "sd_velocity": 2.3,
+        "sd_fp_min": 17
+      },
+      "id": "0dde61f908",
+      "history": [
+        [
+          "2026-11-24",
+          15.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
       "url": "https://slickdeals.net/f/20369097",
       "title": "29.3mm TISSOT Women's T-My Lady Stainless Steel Automatic Watch w/ Date $289 + Free S&H",
       "brand": "Tissot",
@@ -13690,140 +13968,6 @@
         [
           "2026-11-24",
           289.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20373354",
-      "title": "2-pk Melissa & Doug Blockables Farm & Farm Friends Bundle for $19.15 at Amazon",
-      "brand": "Melissa & Doug",
-      "category": "kids",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20373354&t=15",
-      "price_current": 19.0,
-      "price_list": 43.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 37,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 25527,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20373354",
-      "discount_pct": 56.8,
-      "score": 65,
-      "score_breakdown": {
-        "discount_depth": 26,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-24T17:50:57.985144+00:00",
-      "last_seen": "2026-11-24T22:21:12.732423+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Educational Toys",
-        "sd_store": "Amazon",
-        "sd_brand": "Melissa & Doug",
-        "sd_hot_origin": false,
-        "sd_age_min": 292,
-        "sd_votes": 37,
-        "sd_velocity": 7.6,
-        "sd_fp_min": 22
-      },
-      "id": "c8f498b742",
-      "history": [
-        [
-          "2026-11-24",
-          19.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:walmart.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20377593",
-      "title": "Hot Wheels Monster Trucks Neon Smashers Toy Set for $15 at Walmart",
-      "brand": "Mattel",
-      "category": "kids",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20377593&t=15",
-      "price_current": 15.0,
-      "price_list": 29.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 30,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 20153,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20377593",
-      "discount_pct": 50.0,
-      "score": 65,
-      "score_breakdown": {
-        "discount_depth": 26,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-24T09:42:04.997309+00:00",
-      "last_seen": "2026-11-24T22:21:12.732423+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Kids Toys",
-        "sd_store": "",
-        "sd_brand": "Hot Wheels",
-        "sd_hot_origin": false,
-        "sd_age_min": 776,
-        "sd_votes": 30,
-        "sd_velocity": 2.3,
-        "sd_fp_min": 17
-      },
-      "id": "0dde61f908",
-      "history": [
-        [
-          "2026-11-24",
-          15.0
         ]
       ]
     },
@@ -15489,7 +15633,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-24T22:10:46.510973+00:00",
-      "last_seen": "2026-11-24T22:21:12.732423+00:00",
+      "last_seen": "2026-11-24T22:32:36.998189+00:00",
       "posted_at": "",
       "signals": {},
       "id": "c7b970bcbf",
@@ -15497,6 +15641,148 @@
         [
           "2026-11-24",
           27.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20386602",
+      "title": "16GB Amazon Kindle Colorsoft (2024 model) $170 + Free S&H",
+      "brand": "Amazon",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/1/3/0/6/8/2/0/7/300x300/22563177.thumb",
+      "price_current": 170.0,
+      "price_list": 289.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 37,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 228397,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20386602",
+      "discount_pct": 41.4,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 20,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "community": "투표 37+할인41% → 하한 55",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-24T22:32:15.917928+00:00",
+      "last_seen": "2026-11-24T22:32:36.998189+00:00",
+      "posted_at": "2026-11-24T22:01:23+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Tablets & eReaders",
+        "sd_store": "",
+        "sd_brand": "Amazon",
+        "sd_hot_origin": false,
+        "sd_age_min": 31,
+        "sd_votes": 37,
+        "sd_velocity": 71.9,
+        "sd_fp_min": 31
+      },
+      "id": "f2ba2518ac",
+      "history": [
+        [
+          "2026-11-24",
+          170.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20370600",
+      "title": "Rokinon 35-150mm f/2-2.8 AF Full Frame Zoom Lens for Sony E-Mount for $799 at Amazon",
+      "brand": "Rokinon",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20370600&t=15",
+      "price_current": 799.0,
+      "price_list": 1399.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 3,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 1275279,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20370600",
+      "discount_pct": 42.9,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 20,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-22T17:22:35.277674+00:00",
+      "last_seen": "2026-11-24T22:32:36.998189+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Camera Lenses",
+        "sd_store": "Amazon",
+        "sd_brand": "Rokinon",
+        "sd_hot_origin": true,
+        "sd_age_min": 3229,
+        "sd_votes": 3,
+        "sd_velocity": 0.1,
+        "sd_fp_min": 2278
+      },
+      "id": "29044766c5",
+      "history": [
+        [
+          "2026-11-22",
+          799.0
+        ],
+        [
+          "2026-11-24",
+          799.0
         ]
       ]
     },
@@ -15568,77 +15854,6 @@
         [
           "2026-11-24",
           13.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20370600",
-      "title": "Rokinon 35-150mm f/2-2.8 AF Full Frame Zoom Lens for Sony E-Mount for $799 at Amazon",
-      "brand": "Rokinon",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20370600&t=15",
-      "price_current": 799.0,
-      "price_list": 1399.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 3,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 1275279,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20370600",
-      "discount_pct": 42.9,
-      "score": 61,
-      "score_breakdown": {
-        "discount_depth": 20,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-22T17:22:35.277674+00:00",
-      "last_seen": "2026-11-24T22:21:12.732423+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Camera Lenses",
-        "sd_store": "Amazon",
-        "sd_brand": "Rokinon",
-        "sd_hot_origin": true,
-        "sd_age_min": 3218,
-        "sd_votes": 3,
-        "sd_velocity": 0.1,
-        "sd_fp_min": 2278
-      },
-      "id": "29044766c5",
-      "history": [
-        [
-          "2026-11-22",
-          799.0
-        ],
-        [
-          "2026-11-24",
-          799.0
         ]
       ]
     },
@@ -17695,74 +17910,6 @@
     {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20371734",
-      "title": "$4.99 | Murder on the Hindenburg 1000-Pc Murder Mystery Jigsaw Puzzle Ages 15+ at Amazon",
-      "brand": "University Games",
-      "category": "kids",
-      "image": "https://static.slickdealscdn.com/attachment/1/1/7/1/5/2/7/300x300/22525701.thumb",
-      "price_current": 4.99,
-      "price_list": 21.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 1,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 6703,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "unknown",
-      "buy_url": "https://slickdeals.net/f/20371734",
-      "discount_pct": 77.3,
-      "score": 57,
-      "score_breakdown": {
-        "discount_depth": 35,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-22T21:41:42.764300+00:00",
-      "last_seen": "2026-11-22T22:31:22.041314+00:00",
-      "posted_at": "2026-11-22T21:24:52+00:00",
-      "signals": {
-        "sd_feeds": [
-          "hotdeals"
-        ],
-        "sd_cat": "Kids Toys",
-        "sd_store": "Amazon",
-        "sd_brand": "University Games",
-        "sd_hot_origin": true,
-        "sd_age_min": 66,
-        "sd_votes": 1,
-        "sd_velocity": 0.9
-      },
-      "id": "9faa83e5df",
-      "history": [
-        [
-          "2026-11-22",
-          4.99
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
       "url": "https://slickdeals.net/f/20385411",
       "title": "14.5\" Rachael Ray Create Delicious Aluminum Nonstick Induction Frying Pan w/ Helper Handle $27.50 + Free Shipping w/ Prime or on $35+",
       "brand": "Rachael Ray",
@@ -17825,78 +17972,6 @@
         [
           "2026-11-24",
           28.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20381382",
-      "title": "Staples Hyken Ergonomic Mesh Swivel Task Chair (Black, ST63137) $125.99 + Free Shipping",
-      "brand": "Staples",
-      "category": "home",
-      "image": "https://static.slickdealscdn.com/attachment/3/1/5/9/4/1/5/9/300x300/22550379.thumb",
-      "price_current": 126.0,
-      "price_list": 299.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 1,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 169283,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20381382",
-      "discount_pct": 58.0,
-      "score": 56,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 8,
-        "bonus": 4,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-23T23:51:41.710875+00:00",
-      "last_seen": "2026-11-24T00:51:22.941279+00:00",
-      "posted_at": "2026-11-23T23:09:43+00:00",
-      "signals": {
-        "sd_feeds": [
-          "hotdeals"
-        ],
-        "sd_cat": "Home Office Furniture",
-        "sd_store": "Staples",
-        "sd_brand": "Staples",
-        "sd_hot_origin": true,
-        "sd_age_min": 101,
-        "sd_votes": 1,
-        "sd_velocity": 0.6
-      },
-      "id": "6d95b971d1",
-      "history": [
-        [
-          "2026-11-23",
-          126.0
-        ],
-        [
-          "2026-11-24",
-          126.0
         ]
       ]
     },
@@ -22368,13 +22443,12 @@
   "fx_usd_krw": 1343.5,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-24T22:20:32+00:00",
+      "T1": "2026-11-24T22:30:42+00:00",
       "T2": "2026-11-24T22:21:15+00:00",
       "T3": "2026-11-24T20:21:12+00:00",
       "T4": "2026-11-24T21:21:30+00:00"
     },
     "recent_gaps_min": [
-      10,
       11,
       1,
       8,
@@ -22403,14 +22477,15 @@
       9,
       10,
       10,
-      1
+      1,
+      11
     ],
     "naver": {
       "keys": true,
       "queried": 25,
       "matched": 0,
       "errors": 25,
-      "at": "2026-11-24T22:21:50+00:00",
+      "at": "2026-11-24T22:32:36+00:00",
       "last_error": "HTTP 404 SE05 Invalid search api (존재하지 않는 검색 api 입니다.)"
     },
     "reddit": {
@@ -22419,13 +22494,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-24T22:21:50+00:00"
+      "at": "2026-11-24T22:32:36+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-24T22:20:52+00:00",
+        "at": "2026-11-24T22:32:15+00:00",
         "state": "정상",
         "mails": 40,
         "deals": 38
@@ -22451,7 +22526,7 @@
         "published": false,
         "reject_reason": "H8: 할인 0% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-24T22:11:10+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20388774",
@@ -22466,7 +22541,7 @@
         "published": false,
         "reject_reason": "H9: 미국 전압(120V) 가전(Vacuums, Carpet Cleaners & Floor Cleaners)",
         "first_seen": "2026-11-24T21:41:33+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20388807",
@@ -22481,7 +22556,7 @@
         "published": false,
         "reject_reason": "H8: 할인 12% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-24T21:41:33+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20383902",
@@ -22496,7 +22571,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T21:31:24+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://click.woot.com/f/a/hWN-T7RpWbVr2T4KRUrYjQ~~/AAQRxRA~/b5cGdHraoX5Jb3zYS0Jt-46dp82tmb0T547PQei28OIpta3gA6gU7hrnzhsk7iZxeJqId7FzMdUnsVAoQYg7ObLJtu-QaDv67OFL_MznL7fgEImE3K-ZTApkNW39DPo8Yc9ozY1LT8CTz6fSiggypkW95JSHyNGiM75x7SYoyfaDtPmneERIk57de0k2jcyLEJGZ21FC6wD5LfybJ-jebmhhJEb38Mh5H4LBsUfMJWSFAbX",
@@ -22541,7 +22616,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T21:21:28+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374683",
@@ -22556,7 +22631,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T20:02:32+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20367201",
@@ -22571,7 +22646,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T19:41:21+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374302",
@@ -22586,7 +22661,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T19:21:32+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20380095",
@@ -22601,7 +22676,7 @@
         "published": false,
         "reject_reason": "H9: 미국 전압(120V) 가전(Vacuums, Carpet Cleaners & Floor Cleaners)",
         "first_seen": "2026-11-24T18:21:41+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20369649",
@@ -22616,7 +22691,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T18:21:41+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20373354",
@@ -22631,7 +22706,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T17:51:19+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20378733",
@@ -22646,7 +22721,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T17:32:52+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374161",
@@ -22661,7 +22736,7 @@
         "published": false,
         "reject_reason": "H8: 할인 12% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-24T16:41:14+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20268324",
@@ -22676,7 +22751,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T16:32:12+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20382072",
@@ -22691,7 +22766,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(Hanes) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-24T16:32:12+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20386461",
@@ -22706,7 +22781,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(OLED TVs)",
         "first_seen": "2026-11-24T16:21:25+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20387043",
@@ -22721,7 +22796,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T15:51:13+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20384748",
@@ -22736,7 +22811,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T15:31:35+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://www.asos.com",
@@ -22796,7 +22871,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T15:03:35+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20385672",
@@ -22811,7 +22886,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Books & Magazines)",
         "first_seen": "2026-11-24T14:12:50+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20302086",
@@ -22826,7 +22901,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T14:01:50+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20376492",
@@ -22841,7 +22916,7 @@
         "published": false,
         "reject_reason": "H8: 할인 16% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-24T13:51:18+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20384988",
@@ -22856,7 +22931,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T13:42:25+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20385201",
@@ -22871,7 +22946,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T13:31:28+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377593",
@@ -22886,7 +22961,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T09:42:29+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://click.email.bloomingdales.com/",
@@ -22916,7 +22991,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Portable Power Stations)",
         "first_seen": "2026-11-24T09:01:30+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20383542",
@@ -22931,7 +23006,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T08:34:15+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377113",
@@ -22946,7 +23021,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-24T08:11:44+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370558",
@@ -22991,7 +23066,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T07:51:27+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374917",
@@ -23036,7 +23111,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T07:32:31+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370585",
@@ -23261,7 +23336,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-24T06:41:22+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370600",
@@ -23276,7 +23351,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T06:41:22+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20367558",
@@ -23336,7 +23411,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T05:54:04+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20379441",
@@ -23351,7 +23426,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T04:52:21+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20376978",
@@ -23366,7 +23441,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-24T03:41:12+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20382648",
@@ -23381,7 +23456,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(TV Accessories)",
         "first_seen": "2026-11-24T03:41:12+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20376018",
@@ -23396,7 +23471,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T03:31:19+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://click.emails.underarmour.com/",
@@ -23441,7 +23516,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T02:42:26+00:00",
-        "last_seen": "2026-11-24T22:21:12+00:00"
+        "last_seen": "2026-11-24T22:32:37+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374257",
