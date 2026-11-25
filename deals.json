@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25T10:42:17.874029+00:00",
-  "count": 349,
+  "generated_at": "2026-11-25T10:51:06.787426+00:00",
+  "count": 350,
   "deals": [
     {
       "source": "6pm.com",
@@ -429,15 +429,15 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-24T21:21:07.024207+00:00",
-      "last_seen": "2026-11-25T10:41:52.821234+00:00",
+      "last_seen": "2026-11-25T10:51:06.085159+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Streaming Services",
         "sd_store": "Slickdeals",
         "sd_hot_origin": false,
-        "sd_age_min": 801,
+        "sd_age_min": 810,
         "sd_votes": 412,
-        "sd_velocity": 30.9
+        "sd_velocity": 30.5
       },
       "title_kr": "Disney TV",
       "id": "7d4944fad2",
@@ -758,7 +758,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-25T10:41:52.541988+00:00",
-      "last_seen": "2026-11-25T10:41:52.821234+00:00",
+      "last_seen": "2026-11-25T10:51:06.085159+00:00",
       "posted_at": "2026-11-25T10:07:11+00:00",
       "signals": {
         "sd_feeds": [
@@ -768,9 +768,9 @@
         "sd_store": "Loaded",
         "sd_brand": "Steam",
         "sd_hot_origin": false,
-        "sd_age_min": 35,
+        "sd_age_min": 44,
         "sd_votes": 79,
-        "sd_velocity": 136.6,
+        "sd_velocity": 107.9,
         "sd_fp_min": 35
       },
       "title_kr": "Steam Loaded Black Friday PCDD/Steam Sale: Frostpunk…",
@@ -1222,6 +1222,77 @@
       "title_kr": "삼성 무선 이어폰"
     },
     {
+      "source": "slickdeals:woot.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20392464",
+      "title": "2-Pk 64GB Amazon Basics A2 U3 microSDXC Memory Card w/ Adapter $18 + Free S&H w/ Amazon Prime",
+      "brand": "",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/8/6/6/3/0/300x300/22580295.thumb",
+      "price_current": 18.0,
+      "price_list": 20.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 18,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 24175,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20392464",
+      "discount_pct": 10.0,
+      "score": 92,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 폭발 18표/23분 → 하한 86",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-25T06:41:46.508139+00:00",
+      "last_seen": "2026-11-25T10:51:06.085159+00:00",
+      "posted_at": "2026-11-25T10:28:33+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "SD Cards & Micro SD Cards",
+        "sd_store": "Woot!",
+        "sd_hot_origin": true,
+        "sd_age_min": 23,
+        "sd_votes": 18,
+        "sd_velocity": 47.9,
+        "sd_fp_min": 13
+      },
+      "title_kr": "메모리 카드",
+      "id": "ab6c466115",
+      "history": [
+        [
+          "2026-11-25",
+          18.0
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:adidas.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20355708",
@@ -1288,77 +1359,6 @@
       "history": [],
       "variant_count": 2,
       "title_kr": "아디다스 Black Friday Sale Up to 60%…"
-    },
-    {
-      "source": "slickdeals:woot.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20392464",
-      "title": "2-Pk 64GB Amazon Basics A2 U3 microSDXC Memory Card w/ Adapter $18 + Free S&H w/ Amazon Prime",
-      "brand": "",
-      "category": "electronics",
-      "image": "https://static.slickdealscdn.com/attachment/8/6/6/3/0/300x300/22580295.thumb",
-      "price_current": 18.0,
-      "price_list": 20.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 18,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 24175,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20392464",
-      "discount_pct": 10.0,
-      "score": 92,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 18표/13분 → 하한 86",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-25T06:41:46.508139+00:00",
-      "last_seen": "2026-11-25T10:41:52.821234+00:00",
-      "posted_at": "2026-11-25T10:28:33+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "SD Cards & Micro SD Cards",
-        "sd_store": "Woot!",
-        "sd_hot_origin": true,
-        "sd_age_min": 13,
-        "sd_votes": 18,
-        "sd_velocity": 81.0,
-        "sd_fp_min": 13
-      },
-      "title_kr": "메모리 카드",
-      "id": "ab6c466115",
-      "history": [
-        [
-          "2026-11-25",
-          18.0
-        ]
-      ]
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -2786,16 +2786,16 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-25T05:33:04.815581+00:00",
-      "last_seen": "2026-11-25T10:41:52.821234+00:00",
+      "last_seen": "2026-11-25T10:51:06.085159+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Women's Pants & Shorts",
         "sd_store": "Retailer",
         "sd_brand": "Nike",
         "sd_hot_origin": false,
-        "sd_age_min": 324,
+        "sd_age_min": 334,
         "sd_votes": 99,
-        "sd_velocity": 18.3,
+        "sd_velocity": 17.8,
         "sd_fp_min": 16
       },
       "title_kr": "나이키 여성용 바지",
@@ -4209,16 +4209,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T02:31:47.119730+00:00",
-      "last_seen": "2026-11-25T10:41:52.821234+00:00",
+      "last_seen": "2026-11-25T10:51:06.085159+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Women's Activewear",
         "sd_store": "Retailer",
         "sd_brand": "Nike",
         "sd_hot_origin": false,
-        "sd_age_min": 500,
+        "sd_age_min": 510,
         "sd_votes": 48,
-        "sd_velocity": 5.8,
+        "sd_velocity": 5.7,
         "sd_fp_min": 10
       },
       "title_kr": "나이키 여성용 바지",
@@ -4715,7 +4715,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T00:02:06.008014+00:00",
-      "last_seen": "2026-11-25T10:41:52.821234+00:00",
+      "last_seen": "2026-11-25T10:51:06.085159+00:00",
       "posted_at": "2026-11-25T08:05:25+00:00",
       "signals": {
         "sd_feeds": [
@@ -4725,9 +4725,9 @@
         "sd_store": "eBay",
         "sd_brand": "Crocs",
         "sd_hot_origin": true,
-        "sd_age_min": 156,
+        "sd_age_min": 166,
         "sd_votes": 30,
-        "sd_velocity": 11.5,
+        "sd_velocity": 10.9,
         "sd_fp_min": 17
       },
       "title_kr": "크록스 클로그",
@@ -4787,7 +4787,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T08:21:57.226424+00:00",
-      "last_seen": "2026-11-25T10:41:52.821234+00:00",
+      "last_seen": "2026-11-25T10:51:06.085159+00:00",
       "posted_at": "2026-11-25T07:59:20+00:00",
       "signals": {
         "sd_feeds": [
@@ -4797,9 +4797,9 @@
         "sd_store": "JomaShop",
         "sd_brand": "Citizen",
         "sd_hot_origin": false,
-        "sd_age_min": 163,
+        "sd_age_min": 172,
         "sd_votes": 36,
-        "sd_velocity": 13.3,
+        "sd_velocity": 12.6,
         "sd_fp_min": 23
       },
       "title_kr": "시티즌 남성용 시계",
@@ -5322,6 +5322,82 @@
       "title_kr": "Steam God of War (2022) (PCDD/Steam Code)"
     },
     {
+      "source": "slickdeals:bestbuy.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20386962",
+      "title": "Sony PlayStation DualSense Wireless Controller (007 First Light Limited Edition) $65 + Free S&H",
+      "brand": "Sony",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/8/6/6/3/0/300x300/22579380.thumb",
+      "price_current": 65.0,
+      "price_list": 84.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 44,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 87298,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20386962",
+      "discount_pct": 23.5,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 8,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 44표/116분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-24T15:22:07.717453+00:00",
+      "last_seen": "2026-11-25T10:51:06.085159+00:00",
+      "posted_at": "2026-11-25T08:54:47+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Video Game Accessories",
+        "sd_store": "Best Buy",
+        "sd_brand": "Sony",
+        "sd_hot_origin": true,
+        "sd_age_min": 116,
+        "sd_votes": 44,
+        "sd_velocity": 22.7,
+        "sd_fp_min": 46
+      },
+      "title_kr": "소니 게임 컨트롤러",
+      "id": "e01e62bdfd",
+      "history": [
+        [
+          "2026-11-24",
+          65.0
+        ],
+        [
+          "2026-11-25",
+          65.0
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/calvin-klein-jatlee-block-heel-pump-women/7484926",
@@ -5465,82 +5541,6 @@
         [
           "2026-11-25",
           99.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:bestbuy.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20386962",
-      "title": "Sony PlayStation DualSense Wireless Controller (007 First Light Limited Edition) $65 + Free S&H",
-      "brand": "Sony",
-      "category": "electronics",
-      "image": "https://static.slickdealscdn.com/attachment/8/6/6/3/0/300x300/22579380.thumb",
-      "price_current": 65.0,
-      "price_list": 84.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 44,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 87298,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20386962",
-      "discount_pct": 23.5,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 8,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 44표/107분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-24T15:22:07.717453+00:00",
-      "last_seen": "2026-11-25T10:41:52.821234+00:00",
-      "posted_at": "2026-11-25T08:54:47+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Video Game Accessories",
-        "sd_store": "Best Buy",
-        "sd_brand": "Sony",
-        "sd_hot_origin": true,
-        "sd_age_min": 107,
-        "sd_votes": 44,
-        "sd_velocity": 24.7,
-        "sd_fp_min": 46
-      },
-      "title_kr": "소니 게임 컨트롤러",
-      "id": "e01e62bdfd",
-      "history": [
-        [
-          "2026-11-24",
-          65.0
-        ],
-        [
-          "2026-11-25",
-          65.0
         ]
       ]
     },
@@ -8394,6 +8394,77 @@
         ]
       ],
       "title_kr": "Disney At Home.Fandango Black Friday Digital Sale:…"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20379738",
+      "title": "Mad Max (PCDD/Steam Key) $1.30",
+      "brand": "Warner Brothers",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/8/6/6/3/0/300x300/22579749.thumb",
+      "price_current": 1.3,
+      "price_list": 19.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 49,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 1746,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20379738",
+      "discount_pct": 93.5,
+      "score": 79,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-25T10:41:52.541988+00:00",
+      "last_seen": "2026-11-25T10:51:06.085159+00:00",
+      "posted_at": "2026-11-25T09:45:07+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Computer & PC",
+        "sd_store": "Loaded",
+        "sd_brand": "Warner Brothers",
+        "sd_hot_origin": false,
+        "sd_age_min": 66,
+        "sd_votes": 49,
+        "sd_velocity": 44.6,
+        "sd_fp_min": 57
+      },
+      "title_kr": "Warner Brothers Mad Max (PCDD/Steam Key)",
+      "id": "fc74c3e218",
+      "history": [
+        [
+          "2026-11-25",
+          1.3
+        ]
+      ]
     },
     {
       "source": "slickdeals:woot.com",
@@ -11477,6 +11548,77 @@
       "title_kr": "소니 헤드셋"
     },
     {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20321988",
+      "title": "New Balance T500 Athletic Shoe (2 Colors) $40 + Free S&H",
+      "brand": "New Balance",
+      "category": "sports_outdoor",
+      "image": "https://static.slickdealscdn.com/attachment/1/9/1/2/6/8/2/300x300/22384398.thumb",
+      "price_current": 40.0,
+      "price_list": 109.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 30,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 53722,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20321988",
+      "discount_pct": 63.6,
+      "score": 72,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-25T08:41:16.872744+00:00",
+      "last_seen": "2026-11-25T10:51:06.085159+00:00",
+      "posted_at": "2026-11-25T08:29:52+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Shoes",
+        "sd_store": "Journeys",
+        "sd_brand": "New Balance",
+        "sd_hot_origin": false,
+        "sd_age_min": 141,
+        "sd_votes": 30,
+        "sd_velocity": 12.7,
+        "sd_fp_min": 11
+      },
+      "title_kr": "뉴발란스 신발",
+      "id": "aeb31aa276",
+      "history": [
+        [
+          "2026-11-25",
+          40.0
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/nike-fleece-jacket-toddler/7560706",
@@ -11531,77 +11673,6 @@
         [
           "2026-11-25",
           7.12
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:slickdeals.net",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20321988",
-      "title": "New Balance T500 Athletic Shoe (2 Colors) $40 + Free S&H",
-      "brand": "New Balance",
-      "category": "sports_outdoor",
-      "image": "https://static.slickdealscdn.com/attachment/1/9/1/2/6/8/2/300x300/22384398.thumb",
-      "price_current": 40.0,
-      "price_list": 109.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 30,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 53722,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20321988",
-      "discount_pct": 63.6,
-      "score": 72,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-25T08:41:16.872744+00:00",
-      "last_seen": "2026-11-25T10:41:52.821234+00:00",
-      "posted_at": "2026-11-25T08:29:52+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Shoes",
-        "sd_store": "Journeys",
-        "sd_brand": "New Balance",
-        "sd_hot_origin": false,
-        "sd_age_min": 132,
-        "sd_votes": 30,
-        "sd_velocity": 13.6,
-        "sd_fp_min": 11
-      },
-      "title_kr": "뉴발란스 신발",
-      "id": "aeb31aa276",
-      "history": [
-        [
-          "2026-11-25",
-          40.0
         ]
       ]
     },
@@ -11668,6 +11739,65 @@
       "title_kr": "Gentle Souls by Kenneth Cole 러그솔 슈즈"
     },
     {
+      "source": "amazon.com",
+      "source_tier": "T1",
+      "url": "https://www.amazon.com/Dr-Martens-Womens-ROMETTY-Fashion/dp/B078ZL54B2",
+      "title": "Dr. Martens Women's Rometty Leather Heeled Chelsea Boot  (외 1종)",
+      "brand": "Dr. Martens",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/61+CL9aQakL._AC_SR255,340_.jpg",
+      "price_current": 56.26,
+      "price_list": 126.08,
+      "price_baseline": 126.08,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 75560,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": "2026-11-26T07:45:00.000Z",
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.amazon.com/Dr-Martens-Womens-ROMETTY-Fashion/dp/B078ZL54B2",
+      "discount_pct": 55.4,
+      "score": 71,
+      "score_breakdown": {
+        "discount_depth": 26,
+        "price_history": null,
+        "category": 20,
+        "bonus": 4,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-25T10:01:12.205213+00:00",
+      "last_seen": "2026-11-25T10:41:52.821234+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "닥터마틴 여성용 첼시부츠",
+      "id": "d96590fe46",
+      "history": [
+        [
+          "2026-11-25",
+          56.26
+        ]
+      ],
+      "variant_count": 2
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/new-balance-kids-574-sneaker-toddler-little-kid/8563727",
@@ -11722,64 +11852,6 @@
         [
           "2026-11-25",
           17.97
-        ]
-      ]
-    },
-    {
-      "source": "amazon.com",
-      "source_tier": "T1",
-      "url": "https://www.amazon.com/Dr-Martens-Womens-ROMETTY-Fashion/dp/B078ZL54B2",
-      "title": "Dr. Martens Women's Rometty Leather Heeled Chelsea Boot",
-      "brand": "Dr. Martens",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61+CL9aQakL._AC_SR255,340_.jpg",
-      "price_current": 56.26,
-      "price_list": 126.08,
-      "price_baseline": 126.08,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 75560,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": "2026-11-26T07:45:00.000Z",
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.amazon.com/Dr-Martens-Womens-ROMETTY-Fashion/dp/B078ZL54B2",
-      "discount_pct": 55.4,
-      "score": 71,
-      "score_breakdown": {
-        "discount_depth": 26,
-        "price_history": null,
-        "category": 20,
-        "bonus": 4,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-25T10:01:12.205213+00:00",
-      "last_seen": "2026-11-25T10:41:52.821234+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "닥터마틴 여성용 첼시부츠",
-      "id": "d96590fe46",
-      "history": [
-        [
-          "2026-11-25",
-          56.26
         ]
       ]
     },
@@ -13547,16 +13619,16 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T02:50:47.386625+00:00",
-      "last_seen": "2026-11-25T10:41:52.821234+00:00",
+      "last_seen": "2026-11-25T10:51:06.085159+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Door Hardware & Locks",
         "sd_store": "Walmart",
         "sd_brand": "eufy",
         "sd_hot_origin": false,
-        "sd_age_min": 483,
+        "sd_age_min": 492,
         "sd_votes": 68,
-        "sd_velocity": 8.5,
+        "sd_velocity": 8.3,
         "sd_fp_min": 11
       },
       "title_kr": "eufy Security Smart Lock FamiLock C32 Fingerprint…",
@@ -16234,7 +16306,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T09:40:49.232188+00:00",
-      "last_seen": "2026-11-25T10:41:52.821234+00:00",
+      "last_seen": "2026-11-25T10:51:06.085159+00:00",
       "posted_at": "2026-11-25T08:57:19+00:00",
       "signals": {
         "sd_feeds": [
@@ -16244,9 +16316,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Alienware",
         "sd_hot_origin": false,
-        "sd_age_min": 105,
+        "sd_age_min": 114,
         "sd_votes": 29,
-        "sd_velocity": 16.6,
+        "sd_velocity": 15.3,
         "sd_fp_min": 44
       },
       "title_kr": "Alienware 모니터",
@@ -16306,7 +16378,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T08:21:57.226424+00:00",
-      "last_seen": "2026-11-25T10:41:52.821234+00:00",
+      "last_seen": "2026-11-25T10:51:06.085159+00:00",
       "posted_at": "2026-11-25T07:35:21+00:00",
       "signals": {
         "sd_feeds": [
@@ -16316,9 +16388,9 @@
         "sd_store": "Amazon",
         "sd_brand": "YETI",
         "sd_hot_origin": false,
-        "sd_age_min": 187,
+        "sd_age_min": 196,
         "sd_votes": 34,
-        "sd_velocity": 10.9,
+        "sd_velocity": 10.4,
         "sd_fp_min": 47
       },
       "title_kr": "예티 보온병",
@@ -19352,7 +19424,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T10:41:52.541988+00:00",
-      "last_seen": "2026-11-25T10:41:52.821234+00:00",
+      "last_seen": "2026-11-25T10:51:06.085159+00:00",
       "posted_at": "2026-11-25T10:20:58+00:00",
       "signals": {
         "sd_feeds": [
@@ -19362,9 +19434,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Rachael Ray",
         "sd_hot_origin": true,
-        "sd_age_min": 21,
+        "sd_age_min": 30,
         "sd_votes": 2,
-        "sd_velocity": 5.7
+        "sd_velocity": 4.0
       },
       "title_kr": "Rachael Ray 10\" Rachael Ray Cook + Create…",
       "id": "f3b0c948a2",
@@ -19652,6 +19724,75 @@
       "title_kr": "Jurassic World 장난감"
     },
     {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20393304",
+      "title": "100-Piece RoseArt Kodak Premium Puppy Socks Jigsaw Puzzle w/ Poster (Made in USA) $2.99 + Free Shipping w/ Prime or on $35+",
+      "brand": "RoseArt",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/1/5/5/7/3/6/2/300x300/22580250.thumb",
+      "price_current": 2.99,
+      "price_list": 6.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 3,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 4016,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20393304",
+      "discount_pct": 57.2,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-25T10:41:52.541988+00:00",
+      "last_seen": "2026-11-25T10:51:06.085159+00:00",
+      "posted_at": "2026-11-25T10:22:39+00:00",
+      "signals": {
+        "sd_feeds": [
+          "hotdeals"
+        ],
+        "sd_cat": "Games, Board Games & Card Games",
+        "sd_store": "Amazon",
+        "sd_brand": "RoseArt",
+        "sd_hot_origin": true,
+        "sd_age_min": 28,
+        "sd_votes": 3,
+        "sd_velocity": 6.3
+      },
+      "title_kr": "RoseArt 퍼즐",
+      "id": "720c35ef1d",
+      "history": [
+        [
+          "2026-11-25",
+          2.99
+        ]
+      ]
+    },
+    {
       "source": "dealnews",
       "source_tier": "T2",
       "url": "https://www.dealnews.com/lululemon-Black-Friday-Shoe-Specials-for-From-39-sneakers-from-79-free-shipping/22430524.html?iref=rss",
@@ -19855,75 +19996,6 @@
         [
           "2026-11-25",
           284.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20393304",
-      "title": "100-Piece RoseArt Kodak Premium Puppy Socks Jigsaw Puzzle w/ Poster (Made in USA) $2.99 + Free Shipping w/ Prime or on $35+",
-      "brand": "RoseArt",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/5/5/7/3/6/2/300x300/22580250.thumb",
-      "price_current": 2.99,
-      "price_list": 6.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 3,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 4016,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20393304",
-      "discount_pct": 57.2,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-25T10:41:52.541988+00:00",
-      "last_seen": "2026-11-25T10:41:52.821234+00:00",
-      "posted_at": "2026-11-25T10:22:39+00:00",
-      "signals": {
-        "sd_feeds": [
-          "hotdeals"
-        ],
-        "sd_cat": "Games, Board Games & Card Games",
-        "sd_store": "Amazon",
-        "sd_brand": "RoseArt",
-        "sd_hot_origin": true,
-        "sd_age_min": 19,
-        "sd_votes": 3,
-        "sd_velocity": 9.4
-      },
-      "title_kr": "RoseArt 퍼즐",
-      "id": "720c35ef1d",
-      "history": [
-        [
-          "2026-11-25",
-          2.99
         ]
       ]
     },
@@ -24288,16 +24360,16 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T07:50:45.612941+00:00",
-      "last_seen": "2026-11-25T10:41:52.821234+00:00",
+      "last_seen": "2026-11-25T10:51:06.085159+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Kids Clothes",
         "sd_store": "Walmart",
         "sd_brand": "Disney",
         "sd_hot_origin": false,
-        "sd_age_min": 184,
+        "sd_age_min": 194,
         "sd_votes": 23,
-        "sd_velocity": 7.5,
+        "sd_velocity": 7.1,
         "sd_fp_min": 13
       },
       "title_kr": "Disney 아동용 재킷",
@@ -24356,16 +24428,16 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T05:10:47.551396+00:00",
-      "last_seen": "2026-11-25T10:41:52.821234+00:00",
+      "last_seen": "2026-11-25T10:51:06.085159+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Smart Watches & Wearables",
         "sd_store": "Walmart",
         "sd_brand": "Nothing",
         "sd_hot_origin": false,
-        "sd_age_min": 335,
+        "sd_age_min": 344,
         "sd_votes": 40,
-        "sd_velocity": 7.2,
+        "sd_velocity": 7.0,
         "sd_fp_min": 4
       },
       "title_kr": "Nothing 스마트워치",
@@ -24523,7 +24595,7 @@
   "fx_usd_krw": 1343.0,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-25T10:40:34+00:00",
+      "T1": "2026-11-25T10:50:34+00:00",
       "T2": "2026-11-25T10:41:56+00:00",
       "T3": "2026-11-25T09:01:43+00:00",
       "T4": "2026-11-25T09:40:52+00:00"
@@ -24557,14 +24629,15 @@
       9,
       10,
       10,
-      11
+      11,
+      9
     ],
     "naver": {
       "keys": false,
       "queried": 25,
       "matched": 0,
       "errors": 0,
-      "at": "2026-11-25T10:42:15+00:00"
+      "at": "2026-11-25T10:51:05+00:00"
     },
     "reddit": {
       "mode": "공개 검색(키 없음)",
@@ -24572,13 +24645,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-25T10:42:16+00:00"
+      "at": "2026-11-25T10:51:06+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-25T10:41:52+00:00",
+        "at": "2026-11-25T10:51:05+00:00",
         "state": "정상",
         "mails": 25,
         "deals": 25
@@ -24604,7 +24677,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T10:10:48+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://clicks.finishline.com/f/a/hMFGxPO_1iObz33kvz9ADQ~~/AAQRxRA~/mFn609z8A4iU7Uh0PZnPNFiQ13a1odj9NNLd6L0OCxdZg5UIvM1yT06zUKhCoXycAeTbhPrs7NlKRPmLvTfum48uaJVA5yrLwtVBiMytgdVCmUQ-Yu-juMl1-lAlf89Z3U9ukFrUHG8Y5Oy7mL3gCA~~",
@@ -24634,7 +24707,7 @@
         "published": false,
         "reject_reason": "H8: 할인 14% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-25T09:31:02+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377878",
@@ -24649,7 +24722,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:50:45+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377794",
@@ -24664,7 +24737,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(Dr. Seuss) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-25T07:40:46+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20379402",
@@ -24679,7 +24752,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:32:09+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20378640",
@@ -24694,7 +24767,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:10:49+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20391429",
@@ -24709,7 +24782,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:01:10+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20390721",
@@ -24724,7 +24797,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Hand Tools)",
         "first_seen": "2026-11-25T07:01:10+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20285211",
@@ -24739,7 +24812,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T05:33:08+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20387397",
@@ -24754,7 +24827,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T05:11:09+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20387883",
@@ -24769,7 +24842,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T05:11:09+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370600",
@@ -24799,7 +24872,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T04:21:15+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20378790",
@@ -24814,7 +24887,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T03:43:03+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20382042",
@@ -24889,7 +24962,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T03:24:05+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20355357",
@@ -24904,7 +24977,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Flashlights)",
         "first_seen": "2026-11-25T03:24:05+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20369073",
@@ -24919,7 +24992,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T03:01:23+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377302",
@@ -24949,7 +25022,7 @@
         "published": false,
         "reject_reason": "H7: Oakley 할인 25% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-25T02:51:12+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20341524",
@@ -24964,7 +25037,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T02:51:12+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20338935",
@@ -24979,7 +25052,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T02:51:12+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20356968",
@@ -24994,7 +25067,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T02:32:12+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20388306",
@@ -25009,7 +25082,7 @@
         "published": false,
         "reject_reason": "H8: 할인 22% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-25T02:21:11+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20295423",
@@ -25024,7 +25097,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(4K TVs)",
         "first_seen": "2026-11-25T02:11:07+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20375277",
@@ -25039,7 +25112,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-25T01:11:05+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20360187",
@@ -25054,7 +25127,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-25T01:01:17+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20363580",
@@ -25264,7 +25337,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T21:21:28+00:00",
-        "last_seen": "2026-11-25T10:41:53+00:00"
+        "last_seen": "2026-11-25T10:51:06+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374683",
