@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T08:41:44.030206+00:00",
+  "generated_at": "2026-11-25T08:51:10.983427+00:00",
   "count": 335,
   "deals": [
     {
@@ -429,15 +429,15 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-24T21:21:07.024207+00:00",
-      "last_seen": "2026-11-25T08:41:17.151128+00:00",
+      "last_seen": "2026-11-25T08:51:10.934336+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Streaming Services",
         "sd_store": "Slickdeals",
         "sd_hot_origin": false,
-        "sd_age_min": 680,
+        "sd_age_min": 690,
         "sd_votes": 412,
-        "sd_velocity": 36.3
+        "sd_velocity": 35.8
       },
       "title_kr": "Disney TV",
       "id": "7d4944fad2",
@@ -1151,6 +1151,79 @@
       "title_kr": "삼성 무선 이어폰"
     },
     {
+      "source": "slickdeals:ebay.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20390451",
+      "title": "Crocs Adult Classic Fleece Lined Clogs (5 Colors) $24 + Free S&H",
+      "brand": "Crocs",
+      "category": "sports_outdoor",
+      "image": "https://static.slickdealscdn.com/attachment/5/4/6/0/7/3/300x300/22572819.thumb",
+      "price_current": 24.0,
+      "price_list": 59.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "CYBERFINDS20",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 24,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 32233,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20390451",
+      "discount_pct": 60.0,
+      "score": 92,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 CYBERFINDS20 → 하한 75",
+        "slickdeals": "Hot Deals 폭발 24표/46분 → 하한 86",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-25T00:02:06.008014+00:00",
+      "last_seen": "2026-11-25T08:51:10.934336+00:00",
+      "posted_at": "2026-11-25T08:05:25+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Shoes",
+        "sd_store": "eBay",
+        "sd_brand": "Crocs",
+        "sd_hot_origin": true,
+        "sd_age_min": 46,
+        "sd_votes": 24,
+        "sd_velocity": 31.5,
+        "sd_fp_min": 17
+      },
+      "title_kr": "크록스 클로그",
+      "id": "d3f9dd2ac5",
+      "history": [
+        [
+          "2026-11-25",
+          24.0
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:adidas.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20355708",
@@ -1217,79 +1290,6 @@
       "history": [],
       "variant_count": 2,
       "title_kr": "아디다스 Black Friday Sale Up to 60%…"
-    },
-    {
-      "source": "slickdeals:ebay.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20390451",
-      "title": "Crocs Adult Classic Fleece Lined Clogs (5 Colors) $24 + Free S&H",
-      "brand": "Crocs",
-      "category": "sports_outdoor",
-      "image": "https://static.slickdealscdn.com/attachment/5/4/6/0/7/3/300x300/22572819.thumb",
-      "price_current": 24.0,
-      "price_list": 59.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "CYBERFINDS20",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 24,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 32233,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "public",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20390451",
-      "discount_pct": 60.0,
-      "score": 92,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 17,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 CYBERFINDS20 → 하한 75",
-        "slickdeals": "Hot Deals 폭발 24표/36분 → 하한 86",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-25T00:02:06.008014+00:00",
-      "last_seen": "2026-11-25T08:41:17.151128+00:00",
-      "posted_at": "2026-11-25T08:05:25+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Shoes",
-        "sd_store": "eBay",
-        "sd_brand": "Crocs",
-        "sd_hot_origin": true,
-        "sd_age_min": 36,
-        "sd_votes": 24,
-        "sd_velocity": 40.2,
-        "sd_fp_min": 17
-      },
-      "title_kr": "크록스 클로그",
-      "id": "d3f9dd2ac5",
-      "history": [
-        [
-          "2026-11-25",
-          24.0
-        ]
-      ]
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -2717,16 +2717,16 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-25T05:33:04.815581+00:00",
-      "last_seen": "2026-11-25T08:41:17.151128+00:00",
+      "last_seen": "2026-11-25T08:51:10.934336+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Women's Pants & Shorts",
         "sd_store": "Retailer",
         "sd_brand": "Nike",
         "sd_hot_origin": false,
-        "sd_age_min": 204,
+        "sd_age_min": 214,
         "sd_votes": 99,
-        "sd_velocity": 29.1,
+        "sd_velocity": 27.8,
         "sd_fp_min": 16
       },
       "title_kr": "나이키 여성용 바지",
@@ -4070,16 +4070,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T02:31:47.119730+00:00",
-      "last_seen": "2026-11-25T08:41:17.151128+00:00",
+      "last_seen": "2026-11-25T08:51:10.934336+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Women's Activewear",
         "sd_store": "Retailer",
         "sd_brand": "Nike",
         "sd_hot_origin": false,
-        "sd_age_min": 380,
+        "sd_age_min": 390,
         "sd_votes": 48,
-        "sd_velocity": 7.6,
+        "sd_velocity": 7.4,
         "sd_fp_min": 10
       },
       "title_kr": "나이키 여성용 바지",
@@ -8235,7 +8235,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T08:21:57.226424+00:00",
-      "last_seen": "2026-11-25T08:41:17.151128+00:00",
+      "last_seen": "2026-11-25T08:51:10.934336+00:00",
       "posted_at": "2026-11-25T07:37:47+00:00",
       "signals": {
         "sd_feeds": [
@@ -8245,9 +8245,9 @@
         "sd_store": "Woot!",
         "sd_brand": "EPOS",
         "sd_hot_origin": true,
-        "sd_age_min": 63,
+        "sd_age_min": 73,
         "sd_votes": 2,
-        "sd_velocity": 1.9
+        "sd_velocity": 1.6
       },
       "title_kr": "EPOS 헤드셋",
       "id": "0bda231974",
@@ -10687,7 +10687,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T08:21:57.226424+00:00",
-      "last_seen": "2026-11-25T08:41:17.151128+00:00",
+      "last_seen": "2026-11-25T08:51:10.934336+00:00",
       "posted_at": "2026-11-25T08:03:32+00:00",
       "signals": {
         "sd_feeds": [
@@ -10697,9 +10697,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Turtle Beach",
         "sd_hot_origin": true,
-        "sd_age_min": 38,
+        "sd_age_min": 48,
         "sd_votes": 1,
-        "sd_velocity": 1.6
+        "sd_velocity": 1.3
       },
       "title_kr": "Turtle Beach 헤드셋",
       "id": "cd81b3c823",
@@ -11108,7 +11108,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T08:41:16.872744+00:00",
-      "last_seen": "2026-11-25T08:41:17.151128+00:00",
+      "last_seen": "2026-11-25T08:51:10.934336+00:00",
       "posted_at": "2026-11-25T08:29:52+00:00",
       "signals": {
         "sd_feeds": [
@@ -11118,9 +11118,9 @@
         "sd_store": "Journeys",
         "sd_brand": "New Balance",
         "sd_hot_origin": false,
-        "sd_age_min": 11,
+        "sd_age_min": 21,
         "sd_votes": 25,
-        "sd_velocity": 131.4,
+        "sd_velocity": 70.4,
         "sd_fp_min": 11
       },
       "title_kr": "뉴발란스 신발",
@@ -12889,16 +12889,16 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T02:50:47.386625+00:00",
-      "last_seen": "2026-11-25T08:41:17.151128+00:00",
+      "last_seen": "2026-11-25T08:51:10.934336+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Door Hardware & Locks",
         "sd_store": "Walmart",
         "sd_brand": "eufy",
         "sd_hot_origin": false,
-        "sd_age_min": 362,
+        "sd_age_min": 372,
         "sd_votes": 68,
-        "sd_velocity": 11.3,
+        "sd_velocity": 11.0,
         "sd_fp_min": 11
       },
       "title_kr": "eufy Security Smart Lock FamiLock C32 Fingerprint…",
@@ -13679,7 +13679,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T08:21:57.226424+00:00",
-      "last_seen": "2026-11-25T08:41:17.151128+00:00",
+      "last_seen": "2026-11-25T08:51:10.934336+00:00",
       "posted_at": "2026-11-25T07:59:20+00:00",
       "signals": {
         "sd_feeds": [
@@ -13689,9 +13689,9 @@
         "sd_store": "JomaShop",
         "sd_brand": "Citizen",
         "sd_hot_origin": false,
-        "sd_age_min": 42,
+        "sd_age_min": 52,
         "sd_votes": 31,
-        "sd_velocity": 44.3,
+        "sd_velocity": 35.9,
         "sd_fp_min": 23
       },
       "title_kr": "시티즌 남성용 시계",
@@ -14777,6 +14777,144 @@
       "title_kr": "리바이스 남성용 청바지"
     },
     {
+      "source": "slickdeals:ebay.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20392830",
+      "title": "REFURBISHED Citizen Men's Brycen Chronograph Date Yellow Eco-Drive Watch 44MM",
+      "brand": "Citizen",
+      "category": "watch_misc",
+      "image": "https://static.slickdealscdn.com/attachment/4/9/2/5/6/2/300x300/22578930.thumb",
+      "price_current": 137.0,
+      "price_list": 425.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 0,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 183997,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20392830",
+      "discount_pct": 67.8,
+      "score": 63,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-25T08:21:57.226424+00:00",
+      "last_seen": "2026-11-25T08:51:10.934336+00:00",
+      "posted_at": "2026-11-25T08:01:52+00:00",
+      "signals": {
+        "sd_feeds": [
+          "hotdeals"
+        ],
+        "sd_cat": "Watches",
+        "sd_store": "eBay",
+        "sd_brand": "Citizen",
+        "sd_hot_origin": true,
+        "sd_age_min": 49,
+        "sd_votes": 0,
+        "sd_velocity": 0.0
+      },
+      "title_kr": "시티즌 남성용 시계",
+      "id": "4f89354894",
+      "history": [
+        [
+          "2026-11-25",
+          137.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:ebay.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20392815",
+      "title": "REFURBISHED UNISEX Citizen Promaster Dive Sea Date Eco-Drive Blue Watch 37 MM $139.99",
+      "brand": "Citizen",
+      "category": "watch_misc",
+      "image": "https://static.slickdealscdn.com/attachment/4/9/2/5/6/2/300x300/22578864.thumb",
+      "price_current": 140.0,
+      "price_list": 425.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 1,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 188026,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20392815",
+      "discount_pct": 67.1,
+      "score": 63,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-25T08:21:57.226424+00:00",
+      "last_seen": "2026-11-25T08:51:10.934336+00:00",
+      "posted_at": "2026-11-25T07:50:59+00:00",
+      "signals": {
+        "sd_feeds": [
+          "hotdeals"
+        ],
+        "sd_cat": "Watches",
+        "sd_store": "eBay",
+        "sd_brand": "Citizen",
+        "sd_hot_origin": true,
+        "sd_age_min": 60,
+        "sd_votes": 1,
+        "sd_velocity": 1.0
+      },
+      "title_kr": "시티즌 시계",
+      "id": "afa6ecd18a",
+      "history": [
+        [
+          "2026-11-25",
+          140.0
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/kurt-geiger-london-kensington-leather-uj-barrel-bag/8064183",
@@ -14893,144 +15031,6 @@
         [
           "2026-11-25",
           165.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:ebay.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20392830",
-      "title": "REFURBISHED Citizen Men's Brycen Chronograph Date Yellow Eco-Drive Watch 44MM",
-      "brand": "Citizen",
-      "category": "watch_misc",
-      "image": "https://static.slickdealscdn.com/attachment/4/9/2/5/6/2/300x300/22578930.thumb",
-      "price_current": 137.0,
-      "price_list": 425.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 0,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 183997,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20392830",
-      "discount_pct": 67.8,
-      "score": 63,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-25T08:21:57.226424+00:00",
-      "last_seen": "2026-11-25T08:41:17.151128+00:00",
-      "posted_at": "2026-11-25T08:01:52+00:00",
-      "signals": {
-        "sd_feeds": [
-          "hotdeals"
-        ],
-        "sd_cat": "Watches",
-        "sd_store": "eBay",
-        "sd_brand": "Citizen",
-        "sd_hot_origin": true,
-        "sd_age_min": 39,
-        "sd_votes": 0,
-        "sd_velocity": 0.0
-      },
-      "title_kr": "시티즌 남성용 시계",
-      "id": "4f89354894",
-      "history": [
-        [
-          "2026-11-25",
-          137.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:ebay.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20392815",
-      "title": "REFURBISHED UNISEX Citizen Promaster Dive Sea Date Eco-Drive Blue Watch 37 MM $139.99",
-      "brand": "Citizen",
-      "category": "watch_misc",
-      "image": "https://static.slickdealscdn.com/attachment/4/9/2/5/6/2/300x300/22578864.thumb",
-      "price_current": 140.0,
-      "price_list": 425.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 1,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 188026,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20392815",
-      "discount_pct": 67.1,
-      "score": 63,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-25T08:21:57.226424+00:00",
-      "last_seen": "2026-11-25T08:41:17.151128+00:00",
-      "posted_at": "2026-11-25T07:50:59+00:00",
-      "signals": {
-        "sd_feeds": [
-          "hotdeals"
-        ],
-        "sd_cat": "Watches",
-        "sd_store": "eBay",
-        "sd_brand": "Citizen",
-        "sd_hot_origin": true,
-        "sd_age_min": 50,
-        "sd_votes": 1,
-        "sd_velocity": 1.2
-      },
-      "title_kr": "시티즌 시계",
-      "id": "afa6ecd18a",
-      "history": [
-        [
-          "2026-11-25",
-          140.0
         ]
       ]
     },
@@ -18424,7 +18424,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T08:21:57.226424+00:00",
-      "last_seen": "2026-11-25T08:41:17.151128+00:00",
+      "last_seen": "2026-11-25T08:51:10.934336+00:00",
       "posted_at": "2026-11-25T07:35:21+00:00",
       "signals": {
         "sd_feeds": [
@@ -18434,9 +18434,9 @@
         "sd_store": "Amazon",
         "sd_brand": "YETI",
         "sd_hot_origin": false,
-        "sd_age_min": 66,
+        "sd_age_min": 76,
         "sd_votes": 27,
-        "sd_velocity": 24.6,
+        "sd_velocity": 21.4,
         "sd_fp_min": 47
       },
       "title_kr": "예티 보온병",
@@ -23384,16 +23384,16 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T07:50:45.612941+00:00",
-      "last_seen": "2026-11-25T08:41:17.151128+00:00",
+      "last_seen": "2026-11-25T08:51:10.934336+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Kids Clothes",
         "sd_store": "Walmart",
         "sd_brand": "Disney",
         "sd_hot_origin": false,
-        "sd_age_min": 64,
+        "sd_age_min": 74,
         "sd_votes": 23,
-        "sd_velocity": 21.7,
+        "sd_velocity": 18.7,
         "sd_fp_min": 13
       },
       "title_kr": "Disney 아동용 재킷",
@@ -23452,16 +23452,16 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T05:10:47.551396+00:00",
-      "last_seen": "2026-11-25T08:41:17.151128+00:00",
+      "last_seen": "2026-11-25T08:51:10.934336+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Smart Watches & Wearables",
         "sd_store": "Walmart",
         "sd_brand": "Nothing",
         "sd_hot_origin": false,
-        "sd_age_min": 215,
+        "sd_age_min": 224,
         "sd_votes": 40,
-        "sd_velocity": 11.2,
+        "sd_velocity": 10.7,
         "sd_fp_min": 4
       },
       "title_kr": "Nothing 스마트워치",
@@ -23619,7 +23619,7 @@
   "fx_usd_krw": 1343.0,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-25T08:40:34+00:00",
+      "T1": "2026-11-25T08:50:32+00:00",
       "T2": "2026-11-25T08:41:22+00:00",
       "T3": "2026-11-25T07:01:12+00:00",
       "T4": "2026-11-25T03:30:41+00:00"
@@ -23653,14 +23653,15 @@
       7,
       11,
       9,
-      10
+      10,
+      9
     ],
     "naver": {
       "keys": false,
       "queried": 25,
       "matched": 0,
       "errors": 0,
-      "at": "2026-11-25T08:41:41+00:00"
+      "at": "2026-11-25T08:51:10+00:00"
     },
     "reddit": {
       "mode": "공개 검색(키 없음)",
@@ -23668,13 +23669,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-25T08:41:41+00:00"
+      "at": "2026-11-25T08:51:10+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-25T08:41:16+00:00",
+        "at": "2026-11-25T08:51:10+00:00",
         "state": "정상",
         "mails": 23,
         "deals": 23
@@ -23700,7 +23701,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:50:45+00:00",
-        "last_seen": "2026-11-25T08:41:17+00:00"
+        "last_seen": "2026-11-25T08:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377794",
@@ -23715,7 +23716,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(Dr. Seuss) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-25T07:40:46+00:00",
-        "last_seen": "2026-11-25T08:41:17+00:00"
+        "last_seen": "2026-11-25T08:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20379402",
@@ -23730,7 +23731,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:32:09+00:00",
-        "last_seen": "2026-11-25T08:41:17+00:00"
+        "last_seen": "2026-11-25T08:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20378640",
@@ -23745,7 +23746,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:10:49+00:00",
-        "last_seen": "2026-11-25T08:41:17+00:00"
+        "last_seen": "2026-11-25T08:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20391429",
@@ -23760,7 +23761,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:01:10+00:00",
-        "last_seen": "2026-11-25T08:41:17+00:00"
+        "last_seen": "2026-11-25T08:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20390721",
@@ -23775,7 +23776,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Hand Tools)",
         "first_seen": "2026-11-25T07:01:10+00:00",
-        "last_seen": "2026-11-25T08:41:17+00:00"
+        "last_seen": "2026-11-25T08:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20285211",
@@ -23790,7 +23791,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T05:33:08+00:00",
-        "last_seen": "2026-11-25T08:41:17+00:00"
+        "last_seen": "2026-11-25T08:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20387397",
@@ -23805,7 +23806,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T05:11:09+00:00",
-        "last_seen": "2026-11-25T08:41:17+00:00"
+        "last_seen": "2026-11-25T08:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20387883",
@@ -23820,7 +23821,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T05:11:09+00:00",
-        "last_seen": "2026-11-25T08:41:17+00:00"
+        "last_seen": "2026-11-25T08:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370600",
@@ -23850,7 +23851,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T04:21:15+00:00",
-        "last_seen": "2026-11-25T08:41:17+00:00"
+        "last_seen": "2026-11-25T08:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20378790",
@@ -23865,7 +23866,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T03:43:03+00:00",
-        "last_seen": "2026-11-25T08:41:17+00:00"
+        "last_seen": "2026-11-25T08:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20382042",
@@ -23940,7 +23941,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T03:24:05+00:00",
-        "last_seen": "2026-11-25T08:41:17+00:00"
+        "last_seen": "2026-11-25T08:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20355357",
@@ -23955,7 +23956,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Flashlights)",
         "first_seen": "2026-11-25T03:24:05+00:00",
-        "last_seen": "2026-11-25T08:41:17+00:00"
+        "last_seen": "2026-11-25T08:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20369073",
@@ -23970,7 +23971,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T03:01:23+00:00",
-        "last_seen": "2026-11-25T08:41:17+00:00"
+        "last_seen": "2026-11-25T08:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377302",
@@ -24000,7 +24001,7 @@
         "published": false,
         "reject_reason": "H7: Oakley 할인 25% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-25T02:51:12+00:00",
-        "last_seen": "2026-11-25T08:41:17+00:00"
+        "last_seen": "2026-11-25T08:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20341524",
@@ -24015,7 +24016,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T02:51:12+00:00",
-        "last_seen": "2026-11-25T08:41:17+00:00"
+        "last_seen": "2026-11-25T08:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20338935",
@@ -24030,7 +24031,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T02:51:12+00:00",
-        "last_seen": "2026-11-25T08:41:17+00:00"
+        "last_seen": "2026-11-25T08:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20356968",
@@ -24045,7 +24046,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T02:32:12+00:00",
-        "last_seen": "2026-11-25T08:41:17+00:00"
+        "last_seen": "2026-11-25T08:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20388306",
@@ -24060,7 +24061,7 @@
         "published": false,
         "reject_reason": "H8: 할인 22% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-25T02:21:11+00:00",
-        "last_seen": "2026-11-25T08:41:17+00:00"
+        "last_seen": "2026-11-25T08:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20295423",
@@ -24075,7 +24076,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(4K TVs)",
         "first_seen": "2026-11-25T02:11:07+00:00",
-        "last_seen": "2026-11-25T08:41:17+00:00"
+        "last_seen": "2026-11-25T08:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20375277",
@@ -24090,7 +24091,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-25T01:11:05+00:00",
-        "last_seen": "2026-11-25T08:41:17+00:00"
+        "last_seen": "2026-11-25T08:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20360187",
@@ -24105,7 +24106,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-25T01:01:17+00:00",
-        "last_seen": "2026-11-25T08:41:17+00:00"
+        "last_seen": "2026-11-25T08:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20363580",
@@ -24315,7 +24316,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T21:21:28+00:00",
-        "last_seen": "2026-11-25T08:41:17+00:00"
+        "last_seen": "2026-11-25T08:51:10+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374683",
