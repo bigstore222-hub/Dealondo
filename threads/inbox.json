@@ -1609,10 +1609,6 @@
   }
  },
  "done_updates": [
-  303762840,
-  303762841,
-  303762842,
-  303762850,
   303762851,
   303762855,
   303762858,
@@ -1910,11 +1906,6 @@
  ],
  "runs": [
   {
-   "at": "2026-11-23T19:43:04+09:00",
-   "updates": 2,
-   "errors": []
-  },
-  {
    "at": "2026-11-23T20:23:06+09:00",
    "updates": 0,
    "errors": []
@@ -2108,6 +2099,11 @@
    "at": "2026-11-25T20:20:00+09:00",
    "updates": 4,
    "errors": []
+  },
+  {
+   "at": "2026-11-25T20:22:16+09:00",
+   "updates": 0,
+   "errors": []
   }
  ],
  "info": {
@@ -2223,6 +2219,14 @@
     "status": "posted",
     "link": "https://www.threads.com/@deal_ondo/post/DgJiKk4oBWg",
     "error": ""
+   },
+   "2026-11-25-evening": {
+    "tries": 1,
+    "at": "2026-11-25T20:21:01+09:00",
+    "id": "R03",
+    "status": "posted",
+    "link": "https://www.threads.com/@deal_ondo/post/DgKaPhzEbtS",
+    "error": ""
    }
   },
   "log": [
@@ -2337,6 +2341,14 @@
     "slot": "lunch",
     "link": "https://www.threads.com/@deal_ondo/post/DgJiKk4oBWg",
     "first_line": "블프 D-2, 지금 관부가세 없이 받는 브랜드 딜 3개."
+   },
+   {
+    "at": "2026-11-25T20:21:01+09:00",
+    "id": "R03",
+    "type": "repost",
+    "slot": "evening",
+    "link": "https://www.threads.com/@deal_ondo/post/DgKaPhzEbtS",
+    "first_line": "블프는 미국 시간이라 한국에선 몇 시에 봐야 할지 헷갈리죠."
    }
   ]
  }
