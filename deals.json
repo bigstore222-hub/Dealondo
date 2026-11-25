@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25T16:41:54.872260+00:00",
-  "count": 366,
+  "generated_at": "2026-11-25T16:50:51.336074+00:00",
+  "count": 365,
   "deals": [
     {
       "source": "6pm.com",
@@ -433,15 +433,15 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-24T21:21:07.024207+00:00",
-      "last_seen": "2026-11-25T16:41:39.597241+00:00",
+      "last_seen": "2026-11-25T16:50:50.583262+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Streaming Services",
         "sd_store": "Slickdeals",
         "sd_hot_origin": false,
-        "sd_age_min": 1161,
+        "sd_age_min": 1170,
         "sd_votes": 468,
-        "sd_velocity": 24.2
+        "sd_velocity": 24.0
       },
       "title_kr": "Disney TV",
       "id": "7d4944fad2",
@@ -905,7 +905,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-25T10:41:52.541988+00:00",
-      "last_seen": "2026-11-25T13:20:55.255578+00:00",
+      "last_seen": "2026-11-25T16:50:51.336074+00:00",
       "posted_at": "2026-11-25T09:45:07+00:00",
       "signals": {
         "sd_feeds": [
@@ -1373,7 +1373,7 @@
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20392638",
       "title": "Refurb/Grade A Unit: 32GB Apple iPad 10.2\" Unlocked Tablet (Silver) $81 & More + Free S&H w/ Amazon Prime",
-      "brand": "",
+      "brand": "Apple",
       "category": "electronics",
       "image": "https://static.slickdealscdn.com/attachment/8/6/6/3/0/300x300/22587033.thumb",
       "price_current": 81.0,
@@ -1385,7 +1385,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 20,
+      "community_votes": 21,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -1409,14 +1409,14 @@
         "bonus": 4,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 20표/9분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 21표/18분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-25T07:32:06.631933+00:00",
-      "last_seen": "2026-11-25T16:41:40.402153+00:00",
+      "last_seen": "2026-11-25T16:50:50.583262+00:00",
       "posted_at": "2026-11-25T16:32:54+00:00",
       "signals": {
         "sd_feeds": [
@@ -1424,13 +1424,14 @@
         ],
         "sd_cat": "Tablets & eReaders",
         "sd_store": "Woot!",
+        "sd_brand": "Apple",
         "sd_hot_origin": true,
-        "sd_age_min": 9,
-        "sd_votes": 20,
-        "sd_velocity": 120.0,
+        "sd_age_min": 18,
+        "sd_votes": 21,
+        "sd_velocity": 70.2,
         "sd_fp_min": 9
       },
-      "title_kr": "태블릿",
+      "title_kr": "애플 태블릿",
       "id": "0667444043",
       "history": [
         [
@@ -1481,14 +1482,14 @@
         "brand": 0,
         "code_deal": "공개코드 5PCUQDZZ → 하한 75",
         "community": "투표 439+할인72% → 하한 82",
-        "slickdeals": "Hot Deals 폭발 439표/26분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 439표/36분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-16T03:10:38.411671+00:00",
-      "last_seen": "2026-11-25T16:41:39.597241+00:00",
+      "last_seen": "2026-11-25T16:50:50.583262+00:00",
       "posted_at": "2026-11-25T16:15:13+00:00",
       "signals": {
         "sd_feeds": [
@@ -1497,9 +1498,9 @@
         "sd_cat": "Kitchenware & Cookware",
         "sd_store": "Amazon",
         "sd_hot_origin": true,
-        "sd_age_min": 26,
+        "sd_age_min": 36,
         "sd_votes": 439,
-        "sd_velocity": 996.2,
+        "sd_velocity": 739.4,
         "sd_fp_min": -13154
       },
       "title_kr": "도마",
@@ -1532,7 +1533,7 @@
       "category": "kids",
       "image": "https://static.slickdealscdn.com/attachment/8/6/6/3/0/300x300/22586343.thumb",
       "price_current": 24.0,
-      "price_list": null,
+      "price_list": 29.99,
       "price_baseline": null,
       "price_alltime_low": null,
       "currency": "USD",
@@ -1540,7 +1541,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 31,
+      "community_votes": 33,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -1555,7 +1556,7 @@
       "code_kind": "",
       "brand_tier": "known",
       "buy_url": "https://slickdeals.net/f/20392509",
-      "discount_pct": null,
+      "discount_pct": 20.0,
       "score": 92,
       "score_breakdown": {
         "discount_depth": 0,
@@ -1564,14 +1565,14 @@
         "bonus": 4,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 31표/39분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 33표/48분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-25T06:41:46.508139+00:00",
-      "last_seen": "2026-11-25T16:41:40.402153+00:00",
+      "last_seen": "2026-11-25T16:50:50.583262+00:00",
       "posted_at": "2026-11-25T16:02:42+00:00",
       "signals": {
         "sd_feeds": [
@@ -1581,9 +1582,9 @@
         "sd_store": "Walmart",
         "sd_brand": "LEGO",
         "sd_hot_origin": true,
-        "sd_age_min": 39,
-        "sd_votes": 31,
-        "sd_velocity": 47.7,
+        "sd_age_min": 48,
+        "sd_votes": 33,
+        "sd_velocity": 41.1,
         "sd_fp_min": 39
       },
       "title_kr": "LEGO 블록 세트",
@@ -3165,16 +3166,16 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-25T05:33:04.815581+00:00",
-      "last_seen": "2026-11-25T16:41:39.597241+00:00",
+      "last_seen": "2026-11-25T16:50:50.583262+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Women's Pants & Shorts",
         "sd_store": "Retailer",
         "sd_brand": "Nike",
         "sd_hot_origin": false,
-        "sd_age_min": 684,
+        "sd_age_min": 693,
         "sd_votes": 104,
-        "sd_velocity": 9.1,
+        "sd_velocity": 9.0,
         "sd_fp_min": 16
       },
       "title_kr": "나이키 여성용 바지",
@@ -3388,15 +3389,15 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-25T16:32:36.162047+00:00",
-      "last_seen": "2026-11-25T16:41:39.597241+00:00",
+      "last_seen": "2026-11-25T16:50:50.583262+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Tech Accessories",
         "sd_store": "Amazon",
         "sd_hot_origin": false,
-        "sd_age_min": 33,
+        "sd_age_min": 43,
         "sd_votes": 25,
-        "sd_velocity": 44.9,
+        "sd_velocity": 35.2,
         "sd_fp_min": 24
       },
       "title_kr": "아이패드",
@@ -3405,74 +3406,6 @@
         [
           "2026-11-25",
           5.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:woot.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20394030",
-      "title": "Apple iPad Pro 13\" M4 Chip Tablet (Space Black): 1TB WiFi + Cellular for $1286 at Woot!",
-      "brand": "Apple",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20394030&t=15",
-      "price_current": 1.0,
-      "price_list": 2099.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 3,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 1343,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20394030",
-      "discount_pct": 100.0,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-25T13:32:01.841435+00:00",
-      "last_seen": "2026-11-25T16:41:39.597241+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Tablets & eReaders",
-        "sd_store": "Woot!",
-        "sd_brand": "Apple",
-        "sd_hot_origin": true,
-        "sd_age_min": 217,
-        "sd_votes": 3,
-        "sd_velocity": 0.8,
-        "sd_fp_min": 156
-      },
-      "title_kr": "애플 태블릿",
-      "id": "9797c6d9c7",
-      "history": [
-        [
-          "2026-11-25",
-          1.0
         ]
       ]
     },
@@ -4647,14 +4580,14 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T02:31:47.119730+00:00",
-      "last_seen": "2026-11-25T16:41:39.597241+00:00",
+      "last_seen": "2026-11-25T16:50:50.583262+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Women's Activewear",
         "sd_store": "Retailer",
         "sd_brand": "Nike",
         "sd_hot_origin": false,
-        "sd_age_min": 860,
+        "sd_age_min": 869,
         "sd_votes": 48,
         "sd_velocity": 3.3,
         "sd_fp_min": 10
@@ -4859,7 +4792,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-20T07:40:51.939667+00:00",
-      "last_seen": "2026-11-25T16:41:39.597241+00:00",
+      "last_seen": "2026-11-25T16:50:50.583262+00:00",
       "posted_at": "2026-11-25T16:23:19+00:00",
       "signals": {
         "sd_feeds": [
@@ -4869,9 +4802,9 @@
         "sd_store": "Best Buy",
         "sd_brand": "DJI",
         "sd_hot_origin": false,
-        "sd_age_min": 18,
+        "sd_age_min": 28,
         "sd_votes": 245,
-        "sd_velocity": 801.5,
+        "sd_velocity": 534.1,
         "sd_fp_min": -7722
       },
       "title_kr": "DJI 카메라",
@@ -10205,6 +10138,75 @@
       "title_kr": "eufy 카메라"
     },
     {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20395584",
+      "title": "3-Pc Bedsure King Comforter Set (Beige) $19.37 + Free Shipping w/ Prime or on $35+",
+      "brand": "",
+      "category": "home",
+      "image": "https://static.slickdealscdn.com/attachment/3/1/1/9/6/7/1/6/300x300/22586514.thumb",
+      "price_current": 19.0,
+      "price_list": 58.33,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "JLCREME8",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 2,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 25518,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20395584",
+      "discount_pct": 67.4,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 36,
+        "price_history": null,
+        "category": 8,
+        "bonus": 4,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 JLCREME8 → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-25T16:32:36.162047+00:00",
+      "last_seen": "2026-11-25T16:50:50.583262+00:00",
+      "posted_at": "2026-11-25T16:13:02+00:00",
+      "signals": {
+        "sd_feeds": [
+          "hotdeals"
+        ],
+        "sd_cat": "Sheets & Bedding",
+        "sd_store": "Amazon",
+        "sd_hot_origin": true,
+        "sd_age_min": 38,
+        "sd_votes": 2,
+        "sd_velocity": 3.2
+      },
+      "title_kr": "이불",
+      "id": "ec852dd495",
+      "history": [
+        [
+          "2026-11-25",
+          19.0
+        ]
+      ]
+    },
+    {
       "source": "zappos.com",
       "source_tier": "T2",
       "url": "https://www.zappos.com/product/10063524",
@@ -12236,7 +12238,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-22T14:12:03.087685+00:00",
-      "last_seen": "2026-11-25T16:41:39.597241+00:00",
+      "last_seen": "2026-11-25T16:50:50.583262+00:00",
       "posted_at": "2026-11-25T16:28:54+00:00",
       "signals": {
         "sd_feeds": [
@@ -12246,9 +12248,9 @@
         "sd_store": "Amazon",
         "sd_brand": "GOOLOO",
         "sd_hot_origin": false,
-        "sd_age_min": 13,
+        "sd_age_min": 22,
         "sd_votes": 58,
-        "sd_velocity": 272.8,
+        "sd_velocity": 158.6,
         "sd_fp_min": -4457
       },
       "title_kr": "GOOLOO 점프스타터",
@@ -12676,7 +12678,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-22T22:42:24.443829+00:00",
-      "last_seen": "2026-11-25T16:41:39.597241+00:00",
+      "last_seen": "2026-11-25T16:50:50.583262+00:00",
       "posted_at": "2026-11-25T16:22:33+00:00",
       "signals": {
         "sd_feeds": [
@@ -12686,9 +12688,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Hasbro",
         "sd_hot_origin": false,
-        "sd_age_min": 19,
+        "sd_age_min": 28,
         "sd_votes": 110,
-        "sd_velocity": 345.4,
+        "sd_velocity": 233.3,
         "sd_fp_min": -3940
       },
       "title_kr": "Hasbro Connect 4 Game (2025 Edition)",
@@ -13627,16 +13629,16 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T02:50:47.386625+00:00",
-      "last_seen": "2026-11-25T16:41:39.597241+00:00",
+      "last_seen": "2026-11-25T16:50:50.583262+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Door Hardware & Locks",
         "sd_store": "Walmart",
         "sd_brand": "eufy",
         "sd_hot_origin": false,
-        "sd_age_min": 842,
+        "sd_age_min": 852,
         "sd_votes": 71,
-        "sd_velocity": 5.1,
+        "sd_velocity": 5.0,
         "sd_fp_min": 11
       },
       "title_kr": "eufy Security Smart Lock FamiLock C32 Fingerprint…",
@@ -15408,16 +15410,16 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T05:10:47.551396+00:00",
-      "last_seen": "2026-11-25T16:41:39.597241+00:00",
+      "last_seen": "2026-11-25T16:50:50.583262+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Smart Watches & Wearables",
         "sd_store": "Walmart",
         "sd_brand": "Nothing",
         "sd_hot_origin": false,
-        "sd_age_min": 695,
+        "sd_age_min": 704,
         "sd_votes": 53,
-        "sd_velocity": 4.6,
+        "sd_velocity": 4.5,
         "sd_fp_min": 4
       },
       "title_kr": "Nothing 스마트워치",
@@ -19691,7 +19693,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T16:41:39.395663+00:00",
-      "last_seen": "2026-11-25T16:41:39.597241+00:00",
+      "last_seen": "2026-11-25T16:50:50.583262+00:00",
       "posted_at": "2026-11-25T15:47:18+00:00",
       "signals": {
         "sd_feeds": [
@@ -19701,9 +19703,9 @@
         "sd_store": "Woot!",
         "sd_brand": "Le Creuset",
         "sd_hot_origin": false,
-        "sd_age_min": 54,
+        "sd_age_min": 64,
         "sd_votes": 22,
-        "sd_velocity": 24.3,
+        "sd_velocity": 20.8,
         "sd_fp_min": 54
       },
       "title_kr": "르크루제 11\" Le Creuset Enameled Cast Iron…",
@@ -23549,68 +23551,6 @@
       "title_kr": "Eddie Bauer 침대 시트"
     },
     {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/badia-mango-pepper-seasoning-65oz/799195.htm",
-      "title": "Badia 6.5oz Mango Pepper Seasoning",
-      "brand": "Mango",
-      "category": "etc",
-      "image": "https://m.media-amazon.com/images/I/61Cm3M7acGL._AA200_.jpg",
-      "price_current": 2.98,
-      "price_list": 6.27,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 4004,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealsofamerica.com/badia-mango-pepper-seasoning-65oz/799195.htm",
-      "discount_pct": 52.5,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-22T19:01:05.467809+00:00",
-      "last_seen": "2026-11-23T16:42:59.248003+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "d3a3f8a92d",
-      "history": [
-        [
-          "2026-11-22",
-          2.98
-        ],
-        [
-          "2026-11-23",
-          2.98
-        ]
-      ],
-      "title_kr": "망고 Badia 6.5oz Mango Pepper Seasoning"
-    },
-    {
       "source": "als.com",
       "source_tier": "T4",
       "url": "https://www.als.com/nike-vomero-18-running-shoe-mens-10610479/p?_fromSales=true",
@@ -25419,7 +25359,7 @@
   "fx_usd_krw": 1343.0,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-25T16:40:37+00:00",
+      "T1": "2026-11-25T16:50:31+00:00",
       "T2": "2026-11-25T16:32:38+00:00",
       "T3": "2026-11-25T15:32:13+00:00",
       "T4": "2026-11-25T15:51:03+00:00"
@@ -25453,6 +25393,7 @@
       9,
       10,
       12,
+      9,
       9
     ],
     "naver": {
@@ -25460,7 +25401,7 @@
       "queried": 25,
       "matched": 0,
       "errors": 0,
-      "at": "2026-11-25T16:41:39+00:00"
+      "at": "2026-11-25T16:50:50+00:00"
     },
     "reddit": {
       "mode": "공개 검색(키 없음)",
@@ -25468,16 +25409,16 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-25T16:41:39+00:00"
+      "at": "2026-11-25T16:50:50+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-25T16:41:39+00:00",
+        "at": "2026-11-25T16:50:45+00:00",
         "state": "정상",
-        "mails": 34,
-        "deals": 34
+        "mails": 35,
+        "deals": 35
       },
       "newsletter": {
         "at": "2026-11-25T15:54:12+00:00",
@@ -25487,6 +25428,21 @@
       }
     },
     "recent": [
+      {
+        "url": "https://slickdeals.net/f/20341374",
+        "source": "slickdeals:bestbuy.com",
+        "title": "TP-Link Tapo Smart WiFi Outdoor Dual AC Outlet Plug for $16 at Best Buy",
+        "price": 23.0,
+        "list_price": 29.99,
+        "discount_pct": 23.3,
+        "krw": 30890,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Home & Home Improvement)",
+        "first_seen": "2026-11-25T16:50:51+00:00",
+        "last_seen": "2026-11-25T16:50:51+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20395158",
         "source": "slickdeals:amazon.com",
@@ -25500,7 +25456,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T16:32:36+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370984",
@@ -25515,7 +25471,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T16:32:36+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20391654",
@@ -25530,7 +25486,7 @@
         "published": false,
         "reject_reason": "H8: 할인 13% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-25T15:41:04+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20394030",
@@ -25545,7 +25501,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T15:41:04+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20394318",
@@ -25560,7 +25516,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-25T15:41:04+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20378826",
@@ -25575,7 +25531,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T14:32:44+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20392542",
@@ -25590,7 +25546,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(Star Wars) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-25T14:13:54+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20393397",
@@ -25605,7 +25561,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T14:03:32+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20391501",
@@ -25620,7 +25576,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T11:51:02+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20385462",
@@ -25635,7 +25591,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T10:10:48+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://clicks.finishline.com/f/a/hMFGxPO_1iObz33kvz9ADQ~~/AAQRxRA~/mFn609z8A4iU7Uh0PZnPNFiQ13a1odj9NNLd6L0OCxdZg5UIvM1yT06zUKhCoXycAeTbhPrs7NlKRPmLvTfum48uaJVA5yrLwtVBiMytgdVCmUQ-Yu-juMl1-lAlf89Z3U9ukFrUHG8Y5Oy7mL3gCA~~",
@@ -25665,7 +25621,7 @@
         "published": false,
         "reject_reason": "H8: 할인 14% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-25T09:31:02+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377878",
@@ -25680,7 +25636,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:50:45+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377794",
@@ -25695,7 +25651,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(Dr. Seuss) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-25T07:40:46+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20379402",
@@ -25710,7 +25666,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:32:09+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20378640",
@@ -25725,7 +25681,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:10:49+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20391429",
@@ -25740,7 +25696,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:01:10+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20390721",
@@ -25755,7 +25711,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Hand Tools)",
         "first_seen": "2026-11-25T07:01:10+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20285211",
@@ -25770,7 +25726,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T05:33:08+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20387397",
@@ -25785,7 +25741,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T05:11:09+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20387883",
@@ -25800,7 +25756,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T05:11:09+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370600",
@@ -25830,7 +25786,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T04:21:15+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20378790",
@@ -25845,7 +25801,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T03:43:03+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20382042",
@@ -25920,7 +25876,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T03:24:05+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20355357",
@@ -25935,7 +25891,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Flashlights)",
         "first_seen": "2026-11-25T03:24:05+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20369073",
@@ -25950,7 +25906,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T03:01:23+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377302",
@@ -25980,7 +25936,7 @@
         "published": false,
         "reject_reason": "H7: Oakley 할인 25% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-25T02:51:12+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20341524",
@@ -25995,7 +25951,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T02:51:12+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20338935",
@@ -26010,7 +25966,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T02:51:12+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20356968",
@@ -26025,7 +25981,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T02:32:12+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20388306",
@@ -26040,7 +25996,7 @@
         "published": false,
         "reject_reason": "H8: 할인 22% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-25T02:21:11+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20295423",
@@ -26055,7 +26011,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(4K TVs)",
         "first_seen": "2026-11-25T02:11:07+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20375277",
@@ -26070,7 +26026,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-25T01:11:05+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20360187",
@@ -26085,7 +26041,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-25T01:01:17+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20363580",
@@ -26295,7 +26251,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T21:21:28+00:00",
-        "last_seen": "2026-11-25T16:41:40+00:00"
+        "last_seen": "2026-11-25T16:50:51+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374683",
@@ -26671,26 +26627,11 @@
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Portable Power Stations)",
         "first_seen": "2026-11-24T09:01:30+00:00",
         "last_seen": "2026-11-25T00:51:25+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20383542",
-        "source": "slickdeals:amazon.com",
-        "title": "Prime Members: ESR 3-in-1 Qi2 Certified 15W MagSafe Wireless Charging Station for $9.95 at Amazon",
-        "price": 9.95,
-        "list_price": 25.99,
-        "discount_pct": 61.7,
-        "krw": 13363,
-        "kr_lowest": null,
-        "score": 74,
-        "published": true,
-        "reject_reason": "",
-        "first_seen": "2026-11-24T08:34:15+00:00",
-        "last_seen": "2026-11-25T00:51:25+00:00"
       }
     ],
     "totals": {
       "collected_72h": 80,
-      "published_72h": 45
+      "published_72h": 44
     }
   }
 }
