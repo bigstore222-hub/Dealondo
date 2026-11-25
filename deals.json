@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T20:51:46.511329+00:00",
+  "generated_at": "2026-11-25T21:02:21.755214+00:00",
   "count": 384,
   "deals": [
     {
@@ -19,7 +19,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 51,
+      "community_votes": 52,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -49,7 +49,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-25T20:11:30.110975+00:00",
-      "last_seen": "2026-11-25T20:51:17.331747+00:00",
+      "last_seen": "2026-11-25T21:02:21.601649+00:00",
       "posted_at": "2026-11-25T20:00:49+00:00",
       "signals": {
         "sd_feeds": [
@@ -59,9 +59,9 @@
         "sd_store": "Amazon",
         "sd_brand": "UGREEN",
         "sd_hot_origin": false,
-        "sd_age_min": 50,
-        "sd_votes": 51,
-        "sd_velocity": 60.6,
+        "sd_age_min": 62,
+        "sd_votes": 52,
+        "sd_velocity": 50.7,
         "sd_fp_min": 11
       },
       "title_kr": "UGREEN Prime: UGREEN MagFlow 2-in-1 (7.5W +…",
@@ -120,16 +120,16 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-25T13:32:01.841435+00:00",
-      "last_seen": "2026-11-25T20:51:17.331747+00:00",
+      "last_seen": "2026-11-25T21:02:21.601649+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Tablets & eReaders",
         "sd_store": "Woot!",
         "sd_brand": "Apple",
         "sd_hot_origin": true,
-        "sd_age_min": 466,
+        "sd_age_min": 477,
         "sd_votes": 67,
-        "sd_velocity": 8.6,
+        "sd_velocity": 8.4,
         "sd_fp_min": 156
       },
       "title_kr": "애플 태블릿",
@@ -572,15 +572,15 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-24T21:21:07.024207+00:00",
-      "last_seen": "2026-11-25T20:51:17.331747+00:00",
+      "last_seen": "2026-11-25T21:02:21.601649+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Streaming Services",
         "sd_store": "Slickdeals",
         "sd_hot_origin": false,
-        "sd_age_min": 1410,
+        "sd_age_min": 1421,
         "sd_votes": 569,
-        "sd_velocity": 24.2
+        "sd_velocity": 24.0
       },
       "title_kr": "Disney TV",
       "id": "7d4944fad2",
@@ -1506,6 +1506,78 @@
         ]
       ],
       "title_kr": "삼성 무선 이어폰"
+    },
+    {
+      "source": "slickdeals:newegg.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20391900",
+      "title": "AMD Ryzen 7 5700X AM4 CPU + 120mm Rosewill CPU Air Cooler w/ Digital Display $159 + Free S&H",
+      "brand": "AMD",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/2/6/2/9/1/5/7/6/300x300/22576503.thumb",
+      "price_current": 159.0,
+      "price_list": 340.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 34,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 213544,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20391900",
+      "discount_pct": 53.2,
+      "score": 92,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 5,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 폭발 34표/11분 → 하한 86",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-25T04:51:52.974671+00:00",
+      "last_seen": "2026-11-25T21:02:21.601649+00:00",
+      "posted_at": "2026-11-25T20:51:21+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "CPUs",
+        "sd_store": "Newegg",
+        "sd_brand": "AMD",
+        "sd_hot_origin": true,
+        "sd_age_min": 11,
+        "sd_votes": 34,
+        "sd_velocity": 185.4,
+        "sd_fp_min": 11
+      },
+      "title_kr": "AMD Ryzen 7 5700X AM4 CPU +…",
+      "id": "22c4167aeb",
+      "history": [
+        [
+          "2026-11-25",
+          159.0
+        ]
+      ]
     },
     {
       "source": "slickdeals:adidas.com",
@@ -3299,16 +3371,16 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-25T05:33:04.815581+00:00",
-      "last_seen": "2026-11-25T20:51:17.331747+00:00",
+      "last_seen": "2026-11-25T21:02:21.601649+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Women's Pants & Shorts",
         "sd_store": "Retailer",
         "sd_brand": "Nike",
         "sd_hot_origin": false,
-        "sd_age_min": 934,
+        "sd_age_min": 945,
         "sd_votes": 107,
-        "sd_velocity": 6.9,
+        "sd_velocity": 6.8,
         "sd_fp_min": 16
       },
       "title_kr": "나이키 여성용 바지",
@@ -3522,15 +3594,15 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-25T16:32:36.162047+00:00",
-      "last_seen": "2026-11-25T20:51:17.331747+00:00",
+      "last_seen": "2026-11-25T21:02:21.601649+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Tech Accessories",
         "sd_store": "Amazon",
         "sd_hot_origin": false,
-        "sd_age_min": 283,
+        "sd_age_min": 294,
         "sd_votes": 25,
-        "sd_velocity": 5.3,
+        "sd_velocity": 5.1,
         "sd_fp_min": 24
       },
       "title_kr": "아이패드",
@@ -4240,7 +4312,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-25T09:01:39.160021+00:00",
-      "last_seen": "2026-11-25T15:02:18.650123+00:00",
+      "last_seen": "2026-11-25T21:02:21.755214+00:00",
       "posted_at": "2026-11-25T08:27:17+00:00",
       "signals": {
         "sd_feeds": [
@@ -4713,14 +4785,14 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T02:31:47.119730+00:00",
-      "last_seen": "2026-11-25T20:51:17.331747+00:00",
+      "last_seen": "2026-11-25T21:02:21.601649+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Women's Activewear",
         "sd_store": "Retailer",
         "sd_brand": "Nike",
         "sd_hot_origin": false,
-        "sd_age_min": 1110,
+        "sd_age_min": 1121,
         "sd_votes": 49,
         "sd_velocity": 2.6,
         "sd_fp_min": 10
@@ -5454,7 +5526,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 28,
+      "community_votes": 31,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -5485,7 +5557,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T20:11:30.110975+00:00",
-      "last_seen": "2026-11-25T20:51:17.331747+00:00",
+      "last_seen": "2026-11-25T21:02:21.601649+00:00",
       "posted_at": "2026-11-25T19:26:43+00:00",
       "signals": {
         "sd_feeds": [
@@ -5495,9 +5567,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Baseus",
         "sd_hot_origin": false,
-        "sd_age_min": 85,
-        "sd_votes": 28,
-        "sd_velocity": 19.9,
+        "sd_age_min": 96,
+        "sd_votes": 31,
+        "sd_velocity": 19.4,
         "sd_fp_min": 45
       },
       "title_kr": "Baseus 보조배터리",
@@ -5526,7 +5598,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 19,
+      "community_votes": 21,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -5557,7 +5629,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T20:11:30.110975+00:00",
-      "last_seen": "2026-11-25T20:51:17.331747+00:00",
+      "last_seen": "2026-11-25T21:02:21.601649+00:00",
       "posted_at": "2026-11-25T19:26:15+00:00",
       "signals": {
         "sd_feeds": [
@@ -5567,9 +5639,9 @@
         "sd_store": "Amazon",
         "sd_brand": "LISEN",
         "sd_hot_origin": false,
-        "sd_age_min": 85,
-        "sd_votes": 19,
-        "sd_velocity": 13.4,
+        "sd_age_min": 96,
+        "sd_votes": 21,
+        "sd_velocity": 13.1,
         "sd_fp_min": 45
       },
       "title_kr": "LISEN Phone Holder Travel Mount w/ LED…",
@@ -5585,7 +5657,7 @@
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20349246",
-      "title": "AMC Theatres Movie Experience For 2: 2x Movie Tickets + 2 Drinks + 1 Popcorn from $29.40  (외 1종)",
+      "title": "AMC Theatres Movie Experience For 2: 2x Movie Tickets + 2 Drinks + 1 Popcorn from $29.40",
       "brand": "",
       "category": "etc",
       "image": "https://static.slickdealscdn.com/attachment/3/4/2/9/3/0/8/300x300/22469880.thumb",
@@ -5598,7 +5670,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 32,
+      "community_votes": 33,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -5623,14 +5695,14 @@
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
         "code_deal": "공개코드 SLICKSAVE70 → 하한 75",
-        "slickdeals": "Hot Deals 급상승 32표/88분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 33표/99분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-23T22:02:09.052215+00:00",
-      "last_seen": "2026-11-25T20:51:17.331747+00:00",
+      "last_seen": "2026-11-25T21:02:21.601649+00:00",
       "posted_at": "2026-11-25T19:23:01+00:00",
       "signals": {
         "sd_feeds": [
@@ -5639,12 +5711,11 @@
         "sd_cat": "Entertainment",
         "sd_store": "Giftory",
         "sd_hot_origin": true,
-        "sd_age_min": 88,
-        "sd_votes": 32,
-        "sd_velocity": 21.8,
+        "sd_age_min": 99,
+        "sd_votes": 33,
+        "sd_velocity": 19.9,
         "sd_fp_min": 48
       },
-      "variant_count": 2,
       "title_kr": "AMC Theatres Movie Experience For 2:…",
       "id": "d5d3df3211",
       "history": [
@@ -5675,7 +5746,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 24,
+      "community_votes": 26,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -5706,7 +5777,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T19:21:16.867592+00:00",
-      "last_seen": "2026-11-25T20:51:17.331747+00:00",
+      "last_seen": "2026-11-25T21:02:21.601649+00:00",
       "posted_at": "2026-11-25T19:13:25+00:00",
       "signals": {
         "sd_feeds": [
@@ -5716,9 +5787,9 @@
         "sd_store": "Walmart",
         "sd_brand": "GOOLOO",
         "sd_hot_origin": false,
-        "sd_age_min": 98,
-        "sd_votes": 24,
-        "sd_velocity": 14.7,
+        "sd_age_min": 109,
+        "sd_votes": 26,
+        "sd_velocity": 14.3,
         "sd_fp_min": 8
       },
       "title_kr": "GOOLOO 점프스타터",
@@ -6456,6 +6527,81 @@
       "title_kr": "Steam God of War (2022) (PCDD/Steam Code)"
     },
     {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20371491",
+      "title": "DJI Osmo Action 4 Essential Combo 4K/120fps Waterproof Action Camera $169 + Free S&H",
+      "brand": "DJI",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/1/0/3/0/7/5/6/0/300x300/22525203.thumb",
+      "price_current": 169.0,
+      "price_list": 239.0,
+      "price_baseline": null,
+      "price_alltime_low": 169.0,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 30,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 226974,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20371491",
+      "discount_pct": 29.3,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 8,
+        "price_history": 25,
+        "category": 5,
+        "bonus": 4,
+        "brand": 6,
+        "slickdeals": "Hot Deals 급상승 30표/85분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-22T20:42:01.381107+00:00",
+      "last_seen": "2026-11-25T21:02:21.601649+00:00",
+      "posted_at": "2026-11-25T19:37:32+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Dash Cams & Action Cams",
+        "sd_store": "Amazon",
+        "sd_brand": "DJI",
+        "sd_hot_origin": true,
+        "sd_age_min": 85,
+        "sd_votes": 30,
+        "sd_velocity": 21.2,
+        "sd_fp_min": 34
+      },
+      "title_kr": "DJI 카메라",
+      "id": "ef941a1240",
+      "history": [
+        [
+          "2026-11-22",
+          169.0
+        ],
+        [
+          "2026-11-25",
+          169.0
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/calvin-klein-jatlee-block-heel-pump-women/7484926",
@@ -6572,81 +6718,6 @@
         [
           "2026-11-25",
           38.98
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20371491",
-      "title": "DJI Osmo Action 4 Essential Combo 4K/120fps Waterproof Action Camera $169 + Free S&H",
-      "brand": "DJI",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/1/0/3/0/7/5/6/0/300x300/22525203.thumb",
-      "price_current": 169.0,
-      "price_list": 239.0,
-      "price_baseline": null,
-      "price_alltime_low": 169.0,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 29,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 226974,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20371491",
-      "discount_pct": 29.3,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 8,
-        "price_history": 25,
-        "category": 5,
-        "bonus": 4,
-        "brand": 6,
-        "slickdeals": "Hot Deals 급상승 29표/74분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-22T20:42:01.381107+00:00",
-      "last_seen": "2026-11-25T20:51:17.331747+00:00",
-      "posted_at": "2026-11-25T19:37:32+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Dash Cams & Action Cams",
-        "sd_store": "Amazon",
-        "sd_brand": "DJI",
-        "sd_hot_origin": true,
-        "sd_age_min": 74,
-        "sd_votes": 29,
-        "sd_velocity": 23.6,
-        "sd_fp_min": 34
-      },
-      "title_kr": "DJI 카메라",
-      "id": "ef941a1240",
-      "history": [
-        [
-          "2026-11-22",
-          169.0
-        ],
-        [
-          "2026-11-25",
-          169.0
         ]
       ]
     },
@@ -9742,16 +9813,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T19:21:16.867592+00:00",
-      "last_seen": "2026-11-25T20:51:17.331747+00:00",
+      "last_seen": "2026-11-25T21:02:21.601649+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Chargers & Power Banks",
         "sd_store": "Best Buy",
         "sd_brand": "UGREEN",
         "sd_hot_origin": false,
-        "sd_age_min": 111,
+        "sd_age_min": 122,
         "sd_votes": 51,
-        "sd_velocity": 27.7,
+        "sd_velocity": 25.2,
         "sd_fp_min": 21
       },
       "title_kr": "UGREEN 160W Nexode Pro 5-Port (4 USB-C…",
@@ -11105,6 +11176,77 @@
       "title_kr": "eufy 카메라"
     },
     {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20380029",
+      "title": "40-Oz Owala Stainless Steel Straw Tumbler (Various Colors) $20 + Free Pickup",
+      "brand": "Owala",
+      "category": "home",
+      "image": "https://static.slickdealscdn.com/attachment/3/2/6/0/8/8/1/4/300x300/22591977.thumb",
+      "price_current": 20.0,
+      "price_list": 39.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 55,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 26861,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20380029",
+      "discount_pct": 50.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 8,
+        "bonus": 4,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-25T21:02:21.301398+00:00",
+      "last_seen": "2026-11-25T21:02:21.601649+00:00",
+      "posted_at": "2026-11-25T20:51:17+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Water Bottles",
+        "sd_store": "Retailer",
+        "sd_brand": "Owala",
+        "sd_hot_origin": false,
+        "sd_age_min": 11,
+        "sd_votes": 55,
+        "sd_velocity": 298.0,
+        "sd_fp_min": 11
+      },
+      "title_kr": "Owala 텀블러",
+      "id": "2a9f6f5ae0",
+      "history": [
+        [
+          "2026-11-25",
+          20.0
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:amazon.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20397312",
@@ -11171,76 +11313,6 @@
         [
           "2026-11-25",
           10.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:ebay.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20392920",
-      "title": "REFURBISHED Citizen Men 's Sport Casual Chronograph Eco-Drive Silver Watch 44 MM $130.39",
-      "brand": "Citizen",
-      "category": "watch_misc",
-      "image": "https://static.slickdealscdn.com/attachment/4/9/2/5/6/2/300x300/22579074.thumb",
-      "price_current": 130.0,
-      "price_list": 450.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "OWDWINTER26",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 1,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 174596,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "public",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20392920",
-      "discount_pct": 71.1,
-      "score": 75,
-      "score_breakdown": {
-        "discount_depth": 35,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 OWDWINTER26 → 하한 75"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-25T09:01:39.160021+00:00",
-      "last_seen": "2026-11-25T15:02:18.650123+00:00",
-      "posted_at": "2026-11-25T08:13:17+00:00",
-      "signals": {
-        "sd_feeds": [
-          "hotdeals"
-        ],
-        "sd_cat": "Watches",
-        "sd_store": "eBay",
-        "sd_brand": "Citizen",
-        "sd_hot_origin": true,
-        "sd_age_min": 88,
-        "sd_votes": 1,
-        "sd_velocity": 0.7
-      },
-      "title_kr": "시티즌 남성용 시계",
-      "id": "bdd2522968",
-      "history": [
-        [
-          "2026-11-25",
-          130.0
         ]
       ]
     },
@@ -14126,7 +14198,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T09:01:39.160021+00:00",
-      "last_seen": "2026-11-25T15:02:18.650123+00:00",
+      "last_seen": "2026-11-25T21:02:21.755214+00:00",
       "posted_at": "2026-11-25T08:12:00+00:00",
       "signals": {
         "sd_feeds": [
@@ -14699,6 +14771,142 @@
       "title_kr": "MAC 에너지 음료"
     },
     {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20395188",
+      "title": "GOOLOO A3 12V 3000A Portable Jump Starter & Air Compressor for $40 at Amazon",
+      "brand": "GOOLOO",
+      "category": "etc",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20395188&t=15",
+      "price_current": 40.0,
+      "price_list": 100.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 28,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 53722,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20395188",
+      "discount_pct": 60.0,
+      "score": 66,
+      "score_breakdown": {
+        "discount_depth": 36,
+        "price_history": null,
+        "category": 5,
+        "bonus": 4,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-25T20:11:30.110975+00:00",
+      "last_seen": "2026-11-25T21:02:21.601649+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Auto Electronic Accessories",
+        "sd_store": "Amazon",
+        "sd_brand": "GOOLOO",
+        "sd_hot_origin": false,
+        "sd_age_min": 57,
+        "sd_votes": 28,
+        "sd_velocity": 29.3,
+        "sd_fp_min": 7
+      },
+      "title_kr": "GOOLOO 에어컴프레서",
+      "id": "d31fc34b66",
+      "history": [
+        [
+          "2026-11-25",
+          40.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:walmart.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20341524",
+      "title": "eufy Security Smart Lock FamiLock C32 Fingerprint Keyless Door Lock for $50.70 at Walmart",
+      "brand": "eufy",
+      "category": "etc",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20341524&t=15",
+      "price_current": 51.0,
+      "price_list": 79.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 77,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 68495,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20341524",
+      "discount_pct": 36.2,
+      "score": 66,
+      "score_breakdown": {
+        "discount_depth": 20,
+        "price_history": null,
+        "category": 5,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-25T02:50:47.386625+00:00",
+      "last_seen": "2026-11-25T21:02:21.601649+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Door Hardware & Locks",
+        "sd_store": "Walmart",
+        "sd_brand": "eufy",
+        "sd_hot_origin": false,
+        "sd_age_min": 1103,
+        "sd_votes": 77,
+        "sd_velocity": 4.2,
+        "sd_fp_min": 11
+      },
+      "title_kr": "eufy Security Smart Lock FamiLock C32 Fingerprint…",
+      "id": "06e3132eb2",
+      "history": [
+        [
+          "2026-11-25",
+          51.0
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:walmart.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20381703",
@@ -14767,141 +14975,6 @@
         [
           "2026-11-25",
           55.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20395188",
-      "title": "GOOLOO A3 12V 3000A Portable Jump Starter & Air Compressor for $40 at Amazon",
-      "brand": "GOOLOO",
-      "category": "etc",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20395188&t=15",
-      "price_current": 40.0,
-      "price_list": 100.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 28,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 53722,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20395188",
-      "discount_pct": 60.0,
-      "score": 66,
-      "score_breakdown": {
-        "discount_depth": 36,
-        "price_history": null,
-        "category": 5,
-        "bonus": 4,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-25T20:11:30.110975+00:00",
-      "last_seen": "2026-11-25T20:51:17.331747+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Auto Electronic Accessories",
-        "sd_store": "Amazon",
-        "sd_brand": "GOOLOO",
-        "sd_hot_origin": false,
-        "sd_age_min": 40,
-        "sd_votes": 28,
-        "sd_velocity": 42.2
-      },
-      "title_kr": "GOOLOO 에어컴프레서",
-      "id": "d31fc34b66",
-      "history": [
-        [
-          "2026-11-25",
-          40.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:walmart.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20341524",
-      "title": "eufy Security Smart Lock FamiLock C32 Fingerprint Keyless Door Lock for $50.70 at Walmart",
-      "brand": "eufy",
-      "category": "etc",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20341524&t=15",
-      "price_current": 51.0,
-      "price_list": 79.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 77,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 68495,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20341524",
-      "discount_pct": 36.2,
-      "score": 66,
-      "score_breakdown": {
-        "discount_depth": 20,
-        "price_history": null,
-        "category": 5,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-25T02:50:47.386625+00:00",
-      "last_seen": "2026-11-25T20:51:17.331747+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Door Hardware & Locks",
-        "sd_store": "Walmart",
-        "sd_brand": "eufy",
-        "sd_hot_origin": false,
-        "sd_age_min": 1092,
-        "sd_votes": 77,
-        "sd_velocity": 4.2,
-        "sd_fp_min": 11
-      },
-      "title_kr": "eufy Security Smart Lock FamiLock C32 Fingerprint…",
-      "id": "06e3132eb2",
-      "history": [
-        [
-          "2026-11-25",
-          51.0
         ]
       ]
     },
@@ -16662,16 +16735,16 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T05:10:47.551396+00:00",
-      "last_seen": "2026-11-25T20:51:17.331747+00:00",
+      "last_seen": "2026-11-25T21:02:21.601649+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Smart Watches & Wearables",
         "sd_store": "Walmart",
         "sd_brand": "Nothing",
         "sd_hot_origin": false,
-        "sd_age_min": 945,
+        "sd_age_min": 956,
         "sd_votes": 58,
-        "sd_velocity": 3.7,
+        "sd_velocity": 3.6,
         "sd_fp_min": 4
       },
       "title_kr": "Nothing 스마트워치",
@@ -19141,75 +19214,6 @@
       ]
     },
     {
-      "source": "slickdeals:newegg.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20391900",
-      "title": "AMD Ryzen 7 5700X CPU + Rosewill CPU Air Cooler with Digital Display $159",
-      "brand": "AMD",
-      "category": "etc",
-      "image": "https://static.slickdealscdn.com/attachment/2/6/2/9/1/5/7/6/300x300/22576503.thumb",
-      "price_current": 159.0,
-      "price_list": 340.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 3,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 213544,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20391900",
-      "discount_pct": 53.2,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 5,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-25T04:51:52.974671+00:00",
-      "last_seen": "2026-11-25T17:41:37.449276+00:00",
-      "posted_at": "2026-11-25T04:16:12+00:00",
-      "signals": {
-        "sd_feeds": [
-          "hotdeals"
-        ],
-        "sd_cat": "CPUs",
-        "sd_store": "Newegg",
-        "sd_brand": "AMD",
-        "sd_hot_origin": true,
-        "sd_age_min": 77,
-        "sd_votes": 3,
-        "sd_velocity": 2.3
-      },
-      "title_kr": "AMD Ryzen 7 5700X CPU + Rosewill…",
-      "id": "22c4167aeb",
-      "history": [
-        [
-          "2026-11-25",
-          159.0
-        ]
-      ]
-    },
-    {
       "source": "slickdeals:amazon.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20391462",
@@ -20036,6 +20040,75 @@
         ]
       ],
       "title_kr": "Epson 프린터"
+    },
+    {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20397699",
+      "title": "Samsonite Omni 2 Hardside 2-Piece Spinner Luggage Set - Carry-On & Medium Checked (Midnight Black, Emerald Green) $149 + Free Shipping",
+      "brand": "Samsonite",
+      "category": "watch_misc",
+      "image": "https://static.slickdealscdn.com/attachment/5/7/4/5/9/6/3/300x300/22591821.thumb",
+      "price_current": 149.0,
+      "price_list": 360.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 0,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 200113,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20397699",
+      "discount_pct": 58.6,
+      "score": 59,
+      "score_breakdown": {
+        "discount_depth": 26,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-25T21:02:21.301398+00:00",
+      "last_seen": "2026-11-25T21:02:21.601649+00:00",
+      "posted_at": "2026-11-25T20:41:40+00:00",
+      "signals": {
+        "sd_feeds": [
+          "hotdeals"
+        ],
+        "sd_cat": "Luggage",
+        "sd_store": "Amazon",
+        "sd_brand": "Samsonite",
+        "sd_hot_origin": true,
+        "sd_age_min": 21,
+        "sd_votes": 0,
+        "sd_velocity": 0.0
+      },
+      "title_kr": "샘소나이트 기내용 캐리어",
+      "id": "95deab688c",
+      "history": [
+        [
+          "2026-11-25",
+          149.0
+        ]
+      ]
     },
     {
       "source": "slickdeals:amazon.com",
@@ -20902,7 +20975,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T09:01:39.160021+00:00",
-      "last_seen": "2026-11-25T15:02:18.650123+00:00",
+      "last_seen": "2026-11-25T21:02:21.755214+00:00",
       "posted_at": "2026-11-25T08:41:02+00:00",
       "signals": {
         "sd_feeds": [
@@ -21676,60 +21749,6 @@
       "signals": {},
       "title_kr": "호카 Black Friday Sale: Up to 40%…",
       "id": "e5e9496943",
-      "history": []
-    },
-    {
-      "source": "techbargains:woot!",
-      "source_tier": "T2",
-      "url": "https://home.woot.com/plus/tumi-samsonite-more-luggage",
-      "title": "Woot! Luggage Sale: Up to 50% off Tumi, Samsonite, More",
-      "brand": "Samsonite",
-      "category": "watch_misc",
-      "image": "https://www.techbargains.com/imagery/deals/202730.1795606896.fit_lim.size_125x125.jpg",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://home.woot.com/plus/tumi-samsonite-more-luggage",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-25T20:12:04.536298+00:00",
-      "last_seen": "2026-11-25T20:12:07.044006+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "샘소나이트 캐리어",
-      "id": "56fe0e7b02",
       "history": []
     },
     {
@@ -25732,7 +25751,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T15:02:18.208679+00:00",
-      "last_seen": "2026-11-25T16:20:57.561949+00:00",
+      "last_seen": "2026-11-25T21:02:21.755214+00:00",
       "posted_at": "2026-11-25T14:55:08+00:00",
       "signals": {
         "sd_feeds": [
@@ -26666,7 +26685,7 @@
   "fx_usd_krw": 1343.0,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-25T20:50:32+00:00",
+      "T1": "2026-11-25T21:00:47+00:00",
       "T2": "2026-11-25T20:51:25+00:00",
       "T3": "2026-11-25T19:51:56+00:00",
       "T4": "2026-11-25T15:51:03+00:00"
@@ -26700,14 +26719,15 @@
       9,
       10,
       10,
-      10
+      10,
+      11
     ],
     "naver": {
       "keys": false,
       "queried": 25,
       "matched": 0,
       "errors": 0,
-      "at": "2026-11-25T20:51:43+00:00"
+      "at": "2026-11-25T21:02:21+00:00"
     },
     "reddit": {
       "mode": "공개 검색(키 없음)",
@@ -26715,13 +26735,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-25T20:51:43+00:00"
+      "at": "2026-11-25T21:02:21+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-25T20:51:14+00:00",
+        "at": "2026-11-25T21:02:21+00:00",
         "state": "정상",
         "mails": 40,
         "deals": 40
@@ -26747,7 +26767,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Kids Games & Books)",
         "first_seen": "2026-11-25T20:51:17+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20390514",
@@ -26762,7 +26782,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T20:40:57+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20395410",
@@ -26777,7 +26797,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-25T20:31:05+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20395278",
@@ -26792,7 +26812,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T20:20:57+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20395188",
@@ -26807,7 +26827,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T20:11:31+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20395206",
@@ -26822,7 +26842,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T19:21:17+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20388528",
@@ -26837,7 +26857,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T19:21:17+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377950",
@@ -26852,7 +26872,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T18:31:10+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20341374",
@@ -26867,7 +26887,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Home & Home Improvement)",
         "first_seen": "2026-11-25T16:50:51+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20395158",
@@ -26882,7 +26902,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T16:32:36+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370984",
@@ -26897,7 +26917,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T16:32:36+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20391654",
@@ -26912,7 +26932,7 @@
         "published": false,
         "reject_reason": "H8: 할인 13% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-25T15:41:04+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20394030",
@@ -26927,7 +26947,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T15:41:04+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20394318",
@@ -26942,7 +26962,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-25T15:41:04+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20378826",
@@ -26957,7 +26977,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T14:32:44+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20392542",
@@ -26972,7 +26992,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(Star Wars) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-25T14:13:54+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20393397",
@@ -26987,7 +27007,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T14:03:32+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20391501",
@@ -27002,7 +27022,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T11:51:02+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20385462",
@@ -27017,7 +27037,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T10:10:48+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://clicks.finishline.com/f/a/hMFGxPO_1iObz33kvz9ADQ~~/AAQRxRA~/mFn609z8A4iU7Uh0PZnPNFiQ13a1odj9NNLd6L0OCxdZg5UIvM1yT06zUKhCoXycAeTbhPrs7NlKRPmLvTfum48uaJVA5yrLwtVBiMytgdVCmUQ-Yu-juMl1-lAlf89Z3U9ukFrUHG8Y5Oy7mL3gCA~~",
@@ -27047,7 +27067,7 @@
         "published": false,
         "reject_reason": "H8: 할인 14% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-25T09:31:02+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377878",
@@ -27062,7 +27082,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:50:45+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377794",
@@ -27077,7 +27097,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(Dr. Seuss) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-25T07:40:46+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20379402",
@@ -27092,7 +27112,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:32:09+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20378640",
@@ -27107,7 +27127,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:10:49+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20391429",
@@ -27122,7 +27142,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:01:10+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20390721",
@@ -27137,7 +27157,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Hand Tools)",
         "first_seen": "2026-11-25T07:01:10+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20285211",
@@ -27152,7 +27172,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T05:33:08+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20387397",
@@ -27167,7 +27187,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T05:11:09+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20387883",
@@ -27182,7 +27202,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T05:11:09+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370600",
@@ -27212,7 +27232,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T04:21:15+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20378790",
@@ -27227,7 +27247,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T03:43:03+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20382042",
@@ -27302,7 +27322,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T03:24:05+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20355357",
@@ -27317,7 +27337,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Flashlights)",
         "first_seen": "2026-11-25T03:24:05+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20369073",
@@ -27332,7 +27352,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T03:01:23+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377302",
@@ -27362,7 +27382,7 @@
         "published": false,
         "reject_reason": "H7: Oakley 할인 25% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-25T02:51:12+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20341524",
@@ -27377,7 +27397,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T02:51:12+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20338935",
@@ -27392,7 +27412,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T02:51:12+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20356968",
@@ -27407,7 +27427,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T02:32:12+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20388306",
@@ -27422,7 +27442,7 @@
         "published": false,
         "reject_reason": "H8: 할인 22% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-25T02:21:11+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20295423",
@@ -27677,7 +27697,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T21:21:28+00:00",
-        "last_seen": "2026-11-25T20:51:17+00:00"
+        "last_seen": "2026-11-25T21:02:21+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374683",
