@@ -465,9 +465,29 @@ def _kw_hit(k: str, text: str) -> bool:
     return k in text
 
 
+# 상품 '종류'가 분명한 제목은 브랜드 단어보다 종류를 먼저 본다 (2026-11-25).
+#   실측 오분류: 'Jump Starter … Gas & Diesel' → 'diesel' 브랜드 키워드에 걸려 프리미엄 패션,
+#   'Polo' 가 들어간 골프공·'Coach' 좌석 같은 경우도 같은 구조. 패션 키워드 표가 맨 앞이라 생긴 문제.
+#   공구·자동차는 Bexel 이 4년간 한 번도 고르지 않은 분야라 '기타'로 둔다(카테고리 점수 최저).
+PRODUCT_TYPE_FIRST = [
+    (re.compile(r"\b(jump starter|tire inflator|air compressor|dash ?cam|car charger|car mount|"
+                r"impact (?:driver|wrench)|drill|socket set|tool set|tool kit|motor oil|wiper blades?)\b", re.I), "etc"),
+    (re.compile(r"\b(power bank|portable charger|battery pack|power station|charging station|wireless charger|"
+                r"usb-?c (?:hub|cable)|docking station|projector|monitor|soundbar|earbuds|headphones|"
+                r"smart ?watch|tablet|laptop(?! (?:case|bag|sleeve|backpack|stand|tote))|ssd|router|webcam)\b", re.I), "electronics"),
+    (re.compile(r"\b(air fryer|pressure cooker|multi-?cooker|countertop oven|toaster oven|cookware|skillet|"
+                r"dutch oven|knife set|tumbler|water bottle|insulated bottle|travel bottle|coffee maker|"
+                r"espresso machine|blender|vacuum cleaner|robot vacuum|stick vacuum|air purifier|humidifier|"
+                r"mattress|comforter|sheet set|pillows?)\b", re.I), "home"),
+]
+
+
 def infer_category(deal: Deal) -> tuple[str, bool]:
     """(카테고리, 리테일러추정여부) 반환."""
     text = f"{deal.brand} {deal.title}".lower()
+    for rx, cat in PRODUCT_TYPE_FIRST:
+        if rx.search(deal.title or ""):
+            return cat, False
     for cat, kws in CATEGORY_KEYWORDS.items():
         if any(_kw_hit(k, text) for k in kws):
             return cat, False

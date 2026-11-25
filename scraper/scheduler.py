@@ -230,7 +230,9 @@ def run_tier(tier: str, con) -> tuple[list, list]:
     try:
         import affiliate
         for d in scored:
-            d.buy_url = affiliate.wrap(d.url, d.source)
+            # 슬릭딜 글 안에서 판매처 상품 주소를 찾았으면 그쪽으로 보낸다(제휴 태그도 거기에 붙는다)
+            direct = (d.signals or {}).get("direct_url") if isinstance(d.signals, dict) else ""
+            d.buy_url = affiliate.wrap(direct or d.url, d.source)
     except Exception as e:
         print(f"[제휴] 링크 변환 오류: {type(e).__name__}: {e}")
 
@@ -429,6 +431,40 @@ def write_board(all_deals: list) -> None:
     except Exception as e:
         print(f"[큐레이션] 오류: {type(e).__name__}: {e}")
         curated = kept
+
+    # 슬릭딜 딜 종료 재확인 — 종료된 딜은 내리고, 판매처·직접 링크를 갱신한다 (2026-11-25)
+    try:
+        con_r = store.connect()
+        checked = sources.recheck_slickdeals_rows(curated, con_r)
+        con_r.close()
+        if checked:
+            import affiliate
+            alive = []
+            for r in curated:
+                m = sources._SD_THREAD.search(r.get("url") or "")
+                meta = checked.get(m.group(1)) if m else None
+                if meta:
+                    if meta.get("expired"):
+                        continue
+                    dom = meta.get("store_domain") or ""
+                    if dom and r.get("source") == "slickdeals:slickdeals.net":
+                        r["source"] = f"slickdeals:{dom}"
+                    if meta.get("direct"):
+                        r["buy_url"] = affiliate.wrap(meta["direct"], r.get("source", ""))
+                    r["last_seen"] = now.isoformat()    # 슬릭딜에서 아직 살아 있음을 확인
+                alive.append(r)
+            print(f"[딜보드] 슬릭딜 종료 딜 {len(curated) - len(alive)}건 내림")
+            curated = alive
+    except Exception as e:
+        print(f"[딜보드] 슬릭딜 재확인 오류: {type(e).__name__}: {e}")
+
+    # 카드 표시용 한글 제목(영어 원제는 title 에 그대로 둔다)
+    try:
+        import kr_names
+        for r in curated:
+            r["title_kr"] = kr_names.board_title(r.get("brand") or "", r.get("title") or "")
+    except Exception as e:
+        print(f"[딜보드] 한글 제목 오류: {type(e).__name__}: {e}")
 
     deals = sorted(curated, key=lambda d: d.get("score", 0), reverse=True)
     # 수집 공백 감시: 직전 갱신과의 간격이 길면(=실행이 멈춰 있었다면) 한 번 알린다.

@@ -129,6 +129,12 @@ def kr_lowest_price(brand: str, title: str, display: int = 10) -> float | None:
     네이버 쇼핑에서 국내 최저가(원). 못 찾으면 None.
     None이면 H2 판정을 건너뛴다 — 확신 없이 탈락시키지 않는다.
     """
+    # 2026-11-25: 네이버 검색 API 중 '쇼핑' 검색은 2026-07-31 종료됐다(실측: 모든 호출이 404 SE05).
+    # 키가 맞아도 결과를 받을 수 없으므로 호출하지 않는다. 국내가는 상세 페이지의
+    # '네이버 국내가 확인' 버튼(일반 검색 링크)으로 사용자가 직접 확인한다.
+    if os.environ.get("RADAR_NAVER_SHOP_API", "off") != "on":
+        NAVER_STATS["keys"] = False
+        return None
     cid = re.sub(r"\s", "", os.environ.get("NAVER_CLIENT_ID") or "")
     secret = re.sub(r"\s", "", os.environ.get("NAVER_CLIENT_SECRET") or "")
     NAVER_STATS["keys"] = bool(cid and secret)

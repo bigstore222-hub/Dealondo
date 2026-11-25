@@ -76,11 +76,11 @@
 
   /* ── 카드 그리드 ── */
   main{padding:22px 28px 60px;display:grid;gap:18px;
-    grid-template-columns:repeat(auto-fill,minmax(330px,1fr));
+    grid-template-columns:repeat(auto-fill,minmax(min(330px,100%),1fr));
     align-items:start;
     max-width:1440px;margin:0 auto}
   .card{background:var(--card);border:.5px solid var(--line);border-radius:18px;
-    padding:20px;display:flex;flex-direction:column;gap:11px;
+    padding:20px;display:flex;flex-direction:column;gap:11px;min-width:0;
     box-shadow:var(--shadow);
     transition:transform .28s cubic-bezier(.2,.7,.3,1),box-shadow .28s,border-color .28s}
   .card:hover{transform:translateY(-4px);box-shadow:var(--shadow-h);border-color:var(--line-s)}
@@ -151,11 +151,19 @@
   .fresh.stale{color:var(--deal)}
   .card.stale .price .now{opacity:.55}
 
+  .orig{font-size:12px;color:var(--sub);line-height:1.35;margin-top:-6px;
+    overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .tag.warn{background:rgba(255,69,58,.14);color:var(--flash)}
+  .search{background:var(--track);border:none;border-radius:980px;padding:8px 14px;color:var(--txt);
+    font-size:13px;font-family:inherit;min-width:180px;outline:none}
+  .search:focus{background:var(--track-h)}
+  .more{grid-column:1/-1;justify-self:center;background:var(--track);color:var(--txt);border:none;
+    padding:12px 28px;border-radius:980px;font-size:14px;font-weight:600;cursor:pointer;font-family:inherit}
   .empty{grid-column:1/-1;text-align:center;color:var(--sub);padding:80px 20px;font-size:15px}
 
   @media (max-width:640px){
     header{padding:14px 18px;gap:12px}
-    main{padding:18px 18px 48px;gap:14px;grid-template-columns:1fr}
+    main{padding:18px 18px 48px;gap:14px;grid-template-columns:minmax(0,1fr)}
     .disclose{padding:10px 18px 0}
   }
 </style>
@@ -177,15 +185,17 @@
     <button data-c="elec">전자·IT</button>
     <button data-c="sports">스포츠·아웃도어</button>
     <button data-c="home">홈·주방</button>
+    <button data-c="etc">기타</button>
   </div>
   <div class="toolbar" id="filters">
     <button data-f="ALL" class="active">전체</button>
-    <button data-f="FLASH">FLASH</button>
-    <button data-f="HOT">HOT</button>
-    <button data-f="STEADY">STEADY</button>
+    <button data-f="FLASH" title="할인 폭·브랜드·가격 이력이 모두 좋은 딜 — 빨리 끝날 수 있어요">⚡ 급처</button>
+    <button data-f="HOT" title="충분히 살 만한 할인">🔥 핫딜</button>
+    <button data-f="STEADY" title="괜찮은 가격 — 필요하면 사도 좋은 딜">👍 괜찮은 딜</button>
     <button data-f="PREMIUM">프리미엄</button>
     <button data-f="FREE">무관세만</button>
   </div>
+  <input class="search" id="q" type="search" placeholder="🔍 브랜드·상품 검색" aria-label="딜 검색">
   <div class="toolbar" id="sorts">
     <span class="lbl">정렬</span>
     <button data-s="score" class="active">점수순</button>
@@ -196,12 +206,35 @@
   일부 링크는 제휴 링크로, 회원님의 구매 시 딜온도가 소정의 수수료를 받을 수 있습니다(구매가는 동일).
   표시 가격은 마지막 확인 시점 기준이며 실시간으로 바뀔 수 있습니다. 원화 금액은 관부가세를 포함한 추정치(배대지 배송비 별도)이니 결제 전 판매처에서 최종 가격을 확인하세요.
 </div>
-<main id="board"><div class="empty">deals.json 로딩 중…</div></main>
+<main id="board"><div class="empty">딜을 불러오는 중이에요…</div></main>
 
 <script>
 const board=document.getElementById('board');
 const meta=document.getElementById('meta');
-let deals=[], filter='ALL', cat='ALL', sort='score';
+let deals=[], filter='ALL', cat='ALL', sort='score', q='', shown=60;
+const PAGE=60;
+const URG_KR={FLASH:'⚡ 급처',HOT:'🔥 핫딜',STEADY:'👍 괜찮은 딜'};
+// 판매처 이름: 'slickdeals:amazon.com' → 'Amazon · 슬릭딜'
+const STORES={'nordstromrack.com':'Nordstrom Rack','nordstrom.com':'Nordstrom','zappos.com':'Zappos','6pm.com':'6pm',
+  'amazon.com':'Amazon','woot.com':'Woot','bestbuy.com':'Best Buy','macys.com':"Macy's",'ebay.com':'eBay',
+  'walmart.com':'Walmart','target.com':'Target','ashford.com':'Ashford','als.com':'Al\'s','sneakersnstuff.com':'Sneakersnstuff',
+  'samsung.com':'Samsung','costco.com':'Costco','homedepot.com':'Home Depot','dickssportinggoods':"Dick's",'dickssportinggoods.com':"Dick's",
+  'dealnews':'DealNews','dealsofamerica':'DealsOfAmerica','techbargains:amazon':'Amazon'};
+function storeName(d){const s=String(d.source||'');const k=s.split(':').pop();
+  const n=STORES[k]||STORES[s]||(k==='slickdeals.net'?'':k);
+  if(s.startsWith('slickdeals'))return n?`${n} · 슬릭딜`:'슬릭딜';
+  if(s.startsWith('techbargains'))return 'Amazon · TechBargains';
+  return n;}
+function host(u){const m=/^https?:\/\/(?:www\.)?([^\/?#]+)/i.exec(u||'');return m?m[1].toLowerCase():'';}
+function buyLabel(d,href){const h=host(href);
+  if(/slickdeals\.net$/.test(h))return '슬릭딜 원문 ↗';
+  if(/dealnews\.com$/.test(h))return 'DealNews 원문 ↗';
+  if(/dealsofamerica\.com$/.test(h))return '원문 보기 ↗';
+  const n=(STORES[h]||'').trim();return n?`${n}에서 구매 ↗`:'판매처로 ↗';}
+// 리튬배터리·향수·스프레이 등은 배대지 항공 운송이 제한되는 경우가 많다(배대지마다 기준이 다름)
+const RESTRICT=/\b(power bank|portable charger|battery pack|jump starter|power station|lithium|mah\b|perfume|fragrance|cologne|eau de (?:parfum|toilette)|aerosol|spray paint|lighter)\b/i;
+const RESTRICT2=/\d{4,6}\s?mah/i;
+function stale(d){const h=d.last_seen?(Date.now()-Date.parse(d.last_seen))/3600000:0;return h>STALE_HOURS;}
 
 // 스크랩한 제목·브랜드는 외부 텍스트다. innerHTML에 그대로 넣으면
 // '<img onerror=...>' 같은 문자열이 스크립트로 실행될 수 있어 반드시 이스케이프한다.
@@ -247,20 +280,24 @@ function detailHref(d){return d.id?`deal.html?id=${encodeURIComponent(d.id)}`:`d
 function render(){
   const list=deals.filter(d=>
     (filter==='ALL'||(filter==='PREMIUM'?d.brand_tier==='premium':filter==='FREE'?dutyFree(d):d.urgency===filter))
-    && (cat==='ALL'||dispCat(d)===cat));
+    && (cat==='ALL'||dispCat(d)===cat)
+    && (!q||`${d.title_kr||''} ${d.title||''} ${d.brand||''} ${storeName(d)}`.toLowerCase().includes(q)));
   // 정렬: 점수순(기본) 또는 최신순(등록시각 detected_at 내림차순)
   if(sort==='recent'){
     list.sort((a,b)=>(Date.parse(b.detected_at||0)||0)-(Date.parse(a.detected_at||0)||0));
   }else{
-    list.sort((a,b)=>(b.score||0)-(a.score||0));
+    // 24시간 넘게 재확인 못 한 딜은 점수와 상관없이 뒤로 보낸다(끝났을 가능성이 크다)
+    list.sort((a,b)=>(stale(a)-stale(b))||((b.score||0)-(a.score||0)));
   }
   if(!list.length){board.innerHTML='<div class="empty">표시할 딜이 없습니다.</div>';return;}
-  board.innerHTML=list.map(d=>{
+  const total=list.length;
+  board.innerHTML=list.slice(0,shown).map(d=>{
     const tags=[];
     if(d.coupon_stackable)tags.push('🎟️ 쿠폰중복');
     if(d.off_season)tags.push('❄️ 역시즌');
     if(d.free_gift)tags.push('🎁 사은품');
-    if(d.price_alltime_low!=null && d.price_current!=null && d.price_current<=d.price_alltime_low)tags.push('📉 역대최저');
+    if(d.price_alltime_low!=null && d.price_current!=null && d.price_current<=d.price_alltime_low && (d.history||[]).length>=3)tags.push('📉 딜온도 기록 최저');
+    const restricted=RESTRICT.test(d.title||'')||RESTRICT2.test(d.title||'');
     const b=d.score_breakdown||{};
     const href=safeUrl(d.buy_url)||safeUrl(d.url);
     const img=imgUrl(d.image);
@@ -269,15 +306,16 @@ function render(){
     return `<div class="card${d.coupon_code?' codedeal':''}${stale?' stale':''}">
       ${img?`<img class="thumb" src="${esc(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:''}
       <div class="row">
-        <span class="badge ${esc(d.urgency)}">${d.coupon_code?'🔥 코드딜':esc(d.urgency)}</span>
-        <span class="src">${esc(d.source)} · ${esc(d.source_tier)}</span>
+        <span class="badge ${esc(d.urgency)}">${d.coupon_code?'🎟️ 코드딜':esc(URG_KR[d.urgency]||d.urgency)}</span>
+        <span class="src">${esc(storeName(d))}</span>
         <span class="score">점수 <b>${esc(d.score)}</b>/100</span>
       </div>
       ${d.brand?`<div class="brandrow">
         <span class="brand">${esc(d.brand)}</span>
         ${d.brand_tier?`<span class="btier ${d.brand_tier}">${({premium:'⭐ 프리미엄',known:'✓ 유명',unknown:'· 무명'})[d.brand_tier]||''}</span>`:''}
       </div>`:''}
-      <div class="title"${d.brand?'':' style="font-size:16px;font-weight:700"'}><a class="tlink" href="${detailHref(d)}">${esc(d.title)}</a></div>
+      <div class="title"${d.brand?'':' style="font-size:16px;font-weight:700"'}><a class="tlink" href="${detailHref(d)}">${esc(d.title_kr||d.title)}</a></div>
+      ${d.title_kr&&d.title_kr!==d.title?`<div class="orig" title="${esc(d.title)}">${esc(d.title)}</div>`:''}
       <div class="price">
         <span class="now">${fmtPrice(d.price_current)}</span>
         ${d.price_list?`<span class="was">${fmtPrice(d.price_list)}</span>`:''}
@@ -286,38 +324,37 @@ function render(){
       </div>
       ${d.krw_effective?`<div class="krw">≈ <b>${fmtKRW(d.krw_effective)}</b> · 관부가세 포함 추정 · 배대지 배송비 별도</div>`:''}
       ${d.coupon_code?`<div class="promo">🔥 결제창 코드 <code>${esc(d.coupon_code)}</code> 입력 시 ${fmtPrice(d.price_current)}</div>`:''}
-      ${tags.length?`<div class="tags">${tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>`:''}
+      ${(tags.length||restricted)?`<div class="tags">${restricted?'<span class="tag warn" title="리튬배터리·향수 등은 배대지 항공 운송이 막히는 경우가 많아요. 결제 전 배대지 금지 품목을 확인하세요.">🔋 배대지 금지품목 확인</span>':''}${tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>`:''}
       <div class="foot">
         <span class="src">${CAT_LABEL[dispCat(d)]||''}</span>
         ${d.detected_at?`<span class="src">🕒 ${timeAgo(d.detected_at)} 발견</span>`:''}
         ${d.last_seen?`<span class="src fresh${stale?' stale':''}">${stale?'⚠️ ':'🔄 '}${timeAgo(d.last_seen)} 확인${stale?' · 가격 변동 가능':''}</span>`:''}
-        ${href?`<a class="buy" href="${esc(href)}" target="_blank" rel="noopener noreferrer sponsored">바로 구매 ↗</a>`:''}
+        ${href?`<a class="buy" href="${esc(href)}" target="_blank" rel="noopener noreferrer sponsored">${esc(buyLabel(d,href))}</a>`:''}
         <a class="go" href="${detailHref(d)}">판정 보기 →</a>
       </div>
-      <div class="bd">
-        <span>할인 ${esc(b.discount_depth??0)}</span><span>이력 ${esc(b.price_history??0)}</span>
-        <span>카테고리 ${esc(b.category??0)}</span><span>브랜드 ${esc(b.brand??0)}</span><span>보너스 ${esc(b.bonus??0)}</span>
-      </div>
     </div>`;
-  }).join('');
+  }).join('')+(total>shown?`<button class="more" id="more">더 보기 (${total-shown}건 남음)</button>`:'');
+  const mb=document.getElementById('more'); if(mb)mb.onclick=()=>{shown+=PAGE;render();};
 }
 
 document.getElementById('filters').addEventListener('click',e=>{
   if(e.target.tagName!=='BUTTON')return;
   document.querySelectorAll('#filters button').forEach(b=>b.classList.remove('active'));
-  e.target.classList.add('active');filter=e.target.dataset.f;render();
+  e.target.classList.add('active');filter=e.target.dataset.f;shown=PAGE;render();
 });
 document.getElementById('cats').addEventListener('click',e=>{
   if(e.target.tagName!=='BUTTON')return;
   document.querySelectorAll('#cats button').forEach(b=>b.classList.remove('active'));
-  e.target.classList.add('active');cat=e.target.dataset.c;render();
+  e.target.classList.add('active');cat=e.target.dataset.c;shown=PAGE;render();
 });
 document.getElementById('sorts').addEventListener('click',e=>{
   if(e.target.tagName!=='BUTTON')return;
   document.querySelectorAll('#sorts button').forEach(b=>b.classList.remove('active'));
-  e.target.classList.add('active');sort=e.target.dataset.s;render();
+  e.target.classList.add('active');sort=e.target.dataset.s;shown=PAGE;render();
 });
 
+let qt;document.getElementById('q').addEventListener('input',e=>{clearTimeout(qt);
+  qt=setTimeout(()=>{q=e.target.value.trim().toLowerCase();shown=PAGE;render();},150);});
 fetch('deals.json').then(r=>r.json()).then(data=>{
   deals=data.deals||[];
   const t=new Date(data.generated_at);
@@ -330,7 +367,8 @@ fetch('deals.json').then(r=>r.json()).then(data=>{
   meta.textContent=`발행 ${data.count}건 · 갱신 ${t.toLocaleString('ko-KR')}`;
   render();
 }).catch(e=>{
-  board.innerHTML='<div class="empty">deals.json을 불러오지 못했습니다.<br>먼저 <code>python run.py --sample</code>를 실행하세요.<br><small>'+e+'</small></div>';
+  board.innerHTML='<div class="empty">딜 목록을 불러오지 못했어요. 잠시 후 새로고침해 주세요.</div>';
+  console.error(e);
 });
 </script>
 </body>

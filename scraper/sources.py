@@ -95,9 +95,14 @@ def _brand_from_title(title: str) -> str:
     """
     try:
         import brands as _b
-        return _b.lookup(title or "")[1]
+        b = _b.lookup(title or "")[1]
     except Exception:
         return ""
+    # 'Diesel' 은 패션 브랜드지만 차량용품 제목의 '가솔린·디젤 겸용'에도 나온다
+    # (실측: 점프스타터가 브랜드 Diesel → 프리미엄 패션으로 분류됨)
+    if b.lower() == "diesel" and re.search(r"\b(gas|engine|jump|starter|truck|generator|fuel|\d+(?:\.\d+)?l)\b", title or "", re.I):
+        return ""
+    return b
 
 
 def parse_doa_item(title: str, link: str, desc: str = "") -> Deal:
@@ -627,6 +632,7 @@ SD_ENRICH_MAX = int(os.environ.get("RADAR_SD_ENRICH_MAX", "30"))
 SD_ENRICH_SECS = float(os.environ.get("RADAR_SD_ENRICH_SECS", "90"))   # T1 실행 시간 상한(300초) 안에서 쓰는 몫
 _SD_META = re.compile(r'<meta class="swiftype" name="([^"]+)" data-type="[^"]+" content="([^"]*)"')
 _SD_LIST = re.compile(r'listPrice":"([\d.]+)"')
+_SD_GETDEAL = re.compile(r"Get Deal at ([^\"&<]{2,40})")
 _SD_STORE = re.compile(r'storeName"[^>]*>(?:<!---->)?([^<"]+)<')
 
 
@@ -650,9 +656,82 @@ def parse_slickdeals_page(html_text: str) -> dict:
     out["cat"] = _html.unescape(meta.get("primaryCategory") or "").strip()
     sm = _SD_STORE.search(html_text)
     out["store"] = _html.unescape(sm.group(1)).strip() if sm else ""
+    # 2026-11-25: storeName 블록이 'at ' 만 담는 구조로 바뀌어 대부분 비어 있었다(실측 14건 중 10건).
+    # 구매 버튼 문구 'Get Deal at <판매처>' 에서 보충한다.
+    if not out["store"] or out["store"].lower() in ("at", "slickdeals"):
+        gm = _SD_GETDEAL.search(html_text)
+        out["store"] = _html.unescape(gm.group(1)).strip() if gm else ""
     out["published_at"] = meta.get("published_at") or ""
     out["expired"] = (meta.get("expired") or "").lower() == "yes"
+    out["store_domain"] = store_domain(out["store"])
+    out["direct"] = direct_store_url(html_text, out["store_domain"])
     return out
+
+
+# ---------------------------------------------------------------------------
+# 판매처 직접 링크 (2026-11-25)
+#   딜보드 구매 버튼의 68%가 슬릭딜 글로 가고 있었다(수수료 0, 영어 페이지 한 번 더).
+#   슬릭딜의 'Get Deal' 버튼은 /click 리다이렉트인데 Cloudflare 봇 확인이 걸려 있어
+#   따라가지 않는다(우회 금지). 대신 글 상세 HTML 안에 이미 들어 있는 판매처 정보만 쓴다:
+#     · 본문 링크의 u2= 파라미터(판매처 원래 주소)
+#     · 월마트 리뷰 링크의 상품번호 → walmart.com/ip/<번호>
+#     · 판매처가 아마존이고 글 안의 ASIN 이 딱 하나일 때 → amazon.com/dp/<ASIN>
+#   확신이 없으면 빈 문자열(= 기존대로 슬릭딜 글 링크). 엉뚱한 상품으로 보내는 것보다 낫다.
+# ---------------------------------------------------------------------------
+_STORE_DOMAINS = {
+    "amazon": "amazon.com", "walmart": "walmart.com", "best buy": "bestbuy.com", "ebay": "ebay.com",
+    "woot": "woot.com", "woot!": "woot.com", "target": "target.com", "macy's": "macys.com",
+    "costco": "costco.com", "home depot": "homedepot.com", "the home depot": "homedepot.com",
+    "lowe's": "lowes.com", "nike": "nike.com", "adidas": "adidas.com", "kohl's": "kohls.com",
+    "newegg": "newegg.com", "b&h photo video": "bhphotovideo.com", "b&h": "bhphotovideo.com",
+    "nordstrom rack": "nordstromrack.com", "nordstrom": "nordstrom.com", "zappos": "zappos.com",
+    "6pm": "6pm.com", "dick's sporting goods": "dickssportinggoods.com", "rei": "rei.com",
+    "old navy": "oldnavy.com", "gap": "gap.com", "j.crew": "jcrew.com", "jcpenney": "jcpenney.com",
+    "dell": "dell.com", "lenovo": "lenovo.com", "hp": "hp.com", "samsung": "samsung.com",
+    "apple": "apple.com", "staples": "staples.com", "office depot": "officedepot.com",
+    "sam's club": "samsclub.com", "wayfair": "wayfair.com", "ulta": "ulta.com", "sephora": "sephora.com",
+}
+_U2 = re.compile(r'u2=([^&"\'\s<>]+)')
+_WALMART_REV = re.compile(r"walmart\.com/reviews/product/(\d+)")
+_ASIN = re.compile(r"amazon\.com/(?:[^\s\"'<>]*/)?(?:dp|gp/product)/(B0[A-Z0-9]{8})")
+
+
+def store_domain(store: str) -> str:
+    s = (store or "").strip().lower()
+    if not s:
+        return ""
+    if s in _STORE_DOMAINS:
+        return _STORE_DOMAINS[s]
+    if re.fullmatch(r"[a-z0-9-]+\.(?:com|net|org|co)", s):
+        return s
+    return ""
+
+
+def _host(u: str) -> str:
+    m = re.match(r"https?://(?:www\.|m\.)?([^/?#]+)", u or "")
+    return m.group(1).lower() if m else ""
+
+
+def direct_store_url(html_text: str, dom: str) -> str:
+    import html as _html
+    import urllib.parse as _up
+    if not dom:
+        return ""
+    t = _up.unquote(_html.unescape(html_text or ""))
+    if dom == "walmart.com":
+        ids = set(_WALMART_REV.findall(t))
+        if len(ids) == 1:
+            return f"https://www.walmart.com/ip/{ids.pop()}"
+    if dom == "amazon.com":
+        asins = set(_ASIN.findall(t))
+        if len(asins) == 1:
+            return f"https://www.amazon.com/dp/{asins.pop()}"
+    for raw in _U2.findall(_html.unescape(html_text or "")):
+        u = _up.unquote(raw)
+        h = _host(u)
+        if h and (h == dom or h.endswith("." + dom)) and "/reviews" not in u and "/search" not in u:
+            return u.split("#")[0]
+    return ""
 
 
 def enrich_slickdeals(deals: list, con=None, max_fetch: int | None = None) -> int:
@@ -679,6 +758,10 @@ def enrich_slickdeals(deals: list, con=None, max_fetch: int | None = None) -> in
                     meta = _json.loads(row[0])
                 except ValueError:
                     meta = None
+                if meta is not None and "store_domain" not in meta:
+                    # 2026-11-25 이전 캐시(판매처 링크 없음) — 예산이 남으면 다시 읽고, 아니면 그대로 쓴다
+                    if fetched < max_fetch and time.time() - t0 <= SD_ENRICH_SECS:
+                        meta = None
         if meta is None:
             if fetched >= max_fetch or time.time() - t0 > SD_ENRICH_SECS:
                 continue                     # 못 읽은 글은 다음 실행에서(피드에 30분쯤 머문다)
@@ -730,6 +813,67 @@ def apply_slickdeals_meta(d, meta: dict) -> None:
     d.signals = sig
     if meta.get("expired"):
         d.stock_status = "out_of_stock"
+    # 판매처가 확인되면 출처를 'slickdeals:<판매처>' 로 바꾸고 직접 링크를 신호로 남긴다.
+    dom = meta.get("store_domain") or ""
+    if dom and str(getattr(d, "source", "")) == "slickdeals:slickdeals.net":
+        d.source = f"slickdeals:{dom}"
+    if meta.get("direct"):
+        sig["direct_url"] = meta["direct"]
+
+
+# ---------------------------------------------------------------------------
+# 딜보드 슬릭딜 딜 재확인 (2026-11-25)
+#   글 상세는 처음 볼 때 한 번만 읽어 캐시했기 때문에, 그 뒤 슬릭딜에서 'Expired' 처리돼도
+#   딜보드에는 최대 48시간 '재고 있음'으로 남았다(실측: 24시간 넘게 재확인 안 된 딜 31%).
+#   발행할 때마다 '가장 오래전에 확인한' 슬릭딜 딜부터 몇 건씩 다시 읽어 종료 여부·판매처 링크를 갱신한다.
+# ---------------------------------------------------------------------------
+SD_RECHECK_HOURS = float(os.environ.get("RADAR_SD_RECHECK_HOURS", "6"))
+SD_RECHECK_MAX = int(os.environ.get("RADAR_SD_RECHECK_MAX", "12"))
+SD_RECHECK_SECS = float(os.environ.get("RADAR_SD_RECHECK_SECS", "35"))
+
+
+def recheck_slickdeals_rows(rows: list, con) -> dict:
+    """딜보드 행(dict) 중 슬릭딜 딜을 재확인한다.
+    반환: {스레드번호: meta} — 이번에 새로 읽은 것만. meta["expired"] 가 True 면 종료된 딜."""
+    import json as _json
+    if con is None:
+        return {}
+    con.execute("CREATE TABLE IF NOT EXISTS sd_meta (thread TEXT PRIMARY KEY, meta TEXT, fetched_at TEXT)")
+    now = datetime.now(timezone.utc)
+    due = []
+    for r in rows:
+        if not str(r.get("source", "")).startswith("slickdeals"):
+            continue
+        m = _SD_THREAD.search(r.get("url") or "")
+        if not m:
+            continue
+        th = m.group(1)
+        row = con.execute("SELECT fetched_at FROM sd_meta WHERE thread=?", (th,)).fetchone()
+        try:
+            age_h = (now - datetime.fromisoformat(row[0])).total_seconds() / 3600 if row else 1e9
+        except (TypeError, ValueError):
+            age_h = 1e9
+        if age_h >= SD_RECHECK_HOURS:
+            due.append((age_h, th))
+    due.sort(reverse=True)                       # 가장 오래전에 확인한 것부터
+    out: dict = {}
+    t0 = time.time()
+    for _, th in due[:SD_RECHECK_MAX]:
+        if time.time() - t0 > SD_RECHECK_SECS:
+            break
+        try:
+            meta = parse_slickdeals_page(_http_get(f"https://slickdeals.net/f/{th}", timeout=12))
+        except Exception as e:
+            print(f"[slickdeals] 재확인 실패 {th}: {getattr(e, 'code', type(e).__name__)}")
+            continue
+        con.execute("INSERT OR REPLACE INTO sd_meta(thread, meta, fetched_at) VALUES (?,?,?)",
+                    (th, _json.dumps(meta, ensure_ascii=False), now.isoformat()))
+        out[th] = meta
+        time.sleep(0.4)
+    con.commit()
+    if out:
+        print(f"[slickdeals] 딜보드 재확인 {len(out)}건 · 종료 {sum(1 for m in out.values() if m.get('expired'))}건")
+    return out
 
 
 def fetch_slickdeals(limit: int = 80) -> list[Deal]:

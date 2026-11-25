@@ -189,3 +189,125 @@ def headline_name(brand: str, title: str) -> str:
     words = (title or "").split()
     short = " ".join(words[:5]) + ("…" if len(words) > 5 else "")
     return f"{b} {short}".strip()
+
+
+# ---------------------------------------------------------------------------
+# 딜보드용 한글 제목 (2026-11-25)
+#   스레드용 ITEM_KR(패션 중심)은 kind() 판정에도 쓰이므로 건드리지 않고,
+#   전자·홈·생활·자동차 품목은 아래 GENERAL_KR 에만 둔다. 딜보드 카드 제목 전용.
+# ---------------------------------------------------------------------------
+GENERAL_KR = {
+    # 전자·IT
+    "earbuds": "무선 이어폰", "earphones": "이어폰", "headphones": "헤드폰", "headset": "헤드셋",
+    "soundbar": "사운드바", "bluetooth speaker": "블루투스 스피커", "speaker": "스피커",
+    "smartwatch": "스마트워치", "smart watch": "스마트워치", "fitness tracker": "피트니스 밴드",
+    "tablet": "태블릿", "ipad": "아이패드", "kindle": "킨들 전자책", "e-reader": "전자책 리더기",
+    "laptop": "노트북", "chromebook": "크롬북", "macbook": "맥북", "desktop": "데스크톱 PC",
+    "gaming monitor": "게이밍 모니터", "monitor": "모니터", "4k tv": "4K TV", "smart tv": "스마트 TV",
+    "oled tv": "OLED TV", "tv": "TV", "projector": "프로젝터", "streaming stick": "스트리밍 스틱",
+    "ssd": "SSD", "hard drive": "외장하드", "microsd": "마이크로SD 카드", "flash drive": "USB 메모리",
+    "memory card": "메모리 카드", "router": "공유기", "mesh wi-fi": "메시 와이파이", "keyboard": "키보드",
+    "mouse": "마우스", "webcam": "웹캠", "microphone": "마이크", "docking station": "도킹 스테이션",
+    "usb-c hub": "USB-C 허브", "hub": "허브", "charger": "충전기", "wall charger": "충전기",
+    "wireless charger": "무선 충전기", "charging station": "충전 스테이션", "power bank": "보조배터리",
+    "portable charger": "보조배터리", "battery pack": "보조배터리", "power station": "파워뱅크(캠핑용)",
+    "cable": "케이블", "camera": "카메라", "lens": "카메라 렌즈", "dash cam": "블랙박스",
+    "security camera": "보안 카메라", "video doorbell": "스마트 초인종", "smart plug": "스마트 플러그",
+    "smart outlet": "스마트 플러그", "wi-fi outlet": "스마트 플러그", "smart bulb": "스마트 전구",
+    "controller": "게임 컨트롤러", "console": "게임기", "nintendo switch": "닌텐도 스위치",
+    "gift card": "기프트카드", "printer": "프린터", "graphics card": "그래픽카드", "gpu": "그래픽카드",
+    "phone case": "휴대폰 케이스", "screen protector": "액정 보호필름",
+    # 홈·주방
+    "air fryer": "에어프라이어", "pressure cooker": "전기압력솥", "multi-cooker": "멀티쿠커",
+"rice cooker": "밥솥", "slow cooker": "슬로우쿠커",
+    "countertop oven": "오븐", "toaster oven": "토스터 오븐", "oven": "오븐", "microwave": "전자레인지",
+    "blender": "블렌더", "mixer": "믹서", "food processor": "푸드 프로세서", "coffee maker": "커피메이커",
+    "espresso machine": "에스프레소 머신", "kettle": "전기포트", "toaster": "토스터",
+    "cookware set": "냄비 세트", "cookware": "조리도구", "dutch oven": "무쇠 냄비", "skillet": "프라이팬",
+    "frying pan": "프라이팬", "knife set": "칼 세트", "knife": "칼", "cutting board": "도마",
+    "food storage": "밀폐용기", "tumbler": "텀블러", "water bottle": "물병", "travel bottle": "보온병",
+    "bottle": "보온병", "mug": "머그", "lunch box": "도시락통", "cooler": "아이스박스",
+    "robot vacuum": "로봇청소기", "stick vacuum": "무선 청소기", "vacuum": "청소기",
+    "air purifier": "공기청정기", "humidifier": "가습기", "dehumidifier": "제습기",
+    "space heater": "전기히터", "heater": "히터", "fan": "선풍기", "mattress": "매트리스",
+    "pillow": "베개", "comforter": "이불", "duvet": "이불", "sheet set": "침대 시트",
+    "towel": "수건", "lamp": "조명", "desk": "책상", "chair": "의자", "storage": "수납함",
+    "electric toothbrush": "전동칫솔", "water flosser": "구강세정기", "hair dryer": "헤어드라이어",
+    "shaver": "면도기", "trimmer": "트리머", "massager": "마사지기", "massage gun": "마사지건",
+    "scale": "체중계", "heating pad": "온열 패드", "charging pad": "무선 충전기",
+    "energy drink": "에너지 음료", "energy drinks": "에너지 음료", "sports drink": "스포츠 음료",
+    "juice": "주스", "coffee": "커피", "protein powder": "단백질 보충제", "pens": "펜", "gel pens": "젤펜",
+    "markers": "마커", "smart ring": "스마트링",
+    # 공구·자동차 (배대지·통관 주의 품목이 많다)
+    "jump starter": "점프스타터", "tire inflator": "타이어 공기주입기", "air compressor": "에어컴프레서",
+    "drill": "드릴", "impact driver": "임팩트 드라이버", "tool set": "공구 세트", "flashlight": "손전등",
+    # 장난감·유아
+    "lego": "레고", "playset": "놀이 세트", "play set": "놀이 세트", "building set": "블록 세트",
+    "magnetic tiles": "자석 블록", "doll": "인형", "plush": "봉제인형", "puzzle": "퍼즐",
+    "board game": "보드게임", "toy": "장난감", "stroller": "유모차", "car seat": "카시트",
+    "diapers": "기저귀", "high chair": "아기 의자",
+    # 패션 보강 (ITEM_KR 에 없는 것)
+    "bra": "브라", "lace-up": "레이스업 슈즈", "boat shoes": "보트슈즈", "boat shoe": "보트슈즈",
+    "lug": "러그솔 슈즈", "jersey": "저지", "swimsuit": "수영복", "pajamas": "잠옷",
+    "perfume": "향수", "fragrance": "향수", "cologne": "향수", "eau de parfum": "향수",
+}
+_GENERAL = sorted(GENERAL_KR, key=len, reverse=True)
+
+# 제목에 붙는 가격·배송·회원 조건 문구 — 한글 제목에선 뺀다(가격은 카드에 따로 나온다)
+_PRICE_NOISE = re.compile(
+    r"(\s*(?:for|at|@)?\s*\$\s?[\d,.]+(?:\s*(?:ea|each))?|\+\s*free\s+s&h|\+\s*free\s+shipping|"
+    r"free\s+shipping|\bw/\s*prime\b|\bvia\b.*$|\(\s*various[^)]*\)?|\bprime\s+members?:|"
+    r"\b[A-Z]{2,}/[A-Z]{2,}:|\bselect\s+(?:amazon\s+)?(?:accounts|accts|members)[^:]*:|^\s*\|\s*|^\s*(?:ymmv|today only|lightning deal)\s*:?)", re.I)
+
+
+def clean_title(title: str) -> str:
+    t = _PRICE_NOISE.sub(" ", title or "")
+    t = re.sub(r"\s*[-–—:|]\s*$", "", t)
+    return re.sub(r"\s+", " ", t).strip(" -–—,:;+|")
+
+
+def _last_match(t: str, terms: list, table: dict):
+    best = None   # (끝 위치, 길이, 한글)
+    for term in terms:
+        for m in re.finditer(rf"(?<![a-z]){re.escape(term)}(?![a-z])", t):
+            key = (m.end(), len(term))
+            if best is None or key > best[:2]:
+                best = (m.end(), len(term), table[term])
+    return best
+
+
+def general_item(title: str) -> str:
+    b = _last_match(_norm(title), _GENERAL, GENERAL_KR)
+    return b[2] if b else ""
+
+
+# 본품 뒤에 붙는 구성품·옵션 설명('+ Desk Mount', 'w/ Sport Band', 'with Spinner Wheels')은
+# 품목 판정에서 뺀다 — 영어 상품명의 본품 명사는 이 앞부분의 맨 끝에 온다.
+_ACCESSORY_TAIL = re.compile(r"\s(?:\+|w/|with|&\s*more|incl\.?|including|bundle)\s.*$", re.I)
+
+
+_WEAK_FASHION = {"벨트", "모자", "상의", "플랫슈즈", "크루넥 상의", "나시", "반지", "슬리퍼", "스니커즈", "가방"}
+
+
+def board_title(brand: str, title: str) -> str:
+    """딜보드 카드 제목: '스튜어트 와이츠먼 레이스업 슈즈', '스탠리 텀블러'.
+    품목을 못 찾으면 브랜드 한글명 + 짧은 영어 상품명(가격 문구 제거)."""
+    t = clean_title(title)
+    if brand and t.lower().startswith(brand.lower()):
+        t = t[len(brand):].lstrip(" -·,")
+    head = _ACCESSORY_TAIL.sub("", t) or t
+    b = brand_kr(brand) if brand else ""
+    n = _norm(head)
+    fa = _last_match(n, _ITEMS, ITEM_KR)
+    ge = _last_match(n, _GENERAL, GENERAL_KR)
+    # 두 사전 중 '더 뒤에서 끝나는'(=본품 명사) 쪽을 쓴다. 'Laptop Backpack' → 백팩
+    pick = max((x for x in (fa, ge) if x), key=lambda x: x[:2], default=None)
+    # 패션 사전의 짧은 일반 단어(belt·cap·top…)가 생활용품 제목 끝에 붙은 경우는 생활 품목을 쓴다
+    if pick is fa and ge and fa[2] in _WEAK_FASHION:
+        pick = ge
+    if pick:
+        g = gender(title) if pick is fa else ""
+        return " ".join(x for x in (b, g, pick[2]) if x).strip()
+    words = t.split()
+    short = " ".join(words[:6]) + ("…" if len(words) > 6 else "")
+    return f"{b} {short}".strip() if b else short

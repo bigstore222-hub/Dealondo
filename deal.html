@@ -124,6 +124,8 @@ function judge(d){
   points.push(dutyFree?`미국발 면세한도($${limit}) 안이라 관부가세가 없어요`:`면세한도 $${limit}을 넘어 관부가세가 붙어요`);
   if(save==null)points.push('국내 최저가는 아래 버튼으로 직접 확인해 보세요');
   if(atLow&&save!=null)points.push('딜온도가 기록한 가격 중 가장 낮아요');
+  if(/\b(power bank|portable charger|battery pack|jump starter|power station|lithium|perfume|fragrance|cologne|eau de (?:parfum|toilette)|aerosol)\b|\d{4,6}\s?mah/i.test(d.title||''))
+    points.push('리튬배터리·향수 등은 배대지 항공 운송이 막히는 경우가 많아요 — 결제 전 배대지 금지 품목을 확인하세요');
   if(sig.reddit_low){points.push(p<=sig.reddit_low*1.02?`레딧 과거 기록(최저 ${usd(sig.reddit_low)})보다 싸거나 같아요`
                                                          :`레딧엔 ${usd(sig.reddit_low)}까지 내려간 기록이 있어요`);}
   if(sig.sd_hot_origin&&sig.sd_votes!=null)points.push(`슬릭딜 Hot Deals에 ${sig.sd_age_min}분 전 올라와 추천 ${sig.sd_votes}개`);
@@ -145,12 +147,15 @@ function render(d, fx){
   const orig=String(d.url||'').includes('slickdeals.net')?safeUrl(d.url):'';
   const q=encodeURIComponent(`${d.brand||''} ${d.title||''}`.trim().split(/\s+/).slice(0,6).join(' '));
   const calc=`calc.html?p=${encodeURIComponent(d.price_current||'')}&c=${CATS[d.category]||'etc'}${WIRELESS.test(`${d.brand||''} ${d.title||''}`)?'&w=1':''}`;
-  document.title=`${d.brand?d.brand+' ':''}${d.title} — 딜온도`;
+  document.title=`${d.title_kr||((d.brand?d.brand+' ':'')+d.title)} — 딜온도`;
+  const bh=(/^https?:\/\/(?:www\.)?([^\/?#]+)/i.exec(buy)||[])[1]||'';
+  const buyLbl=/slickdeals\.net$/i.test(bh)?'슬릭딜 원문에서 구매하기 →':(/dealnews|dealsofamerica/i.test(bh)?'원문에서 구매하기 →':`${STORES[bh.toLowerCase()]||'판매처'}에서 구매하기 →`);
   $app.innerHTML=`
   <div class="card">
     ${img?`<img class="thumb" src="${esc(img)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:''}
     ${d.brand?`<div class="brand">${esc(d.brand)}</div>`:''}
-    <h1>${esc(d.title)}</h1>
+    <h1>${esc(d.title_kr||d.title)}</h1>
+    ${d.title_kr&&d.title_kr!==d.title?`<div class="meta" style="margin-top:-4px">${esc(d.title)}</div>`:''}
     <div class="meta"><span>${esc(store(d))}</span>${d.detected_at?`<span>🕒 ${ago(d.detected_at)} 발견</span>`:''}${d.last_seen?`<span>🔄 ${ago(d.last_seen)} 확인</span>`:''}</div>
     <div class="price"><span class="now">${usd(d.price_current)}</span>${d.price_list?`<span class="was">${usd(d.price_list)}</span>`:''}${d.discount_pct?`<span class="off">${Math.round(d.discount_pct)}% OFF</span>`:''}</div>
     ${d.coupon_code?`<div class="chips"><span class="chip">결제창 코드 <b>${esc(d.coupon_code)}</b></span></div>`:''}
@@ -177,8 +182,8 @@ function render(d, fx){
     <div class="note">딜온도가 수집할 때마다 기록한 날짜별 최저가예요${j.histLow!=null?` · 기간 최저 ${usd(j.histLow)}`:''}.</div></div>`:''}
 
   <div class="btns">
-    ${buy?`<a class="btn primary" href="${esc(buy)}" target="_blank" rel="noopener noreferrer sponsored">구매하러 가기 →</a>`:''}
-    ${orig?`<a class="btn" href="${esc(orig)}" target="_blank" rel="noopener noreferrer">슬릭딜 원본글 ↗</a>`:''}
+    ${buy?`<a class="btn primary" href="${esc(buy)}" target="_blank" rel="noopener noreferrer sponsored">${esc(buyLbl)}</a>`:''}
+    ${orig&&orig!==buy?`<a class="btn" href="${esc(orig)}" target="_blank" rel="noopener noreferrer">슬릭딜 원본글 ↗</a>`:''}
     <a class="btn" href="https://search.shopping.naver.com/search/all?query=${q}" target="_blank" rel="noopener noreferrer">네이버 국내가 확인 ↗</a>
     <a class="btn" href="${esc(calc)}">도착가 계산기</a>
   </div>
