@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25T09:31:05.139306+00:00",
-  "count": 339,
+  "generated_at": "2026-11-25T09:40:49.943883+00:00",
+  "count": 341,
   "deals": [
     {
       "source": "6pm.com",
@@ -429,15 +429,15 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-24T21:21:07.024207+00:00",
-      "last_seen": "2026-11-25T09:31:02.809525+00:00",
+      "last_seen": "2026-11-25T09:40:49.412458+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Streaming Services",
         "sd_store": "Slickdeals",
         "sd_hot_origin": false,
-        "sd_age_min": 730,
+        "sd_age_min": 740,
         "sd_votes": 412,
-        "sd_velocity": 33.9
+        "sd_velocity": 33.4
       },
       "title_kr": "Disney TV",
       "id": "7d4944fad2",
@@ -1149,6 +1149,82 @@
         ]
       ],
       "title_kr": "삼성 무선 이어폰"
+    },
+    {
+      "source": "slickdeals:bestbuy.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20386962",
+      "title": "Sony PlayStation DualSense Wireless Controller (007 First Light Limited Edition) $65 + Free S&H",
+      "brand": "Sony",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/8/6/6/3/0/300x300/22579380.thumb",
+      "price_current": 65.0,
+      "price_list": 84.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 39,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 87298,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20386962",
+      "discount_pct": 23.5,
+      "score": 92,
+      "score_breakdown": {
+        "discount_depth": 8,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 폭발 39표/46분 → 하한 86",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-24T15:22:07.717453+00:00",
+      "last_seen": "2026-11-25T09:40:49.412458+00:00",
+      "posted_at": "2026-11-25T08:54:47+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Video Game Accessories",
+        "sd_store": "Best Buy",
+        "sd_brand": "Sony",
+        "sd_hot_origin": true,
+        "sd_age_min": 46,
+        "sd_votes": 39,
+        "sd_velocity": 50.8,
+        "sd_fp_min": 46
+      },
+      "title_kr": "소니 게임 컨트롤러",
+      "id": "e01e62bdfd",
+      "history": [
+        [
+          "2026-11-24",
+          65.0
+        ],
+        [
+          "2026-11-25",
+          65.0
+        ]
+      ]
     },
     {
       "source": "slickdeals:adidas.com",
@@ -2644,16 +2720,16 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-25T05:33:04.815581+00:00",
-      "last_seen": "2026-11-25T09:31:02.809525+00:00",
+      "last_seen": "2026-11-25T09:40:49.412458+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Women's Pants & Shorts",
         "sd_store": "Retailer",
         "sd_brand": "Nike",
         "sd_hot_origin": false,
-        "sd_age_min": 254,
+        "sd_age_min": 263,
         "sd_votes": 99,
-        "sd_velocity": 23.4,
+        "sd_velocity": 22.6,
         "sd_fp_min": 16
       },
       "title_kr": "나이키 여성용 바지",
@@ -3588,13 +3664,13 @@
         "bonus": 0,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 48표/64분 → 하한 86"
+        "slickdeals": "Hot Deals 폭발 48표/74분 → 하한 86"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-25T09:01:39.160021+00:00",
-      "last_seen": "2026-11-25T09:31:02.809525+00:00",
+      "last_seen": "2026-11-25T09:40:49.412458+00:00",
       "posted_at": "2026-11-25T08:27:17+00:00",
       "signals": {
         "sd_feeds": [
@@ -3604,9 +3680,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Bose",
         "sd_hot_origin": true,
-        "sd_age_min": 64,
+        "sd_age_min": 74,
         "sd_votes": 48,
-        "sd_velocity": 45.2
+        "sd_velocity": 39.2
       },
       "title_kr": "보스 헤드폰",
       "id": "dbd9070f4c",
@@ -4067,16 +4143,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T02:31:47.119730+00:00",
-      "last_seen": "2026-11-25T09:31:02.809525+00:00",
+      "last_seen": "2026-11-25T09:40:49.412458+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Women's Activewear",
         "sd_store": "Retailer",
         "sd_brand": "Nike",
         "sd_hot_origin": false,
-        "sd_age_min": 429,
+        "sd_age_min": 439,
         "sd_votes": 48,
-        "sd_velocity": 6.7,
+        "sd_velocity": 6.6,
         "sd_fp_min": 10
       },
       "title_kr": "나이키 여성용 바지",
@@ -4664,14 +4740,14 @@
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
         "code_deal": "공개코드 CYBERFINDS20 → 하한 75",
-        "slickdeals": "Hot Deals 급상승 24표/86분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 24표/95분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T00:02:06.008014+00:00",
-      "last_seen": "2026-11-25T09:31:02.809525+00:00",
+      "last_seen": "2026-11-25T09:40:49.412458+00:00",
       "posted_at": "2026-11-25T08:05:25+00:00",
       "signals": {
         "sd_feeds": [
@@ -4681,9 +4757,9 @@
         "sd_store": "eBay",
         "sd_brand": "Crocs",
         "sd_hot_origin": true,
-        "sd_age_min": 86,
+        "sd_age_min": 95,
         "sd_votes": 24,
-        "sd_velocity": 16.8,
+        "sd_velocity": 15.1,
         "sd_fp_min": 17
       },
       "title_kr": "크록스 클로그",
@@ -9601,7 +9677,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T09:01:39.160021+00:00",
-      "last_seen": "2026-11-25T09:31:02.809525+00:00",
+      "last_seen": "2026-11-25T09:40:49.412458+00:00",
       "posted_at": "2026-11-25T08:13:17+00:00",
       "signals": {
         "sd_feeds": [
@@ -9611,9 +9687,9 @@
         "sd_store": "eBay",
         "sd_brand": "Citizen",
         "sd_hot_origin": true,
-        "sd_age_min": 78,
+        "sd_age_min": 88,
         "sd_votes": 1,
-        "sd_velocity": 0.8
+        "sd_velocity": 0.7
       },
       "title_kr": "시티즌 남성용 시계",
       "id": "bdd2522968",
@@ -10827,7 +10903,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T09:01:39.160021+00:00",
-      "last_seen": "2026-11-25T09:31:02.809525+00:00",
+      "last_seen": "2026-11-25T09:40:49.412458+00:00",
       "posted_at": "2026-11-25T08:17:36+00:00",
       "signals": {
         "sd_feeds": [
@@ -10837,7 +10913,7 @@
         "sd_store": "Amazon",
         "sd_brand": "UGREEN",
         "sd_hot_origin": true,
-        "sd_age_min": 73,
+        "sd_age_min": 83,
         "sd_votes": 0,
         "sd_velocity": 0.0
       },
@@ -11317,7 +11393,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T08:41:16.872744+00:00",
-      "last_seen": "2026-11-25T09:31:02.809525+00:00",
+      "last_seen": "2026-11-25T09:40:49.412458+00:00",
       "posted_at": "2026-11-25T08:29:52+00:00",
       "signals": {
         "sd_feeds": [
@@ -11327,9 +11403,9 @@
         "sd_store": "Journeys",
         "sd_brand": "New Balance",
         "sd_hot_origin": false,
-        "sd_age_min": 61,
+        "sd_age_min": 71,
         "sd_votes": 25,
-        "sd_velocity": 24.5,
+        "sd_velocity": 21.1,
         "sd_fp_min": 11
       },
       "title_kr": "뉴발란스 신발",
@@ -11449,7 +11525,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T09:01:39.160021+00:00",
-      "last_seen": "2026-11-25T09:31:02.809525+00:00",
+      "last_seen": "2026-11-25T09:40:49.412458+00:00",
       "posted_at": "2026-11-25T08:15:52+00:00",
       "signals": {
         "sd_feeds": [
@@ -11459,9 +11535,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Dr. Martens",
         "sd_hot_origin": true,
-        "sd_age_min": 75,
+        "sd_age_min": 85,
         "sd_votes": 1,
-        "sd_velocity": 0.8
+        "sd_velocity": 0.7
       },
       "title_kr": "닥터마틴 여성용 부츠",
       "id": "aa908e1e3a",
@@ -12606,7 +12682,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T09:01:39.160021+00:00",
-      "last_seen": "2026-11-25T09:31:02.809525+00:00",
+      "last_seen": "2026-11-25T09:40:49.412458+00:00",
       "posted_at": "2026-11-25T08:12:00+00:00",
       "signals": {
         "sd_feeds": [
@@ -12616,9 +12692,9 @@
         "sd_store": "Amazon",
         "sd_brand": "LG",
         "sd_hot_origin": true,
-        "sd_age_min": 79,
+        "sd_age_min": 89,
         "sd_votes": 1,
-        "sd_velocity": 0.8
+        "sd_velocity": 0.7
       },
       "title_kr": "LG 사운드바",
       "id": "cbaaa970ff",
@@ -13294,16 +13370,16 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T02:50:47.386625+00:00",
-      "last_seen": "2026-11-25T09:31:02.809525+00:00",
+      "last_seen": "2026-11-25T09:40:49.412458+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Door Hardware & Locks",
         "sd_store": "Walmart",
         "sd_brand": "eufy",
         "sd_hot_origin": false,
-        "sd_age_min": 412,
+        "sd_age_min": 421,
         "sd_votes": 68,
-        "sd_velocity": 9.9,
+        "sd_velocity": 9.7,
         "sd_fp_min": 11
       },
       "title_kr": "eufy Security Smart Lock FamiLock C32 Fingerprint…",
@@ -13978,7 +14054,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 31,
+      "community_votes": 33,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -14008,7 +14084,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T08:21:57.226424+00:00",
-      "last_seen": "2026-11-25T09:31:02.809525+00:00",
+      "last_seen": "2026-11-25T09:40:49.412458+00:00",
       "posted_at": "2026-11-25T07:59:20+00:00",
       "signals": {
         "sd_feeds": [
@@ -14018,9 +14094,9 @@
         "sd_store": "JomaShop",
         "sd_brand": "Citizen",
         "sd_hot_origin": false,
-        "sd_age_min": 92,
-        "sd_votes": 31,
-        "sd_velocity": 20.3,
+        "sd_age_min": 101,
+        "sd_votes": 33,
+        "sd_velocity": 19.5,
         "sd_fp_min": 23
       },
       "title_kr": "시티즌 남성용 시계",
@@ -16004,6 +16080,77 @@
         ]
       ],
       "title_kr": "어그 봉제인형"
+    },
+    {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20388675",
+      "title": "27\" Alienware AW2725QF Dual Resolution 4K/FHD IPS 360Hz Monitor $280 + Free S&H",
+      "brand": "Alienware",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/3/5/9/0/8/1/7/9/300x300/22568313.thumb",
+      "price_current": 280.0,
+      "price_list": 488.69,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 28,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 446750,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20388675",
+      "discount_pct": 42.7,
+      "score": 61,
+      "score_breakdown": {
+        "discount_depth": 20,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-25T09:40:49.232188+00:00",
+      "last_seen": "2026-11-25T09:40:49.412458+00:00",
+      "posted_at": "2026-11-25T08:57:19+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Gaming Monitors",
+        "sd_store": "Amazon",
+        "sd_brand": "Alienware",
+        "sd_hot_origin": false,
+        "sd_age_min": 44,
+        "sd_votes": 28,
+        "sd_velocity": 38.6,
+        "sd_fp_min": 44
+      },
+      "title_kr": "Alienware 모니터",
+      "id": "f39eed13c8",
+      "history": [
+        [
+          "2026-11-25",
+          280.0
+        ]
+      ]
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -18654,7 +18801,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 27,
+      "community_votes": 28,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -18684,7 +18831,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T08:21:57.226424+00:00",
-      "last_seen": "2026-11-25T09:31:02.809525+00:00",
+      "last_seen": "2026-11-25T09:40:49.412458+00:00",
       "posted_at": "2026-11-25T07:35:21+00:00",
       "signals": {
         "sd_feeds": [
@@ -18694,9 +18841,9 @@
         "sd_store": "Amazon",
         "sd_brand": "YETI",
         "sd_hot_origin": false,
-        "sd_age_min": 116,
-        "sd_votes": 27,
-        "sd_velocity": 14.0,
+        "sd_age_min": 125,
+        "sd_votes": 28,
+        "sd_velocity": 13.4,
         "sd_fp_min": 47
       },
       "title_kr": "예티 보온병",
@@ -18969,7 +19116,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T09:01:39.160021+00:00",
-      "last_seen": "2026-11-25T09:31:02.809525+00:00",
+      "last_seen": "2026-11-25T09:40:49.412458+00:00",
       "posted_at": "2026-11-25T08:41:02+00:00",
       "signals": {
         "sd_feeds": [
@@ -18979,7 +19126,7 @@
         "sd_store": "Amazon",
         "sd_brand": "Rachael Ray",
         "sd_hot_origin": true,
-        "sd_age_min": 50,
+        "sd_age_min": 60,
         "sd_votes": 0,
         "sd_velocity": 0.0
       },
@@ -23654,16 +23801,16 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T07:50:45.612941+00:00",
-      "last_seen": "2026-11-25T09:31:02.809525+00:00",
+      "last_seen": "2026-11-25T09:40:49.412458+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Kids Clothes",
         "sd_store": "Walmart",
         "sd_brand": "Disney",
         "sd_hot_origin": false,
-        "sd_age_min": 113,
+        "sd_age_min": 123,
         "sd_votes": 23,
-        "sd_velocity": 12.2,
+        "sd_velocity": 11.2,
         "sd_fp_min": 13
       },
       "title_kr": "Disney 아동용 재킷",
@@ -23722,16 +23869,16 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T05:10:47.551396+00:00",
-      "last_seen": "2026-11-25T09:31:02.809525+00:00",
+      "last_seen": "2026-11-25T09:40:49.412458+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Smart Watches & Wearables",
         "sd_store": "Walmart",
         "sd_brand": "Nothing",
         "sd_hot_origin": false,
-        "sd_age_min": 264,
+        "sd_age_min": 274,
         "sd_votes": 40,
-        "sd_velocity": 9.1,
+        "sd_velocity": 8.8,
         "sd_fp_min": 4
       },
       "title_kr": "Nothing 스마트워치",
@@ -23889,7 +24036,7 @@
   "fx_usd_krw": 1343.0,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-25T09:30:36+00:00",
+      "T1": "2026-11-25T09:40:29+00:00",
       "T2": "2026-11-25T09:20:49+00:00",
       "T3": "2026-11-25T09:01:43+00:00",
       "T4": "2026-11-25T03:30:41+00:00"
@@ -23923,6 +24070,7 @@
       1,
       9,
       10,
+      10,
       10
     ],
     "naver": {
@@ -23930,7 +24078,7 @@
       "queried": 25,
       "matched": 0,
       "errors": 0,
-      "at": "2026-11-25T09:31:02+00:00"
+      "at": "2026-11-25T09:40:49+00:00"
     },
     "reddit": {
       "mode": "공개 검색(키 없음)",
@@ -23938,13 +24086,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-25T09:31:02+00:00"
+      "at": "2026-11-25T09:40:49+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-25T09:31:00+00:00",
+        "at": "2026-11-25T09:40:49+00:00",
         "state": "정상",
         "mails": 24,
         "deals": 24
@@ -23970,7 +24118,7 @@
         "published": false,
         "reject_reason": "H8: 할인 14% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-25T09:31:02+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377878",
@@ -23985,7 +24133,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:50:45+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377794",
@@ -24000,7 +24148,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(Dr. Seuss) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-25T07:40:46+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20379402",
@@ -24015,7 +24163,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:32:09+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20378640",
@@ -24030,7 +24178,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:10:49+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20391429",
@@ -24045,7 +24193,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:01:10+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20390721",
@@ -24060,7 +24208,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Hand Tools)",
         "first_seen": "2026-11-25T07:01:10+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20285211",
@@ -24075,7 +24223,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T05:33:08+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20387397",
@@ -24090,7 +24238,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T05:11:09+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20387883",
@@ -24105,7 +24253,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T05:11:09+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370600",
@@ -24135,7 +24283,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T04:21:15+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20378790",
@@ -24150,7 +24298,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T03:43:03+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20382042",
@@ -24225,7 +24373,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T03:24:05+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20355357",
@@ -24240,7 +24388,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Flashlights)",
         "first_seen": "2026-11-25T03:24:05+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20369073",
@@ -24255,7 +24403,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T03:01:23+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377302",
@@ -24285,7 +24433,7 @@
         "published": false,
         "reject_reason": "H7: Oakley 할인 25% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-25T02:51:12+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20341524",
@@ -24300,7 +24448,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T02:51:12+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20338935",
@@ -24315,7 +24463,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T02:51:12+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20356968",
@@ -24330,7 +24478,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T02:32:12+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20388306",
@@ -24345,7 +24493,7 @@
         "published": false,
         "reject_reason": "H8: 할인 22% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-25T02:21:11+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20295423",
@@ -24360,7 +24508,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(4K TVs)",
         "first_seen": "2026-11-25T02:11:07+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20375277",
@@ -24375,7 +24523,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-25T01:11:05+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20360187",
@@ -24390,7 +24538,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-25T01:01:17+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20363580",
@@ -24600,7 +24748,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T21:21:28+00:00",
-        "last_seen": "2026-11-25T09:31:02+00:00"
+        "last_seen": "2026-11-25T09:40:49+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374683",
