@@ -1207,11 +1207,102 @@
    "msg": 4704,
    "status": "posted",
    "link": "https://www.threads.com/@deal_ondo/post/DgJclskEcRn"
+  },
+  "d4aedb10": {
+   "created": "2026-11-25T11:41:06+09:00",
+   "url": "https://www.nordstromrack.com/s/nike-pacific-low-top-sneaker-women/8289606",
+   "deal": {
+    "source": "nordstromrack.com",
+    "source_tier": "T2",
+    "url": "https://www.nordstromrack.com/s/nike-pacific-low-top-sneaker-women/8289606",
+    "title": "Pacific Low Top Sneaker",
+    "brand": "Nike",
+    "category": "sports_outdoor",
+    "image": "https://n.nordstrommedia.com/it/08271c4f-95d9-4565-b8bd-c22c9295f9c1.jpeg?h=368&w=240&dpr=2",
+    "price_current": 31.98,
+    "price_list": 80.0,
+    "price_baseline": 80.0,
+    "price_alltime_low": 31.98,
+    "currency": "USD",
+    "coupon_code": "",
+    "coupon_stackable": false,
+    "off_season": false,
+    "free_gift": false,
+    "community_votes": null,
+    "rating": null,
+    "review_count": null,
+    "ships_to_kr": true,
+    "forwarding_ok": true,
+    "krw_effective": 42950,
+    "kr_lowest_price": null,
+    "stock_status": "in_stock",
+    "is_refurbished": false,
+    "expires_at": null,
+    "collection_method": "scrape",
+    "frontpage": false,
+    "code_kind": "",
+    "brand_tier": "known",
+    "buy_url": "https://www.nordstromrack.com/s/nike-pacific-low-top-sneaker-women/8289606",
+    "discount_pct": 60.0,
+    "score": 82,
+    "score_breakdown": {
+     "discount_depth": 30,
+     "price_history": 25,
+     "category": 17,
+     "bonus": 4,
+     "brand": 6
+    },
+    "passed_hard_filter": true,
+    "reject_reason": "",
+    "urgency": "HOT",
+    "detected_at": "2026-11-19T21:41:23.210533+00:00",
+    "last_seen": "2026-11-25T02:02:17.404791+00:00",
+    "posted_at": "",
+    "signals": {},
+    "id": "244f8f7302",
+    "history": [
+     [
+      "2026-11-19",
+      31.98
+     ],
+     [
+      "2026-11-20",
+      31.98
+     ],
+     [
+      "2026-11-21",
+      31.98
+     ],
+     [
+      "2026-11-22",
+      31.98
+     ],
+     [
+      "2026-11-23",
+      31.98
+     ],
+     [
+      "2026-11-24",
+      31.98
+     ],
+     [
+      "2026-11-25",
+      31.98
+     ]
+    ]
+   },
+   "seen": "2026-11-25T11:02:17.404791+09:00",
+   "text": "$31.98짜리 나이키 스니커즈, 사이즈만 맞으면 이득이에요.\n\nNordstrom Rack · 정가 $80 → $31.98 (60% 할인)\n$200 아래라 관부가세 없이 받아요.\n미국 사이즈는 브랜드마다 달라서, 상품 페이지 사이즈표를 꼭 보고 고르세요.\n\n미국 사이즈, 평소보다 반 치수 작게 사세요 크게 사세요?",
+   "reply": "상품 링크: https://www.nordstromrack.com/s/nike-pacific-low-top-sneaker-women/8289606\n다른 사이즈·색상은 링크에서 확인하세요.",
+   "notes": [],
+   "angle": "size",
+   "already": false,
+   "photo_msg": 4708,
+   "msg": 4709,
+   "status": "waiting"
   }
  },
  "done_updates": [
-  303762817,
-  303762818,
   303762819,
   303762820,
   303762821,
@@ -1456,7 +1547,8 @@
   "2026-11-23-점심": "b67a4828",
   "2026-11-23-저녁": "61d17860",
   "2026-11-24-점심": "e8caf0bb",
-  "2026-11-24-저녁": "201e7abe"
+  "2026-11-24-저녁": "201e7abe",
+  "2026-11-25-점심": "d4aedb10"
  },
  "picked_urls": [
   "6pm.com/product/9961271",
@@ -1501,14 +1593,10 @@
   "zappos.com/product/10054925",
   "nordstromrack.com/s/nike-nkb-nsw-colorblock-fleece-pant/9248367",
   "6pm.com/product/10023662",
-  "nordstromrack.com/s/ugg-scuffette-chalet-genuine-sheepskin-slipper-women/8378058"
+  "nordstromrack.com/s/ugg-scuffette-chalet-genuine-sheepskin-slipper-women/8378058",
+  "nordstromrack.com/s/nike-pacific-low-top-sneaker-women/8289606"
  ],
  "runs": [
-  {
-   "at": "2026-11-23T11:46:09+09:00",
-   "updates": 1,
-   "errors": []
-  },
   {
    "at": "2026-11-23T12:05:59+09:00",
    "updates": 0,
@@ -1702,6 +1790,11 @@
   {
    "at": "2026-11-25T11:24:26+09:00",
    "updates": 2,
+   "errors": []
+  },
+  {
+   "at": "2026-11-25T11:49:54+09:00",
+   "updates": 0,
    "errors": []
   }
  ],
