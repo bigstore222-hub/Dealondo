@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25T15:10:33.423059+00:00",
-  "count": 357,
+  "generated_at": "2026-11-25T15:21:23.213408+00:00",
+  "count": 358,
   "deals": [
     {
       "source": "6pm.com",
@@ -429,15 +429,15 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-24T21:21:07.024207+00:00",
-      "last_seen": "2026-11-25T15:02:18.601656+00:00",
+      "last_seen": "2026-11-25T15:21:21.767980+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Streaming Services",
         "sd_store": "Slickdeals",
         "sd_hot_origin": false,
-        "sd_age_min": 1061,
+        "sd_age_min": 1080,
         "sd_votes": 468,
-        "sd_velocity": 26.5
+        "sd_velocity": 26.0
       },
       "title_kr": "Disney TV",
       "id": "7d4944fad2",
@@ -1295,13 +1295,13 @@
     {
       "source": "slickdeals:amazon.com",
       "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20393703",
-      "title": "Sennheiser HD 650 Audiophile Hi-Res Open Back Dynamic Headphones $300 + Free S&H",
-      "brand": "Sennheiser",
-      "category": "electronics",
-      "image": "https://static.slickdealscdn.com/attachment/1/1/7/1/5/2/7/300x300/22581195.thumb",
-      "price_current": 300.0,
-      "price_list": 579.95,
+      "url": "https://slickdeals.net/f/20393517",
+      "title": "Yamaha True X Bar 50A Dolby Atmos Sound Bar with Wireless Subwoofer $200 + Free S&H",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/1/6/7/9/8/1/2/300x300/22583814.thumb",
+      "price_current": 200.0,
+      "price_list": null,
       "price_baseline": null,
       "price_alltime_low": null,
       "currency": "USD",
@@ -1309,12 +1309,12 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 20,
+      "community_votes": 22,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
       "forwarding_ok": true,
-      "krw_effective": 478660,
+      "krw_effective": 268609,
       "kr_lowest_price": null,
       "stock_status": "in_stock",
       "is_refurbished": false,
@@ -1323,45 +1323,120 @@
       "frontpage": true,
       "code_kind": "",
       "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/dp/B00018MSNI",
-      "discount_pct": 48.3,
+      "buy_url": "https://www.amazon.com/dp/B0CBQG1F6K",
+      "discount_pct": null,
       "score": 92,
       "score_breakdown": {
-        "discount_depth": 30,
+        "discount_depth": 0,
         "price_history": null,
-        "category": 15,
+        "category": 5,
         "bonus": 0,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 20표/38분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 22표/38분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
-      "detected_at": "2026-11-25T12:21:30.611859+00:00",
-      "last_seen": "2026-11-25T15:02:18.601656+00:00",
-      "posted_at": "2026-11-25T14:24:19+00:00",
+      "detected_at": "2026-11-25T11:31:56.690994+00:00",
+      "last_seen": "2026-11-25T15:21:21.767980+00:00",
+      "posted_at": "2026-11-25T14:43:44+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
-        "sd_cat": "Headphones, Headsets & Earbuds",
+        "sd_cat": "Sound Bars",
         "sd_store": "Amazon",
-        "sd_brand": "Sennheiser",
-        "direct_url": "https://www.amazon.com/dp/B00018MSNI",
+        "direct_url": "https://www.amazon.com/dp/B0CBQG1F6K",
         "sd_hot_origin": true,
         "sd_age_min": 38,
-        "sd_votes": 20,
-        "sd_velocity": 31.6,
-        "sd_fp_min": 8
+        "sd_votes": 22,
+        "sd_velocity": 35.1,
+        "sd_fp_min": 38
       },
-      "title_kr": "Sennheiser 헤드폰",
-      "id": "13af51c90d",
+      "title_kr": "Yamaha True X Bar 50A Dolby…",
+      "id": "34ed3489a8",
       "history": [
         [
           "2026-11-25",
-          300.0
+          200.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:walmart.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20338386",
+      "title": "587-Pc LEGO Pokémon Eevee Posable Figure Building Set + $9 Walmart Cash $48 + Free S&H",
+      "brand": "LEGO",
+      "category": "kids",
+      "image": "https://static.slickdealscdn.com/attachment/2/3/8/5/4/6/4/0/300x300/22432962.thumb",
+      "price_current": 48.0,
+      "price_list": 59.99,
+      "price_baseline": null,
+      "price_alltime_low": 47.96,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 69,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 64466,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.walmart.com/ip/17709163432",
+      "discount_pct": 20.0,
+      "score": 92,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": 0,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "slickdeals": "Hot Deals 폭발 69표/44분 → 하한 86",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-19T05:50:39.982821+00:00",
+      "last_seen": "2026-11-25T15:21:21.767980+00:00",
+      "posted_at": "2026-11-25T14:37:40+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Kids Toys",
+        "sd_store": "Walmart",
+        "sd_brand": "LEGO",
+        "direct_url": "https://www.walmart.com/ip/17709163432",
+        "sd_hot_origin": true,
+        "sd_age_min": 44,
+        "sd_votes": 69,
+        "sd_velocity": 94.8,
+        "sd_fp_min": 44
+      },
+      "title_kr": "LEGO 블록 세트",
+      "id": "4b74aaa0aa",
+      "history": [
+        [
+          "2026-11-19",
+          47.96
+        ],
+        [
+          "2026-11-25",
+          48.0
         ]
       ]
     },
@@ -1382,7 +1457,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 31,
+      "community_votes": 45,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -1406,14 +1481,14 @@
         "bonus": 4,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 31표/45분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 45표/64분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-25T09:51:11.601911+00:00",
-      "last_seen": "2026-11-25T15:02:18.601656+00:00",
+      "last_seen": "2026-11-25T15:21:21.767980+00:00",
       "posted_at": "2026-11-25T14:17:05+00:00",
       "signals": {
         "sd_feeds": [
@@ -1423,9 +1498,9 @@
         "sd_store": "Kroger",
         "sd_brand": "Disney",
         "sd_hot_origin": true,
-        "sd_age_min": 45,
-        "sd_votes": 31,
-        "sd_velocity": 41.1,
+        "sd_age_min": 64,
+        "sd_votes": 45,
+        "sd_velocity": 42.0,
         "sd_fp_min": 16
       },
       "title_kr": "Disney Kroger & Affiliated Stores Offer: 1-Yr…",
@@ -2931,16 +3006,16 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-25T05:33:04.815581+00:00",
-      "last_seen": "2026-11-25T15:02:18.601656+00:00",
+      "last_seen": "2026-11-25T15:21:21.767980+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Women's Pants & Shorts",
         "sd_store": "Retailer",
         "sd_brand": "Nike",
         "sd_hot_origin": false,
-        "sd_age_min": 585,
+        "sd_age_min": 604,
         "sd_votes": 104,
-        "sd_velocity": 10.7,
+        "sd_velocity": 10.3,
         "sd_fp_min": 16
       },
       "title_kr": "나이키 여성용 바지",
@@ -3876,13 +3951,13 @@
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
         "code_deal": "공개코드 1NRSMKMZ → 하한 75",
-        "slickdeals": "Hot Deals 폭발 16표/12분 → 하한 86"
+        "slickdeals": "Hot Deals 폭발 16표/31분 → 하한 86"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-25T15:02:18.208679+00:00",
-      "last_seen": "2026-11-25T15:02:18.601656+00:00",
+      "last_seen": "2026-11-25T15:21:21.767980+00:00",
       "posted_at": "2026-11-25T14:50:01+00:00",
       "signals": {
         "sd_feeds": [
@@ -3892,9 +3967,9 @@
         "sd_store": "Amazon",
         "direct_url": "https://www.amazon.com/dp/B0HR1497KL",
         "sd_hot_origin": true,
-        "sd_age_min": 12,
+        "sd_age_min": 31,
         "sd_votes": 16,
-        "sd_velocity": 78.1
+        "sd_velocity": 30.6
       },
       "title_kr": "프로젝터",
       "id": "b3045a4b69",
@@ -4425,16 +4500,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T02:31:47.119730+00:00",
-      "last_seen": "2026-11-25T15:02:18.601656+00:00",
+      "last_seen": "2026-11-25T15:21:21.767980+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Women's Activewear",
         "sd_store": "Retailer",
         "sd_brand": "Nike",
         "sd_hot_origin": false,
-        "sd_age_min": 761,
+        "sd_age_min": 780,
         "sd_votes": 48,
-        "sd_velocity": 3.8,
+        "sd_velocity": 3.7,
         "sd_fp_min": 10
       },
       "title_kr": "나이키 여성용 바지",
@@ -5538,6 +5613,79 @@
       "title_kr": "Steam God of War (2022) (PCDD/Steam Code)"
     },
     {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20393703",
+      "title": "Sennheiser HD 650 Audiophile Hi-Res Open Back Dynamic Headphones $300 + Free S&H",
+      "brand": "Sennheiser",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/1/1/7/1/5/2/7/300x300/22581195.thumb",
+      "price_current": 300.0,
+      "price_list": 579.95,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 26,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 478660,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/dp/B00018MSNI",
+      "discount_pct": 48.3,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 급상승 26표/57분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-25T12:21:30.611859+00:00",
+      "last_seen": "2026-11-25T15:21:21.767980+00:00",
+      "posted_at": "2026-11-25T14:24:19+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Headphones, Headsets & Earbuds",
+        "sd_store": "Amazon",
+        "sd_brand": "Sennheiser",
+        "direct_url": "https://www.amazon.com/dp/B00018MSNI",
+        "sd_hot_origin": true,
+        "sd_age_min": 57,
+        "sd_votes": 26,
+        "sd_velocity": 27.3,
+        "sd_fp_min": 8
+      },
+      "title_kr": "Sennheiser 헤드폰",
+      "id": "13af51c90d",
+      "history": [
+        [
+          "2026-11-25",
+          300.0
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/calvin-klein-jatlee-block-heel-pump-women/7484926",
@@ -5596,71 +5744,6 @@
         [
           "2026-11-25",
           19.48
-        ]
-      ]
-    },
-    {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/zupirol-security-camera/846814.htm",
-      "title": "Zupirol 2-in-1 2K HD Night Vision 2-Way Audio Light Bulb Security Camera",
-      "brand": "",
-      "category": "electronics",
-      "image": "https://d16f00g4zitf8i.cloudfront.net/images/zupirol-security-camera8.jpg",
-      "price_current": 20.89,
-      "price_list": 66.0,
-      "price_baseline": null,
-      "price_alltime_low": 20.89,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 28056,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.dealsofamerica.com/zupirol-security-camera/846814.htm",
-      "discount_pct": 68.3,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 36,
-        "price_history": 25,
-        "category": 15,
-        "bonus": 4,
-        "brand": 0
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-22T14:41:17.176699+00:00",
-      "last_seen": "2026-11-25T14:51:03.867177+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "보안 카메라",
-      "id": "4a7aab2d06",
-      "history": [
-        [
-          "2026-11-22",
-          20.89
-        ],
-        [
-          "2026-11-24",
-          20.89
-        ],
-        [
-          "2026-11-25",
-          20.89
         ]
       ]
     },
@@ -8757,7 +8840,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T03:23:45.230829+00:00",
-      "last_seen": "2026-11-25T09:21:11.524791+00:00",
+      "last_seen": "2026-11-25T15:21:23.213408+00:00",
       "posted_at": "2026-11-25T02:24:19+00:00",
       "signals": {
         "sd_feeds": [
@@ -11969,74 +12052,6 @@
       ]
     },
     {
-      "source": "slickdeals:xbox.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20394399",
-      "title": "Lego Star Wars- Galactic Edition (Digital)",
-      "brand": "LEGO",
-      "category": "kids",
-      "image": "",
-      "price_current": 7.99,
-      "price_list": 79.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 0,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 10731,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20394399",
-      "discount_pct": 90.0,
-      "score": 70,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-25T14:13:52.211423+00:00",
-      "last_seen": "2026-11-25T14:50:47.505743+00:00",
-      "posted_at": "2026-11-25T14:06:37+00:00",
-      "signals": {
-        "sd_feeds": [
-          "hotdeals"
-        ],
-        "sd_cat": "",
-        "sd_store": "Xbox.com",
-        "sd_hot_origin": true,
-        "sd_age_min": 44,
-        "sd_votes": 0,
-        "sd_velocity": 0.0
-      },
-      "title_kr": "LEGO Star Wars- Galactic Edition (Digital)",
-      "id": "6cab19e6b7",
-      "history": [
-        [
-          "2026-11-25",
-          7.99
-        ]
-      ]
-    },
-    {
       "source": "als.com",
       "source_tier": "T4",
       "url": "https://www.als.com/the-north-face-terra-peak-hoodie-womens-10607154/p?_fromSales=true",
@@ -13214,6 +13229,74 @@
       "title_kr": "MAC 에너지 음료"
     },
     {
+      "source": "slickdeals:walmart.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20341524",
+      "title": "eufy Security Smart Lock FamiLock C32 Fingerprint Keyless Door Lock for $50.70 at Walmart",
+      "brand": "eufy",
+      "category": "etc",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20341524&t=15",
+      "price_current": 51.0,
+      "price_list": 79.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 71,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 68495,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20341524",
+      "discount_pct": 36.2,
+      "score": 66,
+      "score_breakdown": {
+        "discount_depth": 20,
+        "price_history": null,
+        "category": 5,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-25T02:50:47.386625+00:00",
+      "last_seen": "2026-11-25T15:21:21.767980+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Door Hardware & Locks",
+        "sd_store": "Walmart",
+        "sd_brand": "eufy",
+        "sd_hot_origin": false,
+        "sd_age_min": 762,
+        "sd_votes": 71,
+        "sd_velocity": 5.6,
+        "sd_fp_min": 11
+      },
+      "title_kr": "eufy Security Smart Lock FamiLock C32 Fingerprint…",
+      "id": "06e3132eb2",
+      "history": [
+        [
+          "2026-11-25",
+          51.0
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:amazon.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20393214",
@@ -13281,74 +13364,6 @@
         [
           "2026-11-25",
           49.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:walmart.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20341524",
-      "title": "eufy Security Smart Lock FamiLock C32 Fingerprint Keyless Door Lock for $50.70 at Walmart",
-      "brand": "eufy",
-      "category": "etc",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20341524&t=15",
-      "price_current": 51.0,
-      "price_list": 79.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 71,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 68495,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20341524",
-      "discount_pct": 36.2,
-      "score": 66,
-      "score_breakdown": {
-        "discount_depth": 20,
-        "price_history": null,
-        "category": 5,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-25T02:50:47.386625+00:00",
-      "last_seen": "2026-11-25T15:02:18.601656+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Door Hardware & Locks",
-        "sd_store": "Walmart",
-        "sd_brand": "eufy",
-        "sd_hot_origin": false,
-        "sd_age_min": 743,
-        "sd_votes": 71,
-        "sd_velocity": 5.7,
-        "sd_fp_min": 11
-      },
-      "title_kr": "eufy Security Smart Lock FamiLock C32 Fingerprint…",
-      "id": "06e3132eb2",
-      "history": [
-        [
-          "2026-11-25",
-          51.0
         ]
       ]
     },
@@ -14675,7 +14690,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T14:13:52.211423+00:00",
-      "last_seen": "2026-11-25T15:02:18.601656+00:00",
+      "last_seen": "2026-11-25T15:21:21.767980+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "라코스테 남성용 스웨터",
@@ -15041,16 +15056,16 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T05:10:47.551396+00:00",
-      "last_seen": "2026-11-25T15:02:18.601656+00:00",
+      "last_seen": "2026-11-25T15:21:21.767980+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Smart Watches & Wearables",
         "sd_store": "Walmart",
         "sd_brand": "Nothing",
         "sd_hot_origin": false,
-        "sd_age_min": 596,
+        "sd_age_min": 615,
         "sd_votes": 53,
-        "sd_velocity": 5.3,
+        "sd_velocity": 5.2,
         "sd_fp_min": 4
       },
       "title_kr": "Nothing 스마트워치",
@@ -15318,6 +15333,78 @@
         ]
       ],
       "title_kr": "Timex 시계"
+    },
+    {
+      "source": "slickdeals:slickdeals.net",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20383320",
+      "title": "Under Armour Men's UA Velocity 2.0 1/4 Zip Top (2 colors) $18.90 + Free S&H",
+      "brand": "Under Armour",
+      "category": "sports_outdoor",
+      "image": "https://static.slickdealscdn.com/attachment/3/8/0/3/8/5/8/300x300/22583865.thumb",
+      "price_current": 18.9,
+      "price_list": 31.5,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "BLACKFRIDAY",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 47,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 25384,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20383320",
+      "discount_pct": 40.0,
+      "score": 62,
+      "score_breakdown": {
+        "discount_depth": 18,
+        "price_history": null,
+        "category": 17,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "community": "투표 47+할인40% → 하한 56",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-25T15:21:21.590225+00:00",
+      "last_seen": "2026-11-25T15:21:21.767980+00:00",
+      "posted_at": "2026-11-25T14:44:55+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Men's Outerwear",
+        "sd_store": "Under Armour",
+        "sd_brand": "Under Armour",
+        "sd_hot_origin": false,
+        "sd_age_min": 36,
+        "sd_votes": 47,
+        "sd_velocity": 77.4,
+        "sd_fp_min": 36
+      },
+      "title_kr": "언더아머 남성용 상의",
+      "id": "58eb466d24",
+      "history": [
+        [
+          "2026-11-25",
+          18.9
+        ]
+      ]
     },
     {
       "source": "amazon.com",
@@ -16282,7 +16369,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T03:23:45.230829+00:00",
-      "last_seen": "2026-11-25T09:21:11.524791+00:00",
+      "last_seen": "2026-11-25T15:21:23.213408+00:00",
       "posted_at": "2026-11-25T03:02:05+00:00",
       "signals": {
         "sd_feeds": [
@@ -16354,7 +16441,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T03:23:45.230829+00:00",
-      "last_seen": "2026-11-25T09:21:11.524791+00:00",
+      "last_seen": "2026-11-25T15:21:23.213408+00:00",
       "posted_at": "2026-11-25T02:44:44+00:00",
       "signals": {
         "sd_feeds": [
@@ -17761,7 +17848,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T03:11:43.102403+00:00",
-      "last_seen": "2026-11-25T09:11:11.621341+00:00",
+      "last_seen": "2026-11-25T15:21:23.213408+00:00",
       "posted_at": "2026-11-25T02:57:39+00:00",
       "signals": {
         "sd_feeds": [
@@ -23931,7 +24018,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T15:02:18.208679+00:00",
-      "last_seen": "2026-11-25T15:02:18.601656+00:00",
+      "last_seen": "2026-11-25T15:21:21.767980+00:00",
       "posted_at": "2026-11-25T14:55:08+00:00",
       "signals": {
         "sd_feeds": [
@@ -23942,9 +24029,9 @@
         "sd_brand": "WORKPRO",
         "direct_url": "https://www.walmart.com/ip/5981729811",
         "sd_hot_origin": true,
-        "sd_age_min": 7,
+        "sd_age_min": 26,
         "sd_votes": 2,
-        "sd_velocity": 12.0
+        "sd_velocity": 4.6
       },
       "title_kr": "WORKPRO 3.6V Cordless Hot Glue Gun, USB-C…",
       "id": "3c057717a6",
@@ -24865,7 +24952,7 @@
   "fx_usd_krw": 1343.0,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-25T15:00:51+00:00",
+      "T1": "2026-11-25T15:20:49+00:00",
       "T2": "2026-11-25T14:50:54+00:00",
       "T3": "2026-11-25T13:20:57+00:00",
       "T4": "2026-11-25T09:40:52+00:00"
@@ -24899,14 +24986,15 @@
       7,
       10,
       11,
-      8
+      8,
+      11
     ],
     "naver": {
       "keys": false,
       "queried": 25,
       "matched": 0,
       "errors": 0,
-      "at": "2026-11-25T15:02:18+00:00"
+      "at": "2026-11-25T15:21:21+00:00"
     },
     "reddit": {
       "mode": "공개 검색(키 없음)",
@@ -24914,13 +25002,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-25T15:02:18+00:00"
+      "at": "2026-11-25T15:21:21+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-25T15:02:18+00:00",
+        "at": "2026-11-25T15:21:21+00:00",
         "state": "정상",
         "mails": 29,
         "deals": 29
@@ -24946,7 +25034,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T14:32:44+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20392542",
@@ -24961,7 +25049,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(Star Wars) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-25T14:13:54+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20393397",
@@ -24976,7 +25064,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T14:03:32+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20391501",
@@ -24991,7 +25079,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T11:51:02+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20385462",
@@ -25006,7 +25094,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T10:10:48+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://clicks.finishline.com/f/a/hMFGxPO_1iObz33kvz9ADQ~~/AAQRxRA~/mFn609z8A4iU7Uh0PZnPNFiQ13a1odj9NNLd6L0OCxdZg5UIvM1yT06zUKhCoXycAeTbhPrs7NlKRPmLvTfum48uaJVA5yrLwtVBiMytgdVCmUQ-Yu-juMl1-lAlf89Z3U9ukFrUHG8Y5Oy7mL3gCA~~",
@@ -25036,7 +25124,7 @@
         "published": false,
         "reject_reason": "H8: 할인 14% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-25T09:31:02+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377878",
@@ -25051,7 +25139,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:50:45+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377794",
@@ -25066,7 +25154,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(Dr. Seuss) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-25T07:40:46+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20379402",
@@ -25081,7 +25169,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:32:09+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20378640",
@@ -25096,7 +25184,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:10:49+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20391429",
@@ -25111,7 +25199,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T07:01:10+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20390721",
@@ -25126,7 +25214,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Hand Tools)",
         "first_seen": "2026-11-25T07:01:10+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20285211",
@@ -25141,7 +25229,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T05:33:08+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20387397",
@@ -25156,7 +25244,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T05:11:09+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20387883",
@@ -25171,7 +25259,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T05:11:09+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20370600",
@@ -25201,7 +25289,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T04:21:15+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20378790",
@@ -25216,7 +25304,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T03:43:03+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20382042",
@@ -25291,7 +25379,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T03:24:05+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20355357",
@@ -25306,7 +25394,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Flashlights)",
         "first_seen": "2026-11-25T03:24:05+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20369073",
@@ -25321,7 +25409,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T03:01:23+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377302",
@@ -25351,7 +25439,7 @@
         "published": false,
         "reject_reason": "H7: Oakley 할인 25% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-25T02:51:12+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20341524",
@@ -25366,7 +25454,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T02:51:12+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20338935",
@@ -25381,7 +25469,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-25T02:51:12+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20356968",
@@ -25396,7 +25484,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-25T02:32:12+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20388306",
@@ -25411,7 +25499,7 @@
         "published": false,
         "reject_reason": "H8: 할인 22% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-25T02:21:11+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20295423",
@@ -25426,7 +25514,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(4K TVs)",
         "first_seen": "2026-11-25T02:11:07+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20375277",
@@ -25441,7 +25529,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-25T01:11:05+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20360187",
@@ -25456,7 +25544,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-25T01:01:17+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20363580",
@@ -25666,7 +25754,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-24T21:21:28+00:00",
-        "last_seen": "2026-11-25T15:02:18+00:00"
+        "last_seen": "2026-11-25T15:21:23+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20374683",
