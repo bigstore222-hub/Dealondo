@@ -27,6 +27,14 @@ EVERY_H = float(os.environ.get("METRICS_EVERY_H", "3"))
 ON = (os.environ.get("THREADS_METRICS") or "1").strip() not in ("0", "off", "false")
 METRICS = "views,likes,replies,reposts,quotes,shares"
 TYPE_KR = {"library": "정보", "repost": "다시 올리기", "data": "데이터"}
+# 11/25: 모든 게시 경로가 글마다 링크 답글 1개를 직접 단다(threads_deal·tg_inbox·info_posts·threads_post).
+# API 의 replies 에 이 답글이 들어가 11/25까지 134개 글 전부 '답글 1'로 잡혔다 → 사람 답글 = replies - 1
+OWN_REPLIES = int(os.environ.get("THREADS_OWN_REPLIES", "1"))
+
+
+def people_replies(snap: dict | None) -> int:
+    """우리 링크 답글을 뺀, 다른 사람이 단 답글 수(추정 — 첫 답글이 실패한 글은 1개 적게 잡힐 수 있다)."""
+    return max(0, int((snap or {}).get("replies") or 0) - OWN_REPLIES)
 
 
 def now_kst() -> dt.datetime:
@@ -168,6 +176,7 @@ def collect(uid: str | None = None, token: str | None = None) -> str:
             err = str(e)[:200]
             break
         snap = {"age_h": round(age, 1), **ins}
+        snap["people_replies"] = people_replies(snap)
         rec["last"] = snap
         if not rec.get("v24") and age >= 22:
             rec["v24"] = snap
@@ -252,8 +261,16 @@ def report_text(now: dt.datetime | None = None, days: int = 7) -> str:
     react = [(link, r) for link, r, _ in rows
              if any(int((r.get("last") or {}).get(k) or 0) for k in ("likes", "reposts", "quotes", "shares"))]
     fol = [f for f in m["followers"] if start.strftime("%Y-%m-%d") <= f["d"] < end.strftime("%Y-%m-%d")]
+    ppl = sum(people_replies(r.get("last")) for _, r, _ in rows)
     L = [f"📊 스레드 주간 리포트 ({start:%m/%d}~{end - dt.timedelta(days=1):%m/%d})", "",
-         f"글 {len(rows)}개 · 조회수 합계 {total:,}"]
+         f"글 {len(rows)}개 · 조회수 합계 {total:,} · 글 1개당 평균 {total / len(rows):.1f}회",
+         f"사람이 단 답글 {ppl}개 (우리 링크 답글 제외)"]
+    daily: dict[str, list[int]] = {}
+    for _, r, at in rows:
+        daily.setdefault(at.strftime("%m/%d"), []).append(views_of(r))
+    if daily:
+        L.append("날짜별 글 수·1개당 평균 조회: " + " · ".join(
+            f"{d} {len(v)}개 {sum(v) / len(v):.0f}" for d, v in sorted(daily.items())))
     if len(fol) >= 2:
         L.append(f"팔로워 {fol[0]['n']} → {fol[-1]['n']} ({fol[-1]['n'] - fol[0]['n']:+d})")
     elif fol:
@@ -348,10 +365,13 @@ def daily_text(now: dt.datetime | None = None, slot_lines: list[str] | None = No
         by: dict[str, list[int]] = {}
         for _, r, _ in yrows:
             by.setdefault(r.get("kind") or "기타", []).append(_now_views(r))
-        L.append(f"어제 올린 글 {len(yrows)}개 · 조회수 합계 {sum(_now_views(r) for _, r, _ in yrows):,} (지금까지)")
+        ysum = sum(_now_views(r) for _, r, _ in yrows)
+        L.append(f"어제 올린 글 {len(yrows)}개 · 조회수 합계 {ysum:,} · 글 1개당 평균 {ysum / len(yrows):.1f}회 (지금까지)")
         L.append(" · ".join(f"{k} {len(v)}개(중간값 {_med(v)})" for k, v in sorted(by.items(), key=lambda kv: -len(kv[1]))))
         eng = {k: sum(int((r.get("last") or {}).get(k) or 0) for _, r, _ in yrows) for k in ("likes", "reposts", "shares")}
-        L.append(f"반응: 좋아요 {eng['likes']} · 리포스트 {eng['reposts']} · 공유 {eng['shares']}")
+        ppl = sum(people_replies(r.get("last")) for _, r, _ in yrows)
+        L.append(f"반응: 사람 답글 {ppl} · 좋아요 {eng['likes']} · 리포스트 {eng['reposts']} · 공유 {eng['shares']}"
+                 " (답글은 우리 링크 답글 제외)")
         L += ["", "어제 글 조회수 순위"]
         for i, (link, r, at) in enumerate(sorted(yrows, key=lambda x: -_now_views(x[1]))[:5], 1):
             L.append(f"{i}. {_now_views(r)}회 [{r.get('kind')}] {at:%H:%M} {r.get('first_line', '')[:34]}")

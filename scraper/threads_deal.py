@@ -44,6 +44,10 @@ QUESTIONS = {
     "etc": ["이 가격이면 장바구니 담으시겠어요?", "이 가격, 직구해볼 만할까요?"],
 }
 BF_WINDOW = ((11, 20), (12, 2))     # 이 기간엔 주제 태그를 '블랙프라이데이'로
+# 딜 글 하루 상한 — 11/25 사용자 결정: 하루 5개.
+# 근거(metrics.json 11/17~11/24): 하루 딜 글이 늘수록 글 1개당 조회가 41회 → 11회로 떨어짐.
+# 정보 글·데이터 글(info_posts)은 세지 않는다. 모아보기 글은 1개로 센다. 0 이면 상한 없음.
+DAY_MAX = int(os.environ.get("THREADS_DEAL_DAY_MAX", "5"))
 
 
 def norm(u: str) -> str:
@@ -113,6 +117,19 @@ def recent_posts(n: int = 6) -> list[dict]:
     except Exception:
         return []
     return [x for x in st.get("deals", []) if x.get("result") == "게시 완료"][:n]
+
+
+def posted_today(now: dt.datetime | None = None) -> int:
+    """오늘(한국 시간) 올린 딜 글 수. 모아보기는 여러 딜이 링크 하나를 공유하므로 링크 기준으로 1개."""
+    today = (now or dt.datetime.now(KST)).astimezone(KST).date()
+    keys = set()
+    for x in recent_posts(50):
+        try:
+            if dt.datetime.fromisoformat(x["at"]).astimezone(KST).date() == today:
+                keys.add(x.get("link") or norm(x.get("url", "")))
+        except Exception:
+            pass
+    return len(keys)
 
 
 def compose_post(d: dict, seen_kst: dt.datetime | None = None, recent_drafts: list[dict] | None = None) -> dict:
@@ -313,6 +330,10 @@ def main() -> int:
     if already_posted(url) and not a.force:
         msg = "이미 스레드에 올린 딜이에요."
         print("[타임딜]", msg); TP.tg(f"ℹ️ 타임딜: {d.get('title')}\n{msg}")
+        return 0
+    if DAY_MAX > 0 and posted_today() >= DAY_MAX and not a.force and not a.dry_run:
+        msg = f"오늘 딜 글 {DAY_MAX}개를 이미 올려서 올리지 않았어요. 꼭 올려야 하면 force 를 켜고 다시 실행하세요."
+        print("[타임딜]", msg); TP.tg(f"⏸ 타임딜: {d.get('title')}\n{msg}"); record(url, "중단", msg)
         return 0
 
     text, reply = build_text(d, seen)

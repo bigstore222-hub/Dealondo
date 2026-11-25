@@ -326,7 +326,9 @@ def preview_text(dr: dict) -> str:
         parts += ["", f"소개 방식: {ANGLE_KR.get(dr['angle'], dr['angle'])}"]
     parts += ["", (f"주제 태그 #{tag} · " if tag else "") + f"본문 {len(dr['text'])}/500자 · 답장으로 \"19.99 495\" → 가격 수정, 다른 글 → 본문 교체",
               "✅ 를 누르면 바로 올려요." if GAP_H <= 0 and DAY_MAX <= 0 and not QUIET else
-              f"✅ 를 누르면 바로 올려요. 단, 딜 글 간격·하루 상한 안이면 순서를 기다렸다 올라가요."]
+              (f"✅ 를 누르면 바로 올려요. 오늘 딜 글이 {DAY_MAX}개를 넘으면 한 번 더 물어봐요."
+               if GAP_H <= 0 and not QUIET else
+               "✅ 를 누르면 바로 올려요. 단, 딜 글 간격·하루 상한 안이면 순서를 기다렸다 올라가요.")]
     return "\n".join(parts)[:4000]
 
 
@@ -336,8 +338,9 @@ ANGLE_KR = {"speed": "속도(슬릭딜 반응)", "code": "결제 코드", "compa
 # 딜 글 간격·하루 상한·쉬는 시간 — 11/6 새벽 20분 동안 같은 형식 6개가 올라가 노출이 0에 가까웠다
 # 사용자 결정(11/6): 간격·상한·쉬는 시간 없이 ✅ 누르면 바로 올린다(핫딜은 속도가 생명).
 # 다시 켜고 싶으면 환경변수로: THREADS_DEAL_GAP_H=2, THREADS_DEAL_DAY_MAX=3, THREADS_DEAL_QUIET=1-8
+# 11/25 사용자 결정: 하루 상한 5개(threads_deal.DAY_MAX). 넘으면 올리지 않고 '⚡ 한도 넘겨서 올리기' 버튼으로 묻는다.
 GAP_H = float(os.environ.get("THREADS_DEAL_GAP_H", "0"))
-DAY_MAX = int(os.environ.get("THREADS_DEAL_DAY_MAX", "0"))          # 0 = 상한 없음
+DAY_MAX = TD.DAY_MAX                                                 # 0 = 상한 없음
 _q = (os.environ.get("THREADS_DEAL_QUIET") or "").split("-")
 QUIET = (int(_q[0]), int(_q[1])) if len(_q) == 2 and all(x.strip().isdigit() for x in _q) else None
 
@@ -405,7 +408,8 @@ def approve(st: dict, did: str, chat: str, dry: bool) -> None:
     """✅ — 간격·상한·쉬는 시간 안이면 바로, 아니면 순서를 잡아 대기(그사이 승인된 딜은 모아보기로 묶는다)."""
     dr = st["drafts"][did]
     slot = next_slot()
-    if slot <= dt.datetime.now(KST) + dt.timedelta(minutes=1):
+    # 간격·쉬는 시간을 안 쓰면 늦출 이유는 하루 상한뿐 → 다음 날로 미루지 않고 publish() 가 상한을 물어본다
+    if slot <= dt.datetime.now(KST) + dt.timedelta(minutes=1) or (GAP_H <= 0 and not QUIET):
         publish(st, did, chat, dry)
         return
     dr["status"] = "queued"
@@ -584,7 +588,13 @@ def retire(chat: str, dr: dict, note: str) -> None:
 
 
 # ── 게시 ──────────────────────────────────────────────────────────────────────
-def publish(st: dict, did: str, chat: str, dry: bool) -> None:
+def capped_keyboard(did: str):
+    return {"inline_keyboard": [[{"text": "⚡ 한도 넘겨서 올리기", "callback_data": f"now:{did}"},
+                                 {"text": "❌ 넘기기", "callback_data": f"cancel:{did}"}]]}
+
+
+def publish(st: dict, did: str, chat: str, dry: bool, force: bool = False) -> None:
+    """force=True: 하루 상한을 넘겨도 올린다(⚡ 버튼). 24시간 중복 금지는 force 여도 지킨다."""
     dr = st["drafts"][did]
     d = dr.get("deal") or {}
     dup = recent_dup(dr.get("url"), d.get("url"), d.get("buy_url"))
@@ -593,6 +603,19 @@ def publish(st: dict, did: str, chat: str, dry: bool) -> None:
         tg_safe("editMessageReplyMarkup", chat_id=chat, message_id=dr.get("msg"), reply_markup={"inline_keyboard": []})
         tg_safe("sendMessage", chat_id=chat, reply_to_message_id=dr.get("msg"), disable_web_page_preview=True,
                 text=f"🔁 {DUP_HOURS:g}시간 안에 이미 올린 상품이라 다시 올리지 않았어요.\n{dup.get('link') or ''}")
+        return
+    n_today = TD.posted_today()
+    if not force and DAY_MAX > 0 and n_today >= DAY_MAX:
+        dr["status"] = "capped"
+        if dr.get("msg"):
+            tg_safe("editMessageReplyMarkup", chat_id=chat, message_id=dr["msg"], reply_markup={"inline_keyboard": []})
+        m = tg_safe("sendMessage", chat_id=chat, reply_to_message_id=dr.get("msg"),
+                    text=f"⏸ 오늘 딜 글 {n_today}개를 이미 올렸어요(하루 {DAY_MAX}개 제한). 이 딜은 올리지 않았어요.\n"
+                         f"{(d.get('brand') or '')} {(d.get('title') or '')[:60]}\n"
+                         "꼭 올려야 하는 딜이면 ⚡ 를 누르세요.", reply_markup=capped_keyboard(did))
+        if m:
+            dr["msg"] = m["message_id"]           # 버튼 처리는 이 메시지 id 로 초안을 찾는다
+        save_state(st)
         return
     dr["status"] = "posting"
     save_state(st)
@@ -711,7 +734,7 @@ def handle(st: dict, u: dict, dry: bool) -> None:
                 tg_safe("answerCallbackQuery", callback_query_id=cq["id"], text="이미 처리한 글이에요.")
                 return
             tg_safe("answerCallbackQuery", callback_query_id=cq["id"], text="지금 올려요")
-            publish(st, did, chat, dry)
+            publish(st, did, chat, dry, force=True)
         return
 
     msg = u.get("message") or {}

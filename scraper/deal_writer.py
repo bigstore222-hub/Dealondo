@@ -109,11 +109,17 @@ def facts(d: dict, fx: float | None = None, now: dt.datetime | None = None) -> d
         "hist_max": max(hist) if hist else None, "hist_days": len(hist),
         "was_raw": was,
     }
+    # 11/25: 딜을 모아 온 출처(딜 커뮤니티) 이름은 공개하지 않는다 → 판매처를 모르면 '미국 쇼핑몰'
+    if SOURCE_NAMES.search(f["store"] or ""):
+        f["store"] = "미국 쇼핑몰"
     f["kr_save"] = round((1 - f["krw_eff"] / f["kr"]) * 100) if f["kr"] and f["krw_eff"] else None
     # '기록 최저'는 실제로 더 비쌌던 기록이 있을 때만 의미가 있다(가격이 그대로였던 상품 제외)
     f["record_low"] = bool(p and f["hist_max"] and f["hist_max"] >= p * 1.05 and min(hist) >= p - 0.01)
     f["reddit_beat"] = bool(p and f["reddit_low"] and p <= f["reddit_low"] * 1.02)
     return f
+
+
+SOURCE_NAMES = re.compile(r"slickdeals|dealnews|dealsofamerica|techbargains|reddit|슬릭딜|딜뉴스|레딧", re.I)
 
 
 # 상품명이 아니라 사이트 이름·차단 페이지·알림 태그가 제목으로 들어온 경우(11/17~18 실제 게시 사고)
@@ -238,6 +244,35 @@ QUESTIONS = {
 }
 
 
+def verdict(f: dict, angle: str = "") -> str | None:
+    """
+    딜온도 판단 한 줄 (11/25 추가). 딜보드 정보를 옮기는 데서 그치지 않고 '사도 되는지'를 말해준다.
+    근거: 반응이 좋았던 글은 판단·맥락이 있는 글이었다(폴로 아동 스웨터 410회 vs 상품명+가격만 쓴 글 2~6회).
+    숫자 근거가 있는 것만 말한다. 국내가는 네이버 최저가가 잡힌 딜만 비교한다(배대지 배송비는 별도).
+    """
+    pct = f.get("pct") or 0
+    if not f.get("free"):
+        if f.get("kr") and f.get("krw_eff"):
+            cheaper = f["krw_eff"] < f["kr"] * 0.95
+            return ("딜온도 판단: 관부가세를 넣어도 국내 최저가보다 싸요. 배대지 배송비만 확인하고 사세요." if cheaper else
+                    "딜온도 판단: 관부가세까지 넣으면 국내 최저가와 비슷하거나 비싸요. 국내 구매가 나아요.")
+        return "딜온도 판단: 세금이 붙는 딜이라, 국내 가격과 먼저 비교해보고 사세요."
+    if f.get("kr_save") is not None and angle != "compare":
+        if f["kr_save"] >= 15:
+            return f"딜온도 판단: 국내 최저가보다 {f['kr_save']}% 싸서 직구할 만해요."
+        if f["kr_save"] < 5:
+            return "딜온도 판단: 국내 최저가와 차이가 거의 없어요. 배대지 배송비까지 생각하면 국내 구매가 나아요."
+    if f.get("record_low") and angle != "record":
+        return "딜온도 판단: 딜온도가 기록한 가격 중 가장 싸서, 살 생각이 있었다면 지금이 좋아요."
+    if pct >= 60:
+        return "딜온도 판단: 할인 폭이 크고 관부가세도 없어서 직구할 만해요."
+    if pct >= 40:
+        return "딜온도 판단: 괜찮은 가격이에요. 급하지 않다면 가격을 조금 더 지켜봐도 되는 할인 폭이에요."
+    if pct:
+        return "딜온도 판단: 할인 폭은 크지 않아요. 원래 사려던 사람에게만 추천해요."
+    return None
+
+
 def _q(angle: str, f: dict, seed: str) -> str:
     q = pick(QUESTIONS[angle], seed + "q")
     return q.format(brand=f["brand"] or "이 브랜드", item=f["item"] or "아이템")
@@ -308,8 +343,14 @@ def write(angle: str, f: dict, seed: str) -> str:
                    f"{f['store']}에 {name} {f['pct']}% 할인 떴어요." if f["pct"] else f"{f['store']}에 {name} 떴어요.",
                    f"{usd(f['now'])}에 {name}."], seed + "ba"), "",
              _duty_line(f, seed), _won_line(f, seed), "", _q(angle, f, seed)]
+    # 판단 한 줄은 마지막 질문 바로 앞에 넣는다(질문은 답글을 부르는 장치라 맨 끝에 둔다)
+    v = verdict(f, angle)
+    if v and L:
+        L = L[:-1] + [v, L[-1]]
     text = "\n".join(x for x in L if x is not None)
     text = re.sub(r"\n{3,}", "\n\n", text).strip()
+    if len(text) > 500 and v:          # 스레드 500자 — 넘치면 질문이 잘리지 않게 판단 줄을 뺀다
+        text = re.sub(r"\n{3,}", "\n\n", "\n".join(x for x in L if x is not None and x != v)).strip()
     return text
 
 

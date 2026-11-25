@@ -129,7 +129,7 @@
     font-size:13px;font-weight:600;padding:8px 16px;border-radius:980px;
     letter-spacing:-.01em;transition:background .18s,transform .12s}
   a.go:hover{background:var(--accent-h)}
-  a.buy{font-size:12px;color:var(--sub);text-decoration:none}
+  a.buy{margin-left:auto;font-size:12px;color:var(--sub);text-decoration:none}
   a.buy:hover{color:var(--txt)}
   a.tlink{color:inherit;text-decoration:none}
   a.tlink:hover{text-decoration:underline}
@@ -214,23 +214,18 @@ const meta=document.getElementById('meta');
 let deals=[], filter='ALL', cat='ALL', sort='score', q='', shown=60;
 const PAGE=60;
 const URG_KR={FLASH:'⚡ 급처',HOT:'🔥 핫딜',STEADY:'👍 괜찮은 딜'};
-// 판매처 이름: 'slickdeals:amazon.com' → 'Amazon · 슬릭딜'
+// 판매처 이름: 'slickdeals:amazon.com' → 'Amazon'. 딜을 모아 온 출처(딜 커뮤니티)는 표시하지 않는다(11/25 사용자 결정)
 const STORES={'nordstromrack.com':'Nordstrom Rack','nordstrom.com':'Nordstrom','zappos.com':'Zappos','6pm.com':'6pm',
   'amazon.com':'Amazon','woot.com':'Woot','bestbuy.com':'Best Buy','macys.com':"Macy's",'ebay.com':'eBay',
   'walmart.com':'Walmart','target.com':'Target','ashford.com':'Ashford','als.com':'Al\'s','sneakersnstuff.com':'Sneakersnstuff',
   'samsung.com':'Samsung','costco.com':'Costco','homedepot.com':'Home Depot','dickssportinggoods':"Dick's",'dickssportinggoods.com':"Dick's",
-  'dealnews':'DealNews','dealsofamerica':'DealsOfAmerica','techbargains:amazon':'Amazon'};
+  'techbargains:amazon':'Amazon'};
+const SOURCE_HOSTS=/(slickdeals|dealnews|dealsofamerica|techbargains|reddit)/i;
 function storeName(d){const s=String(d.source||'');const k=s.split(':').pop();
-  const n=STORES[k]||STORES[s]||(k==='slickdeals.net'?'':k);
-  if(s.startsWith('slickdeals'))return n?`${n} · 슬릭딜`:'슬릭딜';
-  if(s.startsWith('techbargains'))return 'Amazon · TechBargains';
-  return n;}
+  const n=STORES[k]||STORES[s]||k;
+  return SOURCE_HOSTS.test(n)||SOURCE_HOSTS.test(k)&&!STORES[k]?'':n;}
 function host(u){const m=/^https?:\/\/(?:www\.)?([^\/?#]+)/i.exec(u||'');return m?m[1].toLowerCase():'';}
-function buyLabel(d,href){const h=host(href);
-  if(/slickdeals\.net$/.test(h))return '슬릭딜 원문 ↗';
-  if(/dealnews\.com$/.test(h))return 'DealNews 원문 ↗';
-  if(/dealsofamerica\.com$/.test(h))return '원문 보기 ↗';
-  const n=(STORES[h]||'').trim();return n?`${n}에서 구매 ↗`:'판매처로 ↗';}
+function buyLabel(d,href){return '구매하기 →';}   // 판매처·출처와 상관없이 같은 문구(11/25)
 // 리튬배터리·향수·스프레이 등은 배대지 항공 운송이 제한되는 경우가 많다(배대지마다 기준이 다름)
 const RESTRICT=/\b(power bank|portable charger|battery pack|jump starter|power station|lithium|mah\b|perfume|fragrance|cologne|eau de (?:parfum|toilette)|aerosol|spray paint|lighter)\b/i;
 const RESTRICT2=/\d{4,6}\s?mah/i;
@@ -307,7 +302,7 @@ function render(){
       ${img?`<img class="thumb" src="${esc(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:''}
       <div class="row">
         <span class="badge ${esc(d.urgency)}">${d.coupon_code?'🎟️ 코드딜':esc(URG_KR[d.urgency]||d.urgency)}</span>
-        <span class="src">${esc(storeName(d))}</span>
+        ${storeName(d)?`<span class="src">${esc(storeName(d))}</span>`:''}
         <span class="score">점수 <b>${esc(d.score)}</b>/100</span>
       </div>
       ${d.brand?`<div class="brandrow">
@@ -330,7 +325,6 @@ function render(){
         ${d.detected_at?`<span class="src">🕒 ${timeAgo(d.detected_at)} 발견</span>`:''}
         ${d.last_seen?`<span class="src fresh${stale?' stale':''}">${stale?'⚠️ ':'🔄 '}${timeAgo(d.last_seen)} 확인${stale?' · 가격 변동 가능':''}</span>`:''}
         ${href?`<a class="buy" href="${esc(href)}" target="_blank" rel="noopener noreferrer sponsored">${esc(buyLabel(d,href))}</a>`:''}
-        <a class="go" href="${detailHref(d)}">판정 보기 →</a>
       </div>
     </div>`;
   }).join('')+(total>shown?`<button class="more" id="more">더 보기 (${total-shown}건 남음)</button>`:'');
