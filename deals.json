@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T09:01:34.251079+00:00",
-  "count": 453,
+  "generated_at": "2026-11-26T09:01:57.393628+00:00",
+  "count": 454,
   "deals": [
     {
       "source": "6pm.com",
@@ -514,7 +514,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-21T06:31:26.551417+00:00",
-      "last_seen": "2026-11-26T07:11:40.211315+00:00",
+      "last_seen": "2026-11-26T09:01:55.831896+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "어그 슬리퍼",
@@ -1676,6 +1676,143 @@
       "title_kr": "삼성 무선 이어폰"
     },
     {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/9921422",
+      "title": "Short Sleeve Amphibious Button-Down (Little Kid/Big Kid)",
+      "brand": "The North Face",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/712sXi4SxOL._AC_SR255,340_.jpg",
+      "price_current": 13.5,
+      "price_list": 45.0,
+      "price_baseline": 45.0,
+      "price_alltime_low": 13.5,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 18131,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.zappos.com/product/9921422",
+      "discount_pct": 70.0,
+      "score": 92,
+      "score_breakdown": {
+        "discount_depth": 35,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 0,
+        "brand": 12
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-22T06:51:42.623327+00:00",
+      "last_seen": "2026-11-26T09:01:55.831896+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "노스페이스 Short Sleeve Amphibious Button-Down (Little Kid/Big…",
+      "id": "619a0f37cd",
+      "history": [
+        [
+          "2026-11-22",
+          13.5
+        ],
+        [
+          "2026-11-23",
+          13.5
+        ],
+        [
+          "2026-11-25",
+          13.5
+        ],
+        [
+          "2026-11-26",
+          13.5
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:adidas.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20355708",
+      "title": "adidas Black Friday Sale Up to 60% Off + Extra 15% Off + Free S&H  (외 1종)",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://static.slickdealscdn.com/attachment/3/6/9/5/2/8/300x300/22571352.thumb",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 128,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20355708",
+      "discount_pct": null,
+      "score": 92,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 폭발 128표/111분 → 하한 86",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-24T23:20:44.293085+00:00",
+      "last_seen": "2026-11-26T06:02:17.913503+00:00",
+      "posted_at": "2026-11-24T21:31:26+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Clothing & Accessories",
+        "sd_store": "adidas",
+        "sd_brand": "adidas",
+        "sd_hot_origin": true,
+        "sd_age_min": 111,
+        "sd_votes": 128,
+        "sd_velocity": 69.5,
+        "sd_fp_min": -5800
+      },
+      "id": "149b68be81",
+      "history": [],
+      "variant_count": 2,
+      "title_kr": "아디다스 Black Friday Sale Up to 60%…"
+    },
+    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20388243",
@@ -1750,74 +1887,6 @@
           13.0
         ]
       ]
-    },
-    {
-      "source": "slickdeals:adidas.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20355708",
-      "title": "adidas Black Friday Sale Up to 60% Off + Extra 15% Off + Free S&H  (외 1종)",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://static.slickdealscdn.com/attachment/3/6/9/5/2/8/300x300/22571352.thumb",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 128,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20355708",
-      "discount_pct": null,
-      "score": 92,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 128표/111분 → 하한 86",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-24T23:20:44.293085+00:00",
-      "last_seen": "2026-11-26T06:02:17.913503+00:00",
-      "posted_at": "2026-11-24T21:31:26+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Clothing & Accessories",
-        "sd_store": "adidas",
-        "sd_brand": "adidas",
-        "sd_hot_origin": true,
-        "sd_age_min": 111,
-        "sd_votes": 128,
-        "sd_velocity": 69.5,
-        "sd_fp_min": -5800
-      },
-      "id": "149b68be81",
-      "history": [],
-      "variant_count": 2,
-      "title_kr": "아디다스 Black Friday Sale Up to 60%…"
     },
     {
       "source": "slickdeals:ebay.com",
@@ -2348,71 +2417,6 @@
         [
           "2026-11-25",
           10.0
-        ]
-      ]
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/9921422",
-      "title": "Short Sleeve Amphibious Button-Down (Little Kid/Big Kid)",
-      "brand": "The North Face",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/712sXi4SxOL._AC_SR255,340_.jpg",
-      "price_current": 13.5,
-      "price_list": 45.0,
-      "price_baseline": 45.0,
-      "price_alltime_low": 13.5,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 18131,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.zappos.com/product/9921422",
-      "discount_pct": 70.0,
-      "score": 92,
-      "score_breakdown": {
-        "discount_depth": 35,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 0,
-        "brand": 12
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-22T06:51:42.623327+00:00",
-      "last_seen": "2026-11-25T19:41:30.201206+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "노스페이스 Short Sleeve Amphibious Button-Down (Little Kid/Big…",
-      "id": "619a0f37cd",
-      "history": [
-        [
-          "2026-11-22",
-          13.5
-        ],
-        [
-          "2026-11-23",
-          13.5
-        ],
-        [
-          "2026-11-25",
-          13.5
         ]
       ]
     },
@@ -3529,7 +3533,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-19T08:41:23.407247+00:00",
-      "last_seen": "2026-11-26T08:31:26.061337+00:00",
+      "last_seen": "2026-11-26T09:01:55.831896+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "프리피플 맥시 원피스",
@@ -3576,7 +3580,7 @@
       "title": "Victory Dri-FIT Short Sleeve Cropped Golf Polo",
       "brand": "Nike",
       "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/617t6mGlFYL._AC_SR255,340_.jpg",
+      "image": "https://m.media-amazon.com/images/I/61yCCUsgXPL._AC_SR255,340_.jpg",
       "price_current": 16.25,
       "price_list": 65.0,
       "price_baseline": 65.0,
@@ -3614,7 +3618,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-19T08:41:23.407247+00:00",
-      "last_seen": "2026-11-26T08:31:26.061337+00:00",
+      "last_seen": "2026-11-26T09:01:55.831896+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "나이키 폴로셔츠",
@@ -4157,6 +4161,91 @@
       "title_kr": "Kiehl's 5-Oz Kiehl's Ultra Facial Cleanser w/…"
     },
     {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/nike-pacific-low-top-sneaker-women/8289606",
+      "title": "Pacific Low Top Sneaker",
+      "brand": "Nike",
+      "category": "sports_outdoor",
+      "image": "https://n.nordstrommedia.com/it/08271c4f-95d9-4565-b8bd-c22c9295f9c1.jpeg?h=368&w=240&dpr=2",
+      "price_current": 19.18,
+      "price_list": 80.0,
+      "price_baseline": 80.0,
+      "price_alltime_low": 19.18,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 25760,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/nike-pacific-low-top-sneaker-women/8289606",
+      "discount_pct": 76.0,
+      "score": 87,
+      "score_breakdown": {
+        "discount_depth": 35,
+        "price_history": 25,
+        "category": 17,
+        "bonus": 4,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-19T21:41:23.210533+00:00",
+      "last_seen": "2026-11-26T09:01:55.831896+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "나이키 스니커즈",
+      "id": "244f8f7302",
+      "history": [
+        [
+          "2026-11-19",
+          31.98
+        ],
+        [
+          "2026-11-20",
+          31.98
+        ],
+        [
+          "2026-11-21",
+          31.98
+        ],
+        [
+          "2026-11-22",
+          31.98
+        ],
+        [
+          "2026-11-23",
+          31.98
+        ],
+        [
+          "2026-11-24",
+          31.98
+        ],
+        [
+          "2026-11-25",
+          19.18
+        ],
+        [
+          "2026-11-26",
+          19.18
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20392341",
@@ -4228,91 +4317,6 @@
         ]
       ],
       "variant_count": 2
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/nike-pacific-low-top-sneaker-women/8289606",
-      "title": "Pacific Low Top Sneaker",
-      "brand": "Nike",
-      "category": "sports_outdoor",
-      "image": "https://n.nordstrommedia.com/it/08271c4f-95d9-4565-b8bd-c22c9295f9c1.jpeg?h=368&w=240&dpr=2",
-      "price_current": 19.18,
-      "price_list": 80.0,
-      "price_baseline": 80.0,
-      "price_alltime_low": 19.18,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 25760,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/nike-pacific-low-top-sneaker-women/8289606",
-      "discount_pct": 76.0,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 35,
-        "price_history": 25,
-        "category": 17,
-        "bonus": 4,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-19T21:41:23.210533+00:00",
-      "last_seen": "2026-11-26T07:11:40.211315+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "나이키 스니커즈",
-      "id": "244f8f7302",
-      "history": [
-        [
-          "2026-11-19",
-          31.98
-        ],
-        [
-          "2026-11-20",
-          31.98
-        ],
-        [
-          "2026-11-21",
-          31.98
-        ],
-        [
-          "2026-11-22",
-          31.98
-        ],
-        [
-          "2026-11-23",
-          31.98
-        ],
-        [
-          "2026-11-24",
-          31.98
-        ],
-        [
-          "2026-11-25",
-          19.18
-        ],
-        [
-          "2026-11-26",
-          19.18
-        ]
-      ]
     },
     {
       "source": "6pm.com",
@@ -5438,7 +5442,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-16T18:41:29.297117+00:00",
-      "last_seen": "2026-11-26T08:31:26.061337+00:00",
+      "last_seen": "2026-11-26T09:01:55.831896+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "온열 패드",
@@ -5751,7 +5755,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-26T08:31:24.408850+00:00",
-      "last_seen": "2026-11-26T08:31:26.061337+00:00",
+      "last_seen": "2026-11-26T09:01:55.831896+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "생로랑 선글라스",
@@ -5809,7 +5813,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T17:11:11.012754+00:00",
-      "last_seen": "2026-11-26T07:55:35.128598+00:00",
+      "last_seen": "2026-11-26T09:01:55.831896+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "마이클 코어스 수트",
@@ -7256,6 +7260,72 @@
       "title_kr": "Steam God of War (2022) (PCDD/Steam Code)"
     },
     {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/calvin-klein-jatlee-block-heel-pump-women/7484926",
+      "title": "Jatlee Block Heel Pump",
+      "brand": "Calvin Klein",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/27be0ee3-e132-422f-917f-31705d19e284.jpeg?h=368&w=240&dpr=2",
+      "price_current": 19.48,
+      "price_list": 109.0,
+      "price_baseline": 109.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 26162,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/calvin-klein-jatlee-block-heel-pump-women/7484926",
+      "discount_pct": 82.1,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 20,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-24T21:02:50.902953+00:00",
+      "last_seen": "2026-11-26T09:01:55.831896+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "캘빈클라인 펌프스",
+      "id": "ea52f4458d",
+      "history": [
+        [
+          "2026-11-24",
+          32.48
+        ],
+        [
+          "2026-11-25",
+          19.48
+        ],
+        [
+          "2026-11-26",
+          19.48
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:amazon.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20399292",
@@ -7477,72 +7547,6 @@
         [
           "2026-11-26",
           2.1
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/calvin-klein-jatlee-block-heel-pump-women/7484926",
-      "title": "Jatlee Block Heel Pump",
-      "brand": "Calvin Klein",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/27be0ee3-e132-422f-917f-31705d19e284.jpeg?h=368&w=240&dpr=2",
-      "price_current": 19.48,
-      "price_list": 109.0,
-      "price_baseline": 109.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 26162,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/calvin-klein-jatlee-block-heel-pump-women/7484926",
-      "discount_pct": 82.1,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 20,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-24T21:02:50.902953+00:00",
-      "last_seen": "2026-11-26T07:11:40.211315+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "캘빈클라인 펌프스",
-      "id": "ea52f4458d",
-      "history": [
-        [
-          "2026-11-24",
-          32.48
-        ],
-        [
-          "2026-11-25",
-          19.48
-        ],
-        [
-          "2026-11-26",
-          19.48
         ]
       ]
     },
@@ -12530,7 +12534,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T16:01:24.168821+00:00",
-      "last_seen": "2026-11-26T08:31:26.061337+00:00",
+      "last_seen": "2026-11-26T09:01:55.831896+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "컨버스 스니커즈",
@@ -12687,72 +12691,6 @@
     {
       "source": "nordstromrack.com",
       "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/ugg-landen-clog-men/8373209",
-      "title": "Landen Clog",
-      "brand": "Ugg",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/2f8a4edb-5f7d-4b1a-8962-bf6f11380dc9.jpeg?h=368&w=240&dpr=2",
-      "price_current": 44.97,
-      "price_list": 130.0,
-      "price_baseline": 130.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 60397,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/ugg-landen-clog-men/8373209",
-      "discount_pct": 65.4,
-      "score": 76,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 20,
-        "bonus": 4,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-24T21:41:50.698288+00:00",
-      "last_seen": "2026-11-26T08:31:26.061337+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "어그 클로그",
-      "id": "7604abb38e",
-      "history": [
-        [
-          "2026-11-24",
-          74.96
-        ],
-        [
-          "2026-11-25",
-          44.97
-        ],
-        [
-          "2026-11-26",
-          44.97
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/the-north-face-thermoball-water-repellent-traction-v-mule-women/4632789",
       "title": "Thermoball™ Water Repellent Traction V Mule",
       "brand": "The North Face",
@@ -12796,7 +12734,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-24T07:32:45.860269+00:00",
-      "last_seen": "2026-11-26T07:11:40.211315+00:00",
+      "last_seen": "2026-11-26T09:01:55.831896+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "노스페이스 뮬",
@@ -12813,6 +12751,72 @@
         [
           "2026-11-26",
           22.48
+        ]
+      ]
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/ugg-landen-clog-men/8373209",
+      "title": "Landen Clog",
+      "brand": "Ugg",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/2f8a4edb-5f7d-4b1a-8962-bf6f11380dc9.jpeg?h=368&w=240&dpr=2",
+      "price_current": 44.97,
+      "price_list": 130.0,
+      "price_baseline": 130.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 60397,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.nordstromrack.com/s/ugg-landen-clog-men/8373209",
+      "discount_pct": 65.4,
+      "score": 76,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 20,
+        "bonus": 4,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-24T21:41:50.698288+00:00",
+      "last_seen": "2026-11-26T09:01:55.831896+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "어그 클로그",
+      "id": "7604abb38e",
+      "history": [
+        [
+          "2026-11-24",
+          74.96
+        ],
+        [
+          "2026-11-25",
+          44.97
+        ],
+        [
+          "2026-11-26",
+          44.97
         ]
       ]
     },
@@ -14766,6 +14770,64 @@
       "title_kr": "소니 헤드셋"
     },
     {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/vans-knu-skool/9306260",
+      "title": "Kids' Knu Skool Sneaker",
+      "brand": "Vans Knu Skool",
+      "category": "sports_outdoor",
+      "image": "https://n.nordstrommedia.com/it/f0eecd5d-6b83-4062-a2dc-03fc821c533c.jpeg?h=368&w=240&dpr=2",
+      "price_current": 11.68,
+      "price_list": 60.0,
+      "price_baseline": 60.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 15687,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/vans-knu-skool/9306260",
+      "discount_pct": 80.5,
+      "score": 72,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-26T08:31:24.408850+00:00",
+      "last_seen": "2026-11-26T09:01:55.831896+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "반스 아동용 스니커즈",
+      "id": "72a6e43a19",
+      "history": [
+        [
+          "2026-11-26",
+          11.68
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:crocs",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20392629",
@@ -14834,64 +14896,6 @@
         [
           "2026-11-26",
           18.0
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/vans-knu-skool/9306260",
-      "title": "Kids' Knu Skool Sneaker",
-      "brand": "Vans Knu Skool",
-      "category": "sports_outdoor",
-      "image": "https://n.nordstrommedia.com/it/f0eecd5d-6b83-4062-a2dc-03fc821c533c.jpeg?h=368&w=240&dpr=2",
-      "price_current": 11.68,
-      "price_list": 60.0,
-      "price_baseline": 60.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 15687,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/vans-knu-skool/9306260",
-      "discount_pct": 80.5,
-      "score": 72,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-26T08:31:24.408850+00:00",
-      "last_seen": "2026-11-26T08:31:26.061337+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "반스 아동용 스니커즈",
-      "id": "72a6e43a19",
-      "history": [
-        [
-          "2026-11-26",
-          11.68
         ]
       ]
     },
@@ -26310,6 +26314,314 @@
       "title_kr": "Jurassic World 장난감"
     },
     {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/PUMA-Black-Friday-Sale-Up-to-85-off-extra-20-off-free-shipping-w-50/22433525.html?iref=rss",
+      "title": "PUMA Black Friday Sale: Up to 85% off + extra 20% off + free shipping w/ $50",
+      "brand": "Puma",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1705671963-dn-image-6696580.png?h=178&w=250",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/PUMA-Black-Friday-Sale-Up-to-85-off-extra-20-off-free-shipping-w-50/22433525.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-26T09:01:53.402203+00:00",
+      "last_seen": "2026-11-26T09:01:55.831896+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "푸마 Black Friday Sale: Up to 85%…",
+      "id": "882a008ae2",
+      "history": []
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/On-Hoka-Running-Shoes-Deals-at-Woot-Up-to-38-off-extra-30-off-free-shipping-w-Prime/22433521.html?iref=rss",
+      "title": "On & Hoka Running Shoes Deals at Woot: Up to 38% off + extra 30% off + free shipping w/ Prime",
+      "brand": "Hoka",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1795682168-product-trimmed.jpg?h=128&w=250",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/On-Hoka-Running-Shoes-Deals-at-Woot-Up-to-38-off-extra-30-off-free-shipping-w-Prime/22433521.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-26T09:01:53.405529+00:00",
+      "last_seen": "2026-11-26T09:01:55.831896+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "호카 러닝화",
+      "id": "0a495d194f",
+      "history": []
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/lululemon-Black-Friday-Shoe-Specials-for-From-39-sneakers-from-79-free-shipping/22430524.html?iref=rss",
+      "title": "lululemon Black Friday Shoe Specials for From $39, sneakers from $79 + free shipping",
+      "brand": "Lululemon",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1795598734-product-trimmed.png?h=123&w=250",
+      "price_current": 39.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 52379,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/lululemon-Black-Friday-Shoe-Specials-for-From-39-sneakers-from-79-free-shipping/22430524.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 4,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-25T10:42:13.735312+00:00",
+      "last_seen": "2026-11-26T09:01:55.831896+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "룰루레몬 스니커즈",
+      "id": "b1f5e0f1d2",
+      "history": [
+        [
+          "2026-11-25",
+          39.0
+        ],
+        [
+          "2026-11-26",
+          39.0
+        ]
+      ]
+    },
+    {
+      "source": "techbargains:amazon",
+      "source_tier": "T2",
+      "url": "https://www.amazon.com/gp/product/B01M0A3BKH/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1",
+      "title": "Samsonite Freeform Hardside Carry-On Luggage with Spinner Wheels $108",
+      "brand": "Samsonite",
+      "category": "watch_misc",
+      "image": "https://www.techbargains.com/imagery/deals/138552.1795642800.fit_lim.size_125x125.png",
+      "price_current": 108.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": 108.0,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 145049,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/gp/product/B01M0A3BKH/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": 25,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-21T12:41:24.092468+00:00",
+      "last_seen": "2026-11-26T09:01:55.831896+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "샘소나이트 캐리어",
+      "id": "98b8300270",
+      "history": [
+        [
+          "2026-11-21",
+          108.0
+        ],
+        [
+          "2026-11-22",
+          108.0
+        ],
+        [
+          "2026-11-24",
+          108.0
+        ],
+        [
+          "2026-11-25",
+          108.0
+        ],
+        [
+          "2026-11-26",
+          108.0
+        ]
+      ]
+    },
+    {
+      "source": "techbargains:amazon",
+      "source_tier": "T2",
+      "url": "https://www.amazon.com/gp/product/B082KLQBD5/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+      "title": "Meta Oakley IPX4 AI Glasses with 12MP Built-in Camera $359.00",
+      "brand": "Oakley",
+      "category": "sports_outdoor",
+      "image": "https://www.techbargains.com/imagery/deals/275007.1795640835.fit_lim.size_125x125.png",
+      "price_current": 359.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 572797,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/gp/product/B082KLQBD5/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-25T21:31:25.207027+00:00",
+      "last_seen": "2026-11-26T09:01:55.831896+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "오클리 Meta Oakley IPX4 AI Glasses with…",
+      "id": "03817fe951",
+      "history": [
+        [
+          "2026-11-25",
+          359.0
+        ],
+        [
+          "2026-11-26",
+          359.0
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:amazon.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20402709",
@@ -26445,69 +26757,6 @@
         [
           "2026-11-26",
           213.0
-        ]
-      ]
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/lululemon-Black-Friday-Shoe-Specials-for-From-39-sneakers-from-79-free-shipping/22430524.html?iref=rss",
-      "title": "lululemon Black Friday Shoe Specials for From $39, sneakers from $79 + free shipping",
-      "brand": "Lululemon",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1795598734-product-trimmed.png?h=123&w=250",
-      "price_current": 39.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 52379,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/lululemon-Black-Friday-Shoe-Specials-for-From-39-sneakers-from-79-free-shipping/22430524.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 4,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-25T10:42:13.735312+00:00",
-      "last_seen": "2026-11-26T08:31:26.061337+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "룰루레몬 스니커즈",
-      "id": "b1f5e0f1d2",
-      "history": [
-        [
-          "2026-11-25",
-          39.0
-        ],
-        [
-          "2026-11-26",
-          39.0
         ]
       ]
     },
@@ -26685,143 +26934,6 @@
         [
           "2026-11-26",
           28.0
-        ]
-      ]
-    },
-    {
-      "source": "techbargains:amazon",
-      "source_tier": "T2",
-      "url": "https://www.amazon.com/gp/product/B01M0A3BKH/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1",
-      "title": "Samsonite Freeform Hardside Carry-On Luggage with Spinner Wheels $108",
-      "brand": "Samsonite",
-      "category": "watch_misc",
-      "image": "https://www.techbargains.com/imagery/deals/138552.1795642800.fit_lim.size_125x125.png",
-      "price_current": 108.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": 108.0,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 145049,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/gp/product/B01M0A3BKH/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": 25,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-21T12:41:24.092468+00:00",
-      "last_seen": "2026-11-26T08:31:26.061337+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "샘소나이트 캐리어",
-      "id": "98b8300270",
-      "history": [
-        [
-          "2026-11-21",
-          108.0
-        ],
-        [
-          "2026-11-22",
-          108.0
-        ],
-        [
-          "2026-11-24",
-          108.0
-        ],
-        [
-          "2026-11-25",
-          108.0
-        ],
-        [
-          "2026-11-26",
-          108.0
-        ]
-      ]
-    },
-    {
-      "source": "techbargains:amazon",
-      "source_tier": "T2",
-      "url": "https://www.amazon.com/gp/product/B082KLQBD5/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
-      "title": "Meta Oakley IPX4 AI Glasses with 12MP Built-in Camera $359.00",
-      "brand": "Oakley",
-      "category": "sports_outdoor",
-      "image": "https://www.techbargains.com/imagery/deals/275007.1795640835.fit_lim.size_125x125.png",
-      "price_current": 359.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 572797,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/gp/product/B082KLQBD5/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-25T21:31:25.207027+00:00",
-      "last_seen": "2026-11-26T08:31:26.061337+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "오클리 Meta Oakley IPX4 AI Glasses with…",
-      "id": "03817fe951",
-      "history": [
-        [
-          "2026-11-25",
-          359.0
-        ],
-        [
-          "2026-11-26",
-          359.0
         ]
       ]
     },
@@ -28994,69 +29106,6 @@
         ]
       ],
       "title_kr": "푸마 남성용 후드티"
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/PUMA-Suede-Classic-Mens-Sneakers-for-70-free-shipping/22428642.html?iref=rss",
-      "title": "PUMA Suede Classic Men's Sneakers for $70 + free shipping",
-      "brand": "Puma",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1795557494-product-trimmed.png?h=133&w=250",
-      "price_current": 70.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 94046,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/PUMA-Suede-Classic-Mens-Sneakers-for-70-free-shipping/22428642.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-24T22:21:31.698078+00:00",
-      "last_seen": "2026-11-25T00:12:24.118181+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "8e35e53245",
-      "history": [
-        [
-          "2026-11-24",
-          70.0
-        ],
-        [
-          "2026-11-25",
-          70.0
-        ]
-      ],
-      "title_kr": "푸마 남성용 스니커즈"
     },
     {
       "source": "dealnews",
@@ -31709,12 +31758,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-26T09:00:49+00:00",
-      "T2": "2026-11-26T08:31:10+00:00",
+      "T2": "2026-11-26T09:01:36+00:00",
       "T3": "2026-11-26T08:22:01+00:00",
       "T4": "2026-11-26T04:12:18+00:00"
     },
     "recent_gaps_min": [
-      1,
       10,
       9,
       1,
@@ -31750,7 +31798,7 @@
       "queried": 25,
       "matched": 0,
       "errors": 0,
-      "at": "2026-11-26T09:01:34+00:00"
+      "at": "2026-11-26T09:01:55+00:00"
     },
     "reddit": {
       "mode": "공개 검색(키 없음)",
@@ -31758,7 +31806,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-26T09:01:34+00:00"
+      "at": "2026-11-26T09:01:55+00:00"
     }
   },
   "email_monitor": {
