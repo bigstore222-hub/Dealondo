@@ -1738,8 +1738,6 @@
   }
  },
  "done_updates": [
-  303762865,
-  303762866,
   303762867,
   303762868,
   303762869,
@@ -2041,11 +2039,6 @@
  ],
  "runs": [
   {
-   "at": "2026-11-24T18:33:27+09:00",
-   "updates": 1,
-   "errors": []
-  },
-  {
    "at": "2026-11-24T20:23:14+09:00",
    "updates": 0,
    "errors": []
@@ -2239,6 +2232,11 @@
    "at": "2026-11-26T19:04:50+09:00",
    "updates": 2,
    "errors": []
+  },
+  {
+   "at": "2026-11-26T20:22:43+09:00",
+   "updates": 0,
+   "errors": []
   }
  ],
  "info": {
@@ -2378,6 +2376,14 @@
     "status": "posted",
     "link": "https://www.threads.com/@deal_ondo/post/DgMSZc3EWCX",
     "error": ""
+   },
+   "2026-11-26-evening": {
+    "tries": 1,
+    "at": "2026-11-26T20:21:26+09:00",
+    "id": "L06",
+    "status": "posted",
+    "link": "https://www.threads.com/@deal_ondo/post/DgM_FiInMXz",
+    "error": ""
    }
   },
   "log": [
@@ -2516,6 +2522,14 @@
     "slot": "timed",
     "link": "https://www.threads.com/@deal_ondo/post/DgMSZc3EWCX",
     "first_line": "블프 결제 전에 이 3가지 안 보면 손해 볼 수 있어요."
+   },
+   {
+    "at": "2026-11-26T20:21:26+09:00",
+    "id": "L06",
+    "type": "library",
+    "slot": "evening",
+    "link": "https://www.threads.com/@deal_ondo/post/DgM_FiInMXz",
+    "first_line": "내일이 블프예요. 매년 반복되는 직구 실수 3가지만 피해도 반은 성공이에요."
    }
   ]
  }
