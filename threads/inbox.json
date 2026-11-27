@@ -1328,6 +1328,49 @@
    "img_ok": false,
    "msg": 5020,
    "status": "capped"
+  },
+  "1217fa05": {
+   "created": "2026-11-27T16:01:23+09:00",
+   "url": "https://a.co/d/05h6iyRt",
+   "hint": {
+    "at": 1795762800,
+    "title": "Amazon.com"
+   },
+   "status": "replaced",
+   "msg": 5033
+  },
+  "d9e1d703": {
+   "created": "2026-11-27T16:01:57+09:00",
+   "url": "https://a.co/d/05h6iyRt",
+   "deal": {
+    "url": "https://a.co/d/05h6iyRt",
+    "source": "a.co",
+    "store_name": "Amazon",
+    "title": "Amazon.com",
+    "brand": "",
+    "category": "etc",
+    "price_current": 177.75,
+    "price_list": 395.0,
+    "image": null,
+    "gender": null,
+    "buy_url": "https://a.co/d/05h6iyRt",
+    "discount_pct": 55,
+    "krw_effective": 238868,
+    "kr_lowest_price": null
+   },
+   "seen": "2026-11-27T16:01:57.570453+09:00",
+   "text": "$395짜리가 $177.75, 55% 할인, Amazon.com.\n\nAmazon 판매가예요.\n관부가세 없음(미국발 $200 이하). 다만 한도까지 $22.25밖에 안 남아서, 다른 걸 같이 담으면 세금이 붙어요.\n환율 계산하면 약 23만 9천 원이에요.\n\n딜온도 판단: 괜찮은 가격이에요. 급하지 않다면 가격을 조금 더 지켜봐도 되는 할인 폭이에요.\n이런 건 국내가랑 비교해보고 사시죠?",
+   "reply": "상품 링크: https://a.co/d/05h6iyRt\n팔로우해두면 이런 딜을 피드에서 바로 볼 수 있어요.",
+   "notes": [
+    "직접 알려주신 가격으로 썼어요.",
+    "[품질] 상품명이 아니라 사이트·알림 문구가 들어왔어요('Amazon.com').",
+    "[품질] 브랜드를 몰라요. 무슨 제품인지 첫 줄에서 안 보이는 글이 돼요."
+   ],
+   "angle": "practical",
+   "already": false,
+   "photo_msg": 5037,
+   "msg": 5040,
+   "status": "capped"
   }
  },
  "done_updates": [
@@ -1530,7 +1573,10 @@
   303763103,
   303763104,
   303763105,
-  303763106
+  303763106,
+  303763109,
+  303763110,
+  303763111
  ],
  "picks": {
   "2026-10-30-점심": "3ffe07d9",
@@ -1633,11 +1679,6 @@
   "nordstromrack.com/s/allsaints-calliope-boot/9233255"
  ],
  "runs": [
-  {
-   "at": "2026-11-25T09:02:28+09:00",
-   "updates": 0,
-   "errors": []
-  },
   {
    "at": "2026-11-25T10:37:38+09:00",
    "updates": 6,
@@ -1831,6 +1872,11 @@
   {
    "at": "2026-11-27T15:23:24+09:00",
    "updates": 0,
+   "errors": []
+  },
+  {
+   "at": "2026-11-27T16:03:47+09:00",
+   "updates": 3,
    "errors": []
   }
  ],
