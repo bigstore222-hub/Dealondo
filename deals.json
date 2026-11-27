@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T01:20:53.358727+00:00",
+  "generated_at": "2026-11-27T01:21:44.244821+00:00",
   "count": 510,
   "deals": [
     {
@@ -3177,7 +3177,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-18T21:40:48.355664+00:00",
-      "last_seen": "2026-11-26T19:12:44.932421+00:00",
+      "last_seen": "2026-11-27T01:21:44.244821+00:00",
       "posted_at": "2026-11-24T00:54:33+00:00",
       "signals": {
         "sd_feeds": [
@@ -3629,7 +3629,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-19T08:41:23.407247+00:00",
-      "last_seen": "2026-11-27T00:41:33.170923+00:00",
+      "last_seen": "2026-11-27T01:21:41.941537+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "프리피플 맥시 원피스",
@@ -3718,7 +3718,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-19T08:41:23.407247+00:00",
-      "last_seen": "2026-11-27T00:41:33.170923+00:00",
+      "last_seen": "2026-11-27T01:21:41.941537+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "나이키 폴로셔츠",
@@ -4232,7 +4232,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-19T21:41:23.210533+00:00",
-      "last_seen": "2026-11-27T00:41:33.170923+00:00",
+      "last_seen": "2026-11-27T01:21:41.941537+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "나이키 스니커즈",
@@ -4670,7 +4670,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-24T05:31:48.890381+00:00",
-      "last_seen": "2026-11-26T19:12:44.932421+00:00",
+      "last_seen": "2026-11-27T01:21:44.244821+00:00",
       "posted_at": "2026-11-24T05:07:00+00:00",
       "signals": {
         "sd_feeds": [
@@ -5691,7 +5691,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-24T04:11:45.396334+00:00",
-      "last_seen": "2026-11-26T19:12:44.932421+00:00",
+      "last_seen": "2026-11-27T01:21:44.244821+00:00",
       "posted_at": "2026-11-24T03:24:40+00:00",
       "signals": {
         "sd_feeds": [
@@ -5761,7 +5761,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-26T08:31:24.408850+00:00",
-      "last_seen": "2026-11-27T00:41:33.170923+00:00",
+      "last_seen": "2026-11-27T01:21:41.941537+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "생로랑 선글라스",
@@ -5774,6 +5774,72 @@
         [
           "2026-11-27",
           77.98
+        ]
+      ]
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/michael-kors-two-button-suit/9017278",
+      "title": "Two-Button Suit",
+      "brand": "Michael Kors",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/6ffe9b11-2bfd-4f1a-bef7-80de6454b101.jpeg?h=368&w=240&dpr=2",
+      "price_current": 134.97,
+      "price_list": 600.0,
+      "price_baseline": 600.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 181378,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.nordstromrack.com/s/michael-kors-two-button-suit/9017278",
+      "discount_pct": 77.5,
+      "score": 82,
+      "score_breakdown": {
+        "discount_depth": 35,
+        "price_history": null,
+        "category": 20,
+        "bonus": 4,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-25T17:11:11.012754+00:00",
+      "last_seen": "2026-11-27T01:21:41.941537+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "마이클 코어스 수트",
+      "id": "fe50af605e",
+      "history": [
+        [
+          "2026-11-25",
+          134.97
+        ],
+        [
+          "2026-11-26",
+          134.97
+        ],
+        [
+          "2026-11-27",
+          134.97
         ]
       ]
     },
@@ -5840,72 +5906,6 @@
         [
           "2026-11-27",
           48.58
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/michael-kors-two-button-suit/9017278",
-      "title": "Two-Button Suit",
-      "brand": "Michael Kors",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/6ffe9b11-2bfd-4f1a-bef7-80de6454b101.jpeg?h=368&w=240&dpr=2",
-      "price_current": 134.97,
-      "price_list": 600.0,
-      "price_baseline": 600.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 181378,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.nordstromrack.com/s/michael-kors-two-button-suit/9017278",
-      "discount_pct": 77.5,
-      "score": 82,
-      "score_breakdown": {
-        "discount_depth": 35,
-        "price_history": null,
-        "category": 20,
-        "bonus": 4,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-25T17:11:11.012754+00:00",
-      "last_seen": "2026-11-27T00:41:33.170923+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "마이클 코어스 수트",
-      "id": "fe50af605e",
-      "history": [
-        [
-          "2026-11-25",
-          134.97
-        ],
-        [
-          "2026-11-26",
-          134.97
-        ],
-        [
-          "2026-11-27",
-          134.97
         ]
       ]
     },
@@ -7951,6 +7951,72 @@
     {
       "source": "nordstromrack.com",
       "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/vince-camuto-tyleen-pointed-toe-knee-high-boot-women/8506816",
+      "title": "Tyleen Pointed Toe Knee High Boot",
+      "brand": "Vince Camuto",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/56c739d5-40be-4776-9d45-17579edee47a.jpeg?h=368&w=240&dpr=2",
+      "price_current": 38.98,
+      "price_list": 299.0,
+      "price_baseline": 299.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 52383,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/vince-camuto-tyleen-pointed-toe-knee-high-boot-women/8506816",
+      "discount_pct": 87.0,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 20,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-25T17:11:11.012754+00:00",
+      "last_seen": "2026-11-27T01:21:41.941537+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "빈스 카무토 롱부츠",
+      "id": "444806f9b2",
+      "history": [
+        [
+          "2026-11-25",
+          38.98
+        ],
+        [
+          "2026-11-26",
+          38.98
+        ],
+        [
+          "2026-11-27",
+          38.98
+        ]
+      ]
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/calvin-klein-jatlee-block-heel-pump-women/7484926",
       "title": "Jatlee Block Heel Pump",
       "brand": "Calvin Klein",
@@ -8015,72 +8081,6 @@
         [
           "2026-11-27",
           19.48
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/vince-camuto-tyleen-pointed-toe-knee-high-boot-women/8506816",
-      "title": "Tyleen Pointed Toe Knee High Boot",
-      "brand": "Vince Camuto",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/56c739d5-40be-4776-9d45-17579edee47a.jpeg?h=368&w=240&dpr=2",
-      "price_current": 38.98,
-      "price_list": 299.0,
-      "price_baseline": 299.0,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 52383,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/vince-camuto-tyleen-pointed-toe-knee-high-boot-women/8506816",
-      "discount_pct": 87.0,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 20,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-25T17:11:11.012754+00:00",
-      "last_seen": "2026-11-27T00:41:33.170923+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "빈스 카무토 롱부츠",
-      "id": "444806f9b2",
-      "history": [
-        [
-          "2026-11-25",
-          38.98
-        ],
-        [
-          "2026-11-26",
-          38.98
-        ],
-        [
-          "2026-11-27",
-          38.98
         ]
       ]
     },
@@ -11760,7 +11760,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-24T12:02:30.504698+00:00",
-      "last_seen": "2026-11-26T19:12:44.932421+00:00",
+      "last_seen": "2026-11-27T01:21:44.244821+00:00",
       "posted_at": "2026-11-24T20:52:07+00:00",
       "signals": {
         "sd_feeds": [
@@ -11832,7 +11832,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-24T08:52:21.955001+00:00",
-      "last_seen": "2026-11-26T19:12:44.932421+00:00",
+      "last_seen": "2026-11-27T01:21:44.244821+00:00",
       "posted_at": "2026-11-24T19:18:33+00:00",
       "signals": {
         "sd_feeds": [
@@ -13718,7 +13718,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T16:01:24.168821+00:00",
-      "last_seen": "2026-11-27T00:41:33.170923+00:00",
+      "last_seen": "2026-11-27T01:21:41.941537+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "컨버스 스니커즈",
@@ -13853,7 +13853,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-24T07:32:45.860269+00:00",
-      "last_seen": "2026-11-27T00:41:33.170923+00:00",
+      "last_seen": "2026-11-27T01:21:41.941537+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "노스페이스 뮬",
@@ -13923,7 +13923,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-24T21:41:50.698288+00:00",
-      "last_seen": "2026-11-27T00:41:33.170923+00:00",
+      "last_seen": "2026-11-27T01:21:41.941537+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "어그 클로그",
@@ -14475,6 +14475,65 @@
         ]
       ],
       "title_kr": "올세인츠 여성용 토트백"
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Calvin-Klein-Mens-Classic-Midweight-Stand-Collar-Jacket-for-40-free-shipping/22435202.html?iref=rss",
+      "title": "Calvin Klein Men's Classic Midweight Stand Collar Jacket for $40 + free shipping",
+      "brand": "Calvin Klein",
+      "category": "premium_fashion",
+      "image": "https://d.dlnws.com/64599/1795740213-25458254_fpx.jpeg?h=250&w=205",
+      "price_current": 40.0,
+      "price_list": 173.91,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 53754,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Calvin-Klein-Mens-Classic-Midweight-Stand-Collar-Jacket-for-40-free-shipping/22435202.html?iref=rss",
+      "discount_pct": 77.0,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 35,
+        "price_history": null,
+        "category": 20,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-27T01:21:40.068800+00:00",
+      "last_seen": "2026-11-27T01:21:41.941537+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "캘빈클라인 남성용 재킷",
+      "id": "34c7d33140",
+      "history": [
+        [
+          "2026-11-27",
+          40.0
+        ]
+      ]
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -17903,6 +17962,68 @@
       "title_kr": "VIZIO 사운드바"
     },
     {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/vionic-kensley-loafer-women/6533275",
+      "title": "Kensley Loafer",
+      "brand": "Vionic",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/068b15d2-51e9-4ea2-89dd-54ddf712b059.jpeg?h=368&w=240&dpr=2",
+      "price_current": 35.97,
+      "price_list": 129.95,
+      "price_baseline": 129.95,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 48338,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/vionic-kensley-loafer-women/6533275",
+      "discount_pct": 72.3,
+      "score": 70,
+      "score_breakdown": {
+        "discount_depth": 35,
+        "price_history": null,
+        "category": 16,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-26T21:41:24.532255+00:00",
+      "last_seen": "2026-11-27T01:21:41.941537+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "바이오닉 로퍼",
+      "id": "aa23d859ef",
+      "history": [
+        [
+          "2026-11-26",
+          35.97
+        ],
+        [
+          "2026-11-27",
+          35.97
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:amazon.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20403387",
@@ -17971,68 +18092,6 @@
         [
           "2026-11-27",
           4.5
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/vionic-kensley-loafer-women/6533275",
-      "title": "Kensley Loafer",
-      "brand": "Vionic",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/068b15d2-51e9-4ea2-89dd-54ddf712b059.jpeg?h=368&w=240&dpr=2",
-      "price_current": 35.97,
-      "price_list": 129.95,
-      "price_baseline": 129.95,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 48338,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/vionic-kensley-loafer-women/6533275",
-      "discount_pct": 72.3,
-      "score": 70,
-      "score_breakdown": {
-        "discount_depth": 35,
-        "price_history": null,
-        "category": 16,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-26T21:41:24.532255+00:00",
-      "last_seen": "2026-11-27T00:41:33.170923+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "바이오닉 로퍼",
-      "id": "aa23d859ef",
-      "history": [
-        [
-          "2026-11-26",
-          35.97
-        ],
-        [
-          "2026-11-27",
-          35.97
         ]
       ]
     },
@@ -18960,7 +19019,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-24T08:52:21.955001+00:00",
-      "last_seen": "2026-11-26T19:12:44.932421+00:00",
+      "last_seen": "2026-11-27T01:21:44.244821+00:00",
       "posted_at": "2026-11-24T08:17:36+00:00",
       "signals": {
         "sd_feeds": [
@@ -20261,7 +20320,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-24T04:52:00.770649+00:00",
-      "last_seen": "2026-11-26T19:12:44.932421+00:00",
+      "last_seen": "2026-11-27T01:21:44.244821+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Home Automation",
@@ -20642,87 +20701,6 @@
         ]
       ],
       "title_kr": "Sharpie 마커"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10055730",
-      "title": "Daveiro",
-      "brand": "Calvin Klein",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/71cWEQU7l3L._AC_SR255,340_.jpg",
-      "price_current": 32.7,
-      "price_list": 109.0,
-      "price_baseline": 109.0,
-      "price_alltime_low": 32.4,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 43965,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10055730",
-      "discount_pct": 70.0,
-      "score": 65,
-      "score_breakdown": {
-        "discount_depth": 35,
-        "price_history": 0,
-        "category": 20,
-        "bonus": 4,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-19T22:13:20.509514+00:00",
-      "last_seen": "2026-11-26T23:33:03.368170+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "캘빈클라인 Daveiro",
-      "id": "bd9984a0b5",
-      "history": [
-        [
-          "2026-11-19",
-          32.7
-        ],
-        [
-          "2026-11-20",
-          32.7
-        ],
-        [
-          "2026-11-21",
-          32.4
-        ],
-        [
-          "2026-11-22",
-          32.4
-        ],
-        [
-          "2026-11-23",
-          32.7
-        ],
-        [
-          "2026-11-25",
-          32.4
-        ],
-        [
-          "2026-11-26",
-          32.7
-        ]
-      ]
     },
     {
       "source": "slickdeals:amazon.com",
@@ -26879,7 +26857,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-24T19:12:13.664402+00:00",
-      "last_seen": "2026-11-26T19:12:44.932421+00:00",
+      "last_seen": "2026-11-27T01:21:44.244821+00:00",
       "posted_at": "2026-11-24T18:59:26+00:00",
       "signals": {
         "sd_feeds": [
@@ -27017,7 +26995,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-24T04:52:00.770649+00:00",
-      "last_seen": "2026-11-26T19:12:44.932421+00:00",
+      "last_seen": "2026-11-27T01:21:44.244821+00:00",
       "posted_at": "2026-11-24T04:44:37+00:00",
       "signals": {
         "sd_feeds": [
@@ -27839,7 +27817,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-23T22:02:09.052215+00:00",
-      "last_seen": "2026-11-26T19:11:39.639709+00:00",
+      "last_seen": "2026-11-27T01:21:44.244821+00:00",
       "posted_at": "2026-11-23T21:48:12+00:00",
       "signals": {
         "sd_feeds": [
@@ -28427,6 +28405,65 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
+      "url": "https://www.dealnews.com/products/Citizen/Citizen-Mens-Eco-Drive-Classic-Stainless-Steel-Bracelet-Watch/564550.html?iref=rss",
+      "title": "Citizen Men's Eco-Drive Classic Stainless Steel Bracelet Watch for $146 + free shipping",
+      "brand": "Citizen",
+      "category": "watch_misc",
+      "image": "https://d.dlnws.com/64599/1795739975-20227267_fpx.jpeg?h=250&w=205",
+      "price_current": 146.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 196201,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/products/Citizen/Citizen-Mens-Eco-Drive-Classic-Stainless-Steel-Bracelet-Watch/564550.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-27T01:21:40.068800+00:00",
+      "last_seen": "2026-11-27T01:21:41.941537+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "시티즌 남성용 시계",
+      "id": "825835522b",
+      "history": [
+        [
+          "2026-11-27",
+          146.0
+        ]
+      ]
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
       "url": "https://www.dealnews.com/Seiko-Mens-Solar-Essentials-Leather-Strap-Watch-for-175-free-shipping/22435198.html?iref=rss",
       "title": "Seiko Men's Solar Essentials Leather Strap Watch for $175 + free shipping",
       "brand": "Seiko",
@@ -28471,7 +28508,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-27T00:41:29.846876+00:00",
-      "last_seen": "2026-11-27T00:41:33.170923+00:00",
+      "last_seen": "2026-11-27T01:21:41.941537+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "세이코 남성용 시계",
@@ -28530,7 +28567,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-27T00:41:29.846876+00:00",
-      "last_seen": "2026-11-27T00:41:33.170923+00:00",
+      "last_seen": "2026-11-27T01:21:41.941537+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "노티카 남성용 수트",
@@ -28589,7 +28626,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-26T23:33:00.474048+00:00",
-      "last_seen": "2026-11-27T00:41:33.170923+00:00",
+      "last_seen": "2026-11-27T01:21:41.941537+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "Fisher-Price 블록 세트",
@@ -28602,6 +28639,339 @@
         [
           "2026-11-27",
           9.0
+        ]
+      ]
+    },
+    {
+      "source": "techbargains:amazon",
+      "source_tier": "T2",
+      "url": "https://www.amazon.com/gp/product/B082KLQBD5/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+      "title": "Meta Oakley IPX4 AI Glasses with 12MP Built-in Camera $359.00",
+      "brand": "Oakley",
+      "category": "sports_outdoor",
+      "image": "https://www.techbargains.com/imagery/deals/275007.1795729549.fit_lim.size_125x125.png",
+      "price_current": 359.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 573138,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/gp/product/B082KLQBD5/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-25T21:31:25.207027+00:00",
+      "last_seen": "2026-11-27T01:21:41.941537+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "오클리 Meta Oakley IPX4 AI Glasses with…",
+      "id": "03817fe951",
+      "history": [
+        [
+          "2026-11-25",
+          359.0
+        ],
+        [
+          "2026-11-26",
+          359.0
+        ],
+        [
+          "2026-11-27",
+          359.0
+        ]
+      ]
+    },
+    {
+      "source": "techbargains:amazon",
+      "source_tier": "T2",
+      "url": "https://www.amazon.com/gp/product/B0FLYDJHB4/ref=ewc_pr_img_1?smid=ATVPDKIKX0DER&th=1",
+      "title": "Ray-Ban Meta Gen 2 Wayfarer 3K Video Recording Smart AI Glasses (Matte Black, Clear Lenses) $284.00",
+      "brand": "Ray-Ban",
+      "category": "watch_misc",
+      "image": "https://www.techbargains.com/imagery/deals/267014.1795726229.fit_lim.size_125x125.png",
+      "price_current": 284.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": 284.0,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 453402,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/gp/product/B0FLYDJHB4/ref=ewc_pr_img_1?smid=ATVPDKIKX0DER&th=1",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": 25,
+        "category": 15,
+        "bonus": 0,
+        "brand": 6,
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-20T17:02:03.037866+00:00",
+      "last_seen": "2026-11-27T01:21:41.941537+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "레이밴 Meta Gen 2 Wayfarer 3K Video…",
+      "id": "fe20a92620",
+      "history": [
+        [
+          "2026-11-20",
+          284.0
+        ],
+        [
+          "2026-11-21",
+          284.0
+        ],
+        [
+          "2026-11-22",
+          284.0
+        ],
+        [
+          "2026-11-23",
+          284.0
+        ],
+        [
+          "2026-11-24",
+          284.0
+        ],
+        [
+          "2026-11-25",
+          284.0
+        ],
+        [
+          "2026-11-26",
+          284.0
+        ],
+        [
+          "2026-11-27",
+          284.0
+        ]
+      ]
+    },
+    {
+      "source": "techbargains:woot!",
+      "source_tier": "T2",
+      "url": "https://home.woot.com/plus/tumi-samsonite-more-luggage",
+      "title": "Woot! Luggage Sale: Up to 50% off Tumi, Samsonite, More",
+      "brand": "Samsonite",
+      "category": "watch_misc",
+      "image": "https://www.techbargains.com/imagery/deals/202730.1795725394.fit_lim.size_125x125.jpg",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://home.woot.com/plus/tumi-samsonite-more-luggage",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-27T01:21:40.025200+00:00",
+      "last_seen": "2026-11-27T01:21:41.941537+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "샘소나이트 캐리어",
+      "id": "56fe0e7b02",
+      "history": []
+    },
+    {
+      "source": "techbargains:amazon",
+      "source_tier": "T2",
+      "url": "https://www.amazon.com/gp/product/B06XDL15DB/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1&psc=1",
+      "title": "Carhartt Thermoplastic Rubber Men's C-Grip Glove $7.49",
+      "brand": "Carhartt",
+      "category": "premium_fashion",
+      "image": "https://www.techbargains.com/imagery/deals/275062.1795718542.fit_lim.size_125x125.png",
+      "price_current": 7.49,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 10065,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/gp/product/B06XDL15DB/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1&psc=1",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-26T19:11:34.417993+00:00",
+      "last_seen": "2026-11-27T01:21:41.941537+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "칼하트 Thermoplastic Rubber Men's C-Grip Glove",
+      "id": "d50682876a",
+      "history": [
+        [
+          "2026-11-26",
+          7.49
+        ],
+        [
+          "2026-11-27",
+          7.49
+        ]
+      ]
+    },
+    {
+      "source": "techbargains:amazon",
+      "source_tier": "T2",
+      "url": "https://www.amazon.com/gp/product/B0DYL3MBB9/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+      "title": "Travelpro Maxlite Air V2 20\" Lightweight Hardside Expandable Carry-On Suitcase (Green) $125.80",
+      "brand": "Travelpro",
+      "category": "etc",
+      "image": "https://www.techbargains.com/imagery/deals/185278.1795709672.fit_lim.size_125x125.png",
+      "price_current": 125.8,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 169055,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/gp/product/B0DYL3MBB9/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 5,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-26T16:33:04.833963+00:00",
+      "last_seen": "2026-11-27T01:21:41.941537+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "Travelpro 캐리어",
+      "id": "d680177fc4",
+      "history": [
+        [
+          "2026-11-26",
+          125.8
+        ],
+        [
+          "2026-11-27",
+          125.8
         ]
       ]
     },
@@ -28719,339 +29089,6 @@
         [
           "2026-11-27",
           11.0
-        ]
-      ]
-    },
-    {
-      "source": "techbargains:amazon",
-      "source_tier": "T2",
-      "url": "https://www.amazon.com/gp/product/B082KLQBD5/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
-      "title": "Meta Oakley IPX4 AI Glasses with 12MP Built-in Camera $359.00",
-      "brand": "Oakley",
-      "category": "sports_outdoor",
-      "image": "https://www.techbargains.com/imagery/deals/275007.1795729549.fit_lim.size_125x125.png",
-      "price_current": 359.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 573138,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/gp/product/B082KLQBD5/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-25T21:31:25.207027+00:00",
-      "last_seen": "2026-11-27T00:41:33.170923+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "오클리 Meta Oakley IPX4 AI Glasses with…",
-      "id": "03817fe951",
-      "history": [
-        [
-          "2026-11-25",
-          359.0
-        ],
-        [
-          "2026-11-26",
-          359.0
-        ],
-        [
-          "2026-11-27",
-          359.0
-        ]
-      ]
-    },
-    {
-      "source": "techbargains:amazon",
-      "source_tier": "T2",
-      "url": "https://www.amazon.com/gp/product/B0FLYDJHB4/ref=ewc_pr_img_1?smid=ATVPDKIKX0DER&th=1",
-      "title": "Ray-Ban Meta Gen 2 Wayfarer 3K Video Recording Smart AI Glasses (Matte Black, Clear Lenses) $284.00",
-      "brand": "Ray-Ban",
-      "category": "watch_misc",
-      "image": "https://www.techbargains.com/imagery/deals/267014.1795726229.fit_lim.size_125x125.png",
-      "price_current": 284.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": 284.0,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 453402,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/gp/product/B0FLYDJHB4/ref=ewc_pr_img_1?smid=ATVPDKIKX0DER&th=1",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": 25,
-        "category": 15,
-        "bonus": 0,
-        "brand": 6,
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-20T17:02:03.037866+00:00",
-      "last_seen": "2026-11-27T00:41:33.170923+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "레이밴 Meta Gen 2 Wayfarer 3K Video…",
-      "id": "fe20a92620",
-      "history": [
-        [
-          "2026-11-20",
-          284.0
-        ],
-        [
-          "2026-11-21",
-          284.0
-        ],
-        [
-          "2026-11-22",
-          284.0
-        ],
-        [
-          "2026-11-23",
-          284.0
-        ],
-        [
-          "2026-11-24",
-          284.0
-        ],
-        [
-          "2026-11-25",
-          284.0
-        ],
-        [
-          "2026-11-26",
-          284.0
-        ],
-        [
-          "2026-11-27",
-          284.0
-        ]
-      ]
-    },
-    {
-      "source": "techbargains:woot!",
-      "source_tier": "T2",
-      "url": "https://home.woot.com/plus/tumi-samsonite-more-luggage",
-      "title": "Woot! Luggage Sale: Up to 50% off Tumi, Samsonite, More",
-      "brand": "Samsonite",
-      "category": "watch_misc",
-      "image": "https://www.techbargains.com/imagery/deals/202730.1795725394.fit_lim.size_125x125.jpg",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://home.woot.com/plus/tumi-samsonite-more-luggage",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-27T00:41:29.779961+00:00",
-      "last_seen": "2026-11-27T00:41:33.170923+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "샘소나이트 캐리어",
-      "id": "56fe0e7b02",
-      "history": []
-    },
-    {
-      "source": "techbargains:amazon",
-      "source_tier": "T2",
-      "url": "https://www.amazon.com/gp/product/B06XDL15DB/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1&psc=1",
-      "title": "Carhartt Thermoplastic Rubber Men's C-Grip Glove $7.49",
-      "brand": "Carhartt",
-      "category": "premium_fashion",
-      "image": "https://www.techbargains.com/imagery/deals/275062.1795718542.fit_lim.size_125x125.png",
-      "price_current": 7.49,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 10065,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/gp/product/B06XDL15DB/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1&psc=1",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-26T19:11:34.417993+00:00",
-      "last_seen": "2026-11-27T00:41:33.170923+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "칼하트 Thermoplastic Rubber Men's C-Grip Glove",
-      "id": "d50682876a",
-      "history": [
-        [
-          "2026-11-26",
-          7.49
-        ],
-        [
-          "2026-11-27",
-          7.49
-        ]
-      ]
-    },
-    {
-      "source": "techbargains:amazon",
-      "source_tier": "T2",
-      "url": "https://www.amazon.com/gp/product/B0DYL3MBB9/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
-      "title": "Travelpro Maxlite Air V2 20\" Lightweight Hardside Expandable Carry-On Suitcase (Green) $125.80",
-      "brand": "Travelpro",
-      "category": "etc",
-      "image": "https://www.techbargains.com/imagery/deals/185278.1795709672.fit_lim.size_125x125.png",
-      "price_current": 125.8,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 169055,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/gp/product/B0DYL3MBB9/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 5,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-26T16:33:04.833963+00:00",
-      "last_seen": "2026-11-27T00:41:33.170923+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "Travelpro 캐리어",
-      "id": "d680177fc4",
-      "history": [
-        [
-          "2026-11-26",
-          125.8
-        ],
-        [
-          "2026-11-27",
-          125.8
         ]
       ]
     },
@@ -30440,65 +30477,6 @@
       "title_kr": "폴로 랄프로렌 Ralph Lauren Fragrances Black Friday Deals…",
       "id": "1f8bb1a823",
       "history": []
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Certified-Refurb-Citizen-Sport-Casual-Eco-Drive-Chronograph-44-mm-Mens-Watch-for-122-free-shipping/22434232.html?iref=rss",
-      "title": "Certified Refurb Citizen Sport Casual Eco-Drive Chronograph 44mm Men's Watch for $122 + free shipping",
-      "brand": "Citizen",
-      "category": "watch_misc",
-      "image": "https://d.dlnws.com/64599/1795705547-s-l1600.jpg?h=250&w=250",
-      "price_current": 122.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 164029,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Certified-Refurb-Citizen-Sport-Casual-Eco-Drive-Chronograph-44-mm-Mens-Watch-for-122-free-shipping/22434232.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-26T15:11:56.277040+00:00",
-      "last_seen": "2026-11-26T15:11:58.845445+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "시티즌 남성용 시계",
-      "id": "97d04c6d48",
-      "history": [
-        [
-          "2026-11-26",
-          122.0
-        ]
-      ]
     },
     {
       "source": "dealnews",
@@ -32949,7 +32927,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-23T23:51:41.710875+00:00",
-      "last_seen": "2026-11-26T19:12:44.932421+00:00",
+      "last_seen": "2026-11-27T01:21:44.244821+00:00",
       "posted_at": "2026-11-23T22:56:04+00:00",
       "signals": {
         "sd_feeds": [
@@ -34993,7 +34971,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-24T04:11:45.396334+00:00",
-      "last_seen": "2026-11-26T19:12:44.932421+00:00",
+      "last_seen": "2026-11-27T01:21:44.244821+00:00",
       "posted_at": "2026-11-24T03:56:00+00:00",
       "signals": {
         "sd_feeds": [
@@ -35441,12 +35419,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-27T01:20:39+00:00",
-      "T2": "2026-11-27T00:41:19+00:00",
+      "T2": "2026-11-27T01:21:32+00:00",
       "T3": "2026-11-26T23:33:08+00:00",
       "T4": "2026-11-26T22:41:44+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       10,
       4,
@@ -35475,14 +35452,15 @@
       1,
       9,
       1,
-      9
+      9,
+      1
     ],
     "naver": {
       "keys": false,
       "queried": 25,
       "matched": 0,
       "errors": 0,
-      "at": "2026-11-27T01:20:53+00:00"
+      "at": "2026-11-27T01:21:41+00:00"
     },
     "reddit": {
       "mode": "공개 검색(키 없음)",
@@ -35490,7 +35468,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-27T01:20:53+00:00"
+      "at": "2026-11-27T01:21:41+00:00"
     }
   },
   "email_monitor": {
