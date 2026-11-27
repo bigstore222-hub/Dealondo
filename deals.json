@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T16:50:52.827197+00:00",
-  "count": 538,
+  "generated_at": "2026-11-27T16:51:13.680355+00:00",
+  "count": 539,
   "deals": [
     {
       "source": "6pm.com",
@@ -746,7 +746,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-22T02:11:19.761601+00:00",
-      "last_seen": "2026-11-27T16:11:38.982795+00:00",
+      "last_seen": "2026-11-27T16:51:12.058732+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "콜한 부츠",
@@ -1063,77 +1063,6 @@
         [
           "2026-11-26",
           12.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20414778",
-      "title": "Wireless Bluetooth Meat Thermometer w/ Ceramic Probe & 600' Range $10",
-      "brand": "",
-      "category": "electronics",
-      "image": "https://static.slickdealscdn.com/attachment/4/0/4/0/3/4/4/300x300/22633893.thumb",
-      "price_current": 9.99,
-      "price_list": 39.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 51,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 13425,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20414778",
-      "discount_pct": 75.0,
-      "score": 93,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 51표/134분 → 하한 74",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-27T10:51:55.933715+00:00",
-      "last_seen": "2026-11-27T15:01:28.518332+00:00",
-      "posted_at": "2026-11-27T12:47:31+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Tech & Electronics",
-        "sd_store": "Amazon",
-        "sd_hot_origin": true,
-        "sd_age_min": 134,
-        "sd_votes": 51,
-        "sd_velocity": 22.8,
-        "sd_fp_min": 47
-      },
-      "title_kr": "Wireless Bluetooth Meat Thermometer w/ Ceramic…",
-      "id": "23aca6b9fa",
-      "history": [
-        [
-          "2026-11-27",
-          9.99
         ]
       ]
     },
@@ -4081,7 +4010,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-19T08:41:23.407247+00:00",
-      "last_seen": "2026-11-27T16:11:38.982795+00:00",
+      "last_seen": "2026-11-27T16:51:12.058732+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "나이키 폴로셔츠",
@@ -4170,7 +4099,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-19T08:41:23.407247+00:00",
-      "last_seen": "2026-11-27T16:11:38.982795+00:00",
+      "last_seen": "2026-11-27T16:51:12.058732+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "프리피플 맥시 원피스",
@@ -4211,6 +4140,87 @@
         [
           "2026-11-27",
           49.5
+        ]
+      ]
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10055844",
+      "title": "Yaiza",
+      "brand": "GUESS",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/61+GsWBU9ZL._AC_SR255,340_.jpg",
+      "price_current": 35.7,
+      "price_list": 119.0,
+      "price_baseline": 119.0,
+      "price_alltime_low": 35.7,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 47975,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10055844",
+      "discount_pct": 70.0,
+      "score": 90,
+      "score_breakdown": {
+        "discount_depth": 35,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 4,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-17T20:21:22.012440+00:00",
+      "last_seen": "2026-11-27T16:51:12.058732+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "게스 Yaiza",
+      "id": "d12db369d1",
+      "history": [
+        [
+          "2026-11-17",
+          35.7
+        ],
+        [
+          "2026-11-18",
+          35.7
+        ],
+        [
+          "2026-11-19",
+          35.7
+        ],
+        [
+          "2026-11-20",
+          35.7
+        ],
+        [
+          "2026-11-22",
+          35.7
+        ],
+        [
+          "2026-11-23",
+          35.7
+        ],
+        [
+          "2026-11-27",
+          35.7
         ]
       ]
     },
@@ -4280,87 +4290,6 @@
         [
           "2026-11-27",
           44.7
-        ]
-      ]
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10055844",
-      "title": "Yaiza",
-      "brand": "GUESS",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61+GsWBU9ZL._AC_SR255,340_.jpg",
-      "price_current": 35.7,
-      "price_list": 119.0,
-      "price_baseline": 119.0,
-      "price_alltime_low": 35.7,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 47975,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10055844",
-      "discount_pct": 70.0,
-      "score": 90,
-      "score_breakdown": {
-        "discount_depth": 35,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 4,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-17T20:21:22.012440+00:00",
-      "last_seen": "2026-11-27T03:12:45.448491+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "게스 Yaiza",
-      "id": "d12db369d1",
-      "history": [
-        [
-          "2026-11-17",
-          35.7
-        ],
-        [
-          "2026-11-18",
-          35.7
-        ],
-        [
-          "2026-11-19",
-          35.7
-        ],
-        [
-          "2026-11-20",
-          35.7
-        ],
-        [
-          "2026-11-22",
-          35.7
-        ],
-        [
-          "2026-11-23",
-          35.7
-        ],
-        [
-          "2026-11-27",
-          35.7
         ]
       ]
     },
@@ -4719,6 +4648,95 @@
       "title_kr": "Kiehl's 5-Oz Kiehl's Ultra Facial Cleanser w/…"
     },
     {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/nike-pacific-low-top-sneaker-women/8289606",
+      "title": "Pacific Low Top Sneaker",
+      "brand": "Nike",
+      "category": "sports_outdoor",
+      "image": "https://n.nordstrommedia.com/it/08271c4f-95d9-4565-b8bd-c22c9295f9c1.jpeg?h=368&w=240&dpr=2",
+      "price_current": 19.18,
+      "price_list": 80.0,
+      "price_baseline": 80.0,
+      "price_alltime_low": 19.18,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 25775,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/nike-pacific-low-top-sneaker-women/8289606",
+      "discount_pct": 76.0,
+      "score": 87,
+      "score_breakdown": {
+        "discount_depth": 35,
+        "price_history": 25,
+        "category": 17,
+        "bonus": 4,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-19T21:41:23.210533+00:00",
+      "last_seen": "2026-11-27T16:51:12.058732+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "나이키 스니커즈",
+      "id": "244f8f7302",
+      "history": [
+        [
+          "2026-11-19",
+          31.98
+        ],
+        [
+          "2026-11-20",
+          31.98
+        ],
+        [
+          "2026-11-21",
+          31.98
+        ],
+        [
+          "2026-11-22",
+          31.98
+        ],
+        [
+          "2026-11-23",
+          31.98
+        ],
+        [
+          "2026-11-24",
+          31.98
+        ],
+        [
+          "2026-11-25",
+          19.18
+        ],
+        [
+          "2026-11-26",
+          19.18
+        ],
+        [
+          "2026-11-27",
+          19.18
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:bestbuy.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20411961",
@@ -4783,95 +4801,6 @@
         [
           "2026-11-27",
           1.0
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/nike-pacific-low-top-sneaker-women/8289606",
-      "title": "Pacific Low Top Sneaker",
-      "brand": "Nike",
-      "category": "sports_outdoor",
-      "image": "https://n.nordstrommedia.com/it/08271c4f-95d9-4565-b8bd-c22c9295f9c1.jpeg?h=368&w=240&dpr=2",
-      "price_current": 19.18,
-      "price_list": 80.0,
-      "price_baseline": 80.0,
-      "price_alltime_low": 19.18,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 25775,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/nike-pacific-low-top-sneaker-women/8289606",
-      "discount_pct": 76.0,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 35,
-        "price_history": 25,
-        "category": 17,
-        "bonus": 4,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-19T21:41:23.210533+00:00",
-      "last_seen": "2026-11-27T16:11:38.982795+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "나이키 스니커즈",
-      "id": "244f8f7302",
-      "history": [
-        [
-          "2026-11-19",
-          31.98
-        ],
-        [
-          "2026-11-20",
-          31.98
-        ],
-        [
-          "2026-11-21",
-          31.98
-        ],
-        [
-          "2026-11-22",
-          31.98
-        ],
-        [
-          "2026-11-23",
-          31.98
-        ],
-        [
-          "2026-11-24",
-          31.98
-        ],
-        [
-          "2026-11-25",
-          19.18
-        ],
-        [
-          "2026-11-26",
-          19.18
-        ],
-        [
-          "2026-11-27",
-          19.18
         ]
       ]
     },
@@ -8526,6 +8455,137 @@
       "title_kr": "Steam God of War (2022) (PCDD/Steam Code)"
     },
     {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/circus-ny-by-sam-edelman-pace-over-the-knee-boot-women/8338802",
+      "title": "Pace Over the Knee Boot",
+      "brand": "Circus Ny By Sam Edelman",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/3931e0b9-2105-4a3d-a88d-91a2701af926.jpeg?h=368&w=240&dpr=2",
+      "price_current": 25.33,
+      "price_list": 189.95,
+      "price_baseline": 189.95,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 34040,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/circus-ny-by-sam-edelman-pace-over-the-knee-boot-women/8338802",
+      "discount_pct": 86.7,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 20,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-27T03:52:38.732680+00:00",
+      "last_seen": "2026-11-27T16:51:12.058732+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "Circus Ny By Sam Edelman 부츠",
+      "id": "5425671091",
+      "history": [
+        [
+          "2026-11-27",
+          25.33
+        ]
+      ]
+    },
+    {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/zupirol-security-camera/846814.htm",
+      "title": "Zupirol 2-in-1 2K HD Night Vision 2-Way Audio Light Bulb Security Camera",
+      "brand": "",
+      "category": "electronics",
+      "image": "https://d16f00g4zitf8i.cloudfront.net/images/zupirol-security-camera8.jpg",
+      "price_current": 20.89,
+      "price_list": 66.0,
+      "price_baseline": null,
+      "price_alltime_low": 20.89,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 28073,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.dealsofamerica.com/zupirol-security-camera/846814.htm",
+      "discount_pct": 68.3,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 36,
+        "price_history": 25,
+        "category": 15,
+        "bonus": 4,
+        "brand": 0
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-22T14:41:17.176699+00:00",
+      "last_seen": "2026-11-27T16:51:12.058732+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "보안 카메라",
+      "id": "4a7aab2d06",
+      "history": [
+        [
+          "2026-11-22",
+          20.89
+        ],
+        [
+          "2026-11-24",
+          20.89
+        ],
+        [
+          "2026-11-25",
+          20.89
+        ],
+        [
+          "2026-11-26",
+          20.89
+        ],
+        [
+          "2026-11-27",
+          20.89
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20413338",
@@ -8594,137 +8654,6 @@
         [
           "2026-11-27",
           482.0
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/circus-ny-by-sam-edelman-pace-over-the-knee-boot-women/8338802",
-      "title": "Pace Over the Knee Boot",
-      "brand": "Circus Ny By Sam Edelman",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/3931e0b9-2105-4a3d-a88d-91a2701af926.jpeg?h=368&w=240&dpr=2",
-      "price_current": 25.33,
-      "price_list": 189.95,
-      "price_baseline": 189.95,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 34040,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/circus-ny-by-sam-edelman-pace-over-the-knee-boot-women/8338802",
-      "discount_pct": 86.7,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 40,
-        "price_history": null,
-        "category": 20,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-27T03:52:38.732680+00:00",
-      "last_seen": "2026-11-27T16:11:38.982795+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "Circus Ny By Sam Edelman 부츠",
-      "id": "5425671091",
-      "history": [
-        [
-          "2026-11-27",
-          25.33
-        ]
-      ]
-    },
-    {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/zupirol-security-camera/846814.htm",
-      "title": "Zupirol 2-in-1 2K HD Night Vision 2-Way Audio Light Bulb Security Camera",
-      "brand": "",
-      "category": "electronics",
-      "image": "https://d16f00g4zitf8i.cloudfront.net/images/zupirol-security-camera8.jpg",
-      "price_current": 20.89,
-      "price_list": 66.0,
-      "price_baseline": null,
-      "price_alltime_low": 20.89,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 28073,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.dealsofamerica.com/zupirol-security-camera/846814.htm",
-      "discount_pct": 68.3,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 36,
-        "price_history": 25,
-        "category": 15,
-        "bonus": 4,
-        "brand": 0
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-22T14:41:17.176699+00:00",
-      "last_seen": "2026-11-27T16:11:38.982795+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "보안 카메라",
-      "id": "4a7aab2d06",
-      "history": [
-        [
-          "2026-11-22",
-          20.89
-        ],
-        [
-          "2026-11-24",
-          20.89
-        ],
-        [
-          "2026-11-25",
-          20.89
-        ],
-        [
-          "2026-11-26",
-          20.89
-        ],
-        [
-          "2026-11-27",
-          20.89
         ]
       ]
     },
@@ -14519,7 +14448,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-27T03:12:42.467038+00:00",
-      "last_seen": "2026-11-27T16:11:38.982795+00:00",
+      "last_seen": "2026-11-27T16:51:12.058732+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "써코니 스니커즈",
@@ -30541,6 +30470,385 @@
       "title_kr": "Jurassic World 장난감"
     },
     {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/YETI-Rambler-35-oz-Tumbler-w-Handle-Straw-Lid-for-25-free-shipping-w-Prime/22437765.html?iref=rss",
+      "title": "YETI Rambler 35-oz. Tumbler w/ Handle & Straw Lid for $25 + free shipping w/ Prime",
+      "brand": "YETI",
+      "category": "home",
+      "image": "https://d.dlnws.com/64599/1795797701-61fadcnwm3l.jpg?h=250&w=250",
+      "price_current": 25.0,
+      "price_list": 41.67,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 33596,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/YETI-Rambler-35-oz-Tumbler-w-Handle-Straw-Lid-for-25-free-shipping-w-Prime/22437765.html?iref=rss",
+      "discount_pct": 40.0,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 20,
+        "price_history": null,
+        "category": 8,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-27T16:51:09.524806+00:00",
+      "last_seen": "2026-11-27T16:51:12.058732+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "예티 텀블러",
+      "id": "cb340360d2",
+      "history": [
+        [
+          "2026-11-27",
+          25.0
+        ]
+      ]
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Merrell-CAT-Wolverine-Black-Friday-Deals-at-eBay-Up-to-50-off-free-shipping/22437755.html?iref=rss",
+      "title": "Merrell, CAT & Wolverine Black Friday Deals at eBay: Up to 50% off + free shipping",
+      "brand": "Merrell",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1795797285-s-l300.jpg?h=250&w=250",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Merrell-CAT-Wolverine-Black-Friday-Deals-at-eBay-Up-to-50-off-free-shipping/22437755.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-27T16:51:09.114972+00:00",
+      "last_seen": "2026-11-27T16:51:12.058732+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "머렐 CAT & Wolverine Black Friday Deals…",
+      "id": "0e56afb38a",
+      "history": []
+    },
+    {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Saucony-Black-Friday-Deals-Extra-25-off-free-shipping-w-75/22437725.html?iref=rss",
+      "title": "Saucony Black Friday Deals: Extra 25% off + free shipping w/ $75",
+      "brand": "Saucony",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1795796421-1795106350-1794401880-product-trimmed.jpg?h=59&w=250",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.dealnews.com/Saucony-Black-Friday-Deals-Extra-25-off-free-shipping-w-75/22437725.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-27T16:51:09.126626+00:00",
+      "last_seen": "2026-11-27T16:51:12.058732+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "써코니 Black Friday Deals: Extra 25% off…",
+      "id": "05328e2b9f",
+      "history": []
+    },
+    {
+      "source": "techbargains:amazon",
+      "source_tier": "T2",
+      "url": "https://www.amazon.com/gp/product/B07FBRM52G/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+      "title": "Skechers Men's Slip Resistant Cessnock Bungee Slip On Shoes $37.98",
+      "brand": "Skechers",
+      "category": "premium_fashion",
+      "image": "https://www.techbargains.com/imagery/deals/255458.1795792400.fit_lim.size_125x125.png",
+      "price_current": 37.98,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 51039,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/gp/product/B07FBRM52G/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 20,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-27T15:32:47.361358+00:00",
+      "last_seen": "2026-11-27T16:51:12.058732+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "스케쳐스 남성용 운동화",
+      "id": "a80e8d2f25",
+      "history": [
+        [
+          "2026-11-27",
+          37.98
+        ]
+      ]
+    },
+    {
+      "source": "techbargains:amazon",
+      "source_tier": "T2",
+      "url": "https://www.amazon.com/gp/product/B082KLQBD5/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+      "title": "Meta Oakley IPX4 AI Glasses with 12MP Built-in Camera $359.00",
+      "brand": "Oakley",
+      "category": "sports_outdoor",
+      "image": "https://www.techbargains.com/imagery/deals/275007.1795784603.fit_lim.size_125x125.png",
+      "price_current": 359.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 573138,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/gp/product/B082KLQBD5/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-25T21:31:25.207027+00:00",
+      "last_seen": "2026-11-27T16:51:12.058732+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "오클리 Meta Oakley IPX4 AI Glasses with…",
+      "id": "03817fe951",
+      "history": [
+        [
+          "2026-11-25",
+          359.0
+        ],
+        [
+          "2026-11-26",
+          359.0
+        ],
+        [
+          "2026-11-27",
+          359.0
+        ]
+      ]
+    },
+    {
+      "source": "techbargains:amazon",
+      "source_tier": "T2",
+      "url": "https://www.amazon.com/gp/product/B0FLYDJHB4/ref=ewc_pr_img_1?smid=ATVPDKIKX0DER&th=1",
+      "title": "Ray-Ban Meta Gen 2 Wayfarer 3K Video Recording Smart AI Glasses (Matte Black, Clear Lenses) $284.00",
+      "brand": "Ray-Ban",
+      "category": "watch_misc",
+      "image": "https://www.techbargains.com/imagery/deals/267014.1795779961.fit_lim.size_125x125.png",
+      "price_current": 284.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": 284.0,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 453402,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/gp/product/B0FLYDJHB4/ref=ewc_pr_img_1?smid=ATVPDKIKX0DER&th=1",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": 25,
+        "category": 15,
+        "bonus": 0,
+        "brand": 6,
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-20T17:02:03.037866+00:00",
+      "last_seen": "2026-11-27T16:51:12.058732+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "레이밴 Meta Gen 2 Wayfarer 3K Video…",
+      "id": "fe20a92620",
+      "history": [
+        [
+          "2026-11-20",
+          284.0
+        ],
+        [
+          "2026-11-21",
+          284.0
+        ],
+        [
+          "2026-11-22",
+          284.0
+        ],
+        [
+          "2026-11-23",
+          284.0
+        ],
+        [
+          "2026-11-24",
+          284.0
+        ],
+        [
+          "2026-11-25",
+          284.0
+        ],
+        [
+          "2026-11-26",
+          284.0
+        ],
+        [
+          "2026-11-27",
+          284.0
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:amazon.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20417925",
@@ -30665,218 +30973,6 @@
         [
           "2026-11-27",
           120.0
-        ]
-      ]
-    },
-    {
-      "source": "techbargains:amazon",
-      "source_tier": "T2",
-      "url": "https://www.amazon.com/gp/product/B07FBRM52G/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
-      "title": "Skechers Men's Slip Resistant Cessnock Bungee Slip On Shoes $37.98",
-      "brand": "Skechers",
-      "category": "premium_fashion",
-      "image": "https://www.techbargains.com/imagery/deals/255458.1795792400.fit_lim.size_125x125.png",
-      "price_current": 37.98,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 51039,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/gp/product/B07FBRM52G/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 20,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-27T15:32:47.361358+00:00",
-      "last_seen": "2026-11-27T16:11:38.982795+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "스케쳐스 남성용 운동화",
-      "id": "a80e8d2f25",
-      "history": [
-        [
-          "2026-11-27",
-          37.98
-        ]
-      ]
-    },
-    {
-      "source": "techbargains:amazon",
-      "source_tier": "T2",
-      "url": "https://www.amazon.com/gp/product/B082KLQBD5/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
-      "title": "Meta Oakley IPX4 AI Glasses with 12MP Built-in Camera $359.00",
-      "brand": "Oakley",
-      "category": "sports_outdoor",
-      "image": "https://www.techbargains.com/imagery/deals/275007.1795784603.fit_lim.size_125x125.png",
-      "price_current": 359.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 573138,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/gp/product/B082KLQBD5/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-25T21:31:25.207027+00:00",
-      "last_seen": "2026-11-27T16:11:38.982795+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "오클리 Meta Oakley IPX4 AI Glasses with…",
-      "id": "03817fe951",
-      "history": [
-        [
-          "2026-11-25",
-          359.0
-        ],
-        [
-          "2026-11-26",
-          359.0
-        ],
-        [
-          "2026-11-27",
-          359.0
-        ]
-      ]
-    },
-    {
-      "source": "techbargains:amazon",
-      "source_tier": "T2",
-      "url": "https://www.amazon.com/gp/product/B0FLYDJHB4/ref=ewc_pr_img_1?smid=ATVPDKIKX0DER&th=1",
-      "title": "Ray-Ban Meta Gen 2 Wayfarer 3K Video Recording Smart AI Glasses (Matte Black, Clear Lenses) $284.00",
-      "brand": "Ray-Ban",
-      "category": "watch_misc",
-      "image": "https://www.techbargains.com/imagery/deals/267014.1795779961.fit_lim.size_125x125.png",
-      "price_current": 284.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": 284.0,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 453402,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/gp/product/B0FLYDJHB4/ref=ewc_pr_img_1?smid=ATVPDKIKX0DER&th=1",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": 25,
-        "category": 15,
-        "bonus": 0,
-        "brand": 6,
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-20T17:02:03.037866+00:00",
-      "last_seen": "2026-11-27T16:11:38.982795+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "레이밴 Meta Gen 2 Wayfarer 3K Video…",
-      "id": "fe20a92620",
-      "history": [
-        [
-          "2026-11-20",
-          284.0
-        ],
-        [
-          "2026-11-21",
-          284.0
-        ],
-        [
-          "2026-11-22",
-          284.0
-        ],
-        [
-          "2026-11-23",
-          284.0
-        ],
-        [
-          "2026-11-24",
-          284.0
-        ],
-        [
-          "2026-11-25",
-          284.0
-        ],
-        [
-          "2026-11-26",
-          284.0
-        ],
-        [
-          "2026-11-27",
-          284.0
         ]
       ]
     },
@@ -33323,69 +33419,6 @@
         [
           "2026-11-26",
           229.0
-        ]
-      ]
-    },
-    {
-      "source": "techbargains:amazon",
-      "source_tier": "T2",
-      "url": "https://www.amazon.com/gp/product/B0CGXYBL7Z/ref=ox_sc_act_image_1?smid=A3VZHMRV3J141P&th=1",
-      "title": "Yeti Hopper M Series Tote with Soft Coolers & MagShield Access $248.50",
-      "brand": "YETI",
-      "category": "etc",
-      "image": "https://www.techbargains.com/imagery/deals/274979.1795605468.fit_lim.size_125x125.png",
-      "price_current": 248.5,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 396490,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/gp/product/B0CGXYBL7Z/ref=ox_sc_act_image_1?smid=A3VZHMRV3J141P&th=1",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 5,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-25T11:51:51.590717+00:00",
-      "last_seen": "2026-11-26T12:51:30.048335+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "예티 토트백",
-      "id": "f43d4f81c1",
-      "history": [
-        [
-          "2026-11-25",
-          248.5
-        ],
-        [
-          "2026-11-26",
-          248.5
         ]
       ]
     },
@@ -37404,12 +37437,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-27T16:50:30+00:00",
-      "T2": "2026-11-27T16:11:23+00:00",
+      "T2": "2026-11-27T16:50:55+00:00",
       "T3": "2026-11-27T16:31:05+00:00",
       "T4": "2026-11-27T11:01:41+00:00"
     },
     "recent_gaps_min": [
-      5,
       11,
       1,
       9,
@@ -37445,7 +37477,7 @@
       "queried": 25,
       "matched": 0,
       "errors": 0,
-      "at": "2026-11-27T16:50:52+00:00"
+      "at": "2026-11-27T16:51:11+00:00"
     },
     "reddit": {
       "mode": "공개 검색(키 없음)",
@@ -37453,7 +37485,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-27T16:50:52+00:00"
+      "at": "2026-11-27T16:51:11+00:00"
     }
   },
   "email_monitor": {
