@@ -1513,12 +1513,6 @@
   }
  },
  "done_updates": [
-  303762868,
-  303762869,
-  303762870,
-  303762872,
-  303762873,
-  303762875,
   303762876,
   303762877,
   303762878,
@@ -1822,11 +1816,6 @@
  ],
  "runs": [
   {
-   "at": "2026-11-25T06:52:57+09:00",
-   "updates": 0,
-   "errors": []
-  },
-  {
    "at": "2026-11-25T08:10:08+09:00",
    "updates": 2,
    "errors": []
@@ -2020,6 +2009,11 @@
    "at": "2026-11-27T13:04:34+09:00",
    "updates": 6,
    "errors": []
+  },
+  {
+   "at": "2026-11-27T13:52:12+09:00",
+   "updates": 0,
+   "errors": []
   }
  ],
  "info": {
@@ -2175,6 +2169,14 @@
     "status": "posted",
     "link": "https://www.threads.com/@deal_ondo/post/DgOrwmsnGUQ",
     "error": ""
+   },
+   "T:T02": {
+    "tries": 1,
+    "at": "2026-11-27T13:50:56+09:00",
+    "id": "T02",
+    "status": "posted",
+    "link": "https://www.threads.com/@deal_ondo/post/DgO3MSrjXeK",
+    "error": ""
    }
   },
   "log": [
@@ -2329,6 +2331,14 @@
     "slot": "lunch",
     "link": "https://www.threads.com/@deal_ondo/post/DgOrwmsnGUQ",
     "first_line": "블프 당일, 관부가세 없이 받는 브랜드 딜 3개만 골랐어요."
+   },
+   {
+    "at": "2026-11-27T13:50:56+09:00",
+    "id": "T02",
+    "type": "library",
+    "slot": "timed",
+    "link": "https://www.threads.com/@deal_ondo/post/DgO3MSrjXeK",
+    "first_line": "어제 담아둔 가격 그대로 결제하면 손해일 수 있어요."
    }
   ]
  }
