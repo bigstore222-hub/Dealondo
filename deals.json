@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T01:21:44.244821+00:00",
-  "count": 510,
+  "generated_at": "2026-11-27T01:32:08.432643+00:00",
+  "count": 511,
   "deals": [
     {
       "source": "6pm.com",
@@ -1449,7 +1449,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-24T10:22:13.337321+00:00",
-      "last_seen": "2026-11-26T19:21:03.621920+00:00",
+      "last_seen": "2026-11-27T01:32:08.432643+00:00",
       "posted_at": "2026-11-24T09:05:33+00:00",
       "signals": {
         "sd_feeds": [
@@ -1623,6 +1623,157 @@
         ]
       ],
       "title_kr": "삼성 무선 이어폰"
+    },
+    {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20408895",
+      "title": "adidas Men's Grand Court 3.0 Shoes (Charcoal/Black/Gum, Limited Sizes) $25.20",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://static.slickdealscdn.com/attachment/3/4/0/4/3/1/7/8/300x300/22620360.thumb",
+      "price_current": 25.0,
+      "price_list": 70.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 36,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 33596,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20408895",
+      "discount_pct": 64.3,
+      "score": 92,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 17,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 폭발 36표/17분 → 하한 86",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-26T21:51:46.471143+00:00",
+      "last_seen": "2026-11-27T01:32:06.869554+00:00",
+      "posted_at": "2026-11-27T01:14:41+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Men's Shoes",
+        "sd_store": "Amazon",
+        "sd_brand": "adidas",
+        "sd_hot_origin": true,
+        "sd_age_min": 17,
+        "sd_votes": 36,
+        "sd_velocity": 124.0,
+        "sd_fp_min": 17
+      },
+      "title_kr": "아디다스 남성용 운동화",
+      "id": "cafa0281a4",
+      "history": [
+        [
+          "2026-11-26",
+          25.0
+        ],
+        [
+          "2026-11-27",
+          25.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:walmart.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20391996",
+      "title": "60\" x 36\" x 18\" Muscle Rack 4-Tier Steel & Particleboard Shelving $31.45",
+      "brand": "",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/1/4/8/5/3/3/0/300x300/22576764.thumb",
+      "price_current": 31.0,
+      "price_list": 62.9,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 22,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 41659,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20391996",
+      "discount_pct": 50.7,
+      "score": 92,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 5,
+        "bonus": 4,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 폭발 22표/18분 → 하한 86",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-25T04:51:52.974671+00:00",
+      "last_seen": "2026-11-27T01:32:08.432643+00:00",
+      "posted_at": "2026-11-27T01:13:49+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Garage",
+        "sd_store": "Walmart",
+        "sd_hot_origin": true,
+        "sd_age_min": 18,
+        "sd_votes": 22,
+        "sd_velocity": 72.2,
+        "sd_fp_min": 18
+      },
+      "title_kr": "60\" x 36\" x 18\" Muscle…",
+      "id": "cdcc92e2fa",
+      "history": [
+        [
+          "2026-11-25",
+          31.0
+        ],
+        [
+          "2026-11-27",
+          31.0
+        ]
+      ]
     },
     {
       "source": "slickdeals:adidas.com",
@@ -2485,7 +2636,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-23T20:12:03.986370+00:00",
-      "last_seen": "2026-11-26T19:21:03.621920+00:00",
+      "last_seen": "2026-11-27T01:32:08.432643+00:00",
       "posted_at": "2026-11-26T00:54:37+00:00",
       "signals": {
         "sd_feeds": [
@@ -3905,77 +4056,6 @@
       ]
     },
     {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20402508",
-      "title": "Select Accounts: adidas Men's Lite Racer Adapt 7.0 Shoes (White/Black) $21",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://static.slickdealscdn.com/attachment/1/1/7/1/5/2/7/300x300/22604259.thumb",
-      "price_current": 21.0,
-      "price_list": 70.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 100,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 28235,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20402508",
-      "discount_pct": 70.0,
-      "score": 89,
-      "score_breakdown": {
-        "discount_depth": 35,
-        "price_history": null,
-        "category": 17,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-26T17:21:37.845510+00:00",
-      "last_seen": "2026-11-26T23:20:49.109525+00:00",
-      "posted_at": "2026-11-26T17:06:47+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Athletic Shoes",
-        "sd_store": "Amazon",
-        "sd_brand": "adidas",
-        "sd_hot_origin": false,
-        "sd_age_min": 145,
-        "sd_votes": 100,
-        "sd_velocity": 41.3,
-        "sd_fp_min": 15
-      },
-      "title_kr": "아디다스 남성용 운동화",
-      "id": "9342b0ac18",
-      "history": [
-        [
-          "2026-11-26",
-          21.0
-        ]
-      ]
-    },
-    {
       "source": "slickdeals:dickssportinggoods",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20285211",
@@ -4961,7 +5041,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-25T19:02:27.510371+00:00",
-      "last_seen": "2026-11-26T19:21:31.270209+00:00",
+      "last_seen": "2026-11-27T01:32:08.432643+00:00",
       "posted_at": "2026-11-25T18:51:07+00:00",
       "signals": {
         "sd_feeds": [
@@ -6597,7 +6677,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 34,
+      "community_votes": 38,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -6628,7 +6708,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-27T00:51:54.946907+00:00",
-      "last_seen": "2026-11-27T01:20:53.320241+00:00",
+      "last_seen": "2026-11-27T01:32:06.869554+00:00",
       "posted_at": "2026-11-27T00:32:09+00:00",
       "signals": {
         "sd_feeds": [
@@ -6638,9 +6718,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Duck",
         "sd_hot_origin": false,
-        "sd_age_min": 49,
-        "sd_votes": 34,
-        "sd_velocity": 41.9,
+        "sd_age_min": 60,
+        "sd_votes": 38,
+        "sd_velocity": 38.0,
         "sd_fp_min": 20
       },
       "title_kr": "Duck 플랫슈즈",
@@ -6700,7 +6780,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-27T00:51:54.946907+00:00",
-      "last_seen": "2026-11-27T01:20:53.320241+00:00",
+      "last_seen": "2026-11-27T01:32:06.869554+00:00",
       "posted_at": "2026-11-27T00:05:48+00:00",
       "signals": {
         "sd_feeds": [
@@ -6710,9 +6790,9 @@
         "sd_store": "Reebok",
         "sd_brand": "Reebok",
         "sd_hot_origin": false,
-        "sd_age_min": 75,
+        "sd_age_min": 86,
         "sd_votes": 33,
-        "sd_velocity": 26.4,
+        "sd_velocity": 22.9,
         "sd_fp_min": 6
       },
       "title_kr": "리복 Black Friday Sale: Up to 70%…",
@@ -6721,77 +6801,6 @@
         [
           "2026-11-27",
           75.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20406789",
-      "title": "wegear C100 1080p USB-A Webcam w/ Dual Mics & Sliding Privacy Cover (Black) $11",
-      "brand": "",
-      "category": "electronics",
-      "image": "https://static.slickdealscdn.com/attachment/8/6/6/3/0/300x300/22620939.thumb",
-      "price_current": 11.0,
-      "price_list": 26.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "MRIRVY1D",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 25,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 14790,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "public",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20406789",
-      "discount_pct": 59.2,
-      "score": 81,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "code_deal": "공개코드 MRIRVY1D → 하한 75",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-26T22:41:11.060486+00:00",
-      "last_seen": "2026-11-26T23:51:17.215421+00:00",
-      "posted_at": "2026-11-26T22:19:22+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Webcams",
-        "sd_store": "Amazon",
-        "sd_hot_origin": false,
-        "sd_age_min": 92,
-        "sd_votes": 25,
-        "sd_velocity": 16.3,
-        "sd_fp_min": 22
-      },
-      "title_kr": "웹캠",
-      "id": "79aee7bfd2",
-      "history": [
-        [
-          "2026-11-26",
-          11.0
         ]
       ]
     },
@@ -12539,6 +12548,77 @@
       "title_kr": "UGREEN FineTrack Tracker Tags & Cards from"
     },
     {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20408064",
+      "title": "Sennheiser Accentum Wireless Bluetooth ANC Headphones from $85 & More + Free S&H",
+      "brand": "Sennheiser",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/8/2/3/9/6/6/7/300x300/22622613.thumb",
+      "price_current": 85.0,
+      "price_list": 180.85,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 27,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 114227,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20408064",
+      "discount_pct": 53.0,
+      "score": 79,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-27T01:32:06.305683+00:00",
+      "last_seen": "2026-11-27T01:32:06.869554+00:00",
+      "posted_at": "2026-11-27T01:09:37+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Headphones, Headsets & Earbuds",
+        "sd_store": "Amazon",
+        "sd_brand": "Sennheiser",
+        "sd_hot_origin": false,
+        "sd_age_min": 22,
+        "sd_votes": 27,
+        "sd_velocity": 72.0,
+        "sd_fp_min": 22
+      },
+      "title_kr": "Sennheiser 헤드폰",
+      "id": "0d3d45f047",
+      "history": [
+        [
+          "2026-11-27",
+          85.0
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:walmart.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20395851",
@@ -12585,16 +12665,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-26T02:52:02.901706+00:00",
-      "last_seen": "2026-11-27T01:20:53.320241+00:00",
+      "last_seen": "2026-11-27T01:32:06.869554+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Headphones, Headsets & Earbuds",
         "sd_store": "Walmart",
         "sd_brand": "Apple",
         "sd_hot_origin": false,
-        "sd_age_min": 1356,
+        "sd_age_min": 1367,
         "sd_votes": 199,
-        "sd_velocity": 8.8,
+        "sd_velocity": 8.7,
         "sd_fp_min": 7
       },
       "title_kr": "애플 무선 이어폰",
@@ -15870,77 +15950,6 @@
       ]
     },
     {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20398311",
-      "title": "Sennheiser Momentum 4 Wireless ANC Over-Ear Headphones w/ 60-Hr Battery (Black/Copper) $159.95 + Free Shipping",
-      "brand": "Sennheiser",
-      "category": "electronics",
-      "image": "https://static.slickdealscdn.com/attachment/1/4/8/5/3/3/0/300x300/22593462.thumb",
-      "price_current": 160.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 6,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 214887,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/dp/B0CCRZPKR1",
-      "discount_pct": null,
-      "score": 74,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 6표/29분 → 하한 74"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-25T22:21:46.644110+00:00",
-      "last_seen": "2026-11-26T22:41:11.774200+00:00",
-      "posted_at": "2026-11-25T22:11:32+00:00",
-      "signals": {
-        "sd_feeds": [
-          "hotdeals"
-        ],
-        "sd_cat": "Headphones, Headsets & Earbuds",
-        "sd_store": "Amazon",
-        "sd_brand": "Sennheiser",
-        "direct_url": "https://www.amazon.com/dp/B0CCRZPKR1",
-        "sd_hot_origin": true,
-        "sd_age_min": 29,
-        "sd_votes": 6,
-        "sd_velocity": 12.2
-      },
-      "title_kr": "Sennheiser 헤드폰",
-      "id": "585b722ebd",
-      "history": [
-        [
-          "2026-11-25",
-          160.0
-        ]
-      ]
-    },
-    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20371674",
@@ -17236,7 +17245,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-24T07:32:06.914236+00:00",
-      "last_seen": "2026-11-26T19:21:03.621920+00:00",
+      "last_seen": "2026-11-27T01:32:08.432643+00:00",
       "posted_at": "2026-11-26T14:34:39+00:00",
       "signals": {
         "sd_feeds": [
@@ -17444,7 +17453,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-26T01:01:29.447071+00:00",
-      "last_seen": "2026-11-26T19:21:03.621920+00:00",
+      "last_seen": "2026-11-27T01:32:08.432643+00:00",
       "posted_at": "2026-11-26T00:34:28+00:00",
       "signals": {
         "sd_feeds": [
@@ -17962,6 +17971,78 @@
       "title_kr": "VIZIO 사운드바"
     },
     {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20403387",
+      "title": "Funko POP! Disney: Muppet Babies (1984) Baby Fozzie Vinyl Figure for $4.50 at Amazon",
+      "brand": "Disney",
+      "category": "kids",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20403387&t=15",
+      "price_current": 4.5,
+      "price_list": 14.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 49,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 6047,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20403387",
+      "discount_pct": 70.0,
+      "score": 70,
+      "score_breakdown": {
+        "discount_depth": 35,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-26T11:32:36.686462+00:00",
+      "last_seen": "2026-11-27T01:32:06.869554+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Kids Toys",
+        "sd_store": "Amazon",
+        "sd_brand": "Funko",
+        "sd_hot_origin": true,
+        "sd_age_min": 852,
+        "sd_votes": 49,
+        "sd_velocity": 3.5,
+        "sd_fp_min": 121
+      },
+      "title_kr": "Disney Funko POP! Disney: Muppet Babies (1984)…",
+      "id": "a856806f54",
+      "history": [
+        [
+          "2026-11-26",
+          4.5
+        ],
+        [
+          "2026-11-27",
+          4.5
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/vionic-kensley-loafer-women/6533275",
@@ -18020,78 +18101,6 @@
         [
           "2026-11-27",
           35.97
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20403387",
-      "title": "Funko POP! Disney: Muppet Babies (1984) Baby Fozzie Vinyl Figure for $4.50 at Amazon",
-      "brand": "Disney",
-      "category": "kids",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20403387&t=15",
-      "price_current": 4.5,
-      "price_list": 14.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 49,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 6047,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20403387",
-      "discount_pct": 70.0,
-      "score": 70,
-      "score_breakdown": {
-        "discount_depth": 35,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-26T11:32:36.686462+00:00",
-      "last_seen": "2026-11-27T01:20:53.320241+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Kids Toys",
-        "sd_store": "Amazon",
-        "sd_brand": "Funko",
-        "sd_hot_origin": true,
-        "sd_age_min": 840,
-        "sd_votes": 49,
-        "sd_velocity": 3.5,
-        "sd_fp_min": 121
-      },
-      "title_kr": "Disney Funko POP! Disney: Muppet Babies (1984)…",
-      "id": "a856806f54",
-      "history": [
-        [
-          "2026-11-26",
-          4.5
-        ],
-        [
-          "2026-11-27",
-          4.5
         ]
       ]
     },
@@ -19442,6 +19451,77 @@
         ]
       ],
       "title_kr": "헌터 슬리퍼"
+    },
+    {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20408109",
+      "title": "5-Port SABRENT 10Gbps USB Type-C Hub w/ 100W PD & 4K@60Hz $12.70",
+      "brand": "Sabrent",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/9/5/3/2/3/300x300/22618038.thumb",
+      "price_current": 12.7,
+      "price_list": 24.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "QAA0S9MB",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 24,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 17067,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20408109",
+      "discount_pct": 49.2,
+      "score": 66,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-27T01:32:06.305683+00:00",
+      "last_seen": "2026-11-27T01:32:06.869554+00:00",
+      "posted_at": "2026-11-27T01:13:46+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Computer Accessories",
+        "sd_store": "Amazon",
+        "sd_brand": "Sabrent",
+        "sd_hot_origin": false,
+        "sd_age_min": 18,
+        "sd_votes": 24,
+        "sd_velocity": 78.5,
+        "sd_fp_min": 18
+      },
+      "title_kr": "Sabrent 허브",
+      "id": "822dcb701f",
+      "history": [
+        [
+          "2026-11-27",
+          12.7
+        ]
+      ]
     },
     {
       "source": "slickdeals:amazon.com",
@@ -21102,7 +21182,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-24T09:42:04.997309+00:00",
-      "last_seen": "2026-11-26T19:21:03.621920+00:00",
+      "last_seen": "2026-11-27T01:32:08.432643+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Kids Toys",
@@ -22777,14 +22857,14 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T04:51:52.974671+00:00",
-      "last_seen": "2026-11-27T01:20:53.320241+00:00",
+      "last_seen": "2026-11-27T01:32:06.869554+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Baby & Infant Clothes",
         "sd_store": "Walmart",
         "sd_brand": "Reebok",
         "sd_hot_origin": true,
-        "sd_age_min": 2679,
+        "sd_age_min": 2690,
         "sd_votes": 46,
         "sd_velocity": 1.0,
         "sd_fp_min": 1309
@@ -23552,7 +23632,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-24T09:01:08.903827+00:00",
-      "last_seen": "2026-11-26T19:21:03.621920+00:00",
+      "last_seen": "2026-11-27T01:32:08.432643+00:00",
       "posted_at": "2026-11-24T08:43:50+00:00",
       "signals": {
         "sd_feeds": [
@@ -24192,7 +24272,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-26T01:01:29.447071+00:00",
-      "last_seen": "2026-11-26T19:21:03.621920+00:00",
+      "last_seen": "2026-11-27T01:32:08.432643+00:00",
       "posted_at": "2026-11-26T00:32:30+00:00",
       "signals": {
         "sd_feeds": [
@@ -26374,7 +26454,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T06:41:46.508139+00:00",
-      "last_seen": "2026-11-26T19:21:03.621920+00:00",
+      "last_seen": "2026-11-27T01:32:08.432643+00:00",
       "posted_at": "2026-11-25T06:17:04+00:00",
       "signals": {
         "sd_feeds": [
@@ -27644,7 +27724,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 39,
+      "community_votes": 41,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -27674,7 +27754,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-27T00:31:09.670375+00:00",
-      "last_seen": "2026-11-27T01:20:53.320241+00:00",
+      "last_seen": "2026-11-27T01:32:06.869554+00:00",
       "posted_at": "2026-11-27T00:19:43+00:00",
       "signals": {
         "sd_feeds": [
@@ -27684,9 +27764,9 @@
         "sd_store": "Best Buy",
         "sd_brand": "Energizer",
         "sd_hot_origin": false,
-        "sd_age_min": 61,
-        "sd_votes": 39,
-        "sd_velocity": 38.3,
+        "sd_age_min": 72,
+        "sd_votes": 41,
+        "sd_velocity": 34.0,
         "sd_fp_min": 11
       },
       "title_kr": "Energizer 보조배터리",
@@ -27745,16 +27825,16 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-26T19:51:48.141064+00:00",
-      "last_seen": "2026-11-27T01:20:53.320241+00:00",
+      "last_seen": "2026-11-27T01:32:06.869554+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Chargers & Power Banks",
         "sd_store": "Amazon",
         "sd_brand": "Sabrent",
         "sd_hot_origin": false,
-        "sd_age_min": 345,
+        "sd_age_min": 356,
         "sd_votes": 22,
-        "sd_velocity": 3.8,
+        "sd_velocity": 3.7,
         "sd_fp_min": 16
       },
       "title_kr": "Sabrent 충전 스테이션",
@@ -28310,7 +28390,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-24T12:02:30.504698+00:00",
-      "last_seen": "2026-11-26T19:21:03.621920+00:00",
+      "last_seen": "2026-11-27T01:32:08.432643+00:00",
       "posted_at": "2026-11-24T11:27:36+00:00",
       "signals": {
         "sd_feeds": [
@@ -28401,6 +28481,75 @@
         ]
       ],
       "title_kr": "Jurassic World 장난감"
+    },
+    {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20410173",
+      "title": "6-Pack Franklin Sports Official Size Lacrosse Balls $14.23 w/ S&S + Free Shipping w/ Prime or on $35+",
+      "brand": "Franklin",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/1/4/8/5/3/3/0/300x300/22622703.thumb",
+      "price_current": 14.0,
+      "price_list": 36.84,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 0,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 18814,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20410173",
+      "discount_pct": 62.0,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 36,
+        "price_history": null,
+        "category": 5,
+        "bonus": 0,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-27T01:32:06.305683+00:00",
+      "last_seen": "2026-11-27T01:32:06.869554+00:00",
+      "posted_at": "2026-11-27T01:20:36+00:00",
+      "signals": {
+        "sd_feeds": [
+          "hotdeals"
+        ],
+        "sd_cat": "Other",
+        "sd_store": "Amazon",
+        "sd_brand": "Franklin",
+        "sd_hot_origin": true,
+        "sd_age_min": 12,
+        "sd_votes": 0,
+        "sd_velocity": 0.0
+      },
+      "title_kr": "Franklin 6-Pack Franklin Sports Official Size Lacrosse…",
+      "id": "b7e486f764",
+      "history": [
+        [
+          "2026-11-27",
+          14.0
+        ]
+      ]
     },
     {
       "source": "dealnews",
@@ -32819,69 +32968,6 @@
       ]
     },
     {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Marmot-Mens-Coastal-Long-Sleeve-T-Shirt-for-29-free-shipping/22428676.html?iref=rss",
-      "title": "Marmot Men's Coastal Long-Sleeve T-Shirt for $29 + free shipping",
-      "brand": "Marmot",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1795558881-m17075-001_onmodel_01_f26.avif?h=250&w=250",
-      "price_current": 29.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 38948,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Marmot-Mens-Coastal-Long-Sleeve-T-Shirt-for-29-free-shipping/22428676.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-24T23:01:55.638507+00:00",
-      "last_seen": "2026-11-25T01:22:41.126517+00:00",
-      "posted_at": "",
-      "signals": {},
-      "id": "6a6ebfcfa3",
-      "history": [
-        [
-          "2026-11-24",
-          29.0
-        ],
-        [
-          "2026-11-25",
-          29.0
-        ]
-      ],
-      "title_kr": "마모트 남성용 티셔츠"
-    },
-    {
       "source": "slickdeals:slickdeals.net",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20381337",
@@ -34764,7 +34850,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-24T12:02:30.504698+00:00",
-      "last_seen": "2026-11-26T19:21:03.621920+00:00",
+      "last_seen": "2026-11-27T01:32:08.432643+00:00",
       "posted_at": "2026-11-24T11:30:18+00:00",
       "signals": {
         "sd_feeds": [
@@ -35418,13 +35504,12 @@
   "fx_usd_krw": 1343.8,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-27T01:20:39+00:00",
+      "T1": "2026-11-27T01:30:37+00:00",
       "T2": "2026-11-27T01:21:32+00:00",
       "T3": "2026-11-26T23:33:08+00:00",
       "T4": "2026-11-26T22:41:44+00:00"
     },
     "recent_gaps_min": [
-      10,
       10,
       4,
       7,
@@ -35453,14 +35538,15 @@
       9,
       1,
       9,
-      1
+      1,
+      10
     ],
     "naver": {
       "keys": false,
       "queried": 25,
       "matched": 0,
       "errors": 0,
-      "at": "2026-11-27T01:21:41+00:00"
+      "at": "2026-11-27T01:32:06+00:00"
     },
     "reddit": {
       "mode": "공개 검색(키 없음)",
@@ -35468,13 +35554,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-27T01:21:41+00:00"
+      "at": "2026-11-27T01:32:06+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-27T01:20:52+00:00",
+        "at": "2026-11-27T01:32:06+00:00",
         "state": "정상",
         "mails": 40,
         "deals": 40
@@ -35500,7 +35586,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-27T01:10:58+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20395971",
@@ -35515,7 +35601,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-27T00:51:56+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20401578",
@@ -35575,7 +35661,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-27T00:11:47+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20404314",
@@ -35590,7 +35676,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-27T00:01:43+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20408394",
@@ -35605,7 +35691,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-27T00:01:43+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20384784",
@@ -35665,7 +35751,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-26T23:51:17+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20401413",
@@ -35680,7 +35766,7 @@
         "published": false,
         "reject_reason": "H8: 할인 23% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-26T23:51:17+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20401920",
@@ -35725,7 +35811,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-26T23:01:06+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20393070",
@@ -35785,7 +35871,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-26T22:20:51+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20408124",
@@ -35815,7 +35901,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-26T21:51:47+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20406651",
@@ -35890,7 +35976,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-26T19:51:50+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20404452",
@@ -35905,7 +35991,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-26T17:01:51+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://click.emails.underarmour.com/",
@@ -35950,7 +36036,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-26T16:32:14+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20401971",
@@ -35965,7 +36051,7 @@
         "published": false,
         "reject_reason": "H7: Apple 할인 19% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-26T15:50:57+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20404221",
@@ -35980,7 +36066,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-26T15:21:58+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20403864",
@@ -35995,7 +36081,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Home & Home Improvement)",
         "first_seen": "2026-11-26T15:11:11+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20399727",
@@ -36010,7 +36096,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-26T14:31:09+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20379402",
@@ -36055,7 +36141,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-26T14:11:03+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20390721",
@@ -36085,7 +36171,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-26T14:01:23+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20285211",
@@ -36130,7 +36216,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(4K TVs)",
         "first_seen": "2026-11-26T13:41:01+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20403387",
@@ -36145,7 +36231,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-26T13:21:28+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20402208",
@@ -36160,7 +36246,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-26T11:20:55+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20378790",
@@ -36190,7 +36276,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-26T10:42:02+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://clicks.finishline.com/f/a/UB55f_8ocstHocoKRWRW5A~~/AAQRxRA~/XTc6aZQrF6FDBxkpqSaUxY1JpKNoTI_qIfyzh5kh60fo13-uvgu0XPBG8lsD0-HCct7HPUhNVMgHYPSEwT-coWdjUsaId5oaw6kcgc-a2664rX8jIEERb6R4d71ZQpnWAfnVn4TLJzRaxYMldAY_Mg~~",
@@ -36220,7 +36306,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-26T09:11:10+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20401047",
@@ -36235,7 +36321,7 @@
         "published": false,
         "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-26T08:11:02+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20377458",
@@ -36250,7 +36336,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(INIU) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-26T07:55:11+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20369073",
@@ -36325,7 +36411,7 @@
         "published": false,
         "reject_reason": "H9: 미국 전압(120V) 가전(Space Heaters)",
         "first_seen": "2026-11-26T07:10:53+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20401452",
@@ -36340,7 +36426,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Desktop Computers)",
         "first_seen": "2026-11-26T07:10:53+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20388306",
@@ -36385,7 +36471,7 @@
         "published": false,
         "reject_reason": "H8: 할인 19% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-26T06:53:12+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20401158",
@@ -36400,7 +36486,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-26T06:53:12+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20401443",
@@ -36415,7 +36501,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(4K TVs)",
         "first_seen": "2026-11-26T06:53:12+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20401518",
@@ -36430,7 +36516,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-26T06:53:12+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20400945",
@@ -36460,7 +36546,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Automotive Tools)",
         "first_seen": "2026-11-26T05:21:47+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20398482",
@@ -36475,7 +36561,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-26T05:02:16+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20386854",
@@ -36490,7 +36576,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-26T04:50:51+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20399184",
@@ -36505,7 +36591,7 @@
         "published": false,
         "reject_reason": "H9: 미국 전압(120V) 가전(Vacuums, Carpet Cleaners & Floor Cleaners)",
         "first_seen": "2026-11-26T04:50:51+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://click.woot.com/f/a/hWN-T7RpWbVr2T4KRUrYjQ~~/AAQRxRA~/b5cGdHraoX5Jb3zYS0Jt-46dp82tmb0T547PQei28OIpta3gA6gU7hrnzhsk7iZxeJqId7FzMdUnsVAoQYg7ObLJtu-QaDv67OFL_MznL7fgEImE3K-ZTApkNW39DPo8Yc9ozY1LT8CTz6fSiggypkW95JSHyNGiM75x7SYoyfaDtPmneERIk57de0k2jcyLEJGZ21FC6wD5LfybJ-jebmhhJEb38Mh5H4LBsUfMJWSFAbX",
@@ -36565,7 +36651,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-26T04:11:45+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20379180",
@@ -36580,7 +36666,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-26T04:01:25+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20395851",
@@ -36595,7 +36681,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-26T02:52:05+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20392026",
@@ -36610,7 +36696,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-26T02:31:02+00:00",
-        "last_seen": "2026-11-27T01:20:53+00:00"
+        "last_seen": "2026-11-27T01:32:08+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20389884",
