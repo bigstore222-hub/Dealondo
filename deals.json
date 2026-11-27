@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T23:20:51.747049+00:00",
-  "count": 561,
+  "generated_at": "2026-11-27T23:24:56.747746+00:00",
+  "count": 560,
   "deals": [
     {
       "source": "6pm.com",
@@ -7402,7 +7402,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-20T07:40:51.939667+00:00",
-      "last_seen": "2026-11-27T17:17:15.574156+00:00",
+      "last_seen": "2026-11-27T23:24:56.747746+00:00",
       "posted_at": "2026-11-25T16:23:19+00:00",
       "signals": {
         "sd_feeds": [
@@ -14666,7 +14666,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T22:31:37.657212+00:00",
-      "last_seen": "2026-11-27T17:17:15.574156+00:00",
+      "last_seen": "2026-11-27T23:24:56.747746+00:00",
       "posted_at": "2026-11-25T21:55:35+00:00",
       "signals": {
         "sd_feeds": [
@@ -21120,7 +21120,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-22T14:12:03.087685+00:00",
-      "last_seen": "2026-11-27T17:17:15.574156+00:00",
+      "last_seen": "2026-11-27T23:24:56.747746+00:00",
       "posted_at": "2026-11-25T16:28:54+00:00",
       "signals": {
         "sd_feeds": [
@@ -21566,86 +21566,6 @@
         [
           "2026-11-26",
           19.0
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20370201",
-      "title": "Hasbro Connect 4 Game (2025 Edition) $5",
-      "brand": "Hasbro",
-      "category": "kids",
-      "image": "https://static.slickdealscdn.com/attachment/1/6/7/9/8/1/2/300x300/22586808.thumb",
-      "price_current": 5.0,
-      "price_list": 9.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 110,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 6715,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20370201",
-      "discount_pct": 49.9,
-      "score": 69,
-      "score_breakdown": {
-        "discount_depth": 18,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "community": "투표 110+할인50% → 하한 63",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-22T22:42:24.443829+00:00",
-      "last_seen": "2026-11-27T17:17:15.574156+00:00",
-      "posted_at": "2026-11-25T16:22:33+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Games, Board Games & Card Games",
-        "sd_store": "Amazon",
-        "sd_brand": "Hasbro",
-        "sd_hot_origin": false,
-        "sd_age_min": 69,
-        "sd_votes": 110,
-        "sd_velocity": 96.2,
-        "sd_fp_min": -3940
-      },
-      "title_kr": "Hasbro Connect 4 Game (2025 Edition)",
-      "id": "c0f8feb893",
-      "history": [
-        [
-          "2026-11-22",
-          5.0
-        ],
-        [
-          "2026-11-23",
-          5.0
-        ],
-        [
-          "2026-11-25",
-          5.0
         ]
       ]
     },
@@ -38947,10 +38867,9 @@
       "T1": "2026-11-27T23:20:34+00:00",
       "T2": "2026-11-27T23:02:17+00:00",
       "T3": "2026-11-27T23:03:13+00:00",
-      "T4": "2026-11-27T17:12:58+00:00"
+      "T4": "2026-11-27T23:21:28+00:00"
     },
     "recent_gaps_min": [
-      9,
       1,
       10,
       1,
@@ -38979,14 +38898,15 @@
       1,
       1,
       7,
-      10
+      10,
+      4
     ],
     "naver": {
       "keys": false,
       "queried": 25,
       "matched": 0,
       "errors": 0,
-      "at": "2026-11-27T23:20:51+00:00"
+      "at": "2026-11-27T23:24:56+00:00"
     },
     "reddit": {
       "mode": "공개 검색(키 없음)",
@@ -38994,7 +38914,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-27T23:20:51+00:00"
+      "at": "2026-11-27T23:24:56+00:00"
     }
   },
   "email_monitor": {
@@ -39006,13 +38926,73 @@
         "deals": 38
       },
       "newsletter": {
-        "at": "2026-11-27T17:17:15+00:00",
+        "at": "2026-11-27T23:24:56+00:00",
         "state": "정상",
-        "mails": 142,
-        "deals": 15
+        "mails": 173,
+        "deals": 23
       }
     },
     "recent": [
+      {
+        "url": "https://click.woot.com/f/a/wFXJPL4zYfY5jC6NSGwLlg~~/AAQRxRA~/yFxrEyaftzqakCBwGjfQhDAGWz3RnGSZ8phSmvErVO_UvBjJjYxv8TjHeuJ9EsLsNg22dQBwuyTGVeL67m6ul099hOtGYIsLsCddsRm4Y2cO49kvZb37ISB4utp-sPCwiV2xyOw76QHyOx09myV5AWSl0H-vfHhrZyQj1PS0vPqSx75qnMs3z22T_5zGeXO_0jiaXrh33EBvtYPp4lXnVNYo1YMzHS8MW3D75z8ejQoRi6i",
+        "source": "woot.com",
+        "title": "[범위미확인 코드] 20% Off Select Daily Deals Today Only!",
+        "price": 80.0,
+        "list_price": 100.0,
+        "discount_pct": 20.0,
+        "krw": 107507,
+        "kr_lowest": null,
+        "score": 0,
+        "published": false,
+        "reject_reason": "H8: 할인 20% < 25% (허접 할인 제외)",
+        "first_seen": "2026-11-27T23:24:56+00:00",
+        "last_seen": "2026-11-27T23:24:56+00:00"
+      },
+      {
+        "url": "https://clicks.finishline.com/f/a/XxZ9Gsst86AavHghGzYRFg~~/AAQRxRA~/0R6O4-qgKABe5ybDeCFPfYsm8RjxRLhH6kYYDr9R_miX6Q12_bXyL6WtTgDfV82j46jG7qcCO2J-a1xL3kb2cSeBD02zaO-Dh9gRIktLQka7ZbTBzQ4IUa5HhNqdmuLdlZRt4976cEXb7DKIFzztcg~~",
+        "source": "finishline.com",
+        "title": "[세일공지] ⏳ LAST CHANCE: Black Friday Ends TONIGHT!",
+        "price": 45.0,
+        "list_price": 100.0,
+        "discount_pct": 55.0,
+        "krw": 60473,
+        "kr_lowest": null,
+        "score": 52,
+        "published": true,
+        "reject_reason": "",
+        "first_seen": "2026-11-27T23:24:56+00:00",
+        "last_seen": "2026-11-27T23:24:56+00:00"
+      },
+      {
+        "url": "https://www.amazon.com",
+        "source": "amazon.com",
+        "title": "bigstore, Black Friday Week is here—40% off + deals",
+        "price": 60.0,
+        "list_price": 100.0,
+        "discount_pct": 40.0,
+        "krw": 80631,
+        "kr_lowest": null,
+        "score": 29,
+        "published": false,
+        "reject_reason": "",
+        "first_seen": "2026-11-27T23:24:56+00:00",
+        "last_seen": "2026-11-27T23:24:56+00:00"
+      },
+      {
+        "url": "https://clicks.finishline.com/f/a/lT9Tdd5WmmFa0oTX3_VF_A~~/AAQRxRA~/R6w7Zfyqx4Tmu8CBofg2IQaiXJ-vPb0USlw2EU4GQhsFZslZfO6tIj6PCWuqOdHcgUcEcqQ4NCDHbQMH1HnkrM7CRG_d_ESPRl1YeeeETZHQkgkWhWJjXsQVYuqS5-7fUC9MCnCNTQo0hkywpGBXeg~~",
+        "source": "finishline.com",
+        "title": "⏰ FINAL HOURS: Black Friday Ends in 3... 2... 1...",
+        "price": 50.0,
+        "list_price": 100.0,
+        "discount_pct": 50.0,
+        "krw": 67192,
+        "kr_lowest": null,
+        "score": 52,
+        "published": true,
+        "reject_reason": "",
+        "first_seen": "2026-11-27T23:24:56+00:00",
+        "last_seen": "2026-11-27T23:24:56+00:00"
+      },
       {
         "url": "https://slickdeals.net/f/20397225",
         "source": "slickdeals:starbucks",
@@ -39446,7 +39426,7 @@
         "published": false,
         "reject_reason": "H6: 개인 전용 (공유 불가)",
         "first_seen": "2026-11-27T11:04:56+00:00",
-        "last_seen": "2026-11-27T17:17:15+00:00"
+        "last_seen": "2026-11-27T23:24:56+00:00"
       },
       {
         "url": "https://www.asos.com",
@@ -39461,7 +39441,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-27T11:04:56+00:00",
-        "last_seen": "2026-11-27T17:17:15+00:00"
+        "last_seen": "2026-11-27T23:24:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20402508",
@@ -39671,22 +39651,22 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-27T04:55:34+00:00",
-        "last_seen": "2026-11-27T17:17:15+00:00"
+        "last_seen": "2026-11-27T23:24:56+00:00"
       },
       {
         "url": "https://click.email.bloomingdales.com/",
         "source": "bloomingdales.com",
-        "title": "Vintage-inspired fine jewelry designs",
-        "price": 75.0,
+        "title": "The Designer Sale: Up to 50% off",
+        "price": 50.0,
         "list_price": 100.0,
-        "discount_pct": 25.0,
-        "krw": 100788,
+        "discount_pct": 50.0,
+        "krw": 67192,
         "kr_lowest": null,
         "score": 0,
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-27T04:55:34+00:00",
-        "last_seen": "2026-11-27T17:17:15+00:00"
+        "last_seen": "2026-11-27T23:24:56+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20410239",
@@ -40021,7 +40001,7 @@
       {
         "url": "https://www.amazon.com/blackfriday",
         "source": "amazon.com",
-        "title": "🚨 Hello, Black Friday! Up to 60% off select deals. 🚨",
+        "title": "Doorbuster deals from 40% off",
         "price": 40.0,
         "list_price": 100.0,
         "discount_pct": 60.0,
@@ -40031,7 +40011,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-26T22:45:02+00:00",
-        "last_seen": "2026-11-27T17:17:15+00:00"
+        "last_seen": "2026-11-27T23:24:56+00:00"
       },
       {
         "url": "https://clicks.finishline.com/f/a/qKoRL71Uw_qVGsX-oW6rYg~~/AAQRxRA~/iGRp3Rde01h-u9zA3KdMATkvpbDulLwU0jHDLr9w5sYG7mxLwQqFollK9bM7n3G99UltV20OuGUdG1q8R34o7WYqUXpuCJ01SGprWgAXfl6LOZm0K1en_DJd1TGiWty-SvaM-eFMz14BsAPTMnb6uA~~",
@@ -40152,71 +40132,11 @@
         "reject_reason": "H7: Oura 할인 25% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-26T20:20:49+00:00",
         "last_seen": "2026-11-27T00:51:56+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20405853",
-        "source": "slickdeals:amazon.com",
-        "title": "8-Port 252W Sabrent Voltik USB-A & USB-C PD 3.0 Charging Station for $60 at Amazon",
-        "price": 60.0,
-        "list_price": 88.95,
-        "discount_pct": 32.5,
-        "krw": 80631,
-        "kr_lowest": null,
-        "score": 58,
-        "published": true,
-        "reject_reason": "",
-        "first_seen": "2026-11-26T19:51:50+00:00",
-        "last_seen": "2026-11-27T15:51:22+00:00"
-      },
-      {
-        "url": "https://slickdeals.net/f/20404452",
-        "source": "slickdeals:nike.com",
-        "title": "Nike Men's Air Jordan MVP 92 Shoes (3 Colors) for $65.25 at Nike",
-        "price": 65.0,
-        "list_price": 145.0,
-        "discount_pct": 55.2,
-        "krw": 87350,
-        "kr_lowest": null,
-        "score": 78,
-        "published": true,
-        "reject_reason": "",
-        "first_seen": "2026-11-26T17:01:51+00:00",
-        "last_seen": "2026-11-27T15:32:00+00:00"
-      },
-      {
-        "url": "https://click.emails.underarmour.com/",
-        "source": "underarmour.com",
-        "title": "[코드 BLACKFRIDAY] 30–50% off sitewide STARTS NOW",
-        "price": 50.0,
-        "list_price": 100.0,
-        "discount_pct": 50.0,
-        "krw": 67192,
-        "kr_lowest": null,
-        "score": 75,
-        "published": true,
-        "reject_reason": "",
-        "first_seen": "2026-11-26T16:36:13+00:00",
-        "last_seen": "2026-11-27T17:17:15+00:00"
-      },
-      {
-        "url": "https://clicks.finishline.com/f/a/yl3CkmELpfDsBGQ7MrS8ow~~/AAQRxRA~/hHmXa_cDpdfwQzc-Mw_gtYHEzvVtiHL94NkYimh0utatlnlGIsXGeIZfmy5zhWr5ieFlmPrsnVU_QVf0zkrruxTKrQEHekgxtIgcMLZBtq_kI07OTeDTxNNB6-DvuVVXm_jrkMlXeqsK-QSvIcXnJA~~",
-        "source": "finishline.com",
-        "title": "🎁 Fresh Gifts for the Whole Fam",
-        "price": 50.0,
-        "list_price": 100.0,
-        "discount_pct": 50.0,
-        "krw": 67192,
-        "kr_lowest": null,
-        "score": 52,
-        "published": true,
-        "reject_reason": "",
-        "first_seen": "2026-11-26T16:36:13+00:00",
-        "last_seen": "2026-11-27T17:17:15+00:00"
       }
     ],
     "totals": {
       "collected_72h": 80,
-      "published_72h": 38
+      "published_72h": 36
     }
   }
 }
