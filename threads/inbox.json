@@ -696,7 +696,8 @@
    "already": false,
    "photo_msg": 5111,
    "msg": 5112,
-   "status": "waiting"
+   "status": "posted",
+   "link": "https://www.threads.com/@deal_ondo/post/DgRQo5WoH7_"
   }
  },
  "done_updates": [
@@ -899,7 +900,8 @@
   303763111,
   303763112,
   303763113,
-  303763114
+  303763114,
+  303763116
  ],
  "picks": {
   "2026-10-30-점심": "3ffe07d9",
@@ -1006,11 +1008,6 @@
   "nordstromrack.com/s/allsaints-celeste-suede-boot/9066568"
  ],
  "runs": [
-  {
-   "at": "2026-11-25T20:22:16+09:00",
-   "updates": 0,
-   "errors": []
-  },
   {
    "at": "2026-11-25T21:42:48+09:00",
    "updates": 0,
@@ -1205,6 +1202,11 @@
    "at": "2026-11-28T11:50:01+09:00",
    "updates": 0,
    "errors": []
+  },
+  {
+   "at": "2026-11-28T12:13:52+09:00",
+   "updates": 1,
+   "errors": []
   }
  ],
  "info": {
@@ -1376,6 +1378,14 @@
     "status": "posted",
     "link": "https://www.threads.com/@deal_ondo/post/DgPj18CFMt0",
     "error": ""
+   },
+   "2026-11-28-lunch": {
+    "tries": 1,
+    "at": "2026-11-28T12:10:58+09:00",
+    "id": "D202611281210",
+    "status": "posted",
+    "link": "https://www.threads.com/@deal_ondo/post/DgRQjZroGFe",
+    "error": ""
    }
   },
   "log": [
@@ -1546,6 +1556,14 @@
     "slot": "evening",
     "link": "https://www.threads.com/@deal_ondo/post/DgPj18CFMt0",
     "first_line": "블프 결제 끝났다면, 오늘 밤에 이것까지 해두세요."
+   },
+   {
+    "at": "2026-11-28T12:10:58+09:00",
+    "id": "D202611281210",
+    "type": "data",
+    "slot": "lunch",
+    "link": "https://www.threads.com/@deal_ondo/post/DgRQjZroGFe",
+    "first_line": "면세한도 안에서 고른 오늘의 브랜드 딜 3개."
    }
   ]
  }
