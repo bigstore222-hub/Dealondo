@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T12:21:41.020886+00:00",
+  "generated_at": "2026-11-28T12:32:01.323917+00:00",
   "count": 581,
   "deals": [
     {
@@ -1668,7 +1668,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-26T11:51:07.953117+00:00",
-      "last_seen": "2026-11-28T06:31:11.186083+00:00",
+      "last_seen": "2026-11-28T12:32:01.323917+00:00",
       "posted_at": "2026-11-26T10:51:40+00:00",
       "signals": {
         "sd_feeds": [
@@ -2311,14 +2311,14 @@
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
         "community": "투표 40+할인57% → 하한 56",
-        "slickdeals": "Hot Deals 폭발 40표/67분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 40표/78분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-25T23:12:02.081407+00:00",
-      "last_seen": "2026-11-28T12:21:34.506946+00:00",
+      "last_seen": "2026-11-28T12:31:59.602535+00:00",
       "posted_at": "2026-11-28T11:14:12+00:00",
       "signals": {
         "sd_feeds": [
@@ -2328,9 +2328,9 @@
         "sd_store": "Amazon",
         "sd_brand": "McCormick",
         "sd_hot_origin": true,
-        "sd_age_min": 67,
+        "sd_age_min": 78,
         "sd_votes": 40,
-        "sd_velocity": 35.6,
+        "sd_velocity": 30.9,
         "sd_fp_min": 7
       },
       "title_kr": "McCormick 2.25-Oz McCormick Gourmet Collection Cajun Seasoning",
@@ -5337,10 +5337,10 @@
       "source": "slickdeals:amazon.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20425749",
-      "title": "Echo Dot Max Stereo Pair (2025, Newest Model, 3 Colors) for $80 at Amazon",
+      "title": "Echo Dot Max Stereo Pair (2025, Newest Model, 3 Colors) $80 + Free S&H",
       "brand": "Amazon",
       "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20425749&t=15",
+      "image": "https://static.slickdealscdn.com/attachment/3/5/9/4/0/2/8/300x300/22660593.thumb",
       "price_current": 80.0,
       "price_list": 240.0,
       "price_baseline": null,
@@ -5350,7 +5350,7 @@
       "coupon_stackable": false,
       "off_season": false,
       "free_gift": false,
-      "community_votes": 13,
+      "community_votes": 27,
       "rating": null,
       "review_count": null,
       "ships_to_kr": true,
@@ -5360,7 +5360,7 @@
       "stock_status": "in_stock",
       "is_refurbished": false,
       "expires_at": null,
-      "collection_method": "email",
+      "collection_method": "rss",
       "frontpage": true,
       "code_kind": "",
       "brand_tier": "known",
@@ -5380,16 +5380,19 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-28T09:41:09.846095+00:00",
-      "last_seen": "2026-11-28T12:21:34.506946+00:00",
-      "posted_at": "",
+      "last_seen": "2026-11-28T12:31:59.602535+00:00",
+      "posted_at": "2026-11-28T09:34:15+00:00",
       "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
         "sd_cat": "Bluetooth Speakers & Smart Speakers",
         "sd_store": "Amazon",
         "sd_brand": "Amazon",
         "sd_hot_origin": false,
-        "sd_age_min": 167,
-        "sd_votes": 13,
-        "sd_velocity": 4.7,
+        "sd_age_min": 178,
+        "sd_votes": 27,
+        "sd_velocity": 9.1,
         "sd_fp_min": 7
       },
       "title_kr": "Amazon Echo Dot Max Stereo Pair (2025,…",
@@ -8183,6 +8186,83 @@
       "title_kr": "소니 헤드폰"
     },
     {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20359452",
+      "title": "Baseus Picogo 10,000mAh Qi2.2 25W MagSafe Portable Power Bank $34.10 & More",
+      "brand": "Baseus",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/2/8/5/9/6/8/4/7/300x300/22637049.thumb",
+      "price_current": 34.0,
+      "price_list": 79.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "WFJ0DJ04",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 41,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 45393,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "public",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20359452",
+      "discount_pct": 57.5,
+      "score": 81,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 WFJ0DJ04 → 하한 75",
+        "slickdeals": "Hot Deals 급상승 41표/150분 → 하한 74",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-27T18:02:44.807366+00:00",
+      "last_seen": "2026-11-28T12:31:59.602535+00:00",
+      "posted_at": "2026-11-28T10:02:29+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Chargers & Power Banks",
+        "sd_store": "Amazon",
+        "sd_brand": "Baseus",
+        "sd_hot_origin": true,
+        "sd_age_min": 150,
+        "sd_votes": 41,
+        "sd_velocity": 16.5,
+        "sd_fp_min": 19
+      },
+      "title_kr": "Baseus 보조배터리",
+      "id": "44078154e9",
+      "history": [
+        [
+          "2026-11-27",
+          34.0
+        ],
+        [
+          "2026-11-28",
+          34.0
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:walmart.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20422146",
@@ -9031,7 +9111,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T23:12:02.081407+00:00",
-      "last_seen": "2026-11-28T06:31:11.186083+00:00",
+      "last_seen": "2026-11-28T12:32:01.323917+00:00",
       "posted_at": "2026-11-25T22:57:18+00:00",
       "signals": {
         "sd_feeds": [
@@ -9396,7 +9476,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T17:41:37.115230+00:00",
-      "last_seen": "2026-11-28T06:31:11.186083+00:00",
+      "last_seen": "2026-11-28T12:32:01.323917+00:00",
       "posted_at": "2026-11-25T16:47:23+00:00",
       "signals": {
         "sd_feeds": [
@@ -9756,14 +9836,14 @@
         "bonus": 0,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 25표/94분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 25표/105분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-28T04:21:59.593306+00:00",
-      "last_seen": "2026-11-28T12:21:34.506946+00:00",
+      "last_seen": "2026-11-28T12:31:59.602535+00:00",
       "posted_at": "2026-11-28T10:47:29+00:00",
       "signals": {
         "sd_feeds": [
@@ -9773,9 +9853,9 @@
         "sd_store": "Amazon",
         "sd_brand": "McCormick",
         "sd_hot_origin": true,
-        "sd_age_min": 94,
+        "sd_age_min": 105,
         "sd_votes": 25,
-        "sd_velocity": 15.9,
+        "sd_velocity": 14.4,
         "sd_fp_min": 14
       },
       "title_kr": "McCormick 2.37oz McCormick Grill Mates Chili Garlic…",
@@ -9828,14 +9908,14 @@
         "bonus": 4,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 40표/156분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 40표/167분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-26T21:51:46.471143+00:00",
-      "last_seen": "2026-11-28T12:21:34.506946+00:00",
+      "last_seen": "2026-11-28T12:31:59.602535+00:00",
       "posted_at": "2026-11-28T09:45:08+00:00",
       "signals": {
         "sd_feeds": [
@@ -9845,9 +9925,9 @@
         "sd_store": "Retailer",
         "sd_brand": "Bose",
         "sd_hot_origin": true,
-        "sd_age_min": 156,
+        "sd_age_min": 167,
         "sd_votes": 40,
-        "sd_velocity": 15.3,
+        "sd_velocity": 14.4,
         "sd_fp_min": 36
       },
       "title_kr": "보스 블루투스 스피커",
@@ -10064,7 +10144,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-27T10:51:55.933715+00:00",
-      "last_seen": "2026-11-28T08:31:43.521298+00:00",
+      "last_seen": "2026-11-28T12:32:01.323917+00:00",
       "posted_at": "2026-11-28T05:54:23+00:00",
       "signals": {
         "sd_feeds": [
@@ -17751,6 +17831,77 @@
       "title_kr": "올세인츠 여성용 토트백"
     },
     {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20426796",
+      "title": "[AC] $126.65 | Samsonite Omni 2 Hardside 2-Piece Spinner Luggage Set - Carry-On & Medium Checked (Midnight Black) at Amazon",
+      "brand": "Samsonite",
+      "category": "watch_misc",
+      "image": "https://static.slickdealscdn.com/attachment/1/1/7/1/5/2/7/300x300/22661736.thumb",
+      "price_current": 126.65,
+      "price_list": 360.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "SAMSONITE15",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 2,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 169089,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "public",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/dp/B09H7LPV13",
+      "discount_pct": 64.8,
+      "score": 75,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "code_deal": "공개코드 SAMSONITE15 → 하한 75"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-28T12:31:59.142530+00:00",
+      "last_seen": "2026-11-28T12:31:59.602535+00:00",
+      "posted_at": "2026-11-28T12:16:22+00:00",
+      "signals": {
+        "sd_feeds": [
+          "hotdeals"
+        ],
+        "sd_cat": "Luggage",
+        "sd_store": "Amazon",
+        "sd_brand": "Samsonite",
+        "direct_url": "https://www.amazon.com/dp/B09H7LPV13",
+        "sd_hot_origin": true,
+        "sd_age_min": 16,
+        "sd_votes": 2,
+        "sd_velocity": 7.7
+      },
+      "title_kr": "샘소나이트 기내용 캐리어",
+      "id": "27fe8c34a9",
+      "history": [
+        [
+          "2026-11-28",
+          126.65
+        ]
+      ]
+    },
+    {
       "source": "zappos.com",
       "source_tier": "T2",
       "url": "https://www.zappos.com/product/10056772",
@@ -18193,7 +18344,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-26T17:51:41.289172+00:00",
-      "last_seen": "2026-11-28T06:31:11.186083+00:00",
+      "last_seen": "2026-11-28T12:32:01.323917+00:00",
       "posted_at": "2026-11-26T17:35:27+00:00",
       "signals": {
         "sd_feeds": [
@@ -19033,7 +19184,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-28T11:01:30.519374+00:00",
-      "last_seen": "2026-11-28T12:21:34.506946+00:00",
+      "last_seen": "2026-11-28T12:31:59.602535+00:00",
       "posted_at": "2026-11-28T10:40:17+00:00",
       "signals": {
         "sd_feeds": [
@@ -19043,9 +19194,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Garmin",
         "sd_hot_origin": false,
-        "sd_age_min": 101,
+        "sd_age_min": 112,
         "sd_votes": 26,
-        "sd_velocity": 15.4,
+        "sd_velocity": 14.0,
         "sd_fp_min": 21
       },
       "title_kr": "가민 스마트워치",
@@ -19460,7 +19611,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T23:12:02.081407+00:00",
-      "last_seen": "2026-11-28T06:31:11.186083+00:00",
+      "last_seen": "2026-11-28T12:32:01.323917+00:00",
       "posted_at": "2026-11-25T22:30:13+00:00",
       "signals": {
         "sd_feeds": [
@@ -20864,78 +21015,6 @@
       ]
     },
     {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20359452",
-      "title": "Baseus Picogo 10,000mAh Qi2.2 25W MagSafe Portable Power Bank for $34.10 at Amazon",
-      "brand": "Baseus",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20359452&t=15",
-      "price_current": 34.0,
-      "price_list": 79.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 40,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 45393,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://slickdeals.net/f/20359452",
-      "discount_pct": 57.5,
-      "score": 71,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 0,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-27T18:02:44.807366+00:00",
-      "last_seen": "2026-11-28T12:21:34.506946+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Chargers & Power Banks",
-        "sd_store": "Amazon",
-        "sd_brand": "Baseus",
-        "sd_hot_origin": true,
-        "sd_age_min": 1101,
-        "sd_votes": 40,
-        "sd_velocity": 2.2,
-        "sd_fp_min": 981
-      },
-      "title_kr": "Baseus 보조배터리",
-      "id": "44078154e9",
-      "history": [
-        [
-          "2026-11-27",
-          34.0
-        ],
-        [
-          "2026-11-28",
-          34.0
-        ]
-      ]
-    },
-    {
       "source": "slickdeals:bestbuy.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20401422",
@@ -20982,7 +21061,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-28T09:11:06.557173+00:00",
-      "last_seen": "2026-11-28T12:21:34.506946+00:00",
+      "last_seen": "2026-11-28T12:31:59.602535+00:00",
       "posted_at": "2026-11-28T09:07:24+00:00",
       "signals": {
         "sd_feeds": [
@@ -20992,9 +21071,9 @@
         "sd_store": "Best Buy",
         "sd_brand": "Energizer",
         "sd_hot_origin": false,
-        "sd_age_min": 194,
+        "sd_age_min": 205,
         "sd_votes": 112,
-        "sd_velocity": 34.6,
+        "sd_velocity": 32.8,
         "sd_fp_min": 4
       },
       "title_kr": "Energizer 보조배터리",
@@ -24607,7 +24686,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T23:12:02.081407+00:00",
-      "last_seen": "2026-11-28T06:31:11.186083+00:00",
+      "last_seen": "2026-11-28T12:32:01.323917+00:00",
       "posted_at": "2026-11-25T22:45:00+00:00",
       "signals": {
         "sd_feeds": [
@@ -26630,7 +26709,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-26T17:51:41.289172+00:00",
-      "last_seen": "2026-11-28T06:31:11.186083+00:00",
+      "last_seen": "2026-11-28T12:32:01.323917+00:00",
       "posted_at": "2026-11-26T17:40:54+00:00",
       "signals": {
         "sd_feeds": [
@@ -27519,7 +27598,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-26T08:21:43.454574+00:00",
-      "last_seen": "2026-11-28T12:21:34.506946+00:00",
+      "last_seen": "2026-11-28T12:31:59.602535+00:00",
       "posted_at": "2026-11-28T08:55:29+00:00",
       "signals": {
         "sd_feeds": [
@@ -27529,9 +27608,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Knorr",
         "sd_hot_origin": true,
-        "sd_age_min": 206,
+        "sd_age_min": 217,
         "sd_votes": 40,
-        "sd_velocity": 11.6,
+        "sd_velocity": 11.1,
         "sd_fp_min": 16
       },
       "title_kr": "Knorr 11-Oz Knorr Premium Vegetable Flavor Base…",
@@ -27883,7 +27962,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T04:51:52.974671+00:00",
-      "last_seen": "2026-11-28T06:31:11.186083+00:00",
+      "last_seen": "2026-11-28T12:32:01.323917+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Baby & Infant Clothes",
@@ -28542,7 +28621,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-28T12:21:33.869072+00:00",
-      "last_seen": "2026-11-28T12:21:34.506946+00:00",
+      "last_seen": "2026-11-28T12:31:59.602535+00:00",
       "posted_at": "2026-11-28T11:50:45+00:00",
       "signals": {
         "sd_feeds": [
@@ -28552,9 +28631,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Onkyo",
         "sd_hot_origin": false,
-        "sd_age_min": 31,
+        "sd_age_min": 41,
         "sd_votes": 34,
-        "sd_velocity": 66.2,
+        "sd_velocity": 49.5,
         "sd_fp_min": 31
       },
       "title_kr": "Onkyo Creator Series GX-30ARC Powered Speakers (Black…",
@@ -30201,6 +30280,68 @@
       "title_kr": "Instant Pot 10oz. Instant Pot 4-In-1 Hot &…"
     },
     {
+      "source": "amazon.com",
+      "source_tier": "T1",
+      "url": "https://www.amazon.com/NOCO-GB40-UltraSafe-Lithium-Starter/dp/B015TKUPIC",
+      "title": "NOCO Boost GB40 12V 1000A UltraSafe Portable Lithium Jump Starter | Spark-Proof & Reverse Polarity Protection, For Car, ",
+      "brand": "Diesel",
+      "category": "etc",
+      "image": "https://m.media-amazon.com/images/I/71hJgp07X1L._AC_SR255,340_.jpg",
+      "price_current": 49.98,
+      "price_list": 99.95,
+      "price_baseline": 99.95,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 66728,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/NOCO-GB40-UltraSafe-Lithium-Starter/dp/B015TKUPIC",
+      "discount_pct": 50.0,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 5,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-27T10:01:09.689924+00:00",
+      "last_seen": "2026-11-28T12:31:59.602535+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "디젤 점프스타터",
+      "id": "7eae37c1b5",
+      "history": [
+        [
+          "2026-11-27",
+          49.98
+        ],
+        [
+          "2026-11-28",
+          49.98
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:amazon.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20426499",
@@ -30328,68 +30469,6 @@
         [
           "2026-11-28",
           35.98
-        ]
-      ]
-    },
-    {
-      "source": "amazon.com",
-      "source_tier": "T1",
-      "url": "https://www.amazon.com/NOCO-GB40-UltraSafe-Lithium-Starter/dp/B015TKUPIC",
-      "title": "NOCO Boost GB40 12V 1000A UltraSafe Portable Lithium Jump Starter | Spark-Proof & Reverse Polarity Protection, For Car, ",
-      "brand": "Diesel",
-      "category": "etc",
-      "image": "https://m.media-amazon.com/images/I/71hJgp07X1L._AC_SR255,340_.jpg",
-      "price_current": 49.98,
-      "price_list": 99.95,
-      "price_baseline": 99.95,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 66728,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/NOCO-GB40-UltraSafe-Lithium-Starter/dp/B015TKUPIC",
-      "discount_pct": 50.0,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 5,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-27T10:01:09.689924+00:00",
-      "last_seen": "2026-11-28T11:51:47.759629+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "디젤 점프스타터",
-      "id": "7eae37c1b5",
-      "history": [
-        [
-          "2026-11-27",
-          49.98
-        ],
-        [
-          "2026-11-28",
-          49.98
         ]
       ]
     },
@@ -31962,7 +32041,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T11:31:56.690994+00:00",
-      "last_seen": "2026-11-28T06:31:11.186083+00:00",
+      "last_seen": "2026-11-28T12:32:01.323917+00:00",
       "posted_at": "2026-11-25T11:06:01+00:00",
       "signals": {
         "sd_feeds": [
@@ -35750,60 +35829,6 @@
       ]
     },
     {
-      "source": "techbargains:woot!",
-      "source_tier": "T2",
-      "url": "https://home.woot.com/plus/tumi-samsonite-more-luggage",
-      "title": "Woot! Luggage Sale: Up to 50% off Tumi, Samsonite, More",
-      "brand": "Samsonite",
-      "category": "watch_misc",
-      "image": "https://www.techbargains.com/imagery/deals/202730.1795725394.fit_lim.size_125x125.jpg",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://home.woot.com/plus/tumi-samsonite-more-luggage",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-27T07:42:04.058529+00:00",
-      "last_seen": "2026-11-27T07:42:07.281285+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "샘소나이트 캐리어",
-      "id": "56fe0e7b02",
-      "history": []
-    },
-    {
       "source": "slickdeals:amazon.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20410173",
@@ -39463,7 +39488,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-26T11:32:36.686462+00:00",
-      "last_seen": "2026-11-28T06:31:11.186083+00:00",
+      "last_seen": "2026-11-28T12:32:01.323917+00:00",
       "posted_at": "2026-11-26T11:15:06+00:00",
       "signals": {
         "sd_feeds": [
@@ -39602,7 +39627,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T11:31:56.690994+00:00",
-      "last_seen": "2026-11-28T06:31:11.186083+00:00",
+      "last_seen": "2026-11-28T12:32:01.323917+00:00",
       "posted_at": "2026-11-25T11:01:32+00:00",
       "signals": {
         "sd_feeds": [
@@ -40435,7 +40460,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-28T11:21:06.965742+00:00",
-      "last_seen": "2026-11-28T12:21:34.506946+00:00",
+      "last_seen": "2026-11-28T12:31:59.602535+00:00",
       "posted_at": "2026-11-28T11:08:40+00:00",
       "signals": {
         "sd_feeds": [
@@ -40445,9 +40470,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Nothing",
         "sd_hot_origin": false,
-        "sd_age_min": 73,
+        "sd_age_min": 83,
         "sd_votes": 32,
-        "sd_velocity": 26.3,
+        "sd_velocity": 23.0,
         "sd_fp_min": 12
       },
       "title_kr": "Nothing 무선 이어폰",
@@ -40676,7 +40701,7 @@
   "fx_usd_krw": 1335.1,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-28T12:20:32+00:00",
+      "T1": "2026-11-28T12:30:38+00:00",
       "T2": "2026-11-28T12:01:59+00:00",
       "T3": "2026-11-28T11:51:52+00:00",
       "T4": "2026-11-28T11:41:21+00:00"
@@ -40710,6 +40735,7 @@
       9,
       1,
       9,
+      10,
       10
     ],
     "naver": {
@@ -40717,7 +40743,7 @@
       "queried": 25,
       "matched": 0,
       "errors": 0,
-      "at": "2026-11-28T12:21:34+00:00"
+      "at": "2026-11-28T12:31:59+00:00"
     },
     "reddit": {
       "mode": "공개 검색(키 없음)",
@@ -40725,16 +40751,16 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-28T12:21:34+00:00"
+      "at": "2026-11-28T12:31:59+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-28T12:21:33+00:00",
-        "state": "정상",
-        "mails": 40,
-        "deals": 40
+        "at": "2026-11-28T12:31:59+00:00",
+        "state": "로그인 실패",
+        "mails": 0,
+        "deals": 0
       },
       "newsletter": {
         "at": "2026-11-28T11:44:38+00:00",
