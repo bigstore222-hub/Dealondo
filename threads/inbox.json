@@ -831,9 +831,6 @@
   }
  },
  "done_updates": [
-  303762887,
-  303762888,
-  303762889,
   303762890,
   303762891,
   303762892,
@@ -1143,11 +1140,6 @@
  ],
  "runs": [
   {
-   "at": "2026-11-26T08:22:47+09:00",
-   "updates": 1,
-   "errors": []
-  },
-  {
    "at": "2026-11-26T09:03:20+09:00",
    "updates": 0,
    "errors": []
@@ -1341,6 +1333,11 @@
    "at": "2026-11-28T20:06:37+09:00",
    "updates": 3,
    "errors": []
+  },
+  {
+   "at": "2026-11-28T20:23:17+09:00",
+   "updates": 0,
+   "errors": []
   }
  ],
  "info": {
@@ -1520,6 +1517,14 @@
     "status": "posted",
     "link": "https://www.threads.com/@deal_ondo/post/DgRQjZroGFe",
     "error": ""
+   },
+   "2026-11-28-evening": {
+    "tries": 1,
+    "at": "2026-11-28T20:21:12+09:00",
+    "id": "L08",
+    "status": "posted",
+    "link": "https://www.threads.com/@deal_ondo/post/DgSIpglEZrA",
+    "error": ""
    }
   },
   "log": [
@@ -1698,6 +1703,14 @@
     "slot": "lunch",
     "link": "https://www.threads.com/@deal_ondo/post/DgRQjZroGFe",
     "first_line": "면세한도 안에서 고른 오늘의 브랜드 딜 3개."
+   },
+   {
+    "at": "2026-11-28T20:21:12+09:00",
+    "id": "L08",
+    "type": "library",
+    "slot": "evening",
+    "link": "https://www.threads.com/@deal_ondo/post/DgSIpglEZrA",
+    "first_line": "블프 다음 날 'Your order has been canceled' 메일 받으셨나요?"
    }
   ]
  }
