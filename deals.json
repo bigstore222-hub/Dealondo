@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-28T12:32:01.323917+00:00",
-  "count": 581,
+  "generated_at": "2026-11-28T12:32:51.912244+00:00",
+  "count": 583,
   "deals": [
     {
       "source": "6pm.com",
@@ -1217,7 +1217,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-24T21:02:50.902953+00:00",
-      "last_seen": "2026-11-28T12:02:14.251424+00:00",
+      "last_seen": "2026-11-28T12:32:49.400862+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "캘빈클라인 펌프스",
@@ -1376,7 +1376,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-24T21:21:07.024207+00:00",
-      "last_seen": "2026-11-28T06:31:40.928886+00:00",
+      "last_seen": "2026-11-28T12:32:51.912244+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Streaming Services",
@@ -1523,7 +1523,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-25T00:31:34.826487+00:00",
-      "last_seen": "2026-11-28T06:31:40.928886+00:00",
+      "last_seen": "2026-11-28T12:32:51.912244+00:00",
       "posted_at": "2026-11-27T17:28:54+00:00",
       "signals": {
         "sd_feeds": [
@@ -2270,6 +2270,74 @@
       "title_kr": "삼성 무선 이어폰"
     },
     {
+      "source": "slickdeals:adidas.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20355708",
+      "title": "adidas Black Friday Sale Up to 60% Off + Extra 15% Off + Free S&H  (외 1종)",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://static.slickdealscdn.com/attachment/3/6/9/5/2/8/300x300/22571352.thumb",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 128,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20355708",
+      "discount_pct": null,
+      "score": 92,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 폭발 128표/111분 → 하한 86",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-24T23:20:44.293085+00:00",
+      "last_seen": "2026-11-28T07:02:31.185804+00:00",
+      "posted_at": "2026-11-24T21:31:26+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Clothing & Accessories",
+        "sd_store": "adidas",
+        "sd_brand": "adidas",
+        "sd_hot_origin": true,
+        "sd_age_min": 111,
+        "sd_votes": 128,
+        "sd_velocity": 69.5,
+        "sd_fp_min": -5800
+      },
+      "id": "149b68be81",
+      "history": [],
+      "variant_count": 2,
+      "title_kr": "아디다스 Black Friday Sale Up to 60%…"
+    },
+    {
       "source": "slickdeals:amazon.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20398701",
@@ -2345,74 +2413,6 @@
           3.0
         ]
       ]
-    },
-    {
-      "source": "slickdeals:adidas.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20355708",
-      "title": "adidas Black Friday Sale Up to 60% Off + Extra 15% Off + Free S&H  (외 1종)",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://static.slickdealscdn.com/attachment/3/6/9/5/2/8/300x300/22571352.thumb",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 128,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20355708",
-      "discount_pct": null,
-      "score": 92,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 128표/111분 → 하한 86",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-24T23:20:44.293085+00:00",
-      "last_seen": "2026-11-28T07:02:31.185804+00:00",
-      "posted_at": "2026-11-24T21:31:26+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Clothing & Accessories",
-        "sd_store": "adidas",
-        "sd_brand": "adidas",
-        "sd_hot_origin": true,
-        "sd_age_min": 111,
-        "sd_votes": 128,
-        "sd_velocity": 69.5,
-        "sd_fp_min": -5800
-      },
-      "id": "149b68be81",
-      "history": [],
-      "variant_count": 2,
-      "title_kr": "아디다스 Black Friday Sale Up to 60%…"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -3832,7 +3832,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-22T05:41:40.394763+00:00",
-      "last_seen": "2026-11-28T06:31:40.928886+00:00",
+      "last_seen": "2026-11-28T12:32:51.912244+00:00",
       "posted_at": "2026-11-23T21:47:10+00:00",
       "signals": {
         "sd_feeds": [
@@ -4518,7 +4518,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-21T10:41:47.984374+00:00",
-      "last_seen": "2026-11-28T06:31:40.928886+00:00",
+      "last_seen": "2026-11-28T12:32:51.912244+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Babies & Kids",
@@ -4546,99 +4546,6 @@
         ]
       ],
       "title_kr": "LEGO 레고"
-    },
-    {
-      "source": "zappos.com",
-      "source_tier": "T2",
-      "url": "https://www.zappos.com/product/10031451",
-      "title": "Victory Dri-FIT Short Sleeve Cropped Golf Polo",
-      "brand": "Nike",
-      "category": "premium_fashion",
-      "image": "https://m.media-amazon.com/images/I/61yCCUsgXPL._AC_SR255,340_.jpg",
-      "price_current": 16.25,
-      "price_list": 65.0,
-      "price_baseline": 65.0,
-      "price_alltime_low": 16.25,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 21695,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.zappos.com/product/10031451",
-      "discount_pct": 75.0,
-      "score": 90,
-      "score_breakdown": {
-        "discount_depth": 35,
-        "price_history": 25,
-        "category": 20,
-        "bonus": 4,
-        "brand": 6
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-19T08:41:23.407247+00:00",
-      "last_seen": "2026-11-28T12:02:14.251424+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "나이키 폴로셔츠",
-      "id": "c040b18db4",
-      "history": [
-        [
-          "2026-11-19",
-          16.25
-        ],
-        [
-          "2026-11-20",
-          16.25
-        ],
-        [
-          "2026-11-21",
-          16.25
-        ],
-        [
-          "2026-11-22",
-          16.25
-        ],
-        [
-          "2026-11-23",
-          16.25
-        ],
-        [
-          "2026-11-24",
-          16.25
-        ],
-        [
-          "2026-11-25",
-          16.25
-        ],
-        [
-          "2026-11-26",
-          16.25
-        ],
-        [
-          "2026-11-27",
-          16.25
-        ],
-        [
-          "2026-11-28",
-          16.25
-        ]
-      ]
     },
     {
       "source": "zappos.com",
@@ -4685,7 +4592,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-19T08:41:23.407247+00:00",
-      "last_seen": "2026-11-28T12:02:14.251424+00:00",
+      "last_seen": "2026-11-28T12:32:49.400862+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "프리피플 맥시 원피스",
@@ -4730,6 +4637,99 @@
         [
           "2026-11-28",
           49.5
+        ]
+      ]
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10031451",
+      "title": "Victory Dri-FIT Short Sleeve Cropped Golf Polo",
+      "brand": "Nike",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/61yCCUsgXPL._AC_SR255,340_.jpg",
+      "price_current": 16.25,
+      "price_list": 65.0,
+      "price_baseline": 65.0,
+      "price_alltime_low": 16.25,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 21695,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.zappos.com/product/10031451",
+      "discount_pct": 75.0,
+      "score": 90,
+      "score_breakdown": {
+        "discount_depth": 35,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 4,
+        "brand": 6
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-19T08:41:23.407247+00:00",
+      "last_seen": "2026-11-28T12:32:49.400862+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "나이키 폴로셔츠",
+      "id": "c040b18db4",
+      "history": [
+        [
+          "2026-11-19",
+          16.25
+        ],
+        [
+          "2026-11-20",
+          16.25
+        ],
+        [
+          "2026-11-21",
+          16.25
+        ],
+        [
+          "2026-11-22",
+          16.25
+        ],
+        [
+          "2026-11-23",
+          16.25
+        ],
+        [
+          "2026-11-24",
+          16.25
+        ],
+        [
+          "2026-11-25",
+          16.25
+        ],
+        [
+          "2026-11-26",
+          16.25
+        ],
+        [
+          "2026-11-27",
+          16.25
+        ],
+        [
+          "2026-11-28",
+          16.25
         ]
       ]
     },
@@ -5334,77 +5334,6 @@
       "title_kr": "Kiehl's 5-Oz Kiehl's Ultra Facial Cleanser w/…"
     },
     {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20425749",
-      "title": "Echo Dot Max Stereo Pair (2025, Newest Model, 3 Colors) $80 + Free S&H",
-      "brand": "Amazon",
-      "category": "electronics",
-      "image": "https://static.slickdealscdn.com/attachment/3/5/9/4/0/2/8/300x300/22660593.thumb",
-      "price_current": 80.0,
-      "price_list": 240.0,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 27,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 106807,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20425749",
-      "discount_pct": 66.7,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 36,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-28T09:41:09.846095+00:00",
-      "last_seen": "2026-11-28T12:31:59.602535+00:00",
-      "posted_at": "2026-11-28T09:34:15+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Bluetooth Speakers & Smart Speakers",
-        "sd_store": "Amazon",
-        "sd_brand": "Amazon",
-        "sd_hot_origin": false,
-        "sd_age_min": 178,
-        "sd_votes": 27,
-        "sd_velocity": 9.1,
-        "sd_fp_min": 7
-      },
-      "title_kr": "Amazon Echo Dot Max Stereo Pair (2025,…",
-      "id": "4d8d07e12d",
-      "history": [
-        [
-          "2026-11-28",
-          80.0
-        ]
-      ]
-    },
-    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/nike-pacific-low-top-sneaker-women/8289606",
@@ -5449,7 +5378,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-19T21:41:23.210533+00:00",
-      "last_seen": "2026-11-28T12:02:14.251424+00:00",
+      "last_seen": "2026-11-28T12:32:49.400862+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "나이키 스니커즈",
@@ -5543,7 +5472,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-28T06:41:31.420184+00:00",
-      "last_seen": "2026-11-28T12:02:14.251424+00:00",
+      "last_seen": "2026-11-28T12:32:49.400862+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "마이클 코어스 오버코트",
@@ -5601,7 +5530,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-27T21:11:23.981418+00:00",
-      "last_seen": "2026-11-28T12:02:14.251424+00:00",
+      "last_seen": "2026-11-28T12:32:49.400862+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "올세인츠 첼시부츠",
@@ -5614,6 +5543,77 @@
         [
           "2026-11-28",
           59.99
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20425749",
+      "title": "Echo Dot Max Stereo Pair (2025, Newest Model, 3 Colors) $80 + Free S&H",
+      "brand": "Amazon",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/3/5/9/4/0/2/8/300x300/22660593.thumb",
+      "price_current": 80.0,
+      "price_list": 240.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 27,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 106807,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20425749",
+      "discount_pct": 66.7,
+      "score": 87,
+      "score_breakdown": {
+        "discount_depth": 36,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-28T09:41:09.846095+00:00",
+      "last_seen": "2026-11-28T12:31:59.602535+00:00",
+      "posted_at": "2026-11-28T09:34:15+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Bluetooth Speakers & Smart Speakers",
+        "sd_store": "Amazon",
+        "sd_brand": "Amazon",
+        "sd_hot_origin": false,
+        "sd_age_min": 178,
+        "sd_votes": 27,
+        "sd_velocity": 9.1,
+        "sd_fp_min": 7
+      },
+      "title_kr": "Amazon Echo Dot Max Stereo Pair (2025,…",
+      "id": "4d8d07e12d",
+      "history": [
+        [
+          "2026-11-28",
+          80.0
         ]
       ]
     },
@@ -7154,7 +7154,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T17:41:37.115230+00:00",
-      "last_seen": "2026-11-28T06:31:40.928886+00:00",
+      "last_seen": "2026-11-28T12:32:51.912244+00:00",
       "posted_at": "2026-11-25T16:40:30+00:00",
       "signals": {
         "sd_feeds": [
@@ -9188,7 +9188,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T04:51:52.974671+00:00",
-      "last_seen": "2026-11-28T06:31:40.928886+00:00",
+      "last_seen": "2026-11-28T12:32:51.912244+00:00",
       "posted_at": "2026-11-25T20:51:21+00:00",
       "signals": {
         "sd_feeds": [
@@ -9796,6 +9796,83 @@
       "title_kr": "Steam God of War (2022) (PCDD/Steam Code)"
     },
     {
+      "source": "dealsofamerica",
+      "source_tier": "T2",
+      "url": "https://www.dealsofamerica.com/zupirol-security-camera/846814.htm",
+      "title": "Zupirol 2-in-1 2K HD Night Vision 2-Way Audio Light Bulb Security Camera",
+      "brand": "",
+      "category": "electronics",
+      "image": "https://d16f00g4zitf8i.cloudfront.net/images/zupirol-security-camera8.jpg",
+      "price_current": 20.89,
+      "price_list": 66.0,
+      "price_baseline": null,
+      "price_alltime_low": 20.89,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 27890,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://www.dealsofamerica.com/zupirol-security-camera/846814.htm",
+      "discount_pct": 68.3,
+      "score": 80,
+      "score_breakdown": {
+        "discount_depth": 36,
+        "price_history": 25,
+        "category": 15,
+        "bonus": 4,
+        "brand": 0
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-22T14:41:17.176699+00:00",
+      "last_seen": "2026-11-28T12:32:49.400862+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "보안 카메라",
+      "id": "4a7aab2d06",
+      "history": [
+        [
+          "2026-11-22",
+          20.89
+        ],
+        [
+          "2026-11-24",
+          20.89
+        ],
+        [
+          "2026-11-25",
+          20.89
+        ],
+        [
+          "2026-11-26",
+          20.89
+        ],
+        [
+          "2026-11-27",
+          20.89
+        ],
+        [
+          "2026-11-28",
+          20.89
+        ]
+      ]
+    },
+    {
       "source": "slickdeals:amazon.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20424570",
@@ -9940,83 +10017,6 @@
         [
           "2026-11-28",
           100.0
-        ]
-      ]
-    },
-    {
-      "source": "dealsofamerica",
-      "source_tier": "T2",
-      "url": "https://www.dealsofamerica.com/zupirol-security-camera/846814.htm",
-      "title": "Zupirol 2-in-1 2K HD Night Vision 2-Way Audio Light Bulb Security Camera",
-      "brand": "",
-      "category": "electronics",
-      "image": "https://d16f00g4zitf8i.cloudfront.net/images/zupirol-security-camera8.jpg",
-      "price_current": 20.89,
-      "price_list": 66.0,
-      "price_baseline": null,
-      "price_alltime_low": 20.89,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 27890,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "",
-      "buy_url": "https://www.dealsofamerica.com/zupirol-security-camera/846814.htm",
-      "discount_pct": 68.3,
-      "score": 80,
-      "score_breakdown": {
-        "discount_depth": 36,
-        "price_history": 25,
-        "category": 15,
-        "bonus": 4,
-        "brand": 0
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-22T14:41:17.176699+00:00",
-      "last_seen": "2026-11-28T12:02:14.251424+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "보안 카메라",
-      "id": "4a7aab2d06",
-      "history": [
-        [
-          "2026-11-22",
-          20.89
-        ],
-        [
-          "2026-11-24",
-          20.89
-        ],
-        [
-          "2026-11-25",
-          20.89
-        ],
-        [
-          "2026-11-26",
-          20.89
-        ],
-        [
-          "2026-11-27",
-          20.89
-        ],
-        [
-          "2026-11-28",
-          20.89
         ]
       ]
     },
@@ -13993,7 +13993,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-21T14:41:50.335042+00:00",
-      "last_seen": "2026-11-28T06:31:40.928886+00:00",
+      "last_seen": "2026-11-28T12:32:51.912244+00:00",
       "posted_at": "2026-11-25T00:26:55+00:00",
       "signals": {
         "sd_feeds": [
@@ -14963,7 +14963,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-22T03:01:46.736281+00:00",
-      "last_seen": "2026-11-28T06:31:40.928886+00:00",
+      "last_seen": "2026-11-28T12:32:51.912244+00:00",
       "posted_at": "2026-11-24T04:33:40+00:00",
       "signals": {
         "sd_feeds": [
@@ -15191,7 +15191,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-22T05:12:58.934292+00:00",
-      "last_seen": "2026-11-28T06:31:40.928886+00:00",
+      "last_seen": "2026-11-28T12:32:51.912244+00:00",
       "posted_at": "2026-11-23T12:39:21+00:00",
       "signals": {
         "sd_feeds": [
@@ -17006,7 +17006,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-28T00:21:21.729814+00:00",
-      "last_seen": "2026-11-28T12:02:14.251424+00:00",
+      "last_seen": "2026-11-28T12:32:49.400862+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "빈스 카무토 로퍼",
@@ -21011,6 +21011,64 @@
         [
           "2026-11-25",
           40.0
+        ]
+      ]
+    },
+    {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/kenneth-cole-kc-inspire-m-edt-s-1-0/9133232",
+      "title": "INSPIRE Eau de Toilette",
+      "brand": "Kenneth Cole Kc",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/29d9e316-06b1-41b8-a157-c68375ff9a2e.jpeg?h=368&w=240&dpr=2",
+      "price_current": 9.74,
+      "price_list": 75.0,
+      "price_baseline": 75.0,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 13004,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/kenneth-cole-kc-inspire-m-edt-s-1-0/9133232",
+      "discount_pct": 87.0,
+      "score": 71,
+      "score_breakdown": {
+        "discount_depth": 40,
+        "price_history": null,
+        "category": 16,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "HOT",
+      "detected_at": "2026-11-28T12:32:46.782253+00:00",
+      "last_seen": "2026-11-28T12:32:49.400862+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "케네스콜 INSPIRE Eau de Toilette",
+      "id": "fb09069fcc",
+      "history": [
+        [
+          "2026-11-28",
+          9.74
         ]
       ]
     },
@@ -28256,7 +28314,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-22T17:22:35.277674+00:00",
-      "last_seen": "2026-11-28T06:31:40.928886+00:00",
+      "last_seen": "2026-11-28T12:32:51.912244+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Camera Lenses",
@@ -30280,6 +30338,68 @@
       "title_kr": "Instant Pot 10oz. Instant Pot 4-In-1 Hot &…"
     },
     {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/levis-501-curve-high-waist-straight-leg-jeans-play-on-ref/8170260",
+      "title": "501® Curve High Waist Straight Leg Jeans",
+      "brand": "Levis",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/d063889e-7146-4eca-be9c-b2304109af57.jpeg?h=368&w=240&dpr=2",
+      "price_current": 35.98,
+      "price_list": 84.95,
+      "price_baseline": 84.95,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 48037,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/levis-501-curve-high-waist-straight-leg-jeans-play-on-ref/8170260",
+      "discount_pct": 57.6,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 26,
+        "price_history": null,
+        "category": 16,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-27T21:11:23.981418+00:00",
+      "last_seen": "2026-11-28T12:32:49.400862+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "리바이스 청바지",
+      "id": "de339fed58",
+      "history": [
+        [
+          "2026-11-27",
+          35.98
+        ],
+        [
+          "2026-11-28",
+          35.98
+        ]
+      ]
+    },
+    {
       "source": "amazon.com",
       "source_tier": "T1",
       "url": "https://www.amazon.com/NOCO-GB40-UltraSafe-Lithium-Starter/dp/B015TKUPIC",
@@ -30407,68 +30527,6 @@
         [
           "2026-11-28",
           80.0
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/levis-501-curve-high-waist-straight-leg-jeans-play-on-ref/8170260",
-      "title": "501® Curve High Waist Straight Leg Jeans",
-      "brand": "Levis",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/d063889e-7146-4eca-be9c-b2304109af57.jpeg?h=368&w=240&dpr=2",
-      "price_current": 35.98,
-      "price_list": 84.95,
-      "price_baseline": 84.95,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 48037,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/levis-501-curve-high-waist-straight-leg-jeans-play-on-ref/8170260",
-      "discount_pct": 57.6,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 26,
-        "price_history": null,
-        "category": 16,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-27T21:11:23.981418+00:00",
-      "last_seen": "2026-11-28T12:02:14.251424+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "리바이스 청바지",
-      "id": "de339fed58",
-      "history": [
-        [
-          "2026-11-27",
-          35.98
-        ],
-        [
-          "2026-11-28",
-          35.98
         ]
       ]
     },
@@ -32249,7 +32307,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T04:51:52.974671+00:00",
-      "last_seen": "2026-11-28T06:31:40.928886+00:00",
+      "last_seen": "2026-11-28T12:32:51.912244+00:00",
       "posted_at": "2026-11-25T04:19:02+00:00",
       "signals": {
         "sd_feeds": [
@@ -34001,6 +34059,65 @@
       "title_kr": "Jurassic World 장난감"
     },
     {
+      "source": "dealnews",
+      "source_tier": "T2",
+      "url": "https://www.dealnews.com/Hoka-Mens-Speedgoat-6-Trail-Running-Shoes-10-5-only-for-53-free-shipping/22443264.html?iref=rss",
+      "title": "Hoka Men's Speedgoat 6 Trail Running Shoes (10.5 only) for $53 + free shipping",
+      "brand": "Hoka",
+      "category": "sports_outdoor",
+      "image": "https://d.dlnws.com/64599/1795867143-s-l1600.jpg?h=208&w=250",
+      "price_current": 53.0,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 70760,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.dealnews.com/Hoka-Mens-Speedgoat-6-Trail-Running-Shoes-10-5-only-for-53-free-shipping/22443264.html?iref=rss",
+      "discount_pct": null,
+      "score": 55,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 4,
+        "brand": 12,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "curated": "DealNews 엄선 → 하한 55"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-28T12:32:46.782253+00:00",
+      "last_seen": "2026-11-28T12:32:49.400862+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "호카 남성용 러닝화",
+      "id": "e3d7fc734b",
+      "history": [
+        [
+          "2026-11-28",
+          53.0
+        ]
+      ]
+    },
+    {
       "source": "techbargains:amazon",
       "source_tier": "T2",
       "url": "https://www.amazon.com/gp/product/B06XDL15DB/ref=ox_sc_act_image_1?smid=ATVPDKIKX0DER&psc=1",
@@ -34047,7 +34164,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-27T11:21:25.855811+00:00",
-      "last_seen": "2026-11-28T12:02:14.251424+00:00",
+      "last_seen": "2026-11-28T12:32:49.400862+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "칼하트 Men's Rubber C-Grip Glove",
@@ -40702,12 +40819,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-28T12:30:38+00:00",
-      "T2": "2026-11-28T12:01:59+00:00",
+      "T2": "2026-11-28T12:32:38+00:00",
       "T3": "2026-11-28T11:51:52+00:00",
       "T4": "2026-11-28T11:41:21+00:00"
     },
     "recent_gaps_min": [
-      10,
       9,
       14,
       4,
@@ -40736,14 +40852,15 @@
       1,
       9,
       10,
-      10
+      10,
+      1
     ],
     "naver": {
       "keys": false,
       "queried": 25,
       "matched": 0,
       "errors": 0,
-      "at": "2026-11-28T12:31:59+00:00"
+      "at": "2026-11-28T12:32:48+00:00"
     },
     "reddit": {
       "mode": "공개 검색(키 없음)",
@@ -40751,7 +40868,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-28T12:31:59+00:00"
+      "at": "2026-11-28T12:32:49+00:00"
     }
   },
   "email_monitor": {
