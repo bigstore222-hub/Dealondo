@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-28T16:30:55.270247+00:00",
-  "count": 583,
+  "generated_at": "2026-11-28T16:41:01.047676+00:00",
+  "count": 580,
   "deals": [
     {
       "source": "slickdeals:amazon.com",
@@ -49,16 +49,16 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-28T09:41:09.846095+00:00",
-      "last_seen": "2026-11-28T16:22:46.210630+00:00",
+      "last_seen": "2026-11-28T16:41:00.922430+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Bluetooth Speakers & Smart Speakers",
         "sd_store": "Amazon",
         "sd_brand": "Amazon",
         "sd_hot_origin": false,
-        "sd_age_min": 409,
+        "sd_age_min": 427,
         "sd_votes": 57,
-        "sd_velocity": 8.4,
+        "sd_velocity": 8.0,
         "sd_fp_min": 7
       },
       "title_kr": "Amazon Echo Dot Max Stereo Pair (2025,…",
@@ -2192,7 +2192,7 @@
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20419989",
       "title": "Additional Savings on Orders $1000 or More with PayPal Checkout $100 Off + Free S/H",
-      "brand": "",
+      "brand": "Samsung",
       "category": "electronics",
       "image": "https://static.slickdealscdn.com/attachment/1/6/6/6/1/8/300x300/22649727.thumb",
       "price_current": 100.0,
@@ -2217,7 +2217,7 @@
       "collection_method": "rss",
       "frontpage": true,
       "code_kind": "public",
-      "brand_tier": "",
+      "brand_tier": "known",
       "buy_url": "https://slickdeals.net/f/20419989",
       "discount_pct": null,
       "score": 92,
@@ -2226,30 +2226,31 @@
         "price_history": null,
         "category": 15,
         "bonus": 4,
-        "brand": 0,
+        "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 40표/39분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 40표/58분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-27T19:11:58.187711+00:00",
-      "last_seen": "2026-11-28T16:22:46.263364+00:00",
+      "last_seen": "2026-11-28T16:41:00.922430+00:00",
       "posted_at": "2026-11-28T15:43:23+00:00",
       "signals": {
         "sd_feeds": [
           "frontpage"
         ],
-        "sd_cat": "Tech & Electronics",
-        "sd_store": "Facebook Marketplace",
+        "sd_cat": "Phones",
+        "sd_store": "Samsung",
+        "sd_brand": "Samsung",
         "sd_hot_origin": true,
-        "sd_age_min": 39,
+        "sd_age_min": 58,
         "sd_votes": 40,
-        "sd_velocity": 60.9,
+        "sd_velocity": 41.6,
         "sd_fp_min": 39
       },
-      "title_kr": "Additional Savings on Orders or More…",
+      "title_kr": "삼성 Additional Savings on Orders or More…",
       "id": "38335faef8",
       "history": [
         [
@@ -2259,6 +2260,81 @@
         [
           "2026-11-28",
           100.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:target.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20422020",
+      "title": "Pre-Owned: Lenovo Ideacentre Desktop: Ryzen 7 250, Radeon 780M, 16GB RAM, 1TB SSD $336 + Free S/H",
+      "brand": "",
+      "category": "electronics",
+      "image": "https://static.slickdealscdn.com/attachment/1/4/0/4/3/9/0/7/300x300/22651110.thumb",
+      "price_current": 336.0,
+      "price_list": 671.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 62,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 532926,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20422020",
+      "discount_pct": 50.0,
+      "score": 92,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 폭발 62표/90분 → 하한 86",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-27T22:41:45.023757+00:00",
+      "last_seen": "2026-11-28T16:41:01.047676+00:00",
+      "posted_at": "2026-11-28T15:11:06+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Computers",
+        "sd_store": "Target",
+        "sd_hot_origin": true,
+        "sd_age_min": 90,
+        "sd_votes": 62,
+        "sd_velocity": 41.4,
+        "sd_fp_min": 72
+      },
+      "title_kr": "SSD",
+      "id": "1b7034c6d4",
+      "history": [
+        [
+          "2026-11-27",
+          336.0
+        ],
+        [
+          "2026-11-28",
+          336.0
         ]
       ]
     },
@@ -5024,75 +5100,6 @@
       ]
     },
     {
-      "source": "slickdeals:samsung",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20412558",
-      "title": "Select Samsung EPP/EDU: 256GB Galaxy S26 Ultra Unlocked Smartphone + $300 Credit for $580 at Samsung",
-      "brand": "Samsung",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20412558&t=15",
-      "price_current": 580.0,
-      "price_list": 1399.99,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 464,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 919931,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20412558",
-      "discount_pct": 58.6,
-      "score": 88,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "community": "투표 464+할인59% → 하한 82",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-28T00:30:53.144157+00:00",
-      "last_seen": "2026-11-28T16:22:46.210630+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Cell Phones",
-        "sd_store": "Samsung",
-        "sd_brand": "Samsung",
-        "sd_hot_origin": false,
-        "sd_age_min": 874,
-        "sd_votes": 464,
-        "sd_velocity": 31.9,
-        "sd_fp_min": 12
-      },
-      "title_kr": "삼성 Select Samsung 256GB Galaxy S26 Ultra…",
-      "id": "b3850e2825",
-      "history": [
-        [
-          "2026-11-28",
-          580.0
-        ]
-      ]
-    },
-    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/nike-kids-sportswear-just-do-it-hoodie-toddler/6495966",
@@ -5322,6 +5329,74 @@
       "title_kr": "Kiehl's 5-Oz Kiehl's Ultra Facial Cleanser w/…"
     },
     {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20425764",
+      "title": "2-Pack Amazon Echo Dot Speakers (5th Gen, Charcoal) for $55 at Amazon",
+      "brand": "Amazon",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20425764&t=15",
+      "price_current": 55.0,
+      "price_list": 159.98,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 33,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 73430,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20425764",
+      "discount_pct": 65.6,
+      "score": 87,
+      "score_breakdown": {
+        "discount_depth": 36,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-28T13:20:55.721839+00:00",
+      "last_seen": "2026-11-28T16:41:00.922430+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Bluetooth Speakers & Smart Speakers",
+        "sd_store": "Amazon",
+        "sd_brand": "Amazon",
+        "sd_hot_origin": false,
+        "sd_age_min": 220,
+        "sd_votes": 33,
+        "sd_velocity": 9.0,
+        "sd_fp_min": 19
+      },
+      "title_kr": "Amazon 2-Pack Amazon Echo Dot Speakers (5th…",
+      "id": "ffa63e8ceb",
+      "history": [
+        [
+          "2026-11-28",
+          55.0
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/nike-pacific-low-top-sneaker-women/8289606",
@@ -5531,74 +5606,6 @@
         [
           "2026-11-28",
           59.99
-        ]
-      ]
-    },
-    {
-      "source": "slickdeals:amazon.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20425764",
-      "title": "2-Pack Amazon Echo Dot Speakers (5th Gen, Charcoal) for $55 at Amazon",
-      "brand": "Amazon",
-      "category": "electronics",
-      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20425764&t=15",
-      "price_current": 55.0,
-      "price_list": 159.98,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 33,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 73430,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "email",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20425764",
-      "discount_pct": 65.6,
-      "score": 87,
-      "score_breakdown": {
-        "discount_depth": 36,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-28T13:20:55.721839+00:00",
-      "last_seen": "2026-11-28T16:22:46.210630+00:00",
-      "posted_at": "",
-      "signals": {
-        "sd_cat": "Bluetooth Speakers & Smart Speakers",
-        "sd_store": "Amazon",
-        "sd_brand": "Amazon",
-        "sd_hot_origin": false,
-        "sd_age_min": 201,
-        "sd_votes": 33,
-        "sd_velocity": 9.8,
-        "sd_fp_min": 19
-      },
-      "title_kr": "Amazon 2-Pack Amazon Echo Dot Speakers (5th…",
-      "id": "ffa63e8ceb",
-      "history": [
-        [
-          "2026-11-28",
-          55.0
         ]
       ]
     },
@@ -6488,7 +6495,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-27T16:22:08.806523+00:00",
-      "last_seen": "2026-11-28T10:31:32.145212+00:00",
+      "last_seen": "2026-11-28T16:41:01.047676+00:00",
       "posted_at": "2026-11-27T15:55:10+00:00",
       "signals": {
         "sd_feeds": [
@@ -7279,7 +7286,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-28T16:22:45.766017+00:00",
-      "last_seen": "2026-11-28T16:22:46.210630+00:00",
+      "last_seen": "2026-11-28T16:41:00.922430+00:00",
       "posted_at": "2026-11-28T16:15:36+00:00",
       "signals": {
         "sd_feeds": [
@@ -7289,7 +7296,7 @@
         "sd_store": "Urban Outfitters",
         "sd_brand": "UGG",
         "sd_hot_origin": true,
-        "sd_age_min": 7,
+        "sd_age_min": 25,
         "sd_votes": 0,
         "sd_velocity": 0.0
       },
@@ -8193,14 +8200,14 @@
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
         "code_deal": "공개코드 SAMSONITE15 → 하한 75",
-        "slickdeals": "Hot Deals 급상승 31표/96분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 31표/114분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-28T12:31:59.142530+00:00",
-      "last_seen": "2026-11-28T16:22:46.210630+00:00",
+      "last_seen": "2026-11-28T16:41:00.922430+00:00",
       "posted_at": "2026-11-28T14:47:12+00:00",
       "signals": {
         "sd_feeds": [
@@ -8211,9 +8218,9 @@
         "sd_brand": "Samsonite",
         "direct_url": "https://www.amazon.com/dp/B09H7LPV13",
         "sd_hot_origin": true,
-        "sd_age_min": 96,
+        "sd_age_min": 114,
         "sd_votes": 31,
-        "sd_velocity": 19.5,
+        "sd_velocity": 16.3,
         "sd_fp_min": 15
       },
       "title_kr": "샘소나이트 캐리어",
@@ -8272,7 +8279,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-27T22:41:45.023757+00:00",
-      "last_seen": "2026-11-28T12:11:23.930581+00:00",
+      "last_seen": "2026-11-28T16:41:01.047676+00:00",
       "posted_at": "2026-11-28T08:52:46+00:00",
       "signals": {
         "sd_feeds": [
@@ -9799,14 +9806,14 @@
         "bonus": 4,
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 급상승 34표/118분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 34표/136분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-28T09:25:01.299681+00:00",
-      "last_seen": "2026-11-28T16:22:46.210630+00:00",
+      "last_seen": "2026-11-28T16:41:00.922430+00:00",
       "posted_at": "2026-11-28T14:24:49+00:00",
       "signals": {
         "sd_feeds": [
@@ -9816,9 +9823,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Star Wars",
         "sd_hot_origin": true,
-        "sd_age_min": 118,
+        "sd_age_min": 136,
         "sd_votes": 34,
-        "sd_velocity": 17.3,
+        "sd_velocity": 15.0,
         "sd_fp_min": 37
       },
       "title_kr": "Star Wars The Black Series Imperial Stormtrooper Premium…",
@@ -13341,7 +13348,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-24T15:22:07.717453+00:00",
-      "last_seen": "2026-11-28T10:31:32.145212+00:00",
+      "last_seen": "2026-11-28T16:41:01.047676+00:00",
       "posted_at": "2026-11-25T08:54:47+00:00",
       "signals": {
         "sd_feeds": [
@@ -15297,16 +15304,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-28T06:41:05.166958+00:00",
-      "last_seen": "2026-11-28T16:22:46.210630+00:00",
+      "last_seen": "2026-11-28T16:41:00.922430+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Fans",
         "sd_store": "Woot!",
         "sd_brand": "dreame",
         "sd_hot_origin": false,
-        "sd_age_min": 587,
+        "sd_age_min": 605,
         "sd_votes": 42,
-        "sd_velocity": 4.3,
+        "sd_velocity": 4.2,
         "sd_fp_min": 5
       },
       "title_kr": "dreame 선풍기",
@@ -20989,7 +20996,7 @@
       "source": "slickdeals:amazon.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20428185",
-      "title": "Rockport Men's Get Your Kicks Slip-On Loafer (Various Sizes) $36.98  (외 1종)",
+      "title": "Rockport Men's Get Your Kicks Slip-On Loafer (Various Sizes) $36.98",
       "brand": "Rockport",
       "category": "sports_outdoor",
       "image": "https://static.slickdealscdn.com/attachment/3/2/8/3/7/2/3/1/300x300/22665120.thumb",
@@ -21031,7 +21038,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-28T16:22:45.766017+00:00",
-      "last_seen": "2026-11-28T16:22:46.210630+00:00",
+      "last_seen": "2026-11-28T16:41:00.922430+00:00",
       "posted_at": "2026-11-28T15:58:37+00:00",
       "signals": {
         "sd_feeds": [
@@ -21041,11 +21048,10 @@
         "sd_store": "Amazon",
         "sd_brand": "Rockport",
         "sd_hot_origin": true,
-        "sd_age_min": 24,
+        "sd_age_min": 42,
         "sd_votes": 2,
-        "sd_velocity": 5.0
+        "sd_velocity": 2.8
       },
-      "variant_count": 2,
       "title_kr": "락포트 남성용 로퍼",
       "id": "24678fd29b",
       "history": [
@@ -21102,14 +21108,14 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-27T18:02:44.807366+00:00",
-      "last_seen": "2026-11-28T16:22:46.210630+00:00",
+      "last_seen": "2026-11-28T16:41:00.922430+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Chargers & Power Banks",
         "sd_store": "Amazon",
         "sd_brand": "Baseus",
         "sd_hot_origin": true,
-        "sd_age_min": 1343,
+        "sd_age_min": 1361,
         "sd_votes": 40,
         "sd_velocity": 1.8,
         "sd_fp_min": 981
@@ -22248,68 +22254,6 @@
         [
           "2026-11-26",
           80.0
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/new-balance-kids-574-sneaker-toddler-little-kid/8563727",
-      "title": "Kids' 574 Sneaker",
-      "brand": "New Balance",
-      "category": "sports_outdoor",
-      "image": "https://n.nordstrommedia.com/it/4ba00d8d-e266-4b28-b412-dca1b5064690.jpeg?h=368&w=240&dpr=2",
-      "price_current": 17.97,
-      "price_list": 74.99,
-      "price_baseline": 74.99,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 24161,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/new-balance-kids-574-sneaker-toddler-little-kid/8563727",
-      "discount_pct": 76.0,
-      "score": 71,
-      "score_breakdown": {
-        "discount_depth": 35,
-        "price_history": null,
-        "category": 17,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "HOT",
-      "detected_at": "2026-11-25T08:03:01.790632+00:00",
-      "last_seen": "2026-11-26T16:33:06.900868+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "뉴발란스 아동용 스니커즈",
-      "id": "11f9afa3fd",
-      "history": [
-        [
-          "2026-11-25",
-          17.97
-        ],
-        [
-          "2026-11-26",
-          17.97
         ]
       ]
     },
@@ -23464,6 +23408,77 @@
       "title_kr": "Eddie Bauer 잠옷"
     },
     {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20427489",
+      "title": "SwissGear Sion Expandable Softside Spinner Luggage (Teal) $49 + Free S&H",
+      "brand": "SwissGear",
+      "category": "watch_misc",
+      "image": "https://static.slickdealscdn.com/attachment/1/7/2/2/9/6/4/300x300/22663167.thumb",
+      "price_current": 49.0,
+      "price_list": 130.0,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 32,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 65419,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20427489",
+      "discount_pct": 62.3,
+      "score": 69,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-28T16:22:45.766017+00:00",
+      "last_seen": "2026-11-28T16:41:00.922430+00:00",
+      "posted_at": "2026-11-28T15:02:28+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Luggage",
+        "sd_store": "Amazon",
+        "sd_brand": "SWISSGEAR",
+        "sd_hot_origin": false,
+        "sd_age_min": 99,
+        "sd_votes": 32,
+        "sd_velocity": 19.5,
+        "sd_fp_min": 80
+      },
+      "title_kr": "SwissGear 캐리어",
+      "id": "6e7b196f02",
+      "history": [
+        [
+          "2026-11-28",
+          49.0
+        ]
+      ]
+    },
+    {
       "source": "amazon.com",
       "source_tier": "T1",
       "url": "https://www.amazon.com/Levis-Womens-Seamed-Travertine-Regular/dp/B0FW76F8DY",
@@ -23969,7 +23984,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-28T16:22:45.766017+00:00",
-      "last_seen": "2026-11-28T16:22:46.210630+00:00",
+      "last_seen": "2026-11-28T16:41:00.922430+00:00",
       "posted_at": "2026-11-28T15:56:41+00:00",
       "signals": {
         "sd_feeds": [
@@ -23980,9 +23995,9 @@
         "sd_brand": "Razer",
         "direct_url": "https://www.amazon.com/dp/B094Q1GJSD",
         "sd_hot_origin": true,
-        "sd_age_min": 26,
+        "sd_age_min": 44,
         "sd_votes": 2,
-        "sd_velocity": 4.6
+        "sd_velocity": 2.7
       },
       "title_kr": "Razer 마우스",
       "id": "9464bf6a25",
@@ -25518,7 +25533,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-28T15:02:04.074609+00:00",
-      "last_seen": "2026-11-28T16:22:46.210630+00:00",
+      "last_seen": "2026-11-28T16:41:00.922430+00:00",
       "posted_at": "2026-11-28T14:46:56+00:00",
       "signals": {
         "sd_feeds": [
@@ -25527,9 +25542,9 @@
         "sd_cat": "",
         "sd_store": "Amazon",
         "sd_hot_origin": false,
-        "sd_age_min": 96,
+        "sd_age_min": 114,
         "sd_votes": 37,
-        "sd_velocity": 23.2,
+        "sd_velocity": 19.5,
         "sd_fp_min": 15
       },
       "title_kr": "LEGO 블록 세트",
@@ -27883,6 +27898,77 @@
     {
       "source": "slickdeals:amazon.com",
       "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20426967",
+      "title": "14\" Rachael Ray Cook+Create Oven Safe Nonstick Aluminum Frying Pan $25",
+      "brand": "Rachael Ray",
+      "category": "home",
+      "image": "https://static.slickdealscdn.com/attachment/2/9/8/1/5/7/1/1/300x300/22662012.thumb",
+      "price_current": 25.0,
+      "price_list": 54.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 31,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 33377,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20426967",
+      "discount_pct": 54.5,
+      "score": 62,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 8,
+        "bonus": 4,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-28T16:22:45.766017+00:00",
+      "last_seen": "2026-11-28T16:41:00.922430+00:00",
+      "posted_at": "2026-11-28T15:22:22+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Kitchenware & Cookware",
+        "sd_store": "Amazon",
+        "sd_brand": "Rachael Ray",
+        "sd_hot_origin": false,
+        "sd_age_min": 79,
+        "sd_votes": 31,
+        "sd_velocity": 23.7,
+        "sd_fp_min": 60
+      },
+      "title_kr": "Rachael Ray 프라이팬",
+      "id": "1899100ab0",
+      "history": [
+        [
+          "2026-11-28",
+          25.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
       "url": "https://slickdeals.net/f/20427114",
       "title": "195-Pc 4D Build Pokémon Bulbasaur 3D Model Kit $6.75",
       "brand": "Spin Master",
@@ -28733,7 +28819,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-25T11:31:56.690994+00:00",
-      "last_seen": "2026-11-28T10:31:32.145212+00:00",
+      "last_seen": "2026-11-28T16:41:01.047676+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Door Hardware & Locks",
@@ -34495,65 +34581,6 @@
     {
       "source": "dealnews",
       "source_tier": "T2",
-      "url": "https://www.dealnews.com/Swiss-Gear-Sion-Softside-Expandable-Spinner-Carry-On-Luggage-for-49-free-shipping/22443650.html?iref=rss",
-      "title": "SwissGear Sion Softside Expandable Spinner Carry-On Luggage for $49 + free shipping",
-      "brand": "SwissGear",
-      "category": "watch_misc",
-      "image": "https://d.dlnws.com/64599/1795881992-product-trimmed.jpg?h=250&w=194",
-      "price_current": 49.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 65419,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Swiss-Gear-Sion-Softside-Expandable-Spinner-Carry-On-Luggage-for-49-free-shipping/22443650.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-28T16:23:27.004257+00:00",
-      "last_seen": "2026-11-28T16:23:28.946314+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "SwissGear 캐리어",
-      "id": "e1ff5400d4",
-      "history": [
-        [
-          "2026-11-28",
-          49.0
-        ]
-      ]
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
       "url": "https://www.dealnews.com/HOKA-Black-Friday-Sale-Up-to-40-off-up-to-60-off-for-members-free-shipping/22443626.html?iref=rss",
       "title": "HOKA Black Friday Sale: Up to 40% off + up to $60 off for members + free shipping",
       "brand": "Hoka",
@@ -36003,7 +36030,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-27T16:22:08.806523+00:00",
-      "last_seen": "2026-11-28T10:31:32.145212+00:00",
+      "last_seen": "2026-11-28T16:41:01.047676+00:00",
       "posted_at": "2026-11-27T16:03:24+00:00",
       "signals": {
         "sd_feeds": [
@@ -37191,178 +37218,6 @@
         [
           "2026-11-26",
           120.0
-        ]
-      ]
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/HOKA-Shoes-Black-Friday-Deals-at-Sun-Ski-Sports-Up-to-33-off-free-shipping-w-75/22434395.html?iref=rss",
-      "title": "HOKA Shoes Black Friday Deals at Sun & Ski Sports: Up to 33% off + free shipping w/ $75",
-      "brand": "Hoka",
-      "category": "sports_outdoor",
-      "image": "https://d.dlnws.com/64599/1795709759-product-trimmed.jpg?h=113&w=250",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "premium",
-      "buy_url": "https://www.dealnews.com/HOKA-Shoes-Black-Friday-Deals-at-Sun-Ski-Sports-Up-to-33-off-free-shipping-w-75/22434395.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 12,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-26T16:33:04.508262+00:00",
-      "last_seen": "2026-11-26T16:33:06.900868+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "호카 운동화",
-      "id": "0b4fae90de",
-      "history": []
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Jan-Sport-34-L-15-Laptop-Big-Backpack-for-8-free-shipping-w-Prime/22434384.html?iref=rss",
-      "title": "JanSport 34L 15\" Laptop Big Backpack for $8 + free shipping w/ Prime",
-      "brand": "Jansport",
-      "category": "electronics",
-      "image": "https://d.dlnws.com/64599/1795709480-product-trimmed.jpg?h=250&w=165",
-      "price_current": 8.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 10756,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Jan-Sport-34-L-15-Laptop-Big-Backpack-for-8-free-shipping-w-Prime/22434384.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 15,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-26T16:33:04.833963+00:00",
-      "last_seen": "2026-11-26T16:33:06.900868+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "잔스포츠 백팩",
-      "id": "0e4056f4db",
-      "history": [
-        [
-          "2026-11-26",
-          8.0
-        ]
-      ]
-    },
-    {
-      "source": "dealnews",
-      "source_tier": "T2",
-      "url": "https://www.dealnews.com/Jan-Sport-Cortlandt-15-Laptop-Backpack-for-20-free-shipping-w-Prime/22434374.html?iref=rss",
-      "title": "JanSport Cortlandt 15\" Laptop Backpack for $20 + free shipping w/ Prime",
-      "brand": "Jansport",
-      "category": "electronics",
-      "image": "https://d.dlnws.com/64599/1795709208-product-trimmed.jpg?h=250&w=146",
-      "price_current": 20.0,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 26890,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.dealnews.com/Jan-Sport-Cortlandt-15-Laptop-Backpack-for-20-free-shipping-w-Prime/22434374.html?iref=rss",
-      "discount_pct": null,
-      "score": 55,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 15,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "curated": "DealNews 엄선 → 하한 55"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-26T16:33:04.833963+00:00",
-      "last_seen": "2026-11-26T16:33:06.900868+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "잔스포츠 백팩",
-      "id": "b37a48ce56",
-      "history": [
-        [
-          "2026-11-26",
-          20.0
         ]
       ]
     },
@@ -38577,7 +38432,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-26T03:41:39.157324+00:00",
-      "last_seen": "2026-11-28T10:31:32.145212+00:00",
+      "last_seen": "2026-11-28T16:41:01.047676+00:00",
       "posted_at": "2026-11-26T03:23:00+00:00",
       "signals": {
         "sd_feeds": [
@@ -40908,7 +40763,7 @@
   "fx_usd_krw": 1335.1,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-28T16:20:27+00:00",
+      "T1": "2026-11-28T16:40:32+00:00",
       "T2": "2026-11-28T16:23:18+00:00",
       "T3": "2026-11-28T16:05:47+00:00",
       "T4": "2026-11-28T11:41:21+00:00"
@@ -40942,14 +40797,15 @@
       5,
       12,
       1,
-      7
+      7,
+      10
     ],
     "naver": {
       "keys": false,
       "queried": 25,
       "matched": 0,
       "errors": 0,
-      "at": "2026-11-28T16:23:28+00:00"
+      "at": "2026-11-28T16:41:00+00:00"
     },
     "reddit": {
       "mode": "공개 검색(키 없음)",
@@ -40957,13 +40813,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-28T16:23:28+00:00"
+      "at": "2026-11-28T16:41:00+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-28T16:22:45+00:00",
+        "at": "2026-11-28T16:41:00+00:00",
         "state": "정상",
         "mails": 40,
         "deals": 40
@@ -40989,7 +40845,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-28T14:31:26+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20398230",
@@ -41004,7 +40860,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T14:22:00+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20409711",
@@ -41019,7 +40875,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T13:31:02+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20426703",
@@ -41034,7 +40890,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T13:20:57+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20425764",
@@ -41049,7 +40905,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T13:20:57+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20412045",
@@ -41064,7 +40920,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T11:51:47+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://www.asos.com",
@@ -41124,7 +40980,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-28T10:51:37+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20401629",
@@ -41139,7 +40995,7 @@
         "published": false,
         "reject_reason": "H8: 할인 19% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-28T10:30:54+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20359452",
@@ -41154,7 +41010,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T10:21:06+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20425749",
@@ -41169,7 +41025,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T09:41:10+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20418111",
@@ -41184,7 +41040,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T08:01:05+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20412420",
@@ -41199,7 +41055,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T06:41:05+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20414055",
@@ -41214,7 +41070,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Hand Tools)",
         "first_seen": "2026-11-28T06:31:11+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20403612",
@@ -41229,7 +41085,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T06:22:17+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20411286",
@@ -41244,7 +41100,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T06:10:55+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20403696",
@@ -41259,7 +41115,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T06:10:55+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20403831",
@@ -41274,7 +41130,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T06:01:08+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20384526",
@@ -41289,7 +41145,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Desktop Computers)",
         "first_seen": "2026-11-28T06:01:08+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20404284",
@@ -41304,7 +41160,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T06:01:08+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20416254",
@@ -41319,7 +41175,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T05:50:51+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20409090",
@@ -41334,7 +41190,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T05:50:51+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20410239",
@@ -41349,7 +41205,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-28T05:50:51+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20404884",
@@ -41364,7 +41220,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T05:50:51+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20409324",
@@ -41379,7 +41235,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T05:41:41+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20342589",
@@ -41394,7 +41250,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Pets)",
         "first_seen": "2026-11-28T05:41:41+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20410092",
@@ -41514,7 +41370,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T05:31:49+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20423256",
@@ -41529,7 +41385,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-28T05:01:53+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20424045",
@@ -41544,7 +41400,7 @@
         "published": false,
         "reject_reason": "H4: 품절",
         "first_seen": "2026-11-28T04:31:09+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20405463",
@@ -41604,7 +41460,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T03:01:14+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20420232",
@@ -41619,7 +41475,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T02:40:58+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20417148",
@@ -41634,7 +41490,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T02:40:58+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20403663",
@@ -41694,7 +41550,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-28T01:11:31+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20421294",
@@ -41709,7 +41565,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-28T01:11:31+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20407356",
@@ -41829,7 +41685,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T00:30:53+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20415738",
@@ -41844,7 +41700,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T00:01:52+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20420373",
@@ -41874,7 +41730,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-27T23:40:53+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://click.woot.com/f/a/wFXJPL4zYfY5jC6NSGwLlg~~/AAQRxRA~/yFxrEyaftzqakCBwGjfQhDAGWz3RnGSZ8phSmvErVO_UvBjJjYxv8TjHeuJ9EsLsNg22dQBwuyTGVeL67m6ul099hOtGYIsLsCddsRm4Y2cO49kvZb37ISB4utp-sPCwiV2xyOw76QHyOx09myV5AWSl0H-vfHhrZyQj1PS0vPqSx75qnMs3z22T_5zGeXO_0jiaXrh33EBvtYPp4lXnVNYo1YMzHS8MW3D75z8ejQoRi6i",
@@ -41979,7 +41835,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-27T22:01:37+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20413308",
@@ -41994,7 +41850,7 @@
         "published": false,
         "reject_reason": "H8: 할인 10% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-27T21:31:57+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20412693",
@@ -42069,7 +41925,7 @@
         "published": false,
         "reject_reason": "H4: 품절",
         "first_seen": "2026-11-27T19:31:32+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20408469",
@@ -42114,7 +41970,7 @@
         "published": false,
         "reject_reason": "H7: Apple 할인 0% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-27T18:02:45+00:00",
-        "last_seen": "2026-11-28T16:22:46+00:00"
+        "last_seen": "2026-11-28T16:41:01+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20411196",
