@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-28T13:51:29.552839+00:00",
-  "count": 583,
+  "generated_at": "2026-11-28T14:02:03.454380+00:00",
+  "count": 585,
   "deals": [
     {
       "source": "6pm.com",
@@ -2165,14 +2165,14 @@
         "bonus": 4,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 30표/22분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 30표/33분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-28T11:51:47.100414+00:00",
-      "last_seen": "2026-11-28T13:50:52.475134+00:00",
+      "last_seen": "2026-11-28T14:02:03.378287+00:00",
       "posted_at": "2026-11-28T13:29:06+00:00",
       "signals": {
         "sd_feeds": [
@@ -2183,9 +2183,9 @@
         "sd_brand": "SanDisk",
         "direct_url": "https://www.amazon.com/dp/B0DFQGVLYF",
         "sd_hot_origin": true,
-        "sd_age_min": 22,
+        "sd_age_min": 33,
         "sd_votes": 30,
-        "sd_velocity": 82.7,
+        "sd_velocity": 54.6,
         "sd_fp_min": 22
       },
       "title_kr": "SanDisk 마이크로SD 카드",
@@ -2238,14 +2238,14 @@
         "bonus": 4,
         "brand": 6,
         "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 26표/30분 → 하한 86",
+        "slickdeals": "Hot Deals 폭발 26표/41분 → 하한 86",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-28T08:42:10.938158+00:00",
-      "last_seen": "2026-11-28T13:50:52.475134+00:00",
+      "last_seen": "2026-11-28T14:02:03.378287+00:00",
       "posted_at": "2026-11-28T13:21:11+00:00",
       "signals": {
         "sd_feeds": [
@@ -2255,9 +2255,9 @@
         "sd_store": "Lenovo",
         "sd_brand": "Microsoft",
         "sd_hot_origin": true,
-        "sd_age_min": 30,
+        "sd_age_min": 41,
         "sd_votes": 26,
-        "sd_velocity": 52.6,
+        "sd_velocity": 38.2,
         "sd_fp_min": 30
       },
       "title_kr": "Microsoft 게임 컨트롤러",
@@ -2840,7 +2840,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-24T08:52:21.955001+00:00",
-      "last_seen": "2026-11-28T07:51:53.658875+00:00",
+      "last_seen": "2026-11-28T14:02:03.454380+00:00",
       "posted_at": "2026-11-27T21:13:44+00:00",
       "signals": {
         "sd_feeds": [
@@ -2993,7 +2993,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-24T06:22:11.505805+00:00",
-      "last_seen": "2026-11-28T07:51:53.658875+00:00",
+      "last_seen": "2026-11-28T14:02:03.454380+00:00",
       "posted_at": "2026-11-27T18:34:41+00:00",
       "signals": {
         "sd_feeds": [
@@ -5378,16 +5378,16 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-28T13:20:55.721839+00:00",
-      "last_seen": "2026-11-28T13:50:52.475134+00:00",
+      "last_seen": "2026-11-28T14:02:03.378287+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Bluetooth Speakers & Smart Speakers",
         "sd_store": "Amazon",
         "sd_brand": "Amazon",
         "sd_hot_origin": false,
-        "sd_age_min": 49,
+        "sd_age_min": 61,
         "sd_votes": 33,
-        "sd_velocity": 40.1,
+        "sd_velocity": 32.7,
         "sd_fp_min": 19
       },
       "title_kr": "Amazon 2-Pack Amazon Echo Dot Speakers (5th…",
@@ -5446,16 +5446,16 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-28T09:41:09.846095+00:00",
-      "last_seen": "2026-11-28T13:50:52.475134+00:00",
+      "last_seen": "2026-11-28T14:02:03.378287+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Bluetooth Speakers & Smart Speakers",
         "sd_store": "Amazon",
         "sd_brand": "Amazon",
         "sd_hot_origin": false,
-        "sd_age_min": 257,
+        "sd_age_min": 268,
         "sd_votes": 13,
-        "sd_velocity": 3.0,
+        "sd_velocity": 2.9,
         "sd_fp_min": 7
       },
       "title_kr": "Amazon Echo Dot Max Stereo Pair (2025,…",
@@ -5464,6 +5464,74 @@
         [
           "2026-11-28",
           80.0
+        ]
+      ]
+    },
+    {
+      "source": "slickdeals:samsung",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20412558",
+      "title": "Select Samsung EPP/EDU: 256GB Galaxy S26 Ultra Unlocked Smartphone + $300 Credit for $580 at Samsung",
+      "brand": "Samsung",
+      "category": "electronics",
+      "image": "https://slickdeals.net/forums/daImageHandler.php?threadId=20412558&t=15",
+      "price_current": 580.0,
+      "price_list": 1399.99,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 223,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 919931,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "email",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20412558",
+      "discount_pct": 58.6,
+      "score": 87,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 15,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-28T00:30:53.144157+00:00",
+      "last_seen": "2026-11-28T14:02:03.454380+00:00",
+      "posted_at": "",
+      "signals": {
+        "sd_cat": "Cell Phones",
+        "sd_store": "Samsung",
+        "sd_brand": "Samsung",
+        "sd_hot_origin": false,
+        "sd_age_min": 733,
+        "sd_votes": 223,
+        "sd_velocity": 18.3,
+        "sd_fp_min": 12
+      },
+      "title_kr": "삼성 Select Samsung 256GB Galaxy S26 Ultra…",
+      "id": "b3850e2825",
+      "history": [
+        [
+          "2026-11-28",
+          580.0
         ]
       ]
     },
@@ -6580,15 +6648,15 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-28T05:31:47.786196+00:00",
-      "last_seen": "2026-11-28T13:50:52.475134+00:00",
+      "last_seen": "2026-11-28T14:02:03.378287+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Tech & Electronics",
         "sd_store": "Amazon",
         "sd_hot_origin": false,
-        "sd_age_min": 507,
+        "sd_age_min": 518,
         "sd_votes": 43,
-        "sd_velocity": 5.1,
+        "sd_velocity": 5.0,
         "sd_fp_min": 8
       },
       "title_kr": "PVO Adjustable Starlink Mount for Standard…",
@@ -9476,7 +9544,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-24T12:02:30.504698+00:00",
-      "last_seen": "2026-11-28T07:51:53.658875+00:00",
+      "last_seen": "2026-11-28T14:02:03.454380+00:00",
       "posted_at": "2026-11-24T11:40:05+00:00",
       "signals": {
         "sd_feeds": [
@@ -9697,14 +9765,14 @@
         "brand": 0,
         "note": "가격이력 미축적 → 87점 척도 정규화",
         "community": "투표 47+할인57% → 하한 56",
-        "slickdeals": "Hot Deals 급상승 47표/157분 → 하한 74",
+        "slickdeals": "Hot Deals 급상승 47표/168분 → 하한 74",
         "frontpage": "+6"
       },
       "passed_hard_filter": true,
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-25T23:12:02.081407+00:00",
-      "last_seen": "2026-11-28T13:50:52.475134+00:00",
+      "last_seen": "2026-11-28T14:02:03.378287+00:00",
       "posted_at": "2026-11-28T11:14:12+00:00",
       "signals": {
         "sd_feeds": [
@@ -9714,9 +9782,9 @@
         "sd_store": "Amazon",
         "sd_brand": "McCormick",
         "sd_hot_origin": true,
-        "sd_age_min": 157,
+        "sd_age_min": 168,
         "sd_votes": 47,
-        "sd_velocity": 18.0,
+        "sd_velocity": 16.8,
         "sd_fp_min": 7
       },
       "title_kr": "McCormick 2.25-Oz McCormick Gourmet Collection Cajun Seasoning",
@@ -12258,7 +12326,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-23T23:51:41.710875+00:00",
-      "last_seen": "2026-11-28T07:51:53.658875+00:00",
+      "last_seen": "2026-11-28T14:02:03.454380+00:00",
       "posted_at": "2026-11-26T03:07:59+00:00",
       "signals": {
         "sd_feeds": [
@@ -14527,7 +14595,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-24T01:52:14.928117+00:00",
-      "last_seen": "2026-11-28T07:51:53.658875+00:00",
+      "last_seen": "2026-11-28T14:02:03.454380+00:00",
       "posted_at": "2026-11-24T13:20:40+00:00",
       "signals": {
         "sd_feeds": [
@@ -14978,16 +15046,16 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-28T06:41:05.166958+00:00",
-      "last_seen": "2026-11-28T13:50:52.475134+00:00",
+      "last_seen": "2026-11-28T14:02:03.378287+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Fans",
         "sd_store": "Woot!",
         "sd_brand": "dreame",
         "sd_hot_origin": false,
-        "sd_age_min": 435,
+        "sd_age_min": 446,
         "sd_votes": 42,
-        "sd_velocity": 5.8,
+        "sd_velocity": 5.7,
         "sd_fp_min": 5
       },
       "title_kr": "dreame 선풍기",
@@ -17452,7 +17520,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-24T19:12:13.664402+00:00",
-      "last_seen": "2026-11-28T07:51:53.658875+00:00",
+      "last_seen": "2026-11-28T14:02:03.454380+00:00",
       "posted_at": "2026-11-24T19:09:36+00:00",
       "signals": {
         "sd_feeds": [
@@ -17589,7 +17657,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-28T13:02:16.240828+00:00",
-      "last_seen": "2026-11-28T13:50:52.475134+00:00",
+      "last_seen": "2026-11-28T14:02:03.378287+00:00",
       "posted_at": "2026-11-28T12:45:02+00:00",
       "signals": {
         "sd_feeds": [
@@ -17599,9 +17667,9 @@
         "sd_store": "AliExpress",
         "sd_brand": "DJI",
         "sd_hot_origin": true,
-        "sd_age_min": 66,
+        "sd_age_min": 77,
         "sd_votes": 3,
-        "sd_velocity": 2.7
+        "sd_velocity": 2.3
       },
       "title_kr": "DJI 카메라",
       "id": "32839fffe8",
@@ -18966,7 +19034,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-28T11:01:30.519374+00:00",
-      "last_seen": "2026-11-28T13:50:52.475134+00:00",
+      "last_seen": "2026-11-28T14:02:03.378287+00:00",
       "posted_at": "2026-11-28T10:40:17+00:00",
       "signals": {
         "sd_feeds": [
@@ -18976,9 +19044,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Garmin",
         "sd_hot_origin": false,
-        "sd_age_min": 191,
+        "sd_age_min": 202,
         "sd_votes": 45,
-        "sd_velocity": 14.2,
+        "sd_velocity": 13.4,
         "sd_fp_min": 21
       },
       "title_kr": "가민 스마트워치",
@@ -20843,14 +20911,14 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-27T18:02:44.807366+00:00",
-      "last_seen": "2026-11-28T13:50:52.475134+00:00",
+      "last_seen": "2026-11-28T14:02:03.378287+00:00",
       "posted_at": "",
       "signals": {
         "sd_cat": "Chargers & Power Banks",
         "sd_store": "Amazon",
         "sd_brand": "Baseus",
         "sd_hot_origin": true,
-        "sd_age_min": 1191,
+        "sd_age_min": 1202,
         "sd_votes": 40,
         "sd_velocity": 2.0,
         "sd_fp_min": 981
@@ -24179,7 +24247,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-24T01:52:14.928117+00:00",
-      "last_seen": "2026-11-28T07:51:53.658875+00:00",
+      "last_seen": "2026-11-28T14:02:03.454380+00:00",
       "posted_at": "2026-11-24T01:36:44+00:00",
       "signals": {
         "sd_feeds": [
@@ -25384,7 +25452,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-28T07:51:52.316049+00:00",
-      "last_seen": "2026-11-28T10:51:37.356592+00:00",
+      "last_seen": "2026-11-28T14:02:03.454380+00:00",
       "posted_at": "2026-11-28T07:27:34+00:00",
       "signals": {
         "sd_feeds": [
@@ -26218,7 +26286,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-24T06:22:11.505805+00:00",
-      "last_seen": "2026-11-28T07:51:53.658875+00:00",
+      "last_seen": "2026-11-28T14:02:03.454380+00:00",
       "posted_at": "2026-11-24T06:15:54+00:00",
       "signals": {
         "sd_feeds": [
@@ -26287,7 +26355,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-24T01:52:14.928117+00:00",
-      "last_seen": "2026-11-28T07:51:53.658875+00:00",
+      "last_seen": "2026-11-28T14:02:03.454380+00:00",
       "posted_at": "2026-11-24T01:38:44+00:00",
       "signals": {
         "sd_feeds": [
@@ -26356,7 +26424,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-28T13:02:16.240828+00:00",
-      "last_seen": "2026-11-28T13:50:52.475134+00:00",
+      "last_seen": "2026-11-28T14:02:03.378287+00:00",
       "posted_at": "2026-11-28T12:50:03+00:00",
       "signals": {
         "sd_feeds": [
@@ -26367,9 +26435,9 @@
         "sd_brand": "Rachael Ray",
         "direct_url": "https://www.amazon.com/dp/B00MVX3PME",
         "sd_hot_origin": true,
-        "sd_age_min": 61,
+        "sd_age_min": 72,
         "sd_votes": 1,
-        "sd_velocity": 1.0
+        "sd_velocity": 0.8
       },
       "title_kr": "Rachael Ray 냄비 세트",
       "id": "8ef29bde7f",
@@ -26426,7 +26494,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-28T13:02:16.240828+00:00",
-      "last_seen": "2026-11-28T13:50:52.475134+00:00",
+      "last_seen": "2026-11-28T14:02:03.378287+00:00",
       "posted_at": "2026-11-28T12:40:30+00:00",
       "signals": {
         "sd_feeds": [
@@ -26437,9 +26505,9 @@
         "sd_brand": "Rachael Ray",
         "direct_url": "https://www.amazon.com/dp/B07RW7ZY6Y",
         "sd_hot_origin": true,
-        "sd_age_min": 70,
+        "sd_age_min": 82,
         "sd_votes": 2,
-        "sd_velocity": 1.7
+        "sd_velocity": 1.5
       },
       "title_kr": "Rachael Ray 냄비 세트",
       "id": "baef62f49e",
@@ -26496,7 +26564,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-28T13:02:16.240828+00:00",
-      "last_seen": "2026-11-28T13:50:52.475134+00:00",
+      "last_seen": "2026-11-28T14:02:03.378287+00:00",
       "posted_at": "2026-11-28T12:26:58+00:00",
       "signals": {
         "sd_feeds": [
@@ -26507,9 +26575,9 @@
         "sd_brand": "Costway",
         "direct_url": "https://www.walmart.com/ip/944892844",
         "sd_hot_origin": true,
-        "sd_age_min": 84,
+        "sd_age_min": 95,
         "sd_votes": 1,
-        "sd_velocity": 0.7
+        "sd_velocity": 0.6
       },
       "title_kr": "Costway 5Ft PVC Artificial Pencil Christmas Tree…",
       "id": "8f7432501b",
@@ -28818,7 +28886,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-28T12:21:33.869072+00:00",
-      "last_seen": "2026-11-28T13:50:52.475134+00:00",
+      "last_seen": "2026-11-28T14:02:03.378287+00:00",
       "posted_at": "2026-11-28T11:50:45+00:00",
       "signals": {
         "sd_feeds": [
@@ -28828,9 +28896,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Onkyo",
         "sd_hot_origin": false,
-        "sd_age_min": 120,
+        "sd_age_min": 131,
         "sd_votes": 35,
-        "sd_velocity": 17.5,
+        "sd_velocity": 16.0,
         "sd_fp_min": 31
       },
       "title_kr": "Onkyo Creator Series GX-30ARC Powered Speakers (Black…",
@@ -30477,6 +30545,68 @@
       "title_kr": "Instant Pot 10oz. Instant Pot 4-In-1 Hot &…"
     },
     {
+      "source": "amazon.com",
+      "source_tier": "T1",
+      "url": "https://www.amazon.com/NOCO-GB40-UltraSafe-Lithium-Starter/dp/B015TKUPIC",
+      "title": "NOCO Boost GB40 12V 1000A UltraSafe Portable Lithium Jump Starter | Spark-Proof & Reverse Polarity Protection, For Car, ",
+      "brand": "Diesel",
+      "category": "etc",
+      "image": "https://m.media-amazon.com/images/I/71hJgp07X1L._AC_SR255,340_.jpg",
+      "price_current": 49.98,
+      "price_list": 99.95,
+      "price_baseline": 99.95,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 66728,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.amazon.com/NOCO-GB40-UltraSafe-Lithium-Starter/dp/B015TKUPIC",
+      "discount_pct": 50.0,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 5,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-27T10:01:09.689924+00:00",
+      "last_seen": "2026-11-28T14:02:03.378287+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "디젤 점프스타터",
+      "id": "7eae37c1b5",
+      "history": [
+        [
+          "2026-11-27",
+          49.98
+        ],
+        [
+          "2026-11-28",
+          49.98
+        ]
+      ]
+    },
+    {
       "source": "nordstromrack.com",
       "source_tier": "T2",
       "url": "https://www.nordstromrack.com/s/levis-501-curve-high-waist-straight-leg-jeans-play-on-ref/8170260",
@@ -30535,68 +30665,6 @@
         [
           "2026-11-28",
           35.98
-        ]
-      ]
-    },
-    {
-      "source": "amazon.com",
-      "source_tier": "T1",
-      "url": "https://www.amazon.com/NOCO-GB40-UltraSafe-Lithium-Starter/dp/B015TKUPIC",
-      "title": "NOCO Boost GB40 12V 1000A UltraSafe Portable Lithium Jump Starter | Spark-Proof & Reverse Polarity Protection, For Car, ",
-      "brand": "Diesel",
-      "category": "etc",
-      "image": "https://m.media-amazon.com/images/I/71hJgp07X1L._AC_SR255,340_.jpg",
-      "price_current": 49.98,
-      "price_list": 99.95,
-      "price_baseline": 99.95,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 66728,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.amazon.com/NOCO-GB40-UltraSafe-Lithium-Starter/dp/B015TKUPIC",
-      "discount_pct": 50.0,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 30,
-        "price_history": null,
-        "category": 5,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-27T10:01:09.689924+00:00",
-      "last_seen": "2026-11-28T13:40:50.308964+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "디젤 점프스타터",
-      "id": "7eae37c1b5",
-      "history": [
-        [
-          "2026-11-27",
-          49.98
-        ],
-        [
-          "2026-11-28",
-          49.98
         ]
       ]
     },
@@ -32653,7 +32721,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-24T19:12:13.664402+00:00",
-      "last_seen": "2026-11-28T07:51:53.658875+00:00",
+      "last_seen": "2026-11-28T14:02:03.454380+00:00",
       "posted_at": "2026-11-24T18:59:26+00:00",
       "signals": {
         "sd_feeds": [
@@ -33284,6 +33352,77 @@
         ]
       ],
       "title_kr": "온러닝 남성용 운동화"
+    },
+    {
+      "source": "slickdeals:amazon.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20426655",
+      "title": "NOCO Boost GB40 12V 1000A UltraSafe Portable Lithium Jump Starter $50 + Free S&H",
+      "brand": "BOOST",
+      "category": "etc",
+      "image": "https://static.slickdealscdn.com/attachment/1/1/7/1/5/2/7/300x300/22661457.thumb",
+      "price_current": 50.0,
+      "price_list": 99.95,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 28,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 66755,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "",
+      "buy_url": "https://slickdeals.net/f/20426655",
+      "discount_pct": 50.0,
+      "score": 58,
+      "score_breakdown": {
+        "discount_depth": 30,
+        "price_history": null,
+        "category": 5,
+        "bonus": 4,
+        "brand": 0,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-28T13:50:51.985631+00:00",
+      "last_seen": "2026-11-28T14:02:03.378287+00:00",
+      "posted_at": "2026-11-28T13:21:59+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Jump Starter",
+        "sd_store": "Amazon",
+        "sd_brand": "BOOST",
+        "sd_hot_origin": false,
+        "sd_age_min": 40,
+        "sd_votes": 28,
+        "sd_velocity": 41.9,
+        "sd_fp_min": 29
+      },
+      "title_kr": "BOOST 점프스타터",
+      "id": "2650878a70",
+      "history": [
+        [
+          "2026-11-28",
+          50.0
+        ]
+      ]
     },
     {
       "source": "slickdeals:amazon.com",
@@ -40573,7 +40712,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-28T11:21:06.965742+00:00",
-      "last_seen": "2026-11-28T13:50:52.475134+00:00",
+      "last_seen": "2026-11-28T14:02:03.378287+00:00",
       "posted_at": "2026-11-28T11:08:40+00:00",
       "signals": {
         "sd_feeds": [
@@ -40583,9 +40722,9 @@
         "sd_store": "Amazon",
         "sd_brand": "Nothing",
         "sd_hot_origin": false,
-        "sd_age_min": 162,
+        "sd_age_min": 173,
         "sd_votes": 37,
-        "sd_velocity": 13.7,
+        "sd_velocity": 12.8,
         "sd_fp_min": 12
       },
       "title_kr": "Nothing 무선 이어폰",
@@ -40814,13 +40953,12 @@
   "fx_usd_krw": 1335.1,
   "pipeline": {
     "tier_last_run": {
-      "T1": "2026-11-28T13:50:30+00:00",
+      "T1": "2026-11-28T14:00:42+00:00",
       "T2": "2026-11-28T13:41:25+00:00",
       "T3": "2026-11-28T11:51:52+00:00",
       "T4": "2026-11-28T11:41:21+00:00"
     },
     "recent_gaps_min": [
-      11,
       9,
       10,
       1,
@@ -40849,14 +40987,15 @@
       9,
       1,
       9,
-      1
+      1,
+      11
     ],
     "naver": {
       "keys": false,
       "queried": 25,
       "matched": 0,
       "errors": 0,
-      "at": "2026-11-28T13:50:52+00:00"
+      "at": "2026-11-28T14:02:03+00:00"
     },
     "reddit": {
       "mode": "공개 검색(키 없음)",
@@ -40864,13 +41003,13 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-28T13:50:52+00:00"
+      "at": "2026-11-28T14:02:03+00:00"
     }
   },
   "email_monitor": {
     "status": {
       "sd_alert": {
-        "at": "2026-11-28T13:50:51+00:00",
+        "at": "2026-11-28T14:02:02+00:00",
         "state": "정상",
         "mails": 40,
         "deals": 40
@@ -40896,7 +41035,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T13:31:02+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20426703",
@@ -40911,7 +41050,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T13:20:57+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20425764",
@@ -40926,7 +41065,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T13:20:57+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20412045",
@@ -40941,7 +41080,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T11:51:47+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://www.asos.com",
@@ -41001,7 +41140,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-28T10:51:37+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20401629",
@@ -41016,7 +41155,7 @@
         "published": false,
         "reject_reason": "H8: 할인 19% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-28T10:30:54+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20359452",
@@ -41031,7 +41170,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T10:21:06+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20425749",
@@ -41046,7 +41185,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T09:41:10+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20418111",
@@ -41061,7 +41200,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T08:01:05+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20412420",
@@ -41076,7 +41215,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T06:41:05+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20414055",
@@ -41091,7 +41230,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Hand Tools)",
         "first_seen": "2026-11-28T06:31:11+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20403612",
@@ -41106,7 +41245,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T06:22:17+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20411286",
@@ -41121,7 +41260,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T06:10:55+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20403696",
@@ -41136,7 +41275,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T06:10:55+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20403831",
@@ -41151,7 +41290,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T06:01:08+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20384526",
@@ -41166,7 +41305,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Desktop Computers)",
         "first_seen": "2026-11-28T06:01:08+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20404284",
@@ -41181,7 +41320,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T06:01:08+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20416254",
@@ -41196,7 +41335,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T05:50:51+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20409090",
@@ -41211,7 +41350,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T05:50:51+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20410239",
@@ -41226,7 +41365,7 @@
         "published": false,
         "reject_reason": "",
         "first_seen": "2026-11-28T05:50:51+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20404884",
@@ -41241,7 +41380,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T05:50:51+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20409324",
@@ -41256,7 +41395,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T05:41:41+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20342589",
@@ -41271,7 +41410,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Pets)",
         "first_seen": "2026-11-28T05:41:41+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20410092",
@@ -41286,7 +41425,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T05:41:41+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20402358",
@@ -41391,7 +41530,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T05:31:49+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20423256",
@@ -41406,7 +41545,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-28T05:01:53+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20424045",
@@ -41421,7 +41560,7 @@
         "published": false,
         "reject_reason": "H4: 품절",
         "first_seen": "2026-11-28T04:31:09+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20405463",
@@ -41481,7 +41620,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T03:01:14+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20420232",
@@ -41496,7 +41635,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T02:40:58+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20417148",
@@ -41511,7 +41650,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T02:40:58+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20403663",
@@ -41571,7 +41710,7 @@
         "published": false,
         "reject_reason": "H7: 무명 브랜드(미상) — 의류·잡화는 유명 브랜드만",
         "first_seen": "2026-11-28T01:11:31+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20421294",
@@ -41586,7 +41725,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-28T01:11:31+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20407356",
@@ -41706,7 +41845,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T00:30:53+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20415738",
@@ -41721,7 +41860,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-28T00:01:52+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20420373",
@@ -41751,7 +41890,7 @@
         "published": true,
         "reject_reason": "",
         "first_seen": "2026-11-27T23:40:53+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://click.woot.com/f/a/wFXJPL4zYfY5jC6NSGwLlg~~/AAQRxRA~/yFxrEyaftzqakCBwGjfQhDAGWz3RnGSZ8phSmvErVO_UvBjJjYxv8TjHeuJ9EsLsNg22dQBwuyTGVeL67m6ul099hOtGYIsLsCddsRm4Y2cO49kvZb37ISB4utp-sPCwiV2xyOw76QHyOx09myV5AWSl0H-vfHhrZyQj1PS0vPqSx75qnMs3z22T_5zGeXO_0jiaXrh33EBvtYPp4lXnVNYo1YMzHS8MW3D75z8ejQoRi6i",
@@ -41856,7 +41995,7 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Security Cameras)",
         "first_seen": "2026-11-27T22:01:37+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20413308",
@@ -41871,7 +42010,7 @@
         "published": false,
         "reject_reason": "H8: 할인 10% < 25% (허접 할인 제외)",
         "first_seen": "2026-11-27T21:31:57+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20412693",
@@ -41942,11 +42081,11 @@
         "discount_pct": 50.0,
         "krw": 66755,
         "kr_lowest": null,
-        "score": 82,
-        "published": true,
-        "reject_reason": "",
+        "score": 0,
+        "published": false,
+        "reject_reason": "H4: 품절",
         "first_seen": "2026-11-27T19:31:32+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20408469",
@@ -41991,7 +42130,7 @@
         "published": false,
         "reject_reason": "H7: Apple 할인 0% < 40% (유명 브랜드 최소 할인)",
         "first_seen": "2026-11-27T18:02:45+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       },
       {
         "url": "https://slickdeals.net/f/20411196",
@@ -42081,12 +42220,12 @@
         "published": false,
         "reject_reason": "H9: 직구 큐레이션 제외 카테고리(Laptops)",
         "first_seen": "2026-11-27T16:31:02+00:00",
-        "last_seen": "2026-11-28T13:50:53+00:00"
+        "last_seen": "2026-11-28T14:02:03+00:00"
       }
     ],
     "totals": {
       "collected_72h": 80,
-      "published_72h": 48
+      "published_72h": 47
     }
   }
 }
