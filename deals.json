@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-28T06:01:08.766180+00:00",
-  "count": 573,
+  "generated_at": "2026-11-28T06:01:37.297446+00:00",
+  "count": 574,
   "deals": [
     {
       "source": "6pm.com",
@@ -228,7 +228,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-28T00:01:47.297564+00:00",
-      "last_seen": "2026-11-28T00:40:45.365090+00:00",
+      "last_seen": "2026-11-28T06:01:37.297446+00:00",
       "posted_at": "2026-11-27T23:06:25+00:00",
       "signals": {
         "sd_feeds": [
@@ -655,7 +655,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-28T00:01:47.297564+00:00",
-      "last_seen": "2026-11-28T00:40:45.365090+00:00",
+      "last_seen": "2026-11-28T06:01:37.297446+00:00",
       "posted_at": "2026-11-27T23:01:32+00:00",
       "signals": {
         "sd_feeds": [
@@ -761,6 +761,71 @@
         [
           "2026-11-28",
           8.0
+        ]
+      ]
+    },
+    {
+      "source": "zappos.com",
+      "source_tier": "T2",
+      "url": "https://www.zappos.com/product/10055681",
+      "title": "Amara Toe Cap Sling Pumps",
+      "brand": "Michael Kors",
+      "category": "premium_fashion",
+      "image": "https://m.media-amazon.com/images/I/51nm5TwtxIL._AC_SR255,340_.jpg",
+      "price_current": 41.85,
+      "price_list": 139.5,
+      "price_baseline": 139.5,
+      "price_alltime_low": 41.85,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 55874,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "premium",
+      "buy_url": "https://www.zappos.com/product/10055681",
+      "discount_pct": 70.0,
+      "score": 96,
+      "score_breakdown": {
+        "discount_depth": 35,
+        "price_history": 25,
+        "category": 20,
+        "bonus": 4,
+        "brand": 12
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-19T19:41:32.668177+00:00",
+      "last_seen": "2026-11-28T06:01:36.185149+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "마이클 코어스 펌프스",
+      "id": "84ac26f524",
+      "history": [
+        [
+          "2026-11-19",
+          41.85
+        ],
+        [
+          "2026-11-20",
+          41.85
+        ],
+        [
+          "2026-11-28",
+          41.85
         ]
       ]
     },
@@ -2201,6 +2266,74 @@
       "title_kr": "삼성 무선 이어폰"
     },
     {
+      "source": "slickdeals:adidas.com",
+      "source_tier": "T1",
+      "url": "https://slickdeals.net/f/20355708",
+      "title": "adidas Black Friday Sale Up to 60% Off + Extra 15% Off + Free S&H  (외 1종)",
+      "brand": "Adidas",
+      "category": "sports_outdoor",
+      "image": "https://static.slickdealscdn.com/attachment/3/6/9/5/2/8/300x300/22571352.thumb",
+      "price_current": null,
+      "price_list": null,
+      "price_baseline": null,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": 128,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": null,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "rss",
+      "frontpage": true,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://slickdeals.net/f/20355708",
+      "discount_pct": null,
+      "score": 92,
+      "score_breakdown": {
+        "discount_depth": 0,
+        "price_history": null,
+        "category": 17,
+        "bonus": 0,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화",
+        "slickdeals": "Hot Deals 폭발 128표/111분 → 하한 86",
+        "frontpage": "+6"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "FLASH",
+      "detected_at": "2026-11-24T23:20:44.293085+00:00",
+      "last_seen": "2026-11-28T00:52:52.907702+00:00",
+      "posted_at": "2026-11-24T21:31:26+00:00",
+      "signals": {
+        "sd_feeds": [
+          "frontpage"
+        ],
+        "sd_cat": "Clothing & Accessories",
+        "sd_store": "adidas",
+        "sd_brand": "adidas",
+        "sd_hot_origin": true,
+        "sd_age_min": 111,
+        "sd_votes": 128,
+        "sd_velocity": 69.5,
+        "sd_fp_min": -5800
+      },
+      "id": "149b68be81",
+      "history": [],
+      "variant_count": 2,
+      "title_kr": "아디다스 Black Friday Sale Up to 60%…"
+    },
+    {
       "source": "slickdeals:walmart.com",
       "source_tier": "T1",
       "url": "https://slickdeals.net/f/20411061",
@@ -2352,74 +2485,6 @@
           58.5
         ]
       ]
-    },
-    {
-      "source": "slickdeals:adidas.com",
-      "source_tier": "T1",
-      "url": "https://slickdeals.net/f/20355708",
-      "title": "adidas Black Friday Sale Up to 60% Off + Extra 15% Off + Free S&H  (외 1종)",
-      "brand": "Adidas",
-      "category": "sports_outdoor",
-      "image": "https://static.slickdealscdn.com/attachment/3/6/9/5/2/8/300x300/22571352.thumb",
-      "price_current": null,
-      "price_list": null,
-      "price_baseline": null,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": 128,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": null,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "rss",
-      "frontpage": true,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://slickdeals.net/f/20355708",
-      "discount_pct": null,
-      "score": 92,
-      "score_breakdown": {
-        "discount_depth": 0,
-        "price_history": null,
-        "category": 17,
-        "bonus": 0,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화",
-        "slickdeals": "Hot Deals 폭발 128표/111분 → 하한 86",
-        "frontpage": "+6"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "FLASH",
-      "detected_at": "2026-11-24T23:20:44.293085+00:00",
-      "last_seen": "2026-11-28T00:52:52.907702+00:00",
-      "posted_at": "2026-11-24T21:31:26+00:00",
-      "signals": {
-        "sd_feeds": [
-          "frontpage"
-        ],
-        "sd_cat": "Clothing & Accessories",
-        "sd_store": "adidas",
-        "sd_brand": "adidas",
-        "sd_hot_origin": true,
-        "sd_age_min": 111,
-        "sd_votes": 128,
-        "sd_velocity": 69.5,
-        "sd_fp_min": -5800
-      },
-      "id": "149b68be81",
-      "history": [],
-      "variant_count": 2,
-      "title_kr": "아디다스 Black Friday Sale Up to 60%…"
     },
     {
       "source": "slickdeals:slickdeals.net",
@@ -4590,7 +4655,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-19T08:41:23.407247+00:00",
-      "last_seen": "2026-11-28T05:21:40.404886+00:00",
+      "last_seen": "2026-11-28T06:01:36.185149+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "프리피플 맥시 원피스",
@@ -4683,7 +4748,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-19T08:41:23.407247+00:00",
-      "last_seen": "2026-11-28T05:21:40.404886+00:00",
+      "last_seen": "2026-11-28T06:01:36.185149+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "나이키 폴로셔츠",
@@ -5287,7 +5352,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-19T21:41:23.210533+00:00",
-      "last_seen": "2026-11-28T05:21:40.404886+00:00",
+      "last_seen": "2026-11-28T06:01:36.185149+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "나이키 스니커즈",
@@ -5381,7 +5446,7 @@
       "reject_reason": "",
       "urgency": "FLASH",
       "detected_at": "2026-11-27T21:11:23.981418+00:00",
-      "last_seen": "2026-11-28T05:21:40.404886+00:00",
+      "last_seen": "2026-11-28T06:01:36.185149+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "올세인츠 첼시부츠",
@@ -21841,7 +21906,7 @@
       "reject_reason": "",
       "urgency": "HOT",
       "detected_at": "2026-11-28T00:01:47.297564+00:00",
-      "last_seen": "2026-11-28T01:20:56.351803+00:00",
+      "last_seen": "2026-11-28T06:01:37.297446+00:00",
       "posted_at": "2026-11-27T23:32:36+00:00",
       "signals": {
         "sd_feeds": [
@@ -29358,6 +29423,68 @@
       "title_kr": "Instant Pot 10oz. Instant Pot 4-In-1 Hot &…"
     },
     {
+      "source": "nordstromrack.com",
+      "source_tier": "T2",
+      "url": "https://www.nordstromrack.com/s/levis-501-curve-high-waist-straight-leg-jeans-play-on-ref/8170260",
+      "title": "501® Curve High Waist Straight Leg Jeans",
+      "brand": "Levis",
+      "category": "premium_fashion",
+      "image": "https://n.nordstrommedia.com/it/d063889e-7146-4eca-be9c-b2304109af57.jpeg?h=368&w=240&dpr=2",
+      "price_current": 35.98,
+      "price_list": 84.95,
+      "price_baseline": 84.95,
+      "price_alltime_low": null,
+      "currency": "USD",
+      "coupon_code": "",
+      "coupon_stackable": false,
+      "off_season": false,
+      "free_gift": false,
+      "community_votes": null,
+      "rating": null,
+      "review_count": null,
+      "ships_to_kr": true,
+      "forwarding_ok": true,
+      "krw_effective": 48037,
+      "kr_lowest_price": null,
+      "stock_status": "in_stock",
+      "is_refurbished": false,
+      "expires_at": null,
+      "collection_method": "scrape",
+      "frontpage": false,
+      "code_kind": "",
+      "brand_tier": "known",
+      "buy_url": "https://www.nordstromrack.com/s/levis-501-curve-high-waist-straight-leg-jeans-play-on-ref/8170260",
+      "discount_pct": 57.6,
+      "score": 60,
+      "score_breakdown": {
+        "discount_depth": 26,
+        "price_history": null,
+        "category": 16,
+        "bonus": 4,
+        "brand": 6,
+        "note": "가격이력 미축적 → 87점 척도 정규화"
+      },
+      "passed_hard_filter": true,
+      "reject_reason": "",
+      "urgency": "STEADY",
+      "detected_at": "2026-11-27T21:11:23.981418+00:00",
+      "last_seen": "2026-11-28T06:01:36.185149+00:00",
+      "posted_at": "",
+      "signals": {},
+      "title_kr": "리바이스 청바지",
+      "id": "de339fed58",
+      "history": [
+        [
+          "2026-11-27",
+          35.98
+        ],
+        [
+          "2026-11-28",
+          35.98
+        ]
+      ]
+    },
+    {
       "source": "amazon.com",
       "source_tier": "T1",
       "url": "https://www.amazon.com/NOCO-GB40-UltraSafe-Lithium-Starter/dp/B015TKUPIC",
@@ -29485,68 +29612,6 @@
         [
           "2026-11-28",
           1.18
-        ]
-      ]
-    },
-    {
-      "source": "nordstromrack.com",
-      "source_tier": "T2",
-      "url": "https://www.nordstromrack.com/s/levis-501-curve-high-waist-straight-leg-jeans-play-on-ref/8170260",
-      "title": "501® Curve High Waist Straight Leg Jeans",
-      "brand": "Levis",
-      "category": "premium_fashion",
-      "image": "https://n.nordstrommedia.com/it/d063889e-7146-4eca-be9c-b2304109af57.jpeg?h=368&w=240&dpr=2",
-      "price_current": 35.98,
-      "price_list": 84.95,
-      "price_baseline": 84.95,
-      "price_alltime_low": null,
-      "currency": "USD",
-      "coupon_code": "",
-      "coupon_stackable": false,
-      "off_season": false,
-      "free_gift": false,
-      "community_votes": null,
-      "rating": null,
-      "review_count": null,
-      "ships_to_kr": true,
-      "forwarding_ok": true,
-      "krw_effective": 48037,
-      "kr_lowest_price": null,
-      "stock_status": "in_stock",
-      "is_refurbished": false,
-      "expires_at": null,
-      "collection_method": "scrape",
-      "frontpage": false,
-      "code_kind": "",
-      "brand_tier": "known",
-      "buy_url": "https://www.nordstromrack.com/s/levis-501-curve-high-waist-straight-leg-jeans-play-on-ref/8170260",
-      "discount_pct": 57.6,
-      "score": 60,
-      "score_breakdown": {
-        "discount_depth": 26,
-        "price_history": null,
-        "category": 16,
-        "bonus": 4,
-        "brand": 6,
-        "note": "가격이력 미축적 → 87점 척도 정규화"
-      },
-      "passed_hard_filter": true,
-      "reject_reason": "",
-      "urgency": "STEADY",
-      "detected_at": "2026-11-27T21:11:23.981418+00:00",
-      "last_seen": "2026-11-28T05:21:40.404886+00:00",
-      "posted_at": "",
-      "signals": {},
-      "title_kr": "리바이스 청바지",
-      "id": "de339fed58",
-      "history": [
-        [
-          "2026-11-27",
-          35.98
-        ],
-        [
-          "2026-11-28",
-          35.98
         ]
       ]
     },
@@ -33066,7 +33131,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-28T03:31:32.308275+00:00",
-      "last_seen": "2026-11-28T05:21:40.404886+00:00",
+      "last_seen": "2026-11-28T06:01:36.185149+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "파슬 남성용 시계",
@@ -33125,7 +33190,7 @@
       "reject_reason": "",
       "urgency": "STEADY",
       "detected_at": "2026-11-27T11:21:25.855811+00:00",
-      "last_seen": "2026-11-28T05:21:40.404886+00:00",
+      "last_seen": "2026-11-28T06:01:36.185149+00:00",
       "posted_at": "",
       "signals": {},
       "title_kr": "칼하트 Men's Rubber C-Grip Glove",
@@ -39906,12 +39971,11 @@
   "pipeline": {
     "tier_last_run": {
       "T1": "2026-11-28T06:00:51+00:00",
-      "T2": "2026-11-28T05:21:28+00:00",
+      "T2": "2026-11-28T06:01:22+00:00",
       "T3": "2026-11-28T05:32:08+00:00",
       "T4": "2026-11-28T05:32:39+00:00"
     },
     "recent_gaps_min": [
-      10,
       1,
       9,
       11,
@@ -39947,7 +40011,7 @@
       "queried": 25,
       "matched": 0,
       "errors": 0,
-      "at": "2026-11-28T06:01:08+00:00"
+      "at": "2026-11-28T06:01:35+00:00"
     },
     "reddit": {
       "mode": "공개 검색(키 없음)",
@@ -39955,7 +40019,7 @@
       "found": 0,
       "errors": 1,
       "last_error": "HTTPError 403",
-      "at": "2026-11-28T06:01:08+00:00"
+      "at": "2026-11-28T06:01:36+00:00"
     }
   },
   "email_monitor": {
